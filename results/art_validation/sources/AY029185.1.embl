@@ -1,0 +1,75 @@
+ID   AY029185   standard; genomic DNA; PHG; 1132 BP.
+XX
+AC   AY029185;
+XX
+SV   AY029185.1
+XX
+DT   08-JUN-2001 (Rel. 68, Created)
+DT   12-MAY-2002 (Rel. 71, Last updated, Version 2)
+XX
+DE   Bordetella phage BPP-1 repressor protein cI (cI) gene, complete cds.
+XX
+KW   .
+XX
+OS   Bordetella phage BPP-1
+OC   Viruses; dsDNA viruses, no RNA stage; Caudovirales; Podoviridae.
+XX
+RN   [1]
+RP   1-1132
+RA   Liu M., Martinez de Tejada G., Bruhn K.W., Cotter P.A., Miller J.F.;
+RT   "Generalized transduction in Bordetella bronchiseptica and Bordetella
+RT   pertussis";
+RL   Unpublished.
+XX
+RN   [2]
+RP   1-1132
+RA   Liu M., Miller J.F.;
+RT   ;
+RL   Submitted (02-APR-2001) to the EMBL/GenBank/DDBJ databases.
+RL   Department of Microbiology, Immunology and Molecular Genetics, UCLA School
+RL   of Medicine, 10833 Le Conte Ave., 43-316 CHS, Los Angeles, CA 90095, USA
+XX
+DR   GOA; Q94MM0.
+DR   SPTREMBL; Q94MM0; Q94MM0.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..1132
+FT                   /db_xref="taxon:194699"
+FT                   /mol_type="genomic DNA"
+FT                   /organism="Bordetella phage BPP-1"
+FT   CDS             85..756
+FT                   /codon_start=1
+FT                   /db_xref="GOA:Q94MM0"
+FT                   /db_xref="SPTREMBL:Q94MM0"
+FT                   /transl_table=11
+FT                   /gene="cI"
+FT                   /product="repressor protein cI"
+FT                   /protein_id="AAK40284.1"
+FT                   /translation="MTTLAQNINYLFRVRGENATSIAEKVGISQPTLHRIQKGINQRPS
+FT                   GETLRKLADYFGVTVDDLLTRDLSTGLPAEAIARANVREGPNIRGLVPLLTSVQAGEWC
+FT                   EIAGTFQRDDAKVWLPCPVKHGPRTFCLTVEGESMKNPGARPSYEPGDVIFVDPDVAAK
+FT                   PGDRVVARLESQVAATFKQYLEEDGRKLLKALNPDWQPRYIPINGDATICGVVIGKWVP
+FT                   E"
+XX
+SQ   Sequence 1132 BP; 236 A; 352 C; 343 G; 201 T; 0 other;
+     cggaatgcgt caacgcatta tatgcctagg cgcataaaat ggaatagcct tgaataaaac        60
+     catgcgttaa cgtatatttc cccgatgacc acgcttgcgc aaaacatcaa ctacctgttc       120
+     cgtgtccggg gcgaaaacgc gacttcgata gccgagaaag tcggcatatc ccagccgaca       180
+     ctgcaccgga tacagaaggg catcaatcag cgccccagtg gggaaacgct acgcaagctg       240
+     gcggactact tcggcgtgac ggtggacgat ctgctcacgc gcgacctgtc cacgggcttg       300
+     ccggccgagg caatcgcgcg ggccaacgtg cgcgaaggcc cgaacatcag gggcctggtg       360
+     ccgctgctca cctcggtgca ggccggcgag tggtgcgaga tagcggggac ttttcagcgc       420
+     gacgacgcta aggtatggtt gccttgtccg gtgaagcacg ggccgcgcac gttctgcctg       480
+     acggtcgagg gcgaaagcat gaagaacccc ggcgcgcggc ccagctacga gccgggcgac       540
+     gtgatattcg ttgaccccga cgtggcagcg aagcctggcg accgcgtggt ggcccggctg       600
+     gaatcccagg tcgcggcgac attcaagcag tacctggaag aagacggccg gaagctgctc       660
+     aaggcgttga accccgactg gcaaccgcgc tatatcccca tcaacggcga cgccacgatc       720
+     tgcggcgtgg tcatcggaaa gtgggtgcct gaatgatgat ctactacctg acataccttg       780
+     ccgccggcgt gctgctgggc ctcgctgtgt tgccgtggaa acagcgcctc ggttcgcggg       840
+     aaggcgtgct cctttggctg ctcgcctggg cctgcttctg gccctacctg ctgctttacg       900
+     cagcgtggca gggcctcaag gcataccgtg ccgcttggtg ggcctacacc ggccacaagc       960
+     accagtaact gctgcagcac cgcctgacca gcccgccgcg cgcgggcttt ttcacgccta      1020
+     aaaatatgcg ctgacgcatt gacatgggca aattcctttc cgcataatgc gcctacgcat      1080
+     ttaacgaaag gcgaagccca tgaacctgcg caccctcacc gacgaagaat tc              1132
+//

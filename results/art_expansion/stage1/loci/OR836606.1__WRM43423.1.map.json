@@ -1,0 +1,32 @@
+{
+  "segments": [
+    {
+      "source_start0": 67310,
+      "source_end0": 80813,
+      "locus_start0": 0,
+      "locus_end0": 13503,
+      "orientation": -1
+    }
+  ],
+  "metadata": {
+    "strand": -1,
+    "length_nt": 13503,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 6000,
+    "downstream_available_nt": 6000,
+    "upstream_shortfall_nt": 0,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": false,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 0,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_accession": "OR836606.1",
+  "source_path": "datasetss/LY01/LY01_OR836606.1.gb",
+  "source_sha256": "c2cda7052555a27dee940add0669282868a16d0065e6964f7afcf11cf2559d3a"
+}

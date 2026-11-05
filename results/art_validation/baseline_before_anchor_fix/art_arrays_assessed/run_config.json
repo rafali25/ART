@@ -1,0 +1,61 @@
+{
+  "search": {
+    "initial_window_nt": 3000,
+    "extended_window_nt": 6000,
+    "initial_seed_nt": 14,
+    "initial_top_seeds": 20,
+    "initial_max_mismatches": 2,
+    "initial_start_spacing_nt": [
+      100,
+      450
+    ],
+    "initial_spacing_tolerance": 0.3,
+    "initial_shuffles": 100,
+    "minimum_assessable_upstream_nt": 1500,
+    "refinement_seed_nt": 10,
+    "refinement_max_mismatches": 1,
+    "refinement_base_spacing_nt": [
+      60,
+      600
+    ],
+    "refinement_spacing_tolerance": 0.3,
+    "allow_single_missing_copy": true,
+    "maximum_missing_copies_per_chain": 1,
+    "minimum_copies_for_main_call": 3,
+    "estimate_repeat_boundaries": true,
+    "boundary_flank_nt": 80,
+    "boundary_consensus_fraction": 0.8,
+    "boundary_allowed_lapses": 1,
+    "observed_repeat_length_nt": [
+      15,
+      49
+    ],
+    "observed_spacer_length_nt": [
+      120,
+      220
+    ],
+    "enforce_observed_ranges_as_filters": false,
+    "shuffle_block_nt": 50,
+    "initial_refinement_shuffles": 200,
+    "borderline_refinement_shuffles": 2000,
+    "borderline_score_ratio": 2.0,
+    "pwm_shuffles": 200,
+    "pwm_pseudocount_per_base": 0.5,
+    "adjacency_gene_min_nt": 300,
+    "random_seed": 20261019,
+    "workers": 4
+  },
+  "assessment": {
+    "local_inference_shuffles_per_window": 1000,
+    "dinucleotide_shuffles_per_window": 1000,
+    "familywise_alpha": 0.05,
+    "multiple_testing_method": "bonferroni_across_all_input_loci",
+    "minimum_main_copies": 3,
+    "exploratory_two_copy_per_locus": 2,
+    "low_complexity_entropy_bits": 1.2,
+    "low_complexity_homopolymer_nt": 6,
+    "short_period_max_nt": 59,
+    "workers": 4,
+    "random_seed": 20261020
+  }
+}

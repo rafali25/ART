@@ -1,0 +1,32 @@
+{
+  "source_accession": "SRR26805139_340",
+  "source_path": "results/art_type1_public/archive_leads/SRR26805139_340.current_verified.gb",
+  "source_sha256": "2704ad688e4fa815a493f5731d02fda100dd9e6d05707f31bf4b16fcf379ba3b",
+  "segments": [
+    {
+      "source_start0": 0,
+      "source_end0": 8642,
+      "locus_start0": 0,
+      "locus_end0": 8642,
+      "orientation": 1
+    }
+  ],
+  "metadata": {
+    "strand": 1,
+    "length_nt": 8642,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 233,
+    "downstream_available_nt": 6585,
+    "upstream_shortfall_nt": 5767,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": true,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 5767,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  }
+}

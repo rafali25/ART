@@ -1,0 +1,34 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+audit_1a56585eefd80737208d -            274 Type_II_partner      -            274  5.1e-174  576.9  52.9   1   1  5.7e-174  5.7e-174  576.7  52.9     1   274     1   274     1   274 1.00 MZ779063.1 pyrodigal_gv pgv115
+audit_9bf1b9266e8baea1e07a -            274 Type_II_partner      -            274  5.1e-174  576.9  52.9   1   1  5.7e-174  5.7e-174  576.7  52.9     1   274     1   274     1   274 1.00 MZ779063.1 source_annotation UAJ17041.1
+audit_3e255d32d9ebd02840c9 -            276 Type_II_partner      -            274  5.3e-174  576.9  52.9   1   1  5.9e-174  5.9e-174  576.7  52.9     1   274     3   276     3   276 1.00 MZ779063.1 six_frame code11_orf488
+audit_143e8c726b09ccca308a -            274 Type_II_partner      -            274  1.1e-173  575.8  52.4   1   1  1.3e-173  1.3e-173  575.6  52.4     1   274     1   274     1   274 1.00 LC680885.1 source_annotation BDE75685.1
+audit_18ffb447e9cb1f9015ab -            274 Type_II_partner      -            274  1.1e-173  575.8  52.4   1   1  1.3e-173  1.3e-173  575.6  52.4     1   274     1   274     1   274 1.00 LC680885.1 pyrodigal_gv pgv146
+audit_d5c4fe5b201392693c9e -            276 Type_II_partner      -            274  1.2e-173  575.7  52.4   1   1  1.3e-173  1.3e-173  575.6  52.4     1   274     3   276     3   276 1.00 LC680885.1 six_frame code11_orf146
+audit_409b71686a2978b3f68c -            274 Type_II_partner      -            274  1.9e-173  575.0  51.2   1   1  2.1e-173  2.1e-173  574.9  51.2     1   274     1   274     1   274 1.00 MN091626.1 source_annotation QDJ97641.1
+audit_f3d7bffeefd80125d59b -            274 Type_II_partner      -            274  1.9e-173  575.0  51.2   1   1  2.1e-173  2.1e-173  574.9  51.2     1   274     1   274     1   274 1.00 MN091626.1 pyrodigal_gv pgv16
+audit_02bba0414b3768600334 -            276 Type_II_partner      -            274  1.9e-173  575.0  51.2   1   1  2.2e-173  2.2e-173  574.8  51.2     1   274     3   276     3   276 1.00 MN091626.1 six_frame code11_orf11
+audit_858b43dd51da00dd274a -            274 Type_II_partner      -            274  2.6e-167  554.9  52.5   1   1  2.9e-167  2.9e-167  554.7  52.5     1   274     1   274     1   274 1.00 MW349129.1 pyrodigal_gv pgv206
+audit_f5bb3c604761846ad32e -            274 Type_II_partner      -            274  2.6e-167  554.9  52.5   1   1  2.9e-167  2.9e-167  554.7  52.5     1   274     1   274     1   274 1.00 MW349129.1 source_annotation QQO92859.1
+audit_4c4252f9520a07d1ffae -            276 Type_II_partner      -            274  2.7e-167  554.9  52.5   1   1    3e-167    3e-167  554.7  52.5     1   274     3   276     3   276 1.00 MW349129.1 six_frame code11_orf221
+audit_5e63c8dde49eecfe5411 -            274 Type_II_partner      -            274  2.1e-166  551.9  53.1   1   1  2.3e-166  2.3e-166  551.8  53.1     1   274     1   274     1   274 1.00 OR836606.1 pyrodigal_gv pgv92
+audit_a73e676362653ea2621c -            274 Type_II_partner      -            274  2.1e-166  551.9  53.1   1   1  2.3e-166  2.3e-166  551.8  53.1     1   274     1   274     1   274 1.00 OR836606.1 source_annotation WRM43422.1
+audit_e54d89fb0f75e89c45cc -            276 Type_II_partner      -            274  2.1e-166  551.9  53.1   1   1  2.4e-166  2.4e-166  551.7  53.1     1   274     3   276     3   276 1.00 OR836606.1 six_frame code11_orf1287
+audit_7b61051c6548e84ebf9d -            274 Type_II_partner      -            274  2.7e-163  541.7  52.5   1   1  3.1e-163  3.1e-163  541.6  52.5     1   274     1   274     1   274 1.00 MW248466.1 pyrodigal_gv pgv207
+audit_f1c6d9debe4443f3624c -            274 Type_II_partner      -            274  2.7e-163  541.7  52.5   1   1  3.1e-163  3.1e-163  541.6  52.5     1   274     1   274     1   274 1.00 MW248466.1 source_annotation QQM14741.1
+audit_a6c799364cd8b61cbfea -            276 Type_II_partner      -            274  2.8e-163  541.7  52.5   1   1  3.1e-163  3.1e-163  541.5  52.5     1   274     3   276     3   276 1.00 MW248466.1 six_frame code11_orf379
+audit_361c1233e48613346167 -            265 Type_II_partner      -            274   4.7e-55  186.8  35.3   1   1   5.4e-55   5.4e-55  186.6  35.3     1   274     1   264     1   264 0.94 MW218148.1 pyrodigal_gv pgv8
+audit_d793edef853b3bc8fec1 -            265 Type_II_partner      -            274   4.7e-55  186.8  35.3   1   1   5.4e-55   5.4e-55  186.6  35.3     1   274     1   264     1   264 0.94 MW218148.1 source_annotation QPI16927.1
+audit_b8743780c942513502d6 -            267 Type_II_partner      -            274   4.8e-55  186.7  35.3   1   1   5.5e-55   5.5e-55  186.5  35.3     1   274     3   266     3   266 0.94 MW218148.1 six_frame code11_orf11
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\Type_II_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\Type_II_partner.domtbl -E 0.001 --domE 0.001 -Z 15471 --domZ 15471 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_II_partner.hmm D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 13:53:20 2026
+# [ok]

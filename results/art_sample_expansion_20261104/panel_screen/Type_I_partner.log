@@ -1,0 +1,103 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/Type_I_partner.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_I_partner  [M=481]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+          0 1122.3  55.2          0 1122.1  55.2    1.0  1  MZ422438.1__source404  original_source_CDS
+    1.6e-39  136.1  34.7    1.6e-39  136.1  34.7    2.5  1  MZ422438.1__source408  original_source_CDS
+
+
+Domain annotation for each sequence (and alignments):
+>> MZ422438.1__source404  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1122.1  55.2         0         0       1     481 []       1     481 []       1     481 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1122.1 bits;  conditional E-value: 0
+         Type_I_partner   1 mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnn 88 
+                            mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnn
+  MZ422438.1__source404   1 MKKLKNNNVLYEEYIASLYKDVLSLSQIDSEIYNEIKIIEKLHQLNIGIGASITDFKLEHEILFLHDKFGKKRMYKMIKLIKDWYNNN 88 
+                            9*************************************************************************************** PP
+
+         Type_I_partner  89 ldnklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslsk 176
+                            ldnklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslsk
+  MZ422438.1__source404  89 LDNKLEPELFDIQFVKYKKKNGLYRMFNLFSYEQLMNILNKCVVNNISIHRFVSEFPNKVTNKYITNKKVNSNYIDEAYNFLQSSLSK 176
+                            **************************************************************************************** PP
+
+         Type_I_partner 177 ynndkfikllpfmnyevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpngla 264
+                            ynndkfikllpfmnyevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpngla
+  MZ422438.1__source404 177 YNNDKFIKLLPFMNYEVIRKSDLNYKEMNKYINNVLLARAGTKYNVSESKMNISNNHSNKFIYFSKDVDEIMNIGVKTKCCFTPNGLA 264
+                            **************************************************************************************** PP
+
+         Type_I_partner 265 aplvkislenplagiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndin 352
+                            aplvkislenplagiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndin
+  MZ422438.1__source404 265 APLVKISLENPLAGILTGYMGKKIWFSFVWEIGIFNQETKTIDICLIMDNIESNQLLNNNDFSIISDWITNNTHYKKIFLGYLRNDIN 352
+                            **************************************************************************************** PP
+
+         Type_I_partner 353 rtiledkcyfdrphtlinsehkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiar 440
+                            rtiledkcyfdrphtlinsehkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiar
+  MZ422438.1__source404 353 RTILEDKCYFDRPHTLINSEHKFSSYNYDDSEKIYELDIIPDYDDTLYIQEERDIGWIMRSLYYKYYDIKLNTFLEKGEKVNKLFIAR 440
+                            **************************************************************************************** PP
+
+         Type_I_partner 441 nscqifslifldnddniittlegkyykelsnilkegselvg 481
+                            nscqifslifldnddniittlegkyykelsnilkegselvg
+  MZ422438.1__source404 441 NSCQIFSLIFLDNDDNIITTLEGKYYKELSNILKEGSELVG 481
+                            ****************************************8 PP
+
+>> MZ422438.1__source408  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.1  34.7   1.4e-43   1.6e-39     113     401 ..     191     469 ..     112     542 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 136.1 bits;  conditional E-value: 1.4e-43
+         Type_I_partner 113 rmfnlfsyeqlmnilnkc.vvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdl 199
+                            +++n++sy       nk    n+i +h f+ +fp+   ++       +  yid    +++     y+   f+kll ++ny+ +r+s  
+  MZ422438.1__source408 191 KLLNFVSYA-----YNKGnSENKIDLHNFIENFPKTAIERL----DDDETYIDTILAYIKR---IYKSKDFLKLLNYINYQGVRESK- 265
+                            233333332.....244414588***********8776554....55679***99999875...689999**************996. PP
+
+         Type_I_partner 200 nykemnkyinnvllaragtky.nvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgk 286
+                            n  ++ ky+n +  a+ g  y + s+ +m   + + n +i f+k+  +i  ig +t ccf p+g a  l+k ++e p+agil g +  
+  MZ422438.1__source408 266 NISDLRKYVNIIDNAKKGLSYgETSNGEMLFDDSKYNDMIKFTKEKVDINSIGFRTLCCFRPDGAAKSLLKPAIESPIAGILEGVFDT 353
+                            99******************9558999************************************************************* PP
+
+         Type_I_partner 287 kiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled..kcyfdrphtlinse 372
+                            k wfsfvwei  +n++tk+ +  li+dnies + l+ n++  i +w+  n+ y+ki+lgylrndin        +        li  e
+  MZ422438.1__source408 354 KTWFSFVWEIVEYNEDTKSYETNLILDNIESSKSLDMNEYEYIINWLDINSDYNKIYLGYLRNDINSNYKVSytQRLRSSSEGLICYE 441
+                            *****************************************************************987654400334455678***** PP
+
+         Type_I_partner 373 hkfssyn.yddsekiyeldiipdyddtlyi 401
+                             +f+ y  +dds  ++   ++   ++  yi
+  MZ422438.1__source408 442 NNFNRYSsFDDSRYVFT--VLDRKNNIKYI 469
+                            ****9954899987664..44444444444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (481 nodes)
+Target sequences:                      22472  (5215979 residues searched)
+Passed MSV filter:                      2278  (0.101371); expected 449.4 (0.02)
+Passed bias filter:                      214  (0.00952296); expected 449.4 (0.02)
+Passed Vit filter:                        16  (0.000711997); expected 22.5 (0.001)
+Passed Fwd filter:                         2  (8.89996e-05); expected 0.2 (1e-05)
+Initial search space (Z):              22472  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.12u 0.01s 00:00:00.13 Elapsed: 00:00:00.03
+# Mc/sec: 67532.03
+//
+[ok]

@@ -1,0 +1,50 @@
+{
+  "audit_date": "2026-10-19",
+  "outcome": "verified_type_III_seeds_not_retrieved_from_checked_sources",
+  "original_publication_doi": "10.64898/2026.10.05.755809",
+  "publication_versions_returned": [
+    "1"
+  ],
+  "paper_type_III_labels": [
+    "ART_30",
+    "ART_31",
+    "ART_32 (L10)"
+  ],
+  "figure_evidence": "Supplementary Figure 3, PDF p.17; dark-purple type III labels visually inspected.",
+  "original_profile_seed_counts": {
+    "Type_III_first_partner": 8,
+    "Type_III_second_partner": 6
+  },
+  "original_census_loci_per_family": 10,
+  "method_evidence": "Database-wide occurrence of partner families, PDF p.37 and archived bioRxiv full text.",
+  "original_sequence_accession_mapping_retrieved": false,
+  "original_type_III_FASTA_or_HMM_retrieved": false,
+  "related_deposit_doi": "10.5281/zenodo.23086637",
+  "related_deposit_title": "Alignment depth and the structure prediction of partner proteins of phage reverse transcriptases: data for checking the reported results",
+  "related_deposit_core_sha256": "209cc85515f320400104f73889bf584364b4d1da4e0061c369e2471d980f9541",
+  "related_deposit_scope": "Metadata, README, checksums, core archive file inventory, sequence catalogue and small text tables. Large structure/alignment archives were not downloaded.",
+  "related_LPJP1_partners": [
+    {
+      "accession": "QXN67954.1",
+      "role": "target partner (Type I) of RT1"
+    },
+    {
+      "accession": "QXN67952.1",
+      "role": "target partner (Type I) of RT2"
+    }
+  ],
+  "related_core_explicit_type_III_catalogue_entries": 0,
+  "related_code_repository": "https://github.com/agent-next/art-discovery-repro",
+  "related_code_commit": "9b4a37fd54064b844b03e48bf209c0a8a6ee89f3",
+  "acquired_verified_type_III_sequences": 0,
+  "profiles_built": {
+    "Type_III_first_partner": false,
+    "Type_III_second_partner": false
+  },
+  "required_inputs": [
+    "Public contig/protein accession mapping for ART_30, ART_31 and ART_32/L10",
+    "Separate FASTA alignments/sequences or HMMs for the first and second type III partner families",
+    "Genomic coordinates and order to verify partner-family assignments"
+  ],
+  "limits": "This is an audit of the listed sources, not proof that no type III sequence exists elsewhere. An inaccessible source is not evidence of data absence. Neither size nor helical structure identifies these families."
+}

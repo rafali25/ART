@@ -1,0 +1,23 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=run_accession%3D%22SRR8266637%22+OR+run_accession%3D%22SRR8925772%22+OR+run_accession%3D%22SRR8925777%22+OR+run_accession%3D%22SRR9971390%22&fields=run_accession%2Cstudy_accession%2Csample_accession%2Cscientific_name%2Cexperiment_title&format=tsv&limit=1000",
+  "retrieved_utc": "2026-11-04T21:44:40.868859+00:00",
+  "bytes": 580,
+  "sha256": "f05d96adb1724ea8dd59b5d9240fd692e73422a60be2e3f29b1e772cab35e627",
+  "md5": "99fbffb66aa2c9f969a197371acf4942",
+  "status": 200,
+  "headers": {
+    "Vary": "Origin",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Type": "text/plain",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "Date": "Wed, 04 Nov 2026 21:44:40 GMT",
+    "Expires": "0",
+    "X-XSS-Protection": "0",
+    "Pragma": "no-cache",
+    "X-Content-Type-Options": "nosniff",
+    "Connection": "close",
+    "X-Frame-Options": "DENY",
+    "Content-Length": "580"
+  },
+  "response_url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=run_accession%3D%22SRR8266637%22+OR+run_accession%3D%22SRR8925772%22+OR+run_accession%3D%22SRR8925777%22+OR+run_accession%3D%22SRR9971390%22&fields=run_accession%2Cstudy_accession%2Csample_accession%2Cscientific_name%2Cexperiment_title&format=tsv&limit=1000"
+}

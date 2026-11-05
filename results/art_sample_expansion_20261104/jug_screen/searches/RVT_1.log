@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/proteins.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/searches/RVT_1.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/searches/RVT_1.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    69120
+# domain search space set to:      69120
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RVT_1  [M=200]
+Accession:   PF00078.33
+Description: Reverse transcriptase (RNA-dependent DNA polymerase)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (200 nodes)
+Target sequences:                      69120  (15480714 residues searched)
+Passed MSV filter:                      3535  (0.0511429); expected 1382.4 (0.02)
+Passed bias filter:                     2264  (0.0327546); expected 1382.4 (0.02)
+Passed Vit filter:                       154  (0.00222801); expected 69.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.7 (1e-05)
+Initial search space (Z):              69120  [as set by --Z on cmdline]
+Domain search space  (domZ):           69120  [as set by --domZ on cmdline]
+# CPU time: 0.26u 0.00s 00:00:00.26 Elapsed: 00:00:00.15
+# Mc/sec: 19399.91
+//
+[ok]

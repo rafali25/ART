@@ -1,0 +1,133 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/Type_I_two_seed_exploratory.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       typeI_two_LPJP1_queries.aligned  [M=697]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+          0 1278.3  77.3          0 1278.2  77.3    1.0  1  MZ422438.1__source408  original_source_CDS
+   7.8e-249  827.8  55.3   1.1e-248  827.4  55.3    1.1  1  MZ422438.1__source404  original_source_CDS
+
+
+Domain annotation for each sequence (and alignments):
+>> MZ422438.1__source408  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1278.2  77.3         0         0       1     697 []       1     661 []       1     661 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1278.2 bits;  conditional E-value: 0
+  typeI_two_LPJP1_queries.aligned   1 mkknylnelneifsnfldycskfnytldnsdllqvinnitslhdigrfrvippefllinseeltsaliylaalyksqk 78 
+                                      m+knylnelneifsnfldycskfnyt+dnsdllqvinnitslhdigrfrvippefllinse+ltsaliyl+aly+sqk
+            MZ422438.1__source408   1 MMKNYLNELNEIFSNFLDYCSKFNYTMDNSDLLQVINNITSLHDIGRFRVIPPEFLLINSERLTSALIYLSALYNSQK 78 
+                                      9***************************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned  79 kainimklmlscedsilsdrinkyefnmdleilskldselrseiklveklkqlkigigasitdfklehevlfltdkis 156
+                                      kainimklmlscedsilsdrinkyefnmdlei++kl+++lrs+i+lve++kqlk              +v+++td+is
+            MZ422438.1__source408  79 KAINIMKLMLSCEDSILSDRINKYEFNMDLEITNKLNNDLRSNINLVEPVKQLK--------------DVYQITDLIS 142
+                                      ******************************************************..............********** PP
+
+  typeI_two_LPJP1_queries.aligned 157 kkrlykniklikdkytsnldnklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynkgnsenkidl 234
+                                      +++l++n+k++kdkytsn         f+is+lkek++ny+skl+sllirisy+++tklln+v++aynkgnsenkidl
+            MZ422438.1__source408 143 ESHLGINPKMFKDKYTSN---------FTISNLKEKNSNYGSKLNSLLIRISYDNATKLLNFVSYAYNKGNSENKIDL 211
+                                      ******************.........*************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 235 hrfveefPkkviekliddkkvnstyideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlak 312
+                                      h+f+e+fPk++ie+l+dd+    tyid+ilay+kri   yks+dflkllnyiny++vr+s+ ni++lrkyvni+d+ak
+            MZ422438.1__source408 212 HNFIENFPKTAIERLDDDE----TYIDTILAYIKRI---YKSKDFLKLLNYINYQGVRESK-NISDLRKYVNIIDNAK 281
+                                      *******************....*************...**********************.**************** PP
+
+  typeI_two_LPJP1_queries.aligned 313 kGlkygevseskmliddsksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsf 390
+                                      kGl+yge+s+++ml+ddsk+nd+ikf+kekv+insiG++t+ccfrPdG+aksllk+a+esP+aGileGv+d+k+wfsf
+            MZ422438.1__source408 282 KGLSYGETSNGEMLFDDSKYNDMIKFTKEKVDINSIGFRTLCCFRPDGAAKSLLKPAIESPIAGILEGVFDTKTWFSF 359
+                                      ****************************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 391 vweiviyneetksieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqrdrsssegl 468
+                                      vweiv+yne+tks+e+nlildniessk+ld+neye+ii+wldinsdy+kiylGylrndin+++kv++tqr+rsssegl
+            MZ422438.1__source408 360 VWEIVEYNEDTKSYETNLILDNIESSKSLDMNEYEYIINWLDINSDYNKIYLGYLRNDINSNYKVSYTQRLRSSSEGL 437
+                                      ****************************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 469 insenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdlek 546
+                                      i++en+f+ryss+dds++v+++ldrknnikyigsdnkdiik+y++yseviieka++Gw+nr+lyv+k+v+k+dsd+++
+            MZ422438.1__source408 438 ICYENNFNRYSSFDDSRYVFTVLDRKNNIKYIGSDNKDIIKKYSPYSEVIIEKASPGWFNRMLYVEKNVWKQDSDISE 515
+                                      ****************************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 547 lkkvnklfiarksksisslirldnddiygylistleGydpenesvqfnnrsfntdthskllyiedivikyykklssil 624
+                                      lkk     iark+ks+s++ir+dn+diygylis+++Gydpenesvqfnnrsfntdthskllyiedivi+++kk++s++
+            MZ422438.1__source408 516 LKK-----IARKMKSPSYIIRNDNNDIYGYLISNIYGYDPENESVQFNNRSFNTDTHSKLLYIEDIVIPFNKKITSSI 588
+                                      ***.....********************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 625 kyifedlkkfiidndikyisssfnenskqfmkrinieGlelvkdtrfndrtslktsrpesvnikedakiiinl 697
+                                      kyifedlkkfiidndikyisssfnenskqfmkrini+Gle++kdtrfndrtslktsrpesvnikedakiiinl
+            MZ422438.1__source408 589 KYIFEDLKKFIIDNDIKYISSSFNENSKQFMKRINIDGLEFIKDTRFNDRTSLKTSRPESVNIKEDAKIIINL 661
+                                      ***********************************************************************97 PP
+
+>> MZ422438.1__source404  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  827.4  55.3  9.4e-253  1.1e-248     105     584 ..      19     464 ..       5     477 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 827.4 bits;  conditional E-value: 9.4e-253
+  typeI_two_LPJP1_queries.aligned 105 nmdleilskldselrseiklveklkqlkigigasitdfklehevlfltdkiskkrlykniklikdkytsnldnklepe 182
+                                        d+++ls++dse+++eik++ekl+ql+igigasitdfklehe+lfl+dk++kkr+yk+iklikd+y++nldnklepe
+            MZ422438.1__source404  19 YKDVLSLSQIDSEIYNEIKIIEKLHQLNIGIGASITDFKLEHEILFLHDKFGKKRMYKMIKLIKDWYNNNLDNKLEPE 96 
+                                      57**************************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 183 lfdisflkekkknylsklfsllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyi 260
+                                      lfdi+f+k+kkkn+l+++f+l+   syeql+++lnk+vv        n+i++hrfv+efP+kv++k+i++kkvns+yi
+            MZ422438.1__source404  97 LFDIQFVKYKKKNGLYRMFNLF---SYEQLMNILNKCVV--------NNISIHRFVSEFPNKVTNKYITNKKVNSNYI 163
+                                      **********************...**************........******************************* PP
+
+  typeI_two_LPJP1_queries.aligned 261 deilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsksndlikf 338
+                                      de++++l+++lsky++d+f+kll+++nyev+rksdln+ke++ky+n+v+la++G+ky +vseskm+i++++sn++i+f
+            MZ422438.1__source404 164 DEAYNFLQSSLSKYNNDKFIKLLPFMNYEVIRKSDLNYKEMNKYINNVLLARAGTKY-NVSESKMNISNNHSNKFIYF 240
+                                      *********************************************************.******************** PP
+
+  typeI_two_LPJP1_queries.aligned 339 skekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniess 416
+                                      sk+++ei++iGvktkccf+P+Gla++l+ki+le+PlaGil+G+++kkiwfsfvwei+i+n+etk+i+i+li+dnies+
+            MZ422438.1__source404 241 SKDVDEIMNIGVKTKCCFTPNGLAAPLVKISLENPLAGILTGYMGKKIWFSFVWEIGIFNQETKTIDICLIMDNIESN 318
+                                      ****************************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 417 klldnneyeiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrk 494
+                                      +ll+nn+++ii+dw+++n++ykki+lGylrndinrti++dk+++dr+++  linse+kfs+y +yddsek+yel    
+            MZ422438.1__source404 319 QLLNNNDFSIISDWITNNTHYKKIFLGYLRNDINRTILEDKCYFDRPHT--LINSEHKFSSY-NYDDSEKIYEL---- 389
+                                      *************************************************..***********.***********.... PP
+
+  typeI_two_LPJP1_queries.aligned 495 nnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldndd 572
+                                                 dii+dydd +++i+e++diGwi+rsly+k+y+ikl+++lek++kvnklfiar+s++i+sli+ldndd
+            MZ422438.1__source404 390 -----------DIIPDYDD-TLYIQEERDIGWIMRSLYYKYYDIKLNTFLEKGEKVNKLFIARNSCQIFSLIFLDNDD 455
+                                      ...........********.********************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 573 iygylistleGy 584
+                                         ++i+tleG 
+            MZ422438.1__source404 456 ---NIITTLEGK 464
+                                      ...********4 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (697 nodes)
+Target sequences:                      22472  (5215979 residues searched)
+Passed MSV filter:                      2907  (0.129361); expected 449.4 (0.02)
+Passed bias filter:                      221  (0.00983446); expected 449.4 (0.02)
+Passed Vit filter:                        11  (0.000489498); expected 22.5 (0.001)
+Passed Fwd filter:                         2  (8.89996e-05); expected 0.2 (1e-05)
+Initial search space (Z):              22472  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.16u 0.01s 00:00:00.17 Elapsed: 00:00:00.04
+# Mc/sec: 90566.31
+//
+[ok]

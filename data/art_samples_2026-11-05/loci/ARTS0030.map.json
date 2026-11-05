@@ -1,0 +1,38 @@
+{
+  "source_accession": "ERR2683165_478",
+  "source_path": "sources/SRC0028.gb",
+  "source_sha256": "bc81feb74e3bd8fb4bfaf645ecb8a44197d1b14ddb9b5c2ec2cc4d658413330e",
+  "segments": [
+    {
+      "source_start0": 0,
+      "source_end0": 7987,
+      "locus_start0": 0,
+      "locus_end0": 7987,
+      "orientation": 1
+    }
+  ],
+  "metadata": {
+    "strand": 1,
+    "length_nt": 7987,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 106,
+    "downstream_available_nt": 6000,
+    "upstream_shortfall_nt": 5894,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": true,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 5894,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_format": "genbank",
+  "locus_path": "loci/ARTS0030.gb",
+  "sample_id": "ARTS0030",
+  "locus_id": "ERR2683165_478__ERR2683165_478_pgv1",
+  "coordinate_convention": "zero_based_half_open",
+  "original_repository_map": "results/art_expansion_20261105/step2/processed/loci/ERR2683165_478__ERR2683165_478_pgv1.map.json"
+}

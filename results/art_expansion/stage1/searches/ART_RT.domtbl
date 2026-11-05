@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+g8224359af74f1813    -            500 ART_RT               -            500  3.9e-296  980.1  55.9   1   1  4.3e-296  4.3e-296  980.0  55.9     1   500     1   500     1   500 1.00 MN091626.1 QDJ97640.1
+g77e13f2730c020b7    -            500 ART_RT               -            500  7.9e-295  975.8  62.5   1   1  8.9e-295  8.9e-295  975.7  62.5     1   500     1   500     1   500 1.00 LC680885.1 BDE75684.1
+g19244a9caff4dc36    -            500 ART_RT               -            500  2.7e-293  970.8  57.1   1   1    3e-293    3e-293  970.6  57.1     1   500     1   500     1   500 1.00 MZ779063.1 UAJ17040.1
+gc7888dd19f05bf49    -            501 ART_RT               -            500  5.3e-290  959.9  64.8   1   1    6e-290    6e-290  959.7  64.8     1   500     1   501     1   501 1.00 MW349129.1 QQO92858.1
+gf38d6f0be6da0ff6    -            500 ART_RT               -            500  5.8e-289  956.5  65.5   1   1  6.5e-289  6.5e-289  956.3  65.5     1   500     1   500     1   500 1.00 OR836606.1 WRM43423.1
+g35fa97101e01663e    -            501 ART_RT               -            500  1.7e-286  948.4  62.1   1   1  1.9e-286  1.9e-286  948.2  62.1     1   500     1   501     1   501 1.00 MW248466.1 QQM14740.1
+gcce88f5059d7029f    -            454 ART_RT               -            500  1.4e-183  608.8  64.1   1   1  5.9e-181  5.9e-181  600.2  64.1    23   499     8   453     2   454 0.99 MZ422438.1 QXN67953.1
+gd02bb3eff72d496b    -            501 ART_RT               -            500  5.9e-181  600.2  54.8   1   1  6.6e-181  6.6e-181  600.0  54.8     1   498     1   499     1   501 0.94 MW218148.1 QPI16926.1
+g9d4640ef2fac361b    -            517 ART_RT               -            500  6.7e-160  530.7  64.9   1   1  7.4e-160  7.4e-160  530.6  64.9    27   498    27   515     1   517 0.89 MW349128.1 QQO92593.1
+g8aa347b6ae9fd700    -            509 ART_RT               -            500   7.7e-61  204.0  65.1   1   1   6.7e-60   6.7e-60  200.9  65.1    60   494    43   501     8   508 0.75 MZ422438.1 QXN67955.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\ART_RT.tbl --domtblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\ART_RT.domtbl -E 0.001 --domE 0.001 -Z 2997 --domZ 2997 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 12:43:38 2026
+# [ok]

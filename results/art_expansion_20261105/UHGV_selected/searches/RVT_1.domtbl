@@ -1,0 +1,27 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+UHGV_selected000007_pgv130 -            380 RVT_1                PF00078.33   200   2.1e-15   57.2   0.2   1   1   3.7e-15   3.7e-15   56.3   0.2     7   176    71   246    66   260 0.88 UHGV-0304024
+UHGV_selected000013_pgv247 -            449 RVT_1                PF00078.33   200   1.9e-14   54.0   2.7   1   1   1.9e-14   1.9e-14   54.0   2.7    33   199    96   265    70   266 0.84 UHGV-0332176
+UHGV_selected000002_pgv481 -            470 RVT_1                PF00078.33   200     2e-14   54.0   1.1   1   1   4.1e-14   4.1e-14   52.9   1.1     3   200    99   299    97   299 0.86 UHGV-0265188
+UHGV_selected000011_pgv5   -            443 RVT_1                PF00078.33   200   3.7e-14   53.1   2.2   1   1   8.8e-14   8.8e-14   51.9   2.2    33   199    96   265    70   266 0.85 UHGV-1455077
+UHGV_selected000096_pgv235 -            488 RVT_1                PF00078.33   200   5.1e-14   52.6   0.6   1   1   7.7e-14   7.7e-14   52.1   0.6    51   200   135   292    73   292 0.83 UHGV-0034973
+UHGV_selected000028_pgv184 -            424 RVT_1                PF00078.33   200   2.3e-13   50.5   0.9   1   1   2.6e-07   2.6e-07   30.7   0.1   144   187   263   306   248   319 0.91 UHGV-0027008
+UHGV_selected000014_pgv36  -            406 RVT_1                PF00078.33   200   2.4e-13   50.4   0.3   1   1   4.5e-13   4.5e-13   49.5   0.3     7   196    95   293    90   297 0.78 UHGV-0026648
+UHGV_selected000017_pgv147 -            382 RVT_1                PF00078.33   200   3.3e-12   46.7   0.7   1   1   5.9e-12   5.9e-12   45.9   0.2     3   196    70   271    69   275 0.79 UHGV-0035748
+UHGV_selected000018_pgv145 -            404 RVT_1                PF00078.33   200   5.7e-12   46.0   0.8   1   1   1.1e-11   1.1e-11   45.0   0.3     3   196    92   293    91   297 0.78 UHGV-1361039
+UHGV_selected000022_pgv183 -            428 RVT_1                PF00078.33   200   6.6e-12   45.7   0.6   1   1     7e-08     7e-08   32.6   0.1   145   196   269   320   255   324 0.91 UHGV-1364379
+UHGV_selected000015_pgv210 -            428 RVT_1                PF00078.33   200     7e-12   45.7   0.6   1   1   7.5e-08   7.5e-08   32.5   0.1   145   196   269   320   255   324 0.91 UHGV-0014097
+UHGV_selected000078_pgv235 -            435 RVT_1                PF00078.33   200   1.1e-09   38.5   0.2   1   1   2.5e-09   2.5e-09   37.3   0.2     8   199    80   288    69   289 0.81 UHGV-0018083
+UHGV_selected000072_pgv36  -            434 RVT_1                PF00078.33   200   1.8e-09   37.8   1.4   1   1   2.2e-09   2.2e-09   37.5   0.3     9   199    80   287    68   288 0.81 UHGV-0339166
+UHGV_selected000074_pgv1   -            186 RVT_1                PF00078.33   200   1.8e-05   24.7   0.0   1   1   2.2e-05   2.2e-05   24.5   0.0   144   196    46    98    15   139 0.89 UHGV-0010229
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     /tmp/art-371321-UHGV_selected-7y2vmdvq/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/UHGV_selected/searches/RVT_1.domtbl --noali -E .001 --domE .001 -Z 18424 --domZ 18424 --seed 42 --cpu 1 /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm /tmp/art-371321-UHGV_selected-7y2vmdvq/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Thu Nov  5 01:47:11 2026
+# [ok]

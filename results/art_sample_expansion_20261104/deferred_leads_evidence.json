@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-04",
+  "cached_data_only": false,
+  "MGnify_unique_reported_proteins": 293,
+  "MGnify_mapped_proteins": 13,
+  "MGnify_unacquired_proteins": 280,
+  "MGnify_unacquired_partner_supported": 2,
+  "archive_passing_partner_sequences": 52,
+  "archive_unacquired_nonidentical_partner_sequences": 48,
+  "archive_exact_sequence_exclusions": [],
+  "baseline_catalog": {
+    "primary_loci": 13,
+    "new_public_primary_loci": 11,
+    "exact_protein_pair_groups": 13,
+    "partner_clusters70": 12,
+    "complete_pair_representatives": 9,
+    "complete_primary_pairs": 10,
+    "incomplete_gene_pairs": 3,
+    "supported_array_loci": 4,
+    "new_public_supported_array_loci": 3,
+    "testing_family_distinct_RT_loci": 17,
+    "all_statuses_provisional": true,
+    "incomplete_upstream_loci": 6,
+    "input_manifest_sha256": {
+      "results\\art_type1_public\\candidate_loci.tsv": "821f9935dd054129c68cdfb587df5d865acc727ec46d35da5518ffaa557f1926",
+      "results\\art_type1_public\\primary_typeI_pairs.tsv": "0cb2cdada3f35e482a55c8c5a5a07648d0dedeb481ae9679cea135c0236174e5",
+      "results\\art_type1_public\\background_tests.tsv": "beaf174f50b07cf72d6516ca07e5218f34efc23ff6c089d4bd2eb59feac0d97a",
+      "results\\art_type1_mgnify\\candidate_loci.tsv": "107c7699f11c6ae30ea4ebcaf9ea1458c33c650f415540890481e958c5cd7779",
+      "results\\art_type1_mgnify\\primary_typeI_pairs.tsv": "9942d7a320e0d36d523863d437242b098008cf9a5cc5f97bbfcec1982b6b5052",
+      "results\\art_type1_mgnify\\background_tests.tsv": "fc8345e0b6838d54b345f72c907b46e98bb68015c2ce9085d50e0dc32ba41923"
+    }
+  },
+  "ranking": "First the two deferred MGnify partner hits; next archived partner hits ordered by rough global alignment identity to nearest catalog partner to favor diversity; then RT-only hits ordered by original query rank. Diversity is descriptive and is not a calibrated clustering or family classification.",
+  "rough_alignment_parameters": {
+    "mode": "global",
+    "match_score": 2,
+    "mismatch_score": -1,
+    "open_gap_score": -10,
+    "extend_gap_score": -0.5,
+    "identity": "exact matches / aligned residue pairs",
+    "mutual_coverage": "minimum aligned-residue-pair coverage of either full protein"
+  },
+  "limits": [
+    "Protein-only leads are not recovered RT-partner pairs",
+    "Archive labels are historical Logan contig numbers and must be confirmed by exact peptide translation",
+    "Existing 13 type I pairs remain the baseline",
+    "One deferred partner source now retrieved; it starts at source position0 and cannot supply its upstream RT",
+    "Other deferred partner metadata retrieved; source DNA endpoint404",
+    "No array significance tests performed",
+    "CurrentLogan followup foundone complete provisional pair with66nt upstream andtwo partner-only orphan loci",
+    "Native processing used frozen original andtwo-seed profiles; sequence family tree placement remains unevaluated fornew pair"
+  ],
+  "input_sha256": {
+    "results/art_type1_mgnify/remote_hits.tsv": "2168f682ad946d0150c24da4222f6858bb40edaf8068643621365cfe99e0f979",
+    "results/art_type1_mgnify/homolog_to_contig.tsv": "a4c141cdbe2f35fc6744e1adc3b1880d847ecfa3fbfbba832be36f0adc66c3d8",
+    "results/art_type1_mgnify/unresolved_or_deferred.tsv": "d71fb72772b1c4d411ea95240b841774ea082511ecdb26147b205f63c48c76e1",
+    "results/art_type1_public/archive_leads/profile_cross_screen.tsv": "c934a766dd6ef32f2f0e54ec592480fdff2945f2eaedea7190167176917b0616",
+    "results/art_type1_public/archive_leads/leads_and_GNAT_controls.faa": "2cf2e8b06d594c1bd3f4628623fd7c71a27df6d6e4918e69067f986f552fc919",
+    "results/art_type1_catalog/primary_partners.faa": "fe14c544d9da91e4dde545cdef73c87d14863df98acf512ed75eca26cb89d958",
+    "results/art_type1_catalog/summary.json": "cffa90b0c54be3898b915e581b67b7ee7579710827d01dc06259c39c0ce987e6",
+    "results/art_type1_public/remote/hmmer_result_QXN67955.1.response": "b491c64c97547947d9de79147450961917ab1779f2783218c39d268f079ea739",
+    "results/art_type1_public/remote/hmmer_result_QXN67952.1.response": "c389c6e28bc2f144e6cace24cad01733f7e8dcefac68d5de7b3f785d8f17d3a3",
+    "results/art_type1_public/remote/hmmer_result_QXN67953.1.response": "0af4a9efe5d9f3156623c66273e73e3bb82f4bee6a6258f50e271773173c21d6",
+    "results/art_type1_public/remote/hmmer_result_QXN67954.1.response": "910008281b3e831447ab84da04d119d8499690818e793ad57c9309287d2c597c"
+  },
+  "archive_existing_source_run_exclusions": [
+    {
+      "lead": "SRR8925777_19762_10",
+      "reason": "historical source run already acquired in original pilot; new calls may choose alternative boundaries"
+    },
+    {
+      "lead": "ERR8055547_17666_13",
+      "reason": "historical source run already acquired in original pilot; new calls may choose alternative boundaries"
+    },
+    {
+      "lead": "ERR10896470_6887_2",
+      "reason": "historical source run already acquired in original pilot; new calls may choose alternative boundaries"
+    },
+    {
+      "lead": "SRR26805139_816_1",
+      "reason": "historical source run already acquired in original pilot; new calls may choose alternative boundaries"
+    }
+  ],
+  "followup_acquisition_manifest": "deferred_acquisition/acquisition_manifest.json",
+  "remote_homology_jobs_submitted": 0,
+  "new_remote_homology_jobs_submitted": 0,
+  "archive_current_DNA_source_contigs_retrieved": 3,
+  "archive_new_complete_provisional_primary_pairs": 1,
+  "archive_unacquired_source_run_leads_remaining": 45,
+  "followup_screening_summary": "deferred_acquisition/processed/screening_summary.json"
+}

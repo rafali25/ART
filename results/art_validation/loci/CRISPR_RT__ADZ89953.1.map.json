@@ -1,0 +1,27 @@
+{
+  "segments": [
+    {
+      "source_start0": 692596,
+      "source_end0": 707470,
+      "locus_start0": 0,
+      "locus_end0": 14874,
+      "orientation": -1
+    }
+  ],
+  "strand": -1,
+  "length_nt": 14874,
+  "upstream_requested_nt": 6000,
+  "downstream_requested_nt": 6000,
+  "upstream_available_nt": 6000,
+  "downstream_available_nt": 6000,
+  "upstream_shortfall_nt": 0,
+  "downstream_shortfall_nt": 0,
+  "source_topology": "circular",
+  "circularity_support": "source_record_topology=circular",
+  "wrapped": false,
+  "source_origin_reached": false,
+  "source_end_reached": false,
+  "genomic_left_clipped_nt": 0,
+  "genomic_right_clipped_nt": 0,
+  "circular_request_capped_to_one_contig": false
+}

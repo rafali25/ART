@@ -1,0 +1,11 @@
+{
+  "seed_proteins": [
+    "QXN67954.1",
+    "QXN67952.1"
+  ],
+  "source_genome_groups": 1,
+  "positive_independent_holdout_groups": 0,
+  "status": "exploratory_retrieval_only",
+  "production_single_seed_profile_unchanged": true,
+  "limitation": "Two paralogs from LPJP1 cannot validate broad type I sensitivity or specificity"
+}

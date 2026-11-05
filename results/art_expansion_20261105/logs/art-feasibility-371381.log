@@ -1,0 +1,36 @@
+test_full_peptide_maps_in_all_frames_and_source_orientations (test_art_expansion_workflow.ExactArchivePrefilter.test_full_peptide_maps_in_all_frames_and_source_orientations) ... ok
+test_genetic_code_15_is_retained_by_DNA_prefilter (test_art_expansion_workflow.ExactArchivePrefilter.test_genetic_code_15_is_retained_by_DNA_prefilter) ... ok
+test_multiple_genomic_copies_remain_ambiguous (test_art_expansion_workflow.ExactArchivePrefilter.test_multiple_genomic_copies_remain_ambiguous) ... ok
+test_unterminated_final_record_is_not_promoted_from_partial_object (test_art_expansion_workflow.ExactArchivePrefilter.test_unterminated_final_record_is_not_promoted_from_partial_object) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.006s
+
+OK
+test_all_frames_and_reverse (test_art_type1_public.TestPublicMappings.test_all_frames_and_reverse) ... ok
+test_alternative_initiator_and_code15 (test_art_type1_public.TestPublicMappings.test_alternative_initiator_and_code15) ... ok
+test_complete_fasta_in_partial_compressed_stream (test_art_type1_public.TestPublicMappings.test_complete_fasta_in_partial_compressed_stream) ... ok
+test_duplicate_mapping_is_not_arbitrarily_chosen (test_art_type1_public.TestPublicMappings.test_duplicate_mapping_is_not_arbitrarily_chosen) ... ok
+test_hmmer_missing_identifier_fails (test_art_type1_public.TestPublicMappings.test_hmmer_missing_identifier_fails) ... ok
+test_hmmer_real_metadata_accession (test_art_type1_public.TestPublicMappings.test_hmmer_real_metadata_accession) ... ok
+test_real_accession_required (test_art_type1_public.TestPublicMappings.test_real_accession_required) ... ok
+test_rvt_first_domain_defines_ntd (test_art_type1_public.TestPublicMappings.test_rvt_first_domain_defines_ntd) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.004s
+
+OK
+Traceback (most recent call last):
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_expansion_workflow.py", line 246, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_expansion_workflow.py", line 243, in main
+    assess()
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_expansion_feasibility.py", line 320, in main
+    run([ROOT/'.venv/bin/mmseqs','easy-cluster',folder/'typeI_partners.faa',folder/'partners70',folder/'mmseqs_tmp',
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_expansion_workflow.py", line 105, in run
+    else:r=subprocess.run(args,stdout=err,stderr=subprocess.STDOUT,check=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/mmseqs', 'easy-cluster', '/nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step5/typeI_partners.faa', '/nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step5/partners70', '/nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step5/mmseqs_tmp', '--min-seq-id', '.7', '-c', '.8', '--cov-mode', '0', '--threads', '8', '-k', '5', '--split-memory-limit', '1G']' returned non-zero exit status 1.

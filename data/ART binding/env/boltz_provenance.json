@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "slurm_job_id": "373440",
+  "host": "cn-06",
+  "boltz_version": "2.2.1",
+  "torch_version": "2.5.1+cu124",
+  "torch_CUDA_version": "12.4",
+  "API_key_required": false,
+  "optional_custom_CUDA_kernels": false,
+  "assets": {
+    "boltz2_aff.ckpt": {
+      "bytes": 2062139170,
+      "sha256": "dcc5cd3722b1c9eaa34267e4ae32f55cbbf1963f4c19319381ccfa30fdd2ca9e"
+    },
+    "boltz2_conf.ckpt": {
+      "bytes": 2286561469,
+      "sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1"
+    },
+    "mols.tar": {
+      "bytes": 1855662080,
+      "sha256": "39e076d96dbec6b4e86982bbda16f3a53a2a60c9bdc17828d88f6f9a0c7d1fd7"
+    }
+  },
+  "requests": [
+    {
+      "url": "https://huggingface.co/boltz-community/boltz-2/resolve/main/mols.tar",
+      "response_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6842e9adbaddca60594666d1/0c24aff8ec015a96bdb31e035f0b5c585799adf73b352115fc11ad287b82913e?X-Xet-Cas-Uid=public&user_id=public&response-content-type=application%2Fx-tar&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27mols.tar%3B+filename%3D%22mols.tar%22%3B&xip=jP_QCCa7hHM&Expires=1793867796&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjg0MmU5YWRiYWRkY2E2MDU5NDY2NmQxLzBjMjRhZmY4ZWMwMTVhOTZiZGIzMWUwMzVmMGI1YzU4NTc5OWFkZjczYjM1MjExNWZjMTFhZDI4N2I4MjkxM2VcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZ1c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LXR5cGU9YXBwbGljYXRpb24lMkZ4LXRhciZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3bW9scy50YXIlM0IrZmlsZW5hbWUlM0QlMjJtb2xzLnRhciUyMiUzQiZ4aXA9alBfUUNDYTdoSE0iLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc5Mzg2Nzc5Nn19fV19&Signature=MEYCIQCZPJWtQ%7E3mbfN9RyOEtVFmXgH-nVMuiodCo0KdF0CqCQIhAIjq-80s096aMQrHI9SIyiVBsrhjjtrVYxHu9wBsTops&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+      "bytes": 1855662080,
+      "etag": "\"0c24aff8ec015a96bdb31e035f0b5c585799adf73b352115fc11ad287b82913e\""
+    },
+    {
+      "url": "https://model-gateway.boltz.bio/boltz2_conf.ckpt",
+      "response_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6842e9adbaddca60594666d1/65516ffac622a58d2301e76c56ea021a11d1d28d61d56b79bb5f06a752fef1e3?X-Xet-Cas-Uid=public&user_id=public&xip=jP_QCCa7hHM&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27boltz2_conf.ckpt%3B+filename%3D%22boltz2_conf.ckpt%22%3B&Expires=1793867910&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjg0MmU5YWRiYWRkY2E2MDU5NDY2NmQxLzY1NTE2ZmZhYzYyMmE1OGQyMzAxZTc2YzU2ZWEwMjFhMTFkMWQyOGQ2MWQ1NmI3OWJiNWYwNmE3NTJmZWYxZTNcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZ1c2VyX2lkPXB1YmxpYyZ4aXA9alBfUUNDYTdoSE0mcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IrZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN2JvbHR6Ml9jb25mLmNrcHQlM0IrZmlsZW5hbWUlM0QlMjJib2x0ejJfY29uZi5ja3B0JTIyJTNCIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTM4Njc5MTB9fX1dfQ__&Signature=MEYCIQDPnVZpBVVDbBFmGmq2km-1wC5cxiBt3RXQo8OrVbwiQwIhANTb9FF8iyU1ChZgryvGfWkQrZ4pCoyXiQNcI3eW020j&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+      "bytes": 2286561469,
+      "etag": "\"65516ffac622a58d2301e76c56ea021a11d1d28d61d56b79bb5f06a752fef1e3\""
+    },
+    {
+      "url": "https://model-gateway.boltz.bio/boltz2_aff.ckpt",
+      "response_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6842e9adbaddca60594666d1/79635614bdbb7fed56b5258193da69bf7f1b941ba65146be2cbe0bc8fec5790e?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27boltz2_aff.ckpt%3B+filename%3D%22boltz2_aff.ckpt%22%3B&xip=jP_QCCa7hHM&user_id=public&Expires=1793867979&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjg0MmU5YWRiYWRkY2E2MDU5NDY2NmQxLzc5NjM1NjE0YmRiYjdmZWQ1NmI1MjU4MTkzZGE2OWJmN2YxYjk0MWJhNjUxNDZiZTJjYmUwYmM4ZmVjNTc5MGVcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3Ym9sdHoyX2FmZi5ja3B0JTNCK2ZpbGVuYW1lJTNEJTIyYm9sdHoyX2FmZi5ja3B0JTIyJTNCJnhpcD1qUF9RQ0NhN2hITSZ1c2VyX2lkPXB1YmxpYyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRXBvY2hUaW1lIjoxNzkzODY3OTc5fX19XX0_&Signature=MEUCIQDJXID2Bq%7E1WYxcBCXSwuXaT2zreHnwnvIJuwbq26-rNwIgDYwb%7EP1AxW4zfPYj%7EQXGK1DVBXTXTNFeDCZkKwba3aU_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+      "bytes": 2062139170,
+      "etag": "\"79635614bdbb7fed56b5258193da69bf7f1b941ba65146be2cbe0bc8fec5790e\""
+    }
+  ],
+  "installed_main_source_sha256": "b5ded4dac1552af2e079c335d56e64ea580b4d5ca0202a9542385ce3e318c3b3"
+}

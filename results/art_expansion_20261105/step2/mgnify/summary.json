@@ -1,0 +1,9 @@
+{
+  "representatives_queried": 9,
+  "listed_occurrences": 9,
+  "previously_unacquired_contigs_attempted": 1,
+  "new_mapped_contigs": 0,
+  "new_DNA_bytes": 0,
+  "failures": 1,
+  "limitation": "Public API exposes representatives and listed occurrences only; complete cluster-member expansion requires separate bulk/Parquet lookup"
+}

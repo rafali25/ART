@@ -1,0 +1,17 @@
+{
+  "benchmark_version": 1,
+  "random_seed": 20261020,
+  "profile_database_size": 2076,
+  "relatedness_identity_threshold": 0.80,
+  "relatedness_mutual_coverage": 0.80,
+  "null_draws_per_background": 1000,
+  "workers": 4,
+  "synthetic_replicates_per_case": 3,
+  "reference_core": "ATATGAATACGTAT",
+  "reference_core_max_mismatches": 1,
+  "reference_repeat_left_of_core_nt": 4,
+  "reference_repeat_length_nt": 22,
+  "gold_source": "Yoon et al. supplied PDF, Fig.2G p.7 and RNAfold methods p.36; these reference-only motifs never enter discovery",
+  "null_rule": "Full recurring-seed discovery and best-chain maximization for every shuffle; max of local-block and dinucleotide p, Bonferroni across all synthetic and real negative loci in this benchmark",
+  "evaluation_policy": "Freeze existing configurations and profiles; no threshold tuning from validation outcomes. Published local loci are retrospective development checks, not independent evaluation. Whole similarity components held out for additional RT profile evaluation."
+}

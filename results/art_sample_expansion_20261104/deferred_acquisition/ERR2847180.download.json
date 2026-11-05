@@ -1,0 +1,25 @@
+{
+  "run": "ERR2847180",
+  "url": "https://s3.amazonaws.com/logan-pub/c/ERR2847180/ERR2847180.contigs.fa.zst",
+  "requested_range": "bytes=0-1999999",
+  "retrieved_utc": "2026-11-04T11:13:17.990480+00:00",
+  "maximum_bytes": 2000000,
+  "status": 206,
+  "bytes": 2000000,
+  "headers": {
+    "x-amz-id-2": "7NuimuM9oemud0loRr3bvV51YMi3e41WCVYeYKewxRGbZuJqi2o3WLleH+NbT9B5yIhW4ahPvnA=",
+    "x-amz-request-id": "ZGH1NE8WHZ3S2BSB",
+    "Server": "AmazonS3",
+    "Date": "Wed, 04 Nov 2026 11:13:56 GMT",
+    "Last-Modified": "Mon, 27 Jan 2025 20:27:15 GMT",
+    "ETag": "\"b77b9fde830b920ea9561c8d3c263308-2\"",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Content-Range": "bytes 0-1999999/79168107",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "2000000",
+    "Connection": "close"
+  },
+  "sha256": "b79c0beac51304eb7d53fa22d6f74ee89e2e546883feccda7120327197fdf879"
+}

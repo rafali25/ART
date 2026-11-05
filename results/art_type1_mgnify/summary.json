@@ -1,0 +1,63 @@
+{
+  "new_public_primary_loci": 7,
+  "control_loci": 2,
+  "all_RT_candidate_loci": 13,
+  "total_primary_pairs": 9,
+  "new_statistically_supported_arrays": 2,
+  "new_incomplete_upstream": 4,
+  "primary_partner_clusters70": 9,
+  "final_classification": "provisional",
+  "software_test_log": "software_tests.log",
+  "remote_jobs": [
+    {
+      "service": "HMMER",
+      "query_id": "QXN67954.1",
+      "family": "Type_I_partner",
+      "job_id": "b1c0aec0-aa3a-4129-85f2-d8346e37f118",
+      "status": "SUCCESS",
+      "result_path": "results/art_type1_public/remote/hmmer_result_QXN67954.1.response"
+    },
+    {
+      "service": "HMMER",
+      "query_id": "QXN67952.1",
+      "family": "Type_I_partner",
+      "job_id": "a112ba5f-cedf-4d56-80b3-41ce90b9983c",
+      "status": "SUCCESS",
+      "result_path": "results/art_type1_public/remote/hmmer_result_QXN67952.1.response"
+    },
+    {
+      "service": "HMMER",
+      "query_id": "QXN67955.1",
+      "family": "ART_RT",
+      "job_id": "c09b9856-f6e2-451d-9158-ad313b97f400",
+      "status": "SUCCESS",
+      "result_path": "results/art_type1_public/remote/hmmer_result_QXN67955.1.response"
+    },
+    {
+      "service": "HMMER",
+      "query_id": "QXN67953.1",
+      "family": "ART_RT",
+      "job_id": "8fbceac3-63f9-47d3-9279-94f5903aa667",
+      "status": "SUCCESS",
+      "result_path": "results/art_type1_public/remote/hmmer_result_QXN67953.1.response"
+    },
+    {
+      "service": "NCBI_BLAST",
+      "query_id": "four_query_batch",
+      "job_id": "DEP6X50X016",
+      "status": "WAITING"
+    }
+  ],
+  "calibration": {
+    "independent_verified_positive_groups": 0,
+    "training_source_groups": 1,
+    "unrelated_GNAT_controls": 5,
+    "reported_GNAT_control_matches": [],
+    "archived_leads_passing": {
+      "Type_I_partner": 30,
+      "TypeI_two_seed": 35
+    },
+    "labels_are_external_leads_not_gold_standard": true,
+    "status": "exploratory_not_broadly_calibrated"
+  }
+}

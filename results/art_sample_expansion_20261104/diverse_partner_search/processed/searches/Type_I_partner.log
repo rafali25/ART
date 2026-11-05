@@ -1,0 +1,95 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/Type_I_partner.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/Type_I_partner.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    1729
+# domain search space set to:      1729
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_I_partner  [M=481]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    2.2e-36  122.1  19.1    2.2e-36  122.1  19.1    1.6  1  t2a19e9d8d53ec7066d  MGYC003966598318 MGYC003966598318_pgv46
+    2.9e-36  121.7  19.1    2.9e-36  121.7  19.1    1.7  1  o26b6f7dda84af1122f  MGYC003966598318 six_frame
+
+
+Domain annotation for each sequence (and alignments):
+>> t2a19e9d8d53ec7066d  MGYC003966598318 MGYC003966598318_pgv46
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.1  19.1   2.2e-36   2.2e-36      93     417 ..     171     510 ..     154     520 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 122.1 bits;  conditional E-value: 2.2e-36
+       Type_I_partner  93 lepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkk.vnsnyideaynflqsslskynndk 181
+                             e+ d +f+     n +   +++f y q+ ni++ c  + + +h ++ ++pn+v  +yi +   v  +y  e  ++l+   s     k
+  t2a19e9d8d53ec7066d 171 EIAEMSDEDFLTAVSGNKFLYYYKVFGYAQFNNIIQICTNKGMDLHGIMVNLPNQVNRRYINEDGfVTEEYKKEVTKLLKY-ASTLSRTK 259
+                          4567888899999999999999***************************************97643888999999998875.4778889* PP
+
+       Type_I_partner 182 fikllpfmnyevirks.dlnykemnkyinnvllaragtky.nvseskm...n....isnnhsnkfiyfskdvdeimnigvktkccftpng 262
+                          + k+l f+nye ir+  +  +++ + y+nnv++ar   +  ++s+ +    n    i   +    i+fsk+  +i+ ig kt ccf   g
+  t2a19e9d8d53ec7066d 260 LTKVLQFLNYERIRNGyNESWRDKEIYMNNVIFARNYVNLkEISDIRYvqgNmagiIDPYKYSDEIHFSKEKTDIIMIGEKTGCCFHLGG 349
+                          **************97356799999**********9876424665543111211213334556679************************ PP
+
+       Type_I_partner 263 laaplvkislenplagiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndf..siisdwitnnthykkiflgylrnd 350
+                          +a  lv   l+  +agi+ g      wf+fvweig+ n+e   ++  li+dnie      +++f    i  +i nnt+y++ +lg   n 
+  t2a19e9d8d53ec7066d 350 MAKHLVIACLNSSIAGIIRGDYKGSPWFAFVWEIGVKNDEG-IVETHLILDNIECLGRTIDEQFmyDHIIPYIENNTKYNRAYLGTNYNK 438
+                          ********************988899************996.7899********97655555541267999******************* PP
+
+       Type_I_partner 351 inrtiledkcyfdrphtlinsehkfssy.nyddsekiyeldiipdyddt..lyiqeer..digwimrslyyk 417
+                          + r+  ++   + rp+ l    ++f +y  +dds ++y + i  +      + +++ r  d+  i r++y  
+  t2a19e9d8d53ec7066d 439 VSRSYTDQFSKILRPYRLSLQGKRFYNYfTHDDSYQLYPIYIRSEESRNkdIKLKKTRltDVADIERAIYVL 510
+                          ******************9888888766378*******9999766433200222332233777777777765 PP
+
+>> o26b6f7dda84af1122f  MGYC003966598318 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.7  19.1   2.9e-36   2.9e-36      94     416 ..     192     529 ..     177     538 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 121.7 bits;  conditional E-value: 2.9e-36
+       Type_I_partner  94 epelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkk.vnsnyideaynflqsslskynndkf 182
+                            e+ d +f+     n +   +++f y q+ ni++ c  + + +h ++ ++pn+v  +yi +   v  +y  e  ++l+   s     k+
+  o26b6f7dda84af1122f 192 IAEMSDEDFLTAVSGNKFLYYYKVFGYAQFNNIIQICTNKGMDLHGIMVNLPNQVNRRYINEDGfVTEEYKKEVTKLLKY-ASTLSRTKL 280
+                          467888889999999999999***************************************97643888999999998875.4778889** PP
+
+       Type_I_partner 183 ikllpfmnyevirks.dlnykemnkyinnvllaragtky.nvseskm...n....isnnhsnkfiyfskdvdeimnigvktkccftpngl 263
+                           k+l f+nye ir+  +  +++ + y+nnv++ar   +  ++s+ +    n    i   +    i+fsk+  +i+ ig kt ccf   g+
+  o26b6f7dda84af1122f 281 TKVLQFLNYERIRNGyNESWRDKEIYMNNVIFARNYVNLkEISDIRYvqgNmagiIDPYKYSDEIHFSKEKTDIIMIGEKTGCCFHLGGM 370
+                          *************97356799999**********9876424665543111211213334556679************************* PP
+
+       Type_I_partner 264 aaplvkislenplagiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndf..siisdwitnnthykkiflgylrndi 351
+                          a  lv   l+  +agi+ g      wf+fvweig+ n+e   ++  li+dnie      +++f    i  +i nnt+y++ +lg   n +
+  o26b6f7dda84af1122f 371 AKHLVIACLNSSIAGIIRGDYKGSPWFAFVWEIGVKNDEG-IVETHLILDNIECLGRTIDEQFmyDHIIPYIENNTKYNRAYLGTNYNKV 459
+                          *******************988899************996.7899********97655555541267999******************** PP
+
+       Type_I_partner 352 nrtiledkcyfdrphtlinsehkfssy.nyddsekiyeldiipdyddt..lyiqeer..digwimrslyy 416
+                           r+  ++   + rp+ l    ++f +y  +dds ++y + i  +      + +++ r  d+  i r++y 
+  o26b6f7dda84af1122f 460 SRSYTDQFSKILRPYRLSLQGKRFYNYfTHDDSYQLYPIYIRSEESRNkdIKLKKTRltDVADIERAIYV 529
+                          *****************9888888766378*******999976543320022223223377777777775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (481 nodes)
+Target sequences:                       1729  (233166 residues searched)
+Passed MSV filter:                       130  (0.075188); expected 34.6 (0.02)
+Passed bias filter:                       19  (0.010989); expected 34.6 (0.02)
+Passed Vit filter:                         2  (0.00115674); expected 1.7 (0.001)
+Passed Fwd filter:                         2  (0.00115674); expected 0.0 (1e-05)
+Initial search space (Z):               1729  [as set by --Z on cmdline]
+Domain search space  (domZ):            1729  [as set by --domZ on cmdline]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 4953.59
+//
+[ok]

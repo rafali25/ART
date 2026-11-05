@@ -1,0 +1,32 @@
+{
+  "segments": [
+    {
+      "source_start0": 4646,
+      "source_end0": 18152,
+      "locus_start0": 0,
+      "locus_end0": 13506,
+      "orientation": 1
+    }
+  ],
+  "metadata": {
+    "strand": 1,
+    "length_nt": 13506,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 6000,
+    "downstream_available_nt": 6000,
+    "upstream_shortfall_nt": 0,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": false,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 0,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_accession": "MW218148.1",
+  "source_path": "results/art_discovery/reference_sources/SA1_MW218148.1.gb",
+  "source_sha256": "9f86f3aa0d2023d7e319800a1bf61d223234144fc16f6fadd55032f58411c366"
+}

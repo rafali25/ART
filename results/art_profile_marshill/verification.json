@@ -1,0 +1,14 @@
+{
+  "hmmer_official_tutorial": "passed; all 45 globin targets recovered",
+  "alignment_ungaps_match_seeds": true,
+  "exact_target_sequence_excluded": true,
+  "target_proteins": 262,
+  "recovered_protein": "QQM14740.1",
+  "length_aa": 501,
+  "source_file_hashes_unchanged": true,
+  "output_hashes_verified": true,
+  "software": {
+    "MAFFT": "7.526",
+    "HMMER": "3.4"
+  }
+}

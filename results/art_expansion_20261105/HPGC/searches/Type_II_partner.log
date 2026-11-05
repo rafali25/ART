@@ -1,0 +1,46 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# target sequence database:        /tmp/art-371321-HPGC-2i4g7j99/proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/HPGC/searches/Type_II_partner.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2428566
+# domain search space set to:      2428566
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_II_partner  [M=274]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    2.3e-29  109.7  57.1    2.9e-29  109.4  57.1    1.2  1  HPGC000357_pgv214  huge_phage_371
+
+
+Domain annotation for each sequence:
+>> HPGC000357_pgv214  huge_phage_371
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.4  57.1   2.9e-29   2.9e-29      15     273 ..      30     302 ..      10     303 .] 0.85
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (274 nodes)
+Target sequences:                    2428566  (588215345 residues searched)
+Passed MSV filter:                    188349  (0.0775556); expected 48571.3 (0.02)
+Passed bias filter:                    33937  (0.0139741); expected 48571.3 (0.02)
+Passed Vit filter:                      2078  (0.000855649); expected 2428.6 (0.001)
+Passed Fwd filter:                        19  (7.82355e-06); expected 24.3 (1e-05)
+Initial search space (Z):            2428566  [as set by --Z on cmdline]
+Domain search space  (domZ):         2428566  [as set by --domZ on cmdline]
+# CPU time: 9.53u 0.21s 00:00:09.74 Elapsed: 00:00:06.59
+# Mc/sec: 24431.37
+//
+[ok]

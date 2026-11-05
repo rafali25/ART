@@ -1,0 +1,42 @@
+[
+  {
+    "name": "biorxiv_api",
+    "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.05.755809",
+    "status": 200,
+    "bytes": 1795,
+    "sha256": "a10a84f0dd266dab6c5e62b7486a94dc16666a9aefb20969cf3d58f255af67d1",
+    "preview": "{\"messages\":[{\"status\":\"ok\",\"category\":\"all\"}], \"collection\":[{\"title\":\"Autonomous AI agents discover reverse transcriptases with tandem repeat arrays\",\"authors\":\"Yoon, P. H.; Athukoralage, J. S.; Ameisen, E.; Kauderer-Abrams, E.; Perry, N. T.; Durrant, M. G.\",\"author_corresponding\":\"Nicholas T Perry\",\"author_corresponding_institution\":\"Anthropic, "
+  },
+  {
+    "name": "biorxiv_supplements",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1.supplementary-material",
+    "status": 200,
+    "bytes": 111951,
+    "sha256": "55233d65d06e3e7ec9d598433d9848daf86870ac1f88ef021ecb571bb076c999",
+    "preview": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" \n  xmlns=\"http://www.w3.org/1999/xhtml\"\n  xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n  <head prefix=\"og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#\" >\n    <!--[if IE]><![endif]-->\n<link rel=\"dns-prefetch\" href=\"//cdn.jsdelivr.net\" />\n<link rel=\"dns-prefetch\" href="
+  },
+  {
+    "name": "biorxiv_full",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1.full",
+    "status": 200,
+    "bytes": 465286,
+    "sha256": "8e0a28660359bcbde2081e9da28771ce06eda7363edf206a16d45249ab2e954b",
+    "preview": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" \n  xmlns=\"http://www.w3.org/1999/xhtml\"\n  xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n  <head prefix=\"og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#\" >\n    <!--[if IE]><![endif]-->\n<link rel=\"dns-prefetch\" href=\"//cdn.jsdelivr.net\" />\n<link rel=\"dns-prefetch\" href="
+  },
+  {
+    "name": "europepmc",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.64898/2026.10.05.755809&format=json",
+    "status": 200,
+    "bytes": 842,
+    "sha256": "fca2bcc420fd17e0cfc18cd952000d8d635ee99e92db9ca952e17c82dde272cf",
+    "preview": "{\"version\":\"6.9\",\"hitCount\":1,\"request\":{\"queryString\":\"DOI:10.64898/2026.10.05.755809\",\"resultType\":\"lite\",\"cursorMark\":\"*\",\"pageSize\":25,\"sort\":\"\",\"synonym\":false},\"resultList\":{\"result\":[{\"id\":\"PPR1338779\",\"source\":\"PPR\",\"doi\":\"10.64898/2026.10.05.755809\",\"title\":\"Autonomous AI agents discover reverse transcriptases with tandem repeat arrays\",\"a"
+  },
+  {
+    "name": "crossref",
+    "url": "https://api.crossref.org/works/10.64898/2026.10.05.755809",
+    "status": 200,
+    "bytes": 18023,
+    "sha256": "ea4c4c35c8b936d9dd039f6501311f51945f72d72c6fe537f7b04b21bd2818eb",
+    "preview": "{\"status\":\"ok\",\"message-type\":\"work\",\"message-version\":\"1.0.0\",\"message\":{\"institution\":[{\"name\":\"bioRxiv\"}],\"indexed\":{\"date-parts\":[[2026,10,16]],\"date-time\":\"2026-10-16T04:45:52Z\",\"timestamp\":1792125952316,\"version\":\"4.4.0\"},\"posted\":{\"date-parts\":[[2026,10,11]]},\"group-title\":\"Bioinformatics\",\"reference-count\":103,\"publisher\":\"openRxiv\",\"licens"
+  }
+]

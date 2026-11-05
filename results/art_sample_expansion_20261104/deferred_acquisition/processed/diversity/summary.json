@@ -1,0 +1,30 @@
+{
+  "combined_partner_sequences": 14,
+  "combined_partner_clusters70": 12,
+  "baseline_partner_clusters70": 12,
+  "new_pair_cluster": [
+    [
+      "SRR26805139_340__SRR26805139_340_pgv1",
+      "SRR7532897_75__SRR7532897_75_pgv1"
+    ]
+  ],
+  "command": [
+    ".venv/bin/mmseqs",
+    "easy-cluster",
+    "results/art_sample_expansion_20261104/deferred_acquisition/processed/diversity/baseline_plus_new_primary_partners.faa",
+    "results/art_sample_expansion_20261104/deferred_acquisition/processed/diversity/partners70",
+    "results/art_sample_expansion_20261104/deferred_acquisition/processed/diversity/scratch",
+    "--min-seq-id",
+    "0.7",
+    "-c",
+    "0.8",
+    "--cov-mode",
+    "0",
+    "--threads",
+    "2",
+    "-k",
+    "5",
+    "--split-memory-limit",
+    "1G"
+  ]
+}

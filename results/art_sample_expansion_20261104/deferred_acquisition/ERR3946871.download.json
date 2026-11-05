@@ -1,0 +1,25 @@
+{
+  "run": "ERR3946871",
+  "url": "https://s3.amazonaws.com/logan-pub/c/ERR3946871/ERR3946871.contigs.fa.zst",
+  "requested_range": "bytes=0-1999999",
+  "retrieved_utc": "2026-11-04T11:12:56.164362+00:00",
+  "maximum_bytes": 2000000,
+  "status": 206,
+  "bytes": 2000000,
+  "headers": {
+    "x-amz-id-2": "gE3YZ5mr0GOQ8yVSwixx8RtNjad3iIT7QQlzouqP15fPYl25amp/N+3lf2cX/SQ+/vvTyaCIzjw=",
+    "x-amz-request-id": "HGRTG4690J7RZ214",
+    "Server": "AmazonS3",
+    "Date": "Wed, 04 Nov 2026 11:13:17 GMT",
+    "Last-Modified": "Mon, 27 Jan 2025 19:52:16 GMT",
+    "ETag": "\"78ee718aaf00530a912b500497159f18\"",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Content-Range": "bytes 0-1999999/24082760",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "2000000",
+    "Connection": "close"
+  },
+  "sha256": "a8d28032d66f3897a038a7c1a6f8ad569d28bb59d95719f4b636480966a5774f"
+}

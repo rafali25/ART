@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "sequence_cases": 30,
+  "null_scores": 60000,
+  "independent_null_replays": 60,
+  "sequence_coordinate_checks": 208,
+  "reverse_complement_loci": 9,
+  "group_heldout_targets": 9,
+  "behavior_cases_passed": 27,
+  "behavior_failures": [
+    "imperfect_copies_2",
+    "imperfect_copies_3",
+    "missing_copy_3"
+  ],
+  "biological_validation_claimed": false
+}

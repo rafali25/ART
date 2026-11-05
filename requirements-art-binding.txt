@@ -1,0 +1,4 @@
+# Isolated environment; install torch from the CUDA 12.4 wheel index first.
+# Baseline PyTorch kernels are used for the initial compatibility pilot.
+torch==2.5.1
+boltz==2.2.1

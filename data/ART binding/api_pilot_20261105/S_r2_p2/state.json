@@ -1,0 +1,15 @@
+{
+  "cell_id": "S_r2_p2",
+  "status": "complete",
+  "endpoint": "https://health.api.nvidia.com/v1/biology/mit/boltz2/predict",
+  "started_utc": "2026-11-05T08:26:30.594720+00:00",
+  "slurm_job_id": "373580",
+  "request_sha256": "1b90582e3f349bb838730acd4e50afd99fc35ec40f42c5eaa111958ba46ea730",
+  "cost_precheck": false,
+  "seed_parameter_available": false,
+  "submitted_seed": null,
+  "registered_local_seed": 20261105,
+  "request_id": "59836f23-1086-488b-96c7-647d9e0826c9",
+  "seconds": 21.207018894143403,
+  "ended_utc": "2026-11-05T08:26:51.802293+00:00"
+}

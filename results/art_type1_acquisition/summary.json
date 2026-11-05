@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-20T09:53:20.853471+00:00",
+  "local_FASTA_files": 6,
+  "local_FASTA_records": 6,
+  "all_local_FASTA_identical_to_previous_DNA": true,
+  "local_unique_genomes_searched": 7,
+  "additional_LPJP1_control_genomes": 1,
+  "translations_searched": 15471,
+  "translation_methods": {
+    "source_annotation": 2061,
+    "pyrodigal_gv": 2079,
+    "six_frame": 11331
+  },
+  "typeI_local_reported_translations": 0,
+  "typeI_local_passing_translations": 0,
+  "local_unmapped_ART_or_typeI_hits": [],
+  "current_typeI_pairs": [
+    {
+      "locus_id": "MZ422438.1__QXN67955.1",
+      "RT": "QXN67955.1",
+      "partner": "QXN67954.1",
+      "RT_length_aa": 509,
+      "partner_length_aa": 661,
+      "NTD_end0": 212,
+      "array_status": "not_supported_after_locus_correction",
+      "repeat_copies": 0,
+      "spacer_lengths": "[]",
+      "independent_genome_group": "LPJP1",
+      "seed_status": "publication_based_reconstruction_not_independent_validation"
+    },
+    {
+      "locus_id": "MZ422438.1__QXN67953.1",
+      "RT": "QXN67953.1",
+      "partner": "QXN67952.1",
+      "RT_length_aa": 454,
+      "partner_length_aa": 481,
+      "NTD_end0": 171,
+      "array_status": "accepted_array_candidate",
+      "repeat_copies": 5,
+      "spacer_lengths": "[148, 264, 137, 199]",
+      "independent_genome_group": "LPJP1",
+      "seed_status": "publication_based_reconstruction_not_independent_validation"
+    }
+  ],
+  "new_array_tests_executed": false,
+  "profiles_retrained": false,
+  "profile_sha256": {
+    "ART_RT": "05f010c23b7cd36cedd3170f6cdadc5150fd458c0d6ed08b34a196224b38b2b0",
+    "Type_I_partner": "e86a0b4a91dfa72507fbaa0d6ea618027d8169d68ae61e13c785606db6006545",
+    "Type_II_partner": "b238a79ca6172373708d74dd4e66172800035f573c8e4fe1ab4614b14049eec7",
+    "RVT_1": "b91872fbf0a5cd011c04a0f05b3a4b96e61aa43f01b0fa99156745ffcf508b81"
+  },
+  "pyrodigal_gv_version": "0.3.2",
+  "pyrodigal_version": "3.7.1",
+  "limitations": [
+    "single-seed type I profile; no diverse positive calibration",
+    "maximal six-frame fragments are not complete gene annotations",
+    "linear translation does not rescue genes spanning circular sequence boundaries",
+    "recovery is provisional; no biological absence or new sample claim"
+  ],
+  "elapsed_seconds": 11.695
+}

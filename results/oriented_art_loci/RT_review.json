@@ -1,0 +1,85 @@
+[
+  {
+    "locus_id": "LC680885.1__BDE75684.1",
+    "RT_protein_id": "BDE75684.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  },
+  {
+    "locus_id": "MN091626.1__QDJ97640.1",
+    "RT_protein_id": "QDJ97640.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  },
+  {
+    "locus_id": "MW218148.1__QPI16926.1",
+    "RT_protein_id": "QPI16926.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  },
+  {
+    "locus_id": "MW248466.1__QQM14740.1",
+    "RT_protein_id": "QQM14740.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  },
+  {
+    "locus_id": "MW349129.1__QQO92858.1",
+    "RT_protein_id": "QQO92858.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  },
+  {
+    "locus_id": "MZ422438.1__QXN67953.1",
+    "RT_protein_id": "QXN67953.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  },
+  {
+    "locus_id": "MZ422438.1__QXN67955.1",
+    "RT_protein_id": "QXN67955.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": true,
+    "review_reasons": [
+      "RT_profile_coverage_below_review_threshold_0.9"
+    ],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  },
+  {
+    "locus_id": "MZ779063.1__UAJ17040.1",
+    "RT_protein_id": "UAJ17040.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  },
+  {
+    "locus_id": "OR836606.1__WRM43423.1",
+    "RT_protein_id": "WRM43423.1",
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  }
+]

@@ -1,0 +1,382 @@
+easy-cluster D:/MBZUAI/CRISP/results/art_type1_catalog/primary_partners.faa D:/MBZUAI/CRISP/results/art_type1_catalog/partners70 D:/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp --min-seq-id 0.7 -c 0.8 --cov-mode 0 --threads 4 -k 5 --split-memory-limit 1G 
+
+MMseqs Version:                     	b804fbe384e6f6c9fe96322ec0e92d48bccd0a42
+Substitution matrix                 	aa:blosum62.out,nucl:nucleotide.out
+Seed substitution matrix            	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                         	4
+k-mer length                        	5
+Target search mode                  	0
+k-score                             	seq:2147483647,prof:2147483647
+Alphabet size                       	aa:21,nucl:5
+Max sequence length                 	65535
+Max results per query               	20
+Split database                      	0
+Split mode                          	2
+Split memory limit                  	1G
+Coverage threshold                  	0.8
+Coverage mode                       	0
+Compositional bias                  	1
+Compositional bias                  	1
+Diagonal scoring                    	true
+Exact k-mer matching                	0
+Mask residues                       	1
+Mask residues probability           	0.9
+Mask lower case residues            	0
+Mask lower letter repeating N times 	0
+Minimum diagonal score              	15
+Selected taxa                       	
+Include identical seq. id.          	false
+Spaced k-mers                       	1
+Preload mode                        	0
+Pseudo count a                      	substitution:1.100,context:1.400
+Pseudo count b                      	substitution:4.100,context:5.800
+Spaced k-mer pattern                	
+Local temporary path                	
+Threads                             	4
+Compressed                          	0
+Verbosity                           	3
+Add backtrace                       	false
+Alignment mode                      	3
+Alignment mode                      	0
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	0.7
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Max reject                          	2147483647
+Max accept                          	2147483647
+Score bias                          	0
+Realign hits                        	false
+Realign score bias                  	-0.2
+Realign max seqs                    	2147483647
+Correlation score weight            	0
+Gap open cost                       	aa:11,nucl:5
+Gap extension cost                  	aa:1,nucl:2
+Zdrop                               	40
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Single step clustering              	false
+Cascaded clustering steps           	3
+Cluster reassign                    	false
+Remove temporary files              	true
+Force restart with latest tmp       	false
+MPI runner                          	
+k-mers per sequence                 	21
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Shift hash                          	67
+Include only extendable             	false
+Skip repeating k-mers               	false
+Database type                       	0
+Shuffle input database              	true
+Createdb mode                       	1
+Write lookup file                   	0
+Offset of numeric ids               	0
+
+createdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/primary_partners.faa /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input --dbtype 0 --shuffle 1 --createdb-mode 1 --write-lookup 0 --id-offset 0 --compressed 0 -v 3 
+
+Shuffle database cannot be combined with --createdb-mode 0
+We recompute with --shuffle 0
+Converting sequences
+[Multiline fasta can not be combined with --createdb-mode 0
+We recompute with --createdb-mode 1
+Time for merging to input_h: 0h 0m 0s 4ms
+Time for merging to input: 0h 0m 0s 3ms
+[
+Time for merging to input_h: 0h 0m 0s 4ms
+Time for merging to input: 0h 0m 0s 10ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 65ms
+Create directory /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp
+cluster /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp -k 5 --max-seqs 20 --split-memory-limit 1G -c 0.8 --cov-mode 0 --spaced-kmer-mode 1 --threads 4 --alignment-mode 3 -e 0.001 --min-seq-id 0.7 --remove-tmp-files 1 
+
+Set cluster sensitivity to -s 1.000000
+Set cluster mode SET COVER
+Set cluster iterations to 1
+linclust /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/clu_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.7 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --alph-size aa:13,nucl:5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 -k 0 --hash-shift 67 --split-memory-limit 1G --include-only-extendable 0 --ignore-multi-kmer 0 --rescore-mode 0 --filter-hits 0 --sort-results 0 --remove-tmp-files 1 --force-reuse 0 
+
+kmermatcher /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.7 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 1G --include-only-extendable 0 --ignore-multi-kmer 0 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+kmermatcher /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.7 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 1G --include-only-extendable 0 --ignore-multi-kmer 0 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Database size: 13 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Generate k-mers list for 1 split
+[=================================================================] 13 0s 1ms
+Sort kmer 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for fill: 0h 0m 0s 1ms
+Time for merging to pref: 0h 0m 0s 5ms
+Time for processing: 0h 0m 0s 32ms
+rescorediagonal /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 0.8 -a 0 --cov-mode 0 --min-seq-id 0.7 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 4 --compressed 0 -v 3 
+
+==[===============================================================] 13 0s 2ms
+Time for merging to pref_rescore1: 0h 0m 0s 35ms
+Time for processing: 0h 0m 0s 67ms
+clust /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_rescore1 /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pre_clust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 13 0s 0ms
+Sort entries
+Find missing connections
+Found 0 new connections.
+Reconstruct initial order
+[=================================================================] 13 0s 0ms
+Add missing connections
+[=================================================================] 13 0s 0ms
+
+Time for read in: 0h 0m 0s 8ms
+Total time: 0h 0m 0s 11ms
+
+Size of the sequence database: 13
+Size of the alignment database: 13
+Number of clusters: 13
+
+Writing results 0h 0m 0s 15ms
+Time for merging to pre_clust: 0h 0m 0s 5ms
+Time for processing: 0h 0m 0s 43ms
+createsubdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/order_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 29ms
+createsubdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/order_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 19ms
+filterdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_filter1 /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_filter2 --filter-file /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/order_redundancy --threads 4 --compressed 0 -v 3 
+
+Filtering using file(s)
+[=================================================================] 13 0s 2ms
+Time for merging to pref_filter2: 0h 0m 0s 20ms
+Time for processing: 0h 0m 0s 49ms
+rescorediagonal /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_filter2 /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 0.8 -a 0 --cov-mode 0 --min-seq-id 0.7 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 4 --compressed 0 -v 3 
+
+====[=============================================================] 13 0s 2ms
+Time for merging to pref_rescore2: 0h 0m 0s 66ms
+Time for processing: 0h 0m 0s 102ms
+align /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_rescore2 /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.7 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 4 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 13 type: Aminoacid
+Target database size: 13 type: Aminoacid
+Calculation of alignments
+=[================================================================] 13 0s 3ms
+Time for merging to aln: 0h 0m 0s 35ms
+14 alignments calculated
+14 sequence pairs passed the thresholds (1.000000 of overall calculated)
+1.076923 hits per query sequence
+Time for processing: 0h 0m 0s 67ms
+clust /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/aln /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/clust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 13 0s 0ms
+Sort entries
+Find missing connections
+Found 1 new connections.
+Reconstruct initial order
+[=================================================================] 13 0s 0ms
+Add missing connections
+[=================================================================] 13 0s 0ms
+
+Time for read in: 0h 0m 0s 6ms
+Total time: 0h 0m 0s 9ms
+
+Size of the sequence database: 13
+Size of the alignment database: 13
+Number of clusters: 12
+
+Writing results 0h 0m 0s 17ms
+Time for merging to clust: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 52ms
+mergeclusters /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/clu_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pre_clust /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/clust --threads 4 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 13 0s 0ms
+Clustering step 2
+[=================================================================] 12 0s 3ms
+Write merged clustering
+[=================================================================] 13 0s 15ms
+Time for merging to clu_redundancy: 0h 0m 0s 9ms
+Time for processing: 0h 0m 0s 45ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_rescore1 -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_filter2 -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/pref_rescore2 -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/aln -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/linclust/13212221384333568117/clust -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+createsubdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/clu_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 15ms
+prefilter /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/pref_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 1 -k 5 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 1G -c 0.8 --cov-mode 0 --comp-bias-corr 0 --comp-bias-corr-scale 1 --diag-score 0 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 0 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 4 --compressed 0 -v 3 
+
+Query database size: 12 type: Aminoacid
+Estimated memory consumption: 513M
+Target database size: 12 type: Aminoacid
+Index table k-mer threshold: 148 at k-mer size 5 
+Index table: counting k-mers
+[=================================================================] 12 0s 1ms
+Index table: Masked residues: 5
+Index table: fill
+[=================================================================] 12 0s 0ms
+Index statistics
+Entries:          502
+DB size:          24 MB
+Avg k-mer size:   0.000157
+Top 10 k-mers
+    WFVEN	6
+    YEFYD	3
+    GIGKW	3
+    FSWYE	2
+    IIGCF	2
+    INGCF	2
+    ITGCF	2
+    WFVIN	2
+    PYIMN	2
+    FSWYP	2
+Time for index table init: 0h 0m 0s 25ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 148
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 12
+Target db start 1 to 12
+[=================================================================] 12 0s 10ms
+
+0.075138 k-mers per position
+49 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 27ms
+Time for processing: 0h 0m 0s 842ms
+align /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/pref_step0 /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/aln_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.7 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 4 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 12 type: Aminoacid
+Target database size: 12 type: Aminoacid
+Calculation of alignments
+[=================================================================] 12 0s 7ms
+Time for merging to aln_step0: 0h 0m 0s 32ms
+20 alignments calculated
+12 sequence pairs passed the thresholds (0.600000 of overall calculated)
+1.000000 hits per query sequence
+Time for processing: 0h 0m 0s 62ms
+clust /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/input_step_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/aln_step0 /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/clu_step0 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 12 0s 0ms
+Sort entries
+Find missing connections
+Found 0 new connections.
+Reconstruct initial order
+[=================================================================] 12 0s 0ms
+Add missing connections
+[=================================================================] 12 0s 0ms
+
+Time for read in: 0h 0m 0s 4ms
+Total time: 0h 0m 0s 6ms
+
+Size of the sequence database: 12
+Size of the alignment database: 12
+Number of clusters: 12
+
+Writing results 0h 0m 0s 13ms
+Time for merging to clu_step0: 0h 0m 0s 5ms
+Time for processing: 0h 0m 0s 35ms
+mergeclusters /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/clu_redundancy /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/clu_step0 --threads 4 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 12 0s 0ms
+Clustering step 2
+[=================================================================] 12 0s 2ms
+Write merged clustering
+[=================================================================] 13 0s 14ms
+Time for merging to clu: 0h 0m 0s 7ms
+Time for processing: 0h 0m 0s 33ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/clu_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/pref_step0 -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/aln_step0 -v 3 
+
+Time for processing: 0h 0m 0s 6ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_tmp/7178325441054109865/clu_step0 -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+createtsv /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/cluster.tsv --threads 4 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 14ms
+Time for processing: 0h 0m 0s 34ms
+result2repseq /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_rep --db-load-mode 0 --compressed 0 --threads 4 -v 3 
+
+[=================================================================] 12 0s 0ms
+Time for merging to clu_rep: 0h 0m 0s 13ms
+Time for processing: 0h 0m 0s 43ms
+result2flat /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_rep /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+createseqfiledb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_seqs --threads 4 -v 3 
+
+[=================================================================] 12 0s 0ms
+Time for merging to clu_seqs: 0h 0m 0s 14ms
+Time for processing: 0h 0m 0s 39ms
+result2flat /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_seqs /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 10ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/input_h -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /cygdrive/d/MBZUAI/CRISP/results/art_type1_catalog/mmseqs_tmp/2248873849120799215/clu -v 3 
+
+Time for processing: 0h 0m 0s 4ms

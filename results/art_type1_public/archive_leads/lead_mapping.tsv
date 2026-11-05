@@ -1,0 +1,5 @@
+contig_id	archive_member	archive_sha256	archive_doi	lead_protein_id	lead_protein_sha256	coordinates_json	status	source_url	bytes
+SRR26805139_816	sequences/d13_partners/L1_SRR26805139_SRR26805139_816_2_partner.faa	209cc85515f320400104f73889bf584364b4d1da4e0061c369e2471d980f9541	10.5281/zenodo.23086637	L1_SRR26805139_SRR26805139_816_2_partner	32e161cc391af5b865bb0d0ac0c3964ca53c5c57664ae75a277c792dea91adad	[]	unverified_mapping	https://s3.amazonaws.com/logan-pub/c/SRR26805139/SRR26805139.contigs.fa.zst	4602523
+ERR10896470_6887							target_not_in_bounded_prefix		5000000
+ERR8055547_17666							target_not_in_bounded_prefix		5000000
+SRR8925777_19762	sequences/d13_partners/ART_69_SRR8925777_19762_9_partner.faa	209cc85515f320400104f73889bf584364b4d1da4e0061c369e2471d980f9541	10.5281/zenodo.23086637	ART_69_SRR8925777_19762_9_partner	eef0b618ea607a8df9ce4f89fb9be0993655dae7f64d23766a25b2be8ea6239a	[]	unverified_mapping	https://s3.amazonaws.com/logan-pub/c/SRR8925777/SRR8925777.contigs.fa.zst	5000000

@@ -1,0 +1,21 @@
+{
+  "source_genome_key": "JPGD001252",
+  "original_id": "Viruses_Ang_PGV_seq_8345",
+  "source_path": "sources/SRC0023.gb",
+  "segments": [
+    {
+      "source_start0": 114321,
+      "source_end0": 127773,
+      "locus_start0": 0,
+      "locus_end0": 13452,
+      "orientation": 1
+    }
+  ],
+  "upstream_available_nt": 6000,
+  "source_format": "genbank",
+  "locus_path": "loci/ARTS0025.gb",
+  "sample_id": "ARTS0025",
+  "locus_id": "JPGD001252__JPGD001252_pgv121",
+  "coordinate_convention": "zero_based_half_open",
+  "original_repository_map": "results/art_expansion_20261105/JPGD/loci/JPGD001252__JPGD001252_pgv121.map.json"
+}

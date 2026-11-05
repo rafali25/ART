@@ -1,0 +1,63 @@
+[
+  {
+    "label": "hpgc_project_articles",
+    "request_url": "https://api.figshare.com/v2/projects/254252/articles",
+    "final_url": "https://api.figshare.com/v2/projects/254252/articles",
+    "status": 200,
+    "bytes": 2350,
+    "sha256": "0959d8a722a8744734006e3d12d607a37c524fd44e4bc547c0cd42c339af808a",
+    "path": "results/art_sample_expansion_20261104/dataset_inventory/hpgc_project_articles.json"
+  },
+  {
+    "label": "jpgd_record",
+    "request_url": "https://zenodo.org/api/records/14974448",
+    "final_url": "https://zenodo.org/api/records/14974448",
+    "status": 200,
+    "bytes": 3675,
+    "sha256": "69ed9a12d76fc66ef534650407f52d26070b3207a110e88e9538f93c1a6e0335",
+    "path": "results/art_sample_expansion_20261104/dataset_inventory/jpgd_record.json"
+  },
+  {
+    "label": "hpgc_article_30506864",
+    "request_url": "https://api.figshare.com/v2/articles/30506864",
+    "final_url": "https://api.figshare.com/v2/articles/30506864",
+    "status": 200,
+    "bytes": 2354,
+    "sha256": "4e4a43ad873fbbec4d08f9658d37d1f03637d5b06d5ba8c5dceee76dc9b856d7",
+    "path": "results/art_sample_expansion_20261104/dataset_inventory/hpgc_article_30506864.json"
+  },
+  {
+    "label": "hpgc_article_29414588",
+    "request_url": "https://api.figshare.com/v2/articles/29414588",
+    "final_url": "https://api.figshare.com/v2/articles/29414588",
+    "status": 200,
+    "bytes": 2591,
+    "sha256": "dda067c3d606b83967c9260539ea0f2a43c7ae210b4e6df20701c3218b199b5e",
+    "path": "results/art_sample_expansion_20261104/dataset_inventory/hpgc_article_29414588.json"
+  },
+  {
+    "label": "hpgc_article_29414282",
+    "request_url": "https://api.figshare.com/v2/articles/29414282",
+    "final_url": "https://api.figshare.com/v2/articles/29414282",
+    "status": 200,
+    "bytes": 2665,
+    "sha256": "22cbbd9d47ebfe48b015a97b3c8687129be603dd8b1c5463d2bdb3380c88b8b6",
+    "path": "results/art_sample_expansion_20261104/dataset_inventory/hpgc_article_29414282.json"
+  },
+  {
+    "label": "jpgd_analysis_script",
+    "request_url": "https://zenodo.org/api/records/14974448/files/megaphage_analysis.sh/content",
+    "final_url": "https://zenodo.org/api/records/14974448/files/megaphage_analysis.sh/content",
+    "status": 200,
+    "bytes": 9655,
+    "sha256": "ebf476a72a1a8626fcb69882cee165c76eaab375caf71054a37b4119f0ccadba",
+    "path": "results/art_sample_expansion_20261104/dataset_inventory/jpgd_analysis_script.sh"
+  },
+  {
+    "label": "download_head_checks",
+    "method": "HEAD_no_genome_body",
+    "path": "results/art_sample_expansion_20261104/dataset_inventory/download_head_checks.json",
+    "bytes": 798,
+    "sha256": "a31fa971d88f21f6021fb5d0693f2aeb274ccf1d81fb17a31f5b25780502362f"
+  }
+]

@@ -1,0 +1,5 @@
+family	source_accession	source_url	source_file	source_sha256	protein_id	RT_start0	RT_end0	strand	locus_id	upstream_available	upstream_shortfall	evidence	status
+retron	M24408.1	https://www.ebi.ac.uk/ena/browser/view/M24408.1	M24408.1.embl	21c82e58d04e0e9f3b7a9af25465594e1635070e45ea2da2927326f8f5a5ab12	AAA61471.1	547	1510	1	retron__AAA61471.1	547	5453	Ec86 per Yoon methods	retrieved
+DGR	NC_005357.1	https://www.ncbi.nlm.nih.gov/nuccore/NC_005357.1	NC_005357.1.gb	c06ec39679eae6990355f035d012d7c51d01cf68ea0f67320e10ef20f3874e5b	NP_958675.1	1755	2742	-1	DGR__NP_958675.1	6000	0	BPP-1 Brt source annotation	retrieved
+CRISPR_RT	CP002583.1	https://www.ebi.ac.uk/ena/browser/view/CP002583.1	CP002583.1.embl	96e1275d4ec83299f863f9793c47a378f7577bc37bcb5ca7741c6252b253578b	ADZ89953.1	698596	701470	-1	CRISPR_RT__ADZ89953.1	6000	0	Marme_0669 Cas6-RT-Cas1, Mohr et al. 2018	retrieved
+NART												Yoon PDF Supp.Fig.5 internal examples (54-kb,333-kb,14-kb contigs) lack accession mapping; source audit retained. AR9 membership alone is insufficient; KU878088.1 has no annotated RT and was excluded.	unavailable_verified_sequence_mapping

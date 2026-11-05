@@ -1,0 +1,82 @@
+LOCUS       retron__AAA61471.1      1602 bp    DNA     linear   BCT 01-JAN-1980
+DEFINITION  M24408.1; RT=AAA61471.1; RT-oriented locus.
+ACCESSION   retron__AAA61471
+VERSION     retron__AAA61471.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     Derived linear locus. Original record and all original annotations
+            are archived separately.
+FEATURES             Location/Qualifiers
+     source          1..1602
+                     /organism="Escherichia coli"
+                     /strain="B"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:562"
+                     /source_feature_index="0"
+                     /locus_clipped="false"
+     misc_feature    372..453
+                     /note="region of msRNA"
+                     /source_feature_index="1"
+                     /locus_clipped="false"
+     repeat_region   373..384
+                     /rpt_type=INVERTED
+                     /source_feature_index="2"
+                     /locus_clipped="false"
+     misc_feature    443..528
+                     /note="region of msDNA"
+                     /source_feature_index="3"
+                     /locus_clipped="false"
+     repeat_region   530..541
+                     /rpt_type=INVERTED
+                     /source_feature_index="4"
+                     /locus_clipped="false"
+     CDS             548..1510
+                     /codon_start=1
+                     /transl_table=11
+                     /product="reverse transcriptase"
+                     /note="chromosomal determinant"
+                     /db_xref="GOA:P23070"
+                     /db_xref="InterPro:IPR000123"
+                     /db_xref="InterPro:IPR000477"
+                     /db_xref="UniProtKB/Swiss-Prot:P23070"
+                     /protein_id="AAA61471.1"
+                     /translation="MKSAEYLNTFRLRNLGLPVMNNLHDMSKATRISVETLRLLIYTAD
+                     FRYRIYTVEKKGPEKRMRTIYQPSRELKALQGWVLRNILDKLSSSPFSIGFEKHQSILN
+                     NATPHIGANFILNIDLEDFFPSLTANKVFGVFHSLGYNRLISSVLTKICCYKNLLPQGA
+                     PSSPKLANLICSKLDYRIQGYAGSRGLIYTRYADDLTLSAQSMKKVVKARDFLFSIIPS
+                     EGLVINSKKTCISGPRSQRKVTGLVISQEKVGIGREKYKEIRAKIHHIFCGKSSEIEHV
+                     RGWLSFILSVDSKSHRRLITYISKLEKKYGKNPLNKAKT"
+                     /source_feature_index="5"
+                     /locus_clipped="false"
+ORIGIN
+        1 tggcatctat taagaaggtt aggaaagaaa ataaagtatc aaaagatatt ggaaatatat
+       61 tatacgcaga gcgtttctat tgccttgtat ctatttactg gatagtgtca actaccgcac
+      121 actgtgtgaa ctagctttta aagcgataaa gcaagatgat gttttatcta aaattattgt
+      181 tagatccgtt gtttctcgtc taataaatga acgaaaaata cttcaaatga ctgatggtta
+      241 tcaggtcact gctttggggg ctagctatgt taggagcgtc tttgatagaa agacacttga
+      301 ccgattgcgg cttgagatta tgaattttga aaaccgtaga aaatcaacat ttaactatga
+      361 taagattccg tatgcgcacc cttagcgaga ggtttatcat taaggtcaac ctctggatgt
+      421 tgtttcggca tcctgcattg aatctgagtt actgtctgtt ttccttgttg gaacggagag
+      481 catcgcctga tgctctccga gccaaccagg aaacccgttt tttctgacgt aagggtgcgc
+      541 aactttcatg aaatccgctg aatatttgaa cacttttaga ttgagaaatc tcggcctacc
+      601 tgtcatgaac aatttgcatg acatgtctaa ggcgactcgc atatctgttg aaacacttcg
+      661 gttgttaatc tatacagctg attttcgcta taggatctac actgtagaaa agaaaggccc
+      721 agagaagaga atgagaacca tttaccaacc ttctcgagaa cttaaagcct tacaaggatg
+      781 ggttctacgt aacattttag ataaactgtc gtcatctcct ttttctattg gatttgaaaa
+      841 gcaccaatct attttgaata atgctacccc gcatattggg gcaaacttta tactgaatat
+      901 tgatttggag gattttttcc caagtttaac tgctaacaaa gtttttggag tgttccattc
+      961 tcttggttat aatcgactaa tatcttcagt tttgacaaaa atatgttgtt ataaaaatct
+     1021 gctaccacaa ggtgctccat catcacctaa attagctaat ctaatatgtt ctaaacttga
+     1081 ttatcgtatt cagggttatg caggtagtcg gggcttgata tatacgagat atgccgatga
+     1141 tctcacctta tctgcacagt ctatgaaaaa ggttgttaaa gcacgtgatt ttttattttc
+     1201 tataatccca agtgaaggat tggttattaa ctcaaaaaaa acttgtatta gtgggcctcg
+     1261 tagtcagagg aaagttacag gtttagttat ttcacaagag aaagttggga taggtagaga
+     1321 aaaatataaa gaaattagag caaagataca tcatatattt tgcggtaagt cttctgagat
+     1381 agaacacgtt aggggatggt tgtcatttat tttaagtgtg gattcaaaaa gccataggag
+     1441 attaataact tatattagca aattagaaaa aaaatatgga aagaaccctt taaataaagc
+     1501 gaagacctaa tggtcttcgt tttaaaacta aagctcatag gttgaaaaat tgagcacttc
+     1561 ttcgtccaac cagttattta gttcctgcaa tcgtttctgc ag
+//

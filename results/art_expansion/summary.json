@@ -1,0 +1,26 @@
+{
+  "stage1_public_records_searched": 3,
+  "new_mapped_RT_candidates": 1,
+  "mapped_RT_loci_total": 10,
+  "stage2_records_prepared": 2,
+  "stage2_profile_search_executed": false,
+  "stage3_search_executed": false,
+  "RT_domain_tree_tips": 101,
+  "sequence_component_proteins": 10,
+  "longest_contig_cluster_representatives": 7,
+  "verified_NART_reference_count": 0,
+  "full_paper_dataset_reproduced": false,
+  "complete_ART_locus_claims": 0,
+  "validation_gate": {
+    "passed": false,
+    "reasons": [
+      "repeat_copy_validation_failures",
+      "missing_comparison_sets:NART",
+      "missing_partner_families:Type_III_first_partner,Type_III_second_partner",
+      "full_repeat_boundaries_not_independently_confirmed"
+    ],
+    "summary_sha256": "fc85f4b168008d688ec3b77ff9bd29edcb50dd5ba4a0202a681e8a1f447277ec",
+    "scope": "small_mapped_protein_pilot_allowed; definitive_locus_calls_and_further_expansion_gated"
+  },
+  "verification_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "lead_rows": 45,
+  "distinct_source_runs": 44,
+  "source_contigs": 24,
+  "exact_mapped_leads": 24,
+  "statuses": {
+    "exact_unique_peptide_mapping": 24,
+    "unresolved_bounded_prefix": 21
+  },
+  "successful_new_body_bytes": 200000000,
+  "byte_cap": 200000000,
+  "every_run_attempted": true,
+  "prefix_nonmatches_are_not_absence": true
+}

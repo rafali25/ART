@@ -1,0 +1,66 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ta83ace3c8f2871a380  -          Type_I_partner       -            4.4e-44  148.7   3.6   4.4e-44  148.7   3.6   2.3   2   0   0   2   2   1   1 ERR10900851_4993 ERR10900851_4993_pgv2
+o19baf32e325b4d2faa  -          Type_I_partner       -            4.5e-44  148.7   3.6   4.5e-44  148.7   3.6   2.3   2   0   0   2   2   1   1 ERR10900851_4993 six_frame
+o000cf2740e49827934  -          Type_I_partner       -            8.9e-42  141.1   6.5   8.9e-42  141.1   6.5   2.6   1   1   0   2   2   1   1 SRR5644066_1035 six_frame
+t78fda206627bcaad41  -          Type_I_partner       -            1.3e-41  140.5   7.3   1.3e-41  140.5   7.3   2.6   1   1   0   1   1   1   1 SRR5644066_1035 SRR5644066_1035_pgv2
+tde592a1695d61ae333  -          Type_I_partner       -            8.2e-41  137.9  17.4   8.2e-41  137.9  17.4   1.8   1   1   0   2   2   1   1 ERR8050692_787 ERR8050692_787_pgv19
+of42eb26c28c0f9e18e  -          Type_I_partner       -            1.3e-40  137.2  18.0   1.3e-40  137.2  18.0   1.8   1   1   0   2   2   1   1 ERR8050692_787 six_frame
+tc4efe0ab38a5f46c92  -          Type_I_partner       -            2.2e-39  133.2  21.8   3.3e-39  132.6  21.8   1.4   1   0   0   1   1   1   1 ERR7438152_4132 ERR7438152_4132_pgv15
+od90f59c8f846152b74  -          Type_I_partner       -            3.1e-39  132.7  22.3   5.1e-39  132.0  22.3   1.5   1   0   0   1   1   1   1 ERR7438152_4132 six_frame
+t6197d0e9fe4708c095  -          Type_I_partner       -            1.5e-37  127.2  21.7   1.5e-37  127.2  21.7   1.9   1   1   1   2   2   1   1 ERR7529523_6432 ERR7529523_6432_pgv11
+o3f7503b1ee9566527e  -          Type_I_partner       -            1.6e-37  127.0  21.9   1.6e-37  127.0  21.9   1.9   1   1   1   2   2   1   1 ERR7529523_6432 six_frame
+o7e2f06bb47601848b1  -          Type_I_partner       -            1.9e-37  126.8  15.4   8.7e-37  124.6  15.1   1.9   1   1   0   1   1   1   1 SRR5371381_9952 six_frame
+t9967e56a72cc788510  -          Type_I_partner       -            1.9e-37  126.8  15.5   9.8e-37  124.4  15.5   1.9   1   1   0   1   1   1   1 SRR5371381_9952 SRR5371381_9952_pgv4
+t07bd449de0946a2ff5  -          Type_I_partner       -            4.5e-37  125.6  23.1   8.1e-37  124.7  23.1   1.5   1   0   0   1   1   1   1 ERR8050416_7654 ERR8050416_7654_pgv13
+o5e4ba3f612ace34b3e  -          Type_I_partner       -            4.9e-37  125.4  23.2     9e-37  124.6  23.2   1.6   1   0   0   1   1   1   1 ERR8050416_7654 six_frame
+t173e556372e7f95c41  -          Type_I_partner       -            1.2e-36  124.2  11.1   1.2e-36  124.2  11.1   2.7   2   1   0   3   3   1   1 SRR22802066_51 SRR22802066_51_pgv24
+o2392e1be537f8a3937  -          Type_I_partner       -            1.2e-36  124.1  11.1   1.2e-36  124.1  11.1   2.7   1   1   0   2   2   1   1 SRR22802066_51 six_frame
+t8057be10f1073fe37c  -          Type_I_partner       -            1.1e-35  121.0  19.0   1.1e-35  121.0  19.0   1.7   1   1   0   1   1   1   1 ERR8449991_4587 ERR8449991_4587_pgv2
+o9f012837b7d40897e1  -          Type_I_partner       -            1.2e-35  120.9  19.2   1.2e-35  120.9  19.2   1.7   1   1   0   1   1   1   1 ERR8449991_4587 six_frame
+td33ff08978d09fc86a  -          Type_I_partner       -            3.5e-35  119.3   3.5   7.2e-35  118.3   3.5   1.5   1   0   0   1   1   1   1 ERR2683165_478 ERR2683165_478_pgv2
+o3f0930995ac7e54e75  -          Type_I_partner       -            3.5e-35  119.3   3.5   7.2e-35  118.3   3.5   1.5   1   0   0   1   1   1   1 ERR2683165_478 six_frame
+odf97cba8a0566c7d1b  -          Type_I_partner       -            3.5e-35  119.3   3.5   7.2e-35  118.3   3.5   1.5   1   0   0   1   1   1   1 ERR2683165_478 six_frame
+t2370e252ddf73bbae7  -          Type_I_partner       -            1.7e-34  117.1  22.1   1.7e-34  117.1  22.1   1.8   2   0   0   2   2   1   1 ERR8055447_3422 ERR8055447_3422_pgv14
+o4c1d81f107564df941  -          Type_I_partner       -            1.7e-34  117.0  22.1   1.7e-34  117.0  22.1   1.8   2   0   0   2   2   1   1 ERR8055447_3422 six_frame
+td025e3e6021a537516  -          Type_I_partner       -            2.8e-28   96.6   0.6   2.8e-28   96.6   0.6   1.8   2   0   0   2   2   1   1 ERR8509207_4241 ERR8509207_4241_pgv29
+o42715599d88b429392  -          Type_I_partner       -            2.8e-28   96.5   0.6   2.8e-28   96.5   0.6   1.8   2   0   0   2   2   1   1 ERR8509207_4241 six_frame
+t56fb614810d31006c5  -          Type_I_partner       -              3e-28   96.4   1.9   7.5e-28   95.1   1.8   1.6   1   1   0   1   1   1   1 ERR8025381_8562 ERR8025381_8562_pgv13
+o0a1e2a1ca7bc0d46ab  -          Type_I_partner       -            3.1e-28   96.4   1.9   7.6e-28   95.1   1.8   1.6   1   1   0   1   1   1   1 ERR8025381_8562 six_frame
+t0fb8ba37dbf77151d6  -          Type_I_partner       -            3.3e-25   86.4   1.3   3.3e-25   86.4   1.3   2.0   2   0   0   2   2   1   1 ERR8025381_8562 ERR8025381_8562_pgv11
+o34a16cd31624c1d9c2  -          Type_I_partner       -            3.3e-25   86.4   1.3   3.3e-25   86.4   1.3   2.0   2   0   0   2   2   1   1 ERR8025381_8562 six_frame
+tfc74b6de59c153b8cd  -          Type_I_partner       -            6.6e-24   82.1   1.3   6.6e-24   82.1   1.3   2.0   2   0   0   2   2   1   1 ERR8509207_4241 ERR8509207_4241_pgv27
+o5b9819d85d0f4f8b6d  -          Type_I_partner       -            6.7e-24   82.1   1.3   6.7e-24   82.1   1.3   2.0   2   0   0   2   2   1   1 ERR8509207_4241 six_frame
+o2cde705e23e9651548  -          Type_I_partner       -            2.2e-22   77.1  29.2   4.3e-22   76.1  28.9   1.5   1   1   0   1   1   1   1 ERR3211773_30326 six_frame
+t88c8249b2e06c2011e  -          Type_I_partner       -            4.2e-22   76.2  30.1   7.8e-22   75.3  30.1   1.5   1   1   0   1   1   1   1 ERR3211773_30326 ERR3211773_30326_pgv3
+t17b8bd9d64cb725a0d  -          Type_I_partner       -            1.9e-21   74.0   7.6   8.4e-21   71.9   7.6   2.0   1   1   0   1   1   1   1 SRR10873276_990 SRR10873276_990_pgv2
+t6014f7cd493b36f233  -          Type_I_partner       -            1.9e-21   74.0   7.6   8.4e-21   71.9   7.6   2.0   1   1   0   1   1   1   1 SRR10873277_312 SRR10873277_312_pgv10
+o2054348855759ecc93  -          Type_I_partner       -              2e-21   74.0   7.6   8.5e-21   71.9   7.6   2.0   1   1   0   1   1   1   1 SRR10873276_990 six_frame
+o42b8aee100267b0125  -          Type_I_partner       -              2e-21   74.0   7.6   8.5e-21   71.9   7.6   2.0   1   1   0   1   1   1   1 SRR10873277_312 six_frame
+t14f2b0cb129c27642e  -          Type_I_partner       -            1.4e-20   71.1  38.9   2.2e-20   70.5  38.9   1.3   1   0   0   1   1   1   1 SRR22802066_51 SRR22802066_51_pgv22
+od47715c2b3abe01253  -          Type_I_partner       -            1.5e-20   71.1  38.8   2.2e-20   70.5  38.8   1.3   1   0   0   1   1   1   1 SRR22802066_51 six_frame
+t5cf1daf3f2675f3c8c  -          Type_I_partner       -            9.7e-14   48.6  27.7   9.7e-14   48.6  27.7   2.9   1   1   2   3   3   1   1 SRR16953781_2281 SRR16953781_2281_pgv3
+oc730beee4472b32d9a  -          Type_I_partner       -            2.5e-13   47.2  29.2   2.5e-13   47.2  29.2   2.9   1   1   1   3   3   1   1 SRR16953781_2281 six_frame
+od48e877209d0a51b70  -          Type_I_partner       -            4.1e-13   46.5   8.1   4.1e-13   46.5   8.1   3.2   1   1   0   2   2   1   1 ERR4183494_514 six_frame
+t5bf7d90b1129d8d51f  -          Type_I_partner       -            2.6e-12   43.9  16.3   2.6e-12   43.9  16.3   2.4   1   1   0   2   2   1   1 SRR23636733_2382 SRR23636733_2382_pgv11
+t989a22e944a5f378ff  -          Type_I_partner       -            2.6e-12   43.9  16.3   2.6e-12   43.9  16.3   2.4   1   1   0   2   2   1   1 SRR23636717_4978 SRR23636717_4978_pgv5
+o7dd593770eca38f2e1  -          Type_I_partner       -            3.2e-12   43.6  16.3   3.2e-12   43.6  16.3   2.4   1   1   0   2   2   1   1 SRR23636717_4978 six_frame
+o801f13afcddcce014f  -          Type_I_partner       -            3.2e-12   43.6  16.3   3.2e-12   43.6  16.3   2.4   1   1   0   2   2   1   1 SRR23636733_2382 six_frame
+te7f7c48d921e0d28de  -          Type_I_partner       -            3.5e-12   43.5  11.8   3.5e-12   43.5  11.8   3.2   1   1   1   2   2   1   1 ERR4183494_514 ERR4183494_514_pgv1
+t0d83b9168045cb287e  -          Type_I_partner       -            3.1e-10   37.0  17.0   3.1e-10   37.0  17.0   2.1   1   1   0   1   1   1   1 SRR26954464_13799 SRR26954464_13799_pgv3
+o98844e0bd379e3447d  -          Type_I_partner       -            4.5e-10   36.5  17.1   4.5e-10   36.5  17.1   2.0   1   1   0   1   1   1   1 SRR26954464_13799 six_frame
+of731002e38ca8d9d90  -          Type_I_partner       -            1.9e-07   27.9  21.0   7.6e-07   25.9  18.2   2.5   1   1   0   1   1   1   1 SRR23636735_4859 six_frame
+t2cd3b6d9ca81587594  -          Type_I_partner       -              3e-07   27.2  21.9   8.8e-07   25.6  18.3   2.6   1   1   0   1   1   1   1 SRR23636735_4859 SRR23636735_4859_pgv6
+t2000db3674a16f399a  -          Type_I_partner       -            2.3e-05   21.0  25.3   2.3e-05   21.0  25.3   2.9   2   1   0   2   2   1   1 ERR4183474_751 ERR4183474_751_pgv22
+o616d2c81abf817024b  -          Type_I_partner       -            0.00011   18.8  27.4   0.00011   18.8  27.4   2.9   2   1   0   2   2   1   1 ERR4183474_751 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/searches/Type_I_partner.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/searches/Type_I_partner.domtbl -E 0.001 --domE 0.001 -Z 3893 --domZ 3893 --seed 42 --cpu 2 /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Thu Nov  5 01:44:29 2026
+# [ok]

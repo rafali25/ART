@@ -1,0 +1,21 @@
+{
+  "source_contigs": 24,
+  "proteins_and_ORFs": 3893,
+  "mapped_RT_loci": 16,
+  "typeI_pair_associations": 17,
+  "primary_typeI_pairs": 16,
+  "new_public_primary_pairs": 16,
+  "exploratory_arrays": 0,
+  "validation_limits": {
+    "passed": false,
+    "reasons": [
+      "repeat_copy_validation_failures",
+      "missing_comparison_sets:NART",
+      "missing_partner_families:Type_III_first_partner,Type_III_second_partner",
+      "full_repeat_boundaries_not_independently_confirmed"
+    ],
+    "summary_sha256": "fc85f4b168008d688ec3b77ff9bd29edcb50dd5ba4a0202a681e8a1f447277ec",
+    "scope": "small_mapped_protein_pilot_allowed; definitive_locus_calls_and_further_expansion_gated"
+  },
+  "elapsed_seconds": 7.093
+}

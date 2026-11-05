@@ -1,0 +1,19 @@
+{
+  "dataset_version": "2026-11-05",
+  "created_utc": "2026-11-05T06:55:29.927738+00:00",
+  "slurm_job_id": "373381",
+  "compute_host": "cn-06",
+  "samples": 46,
+  "partner_types": {
+    "Type_I": 36,
+    "Type_II": 10
+  },
+  "complete_pairs": 41,
+  "complete_typeI_pairs": 31,
+  "complete_strict_ART_screen_typeI_pairs": 18,
+  "newly_retained_in_expansion": 21,
+  "excluded_aliases": 3,
+  "source_files": 44,
+  "all_samples_family_validation_status": "unresolved_without_verified_NART_controls",
+  "experimentally_validated_in_this_run": 0
+}

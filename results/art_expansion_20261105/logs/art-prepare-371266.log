@@ -1,0 +1,16 @@
+CHECKPOINT 1 COMPLETE: {"reviewed_pairs": 4, "passing_complete_typeI": 1, "passing_complete_typeII": 2, "RT_coverage_review_only": 1, "original_catalog_hashes_verified": 24, "accepted_new_arrays": 0}
+Downloading HPGC
+Traceback (most recent call last):
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_expansion_workflow.py", line 183, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_expansion_workflow.py", line 180, in main
+    if args.stage in ('prepare','download'):download_catalogs()
+                                            ^^^^^^^^^^^^^^^^^^^
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_expansion_workflow.py", line 169, in download_catalogs
+    path=fetch(entry['url'],OUT/'downloads'/entry['file'],entry['bytes']+1,entry['md5'],entry['bytes'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_expansion_workflow.py", line 131, in fetch
+    write_json(path.with_suffix(path.suffix+'.request.json'),dict(url=url,retrieved_utc=utc(),bytes=total,sha256=sha(path),md5=file_md5(path),**info))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'url'

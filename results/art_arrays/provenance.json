@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-19T16:52:18.140686+00:00",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "biopython": "1.88",
+  "numpy": "2.5.4",
+  "random_generator": "numpy.PCG64",
+  "command": [
+    "scripts/art_array_detector.py"
+  ],
+  "paper_path": "literature/Yoon et al. 2026 Array Associated Reverse Transcriptases (2).pdf",
+  "paper_sha256": "d43c2fa66aa1d255aba37a0499390bcd86e5b2cafa1f8d249d728e998a4b3b27",
+  "input_hashes": {
+    "locus_manifest.tsv": "9abba896448f398717f5e3da2617a2fbf5174126bb293240824f5591a70992bb",
+    "coordinate_map.tsv": "185711abe058060737e66e6c6f7cbf05462f6cfc6c8cc9a7bc0d1c4e5a12c121",
+    "loci/LC680885.1__BDE75684.1.gb": "df42e97e0be65dd3de7aae9f6ebed74631f4972202dfad93006a9da48b8e3b90",
+    "loci/MN091626.1__QDJ97640.1.gb": "ea010a4a9db6b88f10acce50ab0306f299c2d1170031ffbdc7cd38ff409e1cdd",
+    "loci/MW218148.1__QPI16926.1.gb": "c72a6ca32fe2e2869c0f28c6d87c6e92e0269ca7d81406ba59a8b6e61e736cfe",
+    "loci/MW248466.1__QQM14740.1.gb": "59862292a9fc50a7a537c2a39818c3c98bd8fd64b81aaeb48f5043d2ae79af7a",
+    "loci/MW349129.1__QQO92858.1.gb": "4ae8cb47d650ffdd76c5a73abf1db53ae4c25b97e801d420c33b0cd7b06856f1",
+    "loci/MZ422438.1__QXN67953.1.gb": "4786e9bf75519581e3899a23da6ebf73e79637774b8616b6bc8ed99e81b9d470",
+    "loci/MZ422438.1__QXN67955.1.gb": "ad50fc74bd16b08aebba26ed2bca97535a711e631b0c45d7c5c38abe442e0d32",
+    "loci/MZ779063.1__UAJ17040.1.gb": "fa682efc13e2ec98b71ef50d375f556069b55b38afa077c16731a8294d80c6b6",
+    "loci/OR836606.1__WRM43423.1.gb": "566a5d71527aa1f10980fc5d20597dad1f7fc8326cdb2795a303511f92d8ce6c"
+  },
+  "mafft_launcher_sha256": "705d28f1143ced805c2de187911c68a3ec409434cb6a4c07a80d95419dc27819",
+  "finalization_command": [
+    "scripts/art_array_detector.py",
+    "--finalize-only"
+  ],
+  "finalized_utc": "2026-10-19T16:56:01.698620+00:00"
+}

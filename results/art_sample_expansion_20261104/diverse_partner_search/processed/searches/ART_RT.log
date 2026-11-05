@@ -1,0 +1,111 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/ART_RT.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/ART_RT.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    1729
+# domain search space set to:      1729
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ART_RT  [M=500]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    8.4e-28   94.2   4.6    8.4e-28   94.2   4.6    2.9  1  t5958cb5aa00066a91a  MGYC003966598318 MGYC003966598318_pgv45
+    1.4e-27   93.4   5.3    1.4e-27   93.4   5.3    2.9  1  o8bed33e679d8257bf1  MGYC003966598318 six_frame
+    2.5e-06   23.4   0.3    2.8e-06   23.2   0.3    1.0  1  o49042553fbd0cac204  MGYC001042694086 six_frame
+    2.5e-06   23.4   0.3    2.8e-06   23.2   0.3    1.0  1  t3324b44131ef971e9c  MGYC001042694086 MGYC001042694086_pgv2
+
+
+Domain annotation for each sequence (and alignments):
+>> t5958cb5aa00066a91a  MGYC003966598318 MGYC003966598318_pgv45
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.2   4.6   8.4e-28   8.4e-28     274     459 ..     298     489 ..     280     510 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 94.2 bits;  conditional E-value: 8.4e-28
+               ART_RT 274 ktiikfdiskffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvt 363
+                            i+k+diskff++   +y k+   f +   +   + f  ++k+ + +++n++ly+G+p+s+++snl++++    i+  ls +  +i+  
+  t5958cb5aa00066a91a 298 SNILKLDISKFFESISWEYVKNKCQFLIGGLNE-NDPFVRFIKK-VVVDENDQLYMGNPISGIISNLVLLKAWSDIRLRLSYY--NIQSF 383
+                          469*******************99998876554.799*******.899***********************************..***** PP
+
+               ART_RT 364 vyadditf.ssneindefnkkrlkslvnhafkvngl.kfklkeekslvlknhkrkitGltvnh...ndeptisqkryrqlrtiihllnkg 448
+                          +yadd+tf s++e    + +k+++++vn  ++ ngl   kl+e+k  + kn  r + G+t+       e+ + ++  r+lr+ +h l k 
+  t5958cb5aa00066a91a 384 IYADDMTFiSTDEKRTYLPTKHIIKVVNTCLRDNGLhNIKLNEKKVKYRKNSERTVLGITLKTvpgGMELGVPRRNIRNLRAAVHNLGKA 473
+                          ********445555556899***************8358*******************98665211689*****************9987 PP
+
+               ART_RT 449 .....vefkdikgfet 459
+                               ++++ i g+++
+  t5958cb5aa00066a91a 474 eeldiSDMRYIMGYYN 489
+                          1222244566666665 PP
+
+>> o8bed33e679d8257bf1  MGYC003966598318 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.4   5.3   1.4e-27   1.4e-27     275     459 ..     309     499 ..     298     524 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 93.4 bits;  conditional E-value: 1.4e-27
+               ART_RT 275 tiikfdiskffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtv 364
+                           i+k+diskff++   +y k+   f +   +   + f  ++k+ + +++n++ly+G+p+s+++snl++++    i+  ls +  +i+  +
+  o8bed33e679d8257bf1 309 NILKLDISKFFESISWEYVKNKCQFLIGGLNE-NDPFVRFIKK-VVVDENDQLYMGNPISGIISNLVLLKAWSDIRLRLSYY--NIQSFI 394
+                          69*******************99998876554.799*******.899***********************************..****** PP
+
+               ART_RT 365 yadditf.ssneindefnkkrlkslvnhafkvngl.kfklkeekslvlknhkrkitGltvnh...ndeptisqkryrqlrtiihllnkg. 448
+                          yadd+tf s++e    + +k+++++vn  ++ ngl   kl+e+k  + kn  r + G+t+       e+ + ++  r+lr+ +h l k  
+  o8bed33e679d8257bf1 395 YADDMTFiSTDEKRTYLPTKHIIKVVNTCLRDNGLhNIKLNEKKVKYRKNSERTVLGITLKTvpgGMELGVPRRNIRNLRAAVHNLGKAe 484
+                          *******445555556899***************8358*******************98665211689*****************99871 PP
+
+               ART_RT 449 ....vefkdikgfet 459
+                              ++++ i g+++
+  o8bed33e679d8257bf1 485 eldiSDMRYIMGYYN 499
+                          222244566666665 PP
+
+>> o49042553fbd0cac204  MGYC001042694086 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   0.3   2.8e-06   2.8e-06     434     488 ..       3      55 ..       1      63 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 23.2 bits;  conditional E-value: 2.8e-06
+               ART_RT 434 ryrqlrtiihllnkgvefkdikgfetplelvslinyyldvdttekvkklmdknek 488
+                          +y+ lr+i+h l    ++ +     +p+ + s+++yy  vd+++k+ +l+dk+++
+  o49042553fbd0cac204   3 KYETLRSILHRLHVTQDLNSLT--MEPISIQSRLAYYRYVDESGKISRLIDKYKE 55 
+                          8***********9999887665..79**************************986 PP
+
+>> t3324b44131ef971e9c  MGYC001042694086 MGYC001042694086_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   0.3   2.8e-06   2.8e-06     434     488 ..       3      55 ..       1      63 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 23.2 bits;  conditional E-value: 2.8e-06
+               ART_RT 434 ryrqlrtiihllnkgvefkdikgfetplelvslinyyldvdttekvkklmdknek 488
+                          +y+ lr+i+h l    ++ +     +p+ + s+++yy  vd+++k+ +l+dk+++
+  t3324b44131ef971e9c   3 KYETLRSILHRLHVTQDLNSLT--MEPISIQSRLAYYRYVDESGKISRLIDKYKE 55 
+                          8***********9999887665..79**************************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (500 nodes)
+Target sequences:                       1729  (233166 residues searched)
+Passed MSV filter:                       160  (0.092539); expected 34.6 (0.02)
+Passed bias filter:                       15  (0.00867553); expected 34.6 (0.02)
+Passed Vit filter:                         4  (0.00231348); expected 1.7 (0.001)
+Passed Fwd filter:                         4  (0.00231348); expected 0.0 (1e-05)
+Initial search space (Z):               1729  [as set by --Z on cmdline]
+Domain search space  (domZ):            1729  [as set by --domZ on cmdline]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 4008.36
+//
+[ok]

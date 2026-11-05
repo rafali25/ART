@@ -1,0 +1,17 @@
+{
+  "selected_before_ART_profile_search": true,
+  "profile_search_executed": false,
+  "query": "phage[Title] AND metagenome[All Fields] AND 100000:400000[SLEN]",
+  "provider": "NCBI nuccore ESearch/EFetch",
+  "query_returned_count": 60,
+  "selected_uids": [
+    "3141016435",
+    "2916026621"
+  ],
+  "frozen_accessions": [
+    "PX848769.1",
+    "PV020493.1"
+  ],
+  "selection_scope": "small deterministic frozen public viral/metagenomic preparation panel; no ART hit preselection",
+  "retrieval_date": "2026-10-20"
+}

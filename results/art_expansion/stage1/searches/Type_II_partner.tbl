@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g7ec0ca08be6d698a    -          Type_II_partner      -           9.9e-175  576.9  52.9  1.1e-174  576.7  52.9   1.0   1   0   0   1   1   1   1 MZ779063.1 UAJ17041.1
+g61d9c0cab2e60280    -          Type_II_partner      -           2.2e-174  575.8  52.4  2.4e-174  575.6  52.4   1.0   1   0   0   1   1   1   1 LC680885.1 BDE75685.1
+gc1777d66aaa3b29b    -          Type_II_partner      -           3.6e-174  575.0  51.2  4.1e-174  574.9  51.2   1.0   1   0   0   1   1   1   1 MN091626.1 QDJ97641.1
+g25741fcaaefc98f3    -          Type_II_partner      -           5.1e-168  554.9  52.5  5.6e-168  554.7  52.5   1.0   1   0   0   1   1   1   1 MW349129.1 QQO92859.1
+g6f04796fdfe6dbd1    -          Type_II_partner      -             4e-167  551.9  53.1  4.5e-167  551.8  53.1   1.0   1   0   0   1   1   1   1 OR836606.1 WRM43422.1
+g20502e802de3b4ec    -          Type_II_partner      -           5.3e-164  541.7  52.5  5.9e-164  541.6  52.5   1.0   1   0   0   1   1   1   1 MW248466.1 QQM14741.1
+g2d0b6fed12ea0565    -          Type_II_partner      -              9e-56  186.8  35.3     1e-55  186.6  35.3   1.0   1   0   0   1   1   1   1 MW218148.1 QPI16927.1
+gf73897c097e94fd0    -          Type_II_partner      -            1.7e-32  110.5  56.4     2e-32  110.2  56.4   1.0   1   0   0   1   1   1   1 MW349128.1 QQO92594.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\Type_II_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\Type_II_partner.domtbl -E 0.001 --domE 0.001 -Z 2997 --domZ 2997 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_II_partner.hmm D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 12:43:38 2026
+# [ok]

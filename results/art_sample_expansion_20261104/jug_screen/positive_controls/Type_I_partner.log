@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.seeds.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_I_partner.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_I_partner.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    69120
+# domain search space set to:      69120
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_I_partner  [M=481]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+          0 1122.3  55.2          0 1122.1  55.2    1.0  1  QXN67952.1  MZ422438.1
+
+
+Domain annotation for each sequence:
+>> QXN67952.1  MZ422438.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1122.1  55.2         0         0       1     481 []       1     481 []       1     481 [] 1.00
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (481 nodes)
+Target sequences:                          1  (481 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):              69120  [as set by --Z on cmdline]
+Domain search space  (domZ):           69120  [as set by --domZ on cmdline]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 46.85
+//
+[ok]

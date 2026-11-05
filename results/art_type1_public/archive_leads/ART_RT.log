@@ -1,0 +1,44 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# target sequence database:        D:/MBZUAI/CRISP/results/art_type1_public/archive_leads/leads_and_GNAT_controls.faa
+# per-seq hits tabular output:     D:\MBZUAI\CRISP\results\art_type1_public\archive_leads\ART_RT.tbl
+# per-dom hits tabular output:     D:\MBZUAI\CRISP\results\art_type1_public\archive_leads\ART_RT.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    94
+# domain search space set to:      94
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ART_RT  [M=500]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (500 nodes)
+Target sequences:                         94  (57072 residues searched)
+Passed MSV filter:                        31  (0.329787); expected 1.9 (0.02)
+Passed bias filter:                        0  (0); expected 1.9 (0.02)
+Passed Vit filter:                         0  (0); expected 0.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                 94  [as set by --Z on cmdline]
+Domain search space  (domZ):              94  [as set by --domZ on cmdline]
+# CPU time: 0.05u 0.08s 00:00:00.12 Elapsed: 00:00:00.13
+# Mc/sec: 204.08
+//
+[ok]

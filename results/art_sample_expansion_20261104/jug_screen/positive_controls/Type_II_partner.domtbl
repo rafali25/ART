@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+UAJ17041.1           -            274 Type_II_partner      -            274  2.3e-173  576.9  52.9   1   1  2.6e-173  2.6e-173  576.7  52.9     1   274     1   274     1   274 1.00 MZ779063.1
+BDE75685.1           -            274 Type_II_partner      -            274    5e-173  575.8  52.4   1   1  5.6e-173  5.6e-173  575.6  52.4     1   274     1   274     1   274 1.00 LC680885.1
+QDJ97641.1           -            274 Type_II_partner      -            274  8.4e-173  575.0  51.2   1   1  9.3e-173  9.3e-173  574.9  51.2     1   274     1   274     1   274 1.00 MN091626.1
+QQO92859.1           -            274 Type_II_partner      -            274  1.2e-166  554.9  52.5   1   1  1.3e-166  1.3e-166  554.7  52.5     1   274     1   274     1   274 1.00 MW349129.1
+WRM43422.1           -            274 Type_II_partner      -            274  9.2e-166  551.9  53.1   1   1    1e-165    1e-165  551.8  53.1     1   274     1   274     1   274 1.00 OR836606.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.seeds.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_II_partner.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_II_partner.domtbl --noali -E 0.001 --domE 0.001 -Z 69120 --domZ 69120 --seed 42 --cpu 1 /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.seeds.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:22:10 2026
+# [ok]

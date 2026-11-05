@@ -1,0 +1,94 @@
+[
+  {
+    "historical_contig": "SRR26805139_816",
+    "matches": [
+      {
+        "contig_id": "SRR26805139_340",
+        "maps": [
+          {
+            "start0": 2037,
+            "end0": 4587,
+            "strand": 1,
+            "genetic_code": 11,
+            "initiator_normalized": false
+          }
+        ]
+      }
+    ],
+    "current_prefix_bytes": 4602523,
+    "current_source_url": "https://s3.amazonaws.com/logan-pub/c/SRR26805139/SRR26805139.contigs.fa.zst",
+    "status": "current_mapping_confirmed",
+    "old_length_nt": 5048,
+    "current_length_nt": 16150,
+    "identical_DNA": false
+  },
+  {
+    "historical_contig": "ERR10896470_6887",
+    "matches": [
+      {
+        "contig_id": "ERR10896470_6836",
+        "maps": [
+          {
+            "start0": 2036,
+            "end0": 4592,
+            "strand": 1,
+            "genetic_code": 11,
+            "initiator_normalized": false
+          }
+        ]
+      }
+    ],
+    "current_prefix_bytes": 10000000,
+    "current_source_url": "https://s3.amazonaws.com/logan-pub/c/ERR10896470/ERR10896470.contigs.fa.zst",
+    "status": "current_mapping_confirmed",
+    "old_length_nt": 15206,
+    "current_length_nt": 15206,
+    "identical_DNA": true
+  },
+  {
+    "historical_contig": "ERR8055547_17666",
+    "matches": [
+      {
+        "contig_id": "ERR8055547_17635",
+        "maps": [
+          {
+            "start0": 21564,
+            "end0": 24234,
+            "strand": 1,
+            "genetic_code": 11,
+            "initiator_normalized": false
+          }
+        ]
+      }
+    ],
+    "current_prefix_bytes": 10000000,
+    "current_source_url": "https://s3.amazonaws.com/logan-pub/c/ERR8055547/ERR8055547.contigs.fa.zst",
+    "status": "current_mapping_confirmed",
+    "old_length_nt": 38357,
+    "current_length_nt": 38357,
+    "identical_DNA": true
+  },
+  {
+    "historical_contig": "SRR8925777_19762",
+    "matches": [
+      {
+        "contig_id": "SRR8925777_19723",
+        "maps": [
+          {
+            "start0": 16466,
+            "end0": 18248,
+            "strand": 1,
+            "genetic_code": 11,
+            "initiator_normalized": false
+          }
+        ]
+      }
+    ],
+    "current_prefix_bytes": 5000000,
+    "current_source_url": "https://s3.amazonaws.com/logan-pub/c/SRR8925777/SRR8925777.contigs.fa.zst",
+    "status": "current_mapping_confirmed",
+    "old_length_nt": 18349,
+    "current_length_nt": 18349,
+    "identical_DNA": true
+  }
+]

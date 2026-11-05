@@ -1,0 +1,15 @@
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             D:/MBZUAI/CRISP/results/art_type1_mgnify/profiles/typeI_two_LPJP1_queries.aligned.faa
+# output HMM file:                  D:/MBZUAI/CRISP/results/art_type1_mgnify/profiles/TypeI_two_seed_exploratory.hmm
+# input alignment is asserted as:   protein
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     typeI_two_LPJP1_queries.aligned     2   697   697     0.63  0.587 
+
+# CPU time: 0.20u 0.00s 00:00:00.20 Elapsed: 00:00:00.21

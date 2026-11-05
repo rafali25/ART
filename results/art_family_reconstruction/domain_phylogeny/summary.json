@@ -1,0 +1,25 @@
+{
+  "method": "RVT_1 envelope +/-40aa; MAFFT L-INS-i; 50% occupancy-column trimming; FastTree LG+Gamma approximate phylogeny",
+  "not_the_published_IQ_TREE_trimAl_domain_analysis": true,
+  "columns": 272,
+  "tips": 101,
+  "class_counts": {
+    "CRISPR_RT": 11,
+    "group_II_like": 12,
+    "UG": 12,
+    "retron": 12,
+    "ART": 9,
+    "query": 10,
+    "Abi": 11,
+    "DGR": 12,
+    "group_II_intron": 12
+  },
+  "NART_reference_count": 0,
+  "scope": "Descriptive nearest-labelled-reference affinity, not a calibrated classifier or ART/NART boundary",
+  "model_limitations": [
+    "No verified NART reference tips",
+    "FastTree local support is not IQ-TREE UFBoot/SH-aLRT",
+    "Occupancy trim is not trimAl gappyout",
+    "The small reference panel does not reproduce the 774-tip study tree"
+  ]
+}

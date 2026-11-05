@@ -1,0 +1,15 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+HPGC001745_pgv248    -            552 typeI_two_LPJP1_queries.aligned -            697   6.9e-76  262.9  37.5   1   1   2.2e-75   2.2e-75  261.2  37.5   204   691    87   533    33   539 0.84 huge_phage_2038
+HPGC002048_pgv240    -            554 typeI_two_LPJP1_queries.aligned -            697   6.1e-50  177.2   0.0   1   1   2.2e-45   2.2e-45  162.1   0.0   198   498    85   360    70   373 0.92 huge_phage_2392
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# Target file:     /tmp/art-371321-HPGC-2i4g7j99/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/HPGC/searches/TypeI_two_seed.domtbl --noali -E .001 --domE .001 -Z 2428566 --domZ 2428566 --seed 42 --cpu 1 /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm /tmp/art-371321-HPGC-2i4g7j99/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Thu Nov  5 01:33:05 2026
+# [ok]

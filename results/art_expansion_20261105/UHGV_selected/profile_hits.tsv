@@ -1,0 +1,15 @@
+target	profile	sequence_evalue	domain_evalue	sequence_bits	domain_bits	profile_coverage	hmm_start0	hmm_end0	protein_alignment_start0	protein_alignment_end0	protein_envelope_start0	protein_envelope_end0	family	passes_frozen_screen
+UHGV_selected000007_pgv130	RVT_1	2.1e-15	3.7e-15	57.2	56.3	0.85	6	176	70	246	65	260	RVT_1	True
+UHGV_selected000013_pgv247	RVT_1	1.9e-14	1.9e-14	54.0	54.0	0.835	32	199	95	265	69	266	RVT_1	True
+UHGV_selected000002_pgv481	RVT_1	2e-14	4.1e-14	54.0	52.9	0.99	2	200	98	299	96	299	RVT_1	True
+UHGV_selected000011_pgv5	RVT_1	3.7e-14	8.8e-14	53.1	51.9	0.835	32	199	95	265	69	266	RVT_1	True
+UHGV_selected000096_pgv235	RVT_1	5.1e-14	7.7e-14	52.6	52.1	0.75	50	200	134	292	72	292	RVT_1	True
+UHGV_selected000028_pgv184	RVT_1	2.3e-13	2.6e-07	50.5	30.7	0.22	143	187	262	306	247	319	RVT_1	False
+UHGV_selected000014_pgv36	RVT_1	2.4e-13	4.5e-13	50.4	49.5	0.95	6	196	94	293	89	297	RVT_1	True
+UHGV_selected000017_pgv147	RVT_1	3.3e-12	5.9e-12	46.7	45.9	0.97	2	196	69	271	68	275	RVT_1	True
+UHGV_selected000018_pgv145	RVT_1	5.7e-12	1.1e-11	46.0	45.0	0.97	2	196	91	293	90	297	RVT_1	True
+UHGV_selected000022_pgv183	RVT_1	6.6e-12	7e-08	45.7	32.6	0.26	144	196	268	320	254	324	RVT_1	False
+UHGV_selected000015_pgv210	RVT_1	7e-12	7.5e-08	45.7	32.5	0.26	144	196	268	320	254	324	RVT_1	False
+UHGV_selected000078_pgv235	RVT_1	1.1e-09	2.5e-09	38.5	37.3	0.96	7	199	79	288	68	289	RVT_1	True
+UHGV_selected000072_pgv36	RVT_1	1.8e-09	2.2e-09	37.8	37.5	0.955	8	199	79	287	67	288	RVT_1	True
+UHGV_selected000074_pgv1	RVT_1	1.8e-05	2.2e-05	24.7	24.5	0.265	143	196	45	98	14	139	RVT_1	False

@@ -1,0 +1,26 @@
+{
+  "loci_scanned": 9,
+  "assessed_arrays": 9,
+  "accepted_arrays": 5,
+  "assessment_counts": {
+    "accepted_array_candidate": 5,
+    "statistically_supported_requires_review": 1,
+    "not_supported_after_locus_correction": 3
+  },
+  "exploratory_two_copy_candidates": 18,
+  "exported_repeat_copies": 40,
+  "exported_spacers": 32,
+  "coordinates": "zero_based_half_open",
+  "no_fixed_MarsHill_motif": true,
+  "alignment_precedes_PWM": true,
+  "full_seed_search_in_all_local_and_dinucleotide_nulls": true,
+  "elapsed_seconds": 182.09,
+  "fixed_null_draws_per_window": {
+    "local_blocks": 1000,
+    "dinucleotide": 1000
+  },
+  "calibration_draws_including_reused": 36000,
+  "testing_family_loci": 9,
+  "multiple_testing_method": "bonferroni_across_all_input_loci",
+  "familywise_alpha": 0.05
+}

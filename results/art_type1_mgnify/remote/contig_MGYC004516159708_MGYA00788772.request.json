@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00788772/contigs/ERZ24773534.5302-BRZ-RP-NODE-5302-length-17186-cov-4.194518",
+    "payload": null,
+    "form": false,
+    "method": "GET"
+  },
+  "status": 200,
+  "error": null,
+  "response_sha256": "7e6dedfb40d42009865811c1e0424e8630e1514a58c5b3e894077dca49cae230",
+  "bytes": 17247,
+  "time_utc": "2026-10-20T20:11:31.232651+00:00",
+  "elapsed_seconds": 1.063
+}

@@ -1,0 +1,16 @@
+{
+  "completed_predictions": 2,
+  "planned_predictions": 8,
+  "descriptive_pilot_contrasts": {},
+  "confirmatory_inference": false,
+  "experimentally_validated_binding": false,
+  "calibration_complete": false,
+  "limitations": [
+    "SA1 and MarsHill are closely related published type II references, not independent specificity examples.",
+    "Alternative pairings are untested biological interactions, not experimentally demonstrated nonbinders.",
+    "One seed per initial pilot cell is for technical validation only.",
+    "Local homolog MSAs are shallow; they are not the published locus-paired MSAs.",
+    "The current catalogue has zero eligible confirmatory three-locus blocks."
+  ],
+  "slurm_job_id": "373504"
+}

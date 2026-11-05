@@ -1,0 +1,32 @@
+{
+  "source_accession": "ERR8449991_4587",
+  "source_path": "results/art_expansion_20261105/step2/archive/ERR8449991_4587.gb",
+  "source_sha256": "55b043c45f7cc011e846a7d2c3eaeb1ca4fc94917503d8bbcb19c6acc0146e62",
+  "segments": [
+    {
+      "source_start0": 0,
+      "source_end0": 8669,
+      "locus_start0": 0,
+      "locus_end0": 8669,
+      "orientation": 1
+    }
+  ],
+  "metadata": {
+    "strand": 1,
+    "length_nt": 8669,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 839,
+    "downstream_available_nt": 6000,
+    "upstream_shortfall_nt": 5161,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": true,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 5161,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  }
+}

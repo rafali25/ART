@@ -1,0 +1,34 @@
+FastTree Version 2.2.0 Double precision
+Alignment: D:/MBZUAI/CRISP/results/art_family_reconstruction/domain_phylogeny/domains.occupancy_trimmed.faa
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.03 seconds
+Refining topology: 26 rounds ME-NNIs, 2 rounds ME-SPRs, 13 rounds ML-NNIs
+      0.13 seconds: ME NNI round 9 of 26, 1 of 90 splits
+      0.26 seconds: ME NNI round 17 of 26, 1 of 90 splits
+Total branch-length 50.056 after 0.29 sec
+      0.41 seconds: ML NNI round 1 of 13, 1 of 90 splits
+ML-NNI round 1: LogLk = -47161.645 NNIs 15 max delta 4.39 Time 0.74
+      0.75 seconds: Site likelihoods with rate category 1 of 20
+      0.85 seconds: Site likelihoods with rate category 15 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.131 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+      0.96 seconds: ML NNI round 2 of 13, 1 of 90 splits
+ML-NNI round 2: LogLk = -45482.285 NNIs 6 max delta 3.25 Time 1.21
+      1.20 seconds: ML NNI round 3 of 13, 1 of 90 splits
+ML-NNI round 3: LogLk = -45477.274 NNIs 1 max delta 1.16 Time 1.51
+      1.50 seconds: ML NNI round 4 of 13, 1 of 90 splits
+ML-NNI round 4: LogLk = -45476.022 NNIs 1 max delta 1.13 Time 1.63
+      1.62 seconds: ML NNI round 5 of 13, 1 of 90 splits
+ML-NNI round 5: LogLk = -45476.020 NNIs 0 max delta 0.00 Time 1.67
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 6: LogLk = -45445.544 NNIs 2 max delta 0.59 Time 2.08 (final)
+      2.07 seconds: ML Lengths 1 of 90 splits
+Optimize all lengths: LogLk = -45445.104 Time 2.15
+      2.39 seconds: Site likelihoods with rate category 1 of 20
+      2.50 seconds: Site likelihoods with rate category 15 of 20
+Gamma(20) LogLk = -45868.547 alpha = 2.498 rescaling lengths by 1.047
+Total time: 2.55 seconds Unique: 92/101 Bad splits: 0/89

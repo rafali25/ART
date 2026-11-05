@@ -1,0 +1,44 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# target sequence database:        D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa
+# per-seq hits tabular output:     D:\MBZUAI\CRISP\results\art_type1_public\searches\Type_II_partner.tbl
+# per-dom hits tabular output:     D:\MBZUAI\CRISP\results\art_type1_public\searches\Type_II_partner.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2063
+# domain search space set to:      2063
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_II_partner  [M=274]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (274 nodes)
+Target sequences:                       2063  (273633 residues searched)
+Passed MSV filter:                       359  (0.174018); expected 41.3 (0.02)
+Passed bias filter:                       26  (0.012603); expected 41.3 (0.02)
+Passed Vit filter:                         1  (0.000484731); expected 2.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2063  [as set by --Z on cmdline]
+Domain search space  (domZ):            2063  [as set by --domZ on cmdline]
+# CPU time: 0.02u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 6002.16
+//
+[ok]

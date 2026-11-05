@@ -1,0 +1,29 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+o1379a0e0a703f7614e  -            661 typeI_two_LPJP1_queries.aligned -            697         0 1278.3  77.3   1   1         0         0 1278.2  77.3     1   697     1   661     1   661 1.00 MZ422438.1 six_frame
+tb7d267d790c28cff6a  -            661 typeI_two_LPJP1_queries.aligned -            697         0 1278.3  77.3   1   1         0         0 1278.2  77.3     1   697     1   661     1   661 1.00 MZ422438.1 QXN67954.1
+tb9a603ed9e661d7c56  -            481 typeI_two_LPJP1_queries.aligned -            697  7.2e-250  827.8  55.3   1   1  9.7e-250  9.7e-250  827.4  55.3   105   584    19   464     5   477 0.98 MZ422438.1 QXN67952.1
+o22daa07b7859182266  -            484 typeI_two_LPJP1_queries.aligned -            697  8.9e-250  827.5  55.8   1   1  1.2e-249  1.2e-249  827.1  55.8   104   584    21   467     3   480 0.98 MZ422438.1 six_frame
+o7e4d159c2219858867  -            601 typeI_two_LPJP1_queries.aligned -            697   7.2e-89  295.7  40.9   1   1   6.2e-87   6.2e-87  289.3  33.3   200   675   133   573   118   582 0.87 SRR8925777_19723 six_frame
+t294a713c707948c7d7  -            594 typeI_two_LPJP1_queries.aligned -            697   9.5e-89  295.3  41.4   1   1   6.6e-87   6.6e-87  289.2  33.5   200   675   126   566   111   577 0.87 SRR8925777_19723 SRR8925777_19723_pgv10
+t313ae852fb37fab6f6  -            890 typeI_two_LPJP1_queries.aligned -            697   3.1e-82  273.8  14.9   1   1   5.7e-82   5.7e-82  272.9  13.5   207   686   385   847   361   859 0.84 ERR8055547_17635 ERR8055547_17635_pgv13
+o5568f9b432c37b23bc  -            900 typeI_two_LPJP1_queries.aligned -            697   3.2e-82  273.7  14.9   1   1   5.9e-82   5.9e-82  272.8  13.5   207   686   395   857   371   869 0.84 ERR8055547_17635 six_frame
+t4768d82136af6821e1  -            852 typeI_two_LPJP1_queries.aligned -            697   2.7e-78  260.7  29.9   1   1   2.7e-78   2.7e-78  260.7  29.9   196   683   354   807   311   822 0.87 ERR10896470_6836 ERR10896470_6836_pgv2
+o9209565c37bd70a3dc  -            853 typeI_two_LPJP1_queries.aligned -            697   2.7e-78  260.7  29.9   1   1   2.7e-78   2.7e-78  260.7  29.9   196   683   355   808   312   823 0.87 ERR10896470_6836 six_frame
+o1751ac05fe12a96288  -            851 typeI_two_LPJP1_queries.aligned -            697   4.1e-78  260.1  27.8   1   1   4.1e-78   4.1e-78  260.1  27.8   196   683   353   806   305   821 0.86 SRR26805139_340 six_frame
+t2df16249c221583d8d  -            850 typeI_two_LPJP1_queries.aligned -            697     5e-78  259.8  28.1   1   1     5e-78     5e-78  259.8  28.1   196   683   352   805   305   820 0.86 SRR26805139_340 SRR26805139_340_pgv2
+t20d3930348d48ea9c1  -            543 typeI_two_LPJP1_queries.aligned -            697   3.2e-38  128.3  38.4   1   1   3.2e-38   3.2e-38  128.3  38.4   174   514   102   451    30   464 0.80 ERR10896470_6836 ERR10896470_6836_pgv4
+o1a0c7bfd9dc8da7916  -            557 typeI_two_LPJP1_queries.aligned -            697   3.9e-38  128.0  38.5   1   1   3.9e-38   3.9e-38  128.0  38.5   174   514   116   465    44   478 0.80 ERR10896470_6836 six_frame
+t4261b188891c35c54f  -            543 typeI_two_LPJP1_queries.aligned -            697   8.9e-37  123.5  42.0   1   1   8.9e-37   8.9e-37  123.5  42.0   177   517   102   454    27   468 0.78 SRR26805139_340 SRR26805139_340_pgv4
+o77fe97fc9b71d1493c  -            557 typeI_two_LPJP1_queries.aligned -            697   1.1e-36  123.1  42.2   1   1   1.1e-36   1.1e-36  123.1  42.2   177   517   116   468    41   482 0.78 SRR26805139_340 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_public\searches\TypeI_two_seed.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_public\searches\TypeI_two_seed.domtbl -E 0.001 --domE 0.001 -Z 2063 --domZ 2063 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 18:12:15 2026
+# [ok]

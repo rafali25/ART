@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QDJ97640.1           -          ART_RT               -           2.7e-296  980.1  55.9    3e-296  980.0  55.9   1.0   1   0   0   1   1   1   1 MN091626.1
+BDE75684.1           -          ART_RT               -           5.5e-295  975.8  62.5  6.1e-295  975.7  62.5   1.0   1   0   0   1   1   1   1 LC680885.1
+UAJ17040.1           -          ART_RT               -           1.8e-293  970.8  57.1  2.1e-293  970.6  57.1   1.0   1   0   0   1   1   1   1 MZ779063.1
+QQO92858.1           -          ART_RT               -           3.7e-290  959.9  64.8  4.1e-290  959.7  64.8   1.0   1   0   0   1   1   1   1 MW349129.1
+WRM43423.1           -          ART_RT               -             4e-289  956.5  65.5  4.5e-289  956.3  65.5   1.0   1   0   0   1   1   1   1 OR836606.1
+QQM14740.1           -          ART_RT               -           1.2e-286  948.4  62.1  1.3e-286  948.2  62.1   1.0   1   0   0   1   1   1   1 MW248466.1
+QXN67953.1           -          ART_RT               -           9.8e-184  608.8  64.1  4.1e-181  600.2  64.1   2.0   1   1   0   1   1   1   1 MZ422438.1
+QPI16926.1           -          ART_RT               -           4.1e-181  600.2  54.8  4.6e-181  600.0  54.8   1.0   1   0   0   1   1   1   1 MW218148.1
+QXN67955.1           -          ART_RT               -            5.4e-61  204.0  65.1   4.6e-60  200.9  65.1   2.0   1   1   0   1   1   1   1 MZ422438.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:\MBZUAI\CRISP\results\art_discovery\profiles\ART_RT.hmm
+# Target file:     D:\MBZUAI\CRISP\results\art_discovery\target_proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_discovery\searches\ART_RT.tbl --domtblout D:\MBZUAI\CRISP\results\art_discovery\searches\ART_RT.domtbl -E 0.001 --domE 0.001 -Z 2076 --domZ 2076 --seed 42 --cpu 4 D:\MBZUAI\CRISP\results\art_discovery\profiles\ART_RT.hmm D:\MBZUAI\CRISP\results\art_discovery\target_proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Mon Oct 19 17:46:30 2026
+# [ok]

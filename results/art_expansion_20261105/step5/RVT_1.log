@@ -1,0 +1,316 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step5/RT_proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step5/RVT_1.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RVT_1  [M=200]
+Accession:   PF00078.33
+Description: Reverse transcriptase (RNA-dependent DNA polymerase)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    3.6e-24   77.3   2.0    6.8e-24   76.4   2.0    1.4  1  L00016    MW218148.1__QPI16926.1
+    1.5e-23   75.3   1.4    1.5e-23   75.3   1.4    2.0  1  L00017    MW248466.1__QQM14740.1
+    2.1e-23   74.8   1.6    3.9e-23   73.9   1.6    1.5  1  L00021    OR836606.1__WRM43423.1
+      5e-23   73.6   2.2      5e-23   73.6   2.2    2.0  1  L00019    MW349129.1__QQO92858.1
+    1.2e-22   72.3   4.1    1.7e-22   71.8   2.0    2.1  1  L00020    MZ779063.1__UAJ17040.1
+    1.3e-22   72.2   1.3    2.3e-22   71.4   1.3    1.4  1  L00015    MN091626.1__QDJ97640.1
+    3.7e-22   70.7   2.0      7e-22   69.8   2.0    1.5  1  L00014    LC680885.1__BDE75684.1
+    2.8e-21   67.9   2.7    2.8e-21   67.9   2.7    1.9  1  L00018    MW349128.1__QQO92593.1
+    7.8e-21   66.4   2.2    7.8e-21   66.4   2.2    2.0  1  L00027    OR455461.1__WNX97802.1
+    8.5e-21   66.3   3.2    8.5e-21   66.3   3.2    1.9  1  L00028    OR770614.1__WPH64254.1
+    1.5e-20   65.4   5.2    2.9e-20   64.5   5.2    1.5  1  L00031    ERR3211773_30326__ERR3211773_30326_pgv2
+    3.6e-20   64.2   3.0    6.9e-20   63.3   3.0    1.5  1  L00025    JPGD001252__JPGD001252_pgv121
+    4.5e-20   63.9   2.4    4.5e-20   63.9   2.4    2.1  1  L00011    MZ422438.1__QXN67955.1
+    6.3e-20   63.4   0.3    1.4e-19   62.3   0.3    1.6  1  L00002    ERR8055547_17635__ERR8055547_17635_pgv12
+    1.6e-19   62.1   1.2    3.5e-19   61.0   1.2    1.6  1  L00042    SRR22802066_51__SRR22802066_51_pgv25
+    1.6e-19   62.1   1.2    3.6e-19   61.0   1.2    1.6  1  L00012    SRR26805139_340__SRR26805139_340_pgv1
+    1.7e-19   62.0   1.8    3.8e-19   60.9   1.0    2.0  1  L00045    SRR7532897_75__SRR7532897_75_pgv1
+      2e-19   61.8   2.9      3e-19   61.2   2.9    1.3  1  L00043    SRR5371381_9952__SRR5371381_9952_pgv1
+    4.2e-19   60.8   2.2    8.1e-19   59.8   1.1    2.1  1  L00001    ERR10896470_6836__ERR10896470_6836_pgv1
+    7.3e-19   60.0   1.5    7.7e-19   59.9   0.4    1.6  1  L00005    MGYC002345864168__MGYC002345864168_pgv4
+    7.9e-19   59.8   0.1    1.4e-18   59.0   0.1    1.4  1  L00029    ERR10900851_4993__ERR10900851_4993_pgv1
+    1.7e-18   58.8   0.0    3.2e-18   57.9   0.0    1.3  1  L00044    SRR5644066_1035__SRR5644066_1035_pgv1
+    2.3e-18   58.4   1.8      5e-18   57.2   1.8    1.6  1  L00003    MGYC001394626043__MGYC001394626043_pgv9
+    5.8e-18   57.0   0.0    1.3e-17   55.9   0.0    1.5  1  L00030    ERR2683165_478__ERR2683165_478_pgv1
+    1.8e-17   55.4   1.1    4.6e-17   54.1   1.1    1.7  1  L00033    ERR7529523_6432__ERR7529523_6432_pgv10
+    1.9e-17   55.3   0.6    7.1e-17   53.5   0.3    2.0  1  L00022    HPGC001745__HPGC001745_pgv247
+    3.2e-17   54.6   2.4    6.5e-17   53.6   2.4    1.5  1  L00013    SRR8925777_19723__SRR8925777_19723_pgv9
+    8.2e-17   53.3   2.3    8.2e-17   53.3   2.3    2.2  1  L00004    MGYC001394629236__MGYC001394629236_pgv6
+    2.8e-16   51.5   0.2    2.8e-15   48.3   0.2    2.2  1  L00039    ERR8509207_4241__ERR8509207_4241_pgv30
+    3.9e-16   51.1   2.4    1.3e-15   49.4   2.4    1.8  1  L00037    ERR8055447_3422__ERR8055447_3422_pgv13
+      5e-16   50.7   0.5    2.5e-14   45.1   0.2    2.7  1  L00034    ERR8025381_8562__ERR8025381_8562_pgv14
+      1e-15   49.7   1.1    6.2e-15   47.1   1.1    2.3  1  L00046    MGYC003966598318__MGYC003966598318_pgv45
+    1.2e-15   49.4   0.7    1.5e-13   42.6   0.2    2.9  1  L00009    MGYC003526048914__MGYC003526048914_pgv179
+    3.6e-15   47.9   1.6    3.6e-15   47.9   1.6    1.9  1  L00024    JPGD000202__JPGD000202_pgv174
+    4.7e-15   47.5   1.2    2.7e-14   45.0   1.2    2.3  1  L00006    MGYC002687634053__MGYC002687634053_pgv52
+    5.8e-15   47.2   1.3    4.1e-14   44.5   1.3    2.4  1  L00035    ERR8050416_7654__ERR8050416_7654_pgv14
+    6.9e-15   47.0   1.1    1.5e-14   45.9   1.1    1.6  1  L00023    JPGD000193__JPGD000193_pgv124
+    7.8e-15   46.8   0.0    1.4e-14   46.0   0.0    1.4  1  L00008    MGYC003138808455__MGYC003138808455_pgv4
+    1.2e-14   46.2   1.1    2.5e-14   45.1   1.1    1.6  1  L00026    JPGD002456__JPGD002456_pgv50
+    2.5e-14   45.1   2.7    5.7e-14   44.0   1.0    2.5  1  L00038    ERR8449991_4587__ERR8449991_4587_pgv1
+    4.6e-14   44.3   0.0    8.8e-14   43.4   0.0    1.4  1  L00040    SRR10873276_990__SRR10873276_990_pgv1
+    8.7e-14   43.4   0.0    1.7e-13   42.4   0.0    1.4  1  L00041    SRR10873277_312__SRR10873277_312_pgv9
+    1.4e-13   42.7   6.0    1.7e-13   42.5   5.2    1.5  1  L00010    MZ422438.1__QXN67953.1
+    1.6e-11   36.0   0.1    5.4e-11   34.3   0.1    2.0  1  L00032    ERR7438152_4132__ERR7438152_4132_pgv14
+    1.8e-11   35.8   0.1    5.6e-11   34.2   0.1    2.0  1  L00036    ERR8050692_787__ERR8050692_787_pgv18
+    2.7e-10   32.0   1.0    1.5e-09   29.6   0.2    2.3  1  L00007    MGYC003138808455__MGYC003138808455_pgv2
+
+
+Domain annotation for each sequence:
+>> L00016  MW218148.1__QPI16926.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.4   2.0   6.8e-24   6.8e-24       2     199 ..     211     422 ..     210     423 .. 0.84
+
+>> L00017  MW248466.1__QQM14740.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.3   1.4   1.5e-23   1.5e-23       2     200 .]     211     423 ..     210     423 .. 0.81
+
+>> L00021  OR836606.1__WRM43423.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.9   1.6   3.9e-23   3.9e-23       2     200 .]     210     422 ..     209     422 .. 0.80
+
+>> L00019  MW349129.1__QQO92858.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.6   2.2     5e-23     5e-23       2     200 .]     211     423 ..     210     423 .. 0.81
+
+>> L00020  MZ779063.1__UAJ17040.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.8   2.0   1.7e-22   1.7e-22       2     198 ..     210     420 ..     209     422 .. 0.81
+
+>> L00015  MN091626.1__QDJ97640.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.4   1.3   2.3e-22   2.3e-22       2     198 ..     210     420 ..     209     422 .. 0.79
+
+>> L00014  LC680885.1__BDE75684.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.8   2.0     7e-22     7e-22       6     198 ..     223     420 ..     209     422 .. 0.77
+
+>> L00018  MW349128.1__QQO92593.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.9   2.7   2.8e-21   2.8e-21       2     199 ..     226     437 ..     225     438 .. 0.85
+
+>> L00027  OR455461.1__WNX97802.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.4   2.2   7.8e-21   7.8e-21       2     199 ..     226     437 ..     225     438 .. 0.83
+
+>> L00028  OR770614.1__WPH64254.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.3   3.2   8.5e-21   8.5e-21       2     199 ..     226     437 ..     225     438 .. 0.85
+
+>> L00031  ERR3211773_30326__ERR3211773_30326_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.5   5.2   2.9e-20   2.9e-20       1     200 []     167     369 ..     167     369 .. 0.83
+
+>> L00025  JPGD001252__JPGD001252_pgv121
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.3   3.0   6.9e-20   6.9e-20       1     200 []     214     413 ..     214     413 .. 0.87
+
+>> L00011  MZ422438.1__QXN67955.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.9   2.4   4.5e-20   4.5e-20      18     199 ..     232     429 ..     213     430 .. 0.85
+
+>> L00002  ERR8055547_17635__ERR8055547_17635_pgv12
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.3   0.3   1.4e-19   1.4e-19      30     195 ..     317     502 ..     299     508 .. 0.80
+
+>> L00042  SRR22802066_51__SRR22802066_51_pgv25
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.0   1.2   3.5e-19   3.5e-19      19     192 ..     315     508 ..     294     522 .. 0.79
+
+>> L00012  SRR26805139_340__SRR26805139_340_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.0   1.2   3.6e-19   3.6e-19      19     192 ..     315     508 ..     294     522 .. 0.79
+
+>> L00045  SRR7532897_75__SRR7532897_75_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.9   1.0   3.8e-19   3.8e-19      19     192 ..     315     508 ..     294     523 .. 0.79
+
+>> L00043  SRR5371381_9952__SRR5371381_9952_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.2   2.9     3e-19     3e-19       1     200 []     121     320 ..     121     320 .. 0.84
+
+>> L00001  ERR10896470_6836__ERR10896470_6836_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.8   1.1   8.1e-19   8.1e-19      19     192 ..     315     508 ..     294     523 .. 0.79
+
+>> L00005  MGYC002345864168__MGYC002345864168_pgv4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   0.4   7.7e-19   7.7e-19       1     200 []     219     422 ..     219     422 .. 0.82
+
+>> L00029  ERR10900851_4993__ERR10900851_4993_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   0.1   1.4e-18   1.4e-18      20     187 ..     327     529 ..     310     556 .. 0.80
+
+>> L00044  SRR5644066_1035__SRR5644066_1035_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.9   0.0   3.2e-18   3.2e-18      22     187 ..     311     511 ..     293     523 .. 0.79
+
+>> L00003  MGYC001394626043__MGYC001394626043_pgv9
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.2   1.8     5e-18     5e-18      19     200 .]     247     440 ..     227     440 .. 0.85
+
+>> L00030  ERR2683165_478__ERR2683165_478_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   0.0   1.3e-17   1.3e-17      33     188 ..     331     522 ..     313     546 .. 0.82
+
+>> L00033  ERR7529523_6432__ERR7529523_6432_pgv10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.1   1.1   4.6e-17   4.6e-17       1     200 []     201     442 ..     201     442 .. 0.89
+
+>> L00022  HPGC001745__HPGC001745_pgv247
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.5   0.3   7.1e-17   7.1e-17      30     199 ..     300     481 ..     273     482 .. 0.78
+
+>> L00013  SRR8925777_19723__SRR8925777_19723_pgv9
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   2.4   6.5e-17   6.5e-17       1     196 [.     200     407 ..     200     417 .. 0.84
+
+>> L00004  MGYC001394629236__MGYC001394629236_pgv6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.3   2.3   8.2e-17   8.2e-17       1     199 [.     220     424 ..     220     425 .. 0.84
+
+>> L00039  ERR8509207_4241__ERR8509207_4241_pgv30
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.3   0.2   2.8e-15   2.8e-15       1     199 [.     246     486 ..     246     487 .. 0.80
+
+>> L00037  ERR8055447_3422__ERR8055447_3422_pgv13
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.4   2.4   1.3e-15   1.3e-15       1     200 []     200     441 ..     200     441 .. 0.85
+
+>> L00034  ERR8025381_8562__ERR8025381_8562_pgv14
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.1   0.2   2.5e-14   2.5e-14       1     199 [.     252     492 ..     252     493 .. 0.81
+
+>> L00046  MGYC003966598318__MGYC003966598318_pgv45
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.1   1.1   6.2e-15   6.2e-15      36     200 .]     266     444 ..     201     444 .. 0.76
+
+>> L00009  MGYC003526048914__MGYC003526048914_pgv179
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.6   0.2   1.5e-13   1.5e-13       1     199 [.     252     492 ..     252     493 .. 0.80
+
+>> L00024  JPGD000202__JPGD000202_pgv174
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.9   1.6   3.6e-15   3.6e-15       3     194 ..     211     432 ..     199     438 .. 0.85
+
+>> L00006  MGYC002687634053__MGYC002687634053_pgv52
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.0   1.2   2.7e-14   2.7e-14      37     200 .]     267     444 ..     201     444 .. 0.77
+
+>> L00035  ERR8050416_7654__ERR8050416_7654_pgv14
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.5   1.3   4.1e-14   4.1e-14      51     200 .]     262     444 ..     201     444 .. 0.73
+
+>> L00023  JPGD000193__JPGD000193_pgv124
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.9   1.1   1.5e-14   1.5e-14      33     188 ..     255     439 ..     222     452 .. 0.78
+
+>> L00008  MGYC003138808455__MGYC003138808455_pgv4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.0   0.0   1.4e-14   1.4e-14      61     188 ..       2     164 ..       1     194 [. 0.87
+
+>> L00026  JPGD002456__JPGD002456_pgv50
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.1   1.1   2.5e-14   2.5e-14      33     188 ..     255     439 ..     222     452 .. 0.77
+
+>> L00038  ERR8449991_4587__ERR8449991_4587_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.0   1.0   5.7e-14   5.7e-14      38     200 .]     268     444 ..     201     444 .. 0.77
+
+>> L00040  SRR10873276_990__SRR10873276_990_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   0.0   8.8e-14   8.8e-14      19     199 ..      94     309 ..      74     310 .. 0.80
+
+>> L00041  SRR10873277_312__SRR10873277_312_pgv9
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.4   0.0   1.7e-13   1.7e-13      19     199 ..     208     423 ..     188     424 .. 0.80
+
+>> L00010  MZ422438.1__QXN67953.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   5.2   1.7e-13   1.7e-13      16     189 ..     189     368 ..     172     379 .. 0.81
+
+>> L00032  ERR7438152_4132__ERR7438152_4132_pgv14
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.1   5.4e-11   5.4e-11      37     200 .]     274     453 ..     199     453 .. 0.83
+
+>> L00036  ERR8050692_787__ERR8050692_787_pgv18
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   0.1   5.6e-11   5.6e-11      37     200 .]     275     454 ..     200     454 .. 0.83
+
+>> L00007  MGYC003138808455__MGYC003138808455_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.2   1.5e-09   1.5e-09      24     194 ..     284     465 ..     269     471 .. 0.81
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (200 nodes)
+Target sequences:                         46  (24791 residues searched)
+Passed MSV filter:                        46  (1); expected 0.9 (0.02)
+Passed bias filter:                       46  (1); expected 0.9 (0.02)
+Passed Vit filter:                        46  (1); expected 0.0 (0.001)
+Passed Fwd filter:                        46  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 46  [actual number of targets]
+Domain search space  (domZ):              46  [number of targets reported over threshold]
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.08
+# Mc/sec: 56.72
+//
+[ok]

@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "https://www.ebi.ac.uk/Tools/hmmer/api/v1/result/d8d7730e-0ad3-4324-a768-da37ae05c8aa?page=1&page_size=50&with_domains=true",
+    "payload": null,
+    "form": false,
+    "method": "GET"
+  },
+  "status": 200,
+  "error": null,
+  "response_sha256": "4f414efd57521519dbc4a527ba4edb31085e0e8909be8715b1fdce92508bebb6",
+  "bytes": 57,
+  "time_utc": "2026-11-04T11:14:47.472532+00:00",
+  "elapsed_seconds": 0.5389
+}

@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QQM14740.1           -            501 RVT-CRISPR-G1        -            204     2e-10   26.6   0.0   1   1   3.6e-10   3.6e-10   25.8   0.0    36   194   251   411   211   418 0.70 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-CRISPR-G2        -            203   6.5e-17   47.9   0.1   1   1   1.2e-16   1.2e-16   47.0   0.1     3   198   209   411   207   415 0.81 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-CRISPR-G5        -            203   4.6e-12   31.9   0.0   1   1   8.2e-12   8.2e-12   31.1   0.0     2   197   212   414   211   418 0.67 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-DGRs             -            208   2.9e-14   39.3   4.1   1   1   6.3e-14   6.3e-14   38.2   4.1    59   198   267   414   225   425 0.76 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-G2L4             -            197     3e-07   16.2   2.0   1   1   8.6e-06   8.6e-06   11.4   0.9   118   170   313   371   227   392 0.74 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-G2Lb             -            174   1.4e-07   17.6   0.0   1   1   4.7e-07   4.7e-07   15.9   0.0    53   149   270   379   246   410 0.67 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-G2L              -            220   7.4e-08   18.3  11.1   1   1   1.2e-07   1.2e-07   17.7   3.9    53   209   262   412   210   422 0.62 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-GII-I            -            221   2.9e-11   29.3   0.8   1   1   2.9e-11   2.9e-11   29.3   0.8     1   213   210   415   210   423 0.80 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-GII-II           -            209   1.9e-18   53.1   0.6   1   1   1.9e-18   1.9e-18   53.1   0.6     1   205   210   418   210   422 0.83 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-Retrons          -            191   2.4e-35  108.0   4.6   1   1   2.4e-35   2.4e-35  108.0   4.6     1   189   210   416   210   418 0.82 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-UG11             -            153   8.7e-10   24.6   3.6   1   1   4.5e-07   4.5e-07   15.8   0.0   105   129   357   381   329   409 0.66 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-UG19             -            166   7.3e-13   34.9   0.9   1   1   7.3e-13   7.3e-13   34.9   0.9    23   133   267   376   257   411 0.85 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+QQM14740.1           -            501 RVT-UG7              -            143   3.3e-12   32.7   1.9   1   1   1.5e-10   1.5e-10   27.3   0.2     7   140   266   411   261   419 0.72 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:\MBZUAI\CRISP\.tools\myRT\Models\HMM\RVT-All.hmm
+# Target file:     D:\MBZUAI\CRISP\results\art_profile_marshill\art_candidates.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_profile_marshill\competing_RT_profiles.tbl --domtblout D:\MBZUAI\CRISP\results\art_profile_marshill\competing_RT_profiles.domtbl -E 1e-5 --domE 1e-5 --seed 42 --cpu 4 D:\MBZUAI\CRISP\.tools\myRT\Models\HMM\RVT-All.hmm D:\MBZUAI\CRISP\results\art_profile_marshill\art_candidates.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Mon Oct 19 17:04:50 2026
+# [ok]

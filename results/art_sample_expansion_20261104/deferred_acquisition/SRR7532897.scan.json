@@ -1,0 +1,24 @@
+{
+  "lead_id": "SRR7532897_76_2",
+  "prefix_sha256": "5e6e2c35993106df04e75b0334fe690a04f6f8aad99aa2953a6f2ec9f8f3229c",
+  "complete_contigs_scanned": 711,
+  "complete_nucleotides_scanned": 3108135,
+  "exact_peptide_matches": [
+    {
+      "current_contig": "SRR7532897_75",
+      "length_nt": 9827,
+      "sequence_sha256": "2988d35eaee57ad39ba6bb390823ffa17f6da941bb29700f2219146ef43e8d00",
+      "mappings": [
+        {
+          "start0": 1870,
+          "end0": 4423,
+          "strand": 1,
+          "genetic_code": 11,
+          "initiator_normalized": false
+        }
+      ],
+      "source_fasta": "results/art_sample_expansion_20261104/deferred_acquisition/SRR7532897_75.current_matched.fna"
+    }
+  ],
+  "status": "exact_translated_mapping"
+}

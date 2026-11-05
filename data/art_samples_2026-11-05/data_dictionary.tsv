@@ -1,0 +1,55 @@
+column	description
+sample_id	Stable identifier within this versioned export; shared by FASTA and locus files.
+locus_id	Original analysis locus identifier.
+partner_type	Type_I or Type_II partner-family assignment; computational candidate.
+cohort	Analysis cohort in which this representative was retained.
+record_role	Original discovery/control/reference role.
+new_in_20261105_expansion	New to this expansion run, not a claim of biological novelty.
+pair_complete	Both RT and partner have complete translation-matched CDSs.
+validation_status	Candidate evidence tier; not an experimentally established ART assignment.
+source_identifier	Accession or internal genome identifier used for the source.
+original_source_identifier	Original catalog sequence identifier, when available.
+source_run	SRA/ENA sequencing run, where resolved.
+source_study	Source study accession; unresolved if unavailable.
+source_BioSample	Source sample accession; unresolved if unavailable.
+source_group	BioSample where available, otherwise canonical source-DNA SHA256; not proof of independence.
+source_url	Recorded retrieval URL or accession landing page; catalog URL for HPGC/JPGD.
+source_canonical_DNA_sha256	Minimum SHA256 of forward/reverse-complement uppercase source DNA.
+source_file	Packaged original source sequence file; path relative to this dataset directory.
+source_file_format	Biopython source format.
+RT_feature_id	RT protein/CDS identifier in source and locus annotation.
+partner_feature_id	Partner protein/CDS identifier in source and locus annotation.
+RT_length_aa	RT protein length in amino acids.
+partner_length_aa	Partner protein length in amino acids.
+RT_genetic_code	NCBI translation-table number used for the RT.
+partner_genetic_code	NCBI translation-table number used for the partner.
+RT_codon_start	One-based coding offset within extracted RT CDS.
+partner_codon_start	One-based coding offset within extracted partner CDS.
+RT_protein_sequence	RT amino-acid sequence without terminal stop.
+partner_protein_sequence	Partner amino-acid sequence without terminal stop.
+RT_CDS_sequence	Oriented raw RT CDS DNA, including any terminal stop and pre-codon_start bases.
+partner_CDS_sequence	Oriented raw partner CDS DNA, including any terminal stop and pre-codon_start bases.
+protein_pair_sha256	SHA256 of RT_protein_sequence + | + partner_protein_sequence.
+category1_ART_profile_pass	Frozen ART RT profile: sequence/domain E<=1e-5, profile coverage>=0.60.
+category2_ART_reference_affinity	Descriptive ART-reference affinity in the current RT-core tree.
+category2_family_validation_status	ART versus NART remains unresolved; this is an unknown validation result, not an ART rejection.
+category3_RVT1_domain	Significant RVT_1 envelope with >=60% profile coverage.
+category3_catalytic_motif_pattern	[YF]xDD pattern within that envelope; not proof of catalytic activity.
+motif_matches_json	Motif sequences and zero-based positions in the RT protein.
+NTD_length_aa	Residues before the first significant RVT_1 envelope; operational boundary.
+category4_NTD_at_least_150aa	Descriptive extended-NTD indicator; 150 aa is not a published Yoon acceptance cutoff.
+same_strand_partner	Partner and RT are co-oriented in the extracted locus.
+direct_downstream_partner	No intervening annotated CDS before the selected downstream partner.
+upstream_annotation_free_nt	Observed contiguous annotated-CDS-free DNA immediately before the RT; may be boundary-limited.
+category5_direct_partner_and_500nt	Direct co-oriented partner and >=500 nt observed upstream annotation-free DNA.
+available_upstream_window_nt	Upstream DNA available in the locus extraction; not necessarily noncoding.
+upstream_window_DNA_sequence	Oriented locus sequence before the RT start, including any annotated genes.
+category6_historical_supported_array	Supported array evidence from the retained historical assessment; no merged-cohort retest.
+historical_array_scope	Cohort in which the historical supported-array evidence was assessed.
+array_status	Original detailed array assessment/status label.
+array_retested_in_expanded_collection	False: no new joint expanded-collection significance test was performed.
+experimentally_validated_in_this_run	False: no experimental validation was performed in this run.
+partner_cluster70	Type-I partner cluster at 70% identity / 80% mutual coverage, or not_typeI; not independent lineages.
+locus_genbank_file	Packaged annotated oriented locus, relative path.
+locus_DNA_file	Packaged oriented locus FASTA, relative path.
+coordinate_map_file	Packaged zero-based half-open source/locus coordinate map, relative path.

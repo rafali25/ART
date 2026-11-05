@@ -1,0 +1,76 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# target sequence database:        /tmp/art-371321-JPGD-b7tdm4nw/proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/JPGD/searches/TypeI_two_seed.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    1428266
+# domain search space set to:      1428266
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       typeI_two_LPJP1_queries.aligned  [M=697]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    1.1e-82  284.6  55.3    1.1e-82  284.6  55.3    2.1  1  JPGD000202_pgv173  Viruses_Ang_PGV_seq_8719
+    1.1e-82  284.6  55.3    1.1e-82  284.6  55.3    2.1  1  JPGD002482_pgv180  Viruses_Ang_PGV_seq_8750
+    1.6e-66  231.2  45.1    1.6e-66  231.2  45.1    2.9  1  JPGD000193_pgv123  Viruses_Ang_PGV_seq_8708
+    9.1e-66  228.7  46.4    9.1e-66  228.7  46.4    2.9  1  JPGD002456_pgv51   Viruses_Ang_PGV_seq_8720
+    5.5e-52  183.2  24.8    6.8e-52  182.8  24.8    1.2  1  JPGD001252_pgv124  Viruses_Ang_PGV_seq_8345
+    5.5e-52  183.2  24.8    6.8e-52  182.8  24.8    1.2  1  JPGD001307_pgv236  Viruses_Ang_PGV_seq_8404
+
+
+Domain annotation for each sequence:
+>> JPGD000202_pgv173  Viruses_Ang_PGV_seq_8719
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  284.6  55.3   1.1e-82   1.1e-82     225     675 ..     190     636 ..     138     656 .. 0.86
+
+>> JPGD002482_pgv180  Viruses_Ang_PGV_seq_8750
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  284.6  55.3   1.1e-82   1.1e-82     225     675 ..     190     636 ..     138     656 .. 0.86
+
+>> JPGD000193_pgv123  Viruses_Ang_PGV_seq_8708
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  231.2  45.1   1.6e-66   1.6e-66     203     673 ..     170     634 ..     163     644 .. 0.82
+
+>> JPGD002456_pgv51  Viruses_Ang_PGV_seq_8720
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  228.7  46.4   9.1e-66   9.1e-66     200     673 ..     167     634 ..     148     647 .. 0.82
+
+>> JPGD001252_pgv124  Viruses_Ang_PGV_seq_8345
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  182.8  24.8   6.8e-52   6.8e-52     201     500 ..      98     375 ..      53     480 .. 0.79
+
+>> JPGD001307_pgv236  Viruses_Ang_PGV_seq_8404
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  182.8  24.8   6.8e-52   6.8e-52     201     500 ..      98     375 ..      53     480 .. 0.79
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (697 nodes)
+Target sequences:                    1428266  (378125964 residues searched)
+Passed MSV filter:                    158616  (0.111055); expected 28565.3 (0.02)
+Passed bias filter:                    15976  (0.0111856); expected 28565.3 (0.02)
+Passed Vit filter:                      1085  (0.000759662); expected 1428.3 (0.001)
+Passed Fwd filter:                        19  (1.33028e-05); expected 14.3 (1e-05)
+Initial search space (Z):            1428266  [as set by --Z on cmdline]
+Domain search space  (domZ):         1428266  [as set by --domZ on cmdline]
+# CPU time: 13.42u 0.09s 00:00:13.51 Elapsed: 00:00:10.65
+# Mc/sec: 24739.83
+//
+[ok]

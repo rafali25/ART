@@ -1,0 +1,21 @@
+{
+  "url": "https://www.ebi.ac.uk/metagenomics/api/v2/assemblies/ERZ795061/analyses?page_size=100",
+  "retrieved_utc": "2026-11-04T21:44:26.745361+00:00",
+  "bytes": 526,
+  "sha256": "53345e973da23fc6764360a7647474eb332b4280b2f34aea58dc866fd1e53204",
+  "md5": "6ae58666b23350682c5b033cab4b1f71",
+  "status": 200,
+  "headers": {
+    "Vary": "origin",
+    "Content-Type": "application/json; charset=utf-8",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "Date": "Wed, 04 Nov 2026 21:44:26 GMT",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "X-Content-Type-Options": "nosniff",
+    "Connection": "close",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "same-origin",
+    "Content-Length": "526"
+  },
+  "response_url": "https://www.ebi.ac.uk/metagenomics/api/v2/assemblies/ERZ795061/analyses?page_size=100"
+}

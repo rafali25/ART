@@ -1,0 +1,149 @@
+{
+  "locus_id": "ERR8050416_7654__ERR8050416_7654_pgv14",
+  "upstream_sequence": "TTCGTGATATGAGATACTCATATCATTATTTTAATTAGAAAACCTATCCGGTTACGGACGGCAGGTACCGGGTCTTTCTGAAGAAATCCTCCGGTTTTATGATCACAGATCATCTAACGATGGATCTTTAATCAATGATAGTTTTAACACGCTATAGTAAAATAGGTTTCACTTATATATAATAATTATGACACGTTAGCAAAGGAATATTGACTGACTTCCTTCCAAGACCATGCTCTCATATACGTACAAGCAAATGAACTTTAAATAAAATTTTACTATGACACACTATAGTTGATGGTGGTGTGTCGTATTTTTCCACAAATAAATTATGATTTGATAATAACAAACATTCTTTGCTTCCCATTTTTGAATGTTCATTTATTTCACCAAGATTTAGTTAATAATTAATATTTCCCAAAAATAGTACGTATGTAAACATTCCGCTCCTTTTCATAAAAATATATTTACGAATTATATGCATAAACCTAATTAATATAATGGAATGGAGAGTATGGTGTTGAAAGGAAGTCAGTTATTAATATATTCGTGATATGAGTAACTCATATCACTTTCTTTATTTATTATAAAGCCTGAGGCCGCCTTGCTTGATCTTATGCCCCCTCAGGCAGATTAATGTCAGGATCCTCGTTGCGGGACGCCCACACTCCTTCGGATTGATGGAGCAGTCCCGACACTCCGGTCGGCTGACCTTAATGTATAGTCTAGACAGACTATTGTAACGTGCAAATCTTACGGGAGGGATGGGTTGTATATCCATCCAGTTCCTCCCACACATTTAATACTATAAATTTTTTTTTAGGAGGTTCCGA",
+  "upstream_offset0": 0,
+  "initial": {
+    "R": 1,
+    "positions": [
+      419
+    ],
+    "seed": "AAAAATAGTACGTA",
+    "dense_run": 1,
+    "code": 207980,
+    "exact_seed_count": 1,
+    "base_spacing": null,
+    "dense_veto": false,
+    "maximum_dense_run_any_seed": 1,
+    "seeds_tested": 20
+  },
+  "extended": {
+    "score": 30.57501249012948,
+    "candidates": [
+      {
+        "score": 30.57501249012948,
+        "seed": "TAATTAATAT",
+        "positions": [
+          404,
+          489,
+          535
+        ],
+        "base_spacing": 65.5,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 15.28750624506474,
+          "consensus": "TAATTAATAT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              404,
+              414
+            ],
+            [
+              489,
+              499
+            ],
+            [
+              535,
+              545
+            ]
+          ]
+        }
+      }
+    ],
+    "seeds_tested": 6
+  },
+  "model": {
+    "status": "no_conserved_block_after_MAFFT",
+    "training": {
+      "status": "no_conserved_block_after_MAFFT",
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "/nfs-stor/rafiq.ali/projects/CRISP/.tools/mafft-win/mafft.bat",
+        "--auto",
+        "--thread",
+        "1",
+        "--inputorder",
+        "--out",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/alignments/ERR8050416_7654__ERR8050416_7654_pgv14.training.mafft.fna",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/alignments/ERR8050416_7654__ERR8050416_7654_pgv14.training.flanks.fna"
+      ]
+    }
+  },
+  "repeats": [],
+  "spacers": [],
+  "quality": {
+    "flags": [
+      "incomplete_6000nt_upstream",
+      "extracted_locus_reaches_contig_boundary"
+    ]
+  },
+  "statistical_score": "extended_seed_discovery_best_chain_score",
+  "array_status": "incomplete_upstream_assessment"
+}

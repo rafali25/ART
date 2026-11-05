@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00590709/contigs/ERZ3455898.105221-NODE-105222-length-1171-cov-2.162186",
+    "payload": null,
+    "form": false,
+    "method": "GET"
+  },
+  "status": 200,
+  "error": null,
+  "response_sha256": "7a1c70a0caee54b1d9e212ec9c00c9e163db0dbd9aa444e8973e312727e7a488",
+  "bytes": 1227,
+  "time_utc": "2026-11-04T11:18:02.554518+00:00",
+  "elapsed_seconds": 1.6112
+}

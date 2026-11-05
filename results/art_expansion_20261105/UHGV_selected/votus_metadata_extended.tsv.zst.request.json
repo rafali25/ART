@@ -1,0 +1,33 @@
+{
+  "url": "https://zenodo.org/records/17402089/files/votus_metadata_extended.tsv.zst?download=1",
+  "retrieved_utc": "2026-11-04T21:45:04.235642+00:00",
+  "bytes": 14048300,
+  "sha256": "945aa366c67fba8bb2625720eb8c3d393d88697a0a9b3935534878e3f050ef0c",
+  "md5": "6702355349e933fb605e62a8bbaa50a9",
+  "status": 200,
+  "headers": {
+    "server": "nginx",
+    "date": "Wed, 04 Nov 2026 21:44:44 GMT",
+    "content-type": "application/octet-stream",
+    "content-length": "14048300",
+    "content-disposition": "attachment; filename=votus_metadata_extended.tsv.zst",
+    "set-cookie": "session=dc8009f35f5c53f_6aeba74c.3WnghPF_YCT9uJMn6ahxrUNMDM4; Expires=Mon, 09 Nov 2026 21:44:44 GMT; Secure; HttpOnly; Path=/; SameSite=Lax",
+    "oc-checksum": "MD5:6702355349e933fb605e62a8bbaa50a9",
+    "accept-ranges": "bytes",
+    "content-security-policy": "default-src 'self' fonts.googleapis.com *.gstatic.com data: 'unsafe-inline' 'unsafe-eval' blob: zenodo-broker.web.cern.ch zenodo-broker-qa.web.cern.ch maxcdn.bootstrapcdn.com cdnjs.cloudflare.com ajax.googleapis.com webanalytics.web.cern.ch",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-permitted-cross-domain-policies": "none",
+    "x-frame-options": "sameorigin",
+    "x-xss-protection": "1; mode=block",
+    "x-ratelimit-limit": "133",
+    "x-ratelimit-remaining": "132",
+    "x-ratelimit-reset": "1793828745",
+    "retry-after": "60",
+    "strict-transport-security": "max-age=31556926; includeSubDomains",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-source": "files-primary",
+    "connection": "close"
+  },
+  "response_url": "https://zenodo.org/records/17402089/files/votus_metadata_extended.tsv.zst?download=1"
+}

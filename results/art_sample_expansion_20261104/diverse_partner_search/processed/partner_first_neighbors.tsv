@@ -1,0 +1,4 @@
+partner_key	upstream_rank	protein_key	gene_key	accession	protein_id	start0	end0	strand	length_aa	genetic_code	translation_qc	source_parts_json	annotation_method	role	same_orientation	RT_profile_match
+t2a19e9d8d53ec7066d	1	t5958cb5aa00066a91a	t5958cb5aa00066a91a	MGYC003966598318	MGYC003966598318_pgv45	52908	54738	1	609	11	complete_translation_matches	[[52908, 54738, 1]]	pyrodigal_gv	diverse_query_public_homology_lead	True	True
+t2a19e9d8d53ec7066d	2	t924e5adb23bf327d7b	t924e5adb23bf327d7b	MGYC003966598318	MGYC003966598318_pgv44	51181	51565	1	127	11	complete_translation_matches	[[51181, 51565, 1]]	pyrodigal_gv	diverse_query_public_homology_lead	True	False
+t2a19e9d8d53ec7066d	3	t329d6fb14b9c96931b	t329d6fb14b9c96931b	MGYC003966598318	MGYC003966598318_pgv43	49760	50885	1	374	11	complete_translation_matches	[[49760, 50885, 1]]	pyrodigal_gv	diverse_query_public_homology_lead	True	False

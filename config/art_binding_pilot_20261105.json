@@ -1,0 +1,28 @@
+{
+  "experiment_id": "typeII_development_20261105",
+  "purpose": "technical_development_not_confirmatory_binding_inference",
+  "sample_ids": ["ARTS0016", "ARTS0017"],
+  "sample_labels": ["SA1", "MarsHill"],
+  "conditions": ["S", "U"],
+  "initial_seeds": [20261105],
+  "registered_additional_seeds": [20261106, 20261107],
+  "additional_seeds_authorun": false,
+  "recycling_steps": 3,
+  "sampling_steps": 200,
+  "diffusion_samples": 1,
+  "maximum_msa_rows": 64,
+  "RT_partner_stoichiometry": "1:1",
+  "templates": false,
+  "interaction_restraints": false,
+  "external_MSA_service": false,
+  "custom_CUDA_kernels": false,
+  "U_representation": "explicit_block_diagonal_nonquery_MSA_rows",
+  "reserve_from_confirmation": "Both selected reference loci and their close Staphylococcus/Machias RT and partner clades; reassess with reviewed trees before a future holdout panel is defined.",
+  "limitations": [
+    "SA1 and MarsHill are closely related published type II references, not independent specificity examples.",
+    "Alternative pairings are untested biological interactions, not experimentally demonstrated nonbinders.",
+    "One seed per initial pilot cell is for technical validation only.",
+    "Local homolog MSAs are shallow; they are not the published locus-paired MSAs.",
+    "The current catalogue has zero eligible confirmatory three-locus blocks."
+  ]
+}

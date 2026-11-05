@@ -1,0 +1,38 @@
+{
+  "source_accession": "SRR8925777_19723",
+  "source_path": "sources/SRC0011.gb",
+  "source_sha256": "194ba4d8228308eb93653a39444860e4139246926a01a732fe137334bad9388d",
+  "segments": [
+    {
+      "source_start0": 8936,
+      "source_end0": 18349,
+      "locus_start0": 0,
+      "locus_end0": 9413,
+      "orientation": 1
+    }
+  ],
+  "metadata": {
+    "strand": 1,
+    "length_nt": 9413,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 6000,
+    "downstream_available_nt": 1904,
+    "upstream_shortfall_nt": 0,
+    "downstream_shortfall_nt": 4096,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": false,
+    "source_end_reached": true,
+    "genomic_left_clipped_nt": 0,
+    "genomic_right_clipped_nt": 4096,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_format": "genbank",
+  "locus_path": "loci/ARTS0013.gb",
+  "sample_id": "ARTS0013",
+  "locus_id": "SRR8925777_19723__SRR8925777_19723_pgv9",
+  "coordinate_convention": "zero_based_half_open",
+  "original_repository_map": "results/art_type1_public/loci/SRR8925777_19723__SRR8925777_19723_pgv9.map.json"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "path": "results/art_discovery/reference_sources/LPJP1_MZ422438.1.gb",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/embl/MZ422438.1?download=false",
+    "sha256": "0158bf6b0f508580e152e26e0bc6ad7dffc517e87dd1ed861e16847be4679b70",
+    "retrieval_recorded_utc": "2026-10-19T13:46:25.915547+00:00"
+  },
+  {
+    "path": "results/art_discovery/reference_sources/SA1_MW218148.1.gb",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MW218148.1&rettype=gbwithparts&retmode=text",
+    "sha256": "9f86f3aa0d2023d7e319800a1bf61d223234144fc16f6fadd55032f58411c366",
+    "retrieval_recorded_utc": "2026-10-19T13:46:25.920813+00:00"
+  },
+  {
+    "path": "results/art_discovery/reference_sources/unrelated_GNATs.faa",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ArimI+OR+gene_exact%3ArimJ+OR+gene_exact%3ArimL%29+AND+organism_id%3A83333+AND+reviewed%3Atrue&format=fasta",
+    "sha256": "22ee21ebbfa336ff24094c48459c6fd007b78026e13ee86850460526137f8bfc",
+    "retrieval_recorded_utc": "2026-10-19T13:46:25.921321+00:00"
+  }
+]

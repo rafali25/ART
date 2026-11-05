@@ -1,0 +1,40 @@
+#                                                                     --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name              accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#      ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+audit_41e49971cc7c7a949632 -          ART_RT               -             2e-295  980.1  55.9  2.2e-295  980.0  55.9   1.0   1   0   0   1   1   1   1 MN091626.1 source_annotation QDJ97640.1
+audit_ce1a4c57b3ae5f0fa839 -          ART_RT               -             2e-295  980.1  55.9  2.2e-295  980.0  55.9   1.0   1   0   0   1   1   1   1 MN091626.1 pyrodigal_gv pgv15
+audit_7c9c3cf11edc7078d726 -          ART_RT               -           2.1e-295  980.1  55.9  2.3e-295  979.9  55.9   1.0   1   0   0   1   1   1   1 MN091626.1 six_frame code11_orf439
+audit_12672e27cd3267a50e53 -          ART_RT               -           4.1e-294  975.8  62.5  4.6e-294  975.7  62.5   1.0   1   0   0   1   1   1   1 LC680885.1 source_annotation BDE75684.1
+audit_ee46b165fafc44499704 -          ART_RT               -           4.1e-294  975.8  62.5  4.6e-294  975.7  62.5   1.0   1   0   0   1   1   1   1 LC680885.1 pyrodigal_gv pgv145
+audit_8ecd33f536d9f7e07486 -          ART_RT               -           4.2e-294  975.8  62.5  4.8e-294  975.6  62.5   1.0   1   0   0   1   1   1   1 LC680885.1 six_frame code11_orf562
+audit_4dee8e88de2c75504cf3 -          ART_RT               -           1.4e-292  970.8  57.1  1.5e-292  970.6  57.1   1.0   1   0   0   1   1   1   1 MZ779063.1 source_annotation UAJ17040.1
+audit_b63a805ca15e60eb4a31 -          ART_RT               -           1.4e-292  970.8  57.1  1.5e-292  970.6  57.1   1.0   1   0   0   1   1   1   1 MZ779063.1 pyrodigal_gv pgv114
+audit_7d477de6e87e59331df8 -          ART_RT               -           1.4e-292  970.7  57.1  1.6e-292  970.6  57.1   1.0   1   0   0   1   1   1   1 MZ779063.1 six_frame code11_orf251
+audit_4d55c5f7e5ff84a96de0 -          ART_RT               -           2.8e-289  959.9  64.8  3.1e-289  959.7  64.8   1.0   1   0   0   1   1   1   1 MW349129.1 pyrodigal_gv pgv205
+audit_aa2950549424b8a8d7f7 -          ART_RT               -           2.8e-289  959.9  64.8  3.1e-289  959.7  64.8   1.0   1   0   0   1   1   1   1 MW349129.1 source_annotation QQO92858.1
+audit_638bf48ed1601804e1d4 -          ART_RT               -           2.9e-289  959.8  64.8  3.2e-289  959.7  64.8   1.0   1   0   0   1   1   1   1 MW349129.1 six_frame code11_orf603
+audit_959c237e55686bb7f568 -          ART_RT               -             3e-288  956.5  65.5  3.3e-288  956.3  65.5   1.0   1   0   0   1   1   1   1 OR836606.1 source_annotation WRM43423.1
+audit_c11452db3cbb2b67b458 -          ART_RT               -             3e-288  956.5  65.5  3.3e-288  956.3  65.5   1.0   1   0   0   1   1   1   1 OR836606.1 pyrodigal_gv pgv93
+audit_120784aeea543204aefc -          ART_RT               -           3.1e-288  956.4  65.5  3.5e-288  956.3  65.5   1.0   1   0   0   1   1   1   1 OR836606.1 six_frame code11_orf1095
+audit_78947df1817fe1d7fa4e -          ART_RT               -           8.7e-286  948.4  62.1  9.7e-286  948.2  62.1   1.0   1   0   0   1   1   1   1 MW248466.1 source_annotation QQM14740.1
+audit_86a9e1291d877417f152 -          ART_RT               -           8.7e-286  948.4  62.1  9.7e-286  948.2  62.1   1.0   1   0   0   1   1   1   1 MW248466.1 pyrodigal_gv pgv206
+audit_253280a13506e7ba4151 -          ART_RT               -             9e-286  948.3  62.1    1e-285  948.1  62.1   1.0   1   0   0   1   1   1   1 MW248466.1 six_frame code11_orf185
+audit_9d193fab2c6015a69020 -          ART_RT               -           7.3e-183  608.8  64.1  3.1e-180  600.2  64.1   2.0   1   1   0   1   1   1   1 MZ422438.1 pyrodigal_gv pgv198
+audit_b4d596290490ab569aab -          ART_RT               -           7.3e-183  608.8  64.1  3.1e-180  600.2  64.1   2.0   1   1   0   1   1   1   1 MZ422438.1 source_annotation QXN67953.1
+audit_70040d05a95af2c95ac7 -          ART_RT               -           7.5e-183  608.8  64.1  3.1e-180  600.2  64.1   2.0   1   1   0   1   1   1   1 MZ422438.1 six_frame code11_orf782
+audit_60bbf7293e39b07920e3 -          ART_RT               -           3.1e-180  600.2  54.8  3.4e-180  600.0  54.8   1.0   1   0   0   1   1   1   1 MW218148.1 source_annotation QPI16926.1
+audit_ae82f3ab9485aaf6a20e -          ART_RT               -           3.1e-180  600.2  54.8  3.4e-180  600.0  54.8   1.0   1   0   0   1   1   1   1 MW218148.1 pyrodigal_gv pgv7
+audit_152bdb9e2be25e6d3040 -          ART_RT               -           3.3e-180  600.1  54.8  3.7e-180  599.9  54.8   1.0   1   0   0   1   1   1   1 MW218148.1 six_frame code11_orf438
+audit_f4fab32370004f785050 -          ART_RT               -              4e-60  204.0  65.1   3.5e-59  200.9  65.1   2.0   1   1   0   1   1   1   1 MZ422438.1 pyrodigal_gv pgv200
+audit_fba41a1e8c3dcfc3f8a6 -          ART_RT               -              4e-60  204.0  65.1   3.5e-59  200.9  65.1   2.0   1   1   0   1   1   1   1 MZ422438.1 source_annotation QXN67955.1
+audit_415e71f9740943fd799b -          ART_RT               -            5.9e-60  203.4  65.6   5.1e-59  200.3  65.6   2.0   1   1   0   1   1   1   1 MZ422438.1 six_frame code11_orf1173
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\ART_RT.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\ART_RT.domtbl -E 0.001 --domE 0.001 -Z 15471 --domZ 15471 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 13:53:20 2026
+# [ok]

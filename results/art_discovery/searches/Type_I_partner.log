@@ -1,0 +1,106 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  D:\MBZUAI\CRISP\results\art_discovery\profiles\Type_I_partner.hmm
+# target sequence database:        D:\MBZUAI\CRISP\results\art_discovery\target_proteins.faa
+# per-seq hits tabular output:     D:\MBZUAI\CRISP\results\art_discovery\searches\Type_I_partner.tbl
+# per-dom hits tabular output:     D:\MBZUAI\CRISP\results\art_discovery\searches\Type_I_partner.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2076
+# domain search space set to:      2076
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_I_partner  [M=481]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+          0 1122.3  55.2          0 1122.1  55.2    1.0  1  QXN67952.1  MZ422438.1
+    1.5e-40  136.1  34.7    1.5e-40  136.1  34.7    2.5  1  QXN67954.1  MZ422438.1
+
+
+Domain annotation for each sequence (and alignments):
+>> QXN67952.1  MZ422438.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1122.1  55.2         0         0       1     481 []       1     481 []       1     481 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1122.1 bits;  conditional E-value: 0
+  Type_I_partner   1 mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnnldnklep 95 
+                     mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnnldnklep
+      QXN67952.1   1 MKKLKNNNVLYEEYIASLYKDVLSLSQIDSEIYNEIKIIEKLHQLNIGIGASITDFKLEHEILFLHDKFGKKRMYKMIKLIKDWYNNNLDNKLEP 95 
+                     9********************************************************************************************** PP
+
+  Type_I_partner  96 elfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmn 190
+                     elfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmn
+      QXN67952.1  96 ELFDIQFVKYKKKNGLYRMFNLFSYEQLMNILNKCVVNNISIHRFVSEFPNKVTNKYITNKKVNSNYIDEAYNFLQSSLSKYNNDKFIKLLPFMN 190
+                     *********************************************************************************************** PP
+
+  Type_I_partner 191 yevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymg 285
+                     yevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymg
+      QXN67952.1 191 YEVIRKSDLNYKEMNKYINNVLLARAGTKYNVSESKMNISNNHSNKFIYFSKDVDEIMNIGVKTKCCFTPNGLAAPLVKISLENPLAGILTGYMG 285
+                     *********************************************************************************************** PP
+
+  Type_I_partner 286 kkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkcyfdrphtlinsehkfssyny 380
+                     kkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkcyfdrphtlinsehkfssyny
+      QXN67952.1 286 KKIWFSFVWEIGIFNQETKTIDICLIMDNIESNQLLNNNDFSIISDWITNNTHYKKIFLGYLRNDINRTILEDKCYFDRPHTLINSEHKFSSYNY 380
+                     *********************************************************************************************** PP
+
+  Type_I_partner 381 ddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiarnscqifslifldnddniittlegkyykelsnilke 475
+                     ddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiarnscqifslifldnddniittlegkyykelsnilke
+      QXN67952.1 381 DDSEKIYELDIIPDYDDTLYIQEERDIGWIMRSLYYKYYDIKLNTFLEKGEKVNKLFIARNSCQIFSLIFLDNDDNIITTLEGKYYKELSNILKE 475
+                     *********************************************************************************************** PP
+
+  Type_I_partner 476 gselvg 481
+                     gselvg
+      QXN67952.1 476 GSELVG 481
+                     *****8 PP
+
+>> QXN67954.1  MZ422438.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.1  34.7   1.5e-40   1.5e-40     113     401 ..     191     469 ..     112     542 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 136.1 bits;  conditional E-value: 1.5e-40
+  Type_I_partner 113 rmfnlfsyeqlmnilnkc.vvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlnykemnk 206
+                     +++n++sy       nk    n+i +h f+ +fp+   ++       +  yid    +++     y+   f+kll ++ny+ +r+s  n  ++ k
+      QXN67954.1 191 KLLNFVSYA-----YNKGnSENKIDLHNFIENFPKTAIERL----DDDETYIDTILAYIKR---IYKSKDFLKLLNYINYQGVRESK-NISDLRK 272
+                     233333332.....244414588***********8776554....55679***99999875...689999**************996.99***** PP
+
+  Type_I_partner 207 yinnvllaragtky.nvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkkiwfsfvweigifn 300
+                     y+n +  a+ g  y + s+ +m   + + n +i f+k+  +i  ig +t ccf p+g a  l+k ++e p+agil g +  k wfsfvwei  +n
+      QXN67954.1 273 YVNIIDNAKKGLSYgETSNGEMLFDDSKYNDMIKFTKEKVDINSIGFRTLCCFRPDGAAKSLLKPAIESPIAGILEGVFDTKTWFSFVWEIVEYN 367
+                     *************9558999*************************************************************************** PP
+
+  Type_I_partner 301 qetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled..kcyfdrphtlinsehkfssyn.yddsekiyeldii 392
+                     ++tk+ +  li+dnies + l+ n++  i +w+  n+ y+ki+lgylrndin        +        li  e +f+ y  +dds  ++   ++
+      QXN67954.1 368 EDTKSYETNLILDNIESSKSLDMNEYEYIINWLDINSDYNKIYLGYLRNDINSNYKVSytQRLRSSSEGLICYENNFNRYSsFDDSRYVFT--VL 460
+                     ***************************************************987654400334455678*********9954899987664..44 PP
+
+  Type_I_partner 393 pdyddtlyi 401
+                        ++  yi
+      QXN67954.1 461 DRKNNIKYI 469
+                     444444444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (481 nodes)
+Target sequences:                       2076  (624757 residues searched)
+Passed MSV filter:                       543  (0.261561); expected 41.5 (0.02)
+Passed bias filter:                        4  (0.00192678); expected 41.5 (0.02)
+Passed Vit filter:                         2  (0.000963391); expected 2.1 (0.001)
+Passed Fwd filter:                         2  (0.000963391); expected 0.0 (1e-05)
+Initial search space (Z):               2076  [as set by --Z on cmdline]
+Domain search space  (domZ):            2076  [as set by --domZ on cmdline]
+# CPU time: 0.01u 0.05s 00:00:00.06 Elapsed: 00:00:00.02
+# Mc/sec: 12820.37
+//
+[ok]

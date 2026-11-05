@@ -1,0 +1,5 @@
+cell_id	RT_sample_id	partner_sample_id	native_pair	condition	protein_iptm	ptm	confidence	contact_residue_pairs_5A	client_seconds	server_seconds	structure_file	sampling_steps	recycling_steps	exact_seed_control	full_PAE_available	confirmatory
+S_r1_p1	ARTS0016	ARTS0016	True	S_explicit_query_only_MSA	0.11973755806684494	0.2030993402004242	0.3413560092449188	275	25.71649330900982	10.433175168000162	S_r1_p1/model_0.cif	200	3	False	False	False
+S_r1_p2	ARTS0016	ARTS0017	False	S_explicit_query_only_MSA	0.11941004544496536	0.1993316113948822	0.33026066422462463	289	26.557414036942646	10.6666892580688	S_r1_p2/model_0.cif	200	3	False	False	False
+S_r2_p1	ARTS0017	ARTS0016	False	S_explicit_query_only_MSA	0.10910392552614212	0.1841082125902176	0.33868592977523804	199	22.36145240603946	9.624656302039512	S_r2_p1/model_0.cif	200	3	False	False	False
+S_r2_p2	ARTS0017	ARTS0017	True	S_explicit_query_only_MSA	0.1187586784362793	0.19098247587680817	0.3228297233581543	355	21.207018894143403	10.500613388605416	S_r2_p2/model_0.cif	200	3	False	False	False

@@ -1,0 +1,10 @@
+{
+  "protein_accession": "MGYP010182298134",
+  "contig_accession": "MGYC001898389771",
+  "assembly": "ERZ18698263",
+  "analysis": "MGYA00793405",
+  "metadata_source": "results/art_sample_expansion_20261104/deferred_acquisition/MGYP010182298134.response",
+  "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00793405/contigs/ERZ18698263.1656-NODE-1656-length-16365-cov-8.550889",
+  "retrieved_utc": "2026-11-04T11:11:16.764011+00:00",
+  "error": "HTTPError: HTTP Error 406: Not Acceptable"
+}

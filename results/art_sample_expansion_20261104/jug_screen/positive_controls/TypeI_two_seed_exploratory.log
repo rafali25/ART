@@ -1,0 +1,53 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/typeI_two_LPJP1_queries.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/TypeI_two_seed_exploratory.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/TypeI_two_seed_exploratory.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    69120
+# domain search space set to:      69120
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       typeI_two_LPJP1_queries.aligned  [M=697]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+          0 1278.3  77.3          0 1278.2  77.3    1.0  1  QXN67954.1  MZ422438.1__QXN67955.1
+   2.4e-248  827.8  55.3   3.3e-248  827.4  55.3    1.1  1  QXN67952.1  MZ422438.1__QXN67953.1
+
+
+Domain annotation for each sequence:
+>> QXN67954.1  MZ422438.1__QXN67955.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1278.2  77.3         0         0       1     697 []       1     661 []       1     661 [] 1.00
+
+>> QXN67952.1  MZ422438.1__QXN67953.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  827.4  55.3  3.3e-248  3.3e-248     105     584 ..      19     464 ..       5     477 .. 0.98
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (697 nodes)
+Target sequences:                          2  (1142 residues searched)
+Passed MSV filter:                         2  (1); expected 0.0 (0.02)
+Passed bias filter:                        2  (1); expected 0.0 (0.02)
+Passed Vit filter:                         2  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         2  (1); expected 0.0 (1e-05)
+Initial search space (Z):              69120  [as set by --Z on cmdline]
+Domain search space  (domZ):           69120  [as set by --domZ on cmdline]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 59.13
+//
+[ok]

@@ -1,0 +1,21 @@
+{
+  "source_genome_key": "HPGC001745",
+  "original_id": "huge_phage_2038",
+  "source_path": "sources/SRC0020.gb",
+  "segments": [
+    {
+      "source_start0": 210794,
+      "source_end0": 224495,
+      "locus_start0": 0,
+      "locus_end0": 13701,
+      "orientation": 1
+    }
+  ],
+  "upstream_available_nt": 6000,
+  "source_format": "genbank",
+  "locus_path": "loci/ARTS0022.gb",
+  "sample_id": "ARTS0022",
+  "locus_id": "HPGC001745__HPGC001745_pgv247",
+  "coordinate_convention": "zero_based_half_open",
+  "original_repository_map": "results/art_expansion_20261105/HPGC/loci/HPGC001745__HPGC001745_pgv247.map.json"
+}

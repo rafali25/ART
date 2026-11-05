@@ -1,0 +1,30 @@
+{
+  "locus_id": "SRR5371381_9952__SRR5371381_9952_pgv1",
+  "upstream_sequence": "",
+  "upstream_offset0": 0,
+  "initial": {
+    "R": 0,
+    "positions": [],
+    "seed": "",
+    "dense_run": 0,
+    "dense_veto": false,
+    "maximum_dense_run_any_seed": 0,
+    "seeds_tested": 0
+  },
+  "extended": {
+    "score": 0.0,
+    "candidates": [],
+    "seeds_tested": 0
+  },
+  "model": {},
+  "repeats": [],
+  "spacers": [],
+  "quality": {
+    "flags": [
+      "incomplete_6000nt_upstream",
+      "extracted_locus_reaches_contig_boundary"
+    ]
+  },
+  "statistical_score": "extended_seed_discovery_best_chain_score",
+  "array_status": "incomplete_upstream_assessment"
+}

@@ -1,0 +1,17 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QXN67955.1           -            509 ART_Staph_typeII_pilot -            500   7.5e-52  170.5  39.7   1   2       1.5   1.7e+02   -5.5   6.0   277   315    41    83     5   143 0.46 -
+QXN67955.1           -            509 ART_Staph_typeII_pilot -            500   7.5e-52  170.5  39.7   2   2   6.6e-54   7.5e-52  170.5  39.7   140   494   148   501   142   507 0.84 -
+QXN67953.1           -            454 ART_Staph_typeII_pilot -            500   2.6e-41  135.7  33.8   1   2     0.081       9.3   -1.4   0.7    74   142    67   137    34   160 0.65 -
+QXN67953.1           -            454 ART_Staph_typeII_pilot -            500   2.6e-41  135.7  33.8   2   2   2.2e-43   2.6e-41  135.7  33.8   185   495   148   447   136   450 0.88 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:\MBZUAI\CRISP\results\art_profile_marshill\art_family.hmm
+# Target file:     D:\MBZUAI\CRISP\results\art_discovery\LPJP1_initial_proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_discovery\LPJP1_initial_screen.tbl --domtblout D:\MBZUAI\CRISP\results\art_discovery\LPJP1_initial_screen.domtbl --cpu 4 D:\MBZUAI\CRISP\results\art_profile_marshill\art_family.hmm D:\MBZUAI\CRISP\results\art_discovery\LPJP1_initial_proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Mon Oct 19 17:36:14 2026
+# [ok]

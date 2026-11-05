@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+td75f000799c5c5a92c  -            607 RVT_1                PF00078.33   200   2.5e-18   62.0   1.8   1   1   5.6e-18   5.6e-18   60.9   1.0    19   192   315   508   294   523 0.79 SRR7532897_75 SRR7532897_75_pgv1
+ocd0996ee3cb6c3735e  -            614 RVT_1                PF00078.33   200   2.6e-18   62.0   1.8   1   1   5.8e-18   5.8e-18   60.8   1.0    19   192   322   515   301   530 0.79 SRR7532897_75 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/searches/RVT_1.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/searches/RVT_1.domtbl -E 0.001 --domE 0.001 -Z 676 --domZ 676 --seed 42 --cpu 2 /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:18:51 2026
+# [ok]

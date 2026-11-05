@@ -1,0 +1,50 @@
+{
+  "coordinate_convention": "zero_based_half_open",
+  "strand": 1,
+  "length_nt": 13503,
+  "upstream_requested_nt": 6000,
+  "downstream_requested_nt": 6000,
+  "upstream_available_nt": 6000,
+  "downstream_available_nt": 6000,
+  "upstream_shortfall_nt": 0,
+  "downstream_shortfall_nt": 0,
+  "source_topology": "circular",
+  "circularity_support": "source_record_topology=circular",
+  "wrapped": false,
+  "source_origin_reached": false,
+  "source_end_reached": false,
+  "genomic_left_clipped_nt": 0,
+  "genomic_right_clipped_nt": 0,
+  "circular_request_capped_to_one_contig": false,
+  "locus_id": "LC680885.1__BDE75684.1",
+  "accession": "LC680885.1",
+  "RT_protein_id": "BDE75684.1",
+  "RT_locus_start0": 6000,
+  "RT_locus_end0": 7503,
+  "partner_ids": "BDE75685.1",
+  "discovery_routes": "ART_protein_first;partner_first",
+  "source_path": "datasetss/S6/S6_LC680885.1.gb",
+  "source_file_sha256": "236a9b558ac66783b01897e62ea4626b25e475084b57ccbf6f5760d5a01d713c",
+  "annotation_source": "original_source_record",
+  "gene_caller_used": false,
+  "ambiguous_nt": 0,
+  "fasta_path": "loci/LC680885.1__BDE75684.1.fna",
+  "genbank_path": "loci/LC680885.1__BDE75684.1.gb",
+  "gff3_path": "loci/LC680885.1__BDE75684.1.gff3",
+  "segments": [
+    {
+      "source_start0": 161555,
+      "source_end0": 175058,
+      "locus_start0": 0,
+      "locus_end0": 13503,
+      "orientation": 1
+    }
+  ],
+  "RT_review": {
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  }
+}

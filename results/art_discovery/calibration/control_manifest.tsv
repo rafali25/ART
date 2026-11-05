@@ -1,0 +1,58 @@
+protein_id	role	family	description
+sp|P0A948|RIMJ_ECOLI	reviewed_unrelated_GNAT		sp|P0A948|RIMJ_ECOLI [Ribosomal protein uS5]-alanine N-acetyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=rimJ PE=1 SV=1
+sp|P0A944|RIMI_ECOLI	reviewed_unrelated_GNAT		sp|P0A944|RIMI_ECOLI [Ribosomal protein bS18]-alanine N-acetyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=rimI PE=1 SV=1
+sp|P13857|RIML_ECOLI	reviewed_unrelated_GNAT		sp|P13857|RIML_ECOLI Ribosomal-protein-serine acetyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=rimL PE=1 SV=1
+QQM14740.1	related_sequence_positive_holdout	ART_RT	MW248466.1
+QPI16926.1	related_sequence_positive_holdout	ART_RT	MW218148.1
+QQM14741.1	related_sequence_positive_holdout	Type_II_partner	MW248466.1
+QPI16927.1	related_sequence_positive_holdout	Type_II_partner	MW218148.1
+BDE75644.1	annotated_phage_background_not_verified_nonbinder		ribonuclease H
+BDE75744.1	annotated_phage_background_not_verified_nonbinder		DNA ligase
+QDJ97628.1	annotated_phage_background_not_verified_nonbinder		replicative DNA helicase
+QDJ97692.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase beta subunit
+QDJ97700.1	annotated_phage_background_not_verified_nonbinder		DNA ligase
+QDJ97714.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase beta' subunit
+QDJ97764.1	annotated_phage_background_not_verified_nonbinder		viral capsid protein
+QDJ97801.1	annotated_phage_background_not_verified_nonbinder		RecD-like DNA helicase
+QDJ97813.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase, omega subunit family protein
+QDJ97853.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase delta subunit
+QDJ97879.1	annotated_phage_background_not_verified_nonbinder		ribonuclease HI
+QPI16973.1	annotated_phage_background_not_verified_nonbinder		RNA polymerase beta subunit
+QPI16981.1	annotated_phage_background_not_verified_nonbinder		NAD-dependent DNA-ligase
+QPI16995.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase beta subunit
+QPI16996.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase beta' subunit
+QPI17057.1	annotated_phage_background_not_verified_nonbinder		terminase large subunit
+QPI17077.1	annotated_phage_background_not_verified_nonbinder		exodeoxyribonuclease V
+QPI17095.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase beta' subunit
+QPI17119.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase beta' subunit
+QPI17122.1	annotated_phage_background_not_verified_nonbinder		DNA/RNA helicase of superfamily II
+QPI17140.1	annotated_phage_background_not_verified_nonbinder		DNA-directed RNA polymerase beta subunit
+QPI17145.1	annotated_phage_background_not_verified_nonbinder		ribonuclease HI
+QPI17172.1	annotated_phage_background_not_verified_nonbinder		DnaB-like replicative helicase
+QQM14535.1	annotated_phage_background_not_verified_nonbinder		non-viral RNA polymerase beta subunit
+QQM14536.1	annotated_phage_background_not_verified_nonbinder		non-viral RNA polymerase beta-prime subunit
+QQM14604.1	annotated_phage_background_not_verified_nonbinder		terminase large subunit
+QQM14605.1	annotated_phage_background_not_verified_nonbinder		terminase large subunit
+QQM14624.1	annotated_phage_background_not_verified_nonbinder		RecD-like helicase
+QQM14675.1	annotated_phage_background_not_verified_nonbinder		non-viral RNA polymerase beta-prime subunt
+QQM14678.1	annotated_phage_background_not_verified_nonbinder		DNA repair helicase
+QQM14696.1	annotated_phage_background_not_verified_nonbinder		viral RNA polymerase beta-prime subunit
+QQM14701.1	annotated_phage_background_not_verified_nonbinder		ribonuclease H
+QQM14715.1	annotated_phage_background_not_verified_nonbinder		non-viral RNA polymerase subunit
+QQM14728.1	annotated_phage_background_not_verified_nonbinder		DNA helicase
+QQM14793.1	annotated_phage_background_not_verified_nonbinder		NAD-dependent DNA-ligase
+QQM18075.1	annotated_phage_background_not_verified_nonbinder		viral RNA polymerase beta-prime subunit
+QQM18076.1	annotated_phage_background_not_verified_nonbinder		viral RNA polymerase beta subunit
+QQM18078.1	annotated_phage_background_not_verified_nonbinder		viral RNA polymerase beta subunit
+QQM18079.1	annotated_phage_background_not_verified_nonbinder		non-viral RNA polymerase beta subunit
+QQO92658.1	annotated_phage_background_not_verified_nonbinder		non-viral RNA polymerase beta subunit
+QQO92659.1	annotated_phage_background_not_verified_nonbinder		non-viral RNA polymerase beta-prime subunit
+QQO92724.1	annotated_phage_background_not_verified_nonbinder		terminase large subunit
+QQO92726.1	annotated_phage_background_not_verified_nonbinder		terminase large subunit
+QQO92735.1	annotated_phage_background_not_verified_nonbinder		viral RNA polymerase beta-prime subunit
+QQO92745.1	annotated_phage_background_not_verified_nonbinder		RecD-like helicase
+QQO92767.1	annotated_phage_background_not_verified_nonbinder		viral RNA polymerase beta-prime subunit
+QQO92793.1	annotated_phage_background_not_verified_nonbinder		non-viral RNA polymerase beta-prime subunit
+QQO92796.1	annotated_phage_background_not_verified_nonbinder		DNA repair helicase
+QQO92811.1	annotated_phage_background_not_verified_nonbinder		viral RNA polymerase beta subunit
+QQO92812.1	annotated_phage_background_not_verified_nonbinder		viral RNA polymerase beta-prime subunit

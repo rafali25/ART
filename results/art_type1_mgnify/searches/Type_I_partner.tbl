@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tb9a603ed9e661d7c56  -          Type_I_partner       -                  0 1122.3  55.2         0 1122.1  55.2   1.0   1   0   0   1   1   1   1 MZ422438.1 QXN67952.1
+o22daa07b7859182266  -          Type_I_partner       -                  0 1122.3  55.2         0 1122.1  55.2   1.0   1   0   0   1   1   1   1 MZ422438.1 six_frame
+o9d0baccf8a310637b1  -          Type_I_partner       -            3.3e-62  209.0  30.7   4.4e-62  208.6  30.7   1.1   1   0   0   1   1   1   1 MGYC001394629236 six_frame
+tdb3a1b1782160f4013  -          Type_I_partner       -              5e-62  208.4  31.4   6.6e-62  208.0  31.4   1.1   1   0   0   1   1   1   1 MGYC001394629236 MGYC001394629236_pgv5
+o1379a0e0a703f7614e  -          Type_I_partner       -              4e-40  136.1  34.7     4e-40  136.1  34.7   2.5   2   1   1   3   3   1   1 MZ422438.1 six_frame
+tb7d267d790c28cff6a  -          Type_I_partner       -              4e-40  136.1  34.7     4e-40  136.1  34.7   2.5   2   1   1   3   3   1   1 MZ422438.1 QXN67954.1
+t3b32edac4c0fe6e024  -          Type_I_partner       -              3e-39  133.3   2.9     3e-39  133.3   2.9   1.9   2   0   0   2   2   1   1 MGYC003138808455 MGYC003138808455_pgv3
+o67a88a11306ee91abc  -          Type_I_partner       -            3.1e-39  133.2   2.9   3.1e-39  133.2   2.9   1.9   2   0   0   2   2   1   1 MGYC003138808455 six_frame
+oe76e54315e4656317c  -          Type_I_partner       -            1.6e-37  127.6  24.3   1.6e-37  127.6  24.3   2.8   2   1   0   2   2   1   1 MGYC001394626043 six_frame
+tf4b34a49abe239ea33  -          Type_I_partner       -            1.6e-37  127.6  24.3   1.6e-37  127.6  24.3   2.8   2   1   0   2   2   1   1 MGYC001394626043 MGYC001394626043_pgv10
+tf82de8c2b0605cad18  -          Type_I_partner       -            9.5e-37  125.0  19.3   9.5e-37  125.0  19.3   1.6   1   1   0   1   1   1   1 MGYC002687634053 MGYC002687634053_pgv53
+o1ef22e61473f32ada4  -          Type_I_partner       -            1.1e-36  124.9  19.5   1.1e-36  124.9  19.5   1.6   1   1   0   1   1   1   1 MGYC002687634053 six_frame
+tc2637709eaa40c69e5  -          Type_I_partner       -              1e-35  121.6  13.6   1.3e-35  121.2  13.6   1.1   1   0   0   1   1   1   1 MGYC003138808455 MGYC003138808455_pgv1
+oaec343f97fa8da6b8f  -          Type_I_partner       -            1.2e-35  121.3  13.8   1.7e-35  120.9  13.8   1.1   1   0   0   1   1   1   1 MGYC003138808455 six_frame
+ofc711666396a9d53a2  -          Type_I_partner       -            1.7e-31  107.7  16.1   3.4e-31  106.7  15.5   1.7   1   1   0   1   1   1   1 MGYC002345864168 six_frame
+t571d1d7e54a2327e9d  -          Type_I_partner       -            1.8e-31  107.6  16.2   4.2e-31  106.4  16.2   1.6   1   1   0   1   1   1   1 MGYC002345864168 MGYC002345864168_pgv3
+tb5d070fcf5a8366a66  -          Type_I_partner       -            1.5e-30  104.6  11.9   1.1e-29  101.7  11.9   2.0   1   1   0   1   1   1   1 MGYC003533828254 MGYC003533828254_pgv1
+o51178c35a50dc366e5  -          Type_I_partner       -            2.2e-30  104.0  12.3   1.5e-29  101.3  12.3   2.0   1   1   0   1   1   1   1 MGYC003533828254 six_frame
+obb3e81196a6b95b807  -          Type_I_partner       -            1.9e-29  100.9   1.1   3.8e-29   99.9   0.2   1.7   1   1   1   2   2   1   1 MGYC003526048914 six_frame
+t1f7a6bf8754a6a1ca5  -          Type_I_partner       -            1.9e-29  100.9   1.2   3.8e-29   99.9   0.2   1.7   1   1   1   2   2   1   1 MGYC003526048914 MGYC003526048914_pgv180
+t888ae94ca78c317f69  -          Type_I_partner       -            1.7e-25   87.9   1.4   1.7e-25   87.9   1.4   2.0   2   0   0   2   2   1   1 MGYC003526048914 MGYC003526048914_pgv182
+o4b9111a79f326315da  -          Type_I_partner       -            1.7e-25   87.9   1.4   1.7e-25   87.9   1.4   2.0   2   0   0   2   2   1   1 MGYC003526048914 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_mgnify/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_mgnify\searches\Type_I_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_mgnify\searches\Type_I_partner.domtbl -E 0.001 --domE 0.001 -Z 5607 --domZ 5607 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm D:/MBZUAI/CRISP/results/art_type1_mgnify/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Wed Oct 21 00:11:55 2026
+# [ok]

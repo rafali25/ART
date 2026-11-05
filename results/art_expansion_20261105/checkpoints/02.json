@@ -1,0 +1,74 @@
+{
+  "step": 2,
+  "title": "Archive and MGnify occurrence/member expansion",
+  "status": "complete",
+  "completed_utc": "2026-11-04T21:44:50.172180+00:00",
+  "slurm_job_id": "371425",
+  "host": "cn-06",
+  "summary": {
+    "archive": {
+      "lead_rows": 45,
+      "distinct_source_runs": 44,
+      "source_contigs": 24,
+      "exact_mapped_leads": 24,
+      "statuses": {
+        "exact_unique_peptide_mapping": 24,
+        "unresolved_bounded_prefix": 21
+      },
+      "successful_new_body_bytes": 200000000,
+      "byte_cap": 200000000,
+      "every_run_attempted": true,
+      "prefix_nonmatches_are_not_absence": true
+    },
+    "mgnify": {
+      "representatives_queried": 9,
+      "listed_occurrences": 9,
+      "previously_unacquired_contigs_attempted": 1,
+      "new_mapped_contigs": 0,
+      "new_DNA_bytes": 0,
+      "failures": 1,
+      "limitation": "Public API exposes representatives and listed occurrences only; complete cluster-member expansion requires separate bulk/Parquet lookup"
+    },
+    "screen": {
+      "source_contigs": 24,
+      "proteins_and_ORFs": 3893,
+      "mapped_RT_loci": 16,
+      "typeI_pair_associations": 17,
+      "primary_typeI_pairs": 16,
+      "new_public_primary_pairs": 16,
+      "exploratory_arrays": 0,
+      "validation_limits": {
+        "passed": false,
+        "reasons": [
+          "repeat_copy_validation_failures",
+          "missing_comparison_sets:NART",
+          "missing_partner_families:Type_III_first_partner,Type_III_second_partner",
+          "full_repeat_boundaries_not_independently_confirmed"
+        ],
+        "summary_sha256": "fc85f4b168008d688ec3b77ff9bd29edcb50dd5ba4a0202a681e8a1f447277ec",
+        "scope": "small_mapped_protein_pilot_allowed; definitive_locus_calls_and_further_expansion_gated"
+      },
+      "elapsed_seconds": 7.093
+    },
+    "Parquet_member_expansion": {
+      "chosen_representatives": [
+        "MGYP001235072058",
+        "MGYP003692697779",
+        "MGYP003692711065",
+        "MGYP007184306783"
+      ],
+      "byte_cap": 100000000,
+      "status": "bounded_query_unavailable_or_budget_limited",
+      "duckdb_version": "1.4.3",
+      "reason": "HTTPException: HTTP Error: Request returned HTTP 503 for HTTP HEAD to 'http://127.0.0.1:40637/mgy_cluster_seqs.parquet'\n\nLINE 1: SELECT cluster_rep,cluster_member FROM read_parquet('http://127.0.0.1:40637/mgy_cluster_seqs.parquet...\n                                               ^",
+      "limitation": "A failed or capped remote column scan is not absence of members or ART loci",
+      "remote_Parquet_bytes": 0
+    }
+  },
+  "artifacts": {
+    "results/art_expansion_20261105/step2/parquet/summary.json": "fd6b94d3dba0ac6f86e8f29025f7e39768d2cc16d12cbf1d0d8f87ffafdad171",
+    "results/art_expansion_20261105/step2/parquet/remote_read_audit.json": "b7321ad1fd94ec268c12f3f44de0855d6a3910b46148417fc1ef2f21131b9ae3",
+    "results/art_expansion_20261105/step2/parquet/peptide_mappings.tsv": "7703741f562b3f2c276fc35a9aba6f2de114df21e80f56ebf257cdb5ea03115c"
+  },
+  "script_sha256": "3860068e0910dad2ca2433e0784116657e98cf1b06f6b6ea8ac3dce9d50bea98"
+}

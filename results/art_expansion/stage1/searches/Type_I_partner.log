@@ -1,0 +1,106 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# target sequence database:        D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa
+# per-seq hits tabular output:     D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\Type_I_partner.tbl
+# per-dom hits tabular output:     D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\Type_I_partner.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2997
+# domain search space set to:      2997
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_I_partner  [M=481]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+          0 1122.3  55.2          0 1122.1  55.2    1.0  1  g700b5499f0316ed0  MZ422438.1 QXN67952.1
+    2.1e-40  136.1  34.7    2.1e-40  136.1  34.7    2.5  1  g96f0d64062d845f1  MZ422438.1 QXN67954.1
+
+
+Domain annotation for each sequence (and alignments):
+>> g700b5499f0316ed0  MZ422438.1 QXN67952.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1122.1  55.2         0         0       1     481 []       1     481 []       1     481 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1122.1 bits;  conditional E-value: 0
+     Type_I_partner   1 mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnnldnk 92 
+                        mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnnldnk
+  g700b5499f0316ed0   1 MKKLKNNNVLYEEYIASLYKDVLSLSQIDSEIYNEIKIIEKLHQLNIGIGASITDFKLEHEILFLHDKFGKKRMYKMIKLIKDWYNNNLDNK 92 
+                        9******************************************************************************************* PP
+
+     Type_I_partner  93 lepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfik 184
+                        lepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfik
+  g700b5499f0316ed0  93 LEPELFDIQFVKYKKKNGLYRMFNLFSYEQLMNILNKCVVNNISIHRFVSEFPNKVTNKYITNKKVNSNYIDEAYNFLQSSLSKYNNDKFIK 184
+                        ******************************************************************************************** PP
+
+     Type_I_partner 185 llpfmnyevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenpl 276
+                        llpfmnyevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenpl
+  g700b5499f0316ed0 185 LLPFMNYEVIRKSDLNYKEMNKYINNVLLARAGTKYNVSESKMNISNNHSNKFIYFSKDVDEIMNIGVKTKCCFTPNGLAAPLVKISLENPL 276
+                        ******************************************************************************************** PP
+
+     Type_I_partner 277 agiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkcyfdrphtl 368
+                        agiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkcyfdrphtl
+  g700b5499f0316ed0 277 AGILTGYMGKKIWFSFVWEIGIFNQETKTIDICLIMDNIESNQLLNNNDFSIISDWITNNTHYKKIFLGYLRNDINRTILEDKCYFDRPHTL 368
+                        ******************************************************************************************** PP
+
+     Type_I_partner 369 insehkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiarnscqifslifldnddniitt 460
+                        insehkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiarnscqifslifldnddniitt
+  g700b5499f0316ed0 369 INSEHKFSSYNYDDSEKIYELDIIPDYDDTLYIQEERDIGWIMRSLYYKYYDIKLNTFLEKGEKVNKLFIARNSCQIFSLIFLDNDDNIITT 460
+                        ******************************************************************************************** PP
+
+     Type_I_partner 461 legkyykelsnilkegselvg 481
+                        legkyykelsnilkegselvg
+  g700b5499f0316ed0 461 LEGKYYKELSNILKEGSELVG 481
+                        ********************8 PP
+
+>> g96f0d64062d845f1  MZ422438.1 QXN67954.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.1  34.7   2.1e-40   2.1e-40     113     401 ..     191     469 ..     112     542 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 136.1 bits;  conditional E-value: 2.1e-40
+     Type_I_partner 113 rmfnlfsyeqlmnilnkc.vvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlnyke 203
+                        +++n++sy       nk    n+i +h f+ +fp+   ++       +  yid    +++     y+   f+kll ++ny+ +r+s  n  +
+  g96f0d64062d845f1 191 KLLNFVSYA-----YNKGnSENKIDLHNFIENFPKTAIERL----DDDETYIDTILAYIKR---IYKSKDFLKLLNYINYQGVRESK-NISD 269
+                        233333332.....244414588***********8776554....55679***99999875...689999**************996.99** PP
+
+     Type_I_partner 204 mnkyinnvllaragtky.nvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkkiwfsfvw 294
+                        + ky+n +  a+ g  y + s+ +m   + + n +i f+k+  +i  ig +t ccf p+g a  l+k ++e p+agil g +  k wfsfvw
+  g96f0d64062d845f1 270 LRKYVNIIDNAKKGLSYgETSNGEMLFDDSKYNDMIKFTKEKVDINSIGFRTLCCFRPDGAAKSLLKPAIESPIAGILEGVFDTKTWFSFVW 361
+                        ****************9558999********************************************************************* PP
+
+     Type_I_partner 295 eigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled..kcyfdrphtlinsehkfssyn.ydds 383
+                        ei  +n++tk+ +  li+dnies + l+ n++  i +w+  n+ y+ki+lgylrndin        +        li  e +f+ y  +dds
+  g96f0d64062d845f1 362 EIVEYNEDTKSYETNLILDNIESSKSLDMNEYEYIINWLDINSDYNKIYLGYLRNDINSNYKVSytQRLRSSSEGLICYENNFNRYSsFDDS 453
+                        *********************************************************987654400334455678*********99548999 PP
+
+     Type_I_partner 384 ekiyeldiipdyddtlyi 401
+                          ++   ++   ++  yi
+  g96f0d64062d845f1 454 RYVFT--VLDRKNNIKYI 469
+                        87664..44444444444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (481 nodes)
+Target sequences:                       2997  (863600 residues searched)
+Passed MSV filter:                       710  (0.236904); expected 59.9 (0.02)
+Passed bias filter:                       12  (0.004004); expected 59.9 (0.02)
+Passed Vit filter:                         3  (0.001001); expected 3.0 (0.001)
+Passed Fwd filter:                         2  (0.000667334); expected 0.0 (1e-05)
+Initial search space (Z):               2997  [as set by --Z on cmdline]
+Domain search space  (domZ):            2997  [as set by --domZ on cmdline]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.02
+# Mc/sec: 18991.07
+//
+[ok]

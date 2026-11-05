@@ -1,0 +1,42 @@
+{
+  "queries": [
+    {
+      "query": "SRR8925777_19723",
+      "status": "SUCCESS",
+      "returned_hits": 10,
+      "incremental_unique_accessions": 1,
+      "page_count": 1,
+      "result_keys": [
+        "stats",
+        "hits"
+      ]
+    },
+    {
+      "query": "ERR8055547_17635",
+      "status": "SUCCESS",
+      "returned_hits": 11,
+      "incremental_unique_accessions": 2,
+      "page_count": 1,
+      "result_keys": [
+        "stats",
+        "hits"
+      ]
+    },
+    {
+      "query": "MGYC002687634053",
+      "status": "SUCCESS",
+      "returned_hits": 9,
+      "incremental_unique_accessions": 0,
+      "page_count": 1,
+      "result_keys": [
+        "stats",
+        "hits"
+      ]
+    }
+  ],
+  "returned_rows": 30,
+  "unique_accessions": 11,
+  "incremental_unique_accessions": 2,
+  "complete_ART_candidates": 0,
+  "comparison": "Both original public and MGnify remote_hits.tsv accession lists; bounded top-50 results, not exhaustive database absence"
+}

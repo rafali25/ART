@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_binding_boltz_entry.py", line 56, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/nfs-stor/rafiq.ali/projects/CRISP/scripts/art_binding_boltz_entry.py", line 43, in main
+    assert torch.cuda.is_available() and torch.cuda.device_count()==1,'Require exactly one Slurm-visible GPU'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Require exactly one Slurm-visible GPU

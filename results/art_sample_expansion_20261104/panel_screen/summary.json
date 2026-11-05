@@ -1,0 +1,19 @@
+{
+  "unique_DNA_sequences": 66,
+  "genomes_with_source_records": 78,
+  "protein_records": 22472,
+  "reported_domain_hits": 20,
+  "accepted_by_profile": {
+    "ART_RT": 4,
+    "Type_I_partner": 2,
+    "Type_II_partner": 4,
+    "Type_I_two_seed_exploratory": 2,
+    "RVT_1": 7
+  },
+  "candidate_pair_representations": 8,
+  "candidate_pair_source_genomes": 3,
+  "interpretation": "provisional_retrieval_only_not_final_ART_or_array_classification",
+  "Pyrodigal_gv_version": "0.3.2",
+  "source_annotated_and_predicted_representations_retained": true,
+  "caveat": "This pilot screens source CDSs and alternative viral calls; six-frame rescue is a follow-up around hits, not a genome-wide completed test."
+}

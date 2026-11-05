@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "cells_audited": 8,
+  "audits": [
+    {
+      "condition": "U",
+      "rows": 19,
+      "tokens": 775,
+      "query_occupied_chains": 2,
+      "nonquery_multiple_chain_rows": 0,
+      "nonquery_paired_feature_values": 0,
+      "nonquery_rows": 18,
+      "cell_id": "U_r2_p2",
+      "native_rows": 10
+    },
+    {
+      "condition": "U",
+      "rows": 19,
+      "tokens": 766,
+      "query_occupied_chains": 2,
+      "nonquery_multiple_chain_rows": 0,
+      "nonquery_paired_feature_values": 0,
+      "nonquery_rows": 18,
+      "cell_id": "U_r1_p1",
+      "native_rows": 10
+    },
+    {
+      "condition": "S",
+      "rows": 1,
+      "tokens": 775,
+      "query_occupied_chains": 2,
+      "nonquery_multiple_chain_rows": 0,
+      "nonquery_paired_feature_values": 0,
+      "nonquery_rows": 0,
+      "cell_id": "S_r1_p2",
+      "native_rows": 1
+    },
+    {
+      "condition": "S",
+      "rows": 1,
+      "tokens": 766,
+      "query_occupied_chains": 2,
+      "nonquery_multiple_chain_rows": 0,
+      "nonquery_paired_feature_values": 0,
+      "nonquery_rows": 0,
+      "cell_id": "S_r2_p1",
+      "native_rows": 1
+    },
+    {
+      "condition": "U",
+      "rows": 19,
+      "tokens": 766,
+      "query_occupied_chains": 2,
+      "nonquery_multiple_chain_rows": 0,
+      "nonquery_paired_feature_values": 0,
+      "nonquery_rows": 18,
+      "cell_id": "U_r2_p1",
+      "native_rows": 10
+    },
+    {
+      "condition": "U",
+      "rows": 19,
+      "tokens": 775,
+      "query_occupied_chains": 2,
+      "nonquery_multiple_chain_rows": 0,
+      "nonquery_paired_feature_values": 0,
+      "nonquery_rows": 18,
+      "cell_id": "U_r1_p2",
+      "native_rows": 10
+    },
+    {
+      "condition": "S",
+      "rows": 1,
+      "tokens": 766,
+      "query_occupied_chains": 2,
+      "nonquery_multiple_chain_rows": 0,
+      "nonquery_paired_feature_values": 0,
+      "nonquery_rows": 0,
+      "cell_id": "S_r1_p1",
+      "native_rows": 1
+    },
+    {
+      "condition": "S",
+      "rows": 1,
+      "tokens": 775,
+      "query_occupied_chains": 2,
+      "nonquery_multiple_chain_rows": 0,
+      "nonquery_paired_feature_values": 0,
+      "nonquery_rows": 0,
+      "cell_id": "S_r2_p2",
+      "native_rows": 1
+    }
+  ],
+  "actual_processed_features_saved": true,
+  "templates_present": false,
+  "API_key_required": false,
+  "slurm_job_id": "373489"
+}

@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_public/archive_leads/leads_and_GNAT_controls.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_public\archive_leads\ART_RT.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_public\archive_leads\ART_RT.domtbl -E 0.001 --domE 0.001 -Z 94 --domZ 94 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm D:/MBZUAI/CRISP/results/art_type1_public/archive_leads/leads_and_GNAT_controls.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 18:09:33 2026
+# [ok]

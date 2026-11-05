@@ -1,0 +1,45 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/proteins.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/searches/TypeI_two_seed_exploratory.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/searches/TypeI_two_seed_exploratory.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    69120
+# domain search space set to:      69120
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       typeI_two_LPJP1_queries.aligned  [M=697]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (697 nodes)
+Target sequences:                      69120  (15480714 residues searched)
+Passed MSV filter:                     10165  (0.147063); expected 1382.4 (0.02)
+Passed bias filter:                      746  (0.0107928); expected 1382.4 (0.02)
+Passed Vit filter:                         0  (0); expected 69.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.7 (1e-05)
+Initial search space (Z):              69120  [as set by --Z on cmdline]
+Domain search space  (domZ):           69120  [as set by --domZ on cmdline]
+# CPU time: 0.48u 0.00s 00:00:00.48 Elapsed: 00:00:00.38
+# Mc/sec: 27853.10
+//
+[ok]

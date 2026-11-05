@@ -1,0 +1,194 @@
+{
+  "experiment_id": "typeII_development_20261105",
+  "status": "inputs_frozen",
+  "prepared_utc": "2026-11-05T07:40:47.557054+00:00",
+  "slurm_job_id": "373455",
+  "config": {
+    "experiment_id": "typeII_development_20261105",
+    "purpose": "technical_development_not_confirmatory_binding_inference",
+    "sample_ids": [
+      "ARTS0016",
+      "ARTS0017"
+    ],
+    "sample_labels": [
+      "SA1",
+      "MarsHill"
+    ],
+    "conditions": [
+      "S",
+      "U"
+    ],
+    "initial_seeds": [
+      20261105
+    ],
+    "registered_additional_seeds": [
+      20261106,
+      20261107
+    ],
+    "additional_seeds_authorun": false,
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 1,
+    "maximum_msa_rows": 64,
+    "RT_partner_stoichiometry": "1:1",
+    "templates": false,
+    "interaction_restraints": false,
+    "external_MSA_service": false,
+    "custom_CUDA_kernels": false,
+    "U_representation": "explicit_block_diagonal_nonquery_MSA_rows",
+    "reserve_from_confirmation": "Both selected reference loci and their close Staphylococcus/Machias RT and partner clades; reassess with reviewed trees before a future holdout panel is defined.",
+    "limitations": [
+      "SA1 and MarsHill are closely related published type II references, not independent specificity examples.",
+      "Alternative pairings are untested biological interactions, not experimentally demonstrated nonbinders.",
+      "One seed per initial pilot cell is for technical validation only.",
+      "Local homolog MSAs are shallow; they are not the published locus-paired MSAs.",
+      "The current catalogue has zero eligible confirmatory three-locus blocks."
+    ]
+  },
+  "cells": [
+    {
+      "cell_id": "S_r1_p1",
+      "condition": "S",
+      "RT_sample_id": "ARTS0016",
+      "partner_sample_id": "ARTS0016",
+      "native_pair": true,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/S_r1_p1.yaml",
+      "input_sha256": "c7eb8713283a99016268a210dee18b69944155f417333a619fd7df29c45f28ee",
+      "RT_length_aa": 501,
+      "partner_length_aa": 265
+    },
+    {
+      "cell_id": "S_r1_p2",
+      "condition": "S",
+      "RT_sample_id": "ARTS0016",
+      "partner_sample_id": "ARTS0017",
+      "native_pair": false,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/S_r1_p2.yaml",
+      "input_sha256": "1d77ecbb431ff5c74cec09c758c0211cd4021713447d5f48711183adcbf082ce",
+      "RT_length_aa": 501,
+      "partner_length_aa": 274
+    },
+    {
+      "cell_id": "S_r2_p1",
+      "condition": "S",
+      "RT_sample_id": "ARTS0017",
+      "partner_sample_id": "ARTS0016",
+      "native_pair": false,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/S_r2_p1.yaml",
+      "input_sha256": "00d8990c09ac84dbd9f42d991d47d74f1d25f82a0a00f4683f650b3bf9a3a9f8",
+      "RT_length_aa": 501,
+      "partner_length_aa": 265
+    },
+    {
+      "cell_id": "S_r2_p2",
+      "condition": "S",
+      "RT_sample_id": "ARTS0017",
+      "partner_sample_id": "ARTS0017",
+      "native_pair": true,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/S_r2_p2.yaml",
+      "input_sha256": "fc864e6580f7a528864848ecd8768c78f714986ccb0ba2b87bea221a1e555c20",
+      "RT_length_aa": 501,
+      "partner_length_aa": 274
+    },
+    {
+      "cell_id": "U_r1_p1",
+      "condition": "U",
+      "RT_sample_id": "ARTS0016",
+      "partner_sample_id": "ARTS0016",
+      "native_pair": true,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/U_r1_p1.yaml",
+      "input_sha256": "7a70c6e84e13b1d62aab3aae5bf046dfc1bf00167c34becf1940173b7029b403",
+      "RT_length_aa": 501,
+      "partner_length_aa": 265
+    },
+    {
+      "cell_id": "U_r1_p2",
+      "condition": "U",
+      "RT_sample_id": "ARTS0016",
+      "partner_sample_id": "ARTS0017",
+      "native_pair": false,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/U_r1_p2.yaml",
+      "input_sha256": "f060b6b5cad70c4050a5818ab5dfb78e5bbf343ae200c2ba790ed60941f05ade",
+      "RT_length_aa": 501,
+      "partner_length_aa": 274
+    },
+    {
+      "cell_id": "U_r2_p1",
+      "condition": "U",
+      "RT_sample_id": "ARTS0017",
+      "partner_sample_id": "ARTS0016",
+      "native_pair": false,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/U_r2_p1.yaml",
+      "input_sha256": "71e8e8ff963b62b38f44ad4a7201a538accaa3307a751d44a1dee4a922341fdd",
+      "RT_length_aa": 501,
+      "partner_length_aa": 265
+    },
+    {
+      "cell_id": "U_r2_p2",
+      "condition": "U",
+      "RT_sample_id": "ARTS0017",
+      "partner_sample_id": "ARTS0017",
+      "native_pair": true,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/U_r2_p2.yaml",
+      "input_sha256": "21ca0a99ddf05746a908ff25b94c5161bafd00eb43fec40fe8aa63f14045bc14",
+      "RT_length_aa": 501,
+      "partner_length_aa": 274
+    }
+  ],
+  "development_loci": [
+    "MW218148.1__QPI16926.1",
+    "MW248466.1__QQM14740.1"
+  ],
+  "homolog_samples": [
+    "ARTS0014",
+    "ARTS0015",
+    "ARTS0016",
+    "ARTS0017",
+    "ARTS0018",
+    "ARTS0019",
+    "ARTS0020",
+    "ARTS0021",
+    "ARTS0027",
+    "ARTS0028"
+  ],
+  "input_source_sha256": "a96f0480f5adf6151e0b44e8d4622de59f9c4f7e910bede2cce888444ad75126",
+  "hashes": {
+    "cells.tsv": "ebffddddad2f29643625cb8e7f23225a038b459d65ca0acdc420c6fce688a257",
+    "registered_config.json": "8c3ce8c820f1804825e3f47dfb905e94043b5a24b642aa8ae97fd2a2968c653f",
+    "msas/ARTS0017_RT.csv": "d92743d63129e0b6e4ecacdfb2a5a255fbb95eca00cfdc9a83e838e76591885b",
+    "msas/ARTS0017_partner.csv": "0cbc0f3c97c87cade10515ba2e4c3f282deca36323a72f63d98d78f565215ad4",
+    "msas/ARTS0016_partner.csv": "c3eeadb8c4a2adfaabc6289aeda6a834622362c0a0e74f9608c3d4426f35773d",
+    "msas/ARTS0016_RT.csv": "b57dd7a4e519a21b53d66d37440e142fc34c91e135e571df040abc949c42fa65",
+    "inputs/S_r2_p1.yaml": "00d8990c09ac84dbd9f42d991d47d74f1d25f82a0a00f4683f650b3bf9a3a9f8",
+    "inputs/S_r1_p2.yaml": "1d77ecbb431ff5c74cec09c758c0211cd4021713447d5f48711183adcbf082ce",
+    "inputs/U_r1_p1.yaml": "7a70c6e84e13b1d62aab3aae5bf046dfc1bf00167c34becf1940173b7029b403",
+    "inputs/U_r2_p2.yaml": "21ca0a99ddf05746a908ff25b94c5161bafd00eb43fec40fe8aa63f14045bc14",
+    "inputs/S_r2_p2.yaml": "fc864e6580f7a528864848ecd8768c78f714986ccb0ba2b87bea221a1e555c20",
+    "inputs/S_r1_p1.yaml": "c7eb8713283a99016268a210dee18b69944155f417333a619fd7df29c45f28ee",
+    "inputs/U_r1_p2.yaml": "f060b6b5cad70c4050a5818ab5dfb78e5bbf343ae200c2ba790ed60941f05ade",
+    "inputs/U_r2_p1.yaml": "71e8e8ff963b62b38f44ad4a7201a538accaa3307a751d44a1dee4a922341fdd",
+    "logs/partner.mafft.log": "2012fed647fa1d147be4b38092ca5f6d8e0033d3d618471d48ebe31252f575e1",
+    "logs/RT.mafft.log": "2967b4e5fa8ad29a0b5a6ea09c98df45fce6220e41f9518472c6512e48b5c6f5",
+    "code/art_binding_analyse.py": "dd3e562e8ea724298eeeaee3a519c282c5c813994d9a77b3e3121eca77b40cfd",
+    "code/art_binding_msa_control.py": "87b63dd5cfebcc3ef23aa06a888812a839692350f734733504f14510fa5dbb91",
+    "code/art_binding_run.py": "e5fbe1905a212f017476a02a4c73199a0469ddaf2d02f643373025e5d8cd4248",
+    "code/test_art_binding_controls.py": "74d141be4ea0959a3b6d0e45d8930d0822f871b96c72f18d699bd5ca693b2bc5",
+    "code/art_binding_boltz_entry.py": "5d28012499ab126f707c2941b7d202b3fbb265364fd46bf44f127e6b88238215",
+    "code/art_binding_prepare.py": "8e7ff38868afd6208d480e6cdeaddd2cce62941fa233756c4cb0feede210a10e",
+    "alignments/RT.faa": "fc82fdc9a5abe55fdea3d7896f6f3cf81bffcc688579e3bb2e40f95562659897",
+    "alignments/partner.aligned.faa": "5d17b6657135147435a26d7676d9fb194585affc8bd24698da6b3bfe99a334b7",
+    "alignments/partner.faa": "ccf9129bf27d29c475cffe45f5eff5bb900f4828e6542618d36b420ae5bd8221",
+    "alignments/RT.aligned.faa": "dbebe5965f7976b29fb866370f5616279126fdbd40505b2612810ba37d93b8c1"
+  },
+  "API_key_required": false,
+  "calibration_complete": false,
+  "confirmatory_inference_allowed": false
+}

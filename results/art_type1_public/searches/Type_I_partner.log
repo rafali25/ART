@@ -1,0 +1,538 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# target sequence database:        D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa
+# per-seq hits tabular output:     D:\MBZUAI\CRISP\results\art_type1_public\searches\Type_I_partner.tbl
+# per-dom hits tabular output:     D:\MBZUAI\CRISP\results\art_type1_public\searches\Type_I_partner.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2063
+# domain search space set to:      2063
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_I_partner  [M=481]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+          0 1122.3  55.2          0 1122.1  55.2    1.0  1  tb9a603ed9e661d7c56  MZ422438.1 QXN67952.1
+          0 1122.3  55.2          0 1122.1  55.2    1.0  1  o22daa07b7859182266  MZ422438.1 six_frame
+    2.3e-53  178.4  26.4    2.3e-53  178.4  26.4    1.5  1  t294a713c707948c7d7  SRR8925777_19723 SRR8925777_19723_pgv10
+    2.4e-53  178.3  26.4    2.4e-53  178.3  26.4    1.5  1  o7e4d159c2219858867  SRR8925777_19723 six_frame
+    1.5e-40  136.1  34.7    1.5e-40  136.1  34.7    2.5  1  o1379a0e0a703f7614e  MZ422438.1 six_frame
+    1.5e-40  136.1  34.7    1.5e-40  136.1  34.7    2.5  1  tb7d267d790c28cff6a  MZ422438.1 QXN67954.1
+    3.6e-37  125.0  14.4    3.6e-37  125.0  14.4    2.9  1  t4768d82136af6821e1  ERR10896470_6836 ERR10896470_6836_pgv2
+    3.6e-37  125.0  14.4    3.6e-37  125.0  14.4    2.9  1  o9209565c37bd70a3dc  ERR10896470_6836 six_frame
+    8.1e-37  123.8  11.8    8.1e-37  123.8  11.8    2.7  1  o1751ac05fe12a96288  SRR26805139_340 six_frame
+    1.5e-36  123.0   4.9    1.8e-36  122.7   3.5    1.8  1  o5568f9b432c37b23bc  ERR8055547_17635 six_frame
+    1.6e-36  122.9  13.2    1.6e-36  122.9  13.2    2.7  1  t2df16249c221583d8d  SRR26805139_340 SRR26805139_340_pgv2
+    2.2e-36  122.4   5.5    2.5e-36  122.2   3.9    1.8  1  t313ae852fb37fab6f6  ERR8055547_17635 ERR8055547_17635_pgv13
+    8.7e-21   70.9  42.6    1.5e-20   70.1  42.6    1.4  1  t20d3930348d48ea9c1  ERR10896470_6836 ERR10896470_6836_pgv4
+    1.3e-20   70.3  43.1    2.3e-20   69.6  43.0    1.4  1  o1a0c7bfd9dc8da7916  ERR10896470_6836 six_frame
+    1.5e-19   66.9  38.9    2.3e-19   66.2  38.9    1.3  1  t4261b188891c35c54f  SRR26805139_340 SRR26805139_340_pgv4
+    1.5e-19   66.8  38.8    2.3e-19   66.2  38.8    1.3  1  o77fe97fc9b71d1493c  SRR26805139_340 six_frame
+
+
+Domain annotation for each sequence (and alignments):
+>> tb9a603ed9e661d7c56  MZ422438.1 QXN67952.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1122.1  55.2         0         0       1     481 []       1     481 []       1     481 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1122.1 bits;  conditional E-value: 0
+       Type_I_partner   1 mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnnld 90 
+                          mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnnld
+  tb9a603ed9e661d7c56   1 MKKLKNNNVLYEEYIASLYKDVLSLSQIDSEIYNEIKIIEKLHQLNIGIGASITDFKLEHEILFLHDKFGKKRMYKMIKLIKDWYNNNLD 90 
+                          9***************************************************************************************** PP
+
+       Type_I_partner  91 nklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynnd 180
+                          nklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynnd
+  tb9a603ed9e661d7c56  91 NKLEPELFDIQFVKYKKKNGLYRMFNLFSYEQLMNILNKCVVNNISIHRFVSEFPNKVTNKYITNKKVNSNYIDEAYNFLQSSLSKYNND 180
+                          ****************************************************************************************** PP
+
+       Type_I_partner 181 kfikllpfmnyevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvki 270
+                          kfikllpfmnyevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvki
+  tb9a603ed9e661d7c56 181 KFIKLLPFMNYEVIRKSDLNYKEMNKYINNVLLARAGTKYNVSESKMNISNNHSNKFIYFSKDVDEIMNIGVKTKCCFTPNGLAAPLVKI 270
+                          ****************************************************************************************** PP
+
+       Type_I_partner 271 slenplagiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkc 360
+                          slenplagiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkc
+  tb9a603ed9e661d7c56 271 SLENPLAGILTGYMGKKIWFSFVWEIGIFNQETKTIDICLIMDNIESNQLLNNNDFSIISDWITNNTHYKKIFLGYLRNDINRTILEDKC 360
+                          ****************************************************************************************** PP
+
+       Type_I_partner 361 yfdrphtlinsehkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiarnscqifslif 450
+                          yfdrphtlinsehkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiarnscqifslif
+  tb9a603ed9e661d7c56 361 YFDRPHTLINSEHKFSSYNYDDSEKIYELDIIPDYDDTLYIQEERDIGWIMRSLYYKYYDIKLNTFLEKGEKVNKLFIARNSCQIFSLIF 450
+                          ****************************************************************************************** PP
+
+       Type_I_partner 451 ldnddniittlegkyykelsnilkegselvg 481
+                          ldnddniittlegkyykelsnilkegselvg
+  tb9a603ed9e661d7c56 451 LDNDDNIITTLEGKYYKELSNILKEGSELVG 481
+                          ******************************8 PP
+
+>> o22daa07b7859182266  MZ422438.1 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1122.1  55.2         0         0       1     481 []       4     484 .]       4     484 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1122.1 bits;  conditional E-value: 0
+       Type_I_partner   1 mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnnld 90 
+                          mkklknnnvlyeeyiaslykdvlslsqidseiyneikiieklhqlnigigasitdfkleheilflhdkfgkkrmykmiklikdwynnnld
+  o22daa07b7859182266   4 MKKLKNNNVLYEEYIASLYKDVLSLSQIDSEIYNEIKIIEKLHQLNIGIGASITDFKLEHEILFLHDKFGKKRMYKMIKLIKDWYNNNLD 93 
+                          9***************************************************************************************** PP
+
+       Type_I_partner  91 nklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynnd 180
+                          nklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynnd
+  o22daa07b7859182266  94 NKLEPELFDIQFVKYKKKNGLYRMFNLFSYEQLMNILNKCVVNNISIHRFVSEFPNKVTNKYITNKKVNSNYIDEAYNFLQSSLSKYNND 183
+                          ****************************************************************************************** PP
+
+       Type_I_partner 181 kfikllpfmnyevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvki 270
+                          kfikllpfmnyevirksdlnykemnkyinnvllaragtkynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvki
+  o22daa07b7859182266 184 KFIKLLPFMNYEVIRKSDLNYKEMNKYINNVLLARAGTKYNVSESKMNISNNHSNKFIYFSKDVDEIMNIGVKTKCCFTPNGLAAPLVKI 273
+                          ****************************************************************************************** PP
+
+       Type_I_partner 271 slenplagiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkc 360
+                          slenplagiltgymgkkiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkc
+  o22daa07b7859182266 274 SLENPLAGILTGYMGKKIWFSFVWEIGIFNQETKTIDICLIMDNIESNQLLNNNDFSIISDWITNNTHYKKIFLGYLRNDINRTILEDKC 363
+                          ****************************************************************************************** PP
+
+       Type_I_partner 361 yfdrphtlinsehkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiarnscqifslif 450
+                          yfdrphtlinsehkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyykyydiklntflekgekvnklfiarnscqifslif
+  o22daa07b7859182266 364 YFDRPHTLINSEHKFSSYNYDDSEKIYELDIIPDYDDTLYIQEERDIGWIMRSLYYKYYDIKLNTFLEKGEKVNKLFIARNSCQIFSLIF 453
+                          ****************************************************************************************** PP
+
+       Type_I_partner 451 ldnddniittlegkyykelsnilkegselvg 481
+                          ldnddniittlegkyykelsnilkegselvg
+  o22daa07b7859182266 454 LDNDDNIITTLEGKYYKELSNILKEGSELVG 484
+                          ******************************8 PP
+
+>> t294a713c707948c7d7  SRR8925777_19723 SRR8925777_19723_pgv10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.4  26.4   2.3e-53   2.3e-53      38     412 ..      50     418 ..      37     426 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 178.4 bits;  conditional E-value: 2.3e-53
+       Type_I_partner  38 iieklhqlnigigasitdfkleheilflhdkfg.kkrmykmiklikdwynnnldnklepelfdiqfvkykkknglyr.mfnlfsyeqlmn 125
+                           i+kl + n  i  ++  + l   ++fl+d +  +k+  km+++i    +  +d++     +     +  ++  l+r  f+lf+y q+  
+  t294a713c707948c7d7  50 NINKLNENNFTIRKTLHKLDLVNTVIFLKDLYNsNKKALKMVNIILSLDDTGIDERTIG--LGRGCNRNVRRSYLFReYFKLFNYSQMSV 137
+                          5899**************************99637899****************98654..3445566777788887469********** PP
+
+       Type_I_partner 126 ilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlnykemnkyinnvllar 215
+                          +ln    +  s h fvs++  k++++ +     n n+++eay+f++  l ++n  +++++lpf+ny  ir+s   + emn++in+++ ++
+  t294a713c707948c7d7 138 LLNLIKEKGHSTHNFVSNLH-KIAKHNL----ENENFVNEAYEFIKFILVNFNFTNIVRVLPFINYAKIRNSR-SFDEMNNHINKIMASK 221
+                          *****************985.5555544....578***********************************996.89***********999 PP
+
+       Type_I_partner 216 agt.kynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkkiwfsfvweigifnqetk 304
+                           g    +  es+m i+  + ++f +f+kd  ei  ig +t+ccf   g a  l+k +l  p++gi+ g +  k wfsfvwei  fn+e +
+  t294a713c707948c7d7 222 RGIvDSKAVESNMLINLPFDDRF-FFTKDAGEISTIGSRTHCCFRKGGAAESLLKPALYSPISGIIEGKFVDKTWFSFVWEIVEFNEENQ 310
+                          886256789******99999998.79**************************************************************** PP
+
+       Type_I_partner 305 tidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtile.dkcyfdrphtlinsehkfssy.nyddsekiyeldii 392
+                            +icli+dn+es q ln+ ++  i   +    +yk+i+lgy+rndi     + ++   +r + li  e +f  y  ydds+++y l  i
+  t294a713c707948c7d7 311 CFEICLILDNLESSQCLNDYEWEFIMKKLKSLKKYKRIYLGYMRNDIPTLPKDiQNTLKERYRRLIAYENEFGKYgSYDDSKQVYTL--I 398
+                          ***********************************************865444135677999************966********87..5 PP
+
+       Type_I_partner 393 pdyddtlyiqeerdigwimr 412
+                           + dd      + d g + r
+  t294a713c707948c7d7 399 ENEDDCDINIRKMDKGDLHR 418
+                          55565544444556565555 PP
+
+>> o7e4d159c2219858867  SRR8925777_19723 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.3  26.4   2.4e-53   2.4e-53      38     412 ..      57     425 ..      44     433 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 178.3 bits;  conditional E-value: 2.4e-53
+       Type_I_partner  38 iieklhqlnigigasitdfkleheilflhdkfg.kkrmykmiklikdwynnnldnklepelfdiqfvkykkknglyr.mfnlfsyeqlmn 125
+                           i+kl + n  i  ++  + l   ++fl+d +  +k+  km+++i    +  +d++     +     +  ++  l+r  f+lf+y q+  
+  o7e4d159c2219858867  57 NINKLNENNFTIRKTLHKLDLVNTVIFLKDLYNsNKKALKMVNIILSLDDTGIDERTIG--LGRGCNRNVRRSYLFReYFKLFNYSQMSV 144
+                          5899**************************99637899****************98654..3445566777788887469********** PP
+
+       Type_I_partner 126 ilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlnykemnkyinnvllar 215
+                          +ln    +  s h fvs++  k++++ +     n n+++eay+f++  l ++n  +++++lpf+ny  ir+s   + emn++in+++ ++
+  o7e4d159c2219858867 145 LLNLIKEKGHSTHNFVSNLH-KIAKHNL----ENENFVNEAYEFIKFILVNFNFTNIVRVLPFINYAKIRNSR-SFDEMNNHINKIMASK 228
+                          *****************985.5555544....578***********************************996.89***********999 PP
+
+       Type_I_partner 216 agt.kynvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkkiwfsfvweigifnqetk 304
+                           g    +  es+m i+  + ++f +f+kd  ei  ig +t+ccf   g a  l+k +l  p++gi+ g +  k wfsfvwei  fn+e +
+  o7e4d159c2219858867 229 RGIvDSKAVESNMLINLPFDDRF-FFTKDAGEISTIGSRTHCCFRKGGAAESLLKPALYSPISGIIEGKFVDKTWFSFVWEIVEFNEENQ 317
+                          886256789******99999998.79**************************************************************** PP
+
+       Type_I_partner 305 tidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtile.dkcyfdrphtlinsehkfssy.nyddsekiyeldii 392
+                            +icli+dn+es q ln+ ++  i   +    +yk+i+lgy+rndi     + ++   +r + li  e +f  y  ydds+++y l  i
+  o7e4d159c2219858867 318 CFEICLILDNLESSQCLNDYEWEFIMKKLKSLKKYKRIYLGYMRNDIPTLPKDiQNTLKERYRRLIAYENEFGKYgSYDDSKQVYTL--I 405
+                          ***********************************************865444135677999************966********87..5 PP
+
+       Type_I_partner 393 pdyddtlyiqeerdigwimr 412
+                           + dd      + d g + r
+  o7e4d159c2219858867 406 ENEDDCDINIRKMDKGDLHR 425
+                          55565544444556565555 PP
+
+>> o1379a0e0a703f7614e  MZ422438.1 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.1  34.7   1.5e-40   1.5e-40     113     401 ..     191     469 ..     112     542 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 136.1 bits;  conditional E-value: 1.5e-40
+       Type_I_partner 113 rmfnlfsyeqlmnilnkc.vvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlny 201
+                          +++n++sy       nk    n+i +h f+ +fp+   ++       +  yid    +++     y+   f+kll ++ny+ +r+s  n 
+  o1379a0e0a703f7614e 191 KLLNFVSYA-----YNKGnSENKIDLHNFIENFPKTAIERL----DDDETYIDTILAYIKR---IYKSKDFLKLLNYINYQGVRESK-NI 267
+                          233333332.....244414588***********8776554....55679***99999875...689999**************996.99 PP
+
+       Type_I_partner 202 kemnkyinnvllaragtky.nvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkkiwf 290
+                           ++ ky+n +  a+ g  y + s+ +m   + + n +i f+k+  +i  ig +t ccf p+g a  l+k ++e p+agil g +  k wf
+  o1379a0e0a703f7614e 268 SDLRKYVNIIDNAKKGLSYgETSNGEMLFDDSKYNDMIKFTKEKVDINSIGFRTLCCFRPDGAAKSLLKPAIESPIAGILEGVFDTKTWF 357
+                          ******************9558999***************************************************************** PP
+
+       Type_I_partner 291 sfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled..kcyfdrphtlinsehkfssy 378
+                          sfvwei  +n++tk+ +  li+dnies + l+ n++  i +w+  n+ y+ki+lgylrndin        +        li  e +f+ y
+  o1379a0e0a703f7614e 358 SFVWEIVEYNEDTKSYETNLILDNIESSKSLDMNEYEYIINWLDINSDYNKIYLGYLRNDINSNYKVSytQRLRSSSEGLICYENNFNRY 447
+                          *************************************************************987654400334455678*********99 PP
+
+       Type_I_partner 379 n.yddsekiyeldiipdyddtlyi 401
+                            +dds  ++   ++   ++  yi
+  o1379a0e0a703f7614e 448 SsFDDSRYVFT--VLDRKNNIKYI 469
+                          54899987664..44444444444 PP
+
+>> tb7d267d790c28cff6a  MZ422438.1 QXN67954.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.1  34.7   1.5e-40   1.5e-40     113     401 ..     191     469 ..     112     542 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 136.1 bits;  conditional E-value: 1.5e-40
+       Type_I_partner 113 rmfnlfsyeqlmnilnkc.vvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlny 201
+                          +++n++sy       nk    n+i +h f+ +fp+   ++       +  yid    +++     y+   f+kll ++ny+ +r+s  n 
+  tb7d267d790c28cff6a 191 KLLNFVSYA-----YNKGnSENKIDLHNFIENFPKTAIERL----DDDETYIDTILAYIKR---IYKSKDFLKLLNYINYQGVRESK-NI 267
+                          233333332.....244414588***********8776554....55679***99999875...689999**************996.99 PP
+
+       Type_I_partner 202 kemnkyinnvllaragtky.nvseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkkiwf 290
+                           ++ ky+n +  a+ g  y + s+ +m   + + n +i f+k+  +i  ig +t ccf p+g a  l+k ++e p+agil g +  k wf
+  tb7d267d790c28cff6a 268 SDLRKYVNIIDNAKKGLSYgETSNGEMLFDDSKYNDMIKFTKEKVDINSIGFRTLCCFRPDGAAKSLLKPAIESPIAGILEGVFDTKTWF 357
+                          ******************9558999***************************************************************** PP
+
+       Type_I_partner 291 sfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled..kcyfdrphtlinsehkfssy 378
+                          sfvwei  +n++tk+ +  li+dnies + l+ n++  i +w+  n+ y+ki+lgylrndin        +        li  e +f+ y
+  tb7d267d790c28cff6a 358 SFVWEIVEYNEDTKSYETNLILDNIESSKSLDMNEYEYIINWLDINSDYNKIYLGYLRNDINSNYKVSytQRLRSSSEGLICYENNFNRY 447
+                          *************************************************************987654400334455678*********99 PP
+
+       Type_I_partner 379 n.yddsekiyeldiipdyddtlyi 401
+                            +dds  ++   ++   ++  yi
+  tb7d267d790c28cff6a 448 SsFDDSRYVFT--VLDRKNNIKYI 469
+                          54899987664..44444444444 PP
+
+>> t4768d82136af6821e1  ERR10896470_6836 ERR10896470_6836_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.0  14.4   3.6e-37   3.6e-37     109     416 ..     356     660 ..     344     730 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 125.0 bits;  conditional E-value: 3.6e-37
+       Type_I_partner 109 nglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksd 198
+                          n l  ++   s++  ++ lnkc+ +++ ih  +  f nk   k +++   +s y      f++  + k +n  + +++p++ny+ +  + 
+  t4768d82136af6821e1 356 NKLAILLTRPSFKFQIEFLNKCIDKELDIHTTLDSF-NKSFYKNLSDPSWESIYTK----FFNRVFVKSKN-SLTNFFPYINYKGVYMA- 438
+                          55555666668888899***************9998.7889999999999998864....56666666555.578899******99866. PP
+
+       Type_I_partner 199 lnykemnkyinnvllaragtk.ynvseskmnisnnhsnk.fiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgk 286
+                           n   m+  i ++  ar g    ++ +s+m   +n   k   +f+k+  ei+ ig +t ccf  +g a  l+ ++ + pl+gi+ g + k
+  t4768d82136af6821e1 439 KNLLTMESVITKIEEARRGFStGKIVKSEMLFGENMPIKeEAFFTKEDGEIITIGARTGCCFKTDGAAKSLIPVAKQSPLSGIIEGKF-K 527
+                          58999************9965157999****9999876626899******************************************86.8 PP
+
+       Type_I_partner 287 kiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkcyfd....rphtlinse 372
+                            wfsfvwei  f++et++i   li+dnies  +l   d+ +   w+ n+++y k++lg +rn i+++i+++k        rp+ li  e
+  t4768d82136af6821e1 528 ATWFSFVWEIIEFDEETNSIRTSLILDNIESLVILSPSDWDVFMKWL-NKSKYSKVYLGNMRNKIDKSIINNKFKSSstklRPYPLICYE 616
+                          99********************************************8.7899*******************99764333449******** PP
+
+       Type_I_partner 373 hkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyy 416
+                          ++f+sy ydds+ +y +   p   + l +++    g   r ly 
+  t4768d82136af6821e1 617 KNFNSYFYDDSKYVYTVKDTPRKSENLELHQINTEGEFHRLLYA 660
+                          *****************999999999988887777777777775 PP
+
+>> o9209565c37bd70a3dc  ERR10896470_6836 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.0  14.4   3.6e-37   3.6e-37     109     416 ..     357     661 ..     345     731 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 125.0 bits;  conditional E-value: 3.6e-37
+       Type_I_partner 109 nglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksd 198
+                          n l  ++   s++  ++ lnkc+ +++ ih  +  f nk   k +++   +s y      f++  + k +n  + +++p++ny+ +  + 
+  o9209565c37bd70a3dc 357 NKLAILLTRPSFKFQIEFLNKCIDKELDIHTTLDSF-NKSFYKNLSDPSWESIYTK----FFNRVFVKSKN-SLTNFFPYINYKGVYMA- 439
+                          55555666668888899***************9998.7889999999999998864....56666666555.578899******99866. PP
+
+       Type_I_partner 199 lnykemnkyinnvllaragtk.ynvseskmnisnnhsnk.fiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgk 286
+                           n   m+  i ++  ar g    ++ +s+m   +n   k   +f+k+  ei+ ig +t ccf  +g a  l+ ++ + pl+gi+ g + k
+  o9209565c37bd70a3dc 440 KNLLTMESVITKIEEARRGFStGKIVKSEMLFGENMPIKeEAFFTKEDGEIITIGARTGCCFKTDGAAKSLIPVAKQSPLSGIIEGKF-K 528
+                          58999************9965157999****9999876626899******************************************86.8 PP
+
+       Type_I_partner 287 kiwfsfvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkcyfd....rphtlinse 372
+                            wfsfvwei  f++et++i   li+dnies  +l   d+ +   w+ n+++y k++lg +rn i+++i+++k        rp+ li  e
+  o9209565c37bd70a3dc 529 ATWFSFVWEIIEFDEETNSIRTSLILDNIESLVILSPSDWDVFMKWL-NKSKYSKVYLGNMRNKIDKSIINNKFKSSstklRPYPLICYE 617
+                          99********************************************8.7899*******************99764333449******** PP
+
+       Type_I_partner 373 hkfssynyddsekiyeldiipdyddtlyiqeerdigwimrslyy 416
+                          ++f+sy ydds+ +y +   p   + l +++    g   r ly 
+  o9209565c37bd70a3dc 618 KNFNSYFYDDSKYVYTVKDTPRKSENLELHQINTEGEFHRLLYA 661
+                          *****************999999999988887777777777775 PP
+
+>> o1751ac05fe12a96288  SRR26805139_340 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.8  11.8   8.1e-37   8.1e-37     117     416 ..     363     659 ..     350     703 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 123.8 bits;  conditional E-value: 8.1e-37
+       Type_I_partner 117 lfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlnykemnk 206
+                            s++  ++ lnkc+ +++ ih  +  f nk   k +++   +s y      f++  + k +n  + +++p++ny+ +  +  n   m+ 
+  o1751ac05fe12a96288 363 RPSFKFQIEFLNKCIDKELDIHTTLDSF-NKSFYKNLSDPSWESIYTK----FFNRVFVKSKN-SLTNFFPYINYKGVYMA-KNLLTMES 445
+                          5577888999**************9998.7889999999999998864....56666666555.578899******99876.58999*** PP
+
+       Type_I_partner 207 yinnvllaragtk.ynvseskmnisnnhsnk.fiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkkiwfsfvw 294
+                           i ++  ar g    ++ +s+m   +n   k   +f+k+  ei+ ig +t ccf  +g a  l+ ++ + plagi+ g + k  wfsfvw
+  o1751ac05fe12a96288 446 VITKIQEARRGFStGKIVKSEMLFGENMPIKeEAFFTKEDGEIITIGARTGCCFKTDGAAKTLIPVAKQSPLAGIIEGKF-KATWFSFVW 534
+                          *********9965157999****9999876626899******************************************86.899****** PP
+
+       Type_I_partner 295 eigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkcyfd....rphtlinsehkfssyny 380
+                          ei  f++ t++i   li+dnies   l   d+ +   w+ n+++y k++lg +rn i+ +i+++k        rp+ li  e++f+sy y
+  o1751ac05fe12a96288 535 EIIEFDETTNSIRTSLILDNIESLVRLSPSDWDVFMKWL-NKSKYSKVYLGNMRNKIDGSIINNKIKSSdtklRPYPLICYEKNFNSYFY 623
+                          **************************************8.7899********************9875335559**************** PP
+
+       Type_I_partner 381 ddsekiyeldiipdyddtlyiqeerdigwimrslyy 416
+                          dds+ +y +   p   + l +++    g   r ly 
+  o1751ac05fe12a96288 624 DDSKYVYTVKDTPRKSENLELHQINTEGEFHRLLYA 659
+                          *********999999999988888877877777775 PP
+
+>> o5568f9b432c37b23bc  ERR8055547_17635 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.7   3.5   1.8e-36   1.8e-36     116     389 ..     393     676 ..     378     702 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 122.7 bits;  conditional E-value: 1.8e-36
+       Type_I_partner 116 nlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlnykemn 205
+                          +++ y++  ++l      +i+ih f  ++ + v          + +   e + +l+  l k   +k+   + ++ y+  r++  n  e++
+  o5568f9b432c37b23bc 393 KMLGYDNYNKLLTYFDTMDINIHTFWDNVTDGVKSLLW-----EEETQVELFRYLK-KLGKKSPNKISFYMGYFGYKKAREA-RNTMELD 475
+                          55555555555555555566666665555554433322.....2222335666665.4667777777777888888887765.6999*** PP
+
+       Type_I_partner 206 kyinnvllaragtkyn.vseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkk...iwfs 291
+                           yi  +l ar g        +++ ++nn    +i+f+k+ +ei  ig +t ccftpngla  l++i+ + p++gil g  g +    wfs
+  o5568f9b432c37b23bc 476 AYIATILEARKGFSSGsTGPNNLLLANNTGTDLIFFTKEENEISTIGSRTGCCFTPNGLAKSLLRIARNSPISGILEGRHGGRkgsDWFS 565
+                          ************8765155678999*****************************************************887541335*** PP
+
+       Type_I_partner 292 fvweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled.......kcyf.......drpht 367
+                          fvwe+  +n  tkt + +li+dnies + +   d+  i  w+  +t y+ki+lg +rnd+    ++d       k y        +r + 
+  o5568f9b432c37b23bc 566 FVWELVEYNPTTKTFETALILDNIESMNSIGLGDWKDIYRWLL-ETPYNKIYLGTMRNDLTYDAFNDnasltdiKDYRilpstkkNRSRH 654
+                          *****************************************97.699************9776666511111123343122222245566 PP
+
+       Type_I_partner 368 linsehkfssynyddsekiyel 389
+                          +i  +  f sy ydds+++y +
+  o5568f9b432c37b23bc 655 IIYYDSDFQSYHYDDSKQVYTV 676
+                          7778889************974 PP
+
+>> t2df16249c221583d8d  SRR26805139_340 SRR26805139_340_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.9  13.2   1.6e-36   1.6e-36     115     417 ..     360     659 ..     326     722 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 122.9 bits;  conditional E-value: 1.6e-36
+       Type_I_partner 115 fnlfsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlnykem 204
+                          +   s++  ++ lnkc+ +++ ih  +  f nk   k +++   +s y      f++  + k +n  + +++p++ny+ +  +  n   m
+  t2df16249c221583d8d 360 LTRPSFKFQIEFLNKCIDKELDIHTTLDSF-NKSFYKNLSDPSWESIYTK----FFNRVFVKSKN-SLTNFFPYINYKGVYMA-KNLLTM 442
+                          555678888999*************99998.7888999999999998864....55666666555.578899******99876.58999* PP
+
+       Type_I_partner 205 nkyinnvllaragtk.ynvseskmnisnnhsnk.fiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkkiwfsf 292
+                          +  i ++  ar g    ++ +s+m   +n   k   +f+k+  ei+ ig +t ccf  +g a  l+ ++ + plagi+ g + k  wfsf
+  t2df16249c221583d8d 443 ESVITKIQEARRGFStGKIVKSEMLFGENMPIKeEAFFTKEDGEIITIGARTGCCFKTDGAAKTLIPVAKQSPLAGIIEGKF-KATWFSF 531
+                          ***********9965157999****9999876626899******************************************86.899**** PP
+
+       Type_I_partner 293 vweigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiledkcyfd....rphtlinsehkfssy 378
+                          vwei  f++ t++i   li+dnies   l   d+ +   w+ n+++y k++lg +rn i+ +i+++k        rp+ li  e++f+sy
+  t2df16249c221583d8d 532 VWEIIEFDETTNSIRTSLILDNIESLVRLSPSDWDVFMKWL-NKSKYSKVYLGNMRNKIDGSIINNKIKSSdtklRPYPLICYEKNFNSY 620
+                          ****************************************8.7899********************9875335559************** PP
+
+       Type_I_partner 379 nyddsekiyeldiipdyddtlyiqeerdigwimrslyyk 417
+                           ydds+ +y +   p   + l +++    g   r ly +
+  t2df16249c221583d8d 621 FYDDSKYVYTVKDTPRKSENLELHQINTEGEFHRLLYAE 659
+                          ************999999999988888888888877764 PP
+
+>> t313ae852fb37fab6f6  ERR8055547_17635 ERR8055547_17635_pgv13
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.2   3.9   2.5e-36   2.5e-36     118     389 ..     385     666 ..     374     692 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 122.2 bits;  conditional E-value: 2.5e-36
+       Type_I_partner 118 fsyeqlmnilnkcvvnnisihrfvsefpnkvtnkyitnkkvnsnyideaynflqsslskynndkfikllpfmnyevirksdlnykemnky 207
+                          + y++  ++l      +i+ih f  ++ + v          + +   e + +l+  l k   +k+   + ++ y+  r++  n  e++ y
+  t313ae852fb37fab6f6 385 LGYDNYNKLLTYFDTMDINIHTFWDNVTDGVKSLLW-----EEETQVELFRYLK-KLGKKSPNKISFYMGYFGYKKAREA-RNTMELDAY 467
+                          555555555555555556666655555544433222.....2222335566665.4666677777777788888877765.6999***** PP
+
+       Type_I_partner 208 innvllaragtkyn.vseskmnisnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgymgkk...iwfsfv 293
+                          i  +l ar g        +++ ++nn    +i+f+k+ +ei  ig +t ccftpngla  l++i+ + p++gil g  g +    wfsfv
+  t313ae852fb37fab6f6 468 IATILEARKGFSSGsTGPNNLLLANNTGTDLIFFTKEENEISTIGSRTGCCFTPNGLAKSLLRIARNSPISGILEGRHGGRkgsDWFSFV 557
+                          **********8765155678999*****************************************************887541335***** PP
+
+       Type_I_partner 294 weigifnqetktidiclimdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled.......kcyf.......drphtli 369
+                          we+  +n  tkt + +li+dnies + +   d+  i  w+  +t y+ki+lg +rnd+    ++d       k y        +r + +i
+  t313ae852fb37fab6f6 558 WELVEYNPTTKTFETALILDNIESMNSIGLGDWKDIYRWLL-ETPYNKIYLGTMRNDLTYDAFNDnasltdiKDYRilpstkkNRSRHII 646
+                          ***************************************97.699************977666651111112334312222224556677 PP
+
+       Type_I_partner 370 nsehkfssynyddsekiyel 389
+                            +  f sy ydds+++y +
+  t313ae852fb37fab6f6 647 YYDSDFQSYHYDDSKQVYTV 666
+                          78889************974 PP
+
+>> t20d3930348d48ea9c1  ERR10896470_6836 ERR10896470_6836_pgv4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.1  42.6   1.5e-20   1.5e-20      50     431 ..      77     477 ..      36     514 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 70.1 bits;  conditional E-value: 1.5e-20
+       Type_I_partner  50 gasitdfkle...heilflhdkfgkkrmykmiklikdwynnnldnklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnis 136
+                             i dfk+     e  +l++++g ++  k++  i+    n+l      +++   f+    kn    ++n +  e  +   n+  ++ ++
+  t20d3930348d48ea9c1  77 NVDIDDFKISwfrNEFCYLFNRYGVNKSKKLMYKIRSIDTNELHFYRSSNIY---FI---SKNTTIGFINHILDEYKIRQENE-KLELVT 159
+                          35688999752227999********999999999999999999876665544...44...56777777777777766666665.467899 PP
+
+       Type_I_partner 137 ihrfvsefpnkvtnkyitnk.kvnsnyideaynflqsslsky.nndkfikllpfmnyevirksdlnykemnkyinnvllaragtkynvse 224
+                          +h ++ ++p+ +  ky+ +  + n  +  e  +f+ + + +  n++k++k + f+ny  +r+  l+ ++++ y++ vl +r g +y  s 
+  t20d3930348d48ea9c1 160 LHEILINLPKGINRKYLDEDgNANMLFEREGKKFISNIMRRItNKNKLLKYIQFLNYSKVRQLKLDDNNIEAYMEIVLKSRNGVNYRSSY 249
+                          ****************97651455556678999**99998862668****************************************9997 PP
+
+       Type_I_partner 225 skmn..isnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgym..gkkiwfsfvweig..ifnqetktidi 308
+                             n  i+   +n    +skd ++i  ig kt ccf pn laapl++   +   + +  g +   ++ +f++ wei   +  +  k +  
+  t20d3930348d48ea9c1 250 DYKNeyINRVENNSRFKISKDDEDIYTIGSKTLCCFRPNNLAAPLLNACRDSSTSYLTIGEIreNRQTFFTYNWEIVeeVEINGDKFLAT 339
+                          655522444456677889*******************************9999999888987335789*******952255567899*** PP
+
+       Type_I_partner 309 climdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled...kcy.......fdrphtlinsehkfssy.nyddsekiy 387
+                           li+dn+e+  l+ ++ f    dw++n  +y +i+lg  rndi+ + + +   k +       + +p+     e +f  y  ydds  +y
+  t20d3930348d48ea9c1 340 SLILDNLEATSLISKEIFDSFIDWLSNS-KYYRIYLGTSRNDIEGSKVSEimgKTFnitsnnsIKKPFNPPFFESNFRKYgSYDDSRYLY 428
+                          *************************876.5668**********97655431113331111111344444444577888885699999866 PP
+
+       Type_I_partner 388 ...eldiipd.y.ddtl..yiqeerdigwimrslyyk.yydiklntflekge 431
+                             e d   d    d l  yi++ r+i    rs + k y  ik n +++  +
+  t20d3930348d48ea9c1 429 ivyEDDKYFDdItKDKLikYIDNPREI---ERSSFIKnYSKIKDNKVIDYNK 477
+                          111444322211122222367777765...4666655144688777766544 PP
+
+>> o1a0c7bfd9dc8da7916  ERR10896470_6836 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.6  43.0   2.3e-20   2.3e-20      50     431 ..      91     491 ..      50     526 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 69.6 bits;  conditional E-value: 2.3e-20
+       Type_I_partner  50 gasitdfkle...heilflhdkfgkkrmykmiklikdwynnnldnklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnis 136
+                             i dfk+     e  +l++++g ++  k++  i+    n+l      +++   f+    kn    ++n +  e  +   n+  ++ ++
+  o1a0c7bfd9dc8da7916  91 NVDIDDFKISwfrNEFCYLFNRYGVNKSKKLMYKIRSIDTNELHFYRSSNIY---FI---SKNTTIGFINHILDEYKIRQENE-KLELVT 173
+                          35688999752227999********999999999999999999876665544...44...56777777777777766666665.467899 PP
+
+       Type_I_partner 137 ihrfvsefpnkvtnkyitnk.kvnsnyideaynflqsslsky.nndkfikllpfmnyevirksdlnykemnkyinnvllaragtkynvse 224
+                          +h ++ ++p+ +  ky+ +  + n  +  e  +f+ + + +  n++k++k + f+ny  +r+  l+ ++++ y++ vl +r g +y  s 
+  o1a0c7bfd9dc8da7916 174 LHEILINLPKGINRKYLDEDgNANMLFEREGKKFISNIMRRItNKNKLLKYIQFLNYSKVRQLKLDDNNIEAYMEIVLKSRNGVNYRSSY 263
+                          ****************97651455556678999**99998862668****************************************9997 PP
+
+       Type_I_partner 225 skmn..isnnhsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgym..gkkiwfsfvweig..ifnqetktidi 308
+                             n  i+   +n    +skd ++i  ig kt ccf pn laapl++   +   + +  g +   ++ +f++ wei   +  +  k +  
+  o1a0c7bfd9dc8da7916 264 DYKNeyINRVENNSRFKISKDDEDIYTIGSKTLCCFRPNNLAAPLLNACRDSSTSYLTIGEIreNRQTFFTYNWEIVeeVEINGDKFLAT 353
+                          655522444456677889*******************************9999999888987335789*******952255567899*** PP
+
+       Type_I_partner 309 climdniesnqllnnndfsiisdwitnnthykkiflgylrndinrtiled...kcy.......fdrphtlinsehkfssy.nyddsekiy 387
+                           li+dn+e+  l+ ++ f    dw++n  +y +i+lg  rndi+ + + +   k +       + +p+     e +f  y  ydds  +y
+  o1a0c7bfd9dc8da7916 354 SLILDNLEATSLISKEIFDSFIDWLSNS-KYYRIYLGTSRNDIEGSKVSEimgKTFnitsnnsIKKPFNPPFFESNFRKYgSYDDSRYLY 442
+                          *************************876.5668**********97655431113331111111344444444577788885699999866 PP
+
+       Type_I_partner 388 ...eldiipd.y.ddtl..yiqeerdigwimrslyyk.yydiklntflekge 431
+                             e d   d    d l  yi++ r+i    rs + k y  ik n +++  +
+  o1a0c7bfd9dc8da7916 443 ivyEDDKYFDdItKDKLikYIDNPREI---ERSSFIKnYSKIKDNKVIDYNK 491
+                          111444322211112222367777765...4666655144678777766544 PP
+
+>> t4261b188891c35c54f  SRR26805139_340 SRR26805139_340_pgv4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.2  38.9   2.3e-19   2.3e-19      57     408 ..      87     456 ..      36     508 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 66.2 bits;  conditional E-value: 2.3e-19
+       Type_I_partner  57 kleheilflhdkfgkkrmykmiklikdwynnnldnklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpn 146
+                           +  e  +l++++g ++  k++  i+    n+l      +++   f+    kn    ++n +  e  +   n+  ++ +s+h ++ ++p+
+  t4261b188891c35c54f  87 WFRNEFCYLFNRYGVNKSKKLMYKIRSIDTNELHFYRSSNIY---FI---SKNTTIGFINHILNEYKIRQENE-KLELVSLHEILINLPK 169
+                          345677888899999998898888998888888776655444...44...45555555555555555555454.35789*********** PP
+
+       Type_I_partner 147 kvtnkyitnkkvnsnyid.eaynflqsslsky.nndkfikllpfmnyevirksdlnykemnkyinnvllaragtkynvseskmn..isnn 232
+                           +  ky+ +    s   + e  +f+ + + +  n++k++k + f+ny  +r+  l+ ++++ y++ +l +r g +y  s    n  i   
+  t4261b188891c35c54f 170 GINRKYLDEDGNASMLFErEGKKFISNIMRRItNKNKLLKYIQFLNYSKVRQLKLDDNNIEAYMEIILKSRNGVNYRSSYDYKNeyIDRV 259
+                          *******99887776554278999999888762678*****************************************9987666234455 PP
+
+       Type_I_partner 233 hsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgym..gkkiwfsfvweig..ifnqetktidiclimdniesn 318
+                           +n    +skd ++i  ig kt ccf pn laapl++   +   + +  g +   ++ +f++ wei   +  +  k +   li+dn+e+ 
+  t4261b188891c35c54f 260 ENNIRFKISKDDEDIYTIGSKTLCCFRPNNLAAPLLNACRDSSTSYLTIGEIreNRQTFFTYNWEIVeeVEINGDKFLATSLILDNLEAT 349
+                          555556689******************************9999999888987335789*******952255567899************* PP
+
+       Type_I_partner 319 qllnnndfsiisdwitnnthykkiflgylrndinrt.ile..dkcy.......fdrphtlinsehkfssy.nyddsekiy...eldiipd 394
+                           l+ ++ f    +w++n   y +i+lg  rndi+ + i e  +k +       + +p+     e +f  y  ydds  +y   e d   d
+  t4261b188891c35c54f 350 SLISKEIFDSFIEWLSNPK-YYRIYLGTSRNDIEGSkISEikNKTFnitgnnsIKKPFNPPFFESNFRKYgSYDDSRYLYivyEDDKYFD 438
+                          ***************9765.668**********865143311444411111113344444445777877745899987651113333222 PP
+
+       Type_I_partner 395 .y.ddtl..yiqeerdig 408
+                              d l  yi++ r+i 
+  t4261b188891c35c54f 439 dIkKDKLvkYIDNPREIE 456
+                          111122222666666654 PP
+
+>> o77fe97fc9b71d1493c  SRR26805139_340 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.2  38.8   2.3e-19   2.3e-19      57     408 ..     101     470 ..      49     522 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 66.2 bits;  conditional E-value: 2.3e-19
+       Type_I_partner  57 kleheilflhdkfgkkrmykmiklikdwynnnldnklepelfdiqfvkykkknglyrmfnlfsyeqlmnilnkcvvnnisihrfvsefpn 146
+                           +  e  +l++++g ++  k++  i+    n+l      +++   f+    kn    ++n +  e  +   n+  ++ +s+h ++ ++p+
+  o77fe97fc9b71d1493c 101 WFRNEFCYLFNRYGVNKSKKLMYKIRSIDTNELHFYRSSNIY---FI---SKNTTIGFINHILNEYKIRQENE-KLELVSLHEILINLPK 183
+                          345677888899999999998888998888888776655444...44...45555555555555555555454.35789*********** PP
+
+       Type_I_partner 147 kvtnkyitnkkvnsnyid.eaynflqsslsky.nndkfikllpfmnyevirksdlnykemnkyinnvllaragtkynvseskmn..isnn 232
+                           +  ky+ +    s   + e  +f+ + + +  n++k++k + f+ny  +r+  l+ ++++ y++ +l +r g +y  s    n  i   
+  o77fe97fc9b71d1493c 184 GINRKYLDEDGNASMLFErEGKKFISNIMRRItNKNKLLKYIQFLNYSKVRQLKLDDNNIEAYMEIILKSRNGVNYRSSYDYKNeyIDRV 273
+                          *******99887776554278999999888762678*****************************************9987666234455 PP
+
+       Type_I_partner 233 hsnkfiyfskdvdeimnigvktkccftpnglaaplvkislenplagiltgym..gkkiwfsfvweig..ifnqetktidiclimdniesn 318
+                           +n    +skd ++i  ig kt ccf pn laapl++   +   + +  g +   ++ +f++ wei   +  +  k +   li+dn+e+ 
+  o77fe97fc9b71d1493c 274 ENNIRFKISKDDEDIYTIGSKTLCCFRPNNLAAPLLNACRDSSTSYLTIGEIreNRQTFFTYNWEIVeeVEINGDKFLATSLILDNLEAT 363
+                          555556689******************************9999999888987335789*******952255567899************* PP
+
+       Type_I_partner 319 qllnnndfsiisdwitnnthykkiflgylrndinrt.ile..dkcy.......fdrphtlinsehkfssy.nyddsekiy...eldiipd 394
+                           l+ ++ f    +w++n   y +i+lg  rndi+ + i e  +k +       + +p+     e +f  y  ydds  +y   e d   d
+  o77fe97fc9b71d1493c 364 SLISKEIFDSFIEWLSNPK-YYRIYLGTSRNDIEGSkISEikNKTFnitgnnsIKKPFNPPFFESNFRKYgSYDDSRYLYivyEDDKYFD 452
+                          ***************9765.668**********865143311444411111113344444445777877745899987651113333222 PP
+
+       Type_I_partner 395 .y.ddtl..yiqeerdig 408
+                              d l  yi++ r+i 
+  o77fe97fc9b71d1493c 453 dIkKDKLvkYIDNPREIE 470
+                          111122222666666654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (481 nodes)
+Target sequences:                       2063  (273633 residues searched)
+Passed MSV filter:                       288  (0.139603); expected 41.3 (0.02)
+Passed bias filter:                       39  (0.0189045); expected 41.3 (0.02)
+Passed Vit filter:                        16  (0.0077557); expected 2.1 (0.001)
+Passed Fwd filter:                        16  (0.0077557); expected 0.0 (1e-05)
+Initial search space (Z):               2063  [as set by --Z on cmdline]
+Domain search space  (domZ):            2063  [as set by --domZ on cmdline]
+# CPU time: 0.22u 0.06s 00:00:00.28 Elapsed: 00:00:00.22
+# Mc/sec: 586.05
+//
+[ok]

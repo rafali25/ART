@@ -1,0 +1,13 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# Target file:     /tmp/art-371321-UHGV_selected-7y2vmdvq/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/UHGV_selected/searches/TypeI_two_seed.domtbl --noali -E .001 --domE .001 -Z 18424 --domZ 18424 --seed 42 --cpu 1 /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm /tmp/art-371321-UHGV_selected-7y2vmdvq/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Thu Nov  5 01:47:11 2026
+# [ok]

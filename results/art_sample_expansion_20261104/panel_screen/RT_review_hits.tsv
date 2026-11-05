@@ -1,0 +1,2 @@
+family	passes_retrieval_threshold	target	profile	sequence_evalue	domain_evalue	sequence_bits	domain_bits	profile_coverage	hmm_start0	hmm_end0	protein_alignment_start0	protein_alignment_end0	protein_envelope_start0	protein_envelope_end0	key	accession	start0	end0	strand	method	genetic_code	translation_matches	complete_location	protein_id	ranked_neighborhood
+ART_RT	False	LR756488.1__pgv20	ART_RT	1.3e-32	1.3e-32	113.7	113.7	0.55	188	463	176	441	167	453	LR756488.1__pgv20	LR756488.1	15208	16639	1	Pyrodigal_gv	11	True	True		True

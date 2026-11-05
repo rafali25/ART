@@ -1,0 +1,632 @@
+{
+  "reference_sequences": 2339,
+  "historical_class_counts": {
+    "UG1": 31,
+    "UG10": 8,
+    "UG11": 14,
+    "UG12": 37,
+    "UG13": 25,
+    "UG14": 17,
+    "UG15": 39,
+    "UG16": 17,
+    "UG17": 78,
+    "UG18": 10,
+    "UG19": 20,
+    "NotUsed": 136,
+    "UG2": 22,
+    "UG20": 5,
+    "UG21": 23,
+    "UG22": 11,
+    "UG23": 9,
+    "UG24": 5,
+    "UG25": 28,
+    "UG26": 20,
+    "UG27": 10,
+    "UG28": 37,
+    "UG28b": 15,
+    "UG3": 86,
+    "UG4": 47,
+    "UG5": 67,
+    "UG6": 14,
+    "UG7": 77,
+    "UG8": 83,
+    "UG9": 17,
+    "CRISPR": 130,
+    "GII": 503,
+    "Retrons": 96,
+    "DGRs": 502,
+    "AbiP2": 12,
+    "UNC": 1,
+    "AbiA": 19,
+    "G2L": 55,
+    "AbiK": 5,
+    "G2L4": 8
+  },
+  "reference_hits_at_1e_minus_5": 56,
+  "reference_hits": [
+    {
+      "protein_id": "YP_003286925.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 2.6e-23,
+      "full_sequence_bitscore": 79.6,
+      "max_domain_hmm_coverage": 0.488,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_002877705.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 9.8e-22,
+      "full_sequence_bitscore": 74.4,
+      "max_domain_hmm_coverage": 0.536,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "NP_875004.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 5.6e-20,
+      "full_sequence_bitscore": 68.7,
+      "max_domain_hmm_coverage": 0.54,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_001341285.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 6.2e-20,
+      "full_sequence_bitscore": 68.5,
+      "max_domain_hmm_coverage": 0.486,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "ACY91017.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 9.3e-19,
+      "full_sequence_bitscore": 64.6,
+      "max_domain_hmm_coverage": 0.48,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "CBK79388.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 3.5e-18,
+      "full_sequence_bitscore": 62.7,
+      "max_domain_hmm_coverage": 0.474,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_001672748.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 4.6e-18,
+      "full_sequence_bitscore": 62.3,
+      "max_domain_hmm_coverage": 0.524,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AFM05814.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 6.7e-17,
+      "full_sequence_bitscore": 58.5,
+      "max_domain_hmm_coverage": 0.498,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_721852.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 8e-17,
+      "full_sequence_bitscore": 58.2,
+      "max_domain_hmm_coverage": 0.496,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AGV11482.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.1e-16,
+      "full_sequence_bitscore": 57.8,
+      "max_domain_hmm_coverage": 0.49,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_397646.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 2.9e-16,
+      "full_sequence_bitscore": 56.4,
+      "max_domain_hmm_coverage": 0.28,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_004067647.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 4.6e-16,
+      "full_sequence_bitscore": 55.7,
+      "max_domain_hmm_coverage": 0.404,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AGF79254.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 2.5e-15,
+      "full_sequence_bitscore": 53.3,
+      "max_domain_hmm_coverage": 0.43,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_004467069.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 2.1e-14,
+      "full_sequence_bitscore": 50.3,
+      "max_domain_hmm_coverage": 0.502,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AFZ23440.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 5.8e-14,
+      "full_sequence_bitscore": 48.8,
+      "max_domain_hmm_coverage": 0.504,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_002218754.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.2e-13,
+      "full_sequence_bitscore": 47.8,
+      "max_domain_hmm_coverage": 0.492,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_002384961.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.3e-13,
+      "full_sequence_bitscore": 47.6,
+      "max_domain_hmm_coverage": 0.42,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_001864131.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 2.5e-13,
+      "full_sequence_bitscore": 46.7,
+      "max_domain_hmm_coverage": 0.486,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "CBW21586.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 4.7e-13,
+      "full_sequence_bitscore": 45.8,
+      "max_domain_hmm_coverage": 0.516,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_435102.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 3e-12,
+      "full_sequence_bitscore": 43.1,
+      "max_domain_hmm_coverage": 0.524,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "CBK78440.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 2.6e-11,
+      "full_sequence_bitscore": 40.1,
+      "max_domain_hmm_coverage": 0.224,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_323757.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.2e-10,
+      "full_sequence_bitscore": 37.9,
+      "max_domain_hmm_coverage": 0.488,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "CBL03706.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.9e-10,
+      "full_sequence_bitscore": 37.2,
+      "max_domain_hmm_coverage": 0.434,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_002989002.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.1e-09,
+      "full_sequence_bitscore": 34.7,
+      "max_domain_hmm_coverage": 0.498,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_003813144.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.1e-09,
+      "full_sequence_bitscore": 34.7,
+      "max_domain_hmm_coverage": 0.486,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_628423.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.9e-09,
+      "full_sequence_bitscore": 33.9,
+      "max_domain_hmm_coverage": 0.502,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AAL40743.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 9.5e-09,
+      "full_sequence_bitscore": 31.6,
+      "max_domain_hmm_coverage": 0.504,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "E.c.I10|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 9.8e-09,
+      "full_sequence_bitscore": 31.6,
+      "max_domain_hmm_coverage": 0.51,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "B.h.I1|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 5.1e-08,
+      "full_sequence_bitscore": 29.2,
+      "max_domain_hmm_coverage": 0.474,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "ZP_01463804.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 6.8e-08,
+      "full_sequence_bitscore": 28.8,
+      "max_domain_hmm_coverage": 0.496,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "BAM46177.1_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 7.6e-08,
+      "full_sequence_bitscore": 28.6,
+      "max_domain_hmm_coverage": 0.444,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_003266012.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.1e-07,
+      "full_sequence_bitscore": 28.1,
+      "max_domain_hmm_coverage": 0.346,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "YP_004328208.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 1.1e-07,
+      "full_sequence_bitscore": 28.0,
+      "max_domain_hmm_coverage": 0.482,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AGU89152.1_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 2.4e-07,
+      "full_sequence_bitscore": 27.0,
+      "max_domain_hmm_coverage": 0.396,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AFY96279.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 2.8e-07,
+      "full_sequence_bitscore": 26.7,
+      "max_domain_hmm_coverage": 0.484,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "O.i.I1|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 4.3e-07,
+      "full_sequence_bitscore": 26.1,
+      "max_domain_hmm_coverage": 0.452,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "CBX35399.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 4.6e-07,
+      "full_sequence_bitscore": 26.0,
+      "max_domain_hmm_coverage": 0.332,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AFR49048.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 4.9e-07,
+      "full_sequence_bitscore": 26.0,
+      "max_domain_hmm_coverage": 0.24,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "Na.th.I2|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 5.5e-07,
+      "full_sequence_bitscore": 25.8,
+      "max_domain_hmm_coverage": 0.284,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "Gb.sp.I1|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 6.6e-07,
+      "full_sequence_bitscore": 25.5,
+      "max_domain_hmm_coverage": 0.448,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "Gb.k.I2|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 1.2e-06,
+      "full_sequence_bitscore": 24.7,
+      "max_domain_hmm_coverage": 0.464,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "CP028901.1_3181383_3182723_-_G2L",
+      "historical_class": "G2L",
+      "full_sequence_evalue": 1.4e-06,
+      "full_sequence_bitscore": 24.5,
+      "max_domain_hmm_coverage": 0.584,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "CDX53558.1_UG2_NotUsed",
+      "historical_class": "NotUsed",
+      "full_sequence_evalue": 1.4e-06,
+      "full_sequence_bitscore": 24.4,
+      "max_domain_hmm_coverage": 0.14,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "WP_010995638.1_CRISPR",
+      "historical_class": "CRISPR",
+      "full_sequence_evalue": 1.5e-06,
+      "full_sequence_bitscore": 24.4,
+      "max_domain_hmm_coverage": 0.286,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "E.c.I7|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 1.7e-06,
+      "full_sequence_bitscore": 24.2,
+      "max_domain_hmm_coverage": 0.404,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "Kl.pn.I4|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 3.7e-06,
+      "full_sequence_bitscore": 23.1,
+      "max_domain_hmm_coverage": 0.42,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "WP_012028837.1_UG2",
+      "historical_class": "UG2",
+      "full_sequence_evalue": 4e-06,
+      "full_sequence_bitscore": 22.9,
+      "max_domain_hmm_coverage": 0.158,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AEB93977.1_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 4.2e-06,
+      "full_sequence_bitscore": 22.9,
+      "max_domain_hmm_coverage": 0.29,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AFY99362.1_CRISPR",
+      "historical_class": "CRISPR",
+      "full_sequence_evalue": 4.9e-06,
+      "full_sequence_bitscore": 22.6,
+      "max_domain_hmm_coverage": 0.278,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "AGU89564.1_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 5.3e-06,
+      "full_sequence_bitscore": 22.5,
+      "max_domain_hmm_coverage": 0.374,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "BAM47359.1_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 5.6e-06,
+      "full_sequence_bitscore": 22.5,
+      "max_domain_hmm_coverage": 0.334,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "UA.I7|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 7e-06,
+      "full_sequence_bitscore": 22.1,
+      "max_domain_hmm_coverage": 0.336,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "Kl.pn.I3|Bacterial_GII",
+      "historical_class": "GII",
+      "full_sequence_evalue": 8.2e-06,
+      "full_sequence_bitscore": 21.9,
+      "max_domain_hmm_coverage": 0.434,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "WP_002069401.1_G2L",
+      "historical_class": "G2L",
+      "full_sequence_evalue": 9e-06,
+      "full_sequence_bitscore": 21.8,
+      "max_domain_hmm_coverage": 0.204,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "CP038262.1_2811866_2813086_+_G2L",
+      "historical_class": "G2L",
+      "full_sequence_evalue": 9.6e-06,
+      "full_sequence_bitscore": 21.7,
+      "max_domain_hmm_coverage": 0.204,
+      "profile_coverage_ge_0_6": false
+    },
+    {
+      "protein_id": "EQL86843.1_Retrons",
+      "historical_class": "Retrons",
+      "full_sequence_evalue": 9.6e-06,
+      "full_sequence_bitscore": 21.7,
+      "max_domain_hmm_coverage": 0.476,
+      "profile_coverage_ge_0_6": false
+    }
+  ],
+  "reference_hits_at_least_60_percent_profile_coverage": 0,
+  "competing_profile_matches": [
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-CRISPR-G1",
+      "full_sequence_evalue": 2e-10,
+      "full_sequence_bitscore": 26.6,
+      "domain_independent_evalue": 3.6e-10,
+      "profile_coverage": 0.7794117647058824,
+      "protein_alignment_from": 251,
+      "protein_alignment_to": 411
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-CRISPR-G2",
+      "full_sequence_evalue": 6.5e-17,
+      "full_sequence_bitscore": 47.9,
+      "domain_independent_evalue": 1.2e-16,
+      "profile_coverage": 0.9655172413793104,
+      "protein_alignment_from": 209,
+      "protein_alignment_to": 411
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-CRISPR-G5",
+      "full_sequence_evalue": 4.6e-12,
+      "full_sequence_bitscore": 31.9,
+      "domain_independent_evalue": 8.2e-12,
+      "profile_coverage": 0.9655172413793104,
+      "protein_alignment_from": 212,
+      "protein_alignment_to": 414
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-DGRs",
+      "full_sequence_evalue": 2.9e-14,
+      "full_sequence_bitscore": 39.3,
+      "domain_independent_evalue": 6.3e-14,
+      "profile_coverage": 0.6730769230769231,
+      "protein_alignment_from": 267,
+      "protein_alignment_to": 414
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-G2L4",
+      "full_sequence_evalue": 3e-07,
+      "full_sequence_bitscore": 16.2,
+      "domain_independent_evalue": 8.6e-06,
+      "profile_coverage": 0.26903553299492383,
+      "protein_alignment_from": 313,
+      "protein_alignment_to": 371
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-G2Lb",
+      "full_sequence_evalue": 1.4e-07,
+      "full_sequence_bitscore": 17.6,
+      "domain_independent_evalue": 4.7e-07,
+      "profile_coverage": 0.5574712643678161,
+      "protein_alignment_from": 270,
+      "protein_alignment_to": 379
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-G2L",
+      "full_sequence_evalue": 7.4e-08,
+      "full_sequence_bitscore": 18.3,
+      "domain_independent_evalue": 1.2e-07,
+      "profile_coverage": 0.7136363636363636,
+      "protein_alignment_from": 262,
+      "protein_alignment_to": 412
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-GII-I",
+      "full_sequence_evalue": 2.9e-11,
+      "full_sequence_bitscore": 29.3,
+      "domain_independent_evalue": 2.9e-11,
+      "profile_coverage": 0.9638009049773756,
+      "protein_alignment_from": 210,
+      "protein_alignment_to": 415
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-GII-II",
+      "full_sequence_evalue": 1.9e-18,
+      "full_sequence_bitscore": 53.1,
+      "domain_independent_evalue": 1.9e-18,
+      "profile_coverage": 0.9808612440191388,
+      "protein_alignment_from": 210,
+      "protein_alignment_to": 418
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-Retrons",
+      "full_sequence_evalue": 2.4e-35,
+      "full_sequence_bitscore": 108.0,
+      "domain_independent_evalue": 2.4e-35,
+      "profile_coverage": 0.9895287958115183,
+      "protein_alignment_from": 210,
+      "protein_alignment_to": 416
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-UG11",
+      "full_sequence_evalue": 8.7e-10,
+      "full_sequence_bitscore": 24.6,
+      "domain_independent_evalue": 4.5e-07,
+      "profile_coverage": 0.16339869281045752,
+      "protein_alignment_from": 357,
+      "protein_alignment_to": 381
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-UG19",
+      "full_sequence_evalue": 7.3e-13,
+      "full_sequence_bitscore": 34.9,
+      "domain_independent_evalue": 7.3e-13,
+      "profile_coverage": 0.6686746987951807,
+      "protein_alignment_from": 267,
+      "protein_alignment_to": 376
+    },
+    {
+      "protein_id": "QQM14740.1",
+      "profile": "RVT-UG7",
+      "full_sequence_evalue": 3.3e-12,
+      "full_sequence_bitscore": 32.7,
+      "domain_independent_evalue": 1.5e-10,
+      "profile_coverage": 0.9370629370629371,
+      "protein_alignment_from": 266,
+      "protein_alignment_to": 411
+    }
+  ],
+  "validated_specificity_threshold": null,
+  "NART_specific_validation": "pending curated NART reference sequences",
+  "scope": "Staphylococcus/type-II pilot; related target holdout; no family-wide sensitivity claim"
+}

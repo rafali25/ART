@@ -1,0 +1,19 @@
+#                                                                     --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name              accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#      ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+audit_05fa87bee8771454d56e -          Type_I_partner       -                  0 1122.3  55.2         0 1122.1  55.2   1.0   1   0   0   1   1   1   1 MZ422438.1 pyrodigal_gv pgv197
+audit_417f937a4b715113bab9 -          Type_I_partner       -                  0 1122.3  55.2         0 1122.1  55.2   1.0   1   0   0   1   1   1   1 MZ422438.1 source_annotation QXN67952.1
+audit_2390da1329ec8ee6b4d5 -          Type_I_partner       -                  0 1122.3  55.2         0 1122.1  55.2   1.0   1   0   0   1   1   1   1 MZ422438.1 six_frame code11_orf954
+audit_9659598e73ac48ec48e3 -          Type_I_partner       -            1.1e-39  136.1  34.7   1.1e-39  136.1  34.7   2.5   2   1   1   3   3   1   1 MZ422438.1 pyrodigal_gv pgv199
+audit_a8039260f99a569fc147 -          Type_I_partner       -            1.1e-39  136.1  34.7   1.1e-39  136.1  34.7   2.5   2   1   1   3   3   1   1 MZ422438.1 source_annotation QXN67954.1
+audit_eb4c3bfb7a2ce1a8e8b8 -          Type_I_partner       -            1.1e-39  136.1  34.7   1.1e-39  136.1  34.7   2.5   2   1   1   3   3   1   1 MZ422438.1 six_frame code11_orf1174
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\Type_I_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\Type_I_partner.domtbl -E 0.001 --domE 0.001 -Z 15471 --domZ 15471 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 13:53:20 2026
+# [ok]

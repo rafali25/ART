@@ -1,0 +1,149 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/Type_II_partner.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_II_partner  [M=274]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    3.7e-29  102.4  57.1    4.5e-29  102.1  57.1    1.0  1  OR770614.1__source179  original_source_CDS
+      6e-29  101.7  57.8    7.7e-29  101.3  57.8    1.2  1  OR770614.1__pgv179     alternative_viral_gene_call
+    8.3e-28   97.9  58.4      1e-27   97.6  58.4    1.0  1  OR455461.1__source227  original_source_CDS
+    1.2e-27   97.4  58.9    1.5e-27   97.1  58.9    1.1  1  OR455461.1__pgv208     alternative_viral_gene_call
+
+
+Domain annotation for each sequence (and alignments):
+>> OR770614.1__source179  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.1  57.1   7.9e-33   4.5e-29      15     273 ..      18     289 ..       8     290 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 102.1 bits;  conditional E-value: 7.9e-33
+        Type_II_partner  15 nlnlglvedlleemnfnildddhfelainqlenrhlvesfnylksegleelledvlvnnksnsiy.steslinnrfhdylmf...vkr 98 
+                            n nl ++e++++  nf+ l++d+++l +++     +   +nylk   + +l+ d+    k+   y +t +   + ++dy  f   +k 
+  OR770614.1__source179  18 NNNLYIYENIFNSTNFTDLNNDELKLVLSNNGIDNIFTIYNYLKDIDMIKLFIDMCETSKKLEDYgNTFNYRIDFLKDYNNFkknIKS 105
+                            789**********************99998888889999***************9988887766635666666667788777444778 PP
+
+        Type_II_partner  99 yned..nekesiindflkineynriefridlfkf..sy...knilididifllilfgkefyyeyrekynkyn.....i.ntnnkslrn 173
+                            yn+d  n+   +ind+lk+n+ynr+ fri+lf     y   ++  +++ i++l+lfgk+f  +y + +++ n     i + +n+s++ 
+  OR770614.1__source179 106 YNKDydNKGVHVINDLLKVNQYNRLSFRINLFECisNYdkkRSFELEVKILILTLFGKDFLNKYYNLFDNENnyildIdKYDNHSFKR 193
+                            *99722455579********************8532343224677899************99999888765533222323579***** PP
+
+        Type_II_partner 174 livntsenfryyenesdynkvidkdkfvdylnttiksyivtlfrvfedeniimdesllytfiykmnyskirkfiydiddgnieikdir 261
+                            li n   nf y+    d n   d ++f +yln  +k yi t+f ++e++  i d+ ++y ++yk+n+sk+rkfi+d  + +ie+ di 
+  OR770614.1__source179 194 LIKNIGRNFNYHY---DDNIKFDLENFENYLNNDVKPYIETIFELYENDT-IKDKKFMYKLLYKLNHSKVRKFIFDYYNQKIELDDIE 277
+                            **********975...457789*************************976.68*********************************** PP
+
+        Type_II_partner 262 reykkylpenil 273
+                            ++y +++p+nil
+  OR770614.1__source179 278 KDYDRFIPKNIL 289
+                            ***********8 PP
+
+>> OR770614.1__pgv179  alternative_viral_gene_call
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3  57.8   1.4e-32   7.7e-29      15     273 ..      30     301 ..      10     302 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 1.4e-32
+     Type_II_partner  15 nlnlglvedlleemnfnildddhfelainqlenrhlvesfnylksegleelledvlvnnksnsiy.steslinnrfhdylmf...vkryne 101
+                         n nl ++e++++  nf+ l++d+++l +++     +   +nylk   + +l+ d+    k+   y +t +   + ++dy  f   +k yn+
+  OR770614.1__pgv179  30 NNNLYIYENIFNSTNFTDLNNDELKLVLSNNGIDNIFTIYNYLKDIDMIKLFIDMCETSKKLEDYgNTFNYRIDFLKDYNNFkknIKSYNK 120
+                         789**********************99998888889999***************9988887766635666666667788777444778*99 PP
+
+     Type_II_partner 102 d..nekesiindflkineynriefridlfkf..sy...knilididifllilfgkefyyeyrekynkyn.....i.ntnnkslrnlivnts 179
+                         d  n+   +ind+lk+n+ynr+ fri+lf     y   ++  +++ i++l+lfgk+f  +y + +++ n     i + +n+s++ li n  
+  OR770614.1__pgv179 121 DydNKGVHVINDLLKVNQYNRLSFRINLFECisNYdkkRSFELEVKILILTLFGKDFLNKYYNLFDNENnyildIdKYDNHSFKRLIKNIG 211
+                         722455579********************8532343224677899************99999888765533222323579*********** PP
+
+     Type_II_partner 180 enfryyenesdynkvidkdkfvdylnttiksyivtlfrvfedeniimdesllytfiykmnyskirkfiydiddgnieikdirreykkylpe 270
+                          nf y+    d n   d ++f +yln  +k yi t+f ++e++  i d+ ++y ++yk+n+sk+rkfi+d  + +ie+ di ++y +++p+
+  OR770614.1__pgv179 212 RNFNYHY---DDNIKFDLENFENYLNNDVKPYIETIFELYENDT-IKDKKFMYKLLYKLNHSKVRKFIFDYYNQKIELDDIEKDYDRFIPK 298
+                         ****975...457789*************************976.68******************************************** PP
+
+     Type_II_partner 271 nil 273
+                         nil
+  OR770614.1__pgv179 299 NIL 301
+                         **8 PP
+
+>> OR455461.1__source227  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.6  58.4   1.8e-31     1e-27      15     273 ..      18     290 ..      10     291 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 97.6 bits;  conditional E-value: 1.8e-31
+        Type_II_partner  15 nlnlglvedlleemnfnildddhfelainqlenrhlvesfnylksegleelledvlvnnksnsiy.steslinnrfhdylmf...vkr 98 
+                            n nl ++e++++  nf+ l ++++   +++     +   +nylk   + +l+ d+    k+   y +t +   + ++dy  f   +k 
+  OR455461.1__source227  18 NNNLYIYENIFNITNFTDLSNNELRTVLSNNGIENIFTIYNYLKDIDMIKLFIDMCETSKKLEDYgNTFNYRIDFLKDYNNFkknIKT 105
+                            789********************9988777666778888***************9988887766635666666667788777444788 PP
+
+        Type_II_partner  99 ynedneke..siindflkineynriefridlfkf..sy...knilididifllilfgkefyyeyrekynkyn.....int.nnkslrn 173
+                            yn+d +++   +ind+lkin+ynr+ fri+lf     y   ++  ++  i++l+lfgk+f  +y + +++ n     in  +n+s+++
+  OR455461.1__source227 106 YNKDYDNKgiHVINDLLKINQYNRLFFRINLFECisNYdkkRSFELETKILILTLFGKDFLNKYYNLFDNENnyildINKyDNHSFKK 193
+                            **9865552268********************85323432245678999***********999988876654333335543699**** PP
+
+        Type_II_partner 174 livntsenfryyenesdynkvidkdkfvdylnttiksyivtlfrvfedeniimdesllytfiykmnyskirkfiydiddgnieikdir 261
+                            li n   nf yy+++   n   d ++f  yln  ik yi t+f ++e+ +ii d+ ++y ++yk+n+sk+rkf++d  + +ie+ di 
+  OR455461.1__source227 194 LIKNIGRNFNYYDDD--NNIKFDLENFEIYLNNDIKPYIETIFELYEN-DIIKDKRFMYKLLYKLNHSKVRKFVFDYYNQKIELDDIE 278
+                            ************875..56779************************97.599************************************ PP
+
+        Type_II_partner 262 reykkylpenil 273
+                            ++y +++p+ il
+  OR455461.1__source227 279 KDYDRFIPKIIL 290
+                            ********9987 PP
+
+>> OR455461.1__pgv208  alternative_viral_gene_call
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.1  58.9   2.7e-31   1.5e-27      15     273 ..      30     302 ..      11     303 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 97.1 bits;  conditional E-value: 2.7e-31
+     Type_II_partner  15 nlnlglvedlleemnfnildddhfelainqlenrhlvesfnylksegleelledvlvnnksnsiy.steslinnrfhdylmf...vkryne 101
+                         n nl ++e++++  nf+ l ++++   +++     +   +nylk   + +l+ d+    k+   y +t +   + ++dy  f   +k yn+
+  OR455461.1__pgv208  30 NNNLYIYENIFNITNFTDLSNNELRTVLSNNGIENIFTIYNYLKDIDMIKLFIDMCETSKKLEDYgNTFNYRIDFLKDYNNFkknIKTYNK 120
+                         789********************9988777666778888***************9988887766635666666667788777444788**9 PP
+
+     Type_II_partner 102 dneke..siindflkineynriefridlfkf..sy...knilididifllilfgkefyyeyrekynkyn.....int.nnkslrnlivnts 179
+                         d +++   +ind+lkin+ynr+ fri+lf     y   ++  ++  i++l+lfgk+f  +y + +++ n     in  +n+s+++li n  
+  OR455461.1__pgv208 121 DYDNKgiHVINDLLKINQYNRLFFRINLFECisNYdkkRSFELETKILILTLFGKDFLNKYYNLFDNENnyildINKyDNHSFKKLIKNIG 211
+                         865552268********************85323432245678999***********999988876654333335543699********** PP
+
+     Type_II_partner 180 enfryyenesdynkvidkdkfvdylnttiksyivtlfrvfedeniimdesllytfiykmnyskirkfiydiddgnieikdirreykkylpe 270
+                          nf yy+++   n   d ++f  yln  ik yi t+f ++e+ +ii d+ ++y ++yk+n+sk+rkf++d  + +ie+ di ++y +++p+
+  OR455461.1__pgv208 212 RNFNYYDDD--NNIKFDLENFEIYLNNDIKPYIETIFELYEN-DIIKDKRFMYKLLYKLNHSKVRKFVFDYYNQKIELDDIEKDYDRFIPK 299
+                         ******875..56779************************97.599********************************************9 PP
+
+     Type_II_partner 271 nil 273
+                          il
+  OR455461.1__pgv208 300 IIL 302
+                         987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (274 nodes)
+Target sequences:                      22472  (5215979 residues searched)
+Passed MSV filter:                      2751  (0.122419); expected 449.4 (0.02)
+Passed bias filter:                      277  (0.0123265); expected 449.4 (0.02)
+Passed Vit filter:                        21  (0.000934496); expected 22.5 (0.001)
+Passed Fwd filter:                         4  (0.000177999); expected 0.2 (1e-05)
+Initial search space (Z):              22472  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.03
+# Mc/sec: 42495.83
+//
+[ok]

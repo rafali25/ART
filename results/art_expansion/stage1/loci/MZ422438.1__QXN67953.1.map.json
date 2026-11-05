@@ -1,0 +1,32 @@
+{
+  "segments": [
+    {
+      "source_start0": 173429,
+      "source_end0": 186794,
+      "locus_start0": 0,
+      "locus_end0": 13365,
+      "orientation": -1
+    }
+  ],
+  "metadata": {
+    "strand": -1,
+    "length_nt": 13365,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 6000,
+    "downstream_available_nt": 6000,
+    "upstream_shortfall_nt": 0,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": false,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 0,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_accession": "MZ422438.1",
+  "source_path": "results/art_discovery/reference_sources/LPJP1_MZ422438.1.gb",
+  "source_sha256": "0158bf6b0f508580e152e26e0bc6ad7dffc517e87dd1ed861e16847be4679b70"
+}

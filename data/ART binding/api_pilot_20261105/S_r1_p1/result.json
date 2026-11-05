@@ -1,0 +1,43 @@
+{
+  "cell_id": "S_r1_p1",
+  "RT_sample_id": "ARTS0016",
+  "partner_sample_id": "ARTS0016",
+  "native_pair": true,
+  "provider": "NVIDIA_hosted_Boltz2",
+  "condition": "S_explicit_query_only_MSA",
+  "protein_iptm": 0.11973755806684494,
+  "iptm": [
+    0.11973755806684494
+  ],
+  "ptm": [
+    0.2030993402004242
+  ],
+  "confidence": [
+    0.3413560092449188
+  ],
+  "contacts_5A_residue_pairs": 275,
+  "structure_file": "data/ART binding/api_pilot_20261105/S_r1_p1/model_0.cif",
+  "structure_sha256": "1b924322a8a84186de1c575244e0e2f805ba98945c20e79a60d1ffde32531d20",
+  "chain_lengths": [
+    501,
+    265
+  ],
+  "server_runtime_metrics": {
+    "total_time_seconds": 10.433175168000162,
+    "input_preparation_time_seconds": 0.0,
+    "dataloader_setup_time_seconds": 0.0,
+    "model_inference_time_seconds": 10.078762179007754,
+    "postprocessing_time_seconds": 6.29909336566925e-05,
+    "affinity_prediction_time_seconds": 0.0,
+    "response_construction_time_seconds": 0.0,
+    "artifact_write_time_seconds": 0.2614908959949389,
+    "postprocess_time_seconds": 0.3029934630030766,
+    "model_forward_time_seconds": 9.775768716004677
+  },
+  "exact_seed_control": false,
+  "processed_features_inspectable": false,
+  "full_PAE_available": false,
+  "confirmatory": false,
+  "experimental_binding_validation": false,
+  "client_elapsed_seconds": 25.71649330900982
+}

@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "https://www.ebi.ac.uk/Tools/hmmer/api/v1/search/databases",
+    "payload": null,
+    "form": false,
+    "method": "GET"
+  },
+  "status": 200,
+  "error": null,
+  "response_sha256": "9e02de48a39744952e2de510837f7425c83b17fc78e06071a3442f9be8c3f8e1",
+  "bytes": 1745,
+  "time_utc": "2026-10-20T12:04:37.956966+00:00",
+  "elapsed_seconds": 0.7723
+}

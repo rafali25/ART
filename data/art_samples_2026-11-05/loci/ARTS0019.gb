@@ -1,0 +1,625 @@
+LOCUS       MW349129.1__QQO92858.1 13506 bp    DNA     linear   PHG 01-JAN-1980
+DEFINITION  MW349129.1; RT=QQO92858.1; RT-oriented locus.
+ACCESSION   MW349129.1__QQO92858.1
+VERSION     MW349129.1__QQO92858.1
+KEYWORDS    .
+SOURCE      Staphylococcus phage Madawaska
+  ORGANISM  Staphylococcus phage Madawaska
+            Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+            Wallmarkvirinae; Madawaskavirus; Madawaskavirus madawaska.
+COMMENT     Derived linear locus. Original record and all original annotations
+            are archived separately.
+FEATURES             Location/Qualifiers
+     source          <1..>13506
+                     /organism="Staphylococcus phage Madawaska"
+                     /mol_type="genomic DNA"
+                     /isolation_source="swine barn environmental swab"
+                     /host="Staphylococcus aureus"
+                     /db_xref="taxon:2797424"
+                     /geo_loc_name="USA: Texas"
+                     /collection_date="2016"
+                     /collected_by="Abby Korn"
+                     /source_feature_index="0"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     gene            <1..571
+                     /locus_tag="CPT_Madawaska_199"
+                     /source_feature_index="595"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     CDS             <1..571
+                     /locus_tag="CPT_Madawaska_199"
+                     /codon_start=2
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92849.1"
+                     /source_feature_index="597"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     gene            659..1343
+                     /locus_tag="CPT_Madawaska_200"
+                     /source_feature_index="598"
+                     /locus_clipped="false"
+     regulatory      659..661
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_200"
+                     /source_feature_index="599"
+                     /locus_clipped="false"
+     CDS             672..1343
+                     /locus_tag="CPT_Madawaska_200"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92850.1"
+                     /translation="MSYRMFIKPLTEKTGAKPERHEVMVNTETGMISLINSDGENVSGL
+                     KDITVDIALKKEILSFLDIVNKDVVESINDIKPKYENEMKRTDVIKAQMDKLKSLNKDI
+                     IEQIKKIETNNVTAYVMMQDLIKQIYNIIDVYSKTYLDIAKVERKVDHLIYLRDILRKN
+                     RIQMEKDIKSLTTKNNEVKKLLATKEYKSTYDAWVADYVKRTKALSKESKVSSISFSHK
+                     I"
+                     /source_feature_index="600"
+                     /locus_clipped="false"
+     gene            1352..2831
+                     /locus_tag="CPT_Madawaska_201"
+                     /source_feature_index="601"
+                     /locus_clipped="false"
+     regulatory      1352..1357
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_201"
+                     /source_feature_index="602"
+                     /locus_clipped="false"
+     CDS             1365..2831
+                     /locus_tag="CPT_Madawaska_201"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92851.1"
+                     /translation="MGRFHYSPIDYKDYMNKYFNSLQTGELLIDFEGADIYVSEEGYNI
+                     PIPSNKKLKDDIIKYLENSIEGINYRTREIPRFIKQIEELRRKIEEQQDLMNRQYDDIN
+                     MGIDDNIKDLTYISKVTENNVQQLGDLKLSIDKNDLKFIDKRLLELVNEFNLINSDSRN
+                     KIYVQDAQNKSKQLTAIWNEINALMDDANKKLSKMGSFSGTMMIKRSVTTRRMAYDAYY
+                     SKRLFNFTTNGGHGDIGFPWSYNYAGNLSTYLDFTKRAKRGFIKWFYGQKYLDSLTRLR
+                     FPAYNGSGFWYKGFATKKDVRNGSIHGMRNPSWDLFETVPLKGQLNQTDRNNFNLPYIR
+                     SATNYTMFDAGNWSGEKKPNTYNHTSVIVDSRSPTYRIGGSQTFQRNFKHIGKKYDVDT
+                     KLIKRIVAKDDGTQRTPRYKFNNKDMNSCVSAGAPTFPVIVRDIPFISHTGFQNREGMV
+                     IRMGVSKYVSQTEIRLVRMKFNNSKGWVKA"
+                     /source_feature_index="603"
+                     /locus_clipped="false"
+     gene            2873..4215
+                     /locus_tag="CPT_Madawaska_202"
+                     /source_feature_index="604"
+                     /locus_clipped="false"
+     regulatory      2873..2876
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_202"
+                     /source_feature_index="605"
+                     /locus_clipped="false"
+     CDS             2890..4215
+                     /locus_tag="CPT_Madawaska_202"
+                     /note="endolysin, N-acetylmuramoyl-L-alanine amidase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="endolysin"
+                     /protein_id="QQO92852.1"
+                     /translation="MAREGMAYEYPLEISDELIYTNNPVNIMVMDARNHAISLKDLDQV
+                     HRSIGLKMFAYHYYVTLTGIIYGGRPERALNPDLTKLTKALYTSMISLNQSPFEGIDNI
+                     EMKDRTSSISSNKILICLEGNTSYKDIPKAQKTSLITLCKDIMSRNRNIKNVYSMREYL
+                     PMYENLGDMVDFASIRSEATTSIPPLFVTTPAGTVTYSFGKRVLRYIEDNPMSGNDVKL
+                     LEIYLKKLGIDVIQPNGKYDVFTVDAVRRFQKRYNLEITGSFKKNDFDVLNTEINKVKF
+                     KNVVSDSYYRLLYYREDQELYGKDIENLNNRLMKIFPKLKLNNYYSEDAENAVKRFQEF
+                     TKLSVDGIVGPITWEKIFSYEFTDLTDIIFYDPSDNEFKLVIKMIQNKIKNNLNKFGIT
+                     EYSMHGIYDEITYKNIKKIKSLIGFNISGNIDRETYEFFVDL"
+                     /source_feature_index="606"
+                     /locus_clipped="false"
+     gene            4227..4388
+                     /locus_tag="CPT_Madawaska_203"
+                     /source_feature_index="607"
+                     /locus_clipped="false"
+     regulatory      4227..4230
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_203"
+                     /source_feature_index="608"
+                     /locus_clipped="false"
+     CDS             4239..4388
+                     /locus_tag="CPT_Madawaska_203"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92853.1"
+                     /translation="MSNENKDLFVFQEGLNEITDDMEFVESEEEKRKRKKKEEEKAKRK
+                     GDNK"
+                     /source_feature_index="609"
+                     /locus_clipped="false"
+     gene            4373..4720
+                     /locus_tag="CPT_Madawaska_204"
+                     /source_feature_index="610"
+                     /locus_clipped="false"
+     regulatory      4373..4377
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_204"
+                     /source_feature_index="611"
+                     /locus_clipped="false"
+     CDS             4388..4720
+                     /locus_tag="CPT_Madawaska_204"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92854.1"
+                     /translation="MAGTAQFTEIINSHRAKLSTILSINLKSGNNIHLNRTIEGTLRIE
+                     GECVLWEEIKSGLRNSDQLVHIACDIEDISHISYVDGYSETDREEENIPRVLKETVDNI
+                     VNNNKA"
+                     /source_feature_index="612"
+                     /locus_clipped="false"
+     gene            complement(4891..5010)
+                     /locus_tag="CPT_Madawaska_205"
+                     /source_feature_index="613"
+                     /locus_clipped="false"
+     CDS             complement(4891..5001)
+                     /locus_tag="CPT_Madawaska_205"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92855.1"
+                     /translation="MNSMLRQSLGSMDLELYGSDCKILIKIIRIHMIYFI"
+                     /source_feature_index="614"
+                     /locus_clipped="false"
+     regulatory      complement(5007..5010)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_205"
+                     /source_feature_index="615"
+                     /locus_clipped="false"
+     gene            5112..5244
+                     /locus_tag="CPT_Madawaska_206"
+                     /source_feature_index="616"
+                     /locus_clipped="false"
+     regulatory      5112..5115
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_206"
+                     /source_feature_index="617"
+                     /locus_clipped="false"
+     CDS             5122..5244
+                     /locus_tag="CPT_Madawaska_206"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92856.1"
+                     /translation="MNTYDLNLCISKIIFPKLFSYLIISPSSGNLFIKFPAEGI"
+                     /source_feature_index="618"
+                     /locus_clipped="false"
+     gene            5348..5478
+                     /locus_tag="CPT_Madawaska_207"
+                     /source_feature_index="619"
+                     /locus_clipped="false"
+     regulatory      5348..5350
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_207"
+                     /source_feature_index="620"
+                     /locus_clipped="false"
+     CDS             5365..5478
+                     /locus_tag="CPT_Madawaska_207"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92857.1"
+                     /translation="MLVSIWTLFSIIFCSLGPLPYYLGSRQAALYIFVGLS"
+                     /source_feature_index="621"
+                     /locus_clipped="false"
+     gene            5984..7506
+                     /locus_tag="CPT_Madawaska_208"
+                     /source_feature_index="622"
+                     /locus_clipped="false"
+     regulatory      5984..5988
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_208"
+                     /source_feature_index="623"
+                     /locus_clipped="false"
+     CDS             6001..7506
+                     /locus_tag="CPT_Madawaska_208"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA-directed DNA polymerase"
+                     /protein_id="QQO92858.1"
+                     /translation="MFKFNNVERINLIGNRKMNYIELQESLYTLEPKFKKIVKNDKGNF
+                     LLIFSDGRKEYISNTNAENTFRSKMMVVNSIDDYNLFGKNKQEYSIEINSVDYSLINHL
+                     RSFIYEDYKFIITTKKFRIYEEDKIFNLIKLKSRTENDKDIFKIEGILKIKKDLINIEE
+                     LELIKDILNDCRTSKERQEYILNSLDLLLKSIDLKNRNVNTFDTFYIPKSDGTKREINS
+                     PIEEIRPILKKQANILNAILDLRINKYNLDENIIAYRNGKSIKDNADYHKENKTIIKFD
+                     ISKFFDNCHFDYWKENLFFSFKDDDYVMERFEKHMEDLLFRKDNKGLYMGSPLSPAASN
+                     LIMVPVMRYINNILSKFKTNIKVTVYADDITFSSNEINDEFNPKRLKSMVNHAFKVNGL
+                     KFKLKEEKSLVMKNHKRKITGLTVNHNDEPTISQKRYRQLRTIIHLLNKGVEFKDIKGF
+                     KTPLELVSLINYYLDVDTTEKVKKLMDKNERIFNELKKEAGVN"
+                     /source_feature_index="624"
+                     /locus_clipped="false"
+     gene            7496..8332
+                     /locus_tag="CPT_Madawaska_209"
+                     /source_feature_index="625"
+                     /locus_clipped="false"
+     regulatory      7496..7499
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_209"
+                     /source_feature_index="626"
+                     /locus_clipped="false"
+     CDS             7508..8332
+                     /locus_tag="CPT_Madawaska_209"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92859.1"
+                     /translation="MLDINKRKITSERINLNLGLVEDLLEEMNFNILDDEEFELAIRQI
+                     DNRYIVESFNYLKSEGLDELLKDVLVNNKNNLLYSTESLINNRFHEYLTFVKRYNEDNE
+                     KDSIINDFLKINVYNRIEFRIDLFKFSYKNILSDIDIFLLILFGKEFYHEYRNKYNKSN
+                     INTNNKSLRNLIVNTSESFRYYENESSYNKVIDKDKFVDYLNTTVKSYIVTLFRVFENE
+                     NIIMDESLLYTFIYKMNYSKIRKFIYDIDDGNIEIKDIRREYKKYLPEKILI"
+                     /source_feature_index="627"
+                     /locus_clipped="false"
+     regulatory      8347..8380
+                     /regulatory_class="terminator"
+                     /source_feature_index="628"
+                     /locus_clipped="false"
+     gene            8403..9599
+                     /locus_tag="CPT_Madawaska_210"
+                     /source_feature_index="629"
+                     /locus_clipped="false"
+     regulatory      8403..8407
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_210"
+                     /source_feature_index="630"
+                     /locus_clipped="false"
+     CDS             8418..9599
+                     /locus_tag="CPT_Madawaska_210"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92860.1"
+                     /translation="MSNVLLKEYEGNIDKFLSDKNKYNQAKRYMVSYIERNTKQLSYNT
+                     PIYRIPFNMQGIDVTTIMKLVDIDPREMEREIKKLPLTRKYADVLKHPFYVTMSLIIRG
+                     INKKLKVKKNDKNLNNDLRLFLLYLSLSFYWSIQVKQFPYEPNENVAQYTINRLSNKFF
+                     FKKYKTVSTSITVTAEQNNINSLSILDKGQDDDILVYLMDLRTRLNNLVKNFAKELYKD
+                     INAGNYLNPHVDVLDDESNYREGTNISGTVSNISQKTLSEFTQKDINMRILKISCSMTN
+                     TNSNIMRNTMSDIRQNEIKNVNNLLLNILTVYLDGKNNPIQSIGSQRFIRESISFFTKS
+                     NTKDKRLLENKKILNDFLTKYNSKYNQTEREATKNSYRKTIYVYFVLLISNSY"
+                     /source_feature_index="631"
+                     /locus_clipped="false"
+     gene            9606..10328
+                     /locus_tag="CPT_Madawaska_211"
+                     /source_feature_index="632"
+                     /locus_clipped="false"
+     regulatory      9606..9609
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_211"
+                     /source_feature_index="633"
+                     /locus_clipped="false"
+     CDS             9621..10328
+                     /locus_tag="CPT_Madawaska_211"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92861.1"
+                     /translation="MSNKNEDRIEMSENINNEKINKIGKRMKKFNSVMNSNRTFIFSVI
+                     ACLLLTSYFVYSFIDNDSRSTSTPSANTDRKYTTKNDEKAMFLIQETTNNKISMLSEID
+                     SIMYREDLSKDEKLDFLRDIKVLMEQNNKNFNHEINKFDKLSIDAVEDVKNMNKINAIA
+                     GKYADDAINFNKADKDEKFKYSREIFQNNSNFRSILASMNYTNYDDEQRRMESIKEGRS
+                     ENLKDKNNESNDK"
+                     /source_feature_index="634"
+                     /locus_clipped="false"
+     gene            10418..11169
+                     /locus_tag="CPT_Madawaska_212"
+                     /source_feature_index="635"
+                     /locus_clipped="false"
+     regulatory      10418..10421
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_212"
+                     /source_feature_index="636"
+                     /locus_clipped="false"
+     CDS             10435..11169
+                     /locus_tag="CPT_Madawaska_212"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92862.1"
+                     /translation="MANLSDASGTMHFEGFEGKEKFLKEMKRLMVKSFSEDETQYFINF
+                     QHDIDKYGQIIVSDELEEEFNAIGRWSFGSSLERFFDSISSDIVEHYKHEENSEELIKN
+                     NLDYIKNNFAEDEDMSIRFEFVDYESGMNFLLEGFVEVRPGDIIKDEHGFIRYMGTETS
+                     SDFTDLEVNVENLVSEQIMDNEDFILPEDINFIDSEALPEEDDLDIEVDEDHKQIRREL
+                     LRRYTEENSVFCIRENRMMELN"
+                     /source_feature_index="637"
+                     /locus_clipped="false"
+     regulatory      11174..11214
+                     /regulatory_class="terminator"
+                     /source_feature_index="638"
+                     /locus_clipped="false"
+     gene            11218..11807
+                     /locus_tag="CPT_Madawaska_213"
+                     /source_feature_index="639"
+                     /locus_clipped="false"
+     regulatory      11218..11222
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_213"
+                     /source_feature_index="640"
+                     /locus_clipped="false"
+     CDS             11235..11807
+                     /locus_tag="CPT_Madawaska_213"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92863.1"
+                     /translation="MNKRDVFKNIEKAINKYRKDYMYNWFKDYLNDLEYEKDYIVYGDI
+                     GDVGTIEFLNRYILESNPIKNMNEVNIEKLLQKTSGRSNIVFPYMNVLDDKILLDEFNI
+                     TSYDRNLKRIKLYIKFNDDKYLNKVKNEEENFRDNSFSGYYRIYSLEKDLKSFLTNFKN
+                     VPDFLEYIKDKEKYNNLYKYLIKLESE"
+                     /source_feature_index="641"
+                     /locus_clipped="false"
+     gene            11795..12737
+                     /locus_tag="CPT_Madawaska_214"
+                     /source_feature_index="642"
+                     /locus_clipped="false"
+     regulatory      11795..11798
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_214"
+                     /source_feature_index="643"
+                     /locus_clipped="false"
+     CDS             11811..12737
+                     /locus_tag="CPT_Madawaska_214"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92864.1"
+                     /translation="MTRIEEITTKPDLNSYMSEVFNYHFERIVNNNYVENIVSDFIDII
+                     EKDIKFRNGSQGNHKDIFEELDSDGIKNIKELESILSRFENEDNKFIKKIRKDINDKID
+                     HIKNNKDKRIKNTFKSKHDLPTNVVIDTRVINPSVIIPRSNLYRNELGVKNIRVSFSPD
+                     NLLTFNLHFSEIYGDEKVNKIKRDFRKDYSSYNETPIRIMCKILNIDEDDQVLLEYKFD
+                     LDNIYYNMTTESKNKLNEMSDLINSVINYQIQIKNKNLKSTKVIEIIKNNSIMRKLQLD
+                     YESNNENKYEMEPIPRHLKKLFGKGEK"
+                     /source_feature_index="644"
+                     /locus_clipped="false"
+     gene            12725..>13506
+                     /locus_tag="CPT_Madawaska_215"
+                     /source_feature_index="645"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     regulatory      12725..12729
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Madawaska_215"
+                     /source_feature_index="646"
+                     /locus_clipped="false"
+     CDS             12740..>13506
+                     /locus_tag="CPT_Madawaska_215"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQO92865.1"
+                     /source_feature_index="647"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+ORIGIN
+        1 tttacgtact ggagatatct cttatacaga tgacaaaggt aatttaattg atataactgc
+       61 taagttaaaa gaaagattaa attacgttga atctgatttg aataatatta atattaattc
+      121 aatgataatg agaggaaata tatcactatt attagatgaa ttaagttata tagttaagaa
+      181 taatgatttc ttagaaaata atcttaagga agctatagac aaattagaaa atgttgaaaa
+      241 tgaagttaaa aattcagata agctaattaa agatatagaa gctcttaaga aacgtgttca
+      301 agaatcaaat aaattggtta ccacactttc taaatctgta tctaagaaaa ctacagaaat
+      361 aaacaatact attaaaacta ttgagagaga aattataagt actctaccag ttcaaagaga
+      421 taatatctca atggtagcta aatcttatta taatattaaa tcagtagatt taacagctag
+      481 aactaagatt agtaaaactg catttaataa cttcaagaag aaatacgaaa aattcttaac
+      541 aaatgttaag acatatataa gaaactttta atatttgacc atacattcga aacttatctt
+      601 tatagaaaaa ttaaggataa taaagaatgt atggtcttta ttattgtaaa tgaaagtcgg
+      661 tgaaattata attgtcttat agaatgttta ttaaaccact aacagaaaag actggtgcaa
+      721 aacctgagag acatgaagtt atggttaata cagaaacagg tatgattagt ttaatcaact
+      781 ctgatggaga aaatgtttct ggtttaaaag atataacggt tgatattgct cttaaaaaag
+      841 aaatattaag tttcttagat atagttaata aagatgtagt agagtctatt aatgatataa
+      901 aacctaaata tgaaaatgaa atgaaaagaa cagatgtaat aaaggcacaa atggataaac
+      961 ttaaaagtct taataaagat ataatagaac aaatcaaaaa gatagagact aataatgtaa
+     1021 cagcatacgt tatgatgcaa gatttaatta aacagatata taatattata gatgtgtatt
+     1081 caaagactta tttagatata gctaaagtag aaagaaaagt agatcattta atatacttaa
+     1141 gagacattct tagaaaaaat agaattcaga tggaaaaaga tattaaatct ctaactacta
+     1201 aaaataatga agttaaaaaa ttattggcta ctaaagaata caaatctact tatgatgcct
+     1261 gggttgctga ttatgttaaa cgtactaaag ctttatctaa agaatctaaa gtaagtagta
+     1321 ttagctttag tcacaaaata taatataagg aaggaggaaa tacattgggt cgttttcatt
+     1381 attcacctat agattataaa gattatatga ataaatactt taatagtctt caaacaggtg
+     1441 aattacttat tgattttgaa ggtgcagata tatatgtatc tgaagaagga tacaatatac
+     1501 caataccgtc aaataaaaaa cttaaagatg atattattaa atacttagaa aatagtatcg
+     1561 aaggtatcaa ttatagaact agagaaatac ctagatttat taaacaaatt gaagaattaa
+     1621 gaagaaaaat agaagaacag caggatttaa tgaaccgtca gtatgatgat attaatatgg
+     1681 gtatagatga caatatcaaa gatttaactt atattagtaa agtaactgaa aataatgtac
+     1741 agcaattagg ggatttaaaa ttatctattg ataaaaatga tcttaagttc attgataaac
+     1801 gtttattaga acttgttaat gaatttaacc taattaatag tgattctcgt aataaaatat
+     1861 acgtacaaga tgctcaaaat aaatctaaac agttaactgc tatatggaat gaaattaatg
+     1921 ctcttatgga tgatgctaat aaaaaattat ctaaaatggg ttctttctca ggtactatga
+     1981 tgattaaacg ttcagtaact actagaagaa tggcttatga tgcttattat tctaaacgtt
+     2041 tatttaactt tactactaat ggtggacatg gagatatagg ttttccatgg agttataact
+     2101 atgctggcaa tttaagtact tatttagatt ttactaagag agctaaaaga ggttttatta
+     2161 aatggtttta cggtcaaaaa tatttagatt cattaactag attaagattt cctgcttata
+     2221 atggttctgg attctggtat aaaggttttg ctactaaaaa agatgtacgt aacggatcta
+     2281 tacatggtat gagaaatcct tcatgggatt tatttgaaac agttcctctt aaaggacaat
+     2341 taaaccaaac tgatagaaat aattttaatt taccttatat aagatcagct acaaattata
+     2401 ctatgtttga tgcgggtaat tggtctggag aaaagaaacc taatacttat aatcatacat
+     2461 ctgttatagt tgactctaga tctcctactt atagaatagg cggtagtcaa acgttccaaa
+     2521 gaaacttcaa gcatattggt aaaaaatatg atgttgatac caaattaata aagcgtatag
+     2581 tagctaaaga tgatggtact caaagaacac ctagatataa attcaataat aaagatatga
+     2641 atagttgtgt atctgcaggt gcacctactt tccctgttat tgttagagat atacctttta
+     2701 tatcacatac aggtttccaa aacagagaag gaatggtaat tcgtatgggt gtttctaaat
+     2761 atgtatctca aactgaaatt agattagtta gaatgaaatt taataatagt aagggttggg
+     2821 taaaagccta attaaattaa gctttcacac taacactaaa aatattaatg aaaggacggt
+     2881 gaatattttt tggcaagaga aggaatggct tatgaatatc ctttagaaat atcagatgag
+     2941 ttaatatata caaataaccc agttaatatt atggtaatgg atgctcgtaa ccatgctata
+     3001 agtttaaaag atttagatca agttcataga tctataggat taaagatgtt tgcatatcat
+     3061 tattatgtaa ctttaactgg tataatttat ggaggaagac ctgaaagagc tttaaaccct
+     3121 gatttaacta aattaactaa agctctttat actagtatga ttagtttaaa tcaaagtcct
+     3181 tttgaaggta tagataatat agagatgaaa gatagaactt cttccatttc ttctaataag
+     3241 atactaatat gtcttgaagg taatacttct tataaagata tccctaaagc tcaaaaaact
+     3301 tcattaataa cattatgtaa agatataatg agtagaaata gaaatattaa aaacgtatat
+     3361 tctatgagag aatatttacc tatgtatgag aatttaggcg atatggtaga ctttgcttct
+     3421 attagatctg aagcaactac atcaatacca ccattatttg taactactcc agcaggtaca
+     3481 gtcacttata gttttggtaa acgtgtattg agatatattg aagataaccc aatgtctggt
+     3541 aatgatgtta aattattaga aatatatctt aagaaattag gtattgatgt tattcaacct
+     3601 aatggtaaat acgatgtttt tactgttgat gcagttagaa gattccaaaa aagatataat
+     3661 ttagaaataa ctggttcatt taagaaaaat gattttgacg tattaaatac tgaaattaat
+     3721 aaagttaaat ttaagaacgt tgtaagtgat agttattata gactattata ttacagagaa
+     3781 gatcaagaat tatacggtaa agatatagaa aatttaaata atagactaat gaaaatattc
+     3841 cctaaactta aactaaataa ttattattca gaagatgctg aaaatgctgt aaaaagattt
+     3901 caagaattca ctaaattaag cgttgatggt attgtaggac ctattacttg ggaaaagata
+     3961 tttagttatg aatttactga cttaactgat ataattttct atgatccgag tgataatgaa
+     4021 tttaaactag ttattaaaat gatacaaaat aagattaaaa ataatcttaa taaatttggt
+     4081 ataactgaat attcaatgca tggaatatat gatgaaataa catataaaaa tattaagaaa
+     4141 ataaaatcac ttatagggtt taatatctct ggaaatatag atagagaaac ttatgagttt
+     4201 tttgtagatt tataaaaata attaaaagga tgattaatat gagtaatgaa aataaagatt
+     4261 tatttgtatt ccaagaagga ttaaatgaaa ttacagatga tatggaattt gtagaatctg
+     4321 aagaagaaaa acgtaaacgt aagaaaaaag aagaagaaaa agctaaaaga aaaggagata
+     4381 ataaataatg gcaggtacag ctcaatttac tgaaatcatt aatagccatc gtgctaaatt
+     4441 aagtactatt ctttcaatca atttgaagag tggtaataat atacatttaa accgaactat
+     4501 tgaaggtact ttacgtattg aaggcgaatg tgtattatgg gaagaaatta aatcaggctt
+     4561 aagaaattca gatcaattag ttcatattgc atgtgatatt gaagatattt cacatattag
+     4621 ttatgtagat ggatattctg agactgatag agaagaagaa aatattccta gagtattaaa
+     4681 agaaactgtt gacaatatcg taaataataa taaagcttaa aaaataaggt aatgacatat
+     4741 aatttgtcat tacctttatt atattgtcaa aatttaaatc gatatttaaa tatatataat
+     4801 attaatgaag atagttagat attaatatta aagttattat tttatataga ataataaaaa
+     4861 caacctccaa ttgattttat tgtactacaa ctatataaaa tagatcatat gaatacgtat
+     4921 gatcttaatt aaaattttac agtcactacc atataattcc agatccattg aacctaggct
+     4981 ttgacgaagc atagagttca atggatcctc tatattatat tgtctgttta atattatatt
+     5041 taatctatct tcttgaattt tgattattat atgaattata ttttattata aagctatatc
+     5101 ttattaaatt aaggtaatca tatgaatacg tatgatttaa atttatgtat tagcaaaata
+     5161 atttttccaa aattattttc ttatttgata atatcaccct cttcagggaa tcttttcata
+     5221 aagtttcccg cagagggaat ctagtcaaat atgtttgttt ataataaaat aagattttta
+     5281 acttaaagtt tttctataat taatttatag acattatatg aatacgtata atgattattt
+     5341 atttatgggt agaaataagt cctgatgctt gtcagcatct ggactctttt ctcgattata
+     5401 ttttgcagct tgggtccgct tccttattac ttaggaagcc gccaagctgc attgtatata
+     5461 tttgttggtt taagttaaaa gttagttttt cgatttaaag ttattctata attaatttat
+     5521 agacattata tgaatacgta taatgattat ttatttatgt ccattgccat aaataaaact
+     5581 ccacgttcca actccttctt taataataaa gaaggaggaa ccaggatatt tatttatctt
+     5641 tgtttaaatc gaaattattc tctctattag ttattctata attatcttta tagacattat
+     5701 atgaatacgt ataatgattt tagaattata tcctattcat tatatttact ctgctttatt
+     5761 tccggtgtaa tgatttcttc attacactcc cagctgggac cattcttcaa tcgctcgtta
+     5821 agacccacgt tctcttcatc aggtcccagc taaaataaag ctttaaatat aattttagta
+     5881 ttagagaaga atatagaatg aattaaattc attataataa tcaaactcac cgttacctat
+     5941 aatcatatag gtaacggtat ttatttttta attttttata aataggagat gaaatggata
+     6001 atgtttaaat ttaacaatgt agaacgtatt aacttaatag gaaatagaaa gatgaattat
+     6061 attgaattac aggaatcttt atatacttta gaacctaagt ttaaaaagat agtaaagaat
+     6121 gataaaggaa attttttatt aatattttca gatggaagaa aagaatatat cagtaataca
+     6181 aatgcggaaa atacgtttag atctaaaatg atggtagtta atagtattga tgattacaat
+     6241 ttatttggta aaaataaaca agaatatagt attgaaataa atagtgtaga ctactcttta
+     6301 attaatcatt taagaagctt tatttatgaa gattataaat ttattattac tactaaaaaa
+     6361 tttagaattt atgaagagga caaaatattt aatttaataa aattgaaatc aaggacagaa
+     6421 aatgacaaag atatatttaa aattgaaggt attttaaaaa ttaaaaaaga tttgattaat
+     6481 attgaagaat tagaattaat taaggatatt ttaaatgatt gtcgaacttc aaaagaaaga
+     6541 caggaatata tattaaattc attagatctt ttattaaaat ctatagatct aaaaaataga
+     6601 aatgttaata catttgacac tttctatata cctaaatcag atggtactaa aagagaaatt
+     6661 aattcaccta tagaagaaat tagacctatt cttaaaaaac aagctaacat attaaatgct
+     6721 attttagatc ttagaattaa taagtataat ttagatgaaa atattatagc ttatagaaat
+     6781 ggtaaatcaa ttaaagataa tgcagattat cataaagaaa ataaaactat tattaaattt
+     6841 gatattagta aattctttga taattgtcat tttgattatt ggaaagaaaa tcttttcttt
+     6901 agttttaagg atgatgatta tgtaatggaa agatttgaaa aacatatgga agatctatta
+     6961 tttagaaaag ataataaagg attatatatg ggtagtccat tatctccggc agcatctaac
+     7021 ttaattatgg ttccagtaat gagatatatt aataatatat taagtaaatt taaaactaat
+     7081 attaaagtta ctgtttatgc agatgatata actttctcaa gcaatgaaat caatgatgag
+     7141 tttaatccta aaagattaaa aagtatggtt aatcatgctt ttaaagtcaa tggtttaaaa
+     7201 tttaaactta aagaagaaaa atcattagtg atgaaaaatc ataaaagaaa aataacagga
+     7261 ttaactgtta accataatga tgaaccaact attagtcaaa aaagatatag acaattaaga
+     7321 acaattattc atttattaaa taaaggtgta gaatttaaag atattaaagg atttaaaaca
+     7381 ccattagaat tagtatcatt aattaactat tatttagatg ttgatactac tgaaaaagtt
+     7441 aaaaaattaa tggacaagaa tgaaagaata tttaatgaat taaagaaaga agctggggtg
+     7501 aattaatatg ttggatataa ataaaagaaa aataacttca gaaagaatta atttaaattt
+     7561 aggtctagtt gaagatttac ttgaagaaat gaattttaat attttagacg atgaagaatt
+     7621 tgaattggct attagacaaa tagataatag atatattgta gaatctttta attatttaaa
+     7681 gagtgaaggt ttagatgaat tgttaaaaga tgtattggta aacaataaaa ataatttatt
+     7741 atatagtaca gaaagtttaa ttaataatag atttcatgaa tatttgacgt ttgttaagag
+     7801 atataatgaa gataatgaaa aagattctat tattaatgat ttcttaaaga ttaatgtata
+     7861 taacagaatt gaatttagaa tagatctatt taaattctca tataaaaata tattaagtga
+     7921 tatagatata tttttattaa tcttattcgg taaagaattt tatcatgaat acagaaataa
+     7981 atacaataaa agtaatataa atactaataa taaaagttta agaaatttaa ttgttaacac
+     8041 ttcagagagt tttagatatt atgaaaatga atcaagttat aataaagtaa ttgataaaga
+     8101 taaatttgtt gattatttaa atactactgt taaaagttat atagttacac tatttagagt
+     8161 ttttgaaaat gaaaatataa ttatggatga aagtttatta tatactttta tatataaaat
+     8221 gaattattcc aaaattagaa aatttattta tgatattgat gatggtaata ttgaaataaa
+     8281 agatattcga agagaatata agaaatatct tccagaaaag atattgattt agaactattg
+     8341 tatatagaag agggtgactt aactgtcact ctcttctttt aatttttttt ctaatttata
+     8401 acaggagcga tgaaaaaatg agtaatgtcc tattaaaaga atatgaaggc aatatagata
+     8461 aattcctatc agataaaaat aaatacaacc aggcaaaaag atatatggta agttacatag
+     8521 agagaaatac taaacaactt tcttacaata ctcccatata tagaattcct tttaatatgc
+     8581 aaggaataga tgtcacaact attatgaaat tagttgatat agatcccaga gagatggaaa
+     8641 gagaaattaa aaaattacca ttgactcgta aatatgctga cgtattaaaa catccatttt
+     8701 atgttacgat gtctctaata atcagaggga ttaataagaa attgaaagtt aaaaagaatg
+     8761 ataaaaattt aaacaatgat ttaagattat ttcttcttta cctatcatta agtttttact
+     8821 ggtctattca agttaagcaa tttccctatg aacctaatga aaatgtagct cagtatacaa
+     8881 ttaatagatt aagtaataaa ttctttttca aaaaatataa aacagtatca acatcaataa
+     8941 ctgtaacagc agagcaaaac aatattaact cacttagtat attagacaaa ggtcaagatg
+     9001 acgatatctt agtttatcta atggatttaa gaacacgttt aaataactta gttaaaaact
+     9061 ttgctaaaga actctataaa gatattaatg caggaaatta tttaaatcct catgtagatg
+     9121 tattggatga tgaaagtaat tacagagaag gtactaatat atcaggtaca gtttcaaata
+     9181 tatctcaaaa aacactatct gaatttacac agaaagatat taatatgaga atattaaaga
+     9241 tatcttgtag tatgactaat acaaattcta atataatgag aaacactatg agtgatatta
+     9301 gacaaaatga aattaaaaat gttaataatt tattacttaa tatattgaca gtatatcttg
+     9361 acggtaaaaa taaccctata cagtctatag gtagtcaaag atttattaga gaatcaattt
+     9421 ctttctttac taagagtaac actaaagata aaagattatt agagaataag aaaatactta
+     9481 atgatttttt aactaaatat aatagtaaat ataatcaaac ggaaagagaa gctactaaaa
+     9541 atagttacag aaaaacaata tatgtctatt ttgttttact catatcaaat agctattaaa
+     9601 ttgaaaggat tgatattaaa atgagtaaca aaaatgaaga tagaatagaa atgtcggaaa
+     9661 atattaataa tgaaaaaata aataaaattg gtaagaggat gaaaaagttt aacagtgtga
+     9721 tgaatagtaa tagaacattt atcttttcgg ttattgcatg cttactactt acttcttatt
+     9781 tcgtctattc ttttatagat aatgactcaa gaagcactag tacgccttca gctaatacgg
+     9841 accgaaagta tactactaaa aatgatgaaa aagctatgtt cttaatacaa gagacaacaa
+     9901 ataataaaat cagcatgcta tctgaaatag attctataat gtatagagag gatttatcaa
+     9961 aagatgaaaa attagatttt ttaagagata ttaaagtttt aatggaacag aataataaaa
+    10021 attttaatca tgaaattaat aaatttgata aattgtctat agatgctgtt gaagatgtta
+    10081 agaatatgaa taaaataaat gcaatagctg gcaaatatgc tgatgatgcg attaatttta
+    10141 ataaagctga taaagatgaa aaatttaagt attctagaga aatcttccaa aacaattcca
+    10201 actttagaag tattcttgct agtatgaatt atactaatta tgatgatgaa caaagaagaa
+    10261 tggaatcaat taaagaagga agatctgaaa atttaaaaga taaaaataat gagagtaatg
+    10321 acaaataata tgtcattact ctttatttac cgaattttta aatatatatt ataataatgt
+    10381 atagaaatat aatttctata tgtaaataat tttattagga gagtgaattg gataatggca
+    10441 aatttatcag acgcatcagg tactatgcat ttcgaaggtt tcgaagggaa agaaaaattc
+    10501 ttaaaggaaa tgaaaagatt aatggttaaa tctttttcag aagatgaaac tcaatatttt
+    10561 attaattttc aacatgatat tgataaatat ggtcaaatta ttgttagtga tgaactggaa
+    10621 gaagaattta atgcaatagg tcgttggtct tttggatcta gtttagaaag attctttgat
+    10681 agtatttcta gtgatatagt tgaacactat aagcacgagg aaaattcaga ggaattaatt
+    10741 aaaaataatt tagattatat taaaaataat tttgctgaag atgaagacat gtctattaga
+    10801 tttgagtttg tcgattatga atctggtatg aattttctat tagaaggttt tgtagaagtc
+    10861 agacctggtg atatcattaa agatgagcat ggttttattc gttatatggg aactgaaacg
+    10921 tctagtgatt ttactgattt agaagtaaat gttgagaatc tagttagtga acaaattatg
+    10981 gataatgaag acttcatttt accagaagat attaatttca ttgattctga agctttacct
+    11041 gaagaagatg atttagatat tgaagttgac gaagatcata aacagatccg aagagagcta
+    11101 ttgagaagat atactgaaga aaattcagta ttctgcatta gagaaaacag aatgatggaa
+    11161 ttaaattaaa aatttaccct aaccttaaat taataaggtt agggttatta ttttattagg
+    11221 agatgaaaaa ggatatgaat aaaagagacg tttttaaaaa tattgaaaaa gctataaata
+    11281 aatatagaaa agattatatg tataattggt ttaaggatta tttaaatgat ttagaatatg
+    11341 aaaaagatta cattgtatat ggagatatag gtgatgtagg tacaatagaa tttttaaata
+    11401 gatatatctt agaaagcaat ccaataaaaa acatgaatga agtcaatatt gaaaaattat
+    11461 tacaaaaaac atctggaaga agtaatatag tttttcctta tatgaatgtt ttagatgata
+    11521 agatactatt agatgaattt aatataactt catatgatag aaatctaaaa agaattaaat
+    11581 tatatattaa attcaatgat gataaatatc tcaataaagt taaaaatgaa gaagaaaatt
+    11641 ttagagataa ttcttttagc ggatattacc gtatctatag tttagaaaaa gatctaaaat
+    11701 cttttctcac taattttaaa aatgttccag atttcttaga atatattaaa gataaagaaa
+    11761 aatataataa tctatataaa tatttaatca aattggagag tgaataaaat atgactagaa
+    11821 tagaagaaat tacaacaaaa cctgatttaa acagttatat gtctgaagta tttaactatc
+    11881 actttgaaag aatagttaat aataattatg tagaaaatat agttagtgat ttcattgata
+    11941 ttatagaaaa agatataaaa tttagaaatg gtagtcaagg gaatcataaa gatatatttg
+    12001 aagaactgga ttcagatggt ataaaaaata ttaaagaatt agagtcaatt ttatcaagat
+    12061 ttgaaaatga agataataaa tttattaaaa agattagaaa agatattaat gataaaattg
+    12121 atcatattaa gaataataaa gataaaagaa taaaaaatac atttaaaagt aaacatgatc
+    12181 ttcctacaaa tgttgtaata gatactagag tgattaatcc ttcagttatc attcctagaa
+    12241 gtaatttata tagaaatgaa cttggtgtta aaaatataag agtttctttt agtccggata
+    12301 atttattaac attcaatctt catttttcag aaatatacgg agatgaaaaa gtaaataaaa
+    12361 ttaaaagaga ctttagaaaa gattattctt cttataatga aacgcctata cgtataatgt
+    12421 gtaaaattct caatattgat gaggatgatc aagttttatt agaatataaa tttgatttag
+    12481 acaatatata ttacaatatg acaactgaat ctaaaaataa attaaacgaa atgtccgatt
+    12541 taataaattc cgttattaat tatcaaattc aaataaaaaa taaaaattta aaaagtacta
+    12601 aagtaattga aattattaaa aataatagta tcatgagaaa attacaatta gattatgaat
+    12661 ctaataatga gaataaatat gaaatggaac ctattcctag acatcttaaa aaattattcg
+    12721 gtaaaggaga gaaataatta tggttaaaaa aatagattgg aagtatacta taacaaagaa
+    12781 atacttagag gatgttaaag atctatatga taaatttttg gataggttcg ttgaattata
+    12841 taaagatagt attgataaag atcaaaaaat tggattaact gataaaagct atttctctat
+    12901 aagtattaga attatttatg aatttattaa tgagataaat aatgaagaag atataaaaga
+    12961 ttttaaaaaa attgctgatt ttattaatga taatcgttca gaatttatgt atatttcaga
+    13021 ttttaaaggt aattctgaaa ctttagactc tatttatcat ataattgcag attataatga
+    13081 tttctataaa gaacctgaaa aaatattaga aattaaaaaa ttaattggtg gtaattcttt
+    13141 agaatatatt aataatttag atagagatga tttaattaat ttaatagttg ataacagatt
+    13201 tggaaatacg gaatttttca aggatattga attgaagata ttagttaata attttagagg
+    13261 ttattcttta catgataata tattaaaaaa ttctttatta ggttcaatat ctaaaggcat
+    13321 tttttcaaaa agtactaaag tttattttaa acatttaaaa gatgaaaata ataatctgga
+    13381 tattgttaga attccaaatt taagaataga cgatgaagaa ttaaaaaata tttctgatga
+    13441 tattatcgag atacatcaat cttatcaatt cttattaaat gaacttaaag ttaaaactgt
+    13501 taaaaa
+//

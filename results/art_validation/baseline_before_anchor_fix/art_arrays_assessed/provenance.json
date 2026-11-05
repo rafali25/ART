@@ -1,0 +1,13 @@
+{
+  "command": [
+    "scripts/art_array_assessment.py",
+    "--reuse-nulls"
+  ],
+  "baseline": "D:\\MBZUAI\\CRISP\\results\\art_arrays",
+  "input_loci": "D:\\MBZUAI\\CRISP\\results\\oriented_art_loci",
+  "core_sha256": "4597720b1bfe1a2459fa6d068d99352f10e6f24da24f28cec5f950f9faa671bb",
+  "baseline_checksum_manifest_sha256": "49b9d6b633889cbf366d677524d295237ac54b795b36f92635da179653a36d24",
+  "reused_local_nulls": "fixed-length prefix of verified baseline draws; missing draws generated with identical seed schedule",
+  "dinucleotide_method_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2375906/",
+  "dinucleotide_algorithm": "Euler last-exit trees; exact weighted enumeration for <=4 DNA vertices"
+}

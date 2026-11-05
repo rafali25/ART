@@ -1,0 +1,19 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+audit_05fa87bee8771454d56e -            481 Type_I_partner       -            481         0 1122.3  55.2   1   1         0         0 1122.1  55.2     1   481     1   481     1   481 1.00 MZ422438.1 pyrodigal_gv pgv197
+audit_417f937a4b715113bab9 -            481 Type_I_partner       -            481         0 1122.3  55.2   1   1         0         0 1122.1  55.2     1   481     1   481     1   481 1.00 MZ422438.1 source_annotation QXN67952.1
+audit_2390da1329ec8ee6b4d5 -            484 Type_I_partner       -            481         0 1122.3  55.2   1   1         0         0 1122.1  55.2     1   481     4   484     4   484 1.00 MZ422438.1 six_frame code11_orf954
+audit_9659598e73ac48ec48e3 -            661 Type_I_partner       -            481   1.1e-39  136.1  34.7   1   1   1.1e-39   1.1e-39  136.1  34.7   113   401   191   469   112   542 0.78 MZ422438.1 pyrodigal_gv pgv199
+audit_a8039260f99a569fc147 -            661 Type_I_partner       -            481   1.1e-39  136.1  34.7   1   1   1.1e-39   1.1e-39  136.1  34.7   113   401   191   469   112   542 0.78 MZ422438.1 source_annotation QXN67954.1
+audit_eb4c3bfb7a2ce1a8e8b8 -            661 Type_I_partner       -            481   1.1e-39  136.1  34.7   1   1   1.1e-39   1.1e-39  136.1  34.7   113   401   191   469   112   542 0.78 MZ422438.1 six_frame code11_orf1174
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\Type_I_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\Type_I_partner.domtbl -E 0.001 --domE 0.001 -Z 15471 --domZ 15471 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 13:53:20 2026
+# [ok]

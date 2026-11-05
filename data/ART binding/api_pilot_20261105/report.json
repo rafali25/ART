@@ -1,0 +1,20 @@
+{
+  "predictions": 4,
+  "verified_structures": 4,
+  "protein_CIF_sequences_verified": 8,
+  "client_seconds_min": 21.207018894143403,
+  "client_seconds_median": 24.03897285752464,
+  "client_seconds_max": 26.557414036942646,
+  "server_seconds_median": 10.466894278302789,
+  "native_protein_iptm_mean": 0.11924811825156212,
+  "alternative_protein_iptm_mean": 0.11425698548555374,
+  "descriptive_native_minus_alternative": 0.004991132766008377,
+  "conclusion": "Technical API pilot only; one unseeded sample per cell with closely related references cannot establish binding or specificity.",
+  "exact_seed_control": false,
+  "processed_feature_access": false,
+  "full_PAE_available": false,
+  "confirmatory": false,
+  "API_provider": "nvidia_nim",
+  "cost_checks_performed": false,
+  "slurm_job_id": "373586"
+}

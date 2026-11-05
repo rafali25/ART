@@ -1,0 +1,1675 @@
+{
+  "locus_id": "MGYC003138808455__MGYC003138808455_pgv2",
+  "upstream_sequence": "CAGCTAATAAGTACGGTATAAAATGTGATATAAAAAGTTTCTTTAAAAATGTGAAGTGGAGCTATTACAATCGATACGTGGAGTTCCTCCTCAATCCCAACAAAATTAACTTCGCTAATCCTACTTCGAATATTGAAATTCTACAAGCTAATCTCTATGAAGAATTAATTTCTGCATTTAAAGAAATCTTAGTAGACCCTAGCTGCAATGGTCTTTACATGGGTAATCCTATGTCTCCATCGTTAACTAATCTACTCATGCGCAAAGTGATTCAATATCTCTATAACGTTATAGAATCTATTAATAGTGATTTGCCCGAAGACCGGAAAATTACGTTCACAATATATGCGGACGATATTACATTTTCTTGTCCTACGTATGATGGTACTGGATACTTCACTATTAACTTCTTAACTGGTTTGGTTAATGATATTTTTGCTGAACTTAAACTAGACCGATTACATTTAAATCGAGATAAAACTAGTCGGATGGTTAATAACCGACGAATGATTACGGGTCTACGGATTAACCATGAAAACAAAGTAACAGTCCCTCGGCATAAATATGATTTAGTACGAGTAATGCTACATCGACTCTCCCTTACTCATGACCCAGCTACTATAGACTATACCTTACAAGGGCTCCAATCCCGGTTATCATTCTACTATTATGTAGATGAAAGTGGTAAATTTGACAACTTATTACGCAAATATAAAGCAGTATTAGATGAATTCAATATTAAACCGGGACTAAGCGAAATACATCCATCAGATGGTGATATTGATTTTCTTAATCATTTAGATATGGAAAGGAATGGAATGAACTAATGGTAATACAGACAGATACATACTTAAAAAGCGAAAAAGGCTCCCCTCTAGTAGCTAGAAAAGTAGATCTGAGCCAAAAATCAGATATGATAGCTGAAAATATGACTCGAAAACTTTTTACTCAAGTTGACGATATATACGAATATGCTCTATCAGTGAATGATGAAATTAAGGAATTAAAAGCTGTAGCTATAGACTTAACCAAGAAGTACAATCGTCTTCGAGAACTAATGGAAAATGAAAACGCTGGTGATGAAGAAGATGGTAGTATCCCAACCAGTATGGTCGAACATATTCAAGCAACCAAAAATGCCATGGTGGAAGCTCAAACCGATTTAAAAAATAAACTCGAAGAAAATAACCTTCTTCTATGGTTGCATAGAAGTTATAAAAACTCTATCGTACAAAATTATTGCTTAGTTAATGGAAATAATGAAAACTCTATGAAGTTAGATAAAGATTTTGATTTAACTAAATATTTGCCCTACCATCTAGGTATGAGTGCTGTGTATGGAGGAGCTAAAACTTTATATGATAATTTTGGTATAACTACCTTGCGCCCCAGTATTATCTTTAAAGATAGATTGGCGGACTATCTATTTCTGCTAGAATTTTTTAAGAACTCTAAAACGGCATCTAAAAAAGCTAATAAGCTCATTAGCTTATTTATAGATCTGATGATGACCGAACAAAACATGGATAATAATAGAGAACTACATTTACTTACTAGGTGGTCTACCAATACTAATTATACTATTCCCCCAGTTATAACCAATAATACATCCGTAAATCCATTTAAATTAGAAAAATACTCCACAGGTAGAAATTACCGAATATATGGAACCGATAGTATACCTGTTGGTTGTAGTCCTCAGACTAAATCTCACCTACATAAGTTAATAAATCACCTAGTAGATATAAAGAAAAAATTAAACCAAGAAACAAATAGAACTGAGAAAACGCGGATACTTAATAGATATAACCATGAATCTCCATCTTATTATACTATCCCCCTTTTATTTAAAGATGGCTTTAATATCAAAAATATAGGCTATACTGTAAGTGGTAAATTAACTCTATTACTCATCTTTTTTGGTTATGATAACTTCTACAAATTTTTAACTTATATTAAAAACTATGAAATTGACATCCACAGTTTCCTAGACAATATCACTGATGGTGAATTTGCTAGATTAGCAGATGAACTGGAACAACAAGAATTCTTCCACTTCTTAAAAAAATTAGGGAATAAAAGTCCCACTCGTATTCCGGGATATATTGCATTCTTTGGGTATAAACGAGTTCGAAATGCTAAAAATACCCTAGAAATGGACGCTCAAATTGCTCTTATTAATCAAGCTCGCCGAGGATTTGTATCTGGTAAAACCGGGGAAAATGAACTCCTCTTAGAACGGATGGAAGGCAATCAACTTATCTACTTCACTAAAGAAGAAGGAGAAATTACTACTATCGGTAATAGAACCGGCTGCTGTTTTACTCCGTCTGGGTTAGCTAAAAGTCTTCTAAAGATAGCTCGACAATCTAATTTGGCGGGTATCCTAGAAGGGCGACACGGAACTGGGTCTAAAAAAGCTGATTGGTTTTCTTTTGTATGGGAGTTAGTTGAGTATAATGAAGAAACTCAAACCCTAGAAACTGCTCTCATTCTAGATAATATAGAGAGTATGAGGCGAATTTCTACGGAAGATTGGGCTAAGATTTACAAATGGCTCCTAAAAACTCCCTACAATAAAATATATCTGGGAACTATGCGAAATGACATAGATTCCCATATCTTTAACTCATCTGCCGACCCAACCGATTTAGCAGATTGGCATATCAACCCTACTTACGCAGCCCGGAGTCGTCAAATTATCTATTACGAAAAAGAGTTCAATTCTTATTCCTATGATGATTCTAGAAATGTGTATACGGTGATAGACCGAACTAACCGAGCTCCTCAAAATCTAGCCGTTGCTCGAGTTACGACTATGGGAGAATTTAACCGAGTTCTCTATGCCGAAGGGCTGGTTTGGGGCTCTGATAGTGATTATTCAGTATTACGAAAATTGAAATTCAAACAAAGCCCAACTTACCTAACTCGAGATAGTCTAGGTAATATTTATGGGTATCTGATTACACGTTTGTATAAATATAATACCGAAACTCAAACCATGATTTATGACGATAATCTAATCGTAGATAATGACCATCCCCTAGCTAGTAATGAAGAATTAATACTCTATTTTGATGATGTATATGCTACTAGAAATATGTCCTCCATGAAAGCTCTAAACTCCATGGTAGAAGATATTTTAGTTTATGCCCAAGCTAACAACATTAGATATGTGAGCGCTAATTTCAATTCGTATAGTGAGAAATTTATTAAACGAATTGAAGCAGCAGGTGTGACTATCCTACCAGATACTAGATTTTCTTCTGGAACCACTAGTGCTTTACAGCCAAAACCATCCCTCCTCCTTCAAGGTCATGAAGGACATTTACCGGTTCGGTCTCTTAATTTAGACGAACCACCCCATATCTTATTCCCAGAGCTATCTGACGAATAAGTAATTTAGCGTAGTTGTAATATTTGTGTGTATGTAACACATGGTATTAGCCGAGTAGATTCTGCTCGGTTTTCTTTTATTTTAGAAGGCTGTCGTCTTTTACTATAATTATACCCTATATTTCATGGGGTGAGGCCAATAGTTCTAGAGAACTATTGGCATGTGAATATCATCTATCTACGACTAGATGATTACTGTACGCTACACTTGTATCCCGTAATACACAAATAATGTATTACGGGTTTGCTTTTAATTTTTGGGAGCCTTACTTATATGATTTACTATCAAATTAACCGTAGTCATTTACTAAAACCTACCATAGTATTC",
+  "upstream_offset0": 0,
+  "initial": {
+    "R": 1,
+    "positions": [
+      1233
+    ],
+    "seed": "AAAAACTATGAAAT",
+    "dense_run": 1,
+    "code": 118275,
+    "exact_seed_count": 1,
+    "base_spacing": null,
+    "dense_veto": false,
+    "maximum_dense_run_any_seed": 1,
+    "seeds_tested": 20
+  },
+  "extended": {
+    "score": 45.645454521251864,
+    "candidates": [
+      {
+        "score": 45.645454521251864,
+        "seed": "AACTCAAACC",
+        "positions": [
+          1149,
+          2466,
+          2991
+        ],
+        "base_spacing": 591.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -2,
+          "offset_end": 10,
+          "length_nt": 12,
+          "information_bits": 22.822727260625932,
+          "consensus": "GAAACTCAAACC",
+          "counts": [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1147,
+              1159
+            ],
+            [
+              2464,
+              2476
+            ],
+            [
+              2989,
+              3001
+            ]
+          ]
+        }
+      },
+      {
+        "score": 35.24829686349064,
+        "seed": "TAACCATGAA",
+        "positions": [
+          526,
+          1025,
+          1806
+        ],
+        "base_spacing": 444.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 17.62414843174532,
+          "consensus": "TAACCATGAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              526,
+              536
+            ],
+            [
+              1025,
+              1035
+            ],
+            [
+              1806,
+              1816
+            ]
+          ]
+        }
+      },
+      {
+        "score": 35.12861071893819,
+        "seed": "CTAAAAAAGC",
+        "positions": [
+          849,
+          1463,
+          2411
+        ],
+        "base_spacing": 544.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 17.564305359469095,
+          "consensus": "CTAAAAAAGC",
+          "counts": [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              849,
+              859
+            ],
+            [
+              1463,
+              1473
+            ],
+            [
+              2411,
+              2421
+            ]
+          ]
+        }
+      },
+      {
+        "score": 34.287161533589014,
+        "seed": "TAATGAAGAA",
+        "positions": [
+          1077,
+          2457,
+          3051
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 17.143580766794507,
+          "consensus": "TAATGAAGAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1077,
+              1087
+            ],
+            [
+              2457,
+              2467
+            ],
+            [
+              3051,
+              3061
+            ]
+          ]
+        }
+      },
+      {
+        "score": 33.146183890428176,
+        "seed": "AAAACTCTAT",
+        "positions": [
+          1217,
+          1262,
+          1348
+        ],
+        "base_spacing": 60.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 16.573091945214088,
+          "consensus": "AAAACTCTAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1217,
+              1227
+            ],
+            [
+              1262,
+              1272
+            ],
+            [
+              1348,
+              1358
+            ]
+          ]
+        }
+      },
+      {
+        "score": 33.10622192197856,
+        "seed": "ATTATACTAT",
+        "positions": [
+          658,
+          1574,
+          1826
+        ],
+        "base_spacing": 355.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 16.55311096098928,
+          "consensus": "ATTATACTAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              658,
+              668
+            ],
+            [
+              1574,
+              1584
+            ],
+            [
+              1826,
+              1836
+            ]
+          ]
+        }
+      },
+      {
+        "score": 22.54578497510054,
+        "seed": "GAAACTCAAA",
+        "positions": [
+          1147,
+          2464,
+          2898
+        ],
+        "base_spacing": 546.25,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 5,
+          "offset_end": 11,
+          "length_nt": 6,
+          "information_bits": 11.27289248755027,
+          "consensus": "TCAAAC",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1152,
+              1158
+            ],
+            [
+              2469,
+              2475
+            ],
+            [
+              2903,
+              2909
+            ]
+          ]
+        }
+      },
+      {
+        "score": 22.54578497510054,
+        "seed": "AAACTCAAAC",
+        "positions": [
+          1148,
+          2465,
+          2899
+        ],
+        "base_spacing": 546.25,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 4,
+          "offset_end": 10,
+          "length_nt": 6,
+          "information_bits": 11.27289248755027,
+          "consensus": "TCAAAC",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1152,
+              1158
+            ],
+            [
+              2469,
+              2475
+            ],
+            [
+              2903,
+              2909
+            ]
+          ]
+        }
+      }
+    ],
+    "seeds_tested": 32
+  },
+  "model": {
+    "status": "rescanned",
+    "training": {
+      "status": "aligned",
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "D:\\MBZUAI\\CRISP\\.tools\\mafft-win\\mafft.bat",
+        "--auto",
+        "--thread",
+        "1",
+        "--inputorder",
+        "--out",
+        "D:\\MBZUAI\\CRISP\\results\\art_type1_mgnify\\alignments\\MGYC003138808455__MGYC003138808455_pgv2.training.mafft.fna",
+        "D:\\MBZUAI\\CRISP\\results\\art_type1_mgnify\\alignments\\MGYC003138808455__MGYC003138808455_pgv2.training.flanks.fna"
+      ],
+      "intervals": [
+        [
+          1148,
+          1152
+        ],
+        [
+          2471,
+          2475
+        ],
+        [
+          2996,
+          3000
+        ]
+      ],
+      "aligned_repeat_sequences": [
+        "AAGC",
+        "AAAC",
+        "AAAC"
+      ],
+      "alignment_columns": 4,
+      "lengths_nt": [
+        4,
+        4,
+        4
+      ],
+      "consensus": "AAAC",
+      "anchor_strategy": "median_mapped_seed_midpoint",
+      "seed_midpoint_alignment_columns": [
+        101,
+        95,
+        95
+      ],
+      "excluded_empty_alignment_copies": [],
+      "boundary_at_search_limit": false,
+      "gaps_in_repeat": false
+    },
+    "retained_alignment_columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "alignment_projection_used": false,
+    "training_alignment_has_indels": false,
+    "pwm": [
+      [
+        1.0151243600179094,
+        -0.834641525221899,
+        -0.761155059733277,
+        -1.612701345211022
+      ],
+      [
+        1.0151243600179094,
+        -0.834641525221899,
+        -0.761155059733277,
+        -1.612701345211022
+      ],
+      [
+        0.5296975328476679,
+        -0.834641525221899,
+        0.8238074409878791,
+        -1.612701345211022
+      ],
+      [
+        -1.7922305620396946,
+        1.972713396835705,
+        -0.761155059733277,
+        -1.612701345211022
+      ]
+    ],
+    "PWM_null": [
+      [
+        9189078848666550401,
+        4.826769557859403
+      ],
+      [
+        10986661627562618407,
+        4.826769557859403
+      ],
+      [
+        13217767596215162384,
+        4.826769557859403
+      ],
+      [
+        17688636648155093213,
+        4.826769557859403
+      ],
+      [
+        16283455286530183544,
+        4.826769557859403
+      ],
+      [
+        2238845804791598845,
+        4.826769557859403
+      ],
+      [
+        12251593530370627782,
+        4.826769557859403
+      ],
+      [
+        6472888356717062245,
+        4.826769557859403
+      ],
+      [
+        9918726270948584096,
+        4.826769557859403
+      ],
+      [
+        1022936114303336306,
+        4.826769557859403
+      ],
+      [
+        15894168836561480918,
+        4.826769557859403
+      ],
+      [
+        655827490014850639,
+        4.826769557859403
+      ],
+      [
+        173036908328202678,
+        4.826769557859403
+      ],
+      [
+        15340916964848832588,
+        4.826769557859403
+      ],
+      [
+        7077409443996477375,
+        4.826769557859403
+      ],
+      [
+        9755305109786849915,
+        4.826769557859403
+      ],
+      [
+        18074485623798892371,
+        4.826769557859403
+      ],
+      [
+        262995531315260645,
+        4.826769557859403
+      ],
+      [
+        5639194213772841423,
+        4.826769557859403
+      ],
+      [
+        3376580421700181609,
+        4.826769557859403
+      ],
+      [
+        13701016929014819811,
+        4.826769557859403
+      ],
+      [
+        2393286146621097109,
+        4.826769557859403
+      ],
+      [
+        14140944707838466710,
+        4.826769557859403
+      ],
+      [
+        3572812270164112534,
+        4.826769557859403
+      ],
+      [
+        9747619644135571952,
+        4.826769557859403
+      ],
+      [
+        14371212893795276457,
+        4.826769557859403
+      ],
+      [
+        9503457466064932082,
+        4.826769557859403
+      ],
+      [
+        9472769935179861274,
+        4.826769557859403
+      ],
+      [
+        15390537336895441504,
+        4.826769557859403
+      ],
+      [
+        18068915603197560112,
+        4.826769557859403
+      ],
+      [
+        9884006017711773980,
+        4.826769557859403
+      ],
+      [
+        5537903177433727773,
+        4.826769557859403
+      ],
+      [
+        11347391979363072353,
+        4.826769557859403
+      ],
+      [
+        13170210014546708597,
+        4.826769557859403
+      ],
+      [
+        8640927990367095148,
+        4.826769557859403
+      ],
+      [
+        5545934296842325236,
+        4.826769557859403
+      ],
+      [
+        128766013551495883,
+        4.826769557859403
+      ],
+      [
+        18108628187730591749,
+        4.826769557859403
+      ],
+      [
+        2796297960350537178,
+        4.826769557859403
+      ],
+      [
+        6324771645406778260,
+        4.826769557859403
+      ],
+      [
+        13784375212869706940,
+        4.826769557859403
+      ],
+      [
+        16128365462973972161,
+        4.826769557859403
+      ],
+      [
+        12258924632021559017,
+        4.826769557859403
+      ],
+      [
+        10057042093389687329,
+        4.826769557859403
+      ],
+      [
+        15937589374128542213,
+        4.826769557859403
+      ],
+      [
+        15242215019757885635,
+        4.826769557859403
+      ],
+      [
+        11435225501490943737,
+        4.826769557859403
+      ],
+      [
+        9451939596740247048,
+        4.826769557859403
+      ],
+      [
+        6351764494464969649,
+        4.826769557859403
+      ],
+      [
+        380073201192094324,
+        4.826769557859403
+      ],
+      [
+        10612949381089386887,
+        4.826769557859403
+      ],
+      [
+        8568596933465526861,
+        4.826769557859403
+      ],
+      [
+        366578866782963729,
+        4.826769557859403
+      ],
+      [
+        11372161678025021494,
+        4.826769557859403
+      ],
+      [
+        6722767434351965506,
+        4.826769557859403
+      ],
+      [
+        9852386556627752047,
+        4.826769557859403
+      ],
+      [
+        1396080827239794514,
+        4.826769557859403
+      ],
+      [
+        11502865144991290854,
+        4.826769557859403
+      ],
+      [
+        15747559671057067251,
+        4.826769557859403
+      ],
+      [
+        7564756535530709833,
+        4.826769557859403
+      ],
+      [
+        1872884044156071138,
+        4.826769557859403
+      ],
+      [
+        13033911605842741343,
+        4.826769557859403
+      ],
+      [
+        7989005835319723525,
+        4.826769557859403
+      ],
+      [
+        63240363610537746,
+        4.826769557859403
+      ],
+      [
+        7158350871955329875,
+        4.826769557859403
+      ],
+      [
+        6132798994363675667,
+        4.826769557859403
+      ],
+      [
+        8205275737025286636,
+        4.826769557859403
+      ],
+      [
+        919066120372098830,
+        4.826769557859403
+      ],
+      [
+        9228185355627244832,
+        4.826769557859403
+      ],
+      [
+        7122308583672991590,
+        4.826769557859403
+      ],
+      [
+        10125551059704475161,
+        4.826769557859403
+      ],
+      [
+        3311201999593927855,
+        4.826769557859403
+      ],
+      [
+        7210256615853106695,
+        4.826769557859403
+      ],
+      [
+        18058778752955094201,
+        4.826769557859403
+      ],
+      [
+        14630613560816434788,
+        4.826769557859403
+      ],
+      [
+        18093028587527645679,
+        4.826769557859403
+      ],
+      [
+        13494865915891775554,
+        4.826769557859403
+      ],
+      [
+        8210762945393737858,
+        4.826769557859403
+      ],
+      [
+        4757142861409864773,
+        4.826769557859403
+      ],
+      [
+        16486599311093808765,
+        4.826769557859403
+      ],
+      [
+        7980932878854499761,
+        4.826769557859403
+      ],
+      [
+        9304484296031350956,
+        4.826769557859403
+      ],
+      [
+        13515439278381246914,
+        4.826769557859403
+      ],
+      [
+        9421903296132565458,
+        4.826769557859403
+      ],
+      [
+        15489102097589299251,
+        4.826769557859403
+      ],
+      [
+        7586856182851555942,
+        4.826769557859403
+      ],
+      [
+        5963671385887165043,
+        4.826769557859403
+      ],
+      [
+        18122584345990528918,
+        4.826769557859403
+      ],
+      [
+        14176458691977923875,
+        4.826769557859403
+      ],
+      [
+        5386897370974379407,
+        4.826769557859403
+      ],
+      [
+        17585919318156599743,
+        4.826769557859403
+      ],
+      [
+        12466003288657720677,
+        4.826769557859403
+      ],
+      [
+        6434546953323031352,
+        4.826769557859403
+      ],
+      [
+        14107526833747693580,
+        4.826769557859403
+      ],
+      [
+        600982778428535998,
+        4.826769557859403
+      ],
+      [
+        11177114036139422353,
+        4.826769557859403
+      ],
+      [
+        3274315163419633206,
+        4.826769557859403
+      ],
+      [
+        17239238744352034017,
+        4.826769557859403
+      ],
+      [
+        7737869684307223424,
+        4.826769557859403
+      ],
+      [
+        11438281328223436459,
+        4.826769557859403
+      ],
+      [
+        15500852517408010500,
+        4.826769557859403
+      ],
+      [
+        14651361273931868740,
+        4.826769557859403
+      ],
+      [
+        5328757206114858334,
+        4.826769557859403
+      ],
+      [
+        3909379669883499011,
+        4.826769557859403
+      ],
+      [
+        15407146673768548461,
+        4.826769557859403
+      ],
+      [
+        4418055932275683647,
+        4.826769557859403
+      ],
+      [
+        5896189460869678589,
+        4.826769557859403
+      ],
+      [
+        12078120248149370153,
+        4.826769557859403
+      ],
+      [
+        15069702509852335126,
+        4.826769557859403
+      ],
+      [
+        151073948060260590,
+        4.826769557859403
+      ],
+      [
+        2405671625510554944,
+        4.826769557859403
+      ],
+      [
+        15192979198039890048,
+        4.826769557859403
+      ],
+      [
+        17818198033899363760,
+        4.826769557859403
+      ],
+      [
+        14693044858899793175,
+        4.826769557859403
+      ],
+      [
+        12015593691800152799,
+        4.826769557859403
+      ],
+      [
+        10003622156731703302,
+        4.826769557859403
+      ],
+      [
+        7697245410897752003,
+        4.826769557859403
+      ],
+      [
+        7604001144016887095,
+        4.826769557859403
+      ],
+      [
+        8766931990455743265,
+        4.826769557859403
+      ],
+      [
+        12703129872835506590,
+        4.826769557859403
+      ],
+      [
+        11438851218506518806,
+        4.826769557859403
+      ],
+      [
+        10281605679337301814,
+        4.826769557859403
+      ],
+      [
+        15561892538105696393,
+        4.826769557859403
+      ],
+      [
+        12664300432022872288,
+        4.826769557859403
+      ],
+      [
+        7544335990729298727,
+        4.826769557859403
+      ],
+      [
+        6929336212561725793,
+        4.826769557859403
+      ],
+      [
+        6100376417522860877,
+        4.826769557859403
+      ],
+      [
+        13119828356834964844,
+        4.826769557859403
+      ],
+      [
+        12148200837698520342,
+        4.826769557859403
+      ],
+      [
+        678116413086733615,
+        4.826769557859403
+      ],
+      [
+        18099761291719993472,
+        4.826769557859403
+      ],
+      [
+        15455008989811931786,
+        4.826769557859403
+      ],
+      [
+        701691128738960903,
+        4.826769557859403
+      ],
+      [
+        10525705979124210699,
+        4.826769557859403
+      ],
+      [
+        16245870620141595852,
+        4.826769557859403
+      ],
+      [
+        12402269157646525761,
+        4.826769557859403
+      ],
+      [
+        14483860031493099590,
+        4.826769557859403
+      ],
+      [
+        1850358589687952036,
+        4.826769557859403
+      ],
+      [
+        15616803522891214635,
+        4.826769557859403
+      ],
+      [
+        8404668607635357434,
+        4.826769557859403
+      ],
+      [
+        9435853663068850761,
+        4.826769557859403
+      ],
+      [
+        10062665196756224661,
+        4.826769557859403
+      ],
+      [
+        7927846416353516307,
+        4.826769557859403
+      ],
+      [
+        5336757135153021745,
+        4.826769557859403
+      ],
+      [
+        13093284558871146265,
+        4.826769557859403
+      ],
+      [
+        12692648443832660854,
+        4.826769557859403
+      ],
+      [
+        7846142722662718047,
+        4.826769557859403
+      ],
+      [
+        8801322811872682176,
+        4.826769557859403
+      ],
+      [
+        11390353838528181744,
+        4.826769557859403
+      ],
+      [
+        1740952335807147808,
+        4.826769557859403
+      ],
+      [
+        17603341750370607464,
+        4.826769557859403
+      ],
+      [
+        4950472472000352705,
+        4.826769557859403
+      ],
+      [
+        18129873449751306754,
+        4.826769557859403
+      ],
+      [
+        9362416734267007188,
+        4.826769557859403
+      ],
+      [
+        10408746134025670943,
+        4.826769557859403
+      ],
+      [
+        17023435582788388059,
+        4.826769557859403
+      ],
+      [
+        8771157295615226618,
+        4.826769557859403
+      ],
+      [
+        15937777465180375118,
+        4.826769557859403
+      ],
+      [
+        4560380054529233206,
+        4.826769557859403
+      ],
+      [
+        12785185668906360496,
+        4.826769557859403
+      ],
+      [
+        566298895599153441,
+        4.826769557859403
+      ],
+      [
+        18030783168046599191,
+        4.826769557859403
+      ],
+      [
+        13631505009198526560,
+        4.826769557859403
+      ],
+      [
+        13493888383300623364,
+        4.826769557859403
+      ],
+      [
+        13994456799218622589,
+        4.826769557859403
+      ],
+      [
+        8874517388896330461,
+        4.826769557859403
+      ],
+      [
+        13315543548704081253,
+        4.826769557859403
+      ],
+      [
+        3640651854663193308,
+        4.826769557859403
+      ],
+      [
+        7356843409335836788,
+        4.826769557859403
+      ],
+      [
+        8049285141182943538,
+        4.826769557859403
+      ],
+      [
+        4350201891227781931,
+        4.826769557859403
+      ],
+      [
+        11515319165160649716,
+        4.826769557859403
+      ],
+      [
+        7565569374116392816,
+        4.826769557859403
+      ],
+      [
+        17050224411815307842,
+        4.826769557859403
+      ],
+      [
+        2472214257031423850,
+        4.826769557859403
+      ],
+      [
+        2749594922961305212,
+        4.826769557859403
+      ],
+      [
+        16247859979564925909,
+        4.826769557859403
+      ],
+      [
+        9194971825111463756,
+        4.826769557859403
+      ],
+      [
+        10967361839117145411,
+        4.826769557859403
+      ],
+      [
+        9558475638967629904,
+        4.826769557859403
+      ],
+      [
+        11089733486755864550,
+        4.826769557859403
+      ],
+      [
+        14855350376453113175,
+        4.826769557859403
+      ],
+      [
+        13883895435071907861,
+        4.826769557859403
+      ],
+      [
+        10296144344959614518,
+        4.826769557859403
+      ],
+      [
+        13409058297234699454,
+        4.826769557859403
+      ],
+      [
+        8792026431889332403,
+        4.826769557859403
+      ],
+      [
+        11289472887004500779,
+        4.826769557859403
+      ],
+      [
+        2718733524883945258,
+        4.826769557859403
+      ],
+      [
+        3470270053438755378,
+        4.826769557859403
+      ],
+      [
+        12065184850795486381,
+        4.826769557859403
+      ],
+      [
+        9087957048345137326,
+        4.826769557859403
+      ],
+      [
+        16665146537369749751,
+        4.826769557859403
+      ],
+      [
+        4984655431532608134,
+        4.826769557859403
+      ],
+      [
+        1790821013971895986,
+        4.826769557859403
+      ],
+      [
+        12233901334571968757,
+        4.826769557859403
+      ],
+      [
+        8722970010106966429,
+        4.826769557859403
+      ],
+      [
+        9121907257555865885,
+        4.826769557859403
+      ],
+      [
+        10297720678745189219,
+        4.826769557859403
+      ],
+      [
+        4707131520683277234,
+        4.826769557859403
+      ],
+      [
+        8491174758401776633,
+        4.826769557859403
+      ]
+    ],
+    "PWM_threshold": 4.826769557859403,
+    "all_significant_starts": [],
+    "selected": {
+      "positions": [],
+      "base_spacing": null,
+      "missing_copies": 0
+    },
+    "intervals": [],
+    "final_intervals": [],
+    "final_aligned_sequences": [],
+    "PWM_scores": []
+  },
+  "repeats": [],
+  "spacers": [],
+  "quality": {
+    "flags": [
+      "incomplete_6000nt_upstream",
+      "extracted_locus_reaches_contig_boundary"
+    ]
+  },
+  "statistical_score": "extended_seed_discovery_best_chain_score",
+  "array_status": "incomplete_upstream_assessment",
+  "background_test": {
+    "locus_id": "MGYC003138808455__MGYC003138808455_pgv2",
+    "local_p": "0.05472636815920398",
+    "dinucleotide_p": "0.08955223880597014",
+    "corrected_p": "1",
+    "cohort_loci": "13",
+    "shuffles_per_background": "200",
+    "status": "incomplete_upstream_assessment",
+    "screen_local_p": "0.05472636815920398",
+    "screen_dinucleotide_p": "0.08955223880597014",
+    "initial_p": "1.0",
+    "screen_can_only_stop_for_non_support": "True",
+    "full_discovery_repeated": "True",
+    "complete_ART_locus_claim": "False"
+  }
+}

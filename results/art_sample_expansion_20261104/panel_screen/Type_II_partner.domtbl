@@ -1,0 +1,17 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OR770614.1__source179 -            290 Type_II_partner      -            274   3.7e-29  102.4  57.1   1   1   7.9e-33   4.5e-29  102.1  57.1    15   273    18   289     8   290 0.84 original_source_CDS
+OR770614.1__pgv179    -            302 Type_II_partner      -            274     6e-29  101.7  57.8   1   1   1.4e-32   7.7e-29  101.3  57.8    15   273    30   301    10   302 0.85 alternative_viral_gene_call
+OR455461.1__source227 -            291 Type_II_partner      -            274   8.3e-28   97.9  58.4   1   1   1.8e-31     1e-27   97.6  58.4    15   273    18   290    10   291 0.84 original_source_CDS
+OR455461.1__pgv208    -            303 Type_II_partner      -            274   1.2e-27   97.4  58.9   1   1   2.7e-31   1.5e-27   97.1  58.9    15   273    30   302    11   303 0.84 alternative_viral_gene_call
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/Type_II_partner.domtbl -E 0.001 --domE 0.001 --seed 42 --cpu 4 /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:20:31 2026
+# [ok]

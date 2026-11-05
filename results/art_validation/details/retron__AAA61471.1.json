@@ -1,0 +1,40 @@
+{
+  "scan": {
+    "score": 0.0,
+    "candidates": [],
+    "seeds_tested": 0
+  },
+  "model": {},
+  "assessment": {
+    "case_id": "retron__AAA61471.1",
+    "test": "retron",
+    "expected_copies": "0",
+    "recovered_truth_copies": "0",
+    "exact_boundaries": "0",
+    "detected_copies": "0",
+    "initial_best_copies": "1",
+    "extended_only_or_additional_copies": "False",
+    "inferred_skipped_copy_links": "",
+    "detected_intervals_json": "[]",
+    "measured_spacers_json": "[]",
+    "best_search_score": "0.0",
+    "best_search_p": "1.0",
+    "selected_chain_score": "0",
+    "local_p": "1.0",
+    "dinucleotide_p": "1.0",
+    "selected_adjusted_p": "1.0",
+    "testing_family_loci": "30",
+    "array_status": "insufficient_recovered_copies",
+    "flags": "",
+    "ART_RT_support": "False",
+    "partner_support": "False",
+    "locus_status": "ART_locus_not_supported",
+    "reasons": "ART_RT_family_not_supported;ART_partner_family_not_supported;incompatible_or_unresolved_gene_context",
+    "upstream_available": "547",
+    "upstream_shortfall": "5453",
+    "pass_expected_behavior": "True",
+    "model_status": "no_chain",
+    "unmatched_detected_copies": "",
+    "evaluation_role": "external_annotated_genomic_control"
+  }
+}

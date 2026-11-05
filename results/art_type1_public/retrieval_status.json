@@ -1,0 +1,40 @@
+[
+  {
+    "service": "HMMER",
+    "query_id": "QXN67954.1",
+    "complete": true,
+    "hits_returned": 9,
+    "cap": 200,
+    "potentially_capped": false
+  },
+  {
+    "service": "HMMER",
+    "query_id": "QXN67952.1",
+    "complete": true,
+    "hits_returned": 9,
+    "cap": 200,
+    "potentially_capped": false
+  },
+  {
+    "service": "HMMER",
+    "query_id": "QXN67955.1",
+    "complete": true,
+    "hits_returned": 200,
+    "cap": 200,
+    "potentially_capped": true
+  },
+  {
+    "service": "HMMER",
+    "query_id": "QXN67953.1",
+    "complete": true,
+    "hits_returned": 200,
+    "cap": 200,
+    "potentially_capped": true
+  },
+  {
+    "service": "NCBI_BLAST",
+    "query_id": "four_query_batch",
+    "status": "WAITING",
+    "complete": false
+  }
+]

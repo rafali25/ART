@@ -1,0 +1,145 @@
+% ART_RECOMB: additional figures. Upload the fig_*.pdf files to a figures/ folder in Overleaf.
+% Packages already in the preamble: graphicx. Paste this after Appendix D.
+% The body is at the 10-page limit, so everything here belongs in the appendix.
+% To use the method overview in the body instead, see the note in the hand-off message and
+% recompile: going past 10 body pages is reject-without-review.
+
+\section{Additional figures}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_method.pdf}
+\caption{The selection-aware test and the evidence gate. The locus $L$ and every shuffle under
+$\mathcal{M}_{\mathrm{dinuc}}$ and $\mathcal{M}_{\mathrm{block}}$ pass through the same procedure $D$, so the
+reference distribution is that of the search outcome. The larger of the two empirical $p$-values is
+corrected over a declared family, and the gate keeps array evidence in its own field. Histograms are
+the 1,000 draws per background for LPJP1 QXN67953.1.}
+\label{fig:method}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_calibration.pdf}
+\caption{Behaviour of the null. \textbf{a}, Observed best-chain score against the pooled full-search null
+for each benchmark family and reference locus (6\,kb window, 1,000 draws per background). The filled
+diamond for MarsHill is the chain reported as its array; the hollow diamond is its top-scoring chain.
+\textbf{b}, On the DGR control the local block background alone gives $\hat p=0.003$ and the dinucleotide
+background $\hat p=0.066$; carrying the larger withholds the call. \textbf{c}, Each of the 60,000 stored
+draws was treated as a pseudo-observed score and tested against its own background (leaving it out),
+against the other background, and against both by the maximum rule, across all 30 windows. At
+$\alpha=0.001$ the other background rejects at 1.5 times nominal on average and at 10 times nominal at the
+97.5th percentile of window--background combinations (shaded). The maximum cannot exceed the
+own-background rate, so it stays at or below $\alpha$. These draws come from the stated models, so this
+measures sensitivity to the choice of background, not validity on genomic sequence.
+\textbf{d}, Smallest attainable corrected value by draw count, with the declared families used here.
+\textbf{e}, Corrected values for the seven published references as the family grows: 5 of 7 reach 0.05 at
+$m=9$ and 2 of 7 at $m=31$. Solid lines use each top-scoring chain; the dashed line is MarsHill's reported
+chain.}
+\label{fig:calibration}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_benchmark.pdf}
+\caption{All 30 designed cases, by position in the assessed window. Planted copies are drawn above each line
+and detected copies below it; red triangles mark detections matching no planted copy. Columns give copy
+counts, corrected $p$ ($m=30$, floor $30/1001\approx0.030$) and whether the expected behaviour was met. Each
+of the three failures recovers every planted copy and adds one unmatched detection.
+\texttt{repetitive\_DNA\_2} reports no copies despite a floor-level search score; it passes because its
+expected behaviour is to withhold an ART call.}
+\label{fig:benchmark}
+\end{figure}
+
+% RECONCILE BEFORE SUBMITTING: Table 1 reports tuned PILER-CR calling 24/31 inputs; the wrapper run in
+% panel b calls 22/31. The wrapper's own REPORT.md flags this and the original harness was not available.
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_baselines.pdf}
+\caption{Search and calibration are separate comparisons. \textbf{a}, Copy recall and precision from
+Table~\ref{tab:baselines}. \textbf{b}, Each of the 31 inputs with copy-level truth, tested under one wrapper
+with the same 1,000 shuffles per background. The PILER-CR statistic is $(\text{copies}-1)\times$ consensus
+repeat length $\times$ mean copy identity of its best array, and 0 if it reports none. Wrapped PILER-CR is
+close to $D$ on designed cases, missing \texttt{missing\_copy\_1} and \texttt{\_2}, and has no power on the
+references because it calls no array there. It segfaulted on 14 of the 62,000 shuffles, all from reference
+windows; counting these as exceedances or as no array gives identical counts. Bonferroni is over all 31
+inputs, with floor $31/1001=0.031$.}
+\label{fig:baselines}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_references.pdf}
+\caption{The nine reference RT loci. \textbf{a}, Oriented loci aligned at the RT start, supported above the
+dashed line and held for review below it, with $\tilde p$ corrected over $m=9$. The reasons for holding are
+visible in the annotation: Madawaska's repeats overlap annotated CDSs and LY01 has an annotated gene between
+array and RT. \textbf{b}, Difference between our spacers and those implied by the 22-nt core-centred windows
+of the source work, for all 28 spacers of the seven loci with published coordinates. The offset equals the
+difference in repeat width between the two definitions, so core recovery does not establish boundary
+reproduction.}
+\label{fig:references}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_geometry.pdf}
+\caption{Array geometry and repeat content. \textbf{a}, Repeat width against the gap between consecutive
+repeats, for the seven \emph{Staphylococcus} references and the four supported type I tracts, with vertical
+jitter for visibility. The grey band is the default spacer range of the finders and the dashed box the tuned
+range of Table~\ref{tab:baselines}. Gaps of 630 and 689\,nt fall outside the tuned range; the 689-nt gap is
+flagged as possibly spanning missing repeats. \textbf{b}, Repeat logos against a uniform background, with no
+small-sample correction, so they are descriptive at 3--5 copies. \emph{Staphylococcus} copies are stacked in
+register on the published core, which is used for scoring only; columns covered by fewer than half of the
+copies are omitted.}
+\label{fig:geometry}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_acquisition.pdf}
+\caption{From bounded sources to the released dataset. The expansion adds 21 distinct type I pairs; with the 13
+catalogued and 2 follow-up type I pairs and 10 type II pairs this gives 49 raw records and, after collapsing 3
+aliases, 46 pairs. Unresolved retrievals are recorded as such and are not absences. The counts are not
+prevalence estimates. The last two tiers restate the matching graph of Figure~2a.}
+\label{fig:acquisition}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_trees.pdf}
+\caption{Sequence-only placement. \textbf{a}, RT-core tree of 137 sequences (MAFFT L-INS-i, 268 columns, FastTree
+LG+$\Gamma$), midpoint-rooted for display. \textbf{b}, The RT-core tree pruned to the 36 type I pairs, against
+their partner tree (626 columns), with nodes rotated to reduce crossings. Labels are the last two digits of the
+ARTS identifier. Internal values are local SH-like support, not bootstraps. Placement is descriptive: it does not
+establish independent lineages, co-evolution, or ART rather than NART membership.}
+\label{fig:trees}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_landscape.pdf}
+\caption{The 46 pairs, by ARTS identifier (last two digits). \textbf{a}, Upstream DNA available in each locus,
+coloured by recorded array status; statuses keep their original cohort assessments and were not retested on the
+merged dataset. \textbf{b}, Protein lengths, with RT above the axis and partner below. The NTD is operational:
+the residues before the first significant RVT\_1 envelope.}
+\label{fig:landscape}
+\end{figure}
+
+% OPTIONAL, left out by default. Enabling this means the sentence "we claim no structural or interface
+% result here" needs a clause saying a partial exploratory prediction run is shown in this appendix.
+% Regenerate from the finished run first: python make_figures.py binding
+\iffalse
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_binding.pdf}
+\caption{Partial, exploratory predicted-interface run (hosted Boltz-2; 56 of 1,221 requests and 168 of 3,663
+models returned). \textbf{a}, Median ipTM for full-length type I pairs without alignments; native pairs are
+outlined and missing cells are hatched. No row of this matrix supports a native-versus-alternative contrast and
+none is computed. Returned medians span 0.12--0.25. \textbf{b}, \textbf{c}, Adding independently ordered per-chain
+alignments raises per-residue confidence on the two pairs run both ways, while interface confidence stays low.
+\textbf{d}, NTD share of 5\,\AA{} contacts against NTD share of RT residues for the 18 native query-only pairs,
+with the line of equal shares. \textbf{e}, C$\alpha$ trace of one model, lightly smoothed for display. These are
+predicted structures and confidence scores from stochastic samples: they do not measure binding, and low
+confidence does not establish its absence.}
+\label{fig:binding}
+\end{figure}
+\fi

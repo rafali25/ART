@@ -1,0 +1,9 @@
+cell_id	condition	RT_sample_id	partner_sample_id	native_pair	seed	input_path	input_sha256	RT_length_aa	partner_length_aa
+S_r1_p1	S	ARTS0016	ARTS0016	True	20261105	data/ART binding/pilot_20261105/inputs/S_r1_p1.yaml	c7eb8713283a99016268a210dee18b69944155f417333a619fd7df29c45f28ee	501	265
+S_r1_p2	S	ARTS0016	ARTS0017	False	20261105	data/ART binding/pilot_20261105/inputs/S_r1_p2.yaml	1d77ecbb431ff5c74cec09c758c0211cd4021713447d5f48711183adcbf082ce	501	274
+S_r2_p1	S	ARTS0017	ARTS0016	False	20261105	data/ART binding/pilot_20261105/inputs/S_r2_p1.yaml	00d8990c09ac84dbd9f42d991d47d74f1d25f82a0a00f4683f650b3bf9a3a9f8	501	265
+S_r2_p2	S	ARTS0017	ARTS0017	True	20261105	data/ART binding/pilot_20261105/inputs/S_r2_p2.yaml	fc864e6580f7a528864848ecd8768c78f714986ccb0ba2b87bea221a1e555c20	501	274
+U_r1_p1	U	ARTS0016	ARTS0016	True	20261105	data/ART binding/pilot_20261105/inputs/U_r1_p1.yaml	7a70c6e84e13b1d62aab3aae5bf046dfc1bf00167c34becf1940173b7029b403	501	265
+U_r1_p2	U	ARTS0016	ARTS0017	False	20261105	data/ART binding/pilot_20261105/inputs/U_r1_p2.yaml	f060b6b5cad70c4050a5818ab5dfb78e5bbf343ae200c2ba790ed60941f05ade	501	274
+U_r2_p1	U	ARTS0017	ARTS0016	False	20261105	data/ART binding/pilot_20261105/inputs/U_r2_p1.yaml	71e8e8ff963b62b38f44ad4a7201a538accaa3307a751d44a1dee4a922341fdd	501	265
+U_r2_p2	U	ARTS0017	ARTS0017	True	20261105	data/ART binding/pilot_20261105/inputs/U_r2_p2.yaml	21ca0a99ddf05746a908ff25b94c5161bafd00eb43fec40fe8aa63f14045bc14	501	274

@@ -1,0 +1,66 @@
+LOCUS       MGYC003789112697__MGYC003789112697_pgv1 1970 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  MGYC003789112697; RT=MGYC003789112697_pgv1; RT-oriented locus.
+ACCESSION   MGYC003789112697__MGYC003789112697_pgv1
+VERSION     MGYC003789112697__MGYC003789112697_pgv1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Derived linear locus. Original record and all original annotations
+            are archived separately.
+FEATURES             Location/Qualifiers
+     CDS             <1..1905
+                     /protein_id="MGYC003789112697_pgv1"
+                     /locus_tag="MGYC003789112697_pgv1"
+                     /translation="SALSNNKIYKENIIMSHQVKQTPKEKSFERLIKHSNFTPNEKFIN
+                     FFLVENDRGERIILSTEYEVLYLATKDFSRFFPARNNITTFTNTLPFQYSPEEFIWKFD
+                     SLGFAETIKEIMLPTGVTPEDLLVTEPLSTIDADYTVDKSVASRDFINLLHETRKRVAV
+                     ENNEDTFDSIFPLYNEKINELSSKHITPRLAQELVDLESTVALNHIIILQEDDTTLLHL
+                     PKTEINPNELNLENNITIINPANVEVTTTGYEKVKFDRDMADTFLGLLKLGSIDSVVEV
+                     FLEYKKLKETDEKLYKRFIISQIGGKRRIINKPNDNLSEPLKGLSRVLSSYYETTVRGK
+                     SYDKQVTGFRPGKGIYSNVKAHADNNYIIKSDIKNFFDSVRFDYYERYVNFLVNPNTIE
+                     FTTYKDIDILASNVADEMKEAFRDILVNPESKGLYMGNPLSPVLTNLLMRKVVNLIHNT
+                     LESINRNLDEDQRIAFTIYADDVTFSSNTYNGGGYFTIKYLTNLVDNAFKKYGLHTLHL
+                     NRNKTTRLAKNRRLITGIRINHRNELTISRNKYDKIRNIVHRLHVTQDPNTITMGLESL
+                     QSRLSFYRSIDDSGKIERLLKKYRDTLLKFNVKPGSLVFGGSDDEELIEYLNNQQIFY"
+                     /transl_table=11
+                     /inference="ab initio prediction:Pyrodigal-gv:0.3.2"
+                     /note="Candidate gene call; original deposited features
+                     retained"
+                     /source_feature_index="0"
+                     /locus_clipped="false"
+ORIGIN
+        1 agtgccctta gcaataataa aatttataag gagaacatta ttatgtcaca tcaagttaaa
+       61 caaacaccaa aagaaaaatc attcgaacgt ctaattaaac attctaactt cacccctaat
+      121 gaaaaattta tcaacttctt ccttgttgaa aatgaccgtg gtgaaagaat tattctaagt
+      181 accgagtatg aagttttata tctagctact aaagatttta gtagattctt ccctgctcgt
+      241 aataatatta ctacattcac caataccctt cctttccaat attctcctga agaatttatt
+      301 tggaaatttg attctctagg tttcgctgaa accattaaag aaatcatgtt accaacaggt
+      361 gttactcctg aagatttatt ggtaacagaa cccctctcta ctatagatgc tgattacact
+      421 gtagataaat cagtagctag tagagacttc attaacctgt tgcatgaaac tcgtaaacgt
+      481 gtagcggttg aaaataatga agatactttt gattctatct ttccattata taatgaaaag
+      541 attaatgagc tttctagtaa acacattact ccacgtctag ctcaagaact agtagactta
+      601 gaaagtacag tggctttgaa tcatatcatc attctacaag aagatgatac tacgttacta
+      661 cacttaccta aaactgaaat taatcctaat gagttgaact tggaaaataa tattactata
+      721 attaatccag ctaatgtaga agtaactact actggttatg aaaaagttaa attcgaccga
+      781 gatatggctg ataccttcct agggctattg aagctaggtt ctattgattc agttgtggaa
+      841 gtcttcttag aatataagaa actaaaagaa accgatgaaa aactctacaa gcgtttcatc
+      901 atttcccaaa tcggtggtaa gagacgtatc attaataaac ctaatgacaa cctatctgaa
+      961 cccctaaaag gtttatctag agtcttaagt tcttattatg aaactactgt tagaggtaaa
+     1021 tcttatgata aacaagttac tggattcaga ccgggtaaag gtatttatag taacgtcaaa
+     1081 gctcatgctg ataataacta catcattaaa tctgatatta agaacttctt tgatagtgtc
+     1141 cgttttgatt attatgaacg ctatgttaat ttcttagtca atccaaatac tattgaattt
+     1201 actacttata aagacattga tattctagct agtaatgtag ctgatgaaat gaaagaagca
+     1261 tttagagata ttctagttaa ccctgaaagt aaaggtctct acatgggtaa ccctctatca
+     1321 ccagttttaa caaacttatt aatgcgtaaa gtagttaatt tgattcacaa tacacttgaa
+     1381 tcaattaatc gtaacttgga tgaagaccaa agaatcgcat ttactattta tgctgatgat
+     1441 gtaactttct cttctaatac ttacaatgga ggaggttatt ttaccatcaa gtatctaact
+     1501 aacttagttg ataatgcatt taagaaatat gggttacata ctttacattt aaaccgtaat
+     1561 aaaacaactc gtttagcgaa gaatcgccgt cttattactg gtattcgcat taatcaccgt
+     1621 aatgaattaa ctatttctcg taataaatat gataaaattc gtaacatcgt acatcgtcta
+     1681 catgttactc aagatcctaa tactataact atgggcttgg aaagtcttca atctcgtcta
+     1741 tccttctata gaagtattga tgactcagga aaaattgaac gactcttgaa gaaatacaga
+     1801 gacactctat tgaaatttaa cgtgaaaccg ggttctctag tatttggcgg ttcagacgat
+     1861 gaagaattaa ttgaatacct aaacaatcaa caaattttct actaataaat aataatggga
+     1921 ggaaaaaaaa tatgttaaaa acttcacaac tactaaataa agataatact
+//

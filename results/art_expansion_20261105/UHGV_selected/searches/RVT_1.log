@@ -1,0 +1,130 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# target sequence database:        /tmp/art-371321-UHGV_selected-7y2vmdvq/proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/UHGV_selected/searches/RVT_1.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    18424
+# domain search space set to:      18424
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RVT_1  [M=200]
+Accession:   PF00078.33
+Description: Reverse transcriptase (RNA-dependent DNA polymerase)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    2.1e-15   57.2   0.2    3.7e-15   56.3   0.2    1.3  1  UHGV_selected000007_pgv130  UHGV-0304024
+    1.9e-14   54.0   2.7    1.9e-14   54.0   2.7    1.9  1  UHGV_selected000013_pgv247  UHGV-0332176
+      2e-14   54.0   1.1    4.1e-14   52.9   1.1    1.5  1  UHGV_selected000002_pgv481  UHGV-0265188
+    3.7e-14   53.1   2.2    8.8e-14   51.9   2.2    1.6  1  UHGV_selected000011_pgv5    UHGV-1455077
+    5.1e-14   52.6   0.6    7.7e-14   52.1   0.6    1.3  1  UHGV_selected000096_pgv235  UHGV-0034973
+    2.3e-13   50.5   0.9    2.6e-07   30.7   0.1    2.2  1  UHGV_selected000028_pgv184  UHGV-0027008
+    2.4e-13   50.4   0.3    4.5e-13   49.5   0.3    1.4  1  UHGV_selected000014_pgv36   UHGV-0026648
+    3.3e-12   46.7   0.7    5.9e-12   45.9   0.2    1.6  1  UHGV_selected000017_pgv147  UHGV-0035748
+    5.7e-12   46.0   0.8    1.1e-11   45.0   0.3    1.7  1  UHGV_selected000018_pgv145  UHGV-1361039
+    6.6e-12   45.7   0.6      7e-08   32.6   0.1    2.3  1  UHGV_selected000022_pgv183  UHGV-1364379
+      7e-12   45.7   0.6    7.5e-08   32.5   0.1    2.2  1  UHGV_selected000015_pgv210  UHGV-0014097
+    1.1e-09   38.5   0.2    2.5e-09   37.3   0.2    1.6  1  UHGV_selected000078_pgv235  UHGV-0018083
+    1.8e-09   37.8   1.4    2.2e-09   37.5   0.3    1.7  1  UHGV_selected000072_pgv36   UHGV-0339166
+    1.8e-05   24.7   0.0    2.2e-05   24.5   0.0    1.3  1  UHGV_selected000074_pgv1    UHGV-0010229
+    0.00075   19.4   0.0     0.0011   19.0   0.0    1.2  0  UHGV_selected000074_pgv250  UHGV-0010229
+
+
+Domain annotation for each sequence:
+>> UHGV_selected000007_pgv130  UHGV-0304024
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.2   3.7e-15   3.7e-15       7     176 ..      71     246 ..      66     260 .. 0.88
+
+>> UHGV_selected000013_pgv247  UHGV-0332176
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   2.7   1.9e-14   1.9e-14      33     199 ..      96     265 ..      70     266 .. 0.84
+
+>> UHGV_selected000002_pgv481  UHGV-0265188
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.9   1.1   4.1e-14   4.1e-14       3     200 .]      99     299 ..      97     299 .. 0.86
+
+>> UHGV_selected000011_pgv5  UHGV-1455077
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.9   2.2   8.8e-14   8.8e-14      33     199 ..      96     265 ..      70     266 .. 0.85
+
+>> UHGV_selected000096_pgv235  UHGV-0034973
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.1   0.6   7.7e-14   7.7e-14      51     200 .]     135     292 ..      73     292 .. 0.83
+
+>> UHGV_selected000028_pgv184  UHGV-0027008
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.7   0.1   2.6e-07   2.6e-07     144     187 ..     263     306 ..     248     319 .. 0.91
+
+>> UHGV_selected000014_pgv36  UHGV-0026648
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.5   0.3   4.5e-13   4.5e-13       7     196 ..      95     293 ..      90     297 .. 0.78
+
+>> UHGV_selected000017_pgv147  UHGV-0035748
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.9   0.2   5.9e-12   5.9e-12       3     196 ..      70     271 ..      69     275 .. 0.79
+
+>> UHGV_selected000018_pgv145  UHGV-1361039
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.0   0.3   1.1e-11   1.1e-11       3     196 ..      92     293 ..      91     297 .. 0.78
+
+>> UHGV_selected000022_pgv183  UHGV-1364379
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   0.1     7e-08     7e-08     145     196 ..     269     320 ..     255     324 .. 0.91
+
+>> UHGV_selected000015_pgv210  UHGV-0014097
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5   0.1   7.5e-08   7.5e-08     145     196 ..     269     320 ..     255     324 .. 0.91
+
+>> UHGV_selected000078_pgv235  UHGV-0018083
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   0.2   2.5e-09   2.5e-09       8     199 ..      80     288 ..      69     289 .. 0.81
+
+>> UHGV_selected000072_pgv36  UHGV-0339166
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.5   0.3   2.2e-09   2.2e-09       9     199 ..      80     287 ..      68     288 .. 0.81
+
+>> UHGV_selected000074_pgv1  UHGV-0010229
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   2.2e-05   2.2e-05     144     196 ..      46      98 ..      15     139 .. 0.89
+
+>> UHGV_selected000074_pgv250  UHGV-0010229
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (200 nodes)
+Target sequences:                      18424  (5282972 residues searched)
+Passed MSV filter:                       872  (0.0473296); expected 368.5 (0.02)
+Passed bias filter:                      439  (0.0238276); expected 368.5 (0.02)
+Passed Vit filter:                        57  (0.00309379); expected 18.4 (0.001)
+Passed Fwd filter:                        16  (0.000868432); expected 0.2 (1e-05)
+Initial search space (Z):              18424  [as set by --Z on cmdline]
+Domain search space  (domZ):           18424  [as set by --domZ on cmdline]
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.10
+# Mc/sec: 10445.37
+//
+[ok]

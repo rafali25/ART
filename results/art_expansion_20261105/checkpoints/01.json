@@ -1,0 +1,21 @@
+{
+  "step": 1,
+  "title": "Review existing pairs and freeze evidence tiers",
+  "status": "complete",
+  "completed_utc": "2026-11-04T21:00:18.766283+00:00",
+  "slurm_job_id": "371266",
+  "host": "cn-06",
+  "summary": {
+    "reviewed_pairs": 4,
+    "passing_complete_typeI": 1,
+    "passing_complete_typeII": 2,
+    "RT_coverage_review_only": 1,
+    "original_catalog_hashes_verified": 24,
+    "accepted_new_arrays": 0
+  },
+  "artifacts": {
+    "results/art_expansion_20261105/reviewed_existing_additions.tsv": "3871b265688a868d7b5a7c9ab146d32fa8ce636d52138803f007ce2dd111fdf5",
+    "results/art_expansion_20261105/cluster_execution.json": "3e3b17ddf47bbababaca6887e53f4d1bdc86a774af67b035e1c07ae8fe4e120a"
+  },
+  "script_sha256": "588a790fd7b0e1f2d8beee8edae1d109140a82f954e8686ae093118d5993c636"
+}

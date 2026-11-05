@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+t6c8b1c2a34087c71d0  -            558 RVT_1                PF00078.33   200     3e-34  115.3   5.2   1   2   1.7e-23   1.7e-23   80.2   0.1     1   141    32   187    32   203 0.88 MGYC003966598318 MGYC003966598318_pgv148
+t6c8b1c2a34087c71d0  -            558 RVT_1                PF00078.33   200     3e-34  115.3   5.2   2   2   1.8e-09   1.8e-09   34.5   0.5   128   200   229   301   223   301 0.87 MGYC003966598318 MGYC003966598318_pgv148
+o18e8e7392f8842a02f  -            625 RVT_1                PF00078.33   200   4.8e-34  114.7   5.2   1   2   2.2e-23   2.2e-23   79.9   0.1     1   141    99   254    99   270 0.88 MGYC003966598318 six_frame
+o18e8e7392f8842a02f  -            625 RVT_1                PF00078.33   200   4.8e-34  114.7   5.2   2   2   2.1e-09   2.1e-09   34.2   0.5   128   200   296   368   290   368 0.87 MGYC003966598318 six_frame
+ta8138bbfc54220f5ff  -            566 RVT_1                PF00078.33   200     5e-26   88.5   0.1   1   1   7.7e-26   7.7e-26   87.9   0.1     1   199    96   330    96   331 0.92 MGYC003966598318 MGYC003966598318_pgv73
+o5782663da33dba7d42  -            574 RVT_1                PF00078.33   200   5.1e-26   88.5   0.1   1   1     8e-26     8e-26   87.8   0.1     1   199   104   338   104   339 0.92 MGYC003966598318 six_frame
+te894c67befc852adc2  -            630 RVT_1                PF00078.33   200   1.2e-14   51.4   1.8   1   1   8.7e-12   8.7e-12   42.0   0.3     6   150   105   255    94   256 0.86 MGYC003966598318 MGYC003966598318_pgv56
+o1382e2814e3bb7ff4f  -            671 RVT_1                PF00078.33   200   1.4e-14   51.1   1.8   1   1   9.7e-12   9.7e-12   41.9   0.3     6   150   146   296   135   297 0.86 MGYC003966598318 six_frame
+t5958cb5aa00066a91a  -            609 RVT_1                PF00078.33   200   3.9e-14   49.7   1.1   1   1   2.3e-13   2.3e-13   47.1   1.1    36   200   266   444   201   444 0.76 MGYC003966598318 MGYC003966598318_pgv45
+o8bed33e679d8257bf1  -            619 RVT_1                PF00078.33   200   4.2e-14   49.5   1.1   1   1   2.5e-13   2.5e-13   47.1   1.1    36   200   276   454   211   454 0.76 MGYC003966598318 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/RVT_1.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/RVT_1.domtbl -E 0.001 --domE 0.001 -Z 1729 --domZ 1729 --seed 42 --cpu 2 /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:19:37 2026
+# [ok]

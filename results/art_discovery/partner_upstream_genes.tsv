@@ -1,0 +1,28 @@
+anchor_protein	accession	rank	protein_id	start_1based	end_1based	strand	same_orientation	overlap_nt	fully_inside_6kb_window	ART_profile_match	weak_ART_profile_match	ART_bitscore	ART_profile_coverage	partner_profile_matches	generic_RT_profile	product	anchor_partner_family
+QXN67952.1	MZ422438.1	1	QXN67953.1	179430	180794	-1	True	20	True	True	True	608.8	0.954		RVT-Retrons	hypothetical protein	Type_I_partner
+QXN67952.1	MZ422438.1	2	QXN67954.1	182002	183987	-1	True	0	True	False	False			Type_I_partner		hypothetical protein	Type_I_partner
+QXN67952.1	MZ422438.1	3	QXN67955.1	184042	185571	-1	True	0	False	True	True	204.0	0.87		RVT-Retrons	hypothetical protein	Type_I_partner
+QXN67954.1	MZ422438.1	1	QXN67955.1	184042	185571	-1	True	0	True	True	True	204.0	0.87		RVT-Retrons	hypothetical protein	Type_I_partner
+QXN67954.1	MZ422438.1	2	QXN67956.1	185743	186273	-1	True	0	True	False	False					hypothetical protein	Type_I_partner
+QXN67954.1	MZ422438.1	3	QXN67957.1	186298	186516	-1	True	0	True	False	False					hypothetical protein	Type_I_partner
+UAJ17041.1	MZ779063.1	1	UAJ17040.1	125252	126754	1	True	0	True	True	True	970.8	1.0		RVT-Retrons	hypothetical protein	Type_II_partner
+UAJ17041.1	MZ779063.1	2	UAJ17039.1	123640	123972	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+UAJ17041.1	MZ779063.1	3	UAJ17038.1	123488	123640	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+BDE75685.1	LC680885.1	1	BDE75684.1	167556	169058	1	True	0	True	True	True	975.8	1.0		RVT-Retrons	hypothetical protein	Type_II_partner
+BDE75685.1	LC680885.1	2	BDE75683.1	165946	166278	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+BDE75685.1	LC680885.1	3	BDE75682.1	165794	165946	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+QDJ97641.1	MN091626.1	1	QDJ97640.1	24879	26381	1	True	0	True	True	True	980.1	1.0		RVT-Retrons	retron-type RNA-directed DNA polymerase	Type_II_partner
+QDJ97641.1	MN091626.1	2	QDJ97639.1	23269	23601	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+QDJ97641.1	MN091626.1	3	QDJ97638.1	23117	23269	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+QQO92859.1	MW349129.1	1	QQO92858.1	214290	215795	1	True	0	True	True	True	959.9	1.0		RVT-Retrons	RNA-directed DNA polymerase	Type_II_partner
+QQO92859.1	MW349129.1	2	QQO92857.1	213654	213767	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+QQO92859.1	MW349129.1	3	QQO92856.1	213411	213533	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+WRM43422.1	OR836606.1	1	WRM43423.1	73311	74813	-1	True	0	True	True	True	956.5	1.0		RVT-Retrons	retron-type RNA-directed DNA polymerase	Type_II_partner
+WRM43422.1	OR836606.1	2	WRM43424.1	74902	75057	1	False	0	True	False	False					hypothetical protein	Type_II_partner
+WRM43422.1	OR836606.1	3	WRM43425.1	76099	76431	-1	True	0	True	False	False					hypothetical protein	Type_II_partner
+QQM14741.1	MW248466.1	1	QQM14740.1	215089	216594	1	True	0	True	True	True	948.4	1.0		RVT-Retrons	RNA-directed DNA polymerase	Type_II_partner
+QQM14741.1	MW248466.1	2	QQM14739.1	213515	213847	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+QQM14741.1	MW248466.1	3	QQM14738.1	213366	213515	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+QPI16927.1	MW218148.1	1	QPI16926.1	10647	12152	1	True	0	True	True	True	600.2	0.996		RVT-Retrons	hypothetical protein	Type_II_partner
+QPI16927.1	MW218148.1	2	QPI16925.1	9124	9447	1	True	0	True	False	False					hypothetical protein	Type_II_partner
+QPI16927.1	MW218148.1	3	QPI16924.1	8981	9124	1	True	0	True	False	False					hypothetical protein	Type_II_partner

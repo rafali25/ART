@@ -1,0 +1,7377 @@
+{
+  "initial": {
+    "R": 2,
+    "positions": [
+      1768,
+      2064
+    ],
+    "seed": "AAAAATATTATTGA",
+    "dense_run": 1,
+    "code": 212216,
+    "exact_seed_count": 1,
+    "base_spacing": 296.0,
+    "dense_veto": false,
+    "maximum_dense_run_any_seed": 1,
+    "seeds_tested": 20
+  },
+  "initial_test": {
+    "observed_score": 2,
+    "null_max": 4,
+    "shuffles": 100,
+    "exceedances": 45,
+    "empirical_p": 0.45544554455445546,
+    "exceeds_all_shuffles": false
+  },
+  "refinement_3000": {
+    "score": 38.5647873548641,
+    "candidates": [
+      {
+        "score": 38.5647873548641,
+        "seed": "AGAATAATCC",
+        "positions": [
+          794,
+          1459,
+          2716
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 11,
+          "length_nt": 11,
+          "information_bits": 19.28239367743205,
+          "consensus": "AGAATAATCCA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              794,
+              805
+            ],
+            [
+              1459,
+              1470
+            ],
+            [
+              2716,
+              2727
+            ]
+          ]
+        }
+      },
+      {
+        "score": 38.5647873548641,
+        "seed": "GAATAATCCA",
+        "positions": [
+          795,
+          1460,
+          2717
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -1,
+          "offset_end": 10,
+          "length_nt": 11,
+          "information_bits": 19.28239367743205,
+          "consensus": "AGAATAATCCA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              794,
+              805
+            ],
+            [
+              1459,
+              1470
+            ],
+            [
+              2716,
+              2727
+            ]
+          ]
+        }
+      },
+      {
+        "score": 35.26430335891801,
+        "seed": "AAATATAGTA",
+        "positions": [
+          807,
+          1204,
+          1813
+        ],
+        "base_spacing": 503.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 12,
+          "length_nt": 12,
+          "information_bits": 17.632151679459007,
+          "consensus": "AAATATAGTAAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              807,
+              819
+            ],
+            [
+              1204,
+              1216
+            ],
+            [
+              1813,
+              1825
+            ]
+          ]
+        }
+      },
+      {
+        "score": 35.26430335891801,
+        "seed": "AATATAGTAA",
+        "positions": [
+          808,
+          1205,
+          1814
+        ],
+        "base_spacing": 503.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": -1,
+          "offset_end": 11,
+          "length_nt": 12,
+          "information_bits": 17.632151679459007,
+          "consensus": "AAATATAGTAAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              807,
+              819
+            ],
+            [
+              1204,
+              1216
+            ],
+            [
+              1813,
+              1825
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.98939769272279,
+        "seed": "ATATAGTAAT",
+        "positions": [
+          809,
+          1206,
+          1815,
+          2957
+        ],
+        "base_spacing": 567.1428571428572,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 7,
+          "length_nt": 7,
+          "information_bits": 10.996465897574264,
+          "consensus": "ATATAGT",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              3,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              809,
+              816
+            ],
+            [
+              1206,
+              1213
+            ],
+            [
+              1815,
+              1822
+            ],
+            [
+              2957,
+              2964
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.2386948475025,
+        "seed": "AATGAATATT",
+        "positions": [
+          1189,
+          2284,
+          2934
+        ],
+        "base_spacing": 598.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 11,
+          "length_nt": 11,
+          "information_bits": 16.11934742375125,
+          "consensus": "AATGAATATTA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1189,
+              1200
+            ],
+            [
+              2284,
+              2295
+            ],
+            [
+              2934,
+              2945
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.2386948475025,
+        "seed": "ATGAATATTA",
+        "positions": [
+          1190,
+          2285,
+          2935
+        ],
+        "base_spacing": 598.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -1,
+          "offset_end": 10,
+          "length_nt": 11,
+          "information_bits": 16.11934742375125,
+          "consensus": "AATGAATATTA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1189,
+              1200
+            ],
+            [
+              2284,
+              2295
+            ],
+            [
+              2934,
+              2945
+            ]
+          ]
+        }
+      },
+      {
+        "score": 30.427149818441205,
+        "seed": "AATATCATTA",
+        "positions": [
+          325,
+          385,
+          541
+        ],
+        "base_spacing": 69.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 15.213574909220602,
+          "consensus": "AATATCATTA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              325,
+              335
+            ],
+            [
+              385,
+              395
+            ],
+            [
+              541,
+              551
+            ]
+          ]
+        }
+      },
+      {
+        "score": 30.409041164388768,
+        "seed": "TGAAAGTATT",
+        "positions": [
+          999,
+          1695,
+          2075
+        ],
+        "base_spacing": 538.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 15.204520582194384,
+          "consensus": "TGAAAATATT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              999,
+              1009
+            ],
+            [
+              1695,
+              1705
+            ],
+            [
+              2075,
+              2085
+            ]
+          ]
+        }
+      },
+      {
+        "score": 27.85901379545394,
+        "seed": "TTAATGAAAA",
+        "positions": [
+          215,
+          995,
+          2101
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 13.92950689772697,
+          "consensus": "TAATGAAAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              216,
+              225
+            ],
+            [
+              996,
+              1005
+            ],
+            [
+              2102,
+              2111
+            ]
+          ]
+        }
+      },
+      {
+        "score": 27.85901379545394,
+        "seed": "TAATGAAAAA",
+        "positions": [
+          216,
+          996,
+          2102
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 9,
+          "length_nt": 9,
+          "information_bits": 13.92950689772697,
+          "consensus": "TAATGAAAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              216,
+              225
+            ],
+            [
+              996,
+              1005
+            ],
+            [
+              2102,
+              2111
+            ]
+          ]
+        }
+      },
+      {
+        "score": 13.972652675791844,
+        "seed": "TAATAAAAAT",
+        "positions": [
+          996,
+          1946,
+          2290
+        ],
+        "base_spacing": 409.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 5,
+          "offset_end": 10,
+          "length_nt": 5,
+          "information_bits": 6.986326337895922,
+          "consensus": "AAAAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1001,
+              1006
+            ],
+            [
+              1951,
+              1956
+            ],
+            [
+              2295,
+              2300
+            ]
+          ]
+        }
+      }
+    ],
+    "seeds_tested": 54
+  },
+  "refinement_6000": {
+    "score": 97.01278933946791,
+    "candidates": [
+      {
+        "score": 97.01278933946791,
+        "seed": "ATATTATTAA",
+        "positions": [
+          350,
+          1106,
+          2102,
+          2600,
+          3326,
+          3908,
+          4619,
+          5146,
+          5891
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 12.12659866743349,
+          "consensus": "ATATTATTAA",
+          "counts": [
+            [
+              8,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              9
+            ],
+            [
+              9,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              6
+            ],
+            [
+              0,
+              1,
+              0,
+              8
+            ],
+            [
+              9,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              8
+            ],
+            [
+              0,
+              0,
+              0,
+              9
+            ],
+            [
+              9,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              1,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              350,
+              360
+            ],
+            [
+              1106,
+              1116
+            ],
+            [
+              2102,
+              2112
+            ],
+            [
+              2600,
+              2610
+            ],
+            [
+              3326,
+              3336
+            ],
+            [
+              3908,
+              3918
+            ],
+            [
+              4619,
+              4629
+            ],
+            [
+              5146,
+              5156
+            ],
+            [
+              5891,
+              5901
+            ]
+          ]
+        }
+      },
+      {
+        "score": 64.3870602962462,
+        "seed": "AAAGATATTA",
+        "positions": [
+          1312,
+          1846,
+          2320,
+          2980,
+          4015,
+          4549
+        ],
+        "base_spacing": 534.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 9,
+          "length_nt": 9,
+          "information_bits": 12.87741205924924,
+          "consensus": "AAAGATATT",
+          "counts": [
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              6,
+              0
+            ],
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6
+            ],
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              6
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1312,
+              1321
+            ],
+            [
+              1846,
+              1855
+            ],
+            [
+              2320,
+              2329
+            ],
+            [
+              2980,
+              2989
+            ],
+            [
+              4015,
+              4024
+            ],
+            [
+              4549,
+              4558
+            ]
+          ]
+        }
+      },
+      {
+        "score": 62.897140209705285,
+        "seed": "AAAAGATATT",
+        "positions": [
+          2427,
+          2979,
+          4014,
+          4548,
+          5258,
+          5827
+        ],
+        "base_spacing": 552.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 12.579428041941057,
+          "consensus": "AAAAGATATT",
+          "counts": [
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              4,
+              1
+            ],
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6
+            ],
+            [
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              6
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2427,
+              2437
+            ],
+            [
+              2979,
+              2989
+            ],
+            [
+              4014,
+              4024
+            ],
+            [
+              4548,
+              4558
+            ],
+            [
+              5258,
+              5268
+            ],
+            [
+              5827,
+              5837
+            ]
+          ]
+        }
+      },
+      {
+        "score": 55.05578001458942,
+        "seed": "AATAGTATTA",
+        "positions": [
+          349,
+          1105,
+          1829,
+          2548,
+          3268
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": -1,
+          "offset_end": 10,
+          "length_nt": 11,
+          "information_bits": 13.763945003647356,
+          "consensus": "GAATAGTATTA",
+          "counts": [
+            [
+              0,
+              0,
+              4,
+              1
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              4
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              3,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              4,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              4,
+              0,
+              0,
+              1
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              348,
+              359
+            ],
+            [
+              1104,
+              1115
+            ],
+            [
+              1828,
+              1839
+            ],
+            [
+              2547,
+              2558
+            ],
+            [
+              3267,
+              3278
+            ]
+          ]
+        }
+      },
+      {
+        "score": 54.657399263122734,
+        "seed": "TAGTATTAAA",
+        "positions": [
+          2103,
+          2343,
+          2601,
+          2811,
+          2991
+        ],
+        "base_spacing": 225.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 13.664349815780684,
+          "consensus": "TAGTATTAAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              4,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              1
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2103,
+              2113
+            ],
+            [
+              2343,
+              2353
+            ],
+            [
+              2601,
+              2611
+            ],
+            [
+              2811,
+              2821
+            ],
+            [
+              2991,
+              3001
+            ]
+          ]
+        }
+      },
+      {
+        "score": 53.04943079051865,
+        "seed": "AAATTATTTA",
+        "positions": [
+          478,
+          1741,
+          2305,
+          2931,
+          3642
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 13.262357697629662,
+          "consensus": "AAATTATTTA",
+          "counts": [
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              1,
+              4
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              1,
+              0,
+              4
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              478,
+              488
+            ],
+            [
+              1741,
+              1751
+            ],
+            [
+              2305,
+              2315
+            ],
+            [
+              2931,
+              2941
+            ],
+            [
+              3642,
+              3652
+            ]
+          ]
+        }
+      },
+      {
+        "score": 51.98577215495624,
+        "seed": "TTAATGAAAA",
+        "positions": [
+          388,
+          1157,
+          2624,
+          3215,
+          3995
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 12.99644303873906,
+          "consensus": "TTAATGAAAA",
+          "counts": [
+            [
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              4,
+              1
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              4,
+              1,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              388,
+              398
+            ],
+            [
+              1157,
+              1167
+            ],
+            [
+              2624,
+              2634
+            ],
+            [
+              3215,
+              3225
+            ],
+            [
+              3995,
+              4005
+            ]
+          ]
+        }
+      },
+      {
+        "score": 51.82237265380394,
+        "seed": "TAAAGATATT",
+        "positions": [
+          1311,
+          1845,
+          2319,
+          2979,
+          3884
+        ],
+        "base_spacing": 507.6923076923077,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 12.955593163450985,
+          "consensus": "AAAGATATT",
+          "counts": [
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1312,
+              1321
+            ],
+            [
+              1846,
+              1855
+            ],
+            [
+              2320,
+              2329
+            ],
+            [
+              2980,
+              2989
+            ],
+            [
+              3885,
+              3894
+            ]
+          ]
+        }
+      },
+      {
+        "score": 49.826180791504925,
+        "seed": "AATTTAATAA",
+        "positions": [
+          787,
+          1337,
+          2438,
+          2951,
+          3455
+        ],
+        "base_spacing": 531.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 12.456545197876231,
+          "consensus": "AATTTAATAA",
+          "counts": [
+            [
+              4,
+              1,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              1,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              787,
+              797
+            ],
+            [
+              1337,
+              1347
+            ],
+            [
+              2438,
+              2448
+            ],
+            [
+              2951,
+              2961
+            ],
+            [
+              3455,
+              3465
+            ]
+          ]
+        }
+      },
+      {
+        "score": 49.706706076633964,
+        "seed": "TGGTTCTTAT",
+        "positions": [
+          2646,
+          3627,
+          4302,
+          4674
+        ],
+        "base_spacing": 519.2307692307692,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 16.568902025544656,
+          "consensus": "GGTTCTTAT",
+          "counts": [
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2647,
+              2656
+            ],
+            [
+              3628,
+              3637
+            ],
+            [
+              4303,
+              4312
+            ],
+            [
+              4675,
+              4684
+            ]
+          ]
+        }
+      },
+      {
+        "score": 43.6908295384982,
+        "seed": "TGAAAGTATT",
+        "positions": [
+          2559,
+          3999,
+          4695,
+          5141
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 14.563609846166067,
+          "consensus": "TGAAAATATT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2559,
+              2569
+            ],
+            [
+              3999,
+              4009
+            ],
+            [
+              4695,
+              4705
+            ],
+            [
+              5141,
+              5151
+            ]
+          ]
+        }
+      },
+      {
+        "score": 40.57095514535614,
+        "seed": "AAATGTTATA",
+        "positions": [
+          1239,
+          2032,
+          2250,
+          2465
+        ],
+        "base_spacing": 305.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 13.523651715118714,
+          "consensus": "AATGTTATA",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              3
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1240,
+              1249
+            ],
+            [
+              2033,
+              2042
+            ],
+            [
+              2251,
+              2260
+            ],
+            [
+              2466,
+              2475
+            ]
+          ]
+        }
+      },
+      {
+        "score": 40.45858921321387,
+        "seed": "TAATGAAAAA",
+        "positions": [
+          2625,
+          3216,
+          3996,
+          5102
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 9,
+          "length_nt": 9,
+          "information_bits": 13.486196404404623,
+          "consensus": "TAATGAAAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2625,
+              2634
+            ],
+            [
+              3216,
+              3225
+            ],
+            [
+              3996,
+              4005
+            ],
+            [
+              5102,
+              5111
+            ]
+          ]
+        }
+      },
+      {
+        "score": 40.13370812936393,
+        "seed": "GGAATAATAT",
+        "positions": [
+          347,
+          1103,
+          2597
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 13,
+          "length_nt": 13,
+          "information_bits": 20.066854064681966,
+          "consensus": "GGAATAATATTAA",
+          "counts": [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              347,
+              360
+            ],
+            [
+              1103,
+              1116
+            ],
+            [
+              2597,
+              2610
+            ]
+          ]
+        }
+      },
+      {
+        "score": 40.010920671859054,
+        "seed": "AGTTTCAATA",
+        "positions": [
+          1478,
+          2906,
+          3314
+        ],
+        "base_spacing": 561.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 12,
+          "length_nt": 12,
+          "information_bits": 20.005460335929527,
+          "consensus": "AGTTTCAATATA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1478,
+              1490
+            ],
+            [
+              2906,
+              2918
+            ],
+            [
+              3314,
+              3326
+            ]
+          ]
+        }
+      },
+      {
+        "score": 40.010920671859054,
+        "seed": "GTTTCAATAT",
+        "positions": [
+          1479,
+          2907,
+          3315
+        ],
+        "base_spacing": 561.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -1,
+          "offset_end": 11,
+          "length_nt": 12,
+          "information_bits": 20.005460335929527,
+          "consensus": "AGTTTCAATATA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1478,
+              1490
+            ],
+            [
+              2906,
+              2918
+            ],
+            [
+              3314,
+              3326
+            ]
+          ]
+        }
+      },
+      {
+        "score": 40.010920671859054,
+        "seed": "TTTCAATATA",
+        "positions": [
+          1480,
+          2908,
+          3316
+        ],
+        "base_spacing": 561.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -2,
+          "offset_end": 10,
+          "length_nt": 12,
+          "information_bits": 20.005460335929527,
+          "consensus": "AGTTTCAATATA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1478,
+              1490
+            ],
+            [
+              2906,
+              2918
+            ],
+            [
+              3314,
+              3326
+            ]
+          ]
+        }
+      },
+      {
+        "score": 40.010920671859054,
+        "seed": "TTCAATATAT",
+        "positions": [
+          1481,
+          2909,
+          3317
+        ],
+        "base_spacing": 561.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -3,
+          "offset_end": 9,
+          "length_nt": 12,
+          "information_bits": 20.005460335929527,
+          "consensus": "AGTTTCAATATA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1478,
+              1490
+            ],
+            [
+              2906,
+              2918
+            ],
+            [
+              3314,
+              3326
+            ]
+          ]
+        }
+      },
+      {
+        "score": 39.941063397228554,
+        "seed": "ATAATGATAA",
+        "positions": [
+          1922,
+          2357,
+          2636,
+          3215
+        ],
+        "base_spacing": 334.6153846153846,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 13.313687799076185,
+          "consensus": "TAATGATAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              3
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1923,
+              1932
+            ],
+            [
+              2358,
+              2367
+            ],
+            [
+              2637,
+              2646
+            ],
+            [
+              3216,
+              3225
+            ]
+          ]
+        }
+      },
+      {
+        "score": 39.108591707179436,
+        "seed": "AAAATATAGT",
+        "positions": [
+          3047,
+          3806,
+          4203,
+          4812
+        ],
+        "base_spacing": 468.46153846153845,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 13.036197235726478,
+          "consensus": "AAATATAGT",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              3048,
+              3057
+            ],
+            [
+              3807,
+              3816
+            ],
+            [
+              4204,
+              4213
+            ],
+            [
+              4813,
+              4822
+            ]
+          ]
+        }
+      },
+      {
+        "score": 39.03797729858391,
+        "seed": "TCCATTATCT",
+        "positions": [
+          1038,
+          1377,
+          2172
+        ],
+        "base_spacing": 368.25,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 19.518988649291956,
+          "consensus": "TCCATTATCT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1038,
+              1048
+            ],
+            [
+              1377,
+              1387
+            ],
+            [
+              2172,
+              2182
+            ]
+          ]
+        }
+      },
+      {
+        "score": 38.634315701596094,
+        "seed": "AGAATAATCC",
+        "positions": [
+          3794,
+          4459,
+          5716
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 11,
+          "length_nt": 11,
+          "information_bits": 19.317157850798047,
+          "consensus": "AGAATAATCCA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              3794,
+              3805
+            ],
+            [
+              4459,
+              4470
+            ],
+            [
+              5716,
+              5727
+            ]
+          ]
+        }
+      },
+      {
+        "score": 38.634315701596094,
+        "seed": "GAATAATCCA",
+        "positions": [
+          3795,
+          4460,
+          5717
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -1,
+          "offset_end": 10,
+          "length_nt": 11,
+          "information_bits": 19.317157850798047,
+          "consensus": "AGAATAATCCA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              3794,
+              3805
+            ],
+            [
+              4459,
+              4470
+            ],
+            [
+              5716,
+              5727
+            ]
+          ]
+        }
+      },
+      {
+        "score": 35.229985236414336,
+        "seed": "AAATATAGTA",
+        "positions": [
+          3807,
+          4204,
+          4813
+        ],
+        "base_spacing": 503.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 12,
+          "length_nt": 12,
+          "information_bits": 17.614992618207168,
+          "consensus": "AAATATAGTAAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              3807,
+              3819
+            ],
+            [
+              4204,
+              4216
+            ],
+            [
+              4813,
+              4825
+            ]
+          ]
+        }
+      },
+      {
+        "score": 34.9728143635119,
+        "seed": "TAATACTGAT",
+        "positions": [
+          2829,
+          3735,
+          4035
+        ],
+        "base_spacing": 376.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 17.48640718175595,
+          "consensus": "TAATACTGAT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2829,
+              2839
+            ],
+            [
+              3735,
+              3745
+            ],
+            [
+              4035,
+              4045
+            ]
+          ]
+        }
+      },
+      {
+        "score": 34.9728143635119,
+        "seed": "AATACTGATG",
+        "positions": [
+          2830,
+          3736,
+          4036
+        ],
+        "base_spacing": 376.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -1,
+          "offset_end": 9,
+          "length_nt": 10,
+          "information_bits": 17.48640718175595,
+          "consensus": "TAATACTGAT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2829,
+              2839
+            ],
+            [
+              3735,
+              3745
+            ],
+            [
+              4035,
+              4045
+            ]
+          ]
+        }
+      },
+      {
+        "score": 34.373526131977165,
+        "seed": "TCATTATTAA",
+        "positions": [
+          2923,
+          3389,
+          3580
+        ],
+        "base_spacing": 212.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 11,
+          "length_nt": 11,
+          "information_bits": 17.186763065988583,
+          "consensus": "TCATTATTAAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2923,
+              2934
+            ],
+            [
+              3389,
+              3400
+            ],
+            [
+              3580,
+              3591
+            ]
+          ]
+        }
+      },
+      {
+        "score": 33.69612647151633,
+        "seed": "TATCTATGAT",
+        "positions": [
+          2748,
+          3249,
+          4391
+        ],
+        "base_spacing": 536.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 16.848063235758165,
+          "consensus": "TATCTATGAT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2748,
+              2758
+            ],
+            [
+              3249,
+              3259
+            ],
+            [
+              4391,
+              4401
+            ]
+          ]
+        }
+      },
+      {
+        "score": 33.21067508420635,
+        "seed": "TTATAAATAT",
+        "positions": [
+          2442,
+          2996,
+          4378,
+          5047
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 2,
+          "offset_end": 10,
+          "length_nt": 8,
+          "information_bits": 11.070225028068784,
+          "consensus": "ATAAATAT",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              3
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2444,
+              2452
+            ],
+            [
+              2998,
+              3006
+            ],
+            [
+              4380,
+              4388
+            ],
+            [
+              5049,
+              5057
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.93672163802345,
+        "seed": "ATATAGTAAT",
+        "positions": [
+          3809,
+          4206,
+          4815,
+          5957
+        ],
+        "base_spacing": 567.1428571428572,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 7,
+          "length_nt": 7,
+          "information_bits": 10.978907212674484,
+          "consensus": "ATATAGT",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              3,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              3809,
+              3816
+            ],
+            [
+              4206,
+              4213
+            ],
+            [
+              4815,
+              4822
+            ],
+            [
+              5957,
+              5964
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.795473478723295,
+        "seed": "GAAGATAAAG",
+        "positions": [
+          1873,
+          2386,
+          3433
+        ],
+        "base_spacing": 518.25,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 16.397736739361648,
+          "consensus": "GAAGATAAAG",
+          "counts": [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              2,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1873,
+              1883
+            ],
+            [
+              2386,
+              2396
+            ],
+            [
+              3433,
+              3443
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.67548908782429,
+        "seed": "GTTCTTATGA",
+        "positions": [
+          2024,
+          2648,
+          3629
+        ],
+        "base_spacing": 557.25,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 16.337744543912144,
+          "consensus": "TTCTTATGA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2025,
+              2034
+            ],
+            [
+              2649,
+              2658
+            ],
+            [
+              3630,
+              3639
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.67548908782429,
+        "seed": "TTCTTATGAT",
+        "positions": [
+          2025,
+          2649,
+          3630
+        ],
+        "base_spacing": 557.25,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 9,
+          "length_nt": 9,
+          "information_bits": 16.337744543912144,
+          "consensus": "TTCTTATGA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2025,
+              2034
+            ],
+            [
+              2649,
+              2658
+            ],
+            [
+              3630,
+              3639
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.232780240584965,
+        "seed": "AGTATTAAAG",
+        "positions": [
+          2367,
+          2602,
+          2812
+        ],
+        "base_spacing": 222.5,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": -2,
+          "offset_end": 9,
+          "length_nt": 11,
+          "information_bits": 16.116390120292483,
+          "consensus": "ATAGTATTAAA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2365,
+              2376
+            ],
+            [
+              2600,
+              2611
+            ],
+            [
+              2810,
+              2821
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.22035110130929,
+        "seed": "ATATAATAAA",
+        "positions": [
+          72,
+          651,
+          1191,
+          2439
+        ],
+        "base_spacing": 579.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 9,
+          "length_nt": 8,
+          "information_bits": 10.740117033769764,
+          "consensus": "TATAATAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              3,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              73,
+              81
+            ],
+            [
+              652,
+              660
+            ],
+            [
+              1192,
+              1200
+            ],
+            [
+              2440,
+              2448
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.15537947169499,
+        "seed": "ATTATTGAAG",
+        "positions": [
+          2380,
+          2563,
+          2623
+        ],
+        "base_spacing": 75.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 16.077689735847496,
+          "consensus": "ATTATTGAAG",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2380,
+              2390
+            ],
+            [
+              2563,
+              2573
+            ],
+            [
+              2623,
+              2633
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.0593495749359,
+        "seed": "TTAATGAATT",
+        "positions": [
+          2432,
+          3161,
+          4526
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 12,
+          "length_nt": 11,
+          "information_bits": 16.02967478746795,
+          "consensus": "TAATGAATTAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2433,
+              2444
+            ],
+            [
+              3162,
+              3173
+            ],
+            [
+              4527,
+              4538
+            ]
+          ]
+        }
+      },
+      {
+        "score": 32.01540352766664,
+        "seed": "GATAATGATA",
+        "positions": [
+          1921,
+          2356,
+          3844
+        ],
+        "base_spacing": 589.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 16.00770176383332,
+          "consensus": "GATAATGATA",
+          "counts": [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1921,
+              1931
+            ],
+            [
+              2356,
+              2366
+            ],
+            [
+              3844,
+              3854
+            ]
+          ]
+        }
+      },
+      {
+        "score": 30.42083287599579,
+        "seed": "TTAAATTATT",
+        "positions": [
+          1411,
+          2303,
+          2559,
+          2929
+        ],
+        "base_spacing": 365.7142857142857,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 2,
+          "offset_end": 9,
+          "length_nt": 7,
+          "information_bits": 10.14027762533193,
+          "consensus": "AAATTAT",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1413,
+              1420
+            ],
+            [
+              2305,
+              2312
+            ],
+            [
+              2561,
+              2568
+            ],
+            [
+              2931,
+              2938
+            ]
+          ]
+        }
+      },
+      {
+        "score": 30.356394412491866,
+        "seed": "AATATCATTA",
+        "positions": [
+          3325,
+          3385,
+          3541
+        ],
+        "base_spacing": 69.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 15.178197206245933,
+          "consensus": "AATATCATTA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              3325,
+              3335
+            ],
+            [
+              3385,
+              3395
+            ],
+            [
+              3541,
+              3551
+            ]
+          ]
+        }
+      },
+      {
+        "score": 30.355382796982415,
+        "seed": "TATTTTAGAT",
+        "positions": [
+          2115,
+          3186,
+          3816
+        ],
+        "base_spacing": 582.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 15.177691398491207,
+          "consensus": "TATTTTAGAT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2115,
+              2125
+            ],
+            [
+              3186,
+              3196
+            ],
+            [
+              3816,
+              3826
+            ]
+          ]
+        }
+      },
+      {
+        "score": 29.335456073326494,
+        "seed": "AGTATTATAT",
+        "positions": [
+          1832,
+          3138,
+          3902
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 14.667728036663247,
+          "consensus": "AGTATTATAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1832,
+              1842
+            ],
+            [
+              3138,
+              3148
+            ],
+            [
+              3902,
+              3912
+            ]
+          ]
+        }
+      },
+      {
+        "score": 29.289671205834694,
+        "seed": "CATTATTAAA",
+        "positions": [
+          1932,
+          2924,
+          3390,
+          3901
+        ],
+        "base_spacing": 496.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 6,
+          "length_nt": 6,
+          "information_bits": 9.763223735278231,
+          "consensus": "CATTAT",
+          "counts": [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1932,
+              1938
+            ],
+            [
+              2924,
+              2930
+            ],
+            [
+              3390,
+              3396
+            ],
+            [
+              3901,
+              3907
+            ]
+          ]
+        }
+      },
+      {
+        "score": 28.774363187777883,
+        "seed": "TATTAATTCA",
+        "positions": [
+          1488,
+          2222,
+          3330,
+          3927
+        ],
+        "base_spacing": 597.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 8,
+          "length_nt": 7,
+          "information_bits": 9.591454395925961,
+          "consensus": "ATTAATT",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1489,
+              1496
+            ],
+            [
+              2223,
+              2230
+            ],
+            [
+              3331,
+              3338
+            ],
+            [
+              3928,
+              3935
+            ]
+          ]
+        }
+      },
+      {
+        "score": 28.354913805091897,
+        "seed": "GATTAATGAA",
+        "positions": [
+          1155,
+          2622,
+          3159
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 14.177456902545948,
+          "consensus": "ATTAATGAA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1156,
+              1165
+            ],
+            [
+              2623,
+              2632
+            ],
+            [
+              3160,
+              3169
+            ]
+          ]
+        }
+      },
+      {
+        "score": 28.354913805091897,
+        "seed": "ATTAATGAAT",
+        "positions": [
+          1156,
+          2623,
+          3160
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 9,
+          "length_nt": 9,
+          "information_bits": 14.177456902545948,
+          "consensus": "ATTAATGAA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1156,
+              1165
+            ],
+            [
+              2623,
+              2632
+            ],
+            [
+              3160,
+              3169
+            ]
+          ]
+        }
+      },
+      {
+        "score": 27.715530458099717,
+        "seed": "TAATTTTAAT",
+        "positions": [
+          1449,
+          2499,
+          2823
+        ],
+        "base_spacing": 424.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 13.857765229049859,
+          "consensus": "TAATTTTAAT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1449,
+              1459
+            ],
+            [
+              2499,
+              2509
+            ],
+            [
+              2823,
+              2833
+            ]
+          ]
+        }
+      },
+      {
+        "score": 27.295602626014656,
+        "seed": "ATTAAATTAT",
+        "positions": [
+          1410,
+          2302,
+          2928
+        ],
+        "base_spacing": 536.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 13.647801313007328,
+          "consensus": "ATTAAATTAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1410,
+              1420
+            ],
+            [
+              2302,
+              2312
+            ],
+            [
+              2928,
+              2938
+            ]
+          ]
+        }
+      },
+      {
+        "score": 27.258634177751947,
+        "seed": "TGAAAAATAT",
+        "positions": [
+          3044,
+          4200,
+          4766
+        ],
+        "base_spacing": 572.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 13.629317088875974,
+          "consensus": "GAAAAATAT",
+          "counts": [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              3045,
+              3054
+            ],
+            [
+              4201,
+              4210
+            ],
+            [
+              4767,
+              4776
+            ]
+          ]
+        }
+      },
+      {
+        "score": 26.34495321433679,
+        "seed": "AATGAATATT",
+        "positions": [
+          1670,
+          2443,
+          3205,
+          4189
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 4,
+          "offset_end": 10,
+          "length_nt": 6,
+          "information_bits": 8.781651071445596,
+          "consensus": "AATATT",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1674,
+              1680
+            ],
+            [
+              2447,
+              2453
+            ],
+            [
+              3209,
+              3215
+            ],
+            [
+              4193,
+              4199
+            ]
+          ]
+        }
+      },
+      {
+        "score": 26.282316296195475,
+        "seed": "TAATAAAAAT",
+        "positions": [
+          1989,
+          2199,
+          2442
+        ],
+        "base_spacing": 226.5,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 10,
+          "length_nt": 10,
+          "information_bits": 13.141158148097738,
+          "consensus": "TAATAAAAAT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1989,
+              1999
+            ],
+            [
+              2199,
+              2209
+            ],
+            [
+              2442,
+              2452
+            ]
+          ]
+        }
+      },
+      {
+        "score": 25.981910036059894,
+        "seed": "ATAGAATCTA",
+        "positions": [
+          2335,
+          3403,
+          4128
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 2,
+          "offset_end": 10,
+          "length_nt": 8,
+          "information_bits": 12.990955018029947,
+          "consensus": "AGAATCTA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              2,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2337,
+              2345
+            ],
+            [
+              3405,
+              3413
+            ],
+            [
+              4130,
+              4138
+            ]
+          ]
+        }
+      },
+      {
+        "score": 24.821332958035985,
+        "seed": "AAATATTGAT",
+        "positions": [
+          2446,
+          3000,
+          4002
+        ],
+        "base_spacing": 527.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 8,
+          "length_nt": 8,
+          "information_bits": 12.410666479017992,
+          "consensus": "AAATATTG",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2446,
+              2454
+            ],
+            [
+              3000,
+              3008
+            ],
+            [
+              4002,
+              4010
+            ]
+          ]
+        }
+      },
+      {
+        "score": 23.982315405530713,
+        "seed": "GAATAGTATT",
+        "positions": [
+          348,
+          1104,
+          1828,
+          2547
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 4,
+          "offset_end": 10,
+          "length_nt": 6,
+          "information_bits": 7.994105135176904,
+          "consensus": "AGTATT",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              2,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              352,
+              358
+            ],
+            [
+              1108,
+              1114
+            ],
+            [
+              1832,
+              1838
+            ],
+            [
+              2551,
+              2557
+            ]
+          ]
+        }
+      },
+      {
+        "score": 23.941044973238604,
+        "seed": "ATAATGTAAA",
+        "positions": [
+          2762,
+          3215,
+          3374
+        ],
+        "base_spacing": 192.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": -2,
+          "offset_end": 6,
+          "length_nt": 8,
+          "information_bits": 11.970522486619302,
+          "consensus": "TAATAATG",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2760,
+              2768
+            ],
+            [
+              3213,
+              3221
+            ],
+            [
+              3372,
+              3380
+            ]
+          ]
+        }
+      },
+      {
+        "score": 23.75364590392749,
+        "seed": "ATAGTATTAA",
+        "positions": [
+          2102,
+          2365,
+          2600,
+          2756
+        ],
+        "base_spacing": 222.85714285714286,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 4,
+          "offset_end": 10,
+          "length_nt": 6,
+          "information_bits": 7.9178819679758305,
+          "consensus": "TATTAA",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2106,
+              2112
+            ],
+            [
+              2369,
+              2375
+            ],
+            [
+              2604,
+              2610
+            ],
+            [
+              2760,
+              2766
+            ]
+          ]
+        }
+      },
+      {
+        "score": 23.598517910043512,
+        "seed": "GAAAAATATA",
+        "positions": [
+          67,
+          604,
+          1992
+        ],
+        "base_spacing": 600.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 1,
+          "offset_end": 10,
+          "length_nt": 9,
+          "information_bits": 11.799258955021756,
+          "consensus": "AAAAATATA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              68,
+              77
+            ],
+            [
+              605,
+              614
+            ],
+            [
+              1993,
+              2002
+            ]
+          ]
+        }
+      },
+      {
+        "score": 23.1237541557999,
+        "seed": "AATATAGTAA",
+        "positions": [
+          655,
+          1190,
+          1337,
+          1484
+        ],
+        "base_spacing": 205.76923076923077,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 6,
+          "length_nt": 6,
+          "information_bits": 7.707918051933301,
+          "consensus": "AATATA",
+          "counts": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              3
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              655,
+              661
+            ],
+            [
+              1190,
+              1196
+            ],
+            [
+              1337,
+              1343
+            ],
+            [
+              1484,
+              1490
+            ]
+          ]
+        }
+      },
+      {
+        "score": 22.041167469955116,
+        "seed": "TGATATTAAA",
+        "positions": [
+          351,
+          1227,
+          1821
+        ],
+        "base_spacing": 516.0,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 2,
+          "offset_end": 10,
+          "length_nt": 8,
+          "information_bits": 11.020583734977558,
+          "consensus": "ATATTAAA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              353,
+              361
+            ],
+            [
+              1229,
+              1237
+            ],
+            [
+              1823,
+              1831
+            ]
+          ]
+        }
+      },
+      {
+        "score": 20.943839977409226,
+        "seed": "ATTTAATAGT",
+        "positions": [
+          2874,
+          3264,
+          3456
+        ],
+        "base_spacing": 193.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 3,
+          "offset_end": 10,
+          "length_nt": 7,
+          "information_bits": 10.471919988704613,
+          "consensus": "TAATAGT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2877,
+              2884
+            ],
+            [
+              3267,
+              3274
+            ],
+            [
+              3459,
+              3466
+            ]
+          ]
+        }
+      },
+      {
+        "score": 20.523912145324168,
+        "seed": "AATAATGTAA",
+        "positions": [
+          19,
+          172,
+          655
+        ],
+        "base_spacing": 197.25,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 3,
+          "offset_end": 10,
+          "length_nt": 7,
+          "information_bits": 10.261956072662084,
+          "consensus": "AATGTAA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              22,
+              29
+            ],
+            [
+              175,
+              182
+            ],
+            [
+              658,
+              665
+            ]
+          ]
+        }
+      },
+      {
+        "score": 20.28055525066386,
+        "seed": "ATATAATGAA",
+        "positions": [
+          231,
+          1338,
+          1638
+        ],
+        "base_spacing": 426.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 7,
+          "length_nt": 7,
+          "information_bits": 10.14027762533193,
+          "consensus": "ATATAAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              231,
+              238
+            ],
+            [
+              1338,
+              1345
+            ],
+            [
+              1638,
+              1645
+            ]
+          ]
+        }
+      },
+      {
+        "score": 19.32391436218245,
+        "seed": "ATGAATATTA",
+        "positions": [
+          1447,
+          2030,
+          3206
+        ],
+        "base_spacing": 585.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 3,
+          "offset_end": 10,
+          "length_nt": 7,
+          "information_bits": 9.661957181091225,
+          "consensus": "AATATTA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              1450,
+              1457
+            ],
+            [
+              2033,
+              2040
+            ],
+            [
+              3209,
+              3216
+            ]
+          ]
+        }
+      },
+      {
+        "score": 18.583939526583237,
+        "seed": "ATAATATGAA",
+        "positions": [
+          350,
+          801,
+          1246
+        ],
+        "base_spacing": 448.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 7,
+          "length_nt": 7,
+          "information_bits": 9.291969763291618,
+          "consensus": "ATAATAT",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              350,
+              357
+            ],
+            [
+              801,
+              808
+            ],
+            [
+              1246,
+              1253
+            ]
+          ]
+        }
+      },
+      {
+        "score": 18.583939526583237,
+        "seed": "TAATAATTTA",
+        "positions": [
+          2222,
+          2760,
+          3372
+        ],
+        "base_spacing": 575.0,
+        "missing_copies": 0,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 7,
+          "length_nt": 7,
+          "information_bits": 9.291969763291618,
+          "consensus": "TAATAAT",
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              2222,
+              2229
+            ],
+            [
+              2760,
+              2767
+            ],
+            [
+              3372,
+              3379
+            ]
+          ]
+        }
+      },
+      {
+        "score": 17.744083862413113,
+        "seed": "AATAAAAATA",
+        "positions": [
+          664,
+          1184,
+          1990
+        ],
+        "base_spacing": 461.5,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 7,
+          "length_nt": 7,
+          "information_bits": 8.872041931206557,
+          "consensus": "AATAAAA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              664,
+              671
+            ],
+            [
+              1184,
+              1191
+            ],
+            [
+              1990,
+              1997
+            ]
+          ]
+        }
+      },
+      {
+        "score": 16.046757478296364,
+        "seed": "ATAATAATGT",
+        "positions": [
+          170,
+          653,
+          1850
+        ],
+        "base_spacing": 540.75,
+        "missing_copies": 1,
+        "boundary": {
+          "offset_start": 0,
+          "offset_end": 6,
+          "length_nt": 6,
+          "information_bits": 8.023378739148182,
+          "consensus": "ATAATA",
+          "counts": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "boundary_at_search_limit": false,
+          "intervals": [
+            [
+              170,
+              176
+            ],
+            [
+              653,
+              659
+            ],
+            [
+              1850,
+              1856
+            ]
+          ]
+        }
+      }
+    ],
+    "seeds_tested": 163
+  },
+  "PWM_models": [],
+  "extended_search_independent_of_initial": true
+}

@@ -1,0 +1,11 @@
+{
+  "unique_reported_proteins": 293,
+  "downloaded_protein_sequences": 13,
+  "source_contigs": 10,
+  "exact_protein_maps": 13,
+  "unresolved_or_deferred": 280,
+  "source_bytes": 571026,
+  "source_budget": 20000000,
+  "selection": "round_robin_query_rank_bounded",
+  "not_a_prevalence_estimate": true
+}

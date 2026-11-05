@@ -1,0 +1,54 @@
+LOCUS       MGYC001042694086        1171 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  MGYC001042694086
+            ERZ3455898.105221-NODE-105222-length-1171-cov-2.162186.
+ACCESSION   MGYC001042694086
+VERSION     MGYC001042694086
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             complement(9..914)
+                     /protein_id="MGYC001042694086_pgv1"
+                     /locus_tag="MGYC001042694086_pgv1"
+                     /translation="MVEVSKLFEKEERSNDRLIHVDLTNKGHMVAENLTRKLHETNRTM
+                     TNLFLERIDQFRELEEDAIKAVKQYNEILDHGQNMDPEEDNGNIHEEIEEAKYEATLLI
+                     NRHREALEEDGLLDWLRSFIGEKAVKNKVLIDIQNYRYDTNTIQIVNMIVDGVKINRSS
+                     SFSGFLSMYDAYGVTNVRPAIINSKRLTDYLLLIHLFGKKKTSSKKANIVLSKLMELEG
+                     TGDNYQNPGDFHFFIENHQLSDINDGVSSHLYNSNSDNKFINNVLRDRSIHDVYIRRGR
+                     QGVPIGVGRPRNQNMSILDF"
+                     /transl_table=11
+                     /inference="ab initio prediction:Pyrodigal-gv:0.3.2"
+                     /note="Candidate gene call; original deposited features
+                     retained"
+     CDS             complement(917..>1171)
+                     /protein_id="MGYC001042694086_pgv2"
+                     /locus_tag="MGYC001042694086_pgv2"
+                     /translation="RWKYETLRSILHRLHVTQDLNSLTMEPISIQSRLAYYRYVDESGK
+                     ISRLIDKYKEDLDKFGIRVGSKAGYNTGELIEFLNKEGN"
+                     /transl_table=11
+                     /inference="ab initio prediction:Pyrodigal-gv:0.3.2"
+                     /note="Candidate gene call; original deposited features
+                     retained"
+ORIGIN
+        1 ataatatcct aaaagtcaag gattgacatg ttttggttac gaggtcttcc aacgcctatt
+       61 ggtactcctt gacggcctct tcgtatataa acatcatgta tgcttctatc tcttaaaaca
+      121 ttattgatga acttattatc agagttagaa ttatataagt gagaacttac accatcatta
+      181 atatcagaaa gctggtggtt ctctatgaag aagtggaagt cacccgggtt ctgatagtta
+      241 tccccggtcc cttctaactc catgagttta ctcaagacaa tgttagcttt cttagaagac
+      301 gtcttctttt taccaaataa atgaattaag agtagatagt ccgttagacg tttactgttg
+      361 atgatagccg gacgaacatt agttactccg taagcatcat acatagataa gaatccgcta
+      421 aaactactac tccggttgat cttcactcca tcgactatca tattaactat ttgaatggta
+      481 ttagtatcat atcgatagtt ctgaatgtca ataaggactt tatttttaac cgctttttct
+      541 ccaataaagc ttctcagcca gtctaacaat ccatcctctt ctagagcttc tctatgacga
+      601 tttatcagta aggtagcctc atatttggct tcctctattt cttcgtgaat gtttccgtta
+      661 tcttcttctg gatccatatt ctggccgtga tctaggatct cattgtattg ttttacagct
+      721 tttatggcgt cttcttctag ttctcggaac tggtcaatac gctctagaaa gaggttcgtc
+      781 atagttcggt tagtctcatg aagtttccta gttaagttct ctgccaccat atggccttta
+      841 ttcgttaaat caacgtgaat taaacggtca ttagatcgtt cttctttttc aaatagttta
+      901 cttacttcta ccatttttag ttcccttcct tgttcaaaaa ttcaataagt tctccagtgt
+      961 tataaccagc cttactaccc actcggatac cgaatttatc caagtcttct ttatacttat
+     1021 cgatcaagcg actgatcttg ccagattcgt ctacgtaacg ataatatgct aaccgagact
+     1081 ggatactaat aggctccata gtcaaggaat ttaagtcttg agtaacgtga agacggtgaa
+     1141 gaatagaccg gagggtttca tacttccagc g
+//

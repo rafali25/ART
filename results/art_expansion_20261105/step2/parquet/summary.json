@@ -1,0 +1,14 @@
+{
+  "chosen_representatives": [
+    "MGYP001235072058",
+    "MGYP003692697779",
+    "MGYP003692711065",
+    "MGYP007184306783"
+  ],
+  "byte_cap": 100000000,
+  "status": "bounded_query_unavailable_or_budget_limited",
+  "duckdb_version": "1.4.3",
+  "reason": "HTTPException: HTTP Error: Request returned HTTP 503 for HTTP HEAD to 'http://127.0.0.1:40637/mgy_cluster_seqs.parquet'\n\nLINE 1: SELECT cluster_rep,cluster_member FROM read_parquet('http://127.0.0.1:40637/mgy_cluster_seqs.parquet...\n                                               ^",
+  "limitation": "A failed or capped remote column scan is not absence of members or ART loci",
+  "remote_Parquet_bytes": 0
+}

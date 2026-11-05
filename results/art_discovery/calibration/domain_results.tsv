@@ -1,0 +1,5 @@
+protein_id	family	length_aa	sequence_evalue	sequence_bitscore	domain_independent_evalue	domain_bitscore	profile_length	hmm_from	hmm_to	protein_from	protein_to	profile_coverage	passes_screen
+QQM14740.1	ART_RT	501	1.2e-286	948.4	1.3e-286	948.2	500	1	500	1	501	1.0	True
+QPI16926.1	ART_RT	501	4.1e-181	600.2	4.6e-181	600.0	500	1	498	1	499	0.996	True
+QQM14741.1	Type_II_partner	274	3.7e-164	541.7	4.1e-164	541.6	274	1	274	1	274	1.0	True
+QPI16927.1	Type_II_partner	265	6.3e-56	186.8	7.2e-56	186.6	274	1	274	1	264	1.0	True

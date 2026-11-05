@@ -1,0 +1,39 @@
+{
+  "reference_loci": 9,
+  "core_anchored_references": 7,
+  "reference_core_copies": 35,
+  "recovered_reference_core_copies": 35,
+  "exact_paper_22nt_boundaries": 0,
+  "reference_statuses": {
+    "supported_ART_locus_candidate": 5,
+    "ART_locus_requires_review": 4
+  },
+  "reverse_complement_checks_pass": true,
+  "comparison_protein_records": 746,
+  "comparison_unique_sequences": 744,
+  "myRT_reference_family_counts": {
+    "CRISPR": 130,
+    "Retrons": 96,
+    "DGRs": 502
+  },
+  "production_profile_passing_domains": 0,
+  "group_holdout_targets": 9,
+  "group_holdout_recovered": 9,
+  "sequence_cases": 30,
+  "sequence_cases_passing": 27,
+  "sequence_failures": [
+    "imperfect_copies_2",
+    "imperfect_copies_3",
+    "missing_copy_3"
+  ],
+  "synthetic_cases": 27,
+  "null_scores": 60000,
+  "missing_comparison_sets": [
+    "NART"
+  ],
+  "missing_partner_families": [
+    "Type_III_first_partner",
+    "Type_III_second_partner"
+  ],
+  "scale_search_ready": false
+}

@@ -1,0 +1,50 @@
+{
+  "coordinate_convention": "zero_based_half_open",
+  "strand": 1,
+  "length_nt": 13503,
+  "upstream_requested_nt": 6000,
+  "downstream_requested_nt": 6000,
+  "upstream_available_nt": 6000,
+  "downstream_available_nt": 6000,
+  "upstream_shortfall_nt": 0,
+  "downstream_shortfall_nt": 0,
+  "source_topology": "linear",
+  "circularity_support": "none",
+  "wrapped": false,
+  "source_origin_reached": false,
+  "source_end_reached": false,
+  "genomic_left_clipped_nt": 0,
+  "genomic_right_clipped_nt": 0,
+  "circular_request_capped_to_one_contig": false,
+  "locus_id": "MZ779063.1__UAJ17040.1",
+  "accession": "MZ779063.1",
+  "RT_protein_id": "UAJ17040.1",
+  "RT_locus_start0": 6000,
+  "RT_locus_end0": 7503,
+  "partner_ids": "UAJ17041.1",
+  "discovery_routes": "ART_protein_first;partner_first",
+  "source_path": "datasetss/UFV_DC/UFV_DC4_MZ779063.1.gb",
+  "source_file_sha256": "7c9937743d7578cabd6a23451cd0b94d8d8105ad430e2236728c3eb3050f1815",
+  "annotation_source": "original_source_record",
+  "gene_caller_used": false,
+  "ambiguous_nt": 0,
+  "fasta_path": "loci/MZ779063.1__UAJ17040.1.fna",
+  "genbank_path": "loci/MZ779063.1__UAJ17040.1.gb",
+  "gff3_path": "loci/MZ779063.1__UAJ17040.1.gff3",
+  "segments": [
+    {
+      "source_start0": 119251,
+      "source_end0": 132754,
+      "locus_start0": 0,
+      "locus_end0": 13503,
+      "orientation": 1
+    }
+  ],
+  "RT_review": {
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  }
+}

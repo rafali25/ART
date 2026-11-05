@@ -1,0 +1,21 @@
+{
+  "procedure": "DIAMOND very-sensitive E<=1e-5; undirected bit-score>=140 MarsHill component; optional database-cluster expansion >=400aa; MMseqs2 90% identity/80% mutual coverage; longest-contig representatives; FAMSA; FastTree LG",
+  "exact_published_dataset_reproduction": false,
+  "component_proteins": 10,
+  "component_reference_proteins": 0,
+  "expanded_proteins": 10,
+  "cluster_representatives": 7,
+  "architecture_anchors": 1,
+  "available_baseline_RT_loci": 9,
+  "published_initial_phage_RT_count": 12,
+  "published_myRT_reference_count": 2019,
+  "available_myRT_reference_count": 2328,
+  "original_database_cluster_members_available": false,
+  "original_metagenomic_database_available": false,
+  "memory_adjustment": "MMseqs -k 5 --split-memory-limit 1G on this small Windows panel; the paper does not specify these computational settings",
+  "input_limitations": [
+    "Original 12-seed/2019-reference membership is not supplied",
+    "Original 706 added database cluster members and full database representatives are unavailable",
+    "Original 823 proteins/230 clusters/95 representatives are not recreated from this bounded panel"
+  ]
+}

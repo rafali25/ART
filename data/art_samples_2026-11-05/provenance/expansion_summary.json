@@ -1,0 +1,65 @@
+{
+  "raw_pair_records": 49,
+  "analysis_locus_representatives": 46,
+  "pair_or_gene_model_aliases": 3,
+  "typeI_pairs": 36,
+  "typeII_pairs": 10,
+  "complete_typeI_pairs": 31,
+  "complete_strict_screen_typeI_pairs": 18,
+  "complete_partner70_representatives": 19,
+  "current_run_distinct_typeI_pairs": 21,
+  "current_run_complete_typeI_pairs": 19,
+  "typeI_partner70_clusters": 22,
+  "RT_tree": {
+    "sequences": 137,
+    "alignment_columns": 268,
+    "method": "MAFFT_L_INS_i_50pct_occupancy_FastTree_LG_Gamma",
+    "internal_support_kind": "FastTree_local_SH_like_support_not_bootstrap",
+    "internal_nodes_with_support": 123,
+    "nodes_support_at_least_0_9": 58,
+    "independent_lineages_not_established_by_tree_alone": true
+  },
+  "partner_tree": {
+    "sequences": 36,
+    "alignment_columns": 626,
+    "method": "MAFFT_L_INS_i_50pct_occupancy_FastTree_LG_Gamma",
+    "internal_support_kind": "FastTree_local_SH_like_support_not_bootstrap",
+    "internal_nodes_with_support": 32,
+    "nodes_support_at_least_0_9": 20,
+    "independent_lineages_not_established_by_tree_alone": true
+  },
+  "block_feasibility": {
+    "complete_typeI_pairs_with_core_and_ART_screen": 18,
+    "matching_pair_edges": 1,
+    "matching_triples": 0,
+    "disjoint_sequence_matched_blocks_found": 0,
+    "packing_search_exhausted": true,
+    "packing_search_nodes": 0,
+    "necessary_sequence_gate_at_least_8_blocks": false,
+    "confirmed_eligible_independent_blocks": 0,
+    "domain_architecture_and_phylogenetic_dependence_review_complete": false,
+    "confirmatory_structural_design_ready": false,
+    "interpretation": "Sequence-matched candidate blocks are a feasibility upper tier; they do not establish architecture, independence, calibration or power"
+  },
+  "ART_reference_affinity_sensitivity": {
+    "complete_typeI_pairs_with_core_and_ART_screen": 31,
+    "matching_pair_edges": 6,
+    "matching_triples": 0,
+    "disjoint_sequence_matched_blocks_found": 0,
+    "packing_search_exhausted": true,
+    "packing_search_nodes": 0,
+    "necessary_sequence_gate_at_least_8_blocks": false,
+    "confirmed_eligible_independent_blocks": 0,
+    "domain_architecture_and_phylogenetic_dependence_review_complete": false,
+    "confirmatory_structural_design_ready": false,
+    "interpretation": "Sequence-matched candidate blocks are a feasibility upper tier; they do not establish architecture, independence, calibration or power"
+  },
+  "sensitivity_limitation": "Tree-affinity sensitivity is a review scenario; it does not reclassify low-coverage hits or establish validated ART specificity",
+  "new_array_significance_tests": false,
+  "verified_NART_references": 0,
+  "verification": {
+    "pair_source_maps_replayed": 49,
+    "CDS_translations_replayed": 98,
+    "passed": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source_accession": "MGYC003533828254",
+  "source_path": "results/art_type1_mgnify/sources/MGYC003533828254.fna",
+  "source_sha256": "4628a157c30ee8eb006fe5e3d4391bd045d7f26f2a1bf7b62e9e00df183a8592",
+  "segments": [
+    {
+      "source_start0": 0,
+      "source_end0": 5184,
+      "locus_start0": 0,
+      "locus_end0": 5184,
+      "orientation": -1
+    }
+  ],
+  "metadata": {
+    "strand": -1,
+    "length_nt": 5184,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 2221,
+    "downstream_available_nt": 1511,
+    "upstream_shortfall_nt": 3779,
+    "downstream_shortfall_nt": 4489,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": true,
+    "source_end_reached": true,
+    "genomic_left_clipped_nt": 4489,
+    "genomic_right_clipped_nt": 3779,
+    "circular_request_capped_to_one_contig": false
+  }
+}

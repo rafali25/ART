@@ -1,0 +1,19 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JPGD000202_pgv173    -            663 typeI_two_LPJP1_queries.aligned -            697   1.1e-82  284.6  55.3   1   1   1.1e-82   1.1e-82  284.6  55.3   225   675   190   636   138   656 0.86 Viruses_Ang_PGV_seq_8719
+JPGD002482_pgv180    -            663 typeI_two_LPJP1_queries.aligned -            697   1.1e-82  284.6  55.3   1   1   1.1e-82   1.1e-82  284.6  55.3   225   675   190   636   138   656 0.86 Viruses_Ang_PGV_seq_8750
+JPGD000193_pgv123    -            661 typeI_two_LPJP1_queries.aligned -            697   1.6e-66  231.2  45.1   1   1   1.6e-66   1.6e-66  231.2  45.1   203   673   170   634   163   644 0.82 Viruses_Ang_PGV_seq_8708
+JPGD002456_pgv51     -            661 typeI_two_LPJP1_queries.aligned -            697   9.1e-66  228.7  46.4   1   1   9.1e-66   9.1e-66  228.7  46.4   200   673   167   634   148   647 0.82 Viruses_Ang_PGV_seq_8720
+JPGD001252_pgv124    -            489 typeI_two_LPJP1_queries.aligned -            697   5.5e-52  183.2  24.8   1   1   6.8e-52   6.8e-52  182.8  24.8   201   500    98   375    53   480 0.79 Viruses_Ang_PGV_seq_8345
+JPGD001307_pgv236    -            489 typeI_two_LPJP1_queries.aligned -            697   5.5e-52  183.2  24.8   1   1   6.8e-52   6.8e-52  182.8  24.8   201   500    98   375    53   480 0.79 Viruses_Ang_PGV_seq_8404
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# Target file:     /tmp/art-371321-JPGD-b7tdm4nw/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/JPGD/searches/TypeI_two_seed.domtbl --noali -E .001 --domE .001 -Z 1428266 --domZ 1428266 --seed 42 --cpu 1 /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm /tmp/art-371321-JPGD-b7tdm4nw/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Thu Nov  5 01:44:42 2026
+# [ok]

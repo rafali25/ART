@@ -1,0 +1,34 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RVT-Retrons          -            191 LR756488.1__pgv20    -            476   8.4e-36  114.9   0.2   1   1   6.7e-36   1.5e-35  114.1   0.2     5   180   201   380   197   390 0.86 RVT-Retrons
+RVT-DGRs             -            208 LR756488.1__pgv20    -            476   1.5e-13   42.4   0.9   1   1   6.8e-14   1.5e-13   42.4   0.9    46   169   233   354   221   386 0.77 RVT-DGRs
+RVT-CRISPR-G2        -            203 LR756488.1__pgv20    -            476   1.3e-09   29.5   0.0   1   1   2.6e-09   5.8e-09   27.3   0.0     9   162   202   344   195   360 0.74 RVT-CRISPR-G2
+RVT-CRISPR-G3        -            205 LR756488.1__pgv20    -            476   1.5e-09   29.2   0.9   1   1   6.6e-10   1.5e-09   29.2   0.9    23   167   218   350   198   380 0.76 RVT-CRISPR-G3
+RVT-UG4              -            154 LR756488.1__pgv20    -            476   4.8e-09   27.6   0.1   1   1   1.6e-08   3.7e-08   24.7   0.1     8   108   253   346   247   372 0.83 RVT-UG4
+RVT-UG11             -            153 LR756488.1__pgv20    -            476   1.2e-08   26.3   0.2   1   1   2.1e-08   4.8e-08   24.4   0.2    12   125   246   351   235   380 0.82 RVT-UG11
+RVT-UG28             -            215 LR756488.1__pgv20    -            476   1.7e-08   26.1   7.1   1   2    0.0001   0.00023   12.6   2.2    46   110    29    95     7   114 0.75 RVT-UG28
+RVT-UG28             -            215 LR756488.1__pgv20    -            476   1.7e-08   26.1   7.1   2   2   9.2e-06   2.1e-05   16.0   0.2    59   160   249   349   220   369 0.76 RVT-UG28
+RVT-UG17             -            203 LR756488.1__pgv20    -            476   4.7e-08   24.3   0.6   1   1   3.7e-07   8.4e-07   20.2   0.6    15    84   215   286   203   389 0.82 RVT-UG17
+RVT-UG26             -            207 LR756488.1__pgv20    -            476   4.8e-08   24.1   3.7   1   1   1.6e-07   3.7e-07   21.2   1.5    16   159   213   344   200   382 0.68 RVT-UG26
+RVT-CRISPR-G5        -            203 LR756488.1__pgv20    -            476   1.4e-07   22.7   0.0   1   1   2.2e-07   4.9e-07   20.9   0.0    22   157   219   343   200   364 0.69 RVT-CRISPR-G5
+RVT-UG14             -            163 LR756488.1__pgv20    -            476   1.9e-07   22.7   3.3   1   1   1.9e-07   4.2e-07   21.5   0.2    24   154   254   371   245   382 0.79 RVT-UG14
+RVT-CRISPR-G1        -            204 LR756488.1__pgv20    -            476   3.1e-07   21.6   0.0   1   1   6.1e-07   1.4e-06   19.5   0.0    22   173   219   359   199   382 0.70 RVT-CRISPR-G1
+RVT-UG7              -            143 LR756488.1__pgv20    -            476   4.5e-07   21.4   0.1   1   1   5.1e-07   1.1e-06   20.1   0.1    12   124   253   364   245   380 0.80 RVT-UG7
+RVT-GII-II           -            209 LR756488.1__pgv20    -            476   4.9e-07   21.1   0.1   1   1   8.7e-07     2e-06   19.2   0.1     5   167   201   349   197   381 0.74 RVT-GII-II
+RVT-G2L              -            220 LR756488.1__pgv20    -            476   2.4e-06   18.8   3.6   1   1   6.6e-06   1.5e-05   16.2   0.2    62   106   253   298   221   303 0.80 RVT-G2L
+RVT-G2L4             -            197 LR756488.1__pgv20    -            476   7.6e-06   17.0   0.5   1   1   6.7e-05   0.00015   12.7   0.5    66   109   254   298   215   362 0.87 RVT-G2L4
+RVT-UG12             -            156 LR756488.1__pgv20    -            476   1.3e-05   16.7   0.0   1   1   6.2e-05   0.00014   13.4   0.0    16   145   252   370   239   380 0.80 RVT-UG12
+RVT-UG25             -            139 LR756488.1__pgv20    -            476   2.1e-05   16.3   0.1   1   1   3.6e-05   8.1e-05   14.4   0.1     8   119   256   360   249   381 0.79 RVT-UG25
+RVT-UG13             -            160 LR756488.1__pgv20    -            476   3.9e-05   15.1   0.2   1   1   0.00052    0.0012   10.3   0.1    24    58   254   288   234   301 0.77 RVT-UG13
+RVT-UG3              -            164 LR756488.1__pgv20    -            476    0.0008   10.8   5.0   1   1   9.4e-05   0.00021   12.6   0.3    12   107   253   345   246   392 0.65 RVT-UG3
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      results/art_sample_expansion_20261104/panel_screen/environmental_RT_review.faa
+# Target file:     .tools/myRT/Models/HMM/RVT-All.hmm
+# Option settings: .venv/bin/hmmscan --domtblout results/art_sample_expansion_20261104/panel_screen/environmental_RT_myRT.domtbl -E 0.001 --domE 0.001 --cpu 2 .tools/myRT/Models/HMM/RVT-All.hmm results/art_sample_expansion_20261104/panel_screen/environmental_RT_review.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:21:54 2026
+# [ok]

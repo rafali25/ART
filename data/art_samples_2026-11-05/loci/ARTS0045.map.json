@@ -1,0 +1,38 @@
+{
+  "source_accession": "SRR7532897_75",
+  "source_path": "sources/SRC0043.gb",
+  "source_sha256": "5a02b5c76869972fbd335642868f607a2d35a0d1cfd2cbadac334153e8dc402a",
+  "segments": [
+    {
+      "source_start0": 0,
+      "source_end0": 8479,
+      "locus_start0": 0,
+      "locus_end0": 8479,
+      "orientation": 1
+    }
+  ],
+  "metadata": {
+    "strand": 1,
+    "length_nt": 8479,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 66,
+    "downstream_available_nt": 6589,
+    "upstream_shortfall_nt": 5934,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": true,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 5934,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_format": "genbank",
+  "locus_path": "loci/ARTS0045.gb",
+  "sample_id": "ARTS0045",
+  "locus_id": "SRR7532897_75__SRR7532897_75_pgv1",
+  "coordinate_convention": "zero_based_half_open",
+  "original_repository_map": "results/art_sample_expansion_20261104/deferred_acquisition/processed/loci/SRR7532897_75__SRR7532897_75_pgv1.map.json"
+}

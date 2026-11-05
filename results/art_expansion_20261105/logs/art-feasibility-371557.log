@@ -1,0 +1,23 @@
+test_full_peptide_maps_in_all_frames_and_source_orientations (test_art_expansion_workflow.ExactArchivePrefilter.test_full_peptide_maps_in_all_frames_and_source_orientations) ... ok
+test_genetic_code_15_is_retained_by_DNA_prefilter (test_art_expansion_workflow.ExactArchivePrefilter.test_genetic_code_15_is_retained_by_DNA_prefilter) ... ok
+test_multiple_genomic_copies_remain_ambiguous (test_art_expansion_workflow.ExactArchivePrefilter.test_multiple_genomic_copies_remain_ambiguous) ... ok
+test_unterminated_final_record_is_not_promoted_from_partial_object (test_art_expansion_workflow.ExactArchivePrefilter.test_unterminated_final_record_is_not_promoted_from_partial_object) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK
+test_all_frames_and_reverse (test_art_type1_public.TestPublicMappings.test_all_frames_and_reverse) ... ok
+test_alternative_initiator_and_code15 (test_art_type1_public.TestPublicMappings.test_alternative_initiator_and_code15) ... ok
+test_complete_fasta_in_partial_compressed_stream (test_art_type1_public.TestPublicMappings.test_complete_fasta_in_partial_compressed_stream) ... ok
+test_duplicate_mapping_is_not_arbitrarily_chosen (test_art_type1_public.TestPublicMappings.test_duplicate_mapping_is_not_arbitrarily_chosen) ... ok
+test_hmmer_missing_identifier_fails (test_art_type1_public.TestPublicMappings.test_hmmer_missing_identifier_fails) ... ok
+test_hmmer_real_metadata_accession (test_art_type1_public.TestPublicMappings.test_hmmer_real_metadata_accession) ... ok
+test_real_accession_required (test_art_type1_public.TestPublicMappings.test_real_accession_required) ... ok
+test_rvt_first_domain_defines_ntd (test_art_type1_public.TestPublicMappings.test_rvt_first_domain_defines_ntd) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.004s
+
+OK
+CHECKPOINT 5 COMPLETE: {"raw_pair_records": 49, "analysis_locus_representatives": 46, "pair_or_gene_model_aliases": 3, "typeI_pairs": 36, "typeII_pairs": 10, "complete_typeI_pairs": 31, "complete_strict_screen_typeI_pairs": 18, "complete_partner70_representatives": 19, "current_run_distinct_typeI_pairs": 21, "current_run_complete_typeI_pairs": 19, "typeI_partner70_clusters": 22, "RT_tree": {"sequences": 137, "alignment_columns": 268, "method": "MAFFT_L_INS_i_50pct_occupancy_FastTree_LG_Gamma", "internal_support_kind": "FastTree_local_SH_like_support_not_bootstrap", "internal_nodes_with_support": 123, "nodes_support_at_least_0_9": 58, "independent_lineages_not_established_by_tree_alone": true}, "partner_tree": {"sequences": 36, "alignment_columns": 626, "method": "MAFFT_L_INS_i_50pct_occupancy_FastTree_LG_Gamma", "internal_support_kind": "FastTree_local_SH_like_support_not_bootstrap", "internal_nodes_with_support": 32, "nodes_support_at_least_0_9": 20, "independent_lineages_not_established_by_tree_alone": true}, "block_feasibility": {"complete_typeI_pairs_with_core_and_ART_screen": 18, "matching_pair_edges": 1, "matching_triples": 0, "disjoint_sequence_matched_blocks_found": 0, "packing_search_exhausted": true, "packing_search_nodes": 0, "necessary_sequence_gate_at_least_8_blocks": false, "confirmed_eligible_independent_blocks": 0, "domain_architecture_and_phylogenetic_dependence_review_complete": false, "confirmatory_structural_design_ready": false, "interpretation": "Sequence-matched candidate blocks are a feasibility upper tier; they do not establish architecture, independence, calibration or power"}, "ART_reference_affinity_sensitivity": {"complete_typeI_pairs_with_core_and_ART_screen": 31, "matching_pair_edges": 6, "matching_triples": 0, "disjoint_sequence_matched_blocks_found": 0, "packing_search_exhausted": true, "packing_search_nodes": 0, "necessary_sequence_gate_at_least_8_blocks": false, "confirmed_eligible_independent_blocks": 0, "domain_architecture_and_phylogenetic_dependence_review_complete": false, "confirmatory_structural_design_ready": false, "interpretation": "Sequence-matched candidate blocks are a feasibility upper tier; they do not establish architecture, independence, calibration or power"}, "sensitivity_limitation": "Tree-affinity sensitivity is a review scenario; it does not reclassify low-coverage hits or establish validated ART specificity", "new_array_significance_tests": false, "verified_NART_references": 0, "verification": {"pair_source_maps_replayed": 49, "CDS_translations_replayed": 98, "passed": true}}

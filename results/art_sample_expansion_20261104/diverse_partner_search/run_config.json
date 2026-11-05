@@ -1,0 +1,12 @@
+{
+  "database": "mgnify30_c2",
+  "expected_release": "2026_07",
+  "max_jobs": 3,
+  "max_hits_per_query": 50,
+  "remote_report_evalue": 0.001,
+  "max_metadata_proteins": 5,
+  "max_contigs": 3,
+  "max_source_bytes": 5000000,
+  "purpose": "exploratory_public_leads_no_profile_training_or_final_ART_claim",
+  "seed_selection": "Two public archive representatives in distinct 70pct clusters; MGYC representative minimizing maximum global identity to both LPJP1 controls and the first two queries"
+}

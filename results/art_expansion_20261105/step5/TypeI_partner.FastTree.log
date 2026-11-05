@@ -1,0 +1,27 @@
+FastTree Version 2.2.0 Double precision
+Alignment: /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step5/TypeI_partner.trimmed.faa
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.01 seconds
+Refining topology: 21 rounds ME-NNIs, 2 rounds ME-SPRs, 10 rounds ML-NNIs
+      0.10 seconds: ME NNI round 8 of 21, 1 of 33 splits
+Total branch-length 11.786 after 0.21 sec
+      0.20 seconds: ML Lengths 1 of 33 splits
+ML-NNI round 1: LogLk = -27608.613 NNIs 4 max delta 7.54 Time 0.64
+      0.65 seconds: Site likelihoods with rate category 1 of 20
+      0.75 seconds: Site likelihoods with rate category 12 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.023 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+ML-NNI round 2: LogLk = -26250.896 NNIs 0 max delta 0.00 Time 1.04
+Turning off heuristics for final round of ML NNIs (converged)
+      1.03 seconds: ML NNI round 3 of 10, 1 of 33 splits
+ML-NNI round 3: LogLk = -26236.855 NNIs 0 max delta 0.00 Time 1.41 (final)
+      1.40 seconds: ML Lengths 1 of 33 splits
+Optimize all lengths: LogLk = -26236.710 Time 1.51
+      1.79 seconds: Site likelihoods with rate category 1 of 20
+      1.90 seconds: Site likelihoods with rate category 12 of 20
+Gamma(20) LogLk = -26884.293 alpha = 1.777 rescaling lengths by 1.116
+Total time: 1.99 seconds Unique: 35/36 Bad splits: 0/32

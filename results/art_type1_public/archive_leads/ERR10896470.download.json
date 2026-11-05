@@ -1,0 +1,30 @@
+{
+  "run": "ERR10896470",
+  "url": "https://s3.amazonaws.com/logan-pub/c/ERR10896470/ERR10896470.contigs.fa.zst",
+  "status": 206,
+  "headers": {
+    "x-amz-id-2": "Glt3SlTke9zUaHSvdhuyFFI2l2FHgor/LF7+PNLDZ89negr7ADscaHtQ4zdvZiNWMY6pT+MgNF5e41Gmxk0ImYGmeNUMQrhy",
+    "x-amz-request-id": "2TBXQPFAX7C58NBC",
+    "Server": "AmazonS3",
+    "Date": "Tue, 20 Oct 2026 14:02:49 GMT",
+    "Last-Modified": "Mon, 27 Jan 2025 20:58:37 GMT",
+    "ETag": "\"53a8fc4ac8951bb1e0520929a04fd670\"",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Content-Range": "bytes 0-4999999/40966379",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "5000000",
+    "Connection": "close"
+  },
+  "retrieved_utc": "2026-10-20T14:03:10.636369+00:00",
+  "bytes": 10000000,
+  "compressed_prefix_sha256": "695490396b5bfbd49b9a4ade17565d20d60764205396075321e4922b9c9eb07f",
+  "extensions": [
+    {
+      "range": "bytes 5000000-9999999/40966379",
+      "bytes": 5000000,
+      "utc": "2026-10-20T14:09:20.525698+00:00"
+    }
+  ]
+}

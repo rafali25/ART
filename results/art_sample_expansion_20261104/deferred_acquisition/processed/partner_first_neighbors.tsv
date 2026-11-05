@@ -1,0 +1,11 @@
+partner_key	upstream_rank	protein_key	gene_key	accession	protein_id	start0	end0	strand	length_aa	genetic_code	translation_qc	source_parts_json	annotation_method	role	same_orientation	RT_profile_match
+t691d1fe9f58a1cb554	1	t75c184cdd406d9ff47	t75c184cdd406d9ff47	SRR7532897_75	SRR7532897_75_pgv3	5030	6851	1	606	11	complete_translation_matches	[[5030, 6851, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	False
+t691d1fe9f58a1cb554	2	t8580db2b1b8b7d0502	t8580db2b1b8b7d0502	SRR7532897_75	SRR7532897_75_pgv2	1870	4426	1	851	11	complete_translation_matches	[[1870, 4426, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	False
+t691d1fe9f58a1cb554	3	td75f000799c5c5a92c	td75f000799c5c5a92c	SRR7532897_75	SRR7532897_75_pgv1	66	1890	1	607	11	complete_translation_matches	[[66, 1890, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	True
+t8580db2b1b8b7d0502	1	td75f000799c5c5a92c	td75f000799c5c5a92c	SRR7532897_75	SRR7532897_75_pgv1	66	1890	1	607	11	complete_translation_matches	[[66, 1890, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	True
+te2112b79a6cfe0ac12	1	t36a17d5bec88d93054	t36a17d5bec88d93054	ERR3946871_166	ERR3946871_166_pgv35	25135	25765	1	209	11	complete_translation_matches	[[25135, 25765, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	False
+te2112b79a6cfe0ac12	2	t76741f21320fd8b612	t76741f21320fd8b612	ERR3946871_166	ERR3946871_166_pgv34	24872	25139	1	88	11	complete_translation_matches	[[24872, 25139, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	False
+te2112b79a6cfe0ac12	3	tea2105e7afafdbfbe5	tea2105e7afafdbfbe5	ERR3946871_166	ERR3946871_166_pgv33	23783	24860	1	358	11	complete_translation_matches	[[23783, 24860, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	False
+tfcd38347efb9bc7dd8	1	ta2d759a4ce03cddd76	ta2d759a4ce03cddd76	ERR2847180_159	ERR2847180_159_pgv3	1439	2072	1	210	11	complete_translation_matches	[[1439, 2072, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	False
+tfcd38347efb9bc7dd8	2	tcdf20386689e2e2734	tcdf20386689e2e2734	ERR2847180_159	ERR2847180_159_pgv2	1173	1440	1	88	11	complete_translation_matches	[[1173, 1440, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	False
+tfcd38347efb9bc7dd8	3	t41d0dd52f856337009	t41d0dd52f856337009	ERR2847180_159	ERR2847180_159_pgv1	81	1164	1	360	11	complete_translation_matches	[[81, 1164, 1]]	pyrodigal_gv	new_Logan_archive_lead	True	False

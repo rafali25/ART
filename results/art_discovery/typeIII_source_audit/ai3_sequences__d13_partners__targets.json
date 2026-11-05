@@ -1,0 +1,30 @@
+{
+ "A69": {
+  "stem": "A69_ART_69_SRR8925777_19762_9",
+  "len": 594,
+  "sha16": "eef0b618ea607a8d",
+  "tier": "primary",
+  "source": "ART_69_SRR8925777_19762_9_partner.faa"
+ },
+ "A34": {
+  "stem": "A34_ART_34_ERR8055547_17666_12",
+  "len": 890,
+  "sha16": "1570f51874258216",
+  "tier": "secondary",
+  "source": "ART_34_ERR8055547_17666_12_partner.faa"
+ },
+ "L1a": {
+  "stem": "L1a_L1_ERR10896470_6887_1",
+  "len": 852,
+  "sha16": "07d1b0627f621a9f",
+  "tier": "secondary",
+  "source": "L1_ERR10896470_ERR10896470_6887_1_partner.faa"
+ },
+ "L1b": {
+  "stem": "L1b_L1_SRR26805139_816_2",
+  "len": 850,
+  "sha16": "32e161cc391af5b8",
+  "tier": "secondary",
+  "source": "L1_SRR26805139_SRR26805139_816_2_partner.faa"
+ }
+}

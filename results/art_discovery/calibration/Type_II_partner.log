@@ -1,0 +1,86 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  D:\MBZUAI\CRISP\results\art_discovery\profiles\Type_II_partner.hmm
+# target sequence database:        D:\MBZUAI\CRISP\results\art_discovery\calibration\controls.faa
+# per-seq hits tabular output:     D:\MBZUAI\CRISP\results\art_discovery\calibration\Type_II_partner.tbl
+# per-dom hits tabular output:     D:\MBZUAI\CRISP\results\art_discovery\calibration\Type_II_partner.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2076
+# domain search space set to:      2076
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_II_partner  [M=274]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+   3.7e-164  541.7  52.5   4.1e-164  541.6  52.5    1.0  1  QQM14741.1  MW248466.1
+    6.3e-56  186.8  35.3    7.2e-56  186.6  35.3    1.0  1  QPI16927.1  MW218148.1
+
+
+Domain annotation for each sequence (and alignments):
+>> QQM14741.1  MW248466.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  541.6  52.5  4.1e-164  4.1e-164       1     274 []       1     274 []       1     274 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 541.6 bits;  conditional E-value: 4.1e-164
+  Type_II_partner   1 mldinkrkitserinlnlglvedlleemnfnildddhfelainqlenrhlvesfnylksegleelledvlvnnksnsiysteslinnrfhdylm 94 
+                      mldinkrkitser+nlnlglvedlleemnfnildd++felai+q++nrh+vesfnylksegl+ell+dvlvnnk+n +yste linnrfh+ylm
+       QQM14741.1   1 MLDINKRKITSERVNLNLGLVEDLLEEMNFNILDDEEFELAIRQIDNRHIVESFNYLKSEGLDELLKDVLVNNKNNLLYSTEILINNRFHEYLM 94 
+                      9********************************************************************************************* PP
+
+  Type_II_partner  95 fvkrynednekesiindflkineynriefridlfkfsyknilididifllilfgkefyyeyrekynkynintnnkslrnlivntsenfryyene 188
+                      fvkrynednek+siindflkineynri+fridlfkfsyknil+didifll+lfgkefy+eyr+kynk+nintnnkslr+livntsenfryye+e
+       QQM14741.1  95 FVKRYNEDNEKDSIINDFLKINEYNRIKFRIDLFKFSYKNILSDIDIFLLTLFGKEFYHEYRKKYNKSNINTNNKSLRDLIVNTSENFRYYEKE 188
+                      ********************************************************************************************** PP
+
+  Type_II_partner 189 sdynkvidkdkfvdylnttiksyivtlfrvfedeniimdesllytfiykmnyskirkfiydiddgnieikdirreykkylpenili 274
+                      s+y kvidkdkfv+ylnttiksyi+tlfrvfe+eniimdesllytfiykmnyskirkfiydid+gnieikdirreykkylpe+ili
+       QQM14741.1 189 SSYTKVIDKDKFVNYLNTTIKSYIITLFRVFENENIIMDESLLYTFIYKMNYSKIRKFIYDIDNGNIEIKDIRREYKKYLPEKILI 274
+                      ************************************************************************************98 PP
+
+>> QPI16927.1  MW218148.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  186.6  35.3   7.2e-56   7.2e-56       1     274 []       1     264 [.       1     264 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 186.6 bits;  conditional E-value: 7.2e-56
+  Type_II_partner   1 mldinkrkitserinlnlglvedlleemnfnildddhfelainqlenrhlvesfnylksegleelledvlvnnksnsiysteslinnrfhdylm 94 
+                      ml ++krki ++    n gl+ed++ee+ ++ lddd fe a+n l+n+h v+ +nyl+ +g +ell+++l +  s+  ++   li+ r+ +y m
+       QPI16927.1   1 MLSVKKRKIITDLFYYNTGLIEDIIEEIGYGELDDDLFESALNSLDNKHSVKCINYLNVNGQKELLRNILEKSYSDNYFNKYYLIS-RYREYKM 93 
+                      899*******************************************************************9999999999988885.9****** PP
+
+  Type_II_partner  95 fvkrynednekesiindflkine.ynriefridlfkfsyknilididifllilfgkefyyeyrekynkynintnnkslrnlivntsenfryyen 187
+                      fv++yn  +e+   ind++ i   y+r+e+ idlf+f  kn   did +l++l+g ++y ++++     n+ tn  +lrnli+nt++ f   e 
+       QPI16927.1  94 FVNHYNRSEEN--RINDLMSIGYyYGRLELTIDLFRFYEKNT-FDIDFLLITLYGIDYYNKHKDTISGLNLSTNLPTLRNLIINTANRFH--ES 182
+                      ******98765..69******85279***********88886.7*****************************************99774..33 PP
+
+  Type_II_partner 188 esdynkvidkdkfvdylnttiksyivtlfrvfedeniimdesllytfiykmnyskirkfiydiddgnieik.dirreykkylpenili 274
+                             idk+ +++y+n  +k+y  +lfr+f++ ni++d+  ly f+yk nyskir+fi+ id+g+iei   i  ey +ylp +i+i
+       QPI16927.1 183 -----GEIDKEGLLEYINGEMKEYFEALFRIFNERNIMVDDD-LYLFLYKANYSKIRNFIHLIDKGEIEIYsHILDEYEDYLPTKIMI 264
+                      .....349*****************************99987.69************************96379************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (274 nodes)
+Target sequences:                         57  (31881 residues searched)
+Passed MSV filter:                        13  (0.22807); expected 1.1 (0.02)
+Passed bias filter:                        2  (0.0350877); expected 1.1 (0.02)
+Passed Vit filter:                         2  (0.0350877); expected 0.1 (0.001)
+Passed Fwd filter:                         2  (0.0350877); expected 0.0 (1e-05)
+Initial search space (Z):               2076  [as set by --Z on cmdline]
+Domain search space  (domZ):            2076  [as set by --domZ on cmdline]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 1316.09
+//
+[ok]

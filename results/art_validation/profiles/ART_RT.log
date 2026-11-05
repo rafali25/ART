@@ -1,0 +1,2113 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  D:\MBZUAI\CRISP\results\art_discovery\profiles\ART_RT.hmm
+# target sequence database:        D:\MBZUAI\CRISP\results\art_validation\comparison_proteins.faa
+# per-seq hits tabular output:     D:\MBZUAI\CRISP\results\art_validation\profiles\ART_RT.tbl
+# per-dom hits tabular output:     D:\MBZUAI\CRISP\results\art_validation\profiles\ART_RT.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2076
+# domain search space set to:      2076
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ART_RT  [M=500]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                           -----------
+    3.5e-31  105.6   3.6    4.4e-31  105.3   3.6    1.0  1  YP_001341285.1_Retrons                              
+    2.6e-30  102.8   6.4    3.1e-30  102.5   6.4    1.1  1  YP_003286925.1_Retrons                              
+    1.6e-29  100.2  13.7      2e-29   99.8  13.7    1.1  1  YP_002877705.1_Retrons                              
+    3.8e-29   98.9   8.6    4.8e-29   98.5   8.6    1.1  1  ACY91017.1_Retrons                                  
+    4.3e-28   95.4  13.6    5.4e-28   95.1  13.6    1.1  1  AGV11482.1_Retrons                                  
+    3.6e-25   85.8   8.7    4.4e-25   85.5   8.7    1.1  1  YP_004067647.1_Retrons                              
+    5.2e-25   85.3   4.4    6.7e-25   84.9   4.4    1.0  1  CBK79388.1_Retrons                                  
+    1.9e-24   83.4  15.9    1.9e-24   83.4  15.9    1.6  1  YP_005044853.1_Retrons                              
+    2.6e-24   82.9   0.7    6.1e-24   81.7   0.0    1.8  1  NP_875004.1_Retrons                                 
+    1.2e-23   80.8   5.0    1.6e-23   80.4   5.0    1.1  1  YP_004467069.1_Retrons                              
+    2.5e-23   79.7  15.7    2.5e-23   79.7  15.7    2.2  1  AER32995.1_Retrons                                  
+      2e-22   76.7   0.1    2.5e-22   76.4   0.1    1.1  1  YP_001672748.1_Retrons                              
+      7e-22   74.9  17.9    3.2e-11   39.8   0.1    2.8  2  YP_397646.1_Retrons                                 
+      1e-21   74.4   1.2    1.9e-21   73.5   1.2    1.3  1  YP_001864131.1_Retrons                              
+    1.8e-21   73.5   7.2    6.5e-21   71.7   5.8    2.2  1  AFM05814.1_Retrons                                  
+    3.6e-21   72.6   0.0    3.6e-20   69.3   0.0    2.2  1  YP_721852.1_Retrons                                 
+    3.8e-21   72.5   2.2    4.7e-21   72.2   2.2    1.1  1  AGF79254.1_Retrons                                  
+    1.5e-20   70.6  15.2    1.5e-20   70.6  15.2    1.9  1  CBL38232.1_Retrons                                  
+      6e-20   68.6   0.0    8.2e-20   68.1   0.0    1.1  1  YP_002384961.1_Retrons                              
+    2.5e-19   66.5   7.1    3.9e-19   65.9   7.1    1.2  1  YP_004866389.1_Retrons                              
+    5.8e-19   65.3   5.0    9.3e-19   64.6   5.0    1.4  1  YP_323757.1_Retrons                                 
+    6.9e-19   65.1   2.1    9.3e-19   64.6   2.1    1.3  1  AFZ23440.1_Retrons                                  
+      7e-19   65.0  31.1      9e-19   64.7  31.1    1.0  1  YP_002152074.1_Retrons                              
+    1.6e-18   63.8   0.0    2.2e-18   63.4   0.0    1.1  1  YP_002218754.1_Retrons                              
+    2.3e-18   63.3   2.8    4.1e-17   59.2   0.7    2.1  1  AEX51577.1_Retrons                                  
+    3.9e-18   62.6   0.0      8e-18   61.6   0.0    1.4  1  CBW21586.1_Retrons                                  
+    5.2e-18   62.2   3.2    9.4e-18   61.3   3.2    1.3  1  YP_963777.1_Retrons                                 
+    1.3e-17   60.9   0.0    1.1e-16   57.8   0.0    1.9  1  CBK78440.1_Retrons                                  
+    2.1e-17   60.2   3.7    2.6e-17   59.9   3.7    1.1  1  YP_002891920.1_Retrons                              
+    4.8e-17   59.0  13.0    6.2e-17   58.6  13.0    1.1  1  CBX35399.1_Retrons                                  
+      1e-16   57.9   0.0    2.3e-16   56.8   0.0    1.4  1  YP_435102.1_Retrons                                 
+      6e-16   55.4   0.0      1e-15   54.6   0.0    1.3  1  YP_003813144.1_Retrons                              
+    7.3e-16   55.1   0.0    2.5e-15   53.3   0.0    1.9  1  YP_001736173.1_Retrons                              
+    2.2e-15   53.5   0.0    3.4e-15   52.9   0.0    1.2  1  YP_004328208.1_Retrons                              
+    8.9e-15   51.5   0.0    1.2e-14   51.1   0.0    1.2  1  CBL03706.1_Retrons                                  
+    2.6e-13   46.7   0.5    3.4e-13   46.3   0.5    1.0  1  YP_002989002.1_Retrons                              
+    1.2e-12   44.4   3.8    2.3e-12   43.5   3.8    1.3  1  EPR43525.1_Retrons                                  
+    1.9e-12   43.8   3.3    2.6e-12   43.3   3.3    1.2  1  YP_004753235.1_Retrons                              
+    3.2e-12   43.1  12.0    3.6e-12   42.9  12.0    1.1  1  ADP10728.1_Retrons                                  
+    8.6e-12   41.6   8.1    4.7e-11   39.2   8.1    1.8  1  ERC54366.1_Retrons                                  
+    9.4e-12   41.5  26.9    1.2e-11   41.1  26.9    1.1  1  YP_002987976.1_Retrons                              
+    1.2e-11   41.2   0.0    3.7e-11   39.6   0.0    1.7  1  AFY96279.1_Retrons                                  
+    1.2e-11   41.1   0.0    7.3e-11   38.6   0.0    1.8  1  YP_628423.1_Retrons                                 
+      2e-11   40.5   0.2    2.6e-11   40.1   0.2    1.2  1  AAA61471.1                                          retron
+      2e-11   40.5   0.2    2.6e-11   40.1   0.2    1.2  1  sp|P23070.1_Retrons                                 
+    2.9e-11   39.9   0.0    2.2e-10   37.0   0.0    2.0  1  AAL40743.1_Retrons                                  
+    8.2e-11   38.4   0.0    9.9e-10   34.8   0.0    2.0  1  YP_001213017.1_Retrons                              
+      1e-10   38.1  14.8    1.5e-10   37.6  14.8    1.2  1  YP_211737.1_Retrons                                 
+    2.4e-10   36.9   0.0    4.1e-10   36.1   0.0    1.3  1  AGU51509.1_Retrons                                  
+      9e-10   35.0   0.8    1.2e-09   34.6   0.8    1.1  1  CBK78627.1_Retrons                                  
+      1e-09   34.8   5.6    1.1e-09   34.7   5.6    1.1  1  CBW21731.1_Retrons                                  
+    1.1e-09   34.6   4.1    1.1e-09   34.6   4.1    2.1  1  EQL86843.1_Retrons                                  
+    1.5e-09   34.3   5.3    2.2e-09   33.7   5.3    1.3  1  YP_204427.1_Retrons                                 
+    1.5e-09   34.3   1.9    2.1e-09   33.8   1.9    1.3  1  ERE33866.1_Retrons                                  
+    1.9e-09   33.9   0.0    1.1e-08   31.4   0.0    1.9  1  ZP_01463804.1_Retrons                               
+    2.9e-09   33.3   0.0    2.6e-08   30.2   0.0    1.9  1  YP_003266012.1_Retrons                              
+    3.3e-09   33.1   0.4    4.8e-09   32.6   0.4    1.2  1  YP_002603182.1_Retrons                              
+    3.6e-09   33.0   0.5    5.9e-09   32.3   0.5    1.2  1  AFM35311.1_Retrons                                  
+    5.1e-09   32.5   0.0    8.3e-05   18.6   0.0    2.0  1  EPN32446.1_Retrons                                  
+    1.3e-08   31.2   0.0     0.0012   14.8   0.0    2.1  0  YP_002871546.1_Retrons                              
+    2.3e-08   30.3   0.0    3.4e-08   29.8   0.0    1.1  1  WP_055043549.1_CRISPR                               
+    2.4e-08   30.3   9.2      3e-08   29.9   9.2    1.1  1  YP_001840884.1_Retrons                              
+    1.2e-07   28.0   0.4    1.7e-07   27.4   0.4    1.2  1  NP_793699.1_Retrons                                 
+    2.4e-07   27.0   3.1    4.9e-07   26.0   3.1    1.4  1  KJR40057.1_CRISPR                                   
+      3e-07   26.7   0.0    4.2e-07   26.2   0.0    1.1  1  AFR49048.1_Retrons                                  
+    3.2e-07   26.6   8.4    1.5e-06   24.4   8.4    1.8  1  CBK99617.1_Retrons                                  
+    3.7e-07   26.4   0.0    3.5e-05   19.9   0.0    2.0  1  YP_437792.1_Retrons                                 
+    4.9e-07   26.0   0.0    8.9e-07   25.1   0.0    1.3  1  AFY99362.1_CRISPR                                   
+    7.8e-07   25.3   6.4      1e-06   24.9   6.4    1.2  1  YP_004514099.1_Retrons                              
+    8.8e-07   25.1   8.1    8.7e-06   21.8   6.9    2.5  1  YP_736562.1_Retrons                                 
+    1.8e-06   24.1   0.0    9.1e-06   21.8   0.0    1.8  1  YP_002498363.1_Retrons                              
+      2e-06   24.0   0.0      0.015   11.2   0.0    2.0  0  YP_001893694.1_Retrons                              
+      2e-06   23.9   0.0    5.3e-06   22.6   0.0    1.6  1  YP_583625.1_Retrons                                 
+    3.1e-06   23.3   0.0    4.7e-06   22.7   0.0    1.2  1  WP_010995638.1_CRISPR                               
+    3.8e-06   23.0   0.0    4.8e-06   22.7   0.0    1.1  1  WP_028490526.1_CRISPR                               
+    4.5e-06   22.8   0.0    6.8e-06   22.2   0.0    1.3  1  YP_217686.1_Retrons                                 
+    6.1e-06   22.4   0.1    8.5e-06   21.9   0.1    1.1  1  SRS055982_Baylor_scaffold_18092_38994_39992_+_DGRs  
+    7.6e-06   22.0   0.0     0.0003   16.7   0.0    2.1  1  YP_001107822.1_Retrons                              
+    9.7e-06   21.7   0.2    2.4e-05   20.4   0.0    1.6  1  AFY33126.1_CRISPR                                   
+    1.1e-05   21.5   0.0    1.9e-05   20.8   0.0    1.2  1  WP_038188758.1_CRISPR                               
+    1.5e-05   21.1   0.0    0.00037   16.5   0.0    2.0  1  YP_633868.1_Retrons                                 
+    2.1e-05   20.6   0.1    2.9e-05   20.1   0.1    1.2  1  WP_015201683.1_CRISPR                               
+    2.6e-05   20.3   2.3    5.1e-05   19.3   2.3    1.5  1  NZ_JH114142.1_231164_232474_-_DGRs                  
+      6e-05   19.1   0.0    8.9e-05   18.5   0.0    1.2  1  KYC43938.1_CRISPR                                   
+    6.4e-05   19.0   0.0    9.4e-05   18.4   0.0    1.2  1  WP_029630506.1_CRISPR                               
+    7.9e-05   18.7   0.0    0.00011   18.2   0.0    1.2  1  AFY57343.1_CRISPR                                   
+    0.00021   17.3   0.5    0.00021   17.3   0.5    2.2  1  NZ_JH376870.1_861936_862973_+_DGRs                  
+    0.00023   17.1   0.0    0.00037   16.5   0.0    1.2  1  ADN17996.1_CRISPR                                   
+    0.00026   17.0   0.0      0.047    9.5   0.0    2.0  0  YP_002153510.1_Retrons                              
+     0.0003   16.8   0.0      0.003   13.5   0.0    2.0  0  AGM03404.1_Retrons                                  
+    0.00044   16.2   0.0    0.00063   15.7   0.0    1.1  1  WP_019606016.1_CRISPR                               
+    0.00047   16.1   0.0    0.00077   15.4   0.0    1.2  1  KFB71594.1_CRISPR                                   
+    0.00049   16.1   0.0    0.00082   15.3   0.0    1.3  1  YP_001750449.1_Retrons                              
+    0.00066   15.6   0.0    0.00083   15.3   0.0    1.2  1  WP_012599795.1_CRISPR                               
+
+
+Domain annotation for each sequence (and alignments):
+>> YP_001341285.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.3   3.6   4.4e-31   4.4e-31     204     487 ..      28     296 ..       5     307 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 105.3 bits;  conditional E-value: 4.4e-31
+                  ART_RT 204 fktfyieksdGtk.reinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnch 289
+                             +k + i+k + +k r i  P +e++   +   +il++il +  +k  +     ay++g+ ikdna+ h + k+++k+d  +ff++  
+  YP_001341285.1_Retrons  28 YKVYEIPKRNSEKtRVIAHPSKELKFFQRILIEILDEILPV--HKASF-----AYQKGVGIKDNAQQHTNSKYLLKMDFKDFFPS-- 105
+                             78889***99866377889**99998888888888888764..45555.....9*******************************.. PP
+
+                  ART_RT 290 fdykkenlffslkdedyvm..erfedtlkdllf..rednkgly..lGsplspaasnlimvpvlryinnilskfktdikvtvyaddit 370
+                                    lff + ++++v   er +  lk llf  r+  +gl   +G+p sp +sn+im    + i +  sk   +ik t yadd+t
+  YP_001341285.1_Retrons 106 ---ITPALFFEVAEKHGVAlnERDKMVLKGLLFwkRKGVEGLVlsIGAPSSPLISNFIMSFFDEAISEECSKR--KIKYTRYADDVT 187
+                             ...6789*********996437777888*****4444556665227****************9*****99998..8*********** PP
+
+                  ART_RT 371 fssneindefnkkrlkslvnhafkvnglkfklkeekslvl.knhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikg 456
+                             fs+ + n+ f+   + +lv + +k n     ++  k+++  + h r++tG+t+  +  ++i ++r r + ++ih  +++ ++    +
+  YP_001341285.1_Retrons 188 FSTRVKNNLFE---IPNLVSNLLKSNVSGVYINSAKTIFTsRAHNRHVTGVTLTNEGGLSIGRERKRLISSMIHK-SQYNKL----T 266
+                             ********997...67788899***************986379************************99998885.333333....3 PP
+
+                  ART_RT 457 fetplelvslinyyldvdttekvkklmdkne 487
+                              e+  +l++li+y  +++  + + ++++k+ 
+  YP_001341285.1_Retrons 267 SEEASKLLGLISYATHIE-PDFFERMVKKYG 296
+                             478899********9996.456666666664 PP
+
+>> YP_003286925.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.5   6.4   3.1e-30   3.1e-30     205     452 ..      31     267 ..      10     318 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 102.5 bits;  conditional E-value: 3.1e-30
+                  ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                             k + i+k    +r i +P   ++++ +     l   + + + ky+  e   ay +gksi dna+ hk+n  i+k+d  +ff++    
+  YP_003286925.1_Retrons  31 KVYTIPKRTKGERVIAQPSPFVKEVQRT----L---ISVFLTKYKPSEVSTAYVEGKSIIDNAEAHKDNDWILKLDFKNFFPS---- 106
+                             5566777777777777776555444333....3...34457899999999*********************************.... PP
+
+                  ART_RT 292 ykkenlffslkdedy.vmerfedtl.kdllfrednkgl..ylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssn 374
+                               k n  f++++ ++ v+  f +++    lfr +n++l   +G+p sp +snlim  + + i+   +     i  t yadd+tfs+ 
+  YP_003286925.1_Retrons 107 -LKPNDLFTFLEREGvVIGEFDKKIlSSYLFRRNNRKLelSIGAPSSPLVSNLIMKSIDNKIEGYCNDN--SIVYTRYADDLTFSTM 190
+                             .7788888888776616789987652789******9962267***************999999998877..9*************98 PP
+
+                  ART_RT 375 eindefnkkrlkslvnhafkvnglkfklkeekslvl.knhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefk 452
+                               ++    k+ +  v      +  k+ ++++k+ v+ +++ r++tG+ + h++++++ +   +++r+++h  ++ +  k
+  YP_003286925.1_Retrons 191 DLDKIDALKQYIAAVLS--ETKSPKLSINDSKTKVIgRGRSRRVTGIVLTHENKLSVGRYSRKKIRAMVHHYSNRTIKK 267
+                             76554444444444433..456889*******97774899*****************999999*****99887765444 PP
+
+>> YP_002877705.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.8  13.7     2e-29     2e-29     197     458 ..      34     289 ..      12     318 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 99.8 bits;  conditional E-value: 2e-29
+                  ART_RT 197 knrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdisk 283
+                             + r  + +k + i+k +  +r i  P  +++   ++   iln  l +  ++  +     ay +g+sikdna++h +  +++k+d  +
+  YP_002877705.1_Retrons  34 EVRGSHAYKVYSIPKRKAGRRTIAHPSSKLKICQRHLNAILNPLLKV--HDSSY-----AYVKGRSIKDNALVHSHSAYVLKMDFQN 113
+                             556667899999*******************9999999999999855..44555.....89************************** PP
+
+                  ART_RT 284 ffdnchfdykkenlffslkdedyvmerfe.dtlkdllf....rednkglyl..Gsplspaasnlimvpvlryinnilskfktdikvt 363
+                             ff++         l+  l ++d ++   e ++l++l f    ++ n +l l  Gsp+sp +sn im p  + in+i  k+  +i  t
+  YP_002877705.1_Retrons 114 FFNSIT----PTILRQCLIQNDILLSVNElEKLEQLIFwnpsKKRNGKLILsvGSPISPLISNAIMYPFDKIINDICTKH--GINYT 194
+                             ****44....3344445555555444332256777777333256677765433***************************..***** PP
+
+                  ART_RT 364 vyadditfssneindefnkkrlkslvnh.afkvnglkfklkeekslv.lknhkrkitGltvnhndeptisqkryrqlrtii.hllnk 447
+                              yadditfs+n+ n  +n  +l ++v++   + +  +  +++ k+++  k h r++tG+t+  + + +i + r r + +++ + +nk
+  YP_002877705.1_Retrons 195 RYADDITFSTNIKNT-LN--KLPEIVEQlIIQTYAGRIIINKRKTVFsSKKHNRHVTGITLTNDSKISIGRSRKRYISSLVfKYINK 278
+                             ***********9885.55..4777777724678999*********983699******************888888887755257888 PP
+
+                  ART_RT 448 gvefkdikgfe 458
+                               ++ +i+  +
+  YP_002877705.1_Retrons 279 NLDIDEINHMK 289
+                             88877776555 PP
+
+>> ACY91017.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.5   8.6   4.8e-29   4.8e-29     204     448 ..      29     265 ..      13     288 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 98.5 bits;  conditional E-value: 4.8e-29
+              ART_RT 204 fktfyieksdG.tkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdyk 293
+                         +k ++i k +  +kr i  P +e++ i +++++ l         k+ + e   ay++g sik na++h++ k+++k+d  +ff++     +
+  ACY91017.1_Retrons  29 YKIYKIAKRNSdKKRTIAHPSKELKFIQREITEYLTD-------KLPVHECAFAYKKGSSIKTNAQVHLHTKYLLKMDFENFFPSIT--PR 110
+                         566788887753789************9999988865.......556678889********************************54..33 PP
+
+              ART_RT 294 kenlffslkdedyvmerfedtlkdllf....rednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindef 380
+                         +  + + l + d   +  +  l+++lf    r+ n +l +G+p sp +sn++m      +++i sk   ++  t yadd+tfs+n+ +  f
+  ACY91017.1_Retrons 111 LFFSKLRLANIDLTADD-KVLLENILFfkskRNSNLRLSIGAPSSPLISNFVMYFWDIEVQEICSKI--GVNYTRYADDLTFSTNNKDVLF 198
+                         32222333333332222.22344444422227788999***************999999*******9..****************999999 PP
+
+              ART_RT 381 nkkrlkslvnhaf.kvnglkfklkeekslv.lknhkrkitGltvnhndeptisqkryrqlrtiihllnkg 448
+                         +      + ++ + k    + ++++ek+++  k+h r++tG+t+  +++++i ++r r++ ++ih + +g
+  ACY91017.1_Retrons 199 DIP---DMLENVLpKYSLGRIRINHEKTVFsSKGHNRHVTGITLTNDNKLSIGRERKRKISAMIHHFING 265
+                         854...444444315556699*******98369*******************************976655 PP
+
+>> AGV11482.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.1  13.6   5.4e-28   5.4e-28     203     445 ..      27     263 ..       6     286 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 95.1 bits;  conditional E-value: 5.4e-28
+              ART_RT 203 tfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnch.fdy 292
+                          +k + i+k +G  rei +P   ++ il+  +  ln      ++ky++ +  iay ++k ikd  + h +nk+++k+d  +ff++ + +d+
+  AGV11482.1_Retrons  27 RYKSYNIKKRHGGTREIAEPTRSLK-ILQ--SWALN----KYLSKYKIHPSAIAYVKNKNIKDFVLPHSNNKYLLKIDFKNFFNSIKgIDF 110
+                         688999**************99886.554..44455....5569****************************************9643555 PP
+
+              ART_RT 293 k..ken..lffslkdedyvmerfedtlkdllfrednkglyl..Gsplspaasnlimvpvlryinnilskfktdikvtvyadditfssnein 377
+                            +e+  + +s  + + +++ f  + k      + k+lyl  G+p sp +sn+im++    i ++      ++  t yadd++fs+n+ n
+  AGV11482.1_Retrons 111 LhfLEDkkSDLSNEERHLLTNIFFCKNKT----SESKELYLsiGAPSSPFISNIIMIDFDDQISQLCANI--GVTYTRYADDLAFSTNNPN 195
+                         31123300233333334444444433333....56788996559*********************99998..9***************877 PP
+
+              ART_RT 378 ..defnkkrlkslvnhafkvnglkfklkeekslvl.knhkrkitGltvnhndeptisqkryrqlrtiihll 445
+                           de+ +   ++++ + +  + +k+ ++ ek+++  + h r +tGl +  + + +i +++ r+lr i h  
+  AGV11482.1_Retrons 196 ilDELLE--EIEIICKNLN-YPKKLEINSEKTVFTsRKHNRTLTGLVISNDGKISIGREKKRKLRVIAHKA 263
+                         3355433..2344444443.789*********9863789****************************9965 PP
+
+>> YP_004067647.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.5   8.7   4.4e-25   4.4e-25     204     445 ..      29     262 ..       8     285 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 85.5 bits;  conditional E-value: 4.4e-25
+                  ART_RT 204 fktfyieksdGtkre.insPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnch 289
+                             +k++ i k +  +r  i  P +e++ + +    +l + l+   dk+ +     ay ++k ik na+ hk+n++++k+d  +ff +  
+  YP_004067647.1_Retrons  29 YKKYTIAKRNSDERRlIAHPSKEVKFLQR----LLVTHLE---DKLTIHASANAYVKQKGIKSNALAHKDNQYLLKMDFKNFFLSIT 108
+                             78899999888776526678888876544....4445554...34455556679*******************************66 PP
+
+                  ART_RT 290 fdykken.lffslkdedyvmerfedtlkdllf....rednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditf 371
+                                  e  l f +    ++ +r  +++  +lf    r+   +l +G+p sp +sn+im +  r i++  +    +i  t yadd++f
+  YP_004067647.1_Retrons 109 PSILIEQmLAFGI----GLDDRNIEFISGILFwklrRNSPLRLSIGAPSSPFISNVIMYNFDRLIEKECKVM--GITYTRYADDLAF 189
+                             5544433134444....5556666777777772221455568999*********************988777..************* PP
+
+                  ART_RT 372 ssneindefnkkrlkslvnhafkvnglkfklkeekslv.lknhkrkitGltvnhndeptisqkryrqlrtiihll 445
+                             s+n+ +  f+  +l +  n   k++g k +++ +k+++  k   r+itG+t+  n+ ++i +k+ r + +++h  
+  YP_004067647.1_Retrons 190 STNIKDILFEIPKLVK--NTLKKLYGSKIRVNTKKTVFsSKKFNRHITGITLTNNNLLSIGRKKKRFISSLVHKY 262
+                             ****999998655543..67779*************98358899**********************999999864 PP
+
+>> CBK79388.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.9   4.4   6.7e-25   6.7e-25     202     440 ..      26     253 ..      15     272 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 84.9 bits;  conditional E-value: 6.7e-25
+              ART_RT 202 etfktfyieksdGtkreinsPieeirpilkkqasilnail.dlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                         +++ ++yi+k +G+ r i +P +e++ +      +l +i+  + +++y       ay +g s++ na +hke ++++  di++ff++    
+  CBK79388.1_Retrons  26 NLYAKYYIPKKNGRYRLILQPSKELKVLQ---RWLLRNIFaYFPVSEYSS-----AYSKGNSVRKNAAVHKEGRYLLHTDITNFFPTISRT 108
+                         899*******************9998542...234444441345666665.....*******************************97654 PP
+
+              ART_RT 292 ykke..nlffslkdedyvmerfedtlkdl.lfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneinde 379
+                           k+   +  sl  + ++ +   + + d+ l+r +n  l +Gs  sp ++n++m      ++++l+ f    + t yaddi  ss    de
+  CBK79388.1_Retrons 109 MLKQyfQSNESLTRKLGMADEDIELILDIcLYRGEN--LVVGSVASPQIANMLMYAFDLELKQMLDDF-GSFRYTRYADDIVISSMSFIDE 196
+                         444311334467777788888888877752566655..99****************************.99**************988887 PP
+
+              ART_RT 380 fnkkrlkslvnhafkvnglkfklkeekslvl.knhkrkitGltv.nhndeptisqkryrqlrt 440
+                            k+  +l+       +  fk+++ek+ ++ kn kr++tG+ + n ++ +ti +k+y++++ 
+  CBK79388.1_Retrons 197 QVLKQTEQLM------IKYGFKMNHEKTYYMgKNGKRQVTGIVLdNNRNALTIGNKKYKKFQR 253
+                         5555554443......245689999*****98999*******99456789********99764 PP
+
+>> YP_005044853.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.4  15.9   1.9e-24   1.9e-24     198     455 ..      42     280 ..      32     325 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 83.4 bits;  conditional E-value: 1.9e-24
+                  ART_RT 198 nrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgk..sikdnadyhkenktiikfdis 282
+                             ++  + +k+fyi+k dGt rei sP   ++ i   q  il++il    +k  l e  +ay++gk   ik na  h+   +i+ +di 
+  YP_005044853.1_Retrons  42 KKTENYYKRFYIKKRDGTSREILSPTYSLKLI---QRWILKEIL----EKVSLSEQAMAYKKGKnnGIKKNAMHHRYSLYILEMDIK 121
+                             4556889********************99987...456888887....58899********987336******************** PP
+
+                  ART_RT 283 kffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyaddi 369
+                             +ff +     k+e +f+ +k+  y  +   + l +  +   n  l  G   sp +snli   + + +  +  k   di  t yadd+
+  YP_005044853.1_Retrons 122 DFFHS----IKRERVFYLFKNLGY-NNMVSNILTN--LCTYNGYLPQGGVCSPYISNLICYRLDNRLSGLCGKR--DILYTRYADDL 199
+                             *****....799999999999877.4556666666..56789999************************99998..*********** PP
+
+                  ART_RT 370 tfssneindefnkkrlkslvnhafkvnglkfklkeekslvlk.nhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdik 455
+                             tfss+  n++  +k +  ++n    ++++ fk++++k+ +l  + ++k+tG+tvn   +   s++  r +r++ih     +++ +i 
+  YP_005044853.1_Retrons 200 TFSSD--NKQTLTKAINIIINI---IEDEGFKVNKNKTRLLSpGSHKKVTGITVNDS-KIKASKQLKRTVRAMIHQAIVTADYSQID 280
+                             ***96..555556666666663...67788*******9777538899********75.5677888899*******654444443333 PP
+
+>> NP_875004.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.7   0.0   6.1e-24   6.1e-24     185     446 ..     170     426 ..     159     440 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 81.7 bits;  conditional E-value: 6.1e-24
+               ART_RT 185 nslelllksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenk 274
+                          nsl+ l      + + ++ +++f i+k  G  r i sP   +r+  k    il++il+    k+++     a+r gksi dna++h + k
+  NP_875004.1_Retrons 170 NSLQWLTYE--RDSQKIDHYTRFEIPKKSGGSRLISSPKPALRNAQK---WILESILN----KLDIHSAATAFRPGKSILDNAKLHANSK 250
+                          555555443..34678**********************999998755...68888875....788888899******************* PP
+
+               ART_RT 275 tiikfdiskffdnchfdykken.lffslkdedyvmerfe...........dtlkdllfre.dnkglylGsplspaasnlimvpvlryinn 351
+                           ++++d+ +ff++    + ++  lf sl  + ++   f            ++  +  f++   ++l  G+  spa +nli  ++ r +++
+  NP_875004.1_Retrons 251 VVLRLDLKDFFPSIT--FIRIRgLFESLGYNPGISTVFSllctdspriilKYHGETHFVKvGPRNLPQGACTSPALANLIAHKLDRRLQK 338
+                          *************55..444431333444444554444311111111111233334565524578999*************999999999 PP
+
+               ART_RT 352 ilskfktdikvtvyadditfssneindefnkkrlkslvnhafkv.nglkfklkeekslvlkn.hkrkitGltvnhndeptisqkryrqlr 439
+                            +k   + + + yadd+ fssn   +e+   rl   v  a k+   + f+++++k+ +++  h++ +tGl vn   +  is++  r++r
+  NP_875004.1_Retrons 339 YTEKI--GWIYSRYADDLVFSSNA--EEMPAYRL---VKAASKIvASEGFRINKHKTNIMRHpHRQTVTGLVVNK--DVRISRNDLRKFR 419
+                          98888..999************97..45666665...556666515778*********9987366679*****96..6889********* PP
+
+               ART_RT 440 tiihlln 446
+                          + +h  +
+  NP_875004.1_Retrons 420 AFLHHCE 426
+                          9998654 PP
+
+>> YP_004467069.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.4   5.0   1.6e-23   1.6e-23     198     486 ..      23     297 ..       3     307 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 80.4 bits;  conditional E-value: 1.6e-23
+                  ART_RT 198 nrnvetfktfyieksdGt.kreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdisk 283
+                             n+  + +k ++i+k +G   r i +P +e++ + +k a +    ldl ++k  +     ay +g  ik na+ h +n++++k+d s+
+  YP_004467069.1_Retrons  23 NKAPHRYKVYKIPKRNGSgSRVIAQPAKELKVL-QKSA-LNMPLLDLPVHKSAF-----AYMEGIGIKQNAQKHSKNQYLLKMDFSD 102
+                             566678999********84688999**999865.4433.333578999998887.....**************************** PP
+
+                  ART_RT 284 ffdnchfdykkenlffslkdedyvme.rfedtlkdllf..r..ednkglylGsplspaasnlimvpvlryinnilskfkt..dikvt 363
+                             ff++        +l   + ++++ +e + +  lk+l f  +    +++l +G+p sp  sn i+ +     ++i++ + t  +i  t
+  YP_004467069.1_Retrons 103 FFPSI----VSSDLLSHVEKHKGKLEiKEKVALKKLFFwcVkgSTEHRLSIGAPSSPFLSNTILFDF----DTIVNDYCTqeKITYT 181
+                             ****3....333333333333343331333467888774422256789***************9997....5555555551167889 PP
+
+                  ART_RT 364 vyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslv.lknhkrkitGltvnhndeptisqkryrqlrtiihllnkgv 449
+                              yadd+tf++n+    f+    ++ v +  k++   +k++++k+++  k + r++tGl +  ++  ++ ++r r +r++++ + +  
+  YP_004467069.1_Retrons 182 RYADDLTFTTNVSGVLFELPTYIEGVLK--KLEYPTLKINHSKTVFsSKKNNRHVTGLVLTNDNAISLGRDRKRYIRSLVYGFCN-- 264
+                             9****************96665555544..77888999******9835999***************************6553332.. PP
+
+                  ART_RT 450 efkdikgfetplelvslinyyldvdttekvkklmdkn 486
+                               k+  + ++ ++l +li++  +v+ t  ++ l++k+
+  YP_004467069.1_Retrons 265 --KKL-SDDESIKLRGLISFAKHVEPT-FFRSLVKKY 297
+                             ..333.235567788888888887766.356666555 PP
+
+>> AER32995.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.7  15.7   2.5e-23   2.5e-23     202     452 ..      39     289 ..      23     335 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 79.7 bits;  conditional E-value: 2.5e-23
+              ART_RT 202 etfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniia..yrdgksikdnadyhkenktiikfdiskffdnchf 290
+                         ++++ f i k + t+r i  P ee+++i +k++++l   l   i + n  +n ++  +  gk i  na+ hk  k ++ +d+ +ffd+  f
+  AER32995.1_Retrons  39 KLYTDFTILKKNKTQRVISAPDEELKEIQRKISDLLLDCLTT-IRNENKSNNKLShgFELGKNIITNAERHKSKKWVLNIDLLNFFDQ--F 126
+                         57889*****************************99888864.55556656666522789***************************9..* PP
+
+              ART_RT 291 dykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefn 381
+                         +y ++  +f+  ++  +     + + ++   +  ++l  Gsp sp++snli+  + + +nni +k   +   + yaddit s+n+    f 
+  AER32995.1_Retrons 127 NYGRVSGYFIKNKFFELHSNIANLIAKIACYK--NKLPQGSPCSPVISNLILQSLDQRLNNICKKN--GCTYSRYADDITISTNKKK--FP 211
+                         ***************************76655..589***************************98..99*************9753..32 PP
+
+              ART_RT 382 kkrlks.....l.vnhaf..kvnglkfklkeekslvlknh.krkitGltvnhndeptisqkryrqlrtiihllnkgvefk 452
+                         k  + +     +  n+ f   +    f ++++k+ +  n  ++++tGltvn +   ++ +k  r +r+++h l    e+ 
+  AER32995.1_Retrons 212 KAIVSNhsdkeInLNNGFikEILRAGFSINNDKTRLRFNTlRQEVTGLTVNSK--ISVDDKYSRRVRSMVHKLFLSGEYT 289
+                         22222200000113444422366667888888875555551568******975..7788888899******876655543 PP
+
+>> YP_001672748.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.4   0.1   2.5e-22   2.5e-22     204     473 ..       9     260 ..       4     270 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 76.4 bits;  conditional E-value: 2.5e-22
+                  ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchf 290
+                             +++f ++k  G  r i sP  ++  +   q  i n+il+++     +  n +ay +g s  +na+ h   k ++k+d+ +ff+    
+  YP_001672748.1_Retrons   9 YRQFPLKKRSGGIRTIESPYPKLAYV---QRWIKNHILEIKP----ISSNALAYVQGSSHIENAKRHIGAKELLKIDLVDFFEY--- 85 
+                             45788999999999999999998776...5678899998773....456889*****************************976... PP
+
+                  ART_RT 291 dykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssnein 377
+                                k     s+  e + +e+  ++l +l      ++l  G+p sp++snl++v++ + +++i +k+  ++  t yadd+ fs   i 
+  YP_001672748.1_Retrons  86 --IKLSTVKSIFTECGYTEKVSHQLAKLCTLR--DRLPQGAPSSPVISNLVLVELDKRLQSISKKH--ELVYTRYADDLCFSGHAIS 166
+                             ..5555555666788889*********76655..6899**************************99..9****************** PP
+
+                  ART_RT 378 defnkkrlkslvnhafkvnglkfklkeekslvlknhkrk.itGltvnhndeptisqkryrqlrtiih.llnkgvefkd.ikgfetpl 461
+                             def      slv +   ++ + f ++++ks v+++hkrk itGl v       + +k  r+ r+  h +l++g+e  +   g  +pl
+  YP_001672748.1_Retrons 167 DEFF-----SLVKD--EIESEGFVVNQNKSGVVRGHKRKlITGLVVSEY-GVRVPKKMRREYRKQAHyMLKNGIEQLNgNMGMLNPL 245
+                             **96.....45555..57788899999***********978***99765.5667777778888777635677776444045677776 PP
+
+                  ART_RT 462 ...elvslinyyldv 473
+                                e++++ +y l v
+  YP_001672748.1_Retrons 246 hidEVIGKGQYILSV 260
+                             222345555666665 PP
+
+>> YP_397646.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2  14.3   7.8e-10   7.8e-10     184     294 ..     171     270 ..      38     288 .. 0.66
+   2 !   39.8   0.1   3.2e-11   3.2e-11     328     463 ..     326     455 ..     301     478 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 7.8e-10
+               ART_RT 184 lnslelllksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhken 273
+                             l+ l+   +    n++ + ++ i+k  G kr i sP ++++   k q  il++il     ++++d+  +a+++g si dna +h + 
+  YP_397646.1_Retrons 171 PSKLQWLIY--ERGASNIDHYLRYEIPKKSGGKRLISSPKKDMK---KAQKWILENIL----INLDVDKAAMAFQKGLSIIDNASLHVKS 251
+                          444444443..345689**********************98887...66778999987....478999999******************* PP
+
+               ART_RT 274 ktiikfdiskffdnchfdykk 294
+                          k i+++di +ff++  + + +
+  YP_397646.1_Retrons 252 KIIVRIDIKDFFPT--ITFPR 270
+                          *************9..44544 PP
+
+  == domain 2  score: 39.8 bits;  conditional E-value: 3.2e-11
+               ART_RT 328 ylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkr.k 416
+                            G+  sp  +nli  ++   +n   sk   + k + yadd+ fs+   +d + ++ +ks+      + ++ fk++++k+ +++   r  
+  YP_397646.1_Retrons 326 PQGACTSPSLANLICRKIDSRLNGYSSKS--GWKYSRYADDLIFSTTS-EDSYPHRLIKSISS---IISEEGFKVNQSKTRLMRAPNRqT 409
+                          568899*******9999999999888876..9*************975.67888888888865...599**************9866626 PP
+
+               ART_RT 417 itGltvnhndeptisqkryrqlrtiihll.nkgvefkdikgfetplel 463
+                          +tGl vn  +e t+s++  + +r+  h   +kg +f + k  ++ l +
+  YP_397646.1_Retrons 410 VTGLVVN--NEVTLSRRDLKRMRAFFHQCsSKGLDFMSEKIGKDALSV 455
+                          9****97..89**************99762577788777766666665 PP
+
+>> YP_001864131.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.5   1.2   1.9e-21   1.9e-21     205     467 ..      67     322 ..      37     333 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 73.5 bits;  conditional E-value: 1.9e-21
+                  ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                               f+i k  G kr i  P  e+++    q  il++il+    k+++ +    + +++si  na+ h     i+ +d+ +ff++  + 
+  YP_001864131.1_Retrons  67 LPFKISKKTGGKRIISAPKPELKAA---QRWILENILE----KLEVHNAAHGFCKNRSIVTNAKPHVGANVIVNIDLQNFFQS--IS 144
+                             569***************9998875...6779999985....6777667889*******************************..99 PP
+
+                  ART_RT 292 ykkenlffs.lkdedy.......vmerfedtlkdl..lfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadd 368
+                             yk++   fs +   +        +    e  ++        +n+ l  Gsp spa+snl+  ++   + +i +    +   t yadd
+  YP_001864131.1_Retrons 145 YKRIKELFSgFGYSEStatifglICTTAEIAINGQinHTASENRHLPQGSPASPAISNLVCRNLDIRLAAIAENL--GFCYTRYADD 229
+                             999988876444443301111113333344444431124689*********************9999999*9999..99******** PP
+
+                  ART_RT 369 itfssneindefnkkrlkslvnhafkvnglkfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdi 454
+                             +tfs+ e+     +k    + n  f ++g+ f ++++k+ +  k+ ++++tG+ vn   ++ is+k  + +r+ ++ +    e  ++
+  YP_001864131.1_Retrons 230 LTFSTSEDAS---SKISNLIKNTKFIIHGENFTVNDNKTkISSKSVQQEVTGVIVN--TQLNISKKTLKAFRATLYQI--EQEGLSG 309
+                             *****99875...5666667799***************945679999*******98..5899**********955544..4445556 PP
+
+                  ART_RT 455 kgfetplelvsli 467
+                             k++ +  +l++ i
+  YP_001864131.1_Retrons 310 KSWGKSTNLIAAI 322
+                             6666666666555 PP
+
+>> AFM05814.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.7   5.8   6.5e-21   6.5e-21     200     446 ..     169     431 ..     149     444 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 71.7 bits;  conditional E-value: 6.5e-21
+              ART_RT 200 nvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchf 290
+                          v+ ++++y++k  G kr i  P  +++ +   q  i  ++    +dk++++en+  + +++si  na+ h++   +i +d+ +ff++  +
+  AFM05814.1_Retrons 169 KVNQYHNYYVPKKSGGKRLISAPKPKLKHT---QNWIKTNV----LDKIEINENVHGFVKERSILTNAEPHQNKNLVISLDLKDFFPS--I 250
+                         799********************8776654...33444444....4688999************************************..5 PP
+
+              ART_RT 291 dykke.............nlffslkdedyvmer........fedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdi 360
+                          yk++                f l+  +  +++        + +++++    + n+ l  Gsp spa++ li  ++ + ++ + +k   + 
+  AFM05814.1_Retrons 251 SYKRVkglflkfgyseqlSTLFGLLTTHNETDKlnvdgeiyYAQKVDK-ETGKTNRFLPQGSPASPAITTLIAYKMDKRLEGLAKKM--GF 338
+                         555541111111111111345667777777777332222323333333.55677888899**********************99999..** PP
+
+              ART_RT 361 kvtvyadditfssneinde...fnkkrlkslvnhafkvn.glkfklkeekslvl.knhkrkitGltvnhnde..ptisqkryrqlrtiihl 444
+                           t yadd+tfss+ + ++     +k + sl     kv   + f ++ +k+ ++ k++++k+tG+ vn n e  + i ++  r++r+ +h 
+  AFM05814.1_Retrons 339 TYTRYADDLTFSSDLDLKKdtkATNKIIGSLLYFVKKVVtSEGFEIHPDKTHIMrKGNQQKVTGIIVNQNTEnkLGIDRQTLRKFRAFLHQ 429
+                         *************987544223788999999999999751678*******9888589**********998651166777788999998886 PP
+
+              ART_RT 445 ln 446
+                           
+  AFM05814.1_Retrons 430 TA 431
+                         55 PP
+
+>> YP_721852.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.3   0.0   3.6e-20   3.6e-20     200     447 ..     173     419 ..     144     466 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 69.3 bits;  conditional E-value: 3.6e-20
+               ART_RT 200 nvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnch 289
+                           v  + +f+i+k  G +r+i  P+ +++++   q+ il++il     +  l e +  +r g si  na+ h     ii fd+ +ff++  
+  YP_721852.1_Retrons 173 TVSHYIRFKIPKKTGGERQISAPMPRLKNV---QTWILDNIL----CNVPLHEAVHGFRAGHSILTNAEPHVAKDVIINFDLKNFFPS-- 253
+                          5778899*****************999997...788888887....589999************************************.. PP
+
+               ART_RT 290 fdykke.nlffslkdedyvmerfedtlk...........dllfr.ednkglylGsplspaasnlimvpvlryinnilskfktdikvtvya 366
+                          + yk++  lffsl   +     f                ++ ++ + ++ l  Gsp spa++n++   + + + ++  k   d   t ya
+  YP_721852.1_Retrons 254 ICYKRVkGLFFSLGYSEAAATIFALLCTepnvvvveldgQVYYVaQSDRHLPQGSPASPAITNIMCRRLDKRLSEMAAKL--DFVYTRYA 341
+                          9998752699**99988877777533221100011111123444144556788***********9999999999999999..******** PP
+
+               ART_RT 367 dditfssneinde..fnk.krlkslvnh.afkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihllnk 447
+                          dd+tfss  +  +   n  +r  s+v h  f vn +k +l   ks      + ++tG+ vn  + p is+k  + +r+ ++ ++k
+  YP_721852.1_Retrons 342 DDLTFSSSGDSLRhiCNVfRRTESIVSHeGFTVNREKTRLLRGKS-----SQLEVTGVVVN--EFPNISRKELKRFRATLYQIEK 419
+                          *******98765532332245666666524555555555544444.....44578999987..6799*****9999997776665 PP
+
+>> AGF79254.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   2.2   4.7e-21   4.7e-21     229     449 ..      10     210 ..       2     252 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 72.2 bits;  conditional E-value: 4.7e-21
+              ART_RT 229 ilkkqas.ilnaild.lridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenlffslkdedyvmerfedtlkd 317
+                          lk++ + il++il  + i+k+       ay  g sikdna +h+  k ++++d+ +ff++     k +n+f ++k+  y  e    +l  
+  AGF79254.1_Retrons  10 SLKEIQRwILDNILSqVTISKFAK-----AYVVGFSIKDNARFHLRQKQVLRIDVKDFFPS----IKGQNVFHIFKNIGYSAEV-SAMLTG 90 
+                         456544327777774246666666.....********************************....799***********99884.455666 PP
+
+              ART_RT 318 llfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeeksl 408
+                         l      + l  G+p sp+ sn+ m      i         +i+ t y+dd+tfs      ef+  +l+s++n  fk  gl   l++ k+ 
+  AGF79254.1_Retrons  91 L--TTLKNCLPQGAPTSPTLSNIFMNRCDARIAGYCLAR--KIRYTRYSDDLTFSG-----EFDVGKLISFINMVFKDSGL--LLNKTKTK 170
+                         4..45556899**************99988888765444..7************96.....799999**********7776..68999999 PP
+
+              ART_RT 409 vlknhkrki.tGltvnhndeptisqkryrqlrtiihllnkgv 449
+                          +  h+r+  tGl vn   +  + +++ r+lr+ i  ++k+ 
+  AGF79254.1_Retrons 171 QMFKHQRQFtTGLVVNE--RINVCREKRRKLRQEIFYIKKYG 210
+                         99999998636999985..68899********9999888764 PP
+
+>> CBL38232.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.6  15.2   1.5e-20   1.5e-20     202     496 ..      40     319 ..       8     323 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 70.6 bits;  conditional E-value: 1.5e-20
+              ART_RT 202 etfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdy 292
+                         +++k+f i+k +G  r i  P++++++i +k  +il+++   +i  y +        +gksi dna +h++ + i+ +d+ ++f +  +++
+  CBL38232.1_Retrons  40 NMYKNFEINKRNGGTRIISAPNKKLKNIQRKLLQILENVYTPKICAYGF-------INGKSIYDNASIHLKRRQILNLDLKDYFLQ--INF 121
+                         789*****************************************99988.......69**************************99..677 PP
+
+              ART_RT 293 kkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkk 383
+                          ++   + lk+   + e     + +++      +l  G+p sp+++n+i  p+ ++  ++ +    ++k t yadd+tfs+         +
+  CBL38232.1_Retrons 122 GRVRG-MLLKKPYELGEEAATVIAQIVC--YKGKLPQGAPTSPIIANMICAPMDNHFMKLAKA--NNMKYTRYADDLTFSTRTEFPTSIVR 207
+                         66654.4567777788999999999554..5579**********************9886554..59*************98654442222 PP
+
+              ART_RT 384 rlkslv...nhafkv.nglkfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikgfetplelvsliny 469
+                              v    + +++ +++ f l+eek  l  k++++++tGl vn +    + ++  r+lr+i+h  ++      ik + ++ +    i+ 
+  CBL38232.1_Retrons 208 IENDTVvvgKKILQIlKKDGFLLNEEKIyLRSKDKRQEVTGLVVNKK--VNVRRDYVRELRAILHNYKNMGAEDAIKLYVKKKKSTN-IS- 294
+                         2222220113334432467899**99962445777779******987..56788999********9999988899999987766433.33. PP
+
+              ART_RT 470 yldvdttekvkklmdknekifnelkke 496
+                          +++dt    k+  ++ ++ fne+ k 
+  CBL38232.1_Retrons 295 AVNIDTLSDKKR--QETINQFNEILKG 319
+                         467777766555..4566777777665 PP
+
+>> YP_002384961.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.1   0.0   8.2e-20   8.2e-20     203     450 ..      42     265 ..      29     276 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 68.1 bits;  conditional E-value: 8.2e-20
+                  ART_RT 203 tfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnch 289
+                              ++++ + k +G +r +  P   ++++   q +il+++    ++++ l     ayr g  i  na+ h +   i+k+di +ffd+  
+  YP_002384961.1_Retrons  42 HYRRIILSKRHGGQRLVLAPDYLLKTV---QRNILKNV----LSQFPLSSFATAYRPGCPIVSNAQPHCQQPQILKLDIENFFDS-- 119
+                             567777888888888888888777665...44556555....57788888889********************************.. PP
+
+                  ART_RT 290 fdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssnei 376
+                             + + ++   f        + r   t+    +   n+ l  G+p spa+snl+m    + i +  +    +i  t y+dd+tfs    
+  YP_002384961.1_Retrons 120 ISWLQVWRVFRQA----QLPRNVVTMLT-WLCCYNDALPQGAPTSPAISNLVMCRFDERIGEWCQAR--GITYTRYCDDMTFSG--- 196
+                             9998877766433....24455556665.4556799******************9999999988876..*************97... PP
+
+                  ART_RT 377 ndefnkkrlkslvnhafkvnglkfklkeekslvl.knhkrkitGltvnhndeptisqkryrqlrtiihllnkgve 450
+                               +fn + +k+ v     + +l + l++ ks ++   +++++tG+ vnh+ +  ++++  r lr+ +hl +k+  
+  YP_002384961.1_Retrons 197 --HFNARLVKNKVCGL--LAELGLNLNQRKSCLVaACKHQQVTGIVVNHKPQ--LAREARRALRQEVHLCQKYGV 265
+                             ..69999999877654..6789999***9996551567789********865..6788899********999865 PP
+
+>> YP_004866389.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9   7.1   3.9e-19   3.9e-19     202     462 ..      38     301 ..      32     338 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 65.9 bits;  conditional E-value: 3.9e-19
+                  ART_RT 202 etfktfyieksdGtkreinsPieeirpilkkqasilnaild.......lridkynldeniiayrdgksikdnadyhkenktiikfdi 281
+                             + ++ f i+k  G +r i  P  ++  i k+ a+ l+  ++        ++ k ++      + +++si  na  h+  + ++ +d+
+  YP_004866389.1_Retrons  38 NKYTSFSIPKKTGGERKIDAPSDQLSYIQKQLAKYLQDCIEeigelekQKLGKKKFSSAAHGFTKDRSIITNARPHRRKRWVLNLDL 124
+                             67899*****************************9987664222222257888899999999************************* PP
+
+                  ART_RT 282 skffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadd 368
+                              +ff++  +++ ++  ff+  ++  +       + ++     + +l  Gsp sp++snli   +   + +i +k+      t yadd
+  YP_004866389.1_Retrons 125 KDFFPS--INFGRIRGFFIKNKNFNLDPDVASAIAHICCY--EGKLPQGSPCSPIISNLIGHLLDVRLIKIAKKY--SCTYTRYADD 205
+                             ******..9999******9888888888899999996655..4689**************76665566689****..8899****** PP
+
+                  ART_RT 369 itfssn......einde..fnkkrlkslvnha.fkvnglkfklkeekslvl.knhkrkitGltvnhndeptisqkryrqlrtiihll 445
+                             itfss+      ei ++  f  k+  +l n     +++  f ++e+k+ +  ++ ++++t l vn +    + ++ y+ lr+  h l
+  YP_004866389.1_Retrons 206 ITFSSDlrkfpkEIAHKklFS-KKSWELSNSIkQEIEKSGFFVNEKKTRMQyQESRQDVTSLVVNKK--VNVKRELYKTLRAQCHTL 289
+                             *****7332222333333333.333445665415689999*******96651566668******986..67899********77665 PP
+
+                  ART_RT 446 nkgvefkdikgfetple 462
+                                  f+++ ++e  ++
+  YP_004866389.1_Retrons 290 -----FRTGGCYEIAYQ 301
+                             .....666666666665 PP
+
+>> YP_323757.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.6   5.0   9.3e-19   9.3e-19     202     457 ..      53     301 ..      24     358 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 64.6 bits;  conditional E-value: 9.3e-19
+               ART_RT 202 etfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                            ++tf +ek  G  r i sP++ +  + +k ++il ++       y   + +  +  ++si  na++h + k ++ +di +ffd   ++
+  YP_323757.1_Retrons  53 SKYQTFNLEKKSGGYRTIHSPNNSLEILQRKLSQILYSV-------YSPKPCVHGFAANRSIVTNAKVHTKKKFVLNIDIKDFFDV--IN 133
+                          4699*********************99999999999876.......56668889999*****************************..99 PP
+
+               ART_RT 292 ykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssnein.... 377
+                          + ++   f+ k  + + e     l ++      ++l  G+p sp++snl+   + + +++  +    +i  t yadditfs n  +    
+  YP_323757.1_Retrons 134 FGRVRGLFIAKPYQ-LNEEVATILAQICCF--QNKLPQGAPTSPIISNLVCARMDKELQKFAKE--NGIFYTRYADDITFSINREDlpvg 218
+                          99999999988654.567777777775433..35799************999888877775554..59***************8763333 PP
+
+               ART_RT 378 ..defnkkrlkslvnhafk..vnglkfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikgf 457
+                              + k + k +  + ++  ++++ fk++e k  l  + +++++tGl vn      + +k  r+l   +h  +k+      k +
+  YP_323757.1_Retrons 219 lvSSYSKGFSKVILGDDLRsiIENNGFKINEAKVrLAYRTQRQEVTGLVVNKG--VNVNRKYIRNLYGTLHAWEKYGLEEANKIY 301
+                          3356888888889888876558999*******963788999999******975..556777778888888887777655555555 PP
+
+>> AFZ23440.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.6   2.1   9.3e-19   9.3e-19     203     445 ..      52     288 ..      39     350 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 64.6 bits;  conditional E-value: 9.3e-19
+              ART_RT 203 tfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdyk 293
+                          +ktf i+k  G  r+i  Pi  ++ i +k  ++l+a+ +         + +  +  gk i  na+ h + ++++ +di +ff++  +++ 
+  AFZ23440.1_Retrons  52 RYKTFDIPKKSGGIRQISTPITALKLIQRKLNQVLQAVYQT-------KPSVHGFVSGKNIVSNAQAHAKKRYVLNLDIKDFFPS--VNFG 133
+                         589***********************999999999988555.......56777889*****************************..7788 PP
+
+              ART_RT 294 kenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssne..inde... 379
+                         ++  +f+ k  +         l +     +n++l  G+p sp+++n+i  ++   ++ + +    +   t yadd+tfs+      +e   
+  AFZ23440.1_Retrons 134 RVRGMFMAKPYNLH-PDVATVLAQ--ICCHNNQLPQGAPTSPIITNMICAKMDSQLQRLAKDC--KATYTRYADDMTFSTTLpkFPEElay 219
+                         88888877765543.334455555..5678999*****************9999999988777..55789*********974212333222 PP
+
+              ART_RT 380 .fnkkrlkslv..nh.afkvnglkfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrtiihll 445
+                            +   k++v  n+ +  +n++ f ++++k  l +k++++++tGlt n    p + +k  rq+r++++  
+  AFZ23440.1_Retrons 220 iVAEEECKKIVigNRlTAVINENGFEVNQQKNrLQVKGNHQEVTGLTTNL--FPNVDRKYVRQVRAMLYAW 288
+                         23456666665445524568999*****9996499************986..4778888889999877654 PP
+
+>> YP_002152074.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.7  31.1     9e-19     9e-19     203     497 ..      16     314 ..      10     316 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 64.7 bits;  conditional E-value: 9e-19
+                  ART_RT 203 tfktfyieksdGtkreinsPieeirpi...lkkqasilnaildlridkynlde.niiayrdgksikdnadyhkenktiikfdiskff 285
+                              f++fy    + + +e n  +++  +i   lk +   l + +   i   ++ +  + +yr+g+ + d    h+ n +i k di +ff
+  YP_002152074.1_Retrons  16 SFEQFYTLSLNDHIKEFNFNNKKCYSIsdeLKTIQLFLSKFIFENI---EFRKdLVYSYRKGVNVVDCISPHRFNNYIYKTDIENFF 99 
+                             5777777666777777777666655551115555555655555555...444305779***************************** PP
+
+                  ART_RT 286 dnchfdykkenlf.....fslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyad 367
+                             ++  +d  k+ +       s++d + vm +       l ++  +k+l +G + spa+sn++m ++   i+  + k   d++ t yad
+  YP_002152074.1_Retrons 100 PSIGYDLIKNKIIekvkdISFLDTNDVMVHLSRI---LELVTIDKKLPIGFSSSPAISNFVMYDIDCKIDC-FAKN-NDLIYTRYAD 181
+                             **99999988776111124455555555444443...44688899*********************99986.5665.6********* PP
+
+                  ART_RT 368 ditfssneindefnkkrlkslvnhafkvngl.kfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrt.iihllnk...g 448
+                             di +s  +   +++k  + + +n+ +  n++  f l+++k+ ++ k   r+i G+++     ++is++  +++   i  l+n+    
+  YP_002152074.1_Retrons 182 DIILSGKN---NLDKNSINQEINNILNYNQDnVFHLNDKKTkIITKKFERNILGISISPVGTLSISRQLKKEIEVkIFFLINNkdkF 265
+                             ****9854...4455666666777777666516*******84567999******************999888875156677761225 PP
+
+                  ART_RT 449 vefkdikgfetplelvslinyyldvdtt..ekvkklmdknekifnelkkea 497
+                             v+f ++      + l ++++y l vd    +k+++ + +   i n+l k++
+  YP_002152074.1_Retrons 266 VKFSEMDEMSAIFSLAGKLSYALGVDPVyiNKLRRKYGN--SIINKLIKNK 314
+                             7777888888899*************7522555555544..4778877766 PP
+
+>> YP_002218754.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.4   0.0   2.2e-18   2.2e-18     204     448 ..      34     269 ..      28     281 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 63.4 bits;  conditional E-value: 2.2e-18
+                  ART_RT 204 fktfyieksdGt.kreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnch 289
+                             +k +yiek  G+ +rei +P +ei+ + +  as         + ++ + +  + yr g+si d a+ h   ++++k+d ++ff++  
+  YP_002218754.1_Retrons  34 YKAYYIEKRGGRgQREISQPTKEIKFLQRLLAS-------KELRELPIHDVAVGYRSGRSILDHAQPHASARYLLKLDFTNFFPS-- 111
+                             7899****999758**********976554444.......2345566666678********************************.. PP
+
+                  ART_RT 290 fdykkenlffslkdedyvmerfedtlkdllfre....dnkglylGsplspaasnlimvpvlryinnilskfktdikv...tvyaddi 369
+                             +  k  + ++s        er+   l++ll r      n +l +G+p sp +sn ++ +     ++++s +  +i+v   t yadd+
+  YP_002218754.1_Retrons 112 LKSKALDHRLSRDTAYSTAERWI--LRNLLCRRtpgtGNYQLSIGAPSSPHISNYLLCE----FDQLMSDY-CGIRVvryTRYADDL 191
+                             88899999999888888889984..7777777522226999*************99876....57888999.77766444889**** PP
+
+                  ART_RT 370 tfssneindefn..kkrlkslvnhafkvnglkfklkeekslvl.knhkrkitGltvnhndeptisqkryrqlrtiihllnkg 448
+                             +fs+ +    +n  +  +++l+     +  l + l+e k++ +   h+r + Glt+  + + +i +   r+lr+ ih l +g
+  YP_002218754.1_Retrons 192 AFSTSIPS-VLNdiETEVRRLIQ---ELDYLGLSLNEAKTINVsTKHRRTLVGLTLSNDGRASIGRIAKRELRQAIHSLRHG 269
+                             ***98643.23301233444443...46778999******9772578999***************************99876 PP
+
+>> AEX51577.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   0.7   4.1e-17   4.1e-17     259     481 ..     121     345 ..     110     362 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 4.1e-17
+              ART_RT 259 dgksikdnadyhkenktiikfdiskffdnchfdykkenlffslkdedyvme.rfedtlkdllfrednkglylGsplspaasnlimvpvlry 348
+                           +si  na +h+  k +  +d+ +ff +  f++ ++  ff+ k+ ++++e      + +      n++l  Gsp sp++snli   +   
+  AEX51577.1_Retrons 121 RKRSIITNAMMHLGKKHVFNIDLENFFGS--FNFGRVRGFFI-KNGNFLLEpEIATVIAK--IACYNNELPQGSPCSPVISNLITHALDIK 206
+                         5789*************************..99999999997.56666666155666666..6677999****************999999 PP
+
+              ART_RT 349 innilskfktdikvtvyadditfssnein......defnkkrlkslvnhafkvnglkfklkeeksl.vlknhkrkitGltvnhndeptisq 432
+                         + ++  k+      t yadditfs+ +        +  n+ ++   v +   +    f ++e+k+    k+ ++++tGl vn +      +
+  AEX51577.1_Retrons 207 LAAVAAKH--SCTYTRYADDITFSTRKESlpssvaKSDNNTFVAGKVIR-REIARSGFSINESKTRdQYKDSRQEVTGLVVNKKP--NTKK 292
+                         99999999..8999**********9865311111122333343332222.2578889*******97367999999******9875..5567 PP
+
+              ART_RT 433 kryrqlrtii.hllnkgvefkdikgfetp...lelvslinyyldvdttekvkk 481
+                         + +r +r+   hl+n g    +i+g e      +l +++++  +vd  +++++
+  AEX51577.1_Retrons 293 EYWRLVRAQCnHLFNTGEFKETINGAEVAgniHRLEGKLTFIDQVDHYNRLRQ 345
+                         77788887542777777655578887754222567788888888887777765 PP
+
+>> CBW21586.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.6   0.0     8e-18     8e-18     207     448 ..     102     323 ..      95     358 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 61.6 bits;  conditional E-value: 8e-18
+              ART_RT 207 fyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenl 297
+                         f++ k  G  r i  P  + r++   q  i ++il l     n+ + +  +  gks+ dna +h+  k ++k+d+ +ff++     +   +
+  CBW21586.1_Retrons 102 FHVRKRSGGFRYISAPAGDFRSM---QQTIYHRILLL----ANIHPAVTGFCPGKSVSDNARVHLGRKNVLKVDLHDFFPS----IRSPRV 181
+                         66667777777777777777665...44555555544....477889999*******************************....455666 PP
+
+              ART_RT 298 ffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlksl 388
+                         + ++++  y      + l +l        l  G+p spa sn+i  p+ + + ++   +  ++  t yadd+tfs +   ++    r+ ++
+  CBW21586.1_Retrons 182 RAAFREMGYS-RSIAKVLAELCCLR--CCLPQGAPTSPALSNIIAYPMDKKMMALAGEY--GLVYTRYADDLTFSGDYLPKDEVLVRIHRI 267
+                         7777776664.45677777766554..67999***************************..**************9887665555555555 PP
+
+              ART_RT 389 vnhafkvnglkfklkeekslvlknhkrk.itGltvnhndeptisqkryrqlrtiih.llnkg 448
+                               + ++ f ++ +k+ +l +hkrk itG++v   +++t+ + + r++r+ +h +l kg
+  CBW21586.1_Retrons 268 ------IREEGFTMNVKKTRFLSEHKRKiITGVSVSSGKKMTLPKVKKREIRKNVHyVLTKG 323
+                         ......67899****************9459*********************9888345555 PP
+
+>> YP_963777.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   3.2   9.4e-18   9.4e-18     203     452 ..      46     293 ..      38     330 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 9.4e-18
+               ART_RT 203 tfktfyieksdGtkreinsPieeirpilkkqasil.naildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                           +++f i k  G  r i  P  e++++ ++ +++l + +  ++ dk         +  +ksi  na +h+  k ++ +d+++ff +  f+
+  YP_963777.1_Retrons  46 HYHQFDITKKSGGVRTISAPSDELKDLQRRLSDLLlDCKAVIQFDKKIECTLSHGFEREKSIITNARIHRGKKNVLNLDLADFFGS--FN 133
+                          4789**************************9997525555566665443344467999****************************..** PP
+
+               ART_RT 292 ykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneinde.f 380
+                          + ++  +f+  ++  +  +    + ++   +d   l  Gsp sp+++nli   +   + ++ +k   +   t yadditfs+ +      
+  YP_963777.1_Retrons 134 FGRVRGYFIANKDFKLNPHIATVIAQIACYKD--TLPQGSPCSPVIANLITNSLDIKLSKLAKKN--GCSYTRYADDITFSTRKKCFPiA 219
+                          ********999988999999999999777665..799*************988777777766665..9999***********98776634 PP
+
+               ART_RT 381 nkkrlkslvnhaf...kvnglkfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefk 452
+                            k + sl   +     ++   f ++ +k+ l +k+ +++ tGl vn +   ++ ++ +r  r++ h l k  +f+
+  YP_963777.1_Retrons 220 IVKNVESLTLGSKllgEIKRAGFSINTSKTrLQFKDSRQEATGLVVNKK--VSVKSEYWRLTRAMAHTLFKTGKFQ 293
+                          4677777654432112677788*******86889************976..7789999999999999998877664 PP
+
+>> CBK78440.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.8   0.0   1.1e-16   1.1e-16     195     439 ..      41     262 ..      27     269 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 57.8 bits;  conditional E-value: 1.1e-16
+              ART_RT 195 dlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskff 285
+                         +l n+    +++  i+k  G  r ++ P   ++++     +il ++    ++ ++l e   ayr+g+ i++na +h     i+k+di +ff
+  CBK78440.1_Retrons  41 ELSNHASRHYREAVIPKRTGGVRHLMVPDSTLKAVQ---RRILRNV----LSGLELSEQAYAYRKGVGIRENAAVHTGQEKILKLDIHDFF 124
+                         566777777888899999999999999998887764...4556555....57889999999****************************** PP
+
+              ART_RT 286 dnchfdykkenlffslkdedyvme.rfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssne 375
+                          +         + + l     v   +    l  l       +l  Gsp spa+snl+m p  +++         +i+ + y+dd+tfs   
+  CBK78440.1_Retrons 125 GS-----ITSSSVYGLAFPGTVFPpQVRGLLTSLCC--LRGRLPQGSPASPAISNLVMRPFDEHMGLWCRER--NIRYSRYCDDMTFSGSF 206
+                         **.....56677788877777754144444455443..457899********************98666655..***************99 PP
+
+              ART_RT 376 indefnkkrlkslvnhafkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlr 439
+                         +  e  +k    l ++ +++n +k        ++ kn ++++tGltvn + ++   ++  rqlr
+  CBK78440.1_Retrons 207 DAGEVIRKVSGFLSERGMRLNWKK------TGVYGKNCRQEVTGLTVNEKVQL--PKELRRQLR 262
+                         999888877666666666655443......35899*************88664..445555555 PP
+
+>> YP_002891920.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   3.7   2.6e-17   2.6e-17     203     477 ..      69     325 ..       4     338 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 2.6e-17
+                  ART_RT 203 tfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnch 289
+                              +++f i+k +G  r i+sP      +l  q  i n+il     k+ + +    +  + si  na+ h++ k ++++d+ +ff++  
+  YP_002891920.1_Retrons  69 FYREFDIPKKKGGVRHIVSPYPS---LLSCQKWIYNNILK----KISIHPAAHGFNLNHSIVTNAQSHLNKKCLLQMDVKDFFPSLP 148
+                             467899**************975...57778889999984....5566777889999****************************99 PP
+
+                  ART_RT 290 fdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssnei 376
+                             +++  +nlf sl   + v                n++l  G++ sp  sn+++v + + +  +   +  ++  t yadd+ fs + i
+  YP_002891920.1_Retrons 149 INW-VINLFSSLGYSHNVSFNLASLC------CLNDKLPQGAATSPYLSNILLVGLDKRLSLLSTSY--QLTYTRYADDLCFSGEYI 226
+                             985.79***********976554433......3499***********************99999999..99************9999 PP
+
+                  ART_RT 377 ndefnkkrlksl.vnhafkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikgfe..tp 460
+                              +e+ +  + s+ ++  +  n      k++  l l n+kr +tG++v    + ti ++  r+l++ ++ ++k  ++ ++   +  +p
+  YP_002891920.1_Retrons 227 PHELIQT-IESIiIDYNLTPN------KNKTRLQLNNNKRIVTGISVSG-PKATIPRQLKRELKQELYYIQKHGYLSHVTKMKisNP 305
+                             8887654.4444033333333......3344588*************86.5789999999***999999998888766544431122 PP
+
+                  ART_RT 461 ...lelvslinyyldvdtte 477
+                                  l ++ +++l+v+  +
+  YP_002891920.1_Retrons 306 kclQSLEGKFSFWLQVEPDN 325
+                             11134567778888776555 PP
+
+>> CBX35399.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.6  13.0   6.2e-17   6.2e-17     200     416 ..      40     234 ..       5     238 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 58.6 bits;  conditional E-value: 6.2e-17
+              ART_RT 200 nvetfktfyieksdG.tkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnch 289
+                         n + ++ ++i+k +  + re++ P+  +++i   q  il+++l +r     + +    +   ksi +na  h   k+i+k+di +ff++  
+  CBX35399.1_Retrons  40 NDHFYNVIKIPKRKKdEYRELMIPNMALKNI---QRWILDNVLYRRQ----VHKCATGFVPRKSIVNNAIPHVGQKYILKMDIENFFPS-- 121
+                         33567899***9765156***********99...5679999998763....22334688899***************************.. PP
+
+              ART_RT 290 fdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindef 380
+                         + +k++   fs  +  y   +fe       +   n++l  G+p sp ++n+i  ++ + i +  +k   +++ t yaddit s  +    f
+  CBX35399.1_Retrons 122 ITFKQVRKIFS--EMGY---KFELATALANLCTVNNQLPQGAPTSPYIANIIFYNIDKRIFSYCQKN--NLRYTRYADDITISGSN-KVSF 204
+                         88888877766..4444...45544444446677999********************9999999887..*************9653.346* PP
+
+              ART_RT 381 nkkrlkslvnhafkvnglkfklkeekslvlknhkrk 416
+                          k  ++++vn+        f+++e+k++++k   rk
+  CBX35399.1_Retrons 205 SKEIIREIVNQ------YNFRINESKTIMFKPGDRK 234
+                         ********997......4567777777776655554 PP
+
+>> YP_435102.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.8   0.0   2.3e-16   2.3e-16     199     442 ..     173     414 ..     145     421 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 56.8 bits;  conditional E-value: 2.3e-16
+               ART_RT 199 rnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnc 288
+                            +  +++f i k  G  rei  P+ +++     q  +l++il      + l e    +  ++si  na+ h     +i +d+ +ff++ 
+  YP_435102.1_Retrons 173 SKLSHYQQFAIAKKTGGVREISAPMPRMKR---AQYWVLDNILA----PLTLHEAAHGFVVERSIVSNAQPHVGKDVVINLDLKDFFPT- 254
+                          457889******************999874...67888888875....6889999999999***************************9. PP
+
+               ART_RT 289 hfdykkenlffslk.dedyvm..........erfedtlk.dllfrednkg.lylGsplspaasnlimvpvlryinnilskfktdikvtvy 365
+                           + y ++   f  +   + +           +  e  ++ +  f+ + ++ l  G+p spa+sn+i  ++ r ++++  k   +   t y
+  YP_435102.1_Retrons 255 -VSYARIKGAFRHLgYSEQIAtilgllcsqpKTQEVEMDgQKWFVSEGERfLPQGAPTSPAISNVICRKLDRRLQSMAAKL--GFTYTRY 341
+                          .67777766665431222222111111111111222333123577776652568*************************99..9****** PP
+
+               ART_RT 366 additfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkrk.itGltvnhndeptisqkryrqlrtii 442
+                          add+tfs++   d+ + krl   +     ++++ f ++ +k+ +++ h+r+ +tG+ vn +   ++ +k+ + +r+++
+  YP_435102.1_Retrons 342 ADDVTFSADGKSDD-DVKRLLWRCRSI--IKDEGFVVHPDKTRIMRKHRRQeVTGVVVNDK--ASVERKQLKRFRALL 414
+                          ********999988.567777777766..56889************9998549*****865..566666666666654 PP
+
+>> YP_003813144.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.6   0.0     1e-15     1e-15     199     450 ..      57     296 ..      49     309 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 54.6 bits;  conditional E-value: 1e-15
+                  ART_RT 199 rnve.tfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskf 284
+                             +nv+   ktf++ k +G  rei  P   +r il     il +  d         +    +  g+s+ dna  h   ++i+ +d+ +f
+  YP_003813144.1_Retrons  57 NNVQrRCKTFRLRKKHGGYREITAPKGSLRGILNALN-ILLQTYDE---P---TPWAFGFVCGRSVVDNARPHVGKRYILNLDLKDF 136
+                             566525799*********************9997643.33333332...2...245678899************************* PP
+
+                  ART_RT 285 fdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditf 371
+                             f++         l      +  +  +    l  +  +++ + l  G + sp+ sn+i  ++ + i  +      +i  t yadd+tf
+  YP_003813144.1_Retrons 137 FPTITRQQVADCLTAEPFGFSSLAVKLISGLATVRTKNNKEVLAQGFATSPTLSNFICREMDKEIAGVAAAQ--GITFTRYADDLTF 221
+                             ***777777777766666777888888888888776666677889***********************9987..************* PP
+
+                  ART_RT 372 ssneindefnkkrlkslvnhafkvnglkfklkeekslv.lknhkrkitGltvnhndeptisqkryrqlrtiihllnkgve 450
+                             ss+ +  +     +++ v     v+   f+l+eek+ +  +++++++tGl v    +  +s++  r++r+++++ +++ +
+  YP_003813144.1_Retrons 222 SSDTDILRPQGELVQQ-VKA--IVERYGFRLNEEKTHLqRRGRRQEVTGLMVTE--KVNVSRRYVREIRSLLYIWERYGY 296
+                             **88765544433333.332..366778*******96515677778******75..578999999*****9999888765 PP
+
+>> YP_001736173.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.3   0.0   2.5e-15   2.5e-15     199     447 ..      25     268 ..      13     293 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 53.3 bits;  conditional E-value: 2.5e-15
+                  ART_RT 199 rnv.etfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskf 284
+                              nv e +k+f + k  G  r i  P+  ++ i  k  ++lna+ +         + +  +  +k i  na+ h   + ++ +d+ +f
+  YP_001736173.1_Retrons  25 SNVdERYKKFEVYKKSGGIRTITTPVTSLKFIQWKLNQVLNAVYQP-------KPAVHGFTLNKNILTNAQAHVGKRFVLNLDLEDF 104
+                             5662479****************************99999998655.......56777788899999******************** PP
+
+                  ART_RT 285 fdnchfdykkenlffslkdedyvmer.fedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyaddit 370
+                             f++  +++ ++   f+     y +       l +     dn +l  G+p sp++sn+i  ++   ++ + +        t yaddit
+  YP_001736173.1_Retrons 105 FPS--INFGRVRGLFMA--PPYQLPAgVATVLAQ-ICCYDN-QLPQGAPTSPIVSNMICAKMDTQLQRLAKEC--RATYTRYADDIT 183
+                             ***..777777666653..334333303444455.444555.699***************9999999987777..67899******* PP
+
+                  ART_RT 371 fssnein..de..fnkkr....lkslvnhafkv.nglkfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrtiihllnk 447
+                             fs+   +  ++  +  k        l +h +++  ++ fk++++k+ l  k+ ++++tGltvn    p + +   rq+r++++  +k
+  YP_001736173.1_Retrons 184 FSTTLREfpEDlaYPVKTeegtQFVLGDHLLQIiAENGFKINNQKTrLQTKGSHQEVTGLTVNQ--FPNVKRTYVRQIRAMLYAWEK 268
+                             **975432233234334311113345688888626788******986789************96..567777778888887776655 PP
+
+>> YP_004328208.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.9   0.0   3.4e-15   3.4e-15     205     463 ..      64     309 ..      55     319 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 52.9 bits;  conditional E-value: 3.4e-15
+                  ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                             +tf++ k +G  rei+ P  ++r+il     +l++  d     y        +  g+s+ dna  h   ++++ +d+ +ff++    
+  YP_004328208.1_Retrons  64 RTFRLRKKHGGYREIIAPKGKLRDILHALNIVLQTFDDPTPWAYG-------FVCGRSVVDNARPHVGKRYVLGLDLKDFFPSITRR 143
+                             6899**********************9988888877766544444.......46799**************************8877 PP
+
+                  ART_RT 292 ykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneind 378
+                                  l    + +  v       l  +   e  + l  G + sp+ sn++  ++ r i ++       i  t yadd+tfss+ +  
+  YP_004328208.1_Retrons 144 QVADCLTTEPLGFSSVAADLVAGLASVRTDEGQEVLAQGFATSPTLSNFVCREMDREIADVAAAQ--SITFTRYADDLTFSSDADIL 228
+                             7777888888899999999999999988888899999************************9987..9**************99877 PP
+
+                  ART_RT 379 efnkkrlkslvnhafkvnglkfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikgfetplel 463
+                             +    +++++      v+   f+l+e k+ l  +++++++tGl v    +  +s++  r++r+++++ +++ +    k+  + ++l
+  YP_004328208.1_Retrons 229 RPQGAFVQQIKT---IVERHGFRLNEAKThLQRRGRRQEVTGLMVTE--KVNVSRRYVREVRSLLYIWERYGYENACKAAWKSYKL 309
+                             766666666543...467788999999983445677789******75..578999999**********999998888777666665 PP
+
+>> CBL03706.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.1   0.0   1.2e-14   1.2e-14     188     422 ..      27     242 ..       9     268 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 51.1 bits;  conditional E-value: 1.2e-14
+              ART_RT 188 elllksidlknrn.vetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktii 277
+                         +lll+s +lk      t++ f+i+k  G  r++ +P+++++ + k+   +l a     ++k ++   +++   gk  kdna +h+ n +++
+  CBL03706.1_Retrons  27 KLLLQSGELKGVMrGVTYRDFQIPKKSGSFRQVSEPNKRLKLVQKRVLWLLSA-----VEKPDW---VMSATPGKCHKDNAVFHRSNAYMV 109
+                         5788888888643134899**********************999998888776.....566666...9*********************** PP
+
+              ART_RT 278 kfdiskffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadd 368
+                          +di  f+d+c+ +  ++  ff  k+         + l dl      + +  G+p s +++ +    ++  in++ + +  + + t y dd
+  CBL03706.1_Retrons 110 TMDIESFYDKCERE--RVYQFFKRKLR--QPGDVAKALTDLS--TYRQSIPTGAPTSQIVAYFAYESMFAEINQVAKSH--GCIFTLYVDD 192
+                         **********9854..44455554444..3455667777754..45678999***********************9998..99******** PP
+
+              ART_RT 369 itfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkrkitGltv 422
+                         +tfss e    f + +l s v+  ++ +g k k+ + +  + k+  +  tG ++
+  CBL03706.1_Retrons 193 MTFSSGE---PFSPDKLASEVDAVLRKYGHKSKMSKTR-YYPKGTCKLTTGAAI 242
+                         ****975...6********************9997654.466777777777666 PP
+
+>> YP_002989002.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.3   0.5   3.4e-13   3.4e-13     199     449 ..      67     301 ..      60     322 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 46.3 bits;  conditional E-value: 3.4e-13
+                  ART_RT 199 rnvetfktfyieksdGtkre.insPieeirpilkkqasilnaildlridkynldeniiayrdgk.sikdnadyhkenktiikfdisk 283
+                             +  + ++ f i k +G+k+  i  P +     lk +   l   l +   +y   en  a+  g+  i + a+ h   + ++ +d+ +
+  YP_002989002.1_Retrons  67 NKCKYYRSFTISKGKGKKKRlIEAPRI----SLKLIQAWLAYHLSRNSADYIS-ENSYAFIPGVnGIYEAAKRHCGSQWVLSIDLKD 148
+                             45678999********87651555655....5777788899999999888876.9999*9999736********************* PP
+
+                  ART_RT 284 ffdnchfdykken.lffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyaddi 369
+                             ff          n ++ +l+d  y +e+  + ++    +   ++l  G+p sp +sn+   p  + i+ i+     ++  t yadd+
+  YP_002989002.1_Retrons 149 FFHY-----VNSNkIMPALLDLGYRTEQAAKIIDI---VTLQDRLPQGAPSSPYISNIAFKPTDELIERIITGR--GVSYTRYADDL 225
+                             *986.....44441456789999999998887766...5667899**************************988..9********** PP
+
+                  ART_RT 370 tfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgv 449
+                             tfs      efn   +k  + +a+k +g    l++ k +  k ++ k+ G+ v hn++p +++   ++lrt  hl++ g+
+  YP_002989002.1_Retrons 226 TFSGCD--AEFNIDGFKGEIINALKSHGWIVALDKVK-ISKKPNRLKVHGFLV-HNQKPVLTKGYRNKLRTYRHLMQAGT 301
+                             ***854..45666666655555666666555554443.456889999***977.9****999888889*******98875 PP
+
+>> EPR43525.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   3.8   2.3e-12   2.3e-12     197     490 ..     211     476 ..     192     483 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 2.3e-12
+              ART_RT 197 knrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdn 287
+                          n+    ++ f i k+ G  r i  P + +++i +        i+d+ + ++   +   +++ gksi  na +h   k++  +di+++f++
+  EPR43525.1_Retrons 211 SNNSRRYYRSFEIRKASGGMRTIHAPRIFLKTIQR-------WIVDYFLFQLPCHPGCHSFQRGKSIISNAAIHVGKKYVGNIDIADYFKS 294
+                         5666677899****************987776643.......45667777888999999******************************** PP
+
+              ART_RT 288 chfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneind 378
+                              k e l   l ++ ++       +   l   +++ l  G+p sp+ sn+ + +  + i  + ++   ++  + yaddit s  e n 
+  EPR43525.1_Retrons 295 ----IKSEHLVHKLSKFFGIG--LSRAIS--LICTHDDFLPQGAPSSPILSNFYLFDFDKEISLLCEQN--ELSYSRYADDITISGKEKNS 375
+                         ....56666766666666663..333443..3445678899*********************9888877..9******************* PP
+
+              ART_RT 379 efnkkrlkslvnhafkvnglkfklkeeks.lvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikgfetplelvslin 468
+                          +n     +     + +++  + l+ +k+ +  ++ ++++tG+ vn + +p  s +r  ++r++ h        k+   + +++e++    
+  EPR43525.1_Retrons 376 IYNAINYSK-----YLLKKHNLTLNYQKTrVSSRGGQQNVTGVVVNQKINPPRSLRR--NIRALFHNA-----QKNPMQYTDKIEMMRGYL 454
+                         999755444.....4455566677777772557899************999988764..778866643.....466667777777777666 PP
+
+              ART_RT 469 yyldvdttekvkklmdknekif 490
+                          yl++ +++k      ++e+i 
+  EPR43525.1_Retrons 455 SYLNMYESQKNIINKSRYEHII 476
+                         6777777766555555566655 PP
+
+>> YP_004753235.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.3   3.3   2.6e-12   2.6e-12     206     453 ..      40     277 ..      10     318 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 43.3 bits;  conditional E-value: 2.6e-12
+                  ART_RT 206 tfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdy 292
+                               +i+k     r i +P++e++ + +++ + + ++       y +   i    + +    na+yh + + ++ fd+  ff+++   +
+  YP_004753235.1_Retrons  40 ISKIPKKTDGFRTISDPVKELKIVQRRIVRRIFSKC--SFPSYLF-GSIRDEINPRDFVRNAQYHSQAREVMAFDVESFFPSVRPQF 123
+                             447888777779999999999877665543333322..3344544.45555555556667*************************** PP
+
+                  ART_RT 293 kkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssnei..n 377
+                              k+ l f + + + v e     +         +gl  G+p s+ ++nli  +  + i + l+    +   +   ddit ss  i  n
+  YP_004753235.1_Retrons 124 VKKVLKFLFNLPNEVAEMLVSLMTL------QDGLPQGAPTSSYVANLIFYDCEHKIVKTLNAM--GFTYSRLVDDITVSSKTIikN 202
+                             *****************99988876......79****************************999..99************9865335 PP
+
+                  ART_RT 378 de..fnkkrlkslv.nhafkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkd 453
+                             +e  f   ++ ++  ++ +k+ + k+ + +       ++k  +tGl v+ +    + +++ + + ++++ l+  +e+ +
+  YP_004753235.1_Retrons 203 EErrFIYEQISKMLgEKKLKISQRKYGVTNTTV---IGKKTVVTGLVVEDK-MIKLPKEKVKLIGQMVYELKSKAEVST 277
+                             556788888888763578999999999987543...3678899***99865.567778888777777777776666654 PP
+
+>> ADP10728.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.9  12.0   3.6e-12   3.6e-12     253     448 ..      72     266 ..       4     312 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 42.9 bits;  conditional E-value: 3.6e-12
+              ART_RT 253 niiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenlffslkdedyv.merfedtlkdllfr.ednkglylGsplspaasnli 341
+                          + +yr+++ i d    h +   i k dis+ff++   d     l     d   v +e   d ++ + +    +++l +G + sp +sn+ 
+  ADP10728.1_Retrons  72 IVFSYRKDVNITDAVRPHCKSEFIFKTDISNFFPSISGDALSDKLSKYCGDLRTVdIEEVRDNIRRIIYLcTLDNRLPIGFSSSPSVSNFC 162
+                         3569***********************************99888776666666554899******998762456789************** PP
+
+              ART_RT 342 mvpvlryinnilskfktdikvtvyadditfss.neindefnkkrlkslvnhafkvnglkfklkeeks.lvlknhkrkitGltvnhndepti 430
+                           +  + i++  +    d + + yadd+  ss nei ++  +  l  +         lk+ ++++k+ ++ k   rki G+++  + ++t+
+  ADP10728.1_Retrons 163 FYDYDNLIESYCNDK--DYIYSRYADDLIISSqNEIAKDRITADLTAILSSD---PLLKLSINHKKTkIITKKYERKILGISILNDGKMTV 248
+                         ***999999988766..999*******9988725555544444444444433...3579999999984667999***************** PP
+
+              ART_RT 431 sqkryrqlrtiihllnkg 448
+                         s+    ++   +hll   
+  ADP10728.1_Retrons 249 SKATKTDIEVKLHLLRTD 266
+                         *********99**99653 PP
+
+>> ERC54366.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.2   8.1   4.7e-11   4.7e-11     252     444 ..     114     325 ..      70     377 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 39.2 bits;  conditional E-value: 4.7e-11
+              ART_RT 252 eniiayrdgksikdnadyhkenktiikfdiskffdnc.hfd......ykkenlffslkdedyvm........erf....edtlkdllfred 323
+                         +   ay    si d a +h + + +ik+di++ff++  ++d      y       s+ +    +        er     +++lk+  f + 
+  ERC54366.1_Retrons 114 DASFAYTPYSSIYDAAHVHINSRWLIKIDITNFFESIsEIDayhvfkYNGYSNLISFELARICTwpiprsrnERLhrlqNKYLKEYKFYDR 204
+                         34589*****************************996356632211133333445555544332222222223331112589********9 PP
+
+              ART_RT 324 nkgly...lGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkv.nglkfklkeekslvl 410
+                          ++l     G+p sp  snl+  ++   i  + +k   +++ + y+ddit ss   n+ f +   +++++  +++ n+  f  ++ k+ ++
+  ERC54366.1_Retrons 205 KQKLGstpQGAPTSPCLSNLVCKNLDAEISFLCEKL--QVRYSRYSDDITISST--NKSFSRHNAQHIIDSIYRIlNKYGFNPNKYKTKII 291
+                         9999533379************************99..9************984..77899999999999999983456799999999888 PP
+
+              ART_RT 411 knhkrki.tGltvnhndeptisqkryrqlrtiihl 444
+                             +ki  Gl v+ +d   + ++   ++++ ih+
+  ERC54366.1_Retrons 292 PPGAKKIvLGLNVD-KDSVGLDKEFKYKIKQHIHF 325
+                         75555541799997.56777777644455555664 PP
+
+>> YP_002987976.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.1  26.9   1.2e-11   1.2e-11     202     483 ..      24     301 ..       4     313 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 41.1 bits;  conditional E-value: 1.2e-11
+                  ART_RT 202 etfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnc 288
+                             ++ k  y+ek   + rei+   +   + l+   + ln+ +  r+d   +d+ + +yr+ + + d    h+ n  i k di +ff++ 
+  YP_002987976.1_Retrons  24 NLNKMEYLEKKIFRGREIVAYKK-GFNKLRLLHRFLNEAIFNRVDI--MDDVVFSYRKKVNVFDCVYPHRANPFIFKTDIKNFFPSF 107
+                             44444566666666677765443.3456777777788777777775..5889*********************************** PP
+
+                  ART_RT 289 hfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssne 375
+                             + d+    l  ++k++  + +  e  +k + ++  n+ l +G + sp  sn++  +  + +++       + + t y+ddi  ss+ 
+  YP_002987976.1_Retrons 108 NRDFIESKLESVFKEF-IISDINEYLFKIVELVSYNDFLPVGFSTSPSLSNILFSDADKKLKSFSIS--NGYIYTRYSDDIIISSE- 190
+                             ****999999999865.3444444445667799************************9999875433..47899**********96. PP
+
+                  ART_RT 376 indefnkkrlkslvnhafkvnglkfklkeekslvl.knhkrkitGltvnhndeptisqkryrqlrtiihllnkgvef..kdikgfet 459
+                                e  kk +   v      + + f l+ +k+ +l k+  rki G+++  +   ++ +   +++ t +h ++k  ++  ++ +  e 
+  YP_002987976.1_Retrons 191 --SEIHKKDIFTTVQGIINSECDSFVLNFDKTKLLkKGGVRKIMGVSIMPDGYISVDKTIKNNIETKLHYISKLNNVnsQEPELIEI 275
+                             ..57889999999999999999******999866626889**********9999999999999999999998765541156667888 PP
+
+                  ART_RT 460 plelvslinyyldvdtt..ekvkklm 483
+                             +  l ++iny   +d+   +k+k+ +
+  YP_002987976.1_Retrons 276 KRYLSGMINYISTIDDGyiNKLKRKY 301
+                             8889999***9999974224555544 PP
+
+>> AFY96279.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   0.0   3.7e-11   3.7e-11     201     439 ..     174     411 ..     168     465 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 3.7e-11
+              ART_RT 201 vetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                         v  + +f+i+k  G  r i  P  ++++    q  il++il+       l +    +r g+si  na+ h     +i +d+ +ff++  + 
+  AFY96279.1_Retrons 174 VSHYVRFQIPKKTGGFRAISAPLPRLKQ---AQQWILDNILEG----VVLHPTAHGFRRGRSIVTNAEPHVGALVVINMDLQDFFPS--IS 255
+                         667889****************988875...477899999876....55778889********************************..88 PP
+
+              ART_RT 292 ykkenlff.slkdedyv........merfedtl....kdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyaddi 369
+                         y ++   f sl   + +        +e     +    +     ++ + l  G+p spa +nl+   + r ++ + +    + + t yadd+
+  AFY96279.1_Retrons 256 YARVKGIFrSLGYSEAIatilglicTESDVTEIeldgRSYYIAQELRHLPQGAPTSPALTNLLCRRLDRRLDRMAKSR--GFIYTRYADDL 344
+                         888776662454444441111111122222222111134456788899999***************999999876554..999******** PP
+
+              ART_RT 370 tfssneindefnkkrlkslvnhafk.vnglkfklkeekslvlkn.hkrkitGltvnhndeptisqkryrqlr 439
+                         tfs+   +     + + ++   +   v ++ + ++ +k+ vl++ +++++tG+ vn +  + + +   r +r
+  AFY96279.1_Retrons 345 TFSTTDRE---RLRDIGNILKGTHGiVTHEGLTIHPDKTRVLRQsQQQEVTGIVVNQK--LNVDRTTLRRFR 411
+                         ***97544...3455666666555515677899******9998625678******986..344444444444 PP
+
+>> YP_628423.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.6   0.0   7.3e-11   7.3e-11     204     449 ..     181     438 ..     171     458 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 38.6 bits;  conditional E-value: 7.3e-11
+               ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdyk 293
+                          +    i+k dG kr i sP  e+++  +    +l ++    ++++ +      +  g+si  na+ h+    ++k+d+ +ff++  + ++
+  YP_628423.1_Retrons 181 YVSWTIPKRDGSKRTITSPKPELKAAQR---WVLSNV----VERLPVHGAAHGFVAGRSILTNALAHQGADVVVKVDLKDFFPS--VTWR 261
+                          44678**************999887644...344443....45555666666778899**************************..5555 PP
+
+               ART_RT 294 k.............enlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyaddit 370
+                          +                 +sl+  +   e  +   k l   +  + l  G+p sp ++n + +++ + + ++ ++   +   t yadd+t
+  YP_628423.1_Retrons 262 RvkgllrkgglpegTSTLLSLLSTEAPREAVQFRGKLLHVAKGPRALPQGAPTSPGITNALCLKLDKRLSALAKRL--GFTYTRYADDLT 349
+                          4112211122221123346667777766666666666777888999***********************9998888..9*********** PP
+
+               ART_RT 371 fssneinde....fnkkrlkslvnhafkv.nglkfklkeekslv.lknhkrkitGltvnh..ndept..isqkryrqlrtiihllnkgv 449
+                          fs  +  +       +  +  l  +   v + + f+++ +k+ v  k+ ++++tGl vn   +d p+  + ++  rqlr+ ih  +kg 
+  YP_628423.1_Retrons 350 FSWTKAKQPkprrTQRPPVAVLLSRVQEVvEAEGFRVHPDKTRVaRKGTRQRVTGLVVNAagKDAPAarVPRDVVRQLRAAIHNRKKGK 438
+                          **87766541211222235556666666515678****99996616888889*******73366665236677799******9887775 PP
+
+>> AAA61471.1  retron
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.1   0.2   2.6e-11   2.6e-11     208     457 ..      57     284 ..      12     313 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 40.1 bits;  conditional E-value: 2.6e-11
+      ART_RT 208 yieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenlffslkdedy 306
+                   ek   + r i +P  e++++   q  +l +ild    k+   +  i + + +si +na  h     i+ +d+ +ff++        n  f +    +
+  AAA61471.1  57 GPEK---RMRTIYQPSRELKAL---QGWVLRNILD----KLSSSPFSIGFEKHQSILNNATPHIGANFILNIDLEDFFPS-----LTANKVFGVFHSLG 140
+                 3333...556677777777654...6677777776....66667779*********************************.....34444444443333 PP
+
+      ART_RT 307 vmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneinde.fnkkrlkslvn.hafkvnglkfklk 403
+                         l ++      + l  G+p sp  +nli  ++   i+        +++ t yadd+t+s+  + +    + +l s++  + + +n +k  + 
+  AAA61471.1 141 YNRLISSVLTKICCY--KNLLPQGAPSSPKLANLICSKLDYRIQGYAGSR--GLIYTRYADDLTLSAQSMKKVvKARDFLFSIIPsEGLVINSKKTCIS 235
+                 333344455554433..346889*************99999999987766..9**************98876633445666665413344444444444 PP
+
+      ART_RT 404 eekslvlknhkrkitGltvnhndeptisqkryrqlrtiihll..nkgvefkdikgf 457
+                           +rk+tGl +  +++  i +++y+++r+ ih +   k +e+ +++g+
+  AAA61471.1 236 GP------RSQRKVTGLVIS-QEKVGIGREKYKEIRAKIHHIfcGKSSEIEHVRGW 284
+                 33......468******997.6789************9996522566777777776 PP
+
+>> sp|P23070.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.1   0.2   2.6e-11   2.6e-11     208     457 ..      57     284 ..      12     313 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 40.1 bits;  conditional E-value: 2.6e-11
+               ART_RT 208 yieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenl 297
+                            ek   + r i +P  e++++   q  +l +ild    k+   +  i + + +si +na  h     i+ +d+ +ff++        n 
+  sp|P23070.1_Retrons  57 GPEK---RMRTIYQPSRELKAL---QGWVLRNILD----KLSSSPFSIGFEKHQSILNNATPHIGANFILNIDLEDFFPS-----LTANK 131
+                          3333...556677777777654...6677777776....66667779*********************************.....34444 PP
+
+               ART_RT 298 ffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneinde.fnkkrlk 386
+                           f +    +        l ++      + l  G+p sp  +nli  ++   i+        +++ t yadd+t+s+  + +    + +l 
+  sp|P23070.1_Retrons 132 VFGVFHSLGYNRLISSVLTKICCY--KNLLPQGAPSSPKLANLICSKLDYRIQGYAGSR--GLIYTRYADDLTLSAQSMKKVvKARDFLF 217
+                          444443333333344455554433..346889*************99999999987766..9**************98876633445666 PP
+
+               ART_RT 387 slvn.hafkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihll..nkgvefkdikgf 457
+                          s++  + + +n +k  +           +rk+tGl +  +++  i +++y+++r+ ih +   k +e+ +++g+
+  sp|P23070.1_Retrons 218 SIIPsEGLVINSKKTCISGP------RSQRKVTGLVIS-QEKVGIGREKYKEIRAKIHHIfcGKSSEIEHVRGW 284
+                          66541334444444444433......468******997.6789************9996522566777777776 PP
+
+>> AAL40743.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.0   0.0   2.2e-10   2.2e-10     198     440 ..     171     413 ..     152     423 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 37.0 bits;  conditional E-value: 2.2e-10
+              ART_RT 198 nrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnc 288
+                            v  +++f ++k  G  r i  P+ +++     qa  l++i+    +k+ +++    +  g+si  na  h     ++ +d+ +ff+++
+  AAL40743.1_Retrons 171 VSRVTHYRRFLLPKKTGGLRLISAPMPRLKR---AQAWALEHIF----NKLSFEPAAHGFVAGRSIVSNARPHVGADVVVNLDLKDFFPTV 254
+                         5567889999999999999*99999988774...5777777775....6999*************************************** PP
+
+              ART_RT 289 hfdykkenlffslkdedyvme....rfedtlkdll......fr.ednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadd 368
+                          f   k  l+     e   +       e  +++++      ++   ++ l  Gsp spa++nl+   + r ++ + +    +   t yadd
+  AAL40743.1_Retrons 255 SFPRVKGALRHLGYSESVATAlalvCTEPEVDEVGldgttwYVaRGERFLPQGSPCSPAITNLLCRRLDRRLHGLAQAL--GFVYTRYADD 343
+                         9999998888654444332221111223334443311111123134445667*******************99999988..99******** PP
+
+              ART_RT 369 itfssneindefnkkrlkslvnhafkv.nglkfklkeekslvlknhkr.kitGltvnhndeptisqkryrqlrt 440
+                         +tfs        ++kr+ +l   a  +  ++ f ++ +k+ v++  +r ++tG+ vn +   ++ ++  r++r+
+  AAL40743.1_Retrons 344 LTFSGRGEA--AESKRVGKLLRGAADIvAHEGFVVHPDKTRVMRRGRRqEVTGVVVNDK--TSVPRDELRKFRA 413
+                         ****98655..5699**999998877516788**********98665527******965..4555666666665 PP
+
+>> YP_001213017.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.8   0.0   9.9e-10   9.9e-10     205     403 ..       2     182 ..       1     220 [. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 9.9e-10
+                  ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                             k ++i+k +G+ r i  P  e +  l+ +  iln++ +   d   +      +   ks   na+ h   k+ + fd+ +ffd++   
+  YP_001213017.1_Retrons   2 KILKIPKKNGKYRTIYAPDAEEKRALRGIVGILNQKCQHVCDPAAV----HGFMPLKSPVTNALAHVGRKYTVSFDLEDFFDTVT-- 82 
+                             5689*****************************9998887776655....56777888899**********************22.. PP
+
+                  ART_RT 292 ykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneind 378
+                                          +   +   +  k+l+f++   +   G p spa++nl   ++ r i + ++k    +  t yadd++fs +  + 
+  YP_001213017.1_Retrons  83 ------------PEKASKCLTKEQKELVFVDGAAR--QGLPTSPAVANLAATDMDRAILKWIEKSGKSVVYTRYADDLAFSFDDPEL 155
+                             ............222233345667999***98876..699*****************************************876554 PP
+
+                  ART_RT 379 e.fnkkrlkslvn.hafkvnglkfklk 403
+                                 +k++ +++    f+vn +k  ++
+  YP_001213017.1_Retrons 156 IpVIQKKVPEIIRrSGFRVNTDKTTVQ 182
+                             455566666665515688888886665 PP
+
+>> YP_211737.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.6  14.8   1.5e-10   1.5e-10     173     456 ..      12     271 ..       2     279 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 37.6 bits;  conditional E-value: 1.5e-10
+               ART_RT 173 cltskekyeyilnslelllksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgks 262
+                           + s+++ + i++ ++    + +  + n +t + +y      +kr ins +++++ i k+  + l ++    + +y +    i  +d+  
+  YP_211737.1_Retrons  12 LKVSRQQLDSIIENIDKYYSTWEKPKLNKDTNEPLYNSDGTIKKRTINSTNKDLKVIQKRLYNYLLSK--TTLPNYFF--GGIPKKDN-- 95 
+                          45666666667777777766666667777777777766666678888888888888877665554332..23344444..23333333.. PP
+
+               ART_RT 263 ikdnadyhkenktiikfdiskffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinni 352
+                             na+yh+ nk++   d+  ff++  +++k     f + ++ + +     tl +  +  +n ++  G p s+ ++nl+  pv   i+++
+  YP_211737.1_Retrons  96 -ILNAKYHQGNKYVFTTDLKSFFPS--INHKM---VFYMFLKLGCTPEIARTLTK--LTTHNYQVPQGVPTSTLIANLVFKPVGDRIQAL 177
+                          .248*********************..66654...44445567889999999999..57899**************************98 PP
+
+               ART_RT 353 lskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtii 442
+                           +    +ik +++ ddit+ss ++ ++  +  l  +    +k       + ++k+ + k +   +tG+ +  n+++ i q   + ++ i 
+  YP_211737.1_Retrons 178 AKEN--NIKFSIFVDDITMSSSIDFHKKIPEILSIITTSGYK-------ISHSKTFY-KTKNPIVTGV-ICQNNKLKIPQSYNKRIKRIK 256
+                          7766..*****************9877666666666555555.......55566654.4455556665.455666666665555555443 PP
+
+               ART_RT 443 .hllnkgvefkdikg 456
+                            + n+   f +ikg
+  YP_211737.1_Retrons 257 aDVQNNEQAFLKIKG 271
+                          145556666666665 PP
+
+>> AGU51509.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.1   0.0   4.1e-10   4.1e-10     204     447 ..      43     282 ..      40     296 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 36.1 bits;  conditional E-value: 4.1e-10
+              ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenk..tiikfdiskffdnchfdy 292
+                         +++f i k++G++r i +P ++i+++  +    l+      +      + +  + +g+si  na+ h+e +   i+ +d+s+ff++  + +
+  AGU51509.1_Retrons  43 YTNFVIAKANGKNRHIAEPSKKIKALQYRALAYLK----GTVPP--AKPCVHGFVEGRSILTNAEKHLERRpyHILNLDLSDFFPT--ITF 125
+                         67899*******************97665544444....44444..4478999***************9875579***********..555 PP
+
+              ART_RT 293 kkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkk 383
+                          ++   ++    ++  e  + t+    +  ++  l  G+p sp  +nli   +     ++lsk       t yadd+tfs      e  + 
+  AGU51509.1_Retrons 126 FRVRGALMAPPMKFSFE--MATMLA-HLCTHEGSLPQGAPTSPFLANLICRTL-DSQLTLLSKR-HRATYTRYADDLTFSFSHRSAERLPA 211
+                         55554444433333333..334444.34456788**************98665.5556888886.67889**********87776663333 PP
+
+              ART_RT 384 rl.......kslvnhafk.vnglkfklkeekslvlkn.hkrkitGltvnhndeptisqkryrqlrtiihllnk 447
+                          +        s+  +    ++ + f ++e k+ +    ++ +itG+ vn    p +++k  +++r  +h  + 
+  AGU51509.1_Retrons 212 NVvafdggtVSIGSELRSiIESNSFHINEGKTRISTRlRRMEITGVVVNE--FPNVTRKFIDKIRGALHAWEA 282
+                         330112211344444333267789*******97655505558****9985..566777888888888876655 PP
+
+>> CBK78627.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.6   0.8   1.2e-09   1.2e-09     230     445 ..      56     270 ..      11     289 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 34.6 bits;  conditional E-value: 1.2e-09
+              ART_RT 230 lkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenlffslkdedyv.merfedtlkdll 319
+                         l +  + ln+ l  +i    l +    +  g s +d    h   k  +++di +ffd +      e+   +  +e++v  e+  + + +  
+  CBK78627.1_Retrons  56 LYQLQNNLNRNLLAKI---PLSKAAAGFVRGLSYQDYLRPHCGKKFHMRLDIHHFFDHV-----TEEQV-IKSLEEFVqDEKIRENIGE-- 135
+                         4455555555555544...4555577788999************************993.....22222.2233344414677778877.. PP
+
+              ART_RT 320 frednkglylGsplspaasnlim....vpvlryinnils.....k.fktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkf 400
+                             n +l  G+  spa+sn++       +l+y +++ +     k ++ d++ t yadd+ fss+  +    + ++ +++ h +k ng  f
+  CBK78627.1_Retrons 136 ITTFNGKLPQGAVTSPAVSNIVFrridQRILKYCQSVRKvregkKfYQEDLIYTRYADDMMFSSDYLDF-RRDLFVYRMIKHILKENG--F 223
+                         566799***************8733223589999988532233244689***************98743.34568999****999665..9 PP
+
+              ART_RT 401 klkeekslvlknhkrkitGltvnhndepti...sqkryrqlrtiihll 445
+                          l+e+k+ ++ +    ++G+ v  +++      s+kr r++  i+  +
+  CBK78627.1_Retrons 224 SLNEKKT-YMAEGEISLSGFVVGGEENGCSvrpSRKRLREINRILAYF 270
+                         9999887.6777778899999987766443122555555555555444 PP
+
+>> CBW21731.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.7   5.6   1.1e-09   1.1e-09     215     404 ..      54     227 ..       2     266 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 34.7 bits;  conditional E-value: 1.1e-09
+              ART_RT 215 tkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenlffslkded 305
+                           r+ins   +++++  +  + + + +   i +y +   +   r++     na +h+ nk+i   d+  ff++  + +k+    f + + +
+  CBW21731.1_Retrons  54 ATRQINSSKGKLKEVQTRLYDFMSKQV--EIPQYVY-GGV--LRKNN--VRNARLHQGNKYIFTTDLKSFFPS--ISHKQ---VFQMFLRE 132
+                         345555555555555555444444433..3556666.233..34443..369*********************..66655...57777788 PP
+
+              ART_RT 306 yvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkvn 396
+                         + +      l +l    +  ++  G p s+ ++nl+  p+   i+++ + +  +ik +++ ddit+ss ++ +++ +++l  +    f++ 
+  CBW21731.1_Retrons 133 GCTPAIARILTKLT--THKYQVPQGIPTSTLIANLVFKPIGMEIDQLAKEH--HIKFSMFVDDITLSSKVDFKNLVPQFLAIIKKFGFRIS 219
+                         99999999999954..55678899**********************99998..9************************************9 PP
+
+              ART_RT 397 glkfklke 404
+                         ++k   + 
+  CBW21731.1_Retrons 220 HKKTHYQT 227
+                         99876554 PP
+
+>> EQL86843.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.6   4.1   1.1e-09   1.1e-09     207     462 ..      30     281 ..      15     308 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 34.6 bits;  conditional E-value: 1.1e-09
+              ART_RT 207 fyieksdGtkreinsPieeirpilkkqa.silnaildlridkynldeniiayrdgksikd...nadyhkenktiikfdiskffdnchfdyk 293
+                          +++ksdG  r +  P  ++r   +k+  +i+++ +      +   +n    +++   kd    a  h   k ++k+di  ffdn hfd+ 
+  EQL86843.1_Retrons  30 KKVPKSDGSIRLVYCPHPQVRRAQRKINnNIFKKLVKWPSYIFGSIPNTKISKEQIERKDyisCAGQHCGAKSLLKMDIKSFFDNIHFDHV 120
+                         489*****************99988875157777766665566666888888888888883334889**********************99 PP
+
+              ART_RT 294 kenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskf.ktdikvtvyadditfssneindefnkk 383
+                         +      ++ ++ v      tl +l  +   + +  G   s+ ++ li+ +      +++++  + ++  t   ddi+ ss + n +f   
+  EQL86843.1_Retrons 121 LDMFVNFFHYDKDVS----FTLAKLCCKS--DYIVQGGLTSSYVASLILWKH---EPELVKRLqRKNLTYTRLVDDISISSHVSNFDFS-- 200
+                         876555555555554....3566755544..567778888888888887654...444444431348999*************997775.. PP
+
+              ART_RT 384 rlkslvnhafkvnglkfklkeekslv..lknhkrkitGltvnhndeptisqkryrqlrtiihlln...kgvefkdikgfetple 462
+                         ++++lv +   +++  + ++++k+ v  l  +   i G+ vn n ep +  +  r++r+ +h l        +++ +++++++ 
+  EQL86843.1_Retrons 201 MVQQLVTNM--LYEIDLPVNNDKTKVyhLSTEPLTIHGIRVNFN-EPRLPANEVRKIRAAVHNLTilaSQPGYRTLHSYREDYA 281
+                         567777654..46666666666665412677888999*****96.799************996641114556788888877774 PP
+
+>> YP_204427.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   5.3   2.2e-09   2.2e-09     203     489 ..      42     325 ..       6     336 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 2.2e-09
+               ART_RT 203 tfktfyieksdGtkreinsPieeirpilkkqas.ilnaildlridkynldenii.ayrdgksikd...nadyhkenktiikfdiskffdn 287
+                           + + ++ ksdG  r++ +P + ir+i +++ + i+ + +      +   +n i    +    kd    a  h   k ++k+d+ +ff+n
+  YP_204427.1_Retrons  42 RYVQGKVSKSDGSYRDVYNPHNLIRKIQRRINRrIFIKLVGWPSYIFGSIPNNIdKNGKVLEAKDyvnCAAQHCLAKSLLKMDLKDFFNN 131
+                          45566899*******************999875266666665544444334433033333344552226889****************** PP
+
+               ART_RT 288 chfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssnein 377
+                           h+d+ ke     +   + v e       ++  r   + l  G+  s+ ++ l + ++  ++ + l++   +++ t   ddit ss + n
+  YP_204427.1_Retrons 132 IHIDHVKEMFEKFFNYPKDVSEAL----SNICCR--GDSLVQGALTSSYIASLCLWDLEPHLVKRLKRK--QLIYTRLVDDITVSSKISN 213
+                          *******98777777777776655....554555..568**********************99999876..899**************** PP
+
+               ART_RT 378 defnk..krlkslvnhafkvnglkfklkeekslvlkn..hkrkitGltvnhndeptisqkryrqlrtiihllnkgv.e..fkdikgfetp 460
+                           +f+    ++ s+       +++ + ++++k+ v     +   + G+ vn + ep   ++  r lr+ +h ++  + e  ++   +++++
+  YP_204427.1_Retrons 214 FQFDMtiEHITSML------HEMDLPINNSKTKVAYTsiEPLTVHGMRVNFK-EPRYPSDEVRRLRAAVHNIESLAsEpgYRVTFAYRKD 296
+                          *9986113455554......44555555555555444004456779999998.5777778899999999976543212225556666666 PP
+
+               ART_RT 461 le.lvslinyyldvdttekvkklmdkneki 489
+                          ++  ++++n    v + ek + l++k  ki
+  YP_204427.1_Retrons 297 FNrCMGRVNKLKRV-EHEKHQTLVNKLLKI 325
+                          64245555554444.446666666666665 PP
+
+>> ERE33866.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.8   1.9   2.1e-09   2.1e-09     192     402 ..      26     217 ..       7     257 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 33.8 bits;  conditional E-value: 2.1e-09
+              ART_RT 192 ksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdis 282
+                          s+  ++ n  +f+++   k +G+ r i++P e++  +  ++as+l +i         l e + + ++  s   na+ h++n  ++  di 
+  ERE33866.1_Retrons  26 YSLRKDEGNYSVFEQL--SK-KGKARKIQKPLEKLELVHTRIASLLSRI--------ALPEYLHSGKKKCSNVTNAKAHLNNEKMMTTDIK 105
+                         4555666777778765..45.7****************99999999654........4555577899999********************* PP
+
+              ART_RT 283 kffdnchfdykkenlffs.lkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfs 372
+                          ff +          ffs +k    v     d l +       ++l  Gs +s   + +    ++  i ++ +k    + +tvy dd+tfs
+  ERE33866.1_Retrons 106 AFFSSTTRGMIF-SFFFSvMKMSSDVA----DVLSH--ICTCHDRLPTGSRISMPLAYFANSRMFGEIYQLCQKL--RVNMTVYVDDLTFS 187
+                         *****4433322.22232033333333....33333..3345789*****************************9..7889********** PP
+
+              ART_RT 373 sneindefnkkrlkslvn.hafkvnglkfkl 402
+                           ++n  f    ++++vn h   ++  k kl
+  ERE33866.1_Retrons 188 GSNVNRLFCA-VIRKIVNkHGHVIHPTKTKL 217
+                         ****999975.78899983455566677776 PP
+
+>> ZP_01463804.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.4   0.0   1.1e-08   1.1e-08     204     448 ..     179     437 ..     170     474 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 31.4 bits;  conditional E-value: 1.1e-08
+                 ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfd 291
+                            ++t  i+k dG kr +  P  e++++ +    +l +     ++++ +      +  g+si  na+ h+    ++k+d+ +ff+++   
+  ZP_01463804.1_Retrons 179 YQTWEIPKRDGGKRTLTAPKRELKAVQRW---VLAN----VVERLPVHGAAHGFVAGRSILTNALAHQGADVVVKVDMKDFFPSVTWP 259
+                            7899******************9998654...3433....345555666666778899**************************7665 PP
+
+                 ART_RT 292 ykk.........enlf..fslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadd 368
+                              k         enl   ++l+  +   e      + l   +  + l  G+p spa +n + + + + + ++ ++   +   t yadd
+  ZP_01463804.1_Retrons 260 RVKgllrkgglpENLAtlLALLSTEAPREVVRFRGETLYVAKGPRALPQGAPTSPALTNALCLRLDKRLSALSKRL--GFTYTRYADD 345
+                            4442333334445654113444444444544445567777888999******************999998766655..9********* PP
+
+                 ART_RT 369 itfssneinde......fnkkrlkslvnhafkv.nglkfklkeekslv.lknhkrkitGltvnhndept....isqkryrqlrtiihl 444
+                            +tfs     +       + +  +  l  +   v + + f l+ +k+ v  k+ ++++tGl vn   e      + ++  r lr+ ih 
+  ZP_01463804.1_Retrons 346 LTFSWRRAKKSrqkelpLADAPVALLLARVKGVlEAEGFTLHPDKTRVqRKGSRQRVTGLVVNEAPEGVpgarVPRDVVRRLRAAIHN 433
+                            ****8766544100122223333444444444414567***999986516888899*******9877431111555566667777765 PP
+
+                 ART_RT 445 lnkg 448
+                             ++g
+  ZP_01463804.1_Retrons 434 REQG 437
+                            5544 PP
+
+>> YP_003266012.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2   0.0   2.6e-08   2.6e-08     204     424 ..     156     376 ..     145     381 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 2.6e-08
+                  ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchf 290
+                             +++  ++k  G +r i  P  e++   + +a+ + + l ++   +        +  g+s   na +h   + iikfdi +f++++ +
+  YP_003266012.1_Retrons 156 YHRWTVPKRSGGERLISAPKPELKRAQRWIARNITEHLPVHGAAH-------GFLPGRSTATNAAVHAGARVIIKFDIRDFYPSVTL 235
+                             566788999999999999988888888888877777776655544.......4578999*************************888 PP
+
+                  ART_RT 291 dykkenlffsl..kdedyvmerfedt..l.......kdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvya 366
+                                k   + +    +   vm                k+       + l  G+p sp ++n + + +   +  +        + t ya
+  YP_003266012.1_Retrons 236 PRVKGVFRKAGygEQVATVMALLCTEppReemvlrdKKYYVAVGPRSLPQGAPTSPSITNALALGLDSRLAGLARSL--ACRYTRYA 320
+                             766554443321122334554332221120001111333333345677789**************999999988888..8999**** PP
+
+                  ART_RT 367 dditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknh.krkitGltvnh 424
+                             dd+tfs   +  e   +rlk+ v +   v+g+ f+++e k+ +++   ++k+tGl vn 
+  YP_003266012.1_Retrons 321 DDLTFSWHGDS-EAPIQRLKNAVAR--IVHGEGFRVHEGKTRIMRAGgRQKVTGLVVNA 376
+                             *****988765.5677899998865..589**************9651669******96 PP
+
+>> YP_002603182.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   0.4   4.8e-09   4.8e-09     205     448 ..      41     262 ..      28     286 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 32.6 bits;  conditional E-value: 4.8e-09
+                  ART_RT 205 ktfyieksdGtk.reinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchf 290
+                             k  +i+k  G+  rei +P+  +++i k + ++l +i    i++     n     + +s   na  h +   +  +d  +ff+n  +
+  YP_002603182.1_Retrons  41 KFDKIPKKSGKGfREISKPNALLKNIQKAIHKLLTEI---EISD-----NAHCGIKKRSNVTNAMNHCNKEWVYSMDFKNFFPN--I 117
+                             4458999999965***************999999764...5554.....4444455666668**********************..5 PP
+
+                  ART_RT 291 dykkenlf..fslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssne 375
+                              ++++     + lk    v       l  l  ++   g+  G ++s  ++nl+  ++   ++ + + +  ++  t ++dd+ fs   
+  YP_002603182.1_Retrons 118 SHHQVYGLfrYELKCSPDV----TSILTRLCTVK--GGVPQGGSMSMDIANLVSRKLDTRLEGLCKIH--NLSYTRHCDDLNFSGKR 196
+                             5555544400445555555....55666665555..68999***********9999998888876666..99*************** PP
+
+                  ART_RT 376 indefnkkrlkslvnhafkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkg 448
+                             i d f  k  + + +  f +n +k       +l+   h + + Gl vn + +p + +k  r+ r+  h+lnk 
+  YP_002603182.1_Retrons 197 ILDTFRAKVEIIIKESGFPLNPDK------ETLIPHHHPQSVVGLRVNRK-KPCVPRKTRREWRKEKHVLNKF 262
+                             ********9887777777777654......578889999*********87.799****************985 PP
+
+>> AFM35311.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.3   0.5   5.9e-09   5.9e-09     195     446 ..      32     272 ..      14     294 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 32.3 bits;  conditional E-value: 5.9e-09
+              ART_RT 195 dlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskff 285
+                          l ++  + +++f ++  +G++r + +P  ++++i k++ s + + +++    y l+  i      +   +n+++h     ++ +di +f+
+  AFM35311.1_Retrons  32 SLAKNSSNSYTQFTVPS-KGKDRVVYEPKLNLKKIQKRINSRIFEHVQF--PPY-LQGGIKDNLSPRDYVENSKFHAGSSVLVSLDIRNFY 118
+                         5677888999*****97.9**********99999988875543333333..333.23444444444445579******************* PP
+
+              ART_RT 286 dnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfkt.dikvtvyadditfssne 375
+                         dn ++d       + +k e  v     d +        n ++  G+  s+ ++nl+     ++  +++s f++ +i  +   dd+t+ss +
+  AFM35311.1_Retrons 119 DNIKYDSVYDVFLYFFKFEPSVCTVLTDLVTL------NGKVPQGACTSSYIANLVFH---NHEYSLVSYFRSkGITYSRLLDDVTLSSSK 200
+                         ******99999999999999999876665554......99***************975...7888889999753799999*******9987 PP
+
+              ART_RT 376 indefnkkrlkslvnhafkvnglkfklkeekslvlknhkr...kitGltvnhndeptisqkryrqlrtiihlln 446
+                              +    +s v + fk ++l+   k++k  v  +  r   k+tG+ v h   p + +k  + +r+++++ +
+  AFM35311.1_Retrons 201 EIPPQEIEEAISKVAEMFKRHKLRIHPKKKKIEVSSDT-RseyKVTGVWVGHG-VPKLRRKERDYIRQLVYICE 272
+                         76666677778888999999999988888776665543.32349*******96.68888888888998887755 PP
+
+>> EPN32446.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   8.3e-05   8.3e-05     330     435 ..     214     317 ..     202     358 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 8.3e-05
+              ART_RT 330 Gsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnk.krlkslvnhafkvnglkfklkeekslvlknhkrkit. 418
+                         G++ sp ++nl+m  + + +++       d+  + yadd+ fss    d+ +  +++ks+ n    + ++ f l++ k+ ++    rki  
+  EPN32446.1_Retrons 214 GAASSPRIANLVMQSLDENLQAYATEN--DLAYSRYADDLVFSSKGAFDRSEAtQHIKSINN-C--LVDEGFWLNKAKTKIITPGTRKIVl 299
+                         778899999998877777777665554..999****************99665055666555.4..56889********999999999854 PP
+
+              ART_RT 419 Gltvnhnd.eptisqkry 435
+                         Gl v+ ++ ++  s k+y
+  EPN32446.1_Retrons 300 GLLVDGKKpRLPKSYKKY 317
+                         999986541556677777 PP
+
+>> YP_002871546.1_Retrons  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> WP_055043549.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.8   0.0   3.4e-08   3.4e-08     164     407 ..     322     565 ..     310     598 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 29.8 bits;  conditional E-value: 3.4e-08
+                 ART_RT 164 elikdilndcltskekyeyilnslelllksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynld 251
+                            +++ d l++ l+ ++++  +l+s+      +  +   v t++++ iek +G  r +  P    r + k  a+ l a l+   + + + 
+  WP_055043549.1_CRISPR 322 KVVSDSLDNPLSEQQQR-EVLQSVMTGSECLIHQRYPVPTLQQVEIEKEEGGTRTLSIPPLIDRILQKAVARPLAASLEGLWKSHSY- 407
+                            45666666666555444.467777666666666777899*****************999876666678899********88888777. PP
+
+                 ART_RT 252 eniiayrdgksikd.....nadyhkenktiikfdiskffdnchfdykkenlffslkd.edyvmerfedtlk....dl..lfrednkgl 327
+                                 yr g s  d     n  +      i+  d+  ffdn  +d++  + +++l++ +d +++  +  +k     +   +++  +gl
+  WP_055043549.1_CRISPR 408 ----GYRSGLSRHDaklaiNQAIQNGYEWILESDVESFFDN--VDWHNLETRLTLLLpNDALVDTIMAWVKapikTVtgEYQQRQQGL 489
+                            ....6666666666222225556666788************..9**999999887643566666666555411114422589999*** PP
+
+                 ART_RT 328 ylGsplspaasnlimvpvlryinnilskfktdikvtvyaddit..fssneindefnkkrlkslvnhafkvnglkfklkeeks 407
+                              Gsplsp  +nli+ +       +l     d +   yadd    f ++++ +   ++ + sl +h +k++ +k  + + k+
+  WP_055043549.1_CRISPR 490 PQGSPLSPLLANLILDDFDAD---MLA---LDYQLVRYADDFVllFKTEQQAQAALHRVIDSLNEHGLKIKAQKTHIVHAKT 565
+                            **************9886433...332...3668899****64338899988889999999999*********999988876 PP
+
+>> YP_001840884.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.9   9.2     3e-08     3e-08     175     442 ..      27     274 ..      11     285 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 29.9 bits;  conditional E-value: 3e-08
+                  ART_RT 175 tskekyeyiln.slelllksidlknrnvetfktfyieksdGtkrei.nsPieeirpilkkqasilnaildlridkynldeniiayrd 259
+                             tsk++   +l  s++ l + +  kn+  + f++ + +        i + Pi++ ++ lk++ s + +     + +++  ++ +  + 
+  YP_001840884.1_Retrons  27 TSKKRLAILLCsSIKELNHIVRSKNQMYQYFNENKTDD---SGNIIkVRPIQNPHDRLKQIHSRIGKF----LGNLKA-PDYLHSKR 105
+                             66666666654134445555555555555555554444...322221235555555555554444443....356666.56666788 PP
+
+                  ART_RT 260 gksikdnadyhkenk.tiikfdiskffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpv 345
+                             +ks   na+ h   k   + +di++f+++      k+ +ff + ++ y ++   +++ +      n+ l  Gspls+a +      +
+  YP_001840884.1_Retrons 106 SKSAISNAKAHVGLKgHTLNIDITDFYPS--TSKAKVQSFFGYTLQ-YPTD-IAKYISE--VCTVNNCLPTGSPLSSALAFWANKSM 186
+                             899999*****99884689**********..7788999***99875.5555.5778888..4556899**********998888888 PP
+
+                  ART_RT 346 lryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkrkitGltvnhndeptisq 432
+                             +  i  + +     i +tvy ddi+f+   +n++f +k ++ +      ++++k k+  e s+        +tG+++  n  +  ++
+  YP_001840884.1_Retrons 187 FDEIYRMAKS--RSITMTVYVDDISFTGKAVNQNFLNKIIQIIEKYQHNIKQEKIKFFPENSIK------FVTGVAIV-NGSLQPAH 264
+                             8877776544..48************************99999888999999999988777764......46777653.33444456 PP
+
+                  ART_RT 433 kryrqlrtii 442
+                             +++r++r++ 
+  YP_001840884.1_Retrons 265 RHFRDIRQLK 274
+                             6666666654 PP
+
+>> NP_793699.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   0.4   1.7e-07   1.7e-07     195     424 ..      32     252 ..      19     288 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 1.7e-07
+               ART_RT 195 dlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridk.ynldeniiayrdgksikdnadyhkenktiikfdisk 283
+                          dl  r  + +++f i     ++r++ +P  e++++ k++    n++l  +++  + l+  +    + +   +n+ +h   k +i +di +
+  NP_793699.1_Retrons  32 DLAGRATDSYTHFVIRTKGDKERNVYEPKYELKKLQKRI----NSRLFEKVHYpFYLQGGVRDEDHPRDYIENSRIHAGSKSLISLDIRN 117
+                          899999*********998999*******99977666665....66666666541556566666666677888****************** PP
+
+               ART_RT 284 ffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfk.tdikvtvyadditfs 372
+                          f+dn  + y  + +  ++k +    +   d l +++    + ++  G+  s+ ++nli  +      n +s+ +  ++  +   dd+t+s
+  NP_793699.1_Retrons 118 FYDN--IPYESVVS--IFKYFFNFPDEVSDLLSKIVT--RDGKVPQGACTSSYVANLIFHNSE---YNFVSRLRnQGVTYSRLLDDVTLS 198
+                          ****..88866555..556666677777888888444..4568999************97643...34445443147999999******* PP
+
+               ART_RT 373 sneindefnk....krlksl.vnhafkvnglkfklkeekslvlknhkrkitGltvnh 424
+                          s     + +     k++  l  +h +++++ k k++ +  l        +tG+ v h
+  NP_793699.1_Retrons 199 SSRLLSQDEVsgyiKYVAGLfSEHKLRIKKSKTKIERSDDLS---AEYTVTGVWVGH 252
+                          987654433300113333321345566666666665554443...334566666666 PP
+
+>> KJR40057.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   3.1   4.9e-07   4.9e-07     204     342 ..     373     509 ..     353     546 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 4.9e-07
+             ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhken.....ktiikfdiskffdnchf 290
+                         k+++i+k+d t r i   +   r + k +a+ +  i+d  i++  +     ayr g   k  a+   +         ik dis+ffd+ ++
+  KJR40057.1_CRISPR 373 TKQYRIPKNDDTFRYIYVLNTTDRLVHKTIADYISPIVDNIISNSAY-----AYRRGLNTKGAANALNNAlkegyTSGIKADISEFFDSINI 459
+                        46799*****************************************9.....*******9987664333211111456***********888 PP
+
+             ART_RT 291 dykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlim 342
+                              +  sl  ++ + +  +  l++   r+  kg+  Gsplsp  snl +
+  KJR40057.1_CRISPR 460 SALSM-MIDSLFPFEPLADFINGILEN-NTRDGIKGILQGSPLSPLLSNLYL 509
+                        75432.333444455555544455555.88999****************976 PP
+
+>> AFR49048.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.2   0.0   4.2e-07   4.2e-07     327     444 ..     311     419 ..     302     432 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 26.2 bits;  conditional E-value: 4.2e-07
+              ART_RT 327 lylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkr.k 416
+                         l  G+p sp  +nl+m p+ r +n    +   +++ t y dd++ s + in +     + ++      v++++f ++  k  ++ +h+r +
+  AFR49048.1_Retrons 311 LPQGAPTSPHLANLVMRPLDRRLNGYARRN--GLRYTRYGDDLAISGDAINADRALWTMLRI------VEDERFTVHPGKVQIMYSHQRqR 393
+                         55699*******************998887..*******************87554444444......67899*******999*9999835 PP
+
+              ART_RT 417 itGltvnhndeptisqkryrqlrtiihl 444
+                         ++Gl vn  d+p +++  y++lr+++h 
+  AFR49048.1_Retrons 394 LAGLVVN--DRPQVARSDYDNLRALLHN 419
+                         99****8..678899999******9995 PP
+
+>> CBK99617.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.4   8.4   1.5e-06   1.5e-06     192     430 ..       9     252 ..       2     268 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 24.4 bits;  conditional E-value: 1.5e-06
+              ART_RT 192 ksid.lknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhke..nktiikf 279
+                         k  d lk+ n+    + yi+k   + r i  P  e++ +        ++++   + k++  +n+ +  +gks  +na +h     + + k 
+  CBK99617.1_Retrons   9 KNDDmLKQSNITSKIHPYIDK-TKKPRLIEAPQAELKIV--------QRRIKTLLGKIQTPDNVFSGIKGKSYPENARMHIGgrKRNLYKT 90 
+                         555536788888888888888.56778888888887655........555555566778899******************852256899** PP
+
+              ART_RT 280 diskffdnchfd..ykken..lffs......lk.dedyvmerfed.tlkd.llfred.....nkglylGsplspaasnlimvpvlryinni 352
+                         d++ ff++   +  y+  n  l  s      l  +    +erf +  l +   f  +      + l  G+p s + s l+  +++  ++++
+  CBK99617.1_Retrons  91 DLTAFFPSISREdvYQFFNneLCCSpdvsevLTnLTTVSLERFPKeELTEvYDFLGQkgvhcYNHLISGAPTSQILSYLVNHKMFDELHTL 181
+                         *******975322333333013333111111220233346898431333313343221111146788899999999999999999999999 PP
+
+              ART_RT 353 lskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeeks.lvlknhkrkitGltvnhndepti 430
+                           k   d+ +tvy dd+ fss+       +  +ks++ +       ++kl ++k   + k+  + +tG+ ++ n+++ +
+  CBK99617.1_Retrons 182 SAKN--DMVMTVYVDDMVFSSEHKISSHFRNSVKSIIKK------YRYKLSHNKVkGYSKGYPKLVTGVVIDCNENMIV 252
+                         8887..***************987777667788998754......4555555554147899999999999998887765 PP
+
+>> YP_437792.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.9   0.0   3.5e-05   3.5e-05     327     489 ..     280     437 ..     266     440 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 19.9 bits;  conditional E-value: 3.5e-05
+               ART_RT 327 lylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlkn.hkr 415
+                          l  G+p spa +nl+   + r + ++ +    + + + yadd  +s   +       rl+ lv       ++ f l+  ks v+ +  ++
+  YP_437792.1_Retrons 280 LPQGAPTSPALANLVAAHLDRRLSALADSM--GRRYSRYADDFVLSGALMSPG-AIERLQALVGA-IA-LEEGFVLNTRKSAVIGQgARQ 364
+                          55699*****************99999988..999***********9988765.56789999864.44.4678********999651556 PP
+
+               ART_RT 416 kitGltvnhndeptisqkryrqlrtiih.llnkgvefkdikgfet.plelvslinyyldvdttekvkklmdkneki 489
+                          ++ G+ vn +    is+k y++l++++h  l  g + ++ +g+ +   +l ++i+y   ++  +k +kl+  +++i
+  YP_437792.1_Retrons 365 QVGGVVVNAK--ANISRKDYDELKAVLHnCLRFGPDGQNRQGHGDwAAHLRGKIAYVAGIN-PQKGRKLLALYQRI 437
+                          7899999876..579************9447778888888888773567889999988886.46777777777766 PP
+
+>> AFY99362.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.1   0.0   8.9e-07   8.9e-07     205     345 ..      57     201 ..      42     233 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 25.1 bits;  conditional E-value: 8.9e-07
+             ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnad.....yhkenktiikfdiskffdnchfd 291
+                        k fy++k +G kr i  P ++ r i +    +l   l + +++  + +   ayr g+ i+   +     y  + k iik di +ffdn  + 
+  AFY99362.1_CRISPR  57 KGFYVPKKNGGKRLIGIPTVRDRIIQR----LLLDELYFPLEDTFV-DCSYAYRPGRNIQQAVQhlyryYQYQPKWIIKADIVEFFDNICLA 143
+                        579*************99988877644....445556666766666.4556********987643333256789**************7776 PP
+
+             ART_RT 292 ykkenlffslkdedyvmerfedtlkdl.....lfrednkglylGsplspaasnlimvpv 345
+                          + n    l++e  +++  e+++k        +++  kgl  G +ls+a +nl + + 
+  AFY99362.1_CRISPR 144 L-LLNALEKLRLEPNILQLIEQQIKSGiiingQYQNAGKGLLQGGTLSGALANLYLTDF 201
+                        5.6688889************999974111214677889***************98774 PP
+
+>> YP_004514099.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.9   6.4     1e-06     1e-06     202     432 ..      35     252 ..       8     293 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 24.9 bits;  conditional E-value: 1e-06
+                  ART_RT 202 etfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnc 288
+                             +  + f i k   +    +    +++p lk+   i ++i    ++k n+ + i     gks   n + h + k +ik d+s+ff++ 
+  YP_004514099.1_Retrons  35 NSNEYFFIAKKVEKPDKSIRLTYDVKPRLKQ---IHEKICCNLLKKVNYPDYIQGGVRGKSYLSNCQNHTHKKIVIKEDVSNFFPSI 118
+                             4445566666444444444445556666665...667777778899999999*9********************************6 PP
+
+                  ART_RT 289 hfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssne 375
+                                  +e     ++    v e   +       +  n  l  G   s+   nl++ +    + + +sk   + k t + ddit s   
+  YP_004514099.1_Retrons 119 SKKIIHEVWAGFFHFPSDVSELLSEL------VTFNGYLVQGGKASGFLCNLVLYDRESKLVEEFSKK--GFKYTRFVDDITISCLR 197
+                             55444444433344444565555444......445999******************999999999987..9*************854 PP
+
+                  ART_RT 376 indefnkkrlkslvnhafkvnglkfklkeekslvl.knhkrkitGltvnhndeptisq 432
+                                + ++ ++++     +k  +     ++ k  ++  + ++++ G+ +n n +pt+ +
+  YP_004514099.1_Retrons 198 NITKDEQTYIIRKTYGLLKSIEV--NPNKRKHKIMsNGVQQQLHGVNLNTN-KPTLPK 252
+                             44444444444444333332222..22223333330445566777777754.566655 PP
+
+>> YP_736562.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   6.9   8.7e-06   8.7e-06     199     440 ..      39     278 ..       8     331 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 8.7e-06
+               ART_RT 199 rnvetfktfyieksdGtkreinsPieeirpilkkqa.silnaildl..rid..kynl...deniia.yrdgksikdnadyhkenktiikf 279
+                          ++++ +k   ++ksdG+ r + +P + ir   +++  +i++ +      i+   y +    +n  +    +k     a +h   k i+k+
+  YP_736562.1_Retrons  39 NDLDKYKPSSVPKSDGKSRTVYNPAQLIRLFQRRINtRIFHPKHSQggLISwpSYLFgsiPNNPQSpENSNKNYITCAGMHCGAKSILKM 128
+                          335566666799**************9999988875156654443211344113333111122222134466666789************ PP
+
+               ART_RT 280 diskffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryi.nnilskfktdikvtvyadd 368
+                          dis+ffdn h     +n+f  l+++    +   +tl d+   + n  +  G+  s+ ++  ++ +v   + + + +k   ++  t   dd
+  YP_736562.1_Retrons 129 DISDFFDNIHH-REVINIFEGLLKFP---NDVSQTLADICCYKGN--VIQGALTSSYIASAVLFDVEPNVvRRMHEK---HLVYTRLVDD 209
+                          ********654.35577776666553...4556778887777766..677888888888888888875440444444...5999****** PP
+
+               ART_RT 369 itfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkrk..itGltvnhndeptisqkryrqlrt 440
+                          it ss + + +f   + k++v + ++ +g  +  +e+k++v+ +  ++  + Gl v  + ep +  +   ++r+
+  YP_736562.1_Retrons 210 ITISSKIYDYDFS--YAKNIVIDMLRKKG--LPTNEDKTIVINSSTKEglVHGLRVCFK-EPRLPADEVGKIRA 278
+                          ******9998875..45666666555444..4578888888877665444677777765.45666666666665 PP
+
+>> YP_002498363.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   0.0   9.1e-06   9.1e-06     200     445 ..     174     415 ..     160     420 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 9.1e-06
+                  ART_RT 200 nvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffd 286
+                              +  + +f i+k  G  r i  P+ +++     q  il++ l        + +    +  g+si  na  h     ++ +d+ +ff+
+  YP_002498363.1_Retrons 174 RISHYWRFTIPKKAGGVRLISAPMPRLKR---AQYWILDNLLAH----APVHDAAHGFVPGRSIVTNAAAHVGRAVVVNLDLKDFFP 253
+                             57778899999999999999999987764...577788877754....445566678999*************************** PP
+
+                  ART_RT 287 nchfdykkenlff.............slkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdi 360
+                             +  f   k    f             +l+  +  ++  e   + l      ++l  G+p sp  +nli   +   +  +      + 
+  YP_002498363.1_Retrons 254 TLSFRRVK--GKFrglgyaepvatvlALLCTEPDVDEVEIDGERLFAARGPRRLPQGAPTSPLFTNLICARLDARLSGLARSM--GF 336
+                             *6655444..333111111111000033333333444444455655566788999****************999999988877..99 PP
+
+                  ART_RT 361 kvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlk.nhkrkitGltvnhndeptisqkryrqlrtiihll 445
+                               t yadd+tfs    + +     l+ lv +   v  + f ++ +k+ +++ + ++++tGltvn   + ++ ++  r +r+++h +
+  YP_002498363.1_Retrons 337 TYTRYADDLTFSGAAAE-K--IGALIGLVGEI--VAAEGFVVHPDKTRIMRrGSRQEVTGLTVNE--RVAVPRDVLRRFRALLHQI 415
+                             ************98764.3..35688888876..667889******99997255668******95..5677777777777777755 PP
+
+>> YP_001893694.1_Retrons  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> YP_583625.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.6   0.0   5.3e-06   5.3e-06     209     450 ..      50     273 ..      35     287 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 5.3e-06
+               ART_RT 209 ieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenlf 298
+                          i k dG  r+  +  e ++++ +++     +i    +d+ n+   +    +g   k na +h   + +i  dis ff++   d     +f
+  YP_583625.1_Retrons  50 ITKPDGSIRNTYDAREPLKEVHRRI---KSQI----LDHVNYPAYLTGSIKGCDYKVNASLHARARIVINEDISGFFPSTSAD----RVF 128
+                          4455555555444444444443332...2223....3456776677778899999************************7666....456 PP
+
+               ART_RT 299 fslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfkt.dikvtvyadditfssnei.ndefnkkrlk 386
+                           +++ + +  e     l +l  r+   +l  G+  s+  +nl+         +++ kf + ++  + y ddi+ ss     +e  +  ++
+  YP_583625.1_Retrons 129 SIWRGFFGFSEDVARCLTQLTTRH--GELPQGAITSSFLANLVFW---WDEPELFGKFAAqGLVYSRYVDDIAVSSKTFlTNEAKTNVVR 213
+                          677788888888889999976665..5799999999999999864...3456899***862577799*****988876413333333333 PP
+
+               ART_RT 387 s....lvnhafkvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgve 450
+                          +    l  h +k +  k        +   + +  +t l+vn  ++p + +   +++r+++h +++ + 
+  YP_583625.1_Retrons 214 QvygmLLKHGYKAKRAKHE------IATSGSRMAVTKLAVN--NKPGLDKATRNKIRAVVHAVERRIA 273
+                          3000033444444444433......4555677789999997..678999999999*****99887655 PP
+
+>> WP_010995638.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.7   0.0   4.7e-06   4.7e-06     204     344 ..      56     200 ..      38     232 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 22.7 bits;  conditional E-value: 4.7e-06
+                 ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnad.....yhkenktiikfdiskffd 286
+                             k fyi+k +Gtkr i   i  +r+ +  + ++l   l + +++  ld    ayr g si+   +     y  + k iik d+++ffd
+  WP_010995638.1_CRISPR  56 AKGFYIPKKNGTKRLIG--IHTVRDRI--IQRLLLDELYFPLEDTFLD-CSYAYRPGHSIQQAVQhlygyYQYQPKWIIKADVADFFD 138
+                            578***********996..56666644..4567777899999999995.668********987643333367799************* PP
+
+                 ART_RT 287 nchfdykkenlff.slkdedyvmerfedtlkdl.....lfrednkglylGsplspaasnlimvp 344
+                            n  + + +   ++  l +e  +++  e++lk        +r+  kg+  G  ls+a +nl +  
+  WP_010995638.1_CRISPR 139 N--LSWALLLTYLeELSLEPSLLQLLEQQLKSGiiiagQYRNFGKGVLQGGILSGALANLYLTS 200
+                            *..7777665554257788888888888888631122257888899999999999999997754 PP
+
+>> WP_028490526.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.7   0.0   4.8e-06   4.8e-06     205     344 ..      62     204 ..      57     249 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 22.7 bits;  conditional E-value: 4.8e-06
+                 ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhke.....nktiikfdiskffdn 287
+                            ++f ++k dG++r i  P  + + + +    +l+   +   ++        ayr g+s++      +e        ++  diskffdn
+  WP_028490526.1_CRISPR  62 RQFTVPKPDGKQRVISAPYLKDKLVQRALLIVLEPNAEAIFHHDS-----YAYRRGRSVQMALAKTREririgQDWLVDADISKFFDN 144
+                            6899***************99888777777777776665555544.....5*******986655444411111567799********* PP
+
+                 ART_RT 288 chfdykkenlffslkdedy..vmerfedt.lkdllfrednkglylGsplspaasnlimvp 344
+                              +   ++ l   +kd d   +++++ ++ ++   +    +g+  Gs lsp   nl m +
+  WP_028490526.1_CRISPR 145 IPLAPLQKKLKAFVKDGDAlnLIDKWLKQgVQSSSLFGTSRGISQGSILSPLFCNLYMNE 204
+                            **99988888888888885226899976537887888899****************9965 PP
+
+>> YP_217686.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.0   6.8e-06   6.8e-06     204     393 ..      49     222 ..      23     241 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 22.2 bits;  conditional E-value: 6.8e-06
+               ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdyk 293
+                          ++  y e  +   r i++Pi +++++ +k+  +l         +++l + + + r+  s   n + hk    ++k+di kff++      
+  YP_217686.1_Retrons  49 LDSAYKEFVNDAGRTIQEPIAQLKAVHRKIGVLLS--------RIELPPYLHSGRKKHSTLTNVESHKLATELLKLDIHKFFPSTRA--A 128
+                          45666677778889999999999999888876664........4466777999*******************************443..2 PP
+
+               ART_RT 294 kenlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkk 383
+                          k+   f   ++  +       + +  +     ++  Gsp+s a++     +++  + n+       +  t+y dd++fs  +i + f  +
+  YP_217686.1_Retrons 129 KVYKAF--VEKFEMSPDVAYIMTN--LSTFAGKVPTGSPISMAMAFWANKDMFDELSNLAASN--SLVFTAYVDDVAFSGSKIPKGFAAQ 212
+                          222222..2222222333333444..3334567889**********************99877..99****************9999888 PP
+
+               ART_RT 384 rlkslvnhaf 393
+                            k +  h +
+  YP_217686.1_Retrons 213 AKKCIRSHGL 222
+                          7777766655 PP
+
+>> SRS055982_Baylor_scaffold_18092_38994_39992_+_DGRs  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.9   0.1   8.5e-06   8.5e-06     275     381 ..     123     216 ..     118     242 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 21.9 bits;  conditional E-value: 8.5e-06
+                                              ART_RT 275 tiikfdiskffdnchfdykkenlffslkdedyvmerfedtlkdllfrednkglylGspl 333
+                                                         + +k+di kf+++ + d  k  ++ s+kd+  +  r  d +      + +kg+ lGsp+
+  SRS055982_Baylor_scaffold_18092_38994_39992_+_DGRs 123 YCLKLDIRKFYPTIKHDVLKGIVRRSIKDKRIL--RVLDAI-----IDSEKGVMLGSPI 174
+                                                         678***********************9997644..444444.....5589********* PP
+
+                                              ART_RT 334 spaasnlimvpvlryinnilskfktdik.vtvyadditfssneindefn 381
+                                                         sp  snl + p+ +y+++     k ++k    yadd    sn    ef 
+  SRS055982_Baylor_scaffold_18092_38994_39992_+_DGRs 175 SPYLSNLYITPLCHYLKE-----KKGVKwLINYADDFGILSNDK--EFL 216
+                                                         ***************975.....445552567999998888753..455 PP
+
+>> YP_001107822.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.0    0.0003    0.0003     329     447 ..     276     387 ..     253     430 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 0.0003
+                  ART_RT 329 lGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlknhkr 415
+                              G+p spa +n +m  + r i++       +   t yadd++fs +    ++    l + v    +   + ++l+++k+ vl  h+r
+  YP_001107822.1_Retrons 276 QGAPSSPALANALMHRLDRRIDAYAGTL--GATYTRYADDLAFSGDR---RLPVAALLRGVTAIVRA--EGLRLRQSKTRVLAPHQR 355
+                             699*******************999988..9999**********875...46666677666665555..556899********9998 PP
+
+                  ART_RT 416 .kitGltvnhndeptisqkryrqlrtiihllnk 447
+                              +i+Gl vn        +  y+ lr+++h   +
+  YP_001107822.1_Retrons 356 qRIAGLVVNDGR-AVAPRAEYDALRALLHNCAR 387
+                             46******9654.4557889******9997654 PP
+
+>> AFY33126.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   0.0   2.4e-05   2.4e-05     205     374 ..      57     224 ..      49     237 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 2.4e-05
+             ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnad.....yhkenktiikfdiskffdnchfd 291
+                        k fyi+k +G kr i  P ++ r i     ++l   l + +++  ld    ayr g  i    +     y  + k iik di++ffdn  + 
+  AFY33126.1_CRISPR  57 KGFYIPKKNGSKRLIGIPTVRDRIIQ----RLLLDELYFPLEDTFLD-CSYAYRPGHNIHQAVQhlygyYQYQPKWIIKTDIADFFDN--LS 141
+                        579*************9998877653....45666788888888884.567********987543333367799**************..66 PP
+
+             ART_RT 292 ykken.lffslkdedyvmerfedtlkd.....llfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssn 374
+                        + +       l +e  v+   e++l+        +r+  kg+  G  ls+a +nl + +   + ++ ls+    i    y dd   + n
+  AFY33126.1_CRISPR 142 WALLLtALDELSLEPIVLCLLEQQLHSgiiiaGQYRNFGKGVLQGGILSGALANLYLTN---FDRKCLSQS---INLVRYGDDFVIACN 224
+                        66543034457777777766666655411111357788889999999999999987654...444556554...666666666666655 PP
+
+>> WP_038188758.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0   1.9e-05   1.9e-05     163     345 ..     319     505 ..     308     571 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 1.9e-05
+                 ART_RT 163 lelikdilndcltskekyeyilnslelllksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynl 250
+                            ++l+++ l+   + +e+++y  + +  l ++i   +    +++++ i+ksdG  r +  P    r + k +a+ l   ld   + + +
+  WP_038188758.1_CRISPR 319 VQLVQESLDSQFSEQERNQYKNK-VIGLSHTILAGDYKAPVLTQVEIDKSDGGVRTLSIPPLADRILQKAIARPLAVSLDGLWKTHSY 405
+                            56777777777777888887644.4445667777788889999*******************99*999************76555555 PP
+
+                 ART_RT 251 deniiayrdgksikd.....nadyhkenktiikfdiskffdnchfdykkenlffslkd.edyvmerfedtlkd......llfrednkg 326
+                                  yr++ s  d     n  + +    ++  d+  ffdn  +d++    ++ l++ +d++++  +  +k           e  +g
+  WP_038188758.1_CRISPR 406 -----GYRKDLSRHDakfaiNQAIQQGYEWVLESDVDSFFDN--VDWRNLQTRLKLLLpNDFLVDVIMAWVKApvktpsGQILERTQG 486
+                            .....4444444444222227778888999************..9***999999876537888888888887521112135678999* PP
+
+                 ART_RT 327 lylGsplspaasnlimvpv 345
+                            l  Gsplsp  +nl++ + 
+  WP_038188758.1_CRISPR 487 LPQGSPLSPLLANLVLDDF 505
+                            **************98664 PP
+
+>> YP_633868.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.5   0.0   0.00037   0.00037     324     469 ..     185     326 ..     177     345 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 0.00037
+               ART_RT 324 nkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkvnglkfklkeekslvlk.n 412
+                           + l  G+p spa +nl    +   + ++ +    + + t yadd++fs      +  +k l+  v +   + ++ f  +  k+ v+  +
+  YP_633868.1_Retrons 185 SRHLPQGAPTSPALANLAAYRLDVRLSALAEAM--GARYTRYADDMAFSGGDALARRTHKLLR-YVSQI--LREEGFTPRTGKTRVMHrS 269
+                          566777999999999999988888888877777..8999**********99888887777665.45565..4688899999**9999625 PP
+
+               ART_RT 413 hkrkitGltvnhndeptisqkryrqlrtiihlln.kgvefkdikgfet.plelvsliny 469
+                           +++++G+ vn  d+p+i +  y+ l++i+hl   +g   ++ +g+ +   +l+++i++
+  YP_633868.1_Retrons 270 TQQRLAGVVVN--DHPSIRRVDYERLKAILHLCRtRGPASQNTEGHPDfRAHLLGRIAW 326
+                          67899**9997..89****************9751455556666665423456666655 PP
+
+>> WP_015201683.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   0.1   2.9e-05   2.9e-05     204     369 ..      81     244 ..      57     275 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 2.9e-05
+                 ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnad..yh...kenktiikfdiskffd 286
+                            fk++ i+k +G  re++ P ++ r + +   ++l  i++ + +   +     ayr   s  +  +   h   +    ++  d+sk+fd
+  WP_015201683.1_CRISPR  81 FKQVFIPKQKGSWRELKIPTVRDRIVQQALLNVLAPIMENKFSPASF-----AYRPHMSYINAVEqvAHwrdLGYHWVMDADVSKYFD 163
+                            99******************999999888899999999888776655.....88888775443321123112456789********** PP
+
+                 ART_RT 287 nchfdykkenl.ffslkdedyvmerfedtl.....kdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadd 368
+                            +  +d+++  +    ++d+ +++   +  +      + + + ++kg+  G+ +sp+ +n+ +       ++i+s    d+k   yadd
+  WP_015201683.1_CRISPR 164 S--IDHQRLLIvVRKYLDNPGILCLIKAWIsagvlTKEGIVRNDKGIPQGAVISPMLANIYL----DEFDKIISAS--DLKLVRYADD 243
+                            *..7776654404467888888766555441111156688889999*************975....4567777766..8899999998 PP
+
+                 ART_RT 369 i 369
+                             
+  WP_015201683.1_CRISPR 244 F 244
+                            6 PP
+
+>> NZ_JH114142.1_231164_232474_-_DGRs  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.3   2.3   5.1e-05   5.1e-05     190     307 ..      50     169 ..      37     213 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 19.3 bits;  conditional E-value: 5.1e-05
+                              ART_RT 190 llksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridky...nldeniiayrdgk 261
+                                         + k i   + nv  +++ +i     + r+i+  + + r  +    s++++ l +r  +     + +  +   +  
+  NZ_JH114142.1_231164_232474_-_DGRs  50 VAKEIASGHVNVSNYHEKHIHE-GNKWRDIQVFNMRTRIKINAVMSVVDKHLHRRYIRTtaaSIKQRGMHDLKTY 123
+                                         5666777778888899889988.456799999999999999999999**99999865440114445555555666 PP
+
+                              ART_RT 262 sikdnadyhkenktiikfdiskffdnchfdykkenlffslkdedyv 307
+                                           kd  +y ke k+i kfdi kf+++ + d+    ++ ++kd+  +
+  NZ_JH114142.1_231164_232474_-_DGRs 124 IEKDIQLYPKEMKYIYKFDIKKFYPTIQQDFVMYCIRRVFKDKRLI 169
+                                         67999********************************999998754 PP
+
+>> KYC43938.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.0   8.9e-05   8.9e-05     186     317 ..      39     169 ..      33     228 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 8.9e-05
+             ART_RT 186 slelllksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnad.....yhke 272
+                         l +ll+ +  +       k fy+ ks G kr +  P ++ r +     ++l + l + +++  ld    ayr g+ i+   +     yh+ 
+  KYC43938.1_CRISPR  39 QLRILLRQLQQESYCASPAKGFYLAKSSGGKRLVGIPTVRDRIV----QRLLLEELYFPLEDTFLD-CSYAYRPGRNIQQAVQhlysyYHLR 125
+                        566777777777777777889*************9998876654....356777788888888884.567********99753333339*** PP
+
+             ART_RT 273 nktiikfdiskffdnchfdykkenl.ffslkdedyvmerfedtlkd 317
+                         k iik di++ffd+  + + +       l +e  v++  e +l+ 
+  KYC43938.1_CRISPR 126 PKWIIKADIAEFFDS--LSWALLLTaLEKLPLEPIVVQLLEGQLRS 169
+                        ***************..66654333033455666666666666665 PP
+
+>> WP_029630506.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.0   9.4e-05   9.4e-05     205     343 ..      58     200 ..      49     236 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 9.4e-05
+                 ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnad.....yhkenktiikfdiskffdn 287
+                            k fy++k +G kr i  P ++ r +     ++l + l + +++  ld    ayr g+ i+   +     y ++ k +ik di++ffdn
+  WP_029630506.1_CRISPR  58 KGFYVPKKNGDKRLIGIPTVRDRIV----QRLLLEELYFPLEDTFLD-CSYAYRPGRNIQQAVQhlysyYQLQPKWVIKADIAEFFDN 140
+                            579************9999877654....356777788888888884.567********987533333378899************** PP
+
+                 ART_RT 288 chfdykke.nlffslkdedyvmerfedtlkdllfredn......kglylGsplspaasnlimv 343
+                              + + +       l++e  v++  e +lk  + +         kg+  G  ls+a +nl + 
+  WP_029630506.1_CRISPR 141 --LCWALLlTALEDLQLESIVLQLLEGQLKS-GIVIAGkpvypgKGVLQGGVLSGALANLYLT 200
+                            ..66665413445688899999999999998.4443330111115666667778888887665 PP
+
+>> AFY57343.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.2   0.0   0.00011   0.00011     205     389 ..      62     245 ..      44     263 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 18.2 bits;  conditional E-value: 0.00011
+             ART_RT 205 ktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgks.......ikdnadyhkenktiikfdiskffdnch 289
+                        k++ i+k +G +re++ P ++ r + +   +++   ++ + +   +     ayr + s       i d  d+      ++  di kffdn  
+  AFY57343.1_CRISPR  62 KQVIIPKRNGSQRELKIPTIRDRIVQQALLNVISPLMEEKFSPVSF-----AYRPNLSyinavekIADWRDM--GYVWVLDADIVKFFDN-- 144
+                        6789**************9888888777777777777777775444.....666665521110014444444..3457899*********.. PP
+
+             ART_RT 290 fdykkenlffslkded.yvmerfedtlkdllfrednkglyl...Gsplspaasnlimvpvlryinnilskfktdikvtvyaddi.tfssnei 376
+                        +d+++      l+ ++ +++   +  +     +e  +gl l   G p  +++s ++    l+  ++i+s    d+ +  yadd   +s+ + 
+  AFY57343.1_CRISPR 145 IDHHRLLQQVRLHIDHpGILCLIKAWISV--GVETREGLILpqkGIPQGAVISPILANIYLHEFDEIISAS--DLEIVRYADDFlVLSTSQE 232
+                        88877766666665552666555555543..4555556655334555555666655555567788999977..8999999999614565555 PP
+
+             ART_RT 377 ndefnkkrlkslv 389
+                             k +++ l 
+  AFY57343.1_CRISPR 233 RIAIAKSQVIDLL 245
+                        5555555555555 PP
+
+>> NZ_JH376870.1_861936_862973_+_DGRs  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.3   0.5   0.00021   0.00021     274     327 ..     137     185 ..     127     214 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 17.3 bits;  conditional E-value: 0.00021
+                              ART_RT 274 ktiikfdiskffdnchfdykkenlffslkded..yvmerfedtlkdllfrednkgl 327
+                                           i+k diskff + + d  k  +++ lkd+d   + e+f d  k ++       l
+  NZ_JH376870.1_861936_862973_+_DGRs 137 CWIVKADISKFFYSIDHDILKDMVRYFLKDDDvyWLCEKFIDSTKGFG-------L 185
+                                         579***************************99434789**99999844.......3 PP
+
+>> ADN17996.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.5   0.0   0.00037   0.00037     207     343 ..      60     200 ..      54     225 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 0.00037
+             ART_RT 207 fyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnad.....yhkenktiikfdiskffdnchfdyk 293
+                        fy++k++G kr +  P ++ r + +   + l   l+    +  +     ayr g+ i+   +     y  + k iik di  ffd+  +++ 
+  ADN17996.1_CRISPR  60 FYLPKNNGDKRLLGIPAVRDRVVQRWLLEDLYLPLEEVFTDCSY-----AYRPGRGIQMAVKhlyyyYQIQPKWIIKSDIRSFFDS--LNWS 144
+                        89999999999999998888877665555555555555555555.....9***9998765432222256789**************..8888 PP
+
+             ART_RT 294 kenlffslkdedyvmer.fedtlkdll.....frednkglylGsplspaasnlimv 343
+                           + +  ++ d ++++  e++lk        +   n+g+  G+ ls+a +nl + 
+  ADN17996.1_CRISPR 145 ILLSILEHLKLDPIIQQlVEQQLKSGIvlkgrYFPRNQGVLQGAVLSGALANLYLS 200
+                        777776655555555541566677532111115568****************9875 PP
+
+>> YP_002153510.1_Retrons  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> AGM03404.1_Retrons  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> WP_019606016.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.0   0.00063   0.00063     207     344 ..     405     546 ..     394     578 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 0.00063
+                 ART_RT 207 fyieksdGtkrein.sPieeirpil.kkqasilnaildlridkynldeniiayrdgksikdnad.....yhkenktiikfdiskffdn 287
+                            + i+k+dG+ r +   P  +  ++l +  a+il   ld+ +d+  +      yr g+s  d  +     y    + ++  di +ffd+
+  WP_019606016.1_CRISPR 405 VIIPKTDGEWRALAvAPFFD--AVLqRAVAQILAPSLDRVMDNRSY-----GYRRGRSRLDAKEqiqlaYRNGARWVLEADIEDFFDS 485
+                            6799****999986145544..45516789**************99.....9999999766542222226667799************ PP
+
+                 ART_RT 288 chfdykkenlffslkde...dyvmerfedtlkdllfr.ednkglylGsplspaasnlimvp 344
+                            + f    + l+  ++++   + ++      ++  ++r +   gl  Gsplsp+ +nl++ +
+  WP_019606016.1_CRISPR 486 VAFSLVAQRLRALFHQDpinEAILAWLSAPVDYDGLRlQRKAGLPQGSPLSPVLANLLLDD 546
+                            ***9999999988865322255555666666655565255679**************9755 PP
+
+>> KFB71594.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.4   0.0   0.00077   0.00077     204     341 ..     317     461 ..     306     490 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 15.4 bits;  conditional E-value: 0.00077
+             ART_RT 204 fktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdn.....adyhkenktiikfdiskffdnchf 290
+                        f+ +++++sdG+ r+   P  +   il + +++l + +d+  + +      i yr+g s  d      a +      ++  dis+ff+++++
+  KFB71594.1_CRISPR 317 FQAIRVPRSDGRLRQFETPAARDLVILNHLTRLLSEPFDRLFSVHS-----IGYRKGHSREDAvervrAAIAEGCTHVLESDISDFFPSVDL 403
+                        899***********************************99877655.....69******9997222225566667899***********887 PP
+
+             ART_RT 291 dykkenlffslkdedy.vmerfedtlk......dllfrednkglylGsplspaasnli 341
+                           +  l  +l   d  + +    +l       +   +  n+gl lGsplsp  +nl 
+  KFB71594.1_CRISPR 404 KRLLARLDDVLPRRDVrLRQTLAAYLGagwrygEGSVQARNRGLPLGSPLSPLLANLY 461
+                        7777777777766665133444445431111112245678999999999999999986 PP
+
+>> YP_001750449.1_Retrons  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   0.0   0.00082   0.00082     230     374 ..      67     203 ..      45     222 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 0.00082
+                  ART_RT 230 lkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykkenlffslkdedyvmerfedtlk 316
+                              + q ++++++l   i    l   i   +  +si  na +h   + +i  di +f+++    + +   +  +    +v     + l 
+  YP_001750449.1_Retrons  67 KRIQRKLVDRVLSKAIFPTYLHGGIRDCKSPRSIHSNAAVHAGARFVILQDIRNFYPSISKSHVHAMFRGLFGFGAGV----AELLS 149
+                             3346678899999999988899999999999***************************55555544444455555555....55666 PP
+
+                  ART_RT 317 dllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssn 374
+                              l  r        G++ s+ ++nl+  +v   + + ls    + + + +addit s  
+  YP_001750449.1_Retrons 150 SLCTRSGS--TPQGASTSGYIANLVFWDVEPKVVSDLSGK--GFQYSRFADDITISCT 203
+                             66656554..4579***************99998888876..8999********9975 PP
+
+>> WP_012599795.1_CRISPR  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   0.0   0.00083   0.00083     187     298 ..      46     157 ..      32     265 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 0.00083
+                 ART_RT 187 lelllksidlknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdn...adyhk 271
+                            l +ll+s+   n   + +k++ i+ks+ + re+  P ++ r + +   ++l  +++ r ++  +     ayr ++s  d    a y +
+  WP_012599795.1_CRISPR  46 LTFLLNSVTNSNYIPQPLKQVLIPKSQEKWRELRIPTVRDRIVQQALLNVLYPVMEERFSDASF-----AYRPNRSYLDAvkrAAYWR 128
+                            677888888888878899*******************999999999999999999999998888.....*******888533367776 PP
+
+                 ART_RT 272 e..nktiikfdiskffdnchfdykkenlf 298
+                            +   + ++  di ++fdn      +++++
+  WP_012599795.1_CRISPR 129 DlgYQWVLDADIVEYFDNISHSLLLKEVR 157
+                            6226789***********77666555554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (500 nodes)
+Target sequences:                        746  (311237 residues searched)
+Passed MSV filter:                       488  (0.654155); expected 14.9 (0.02)
+Passed bias filter:                      234  (0.313673); expected 14.9 (0.02)
+Passed Vit filter:                       136  (0.182306); expected 0.7 (0.001)
+Passed Fwd filter:                       110  (0.147453); expected 0.0 (1e-05)
+Initial search space (Z):               2076  [as set by --Z on cmdline]
+Domain search space  (domZ):            2076  [as set by --domZ on cmdline]
+# CPU time: 0.30u 0.03s 00:00:00.32 Elapsed: 00:00:00.33
+# Mc/sec: 464.89
+//
+[ok]

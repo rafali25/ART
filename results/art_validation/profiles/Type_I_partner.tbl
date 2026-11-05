@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:\MBZUAI\CRISP\results\art_discovery\profiles\Type_I_partner.hmm
+# Target file:     D:\MBZUAI\CRISP\results\art_validation\comparison_proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_validation\profiles\Type_I_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_validation\profiles\Type_I_partner.domtbl -E 0.001 --domE 0.001 -Z 2076 --domZ 2076 --seed 42 --cpu 4 D:\MBZUAI\CRISP\results\art_discovery\profiles\Type_I_partner.hmm D:\MBZUAI\CRISP\results\art_validation\comparison_proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 00:50:03 2026
+# [ok]

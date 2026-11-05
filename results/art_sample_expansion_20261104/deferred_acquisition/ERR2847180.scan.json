@@ -1,0 +1,24 @@
+{
+  "lead_id": "ERR2847180_159_4",
+  "prefix_sha256": "b79c0beac51304eb7d53fa22d6f74ee89e2e546883feccda7120327197fdf879",
+  "complete_contigs_scanned": 2207,
+  "complete_nucleotides_scanned": 6826237,
+  "exact_peptide_matches": [
+    {
+      "current_contig": "ERR2847180_159",
+      "length_nt": 13500,
+      "sequence_sha256": "40edf26c5faa2b24e54923833506a664aa1b3d865d74eb38357aa3602242222c",
+      "mappings": [
+        {
+          "start0": 2019,
+          "end0": 3561,
+          "strand": 1,
+          "genetic_code": 11,
+          "initiator_normalized": false
+        }
+      ],
+      "source_fasta": "results/art_sample_expansion_20261104/deferred_acquisition/ERR2847180_159.current_matched.fna"
+    }
+  ],
+  "status": "exact_translated_mapping"
+}

@@ -1,0 +1,57 @@
+{
+  "output": "results/art_discovery",
+  "sequence_evalue": 1e-05,
+  "domain_independent_evalue": 1e-05,
+  "minimum_profile_coverage": 0.6,
+  "retrieval_evalue": 0.001,
+  "flank_nt": 6000,
+  "threads": 4,
+  "families": {
+    "ART_RT": {
+      "seed_ids": [
+        "WRM43423.1",
+        "QDJ97640.1",
+        "BDE75684.1",
+        "QQO92858.1",
+        "UAJ17040.1",
+        "QXN67953.1"
+      ],
+      "heldout_ids": [
+        "QQM14740.1",
+        "QPI16926.1"
+      ],
+      "curation": "Five local Staphylococcus RT seeds from the previous manifest; LPJP1 QXN67953.1 reconstructed from the paper's LPJP1 representative using RT homology, upstream repeat tract and downstream partner context."
+    },
+    "Type_I_partner": {
+      "seed_ids": [
+        "QXN67952.1"
+      ],
+      "heldout_ids": [],
+      "curation": "Provisional accession-level reconstruction of the partner downstream of LPJP1 array-associated RT QXN67953.1. The paper identifies LPJP1 as a type I representative. Single-locus retrieval seed, not an independently validated family alignment. Generic GNAT annotations are not used to select seeds."
+    },
+    "Type_II_partner": {
+      "seed_ids": [
+        "WRM43422.1",
+        "QDJ97641.1",
+        "BDE75685.1",
+        "QQO92859.1",
+        "UAJ17041.1"
+      ],
+      "heldout_ids": [
+        "QQM14741.1",
+        "QPI16927.1"
+      ],
+      "curation": "Co-oriented downstream partners of five paper-described Staphylococcus ART loci; MarsHill and SA1 held out as related-sequence recovery references."
+    },
+    "Type_III_first_partner": {
+      "seed_ids": [],
+      "heldout_ids": [],
+      "curation": "No traceable verified examples in the available inputs; remains a separate family slot. Supply curated seed_fasta and optional heldout_fasta paths to activate."
+    },
+    "Type_III_second_partner": {
+      "seed_ids": [],
+      "heldout_ids": [],
+      "curation": "No traceable verified examples in the available inputs; remains separate from the first gene. Supply curated seed_fasta and optional heldout_fasta paths to activate."
+    }
+  }
+}

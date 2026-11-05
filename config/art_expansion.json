@@ -1,0 +1,31 @@
+{
+  "output": "results/art_expansion",
+  "threads": 4,
+  "maximum_pilot_records": 3,
+  "maximum_pilot_download_bytes": 20000000,
+  "retrieval_evalue": 0.001,
+  "sequence_evalue": 0.00001,
+  "domain_evalue": 0.00001,
+  "minimum_ART_profile_coverage": 0.6,
+  "hmm_database_size": "actual_protein_count",
+  "calibration_reference_database_size": 2076,
+  "stage1_records": [
+    {"accession": "MW349128.1", "name": "Staphylococcus phage Machias", "selection_role": "near-relative positive challenge", "source": "ENA"},
+    {"accession": "KU878088.1", "name": "Bacillus phage AR9", "selection_role": "related jumbo-phage genomic comparison, not a verified NART reference", "source": "ENA"},
+    {"accession": "NC_016163.1", "name": "Yersinia phage phiR1-37", "selection_role": "jumbo-phage genomic comparison", "source": "NCBI"}
+  ],
+  "stage2_assembly_manifest": "config/art_stage2_assemblies.tsv",
+  "stage2_maximum_records": 10,
+  "stage3_enabled": false,
+  "stage3_assembly_manifest": "",
+  "stage3_maximum_records": 0,
+  "stage3_requires": ["validation_gate_passed", "stage1_cost_and_yield_measured", "stage2_cost_and_yield_measured", "explicit_collection_manifest_and_budget"],
+  "array_mode": "exploratory_until_validation_complete",
+  "include_baseline_for_reconstruction": true,
+  "domain_reference_limit_per_class": 12,
+  "domain_reference_identity": 0.5,
+  "domain_reference_mutual_coverage": 0.8,
+  "domain_flank_aa": 40,
+  "domain_alignment_occupancy_trim": 0.5,
+  "sequence_placement_rule": "nearest labelled reference distances; descriptive affinity only, ART_vs_NART_unresolved_without_NART_references"
+}

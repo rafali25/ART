@@ -1,0 +1,23 @@
+{
+  "run": "SRR8925777",
+  "url": "https://s3.amazonaws.com/logan-pub/c/SRR8925777/SRR8925777.contigs.fa.zst",
+  "status": 206,
+  "headers": {
+    "x-amz-id-2": "IHIttg1BqQ+WX5GS5S9Fr3JqvKgNYwla70XB0UwlTqqBJenngLzo0NSCGtKaf92uroNm3shYcuilisNOTnkou7spvAqrs7nd",
+    "x-amz-request-id": "YZ06T61K654VM6V1",
+    "Server": "AmazonS3",
+    "Date": "Tue, 20 Oct 2026 14:02:48 GMT",
+    "Last-Modified": "Tue, 28 Jan 2025 03:28:53 GMT",
+    "ETag": "\"7b4d7c52fa12e64a2fd2fcb5234e3a2a-10\"",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Content-Range": "bytes 0-4999999/497168454",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "5000000",
+    "Connection": "close"
+  },
+  "retrieved_utc": "2026-10-20T14:02:49.738399+00:00",
+  "bytes": 5000000,
+  "compressed_prefix_sha256": "a7590012fa45a5452de681d0924272f7c2751097b906baa6ff10de0c2406d5b6"
+}

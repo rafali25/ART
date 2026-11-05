@@ -1,0 +1,62 @@
+{
+  "step": 2,
+  "title": "Expand and screen archive and MGnify occurrences",
+  "status": "complete",
+  "completed_utc": "2026-11-04T21:44:35.549876+00:00",
+  "slurm_job_id": "371364",
+  "host": "cn-06",
+  "summary": {
+    "archive": {
+      "lead_rows": 45,
+      "distinct_source_runs": 44,
+      "source_contigs": 24,
+      "exact_mapped_leads": 24,
+      "statuses": {
+        "exact_unique_peptide_mapping": 24,
+        "unresolved_bounded_prefix": 21
+      },
+      "successful_new_body_bytes": 200000000,
+      "byte_cap": 200000000,
+      "every_run_attempted": true,
+      "prefix_nonmatches_are_not_absence": true
+    },
+    "mgnify": {
+      "representatives_queried": 9,
+      "listed_occurrences": 9,
+      "previously_unacquired_contigs_attempted": 1,
+      "new_mapped_contigs": 0,
+      "new_DNA_bytes": 0,
+      "failures": 1,
+      "limitation": "Public API exposes representatives and listed occurrences only; complete cluster-member expansion requires separate bulk/Parquet lookup"
+    },
+    "screen": {
+      "source_contigs": 24,
+      "proteins_and_ORFs": 3893,
+      "mapped_RT_loci": 16,
+      "typeI_pair_associations": 17,
+      "primary_typeI_pairs": 16,
+      "new_public_primary_pairs": 16,
+      "exploratory_arrays": 0,
+      "validation_limits": {
+        "passed": false,
+        "reasons": [
+          "repeat_copy_validation_failures",
+          "missing_comparison_sets:NART",
+          "missing_partner_families:Type_III_first_partner,Type_III_second_partner",
+          "full_repeat_boundaries_not_independently_confirmed"
+        ],
+        "summary_sha256": "fc85f4b168008d688ec3b77ff9bd29edcb50dd5ba4a0202a681e8a1f447277ec",
+        "scope": "small_mapped_protein_pilot_allowed; definitive_locus_calls_and_further_expansion_gated"
+      },
+      "elapsed_seconds": 7.093
+    }
+  },
+  "artifacts": {
+    "results/art_expansion_20261105/step2/archive/frozen_leads.tsv": "3b0b479137d41b5eaa386e014d12a37e3a668056cd644b24560ceb7b2750bf4d",
+    "results/art_expansion_20261105/step2/archive/lead_outcomes.tsv": "cc15a4795b0eeafb2e4ca791c9d5a83d6370aeeb3f09c66a7b40dba7050404f5",
+    "results/art_expansion_20261105/step2/mgnify/occurrence_manifest.tsv": "340a3c586a9e10d828334642242bc9d959c5b9e8753a698626e08b5dda479c99",
+    "results/art_expansion_20261105/step2/processed/processing_summary.json": "50515f5b75a805474c57a6a918e461ab5fa13277b8ea261a6b88b874e31d1168",
+    "results/art_expansion_20261105/step2/processed/typeI_pairs.tsv": "b105ca8652611b8e2dabe9a26dc51f5d2c1ea01fcd1edb9cdf96ce23f48a676c"
+  },
+  "script_sha256": "3860068e0910dad2ca2433e0784116657e98cf1b06f6b6ea8ac3dce9d50bea98"
+}

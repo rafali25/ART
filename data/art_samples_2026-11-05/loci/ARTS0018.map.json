@@ -1,0 +1,38 @@
+{
+  "segments": [
+    {
+      "source_start0": 213309,
+      "source_end0": 226863,
+      "locus_start0": 0,
+      "locus_end0": 13554,
+      "orientation": 1
+    }
+  ],
+  "metadata": {
+    "strand": 1,
+    "length_nt": 13554,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 6000,
+    "downstream_available_nt": 6000,
+    "upstream_shortfall_nt": 0,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": false,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 0,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_accession": "MW349128.1",
+  "source_path": "sources/SRC0016.embl",
+  "source_sha256": "bff7579986aa8562394dc8b9a043905e0c749bf74a649247c9d45410817cb447",
+  "source_format": "embl",
+  "locus_path": "loci/ARTS0018.gb",
+  "sample_id": "ARTS0018",
+  "locus_id": "MW349128.1__QQO92593.1",
+  "coordinate_convention": "zero_based_half_open",
+  "original_repository_map": "results/art_expansion/stage1/loci/MW349128.1__QQO92593.1.map.json"
+}

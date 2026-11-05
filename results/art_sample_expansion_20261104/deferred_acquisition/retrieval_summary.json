@@ -1,0 +1,86 @@
+{
+  "successful_response_bytes": 4919302,
+  "download_cap_bytes": 5000000,
+  "public_metadata_and_sequence_only": true,
+  "remote_homology_jobs_submitted": 0,
+  "requests": [
+    {
+      "record": "MGYP001235072058.request.json",
+      "url": "https://www.ebi.ac.uk/metagenomics/proteins/api/v1/protein/MGYP001235072058",
+      "status": 200,
+      "error": null,
+      "bytes": 905
+    },
+    {
+      "record": "ERZ18698263.analyses.request.json",
+      "url": "https://www.ebi.ac.uk/metagenomics/api/v2/assemblies/ERZ18698263/analyses?page_size=100",
+      "status": 200,
+      "error": null,
+      "bytes": 467
+    },
+    {
+      "record": "MGYC001898389771.attempt1_406.request.json",
+      "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00793405/contigs/ERZ18698263.1656-NODE-1656-length-16365-cov-8.550889",
+      "status": null,
+      "error": "HTTPError: HTTP Error 406: Not Acceptable",
+      "bytes": 0
+    },
+    {
+      "record": "MGYC000372146758.request.json",
+      "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375145/contigs/ERZ795061.117970-NODE-117970-length-1370-cov-3.552091",
+      "status": null,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "bytes": 0
+    },
+    {
+      "record": "MGYC001898389771.request.json",
+      "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00793405/contigs/ERZ18698263.1656-NODE-1656-length-16365-cov-8.550889",
+      "status": 200,
+      "error": null,
+      "bytes": 16419
+    },
+    {
+      "record": "MGYP010182298134.request.json",
+      "url": "https://www.ebi.ac.uk/metagenomics/proteins/api/v1/protein/MGYP010182298134",
+      "status": 200,
+      "error": null,
+      "bytes": 985
+    },
+    {
+      "record": "ERZ795061.analyses.request.json",
+      "url": "https://www.ebi.ac.uk/metagenomics/api/v2/assemblies/ERZ795061/analyses?page_size=100",
+      "status": 200,
+      "error": null,
+      "bytes": 526
+    },
+    {
+      "record": "MGYC000372146758.attempt1_406.request.json",
+      "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375145/contigs/ERZ795061.117970-NODE-117970-length-1370-cov-3.552091",
+      "status": null,
+      "error": "HTTPError: HTTP Error 406: Not Acceptable",
+      "bytes": 0
+    },
+    {
+      "record": "SRR7532897.download.json",
+      "url": "https://s3.amazonaws.com/logan-pub/c/SRR7532897/SRR7532897.contigs.fa.zst",
+      "status": 206,
+      "error": null,
+      "bytes": 900000
+    },
+    {
+      "record": "ERR2847180.download.json",
+      "url": "https://s3.amazonaws.com/logan-pub/c/ERR2847180/ERR2847180.contigs.fa.zst",
+      "status": 206,
+      "error": null,
+      "bytes": 2000000
+    },
+    {
+      "record": "ERR3946871.download.json",
+      "url": "https://s3.amazonaws.com/logan-pub/c/ERR3946871/ERR3946871.contigs.fa.zst",
+      "status": 206,
+      "error": null,
+      "bytes": 2000000
+    }
+  ],
+  "screening_summary": "processed/screening_summary.json"
+}

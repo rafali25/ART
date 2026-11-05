@@ -1,0 +1,89 @@
+ID   M24408; SV 1; linear; genomic DNA; STD; PRO; 1602 BP.
+XX
+AC   M24408;
+XX
+DT   06-JUL-1989 (Rel. 20, Created)
+DT   05-JUL-1999 (Rel. 60, Last updated, Version 8)
+XX
+DE   Escherichia coli B reverse transcriptase required for the formation of a
+DE   DNA-RNA compound, complete cds.
+XX
+KW   reverse transcriptase.
+XX
+OS   Escherichia coli
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+XX
+RN   [1]
+RP   1-1602
+RX   DOI; 10.1016/0092-8674(89)90693-4.
+RX   PUBMED; 2466573.
+RA   Lim D., Maas W.K.;
+RT   "Reverse transcriptase-dependent synthesis of a covalently linked, branched
+RT   DNA-RNA compound in E. coli B";
+RL   Cell 56(5):891-904(1989).
+XX
+DR   MD5; ee84d3f929b7ff2836d3219b1e5ff649.
+DR   RFAM; RF00170; msr.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..1602
+FT                   /organism="Escherichia coli"
+FT                   /strain="B"
+FT                   /mol_type="genomic DNA"
+FT                   /db_xref="taxon:562"
+FT   misc_feature    372..453
+FT                   /note="region of msRNA"
+FT   repeat_region   373..384
+FT                   /rpt_type=INVERTED
+FT   misc_feature    443..528
+FT                   /note="region of msDNA"
+FT   repeat_region   530..541
+FT                   /rpt_type=INVERTED
+FT   CDS             548..1510
+FT                   /codon_start=1
+FT                   /transl_table=11
+FT                   /product="reverse transcriptase"
+FT                   /note="chromosomal determinant"
+FT                   /db_xref="GOA:P23070"
+FT                   /db_xref="InterPro:IPR000123"
+FT                   /db_xref="InterPro:IPR000477"
+FT                   /db_xref="UniProtKB/Swiss-Prot:P23070"
+FT                   /protein_id="AAA61471.1"
+FT                   /translation="MKSAEYLNTFRLRNLGLPVMNNLHDMSKATRISVETLRLLIYTAD
+FT                   FRYRIYTVEKKGPEKRMRTIYQPSRELKALQGWVLRNILDKLSSSPFSIGFEKHQSILN
+FT                   NATPHIGANFILNIDLEDFFPSLTANKVFGVFHSLGYNRLISSVLTKICCYKNLLPQGA
+FT                   PSSPKLANLICSKLDYRIQGYAGSRGLIYTRYADDLTLSAQSMKKVVKARDFLFSIIPS
+FT                   EGLVINSKKTCISGPRSQRKVTGLVISQEKVGIGREKYKEIRAKIHHIFCGKSSEIEHV
+FT                   RGWLSFILSVDSKSHRRLITYISKLEKKYGKNPLNKAKT"
+XX
+SQ   Sequence 1602 BP; 507 A; 268 C; 315 G; 512 T; 0 other;
+     tggcatctat taagaaggtt aggaaagaaa ataaagtatc aaaagatatt ggaaatatat        60
+     tatacgcaga gcgtttctat tgccttgtat ctatttactg gatagtgtca actaccgcac       120
+     actgtgtgaa ctagctttta aagcgataaa gcaagatgat gttttatcta aaattattgt       180
+     tagatccgtt gtttctcgtc taataaatga acgaaaaata cttcaaatga ctgatggtta       240
+     tcaggtcact gctttggggg ctagctatgt taggagcgtc tttgatagaa agacacttga       300
+     ccgattgcgg cttgagatta tgaattttga aaaccgtaga aaatcaacat ttaactatga       360
+     taagattccg tatgcgcacc cttagcgaga ggtttatcat taaggtcaac ctctggatgt       420
+     tgtttcggca tcctgcattg aatctgagtt actgtctgtt ttccttgttg gaacggagag       480
+     catcgcctga tgctctccga gccaaccagg aaacccgttt tttctgacgt aagggtgcgc       540
+     aactttcatg aaatccgctg aatatttgaa cacttttaga ttgagaaatc tcggcctacc       600
+     tgtcatgaac aatttgcatg acatgtctaa ggcgactcgc atatctgttg aaacacttcg       660
+     gttgttaatc tatacagctg attttcgcta taggatctac actgtagaaa agaaaggccc       720
+     agagaagaga atgagaacca tttaccaacc ttctcgagaa cttaaagcct tacaaggatg       780
+     ggttctacgt aacattttag ataaactgtc gtcatctcct ttttctattg gatttgaaaa       840
+     gcaccaatct attttgaata atgctacccc gcatattggg gcaaacttta tactgaatat       900
+     tgatttggag gattttttcc caagtttaac tgctaacaaa gtttttggag tgttccattc       960
+     tcttggttat aatcgactaa tatcttcagt tttgacaaaa atatgttgtt ataaaaatct      1020
+     gctaccacaa ggtgctccat catcacctaa attagctaat ctaatatgtt ctaaacttga      1080
+     ttatcgtatt cagggttatg caggtagtcg gggcttgata tatacgagat atgccgatga      1140
+     tctcacctta tctgcacagt ctatgaaaaa ggttgttaaa gcacgtgatt ttttattttc      1200
+     tataatccca agtgaaggat tggttattaa ctcaaaaaaa acttgtatta gtgggcctcg      1260
+     tagtcagagg aaagttacag gtttagttat ttcacaagag aaagttggga taggtagaga      1320
+     aaaatataaa gaaattagag caaagataca tcatatattt tgcggtaagt cttctgagat      1380
+     agaacacgtt aggggatggt tgtcatttat tttaagtgtg gattcaaaaa gccataggag      1440
+     attaataact tatattagca aattagaaaa aaaatatgga aagaaccctt taaataaagc      1500
+     gaagacctaa tggtcttcgt tttaaaacta aagctcatag gttgaaaaat tgagcacttc      1560
+     ttcgtccaac cagttattta gttcctgcaa tcgtttctgc ag                         1602
+//

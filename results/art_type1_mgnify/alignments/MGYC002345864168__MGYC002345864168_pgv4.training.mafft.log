@@ -1,0 +1,71 @@
+Active code page: 65001
+ 
+Preparing environment to run MAFFT on Windows. 
+This may take a while, if real-time scanning by anti-virus software is on. 
+
+It may take a while before the calculation starts
+if being scanned by anti-virus software.
+Also consider using a faster version for Windows 10:
+https://mafft.cbrc.jp/alignment/software/wsl.html
+outputhat23=16
+treein = 0
+compacttree = 0
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 24 (by thread   0)    10 / 24 (by thread   0)    20 / 24 (by thread   0) tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+1 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 24   10 / 24   20 / 24
+done.
+
+Progressive alignment ... 
+STEP     1 /23 (thread    0) STEP     2 /23 (thread    0) STEP     3 /23 (thread    0) STEP     4 /23 (thread    0) STEP     5 /23 (thread    0) 
+Reallocating (by thread 0) ..done. *alloclen = 1349
+STEP     6 /23 (thread    0) STEP     7 /23 (thread    0) STEP     8 /23 (thread    0) STEP     9 /23 (thread    0) STEP    10 /23 (thread    0) STEP    11 /23 (thread    0) STEP    12 /23 (thread    0) STEP    13 /23 (thread    0) STEP    14 /23 (thread    0) STEP    15 /23 (thread    0) STEP    16 /23 (thread    0) STEP    17 /23 (thread    0) STEP    18 /23 (thread    0) STEP    19 /23 (thread    0) STEP    20 /23 (thread    0) STEP    21 /23 (thread    0) STEP    22 /23 (thread    0) STEP    23 /23 (thread    0) 
+done.
+D:\MBZUAI\CRISP\.tools\mafft-win\usr\lib\mafft\tbfast.exe (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 1
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 24   10 / 24   20 / 24
+Segment   1/  1    1- 261
+001-0000-0 (thread    1) identical     001-0001-1 (thread    1) identical     001-0002-0 (thread    1) identical     001-0002-0 (thread    1) better     001-0003-1 (thread    1) identical     001-0003-1 (thread    1) better     001-0004-0 (thread    1) identical     001-0005-1 (thread    1) identical     001-0006-0 (thread    1) identical     001-0007-1 (thread    1) identical     001-0008-0 (thread    1) identical     001-0009-1 (thread    1) identical     001-0010-0 (thread    1) identical     001-0010-0 (thread    1) worse      001-0011-1 (thread    1) identical     001-0012-0 (thread    1) identical     001-0013-1 (thread    1) identical     001-0013-1 (thread    1) better     001-0014-0 (thread    1) identical     001-0015-1 (thread    1) identical     001-0016-0 (thread    1) identical     001-0017-1 (thread    1) identical     001-0017-1 (thread    1) better     001-0018-0 (thread    1) identical     001-0019-1 (thread    1) identical     001-0020-0 (thread    1) identical     001-0021-1 (thread    1) identical     001-0022-0 (thread    1) identical     001-0023-1 (thread    1) identical     001-0024-0 (thread    1) identical     001-0025-1 (thread    1) identical     001-0025-1 (thread    1) better     001-0026-0 (thread    1) identical     001-0027-1 (thread    1) identical     001-0028-0 (thread    1) identical     001-0029-1 (thread    1) identical     001-0030-0 (thread    1) identical     001-0031-1 (thread    1) identical     001-0032-0 (thread    1) identical     001-0033-1 (thread    1) identical     001-0033-1 (thread    1) worse      001-0034-0 (thread    1) identical     001-0034-0 (thread    1) better     001-0035-1 (thread    1) identical     001-0035-1 (thread    1) better     001-0036-0 (thread    1) identical     001-0037-1 (thread    1) identical     001-0038-0 (thread    1) identical     001-0039-1 (thread    1) identical     001-0040-0 (thread    1) identical     001-0041-1 (thread    1) identical     001-0042-0 (thread    1) identical     001-0042-0 (thread    1) better     001-0043-1 (thread    1) identical     001-0043-1 (thread    1) better     001-0044-1 (thread    1) identical     002-0000-0 (thread    1) identical     002-0001-1 (thread    1) identical     002-0002-0 (thread    1) identical     002-0002-0 (thread    1) better     002-0003-1 (thread    1) identical     002-0004-0 (thread    1) identical     002-0005-1 (thread    1) identical     002-0006-0 (thread    1) identical     002-0007-1 (thread    1) identical     002-0008-0 (thread    1) identical     002-0009-1 (thread    1) identical     002-0010-0 (thread    1) identical     002-0011-1 (thread    1) identical     002-0012-0 (thread    1) identical     002-0013-1 (thread    1) identical     002-0014-0 (thread    1) identical     002-0015-1 (thread    1) identical     002-0015-1 (thread    1) worse      002-0016-0 (thread    1) identical     002-0017-1 (thread    1) identical     002-0017-1 (thread    1) better     002-0018-0 (thread    1) identical     002-0019-1 (thread    1) identical     002-0020-0 (thread    1) identical     002-0021-1 (thread    1) identical     002-0022-0 (thread    1) identical     002-0023-1 (thread    1) identical     002-0024-0 (thread    1) identical     002-0025-1 (thread    1) identical     002-0026-0 (thread    1) identical     002-0027-1 (thread    1) identical     002-0028-0 (thread    1) identical     002-0029-1 (thread    1) identical     002-0029-1 (thread    1) worse      002-0030-0 (thread    1) identical     002-0031-1 (thread    1) identical     002-0032-0 (thread    1) identical     002-0033-1 (thread    1) identical     002-0033-1 (thread    1) worse      002-0034-0 (thread    1) identical     002-0035-1 (thread    1) identical     002-0036-0 (thread    1) identical     002-0037-1 (thread    1) identical     002-0038-0 (thread    1) identical     002-0038-0 (thread    1) worse      002-0039-1 (thread    1) identical     002-0040-0 (thread    1) identical     002-0041-1 (thread    1) identical     002-0041-1 (thread    1) better     002-0042-0 (thread    1) identical     002-0043-1 (thread    1) identical     002-0043-1 (thread    1) better     002-0044-1 (thread    1) identical     003-0000-0 (thread    1) identical     003-0001-1 (thread    1) identical     003-0002-0 (thread    1) identical     003-0003-1 (thread    1) identical     003-0004-0 (thread    1) identical     003-0005-1 (thread    1) identical     003-0006-0 (thread    1) identical     003-0007-1 (thread    1) identical     003-0008-0 (thread    1) identical     003-0009-1 (thread    1) identical     003-0010-0 (thread    1) identical     003-0011-1 (thread    1) identical     003-0012-0 (thread    1) identical     003-0013-1 (thread    1) identical     003-0014-0 (thread    1) identical     003-0015-1 (thread    1) identical     003-0015-1 (thread    1) worse      003-0016-0 (thread    1) identical     003-0017-1 (thread    1) identical     003-0018-0 (thread    1) identical     003-0019-1 (thread    1) identical     003-0020-0 (thread    1) identical     003-0021-1 (thread    1) identical     003-0022-0 (thread    1) identical     003-0023-1 (thread    1) identical     003-0024-0 (thread    1) identical     003-0025-1 (thread    1) identical     003-0026-0 (thread    1) identical     003-0027-1 (thread    1) identical     003-0028-0 (thread    1) identical     003-0029-1 (thread    1) identical     003-0029-1 (thread    1) worse      003-0030-0 (thread    1) identical     003-0031-1 (thread    1) identical     003-0032-0 (thread    1) identical     003-0033-1 (thread    1) identical     003-0033-1 (thread    1) worse      003-0034-0 (thread    1) identical     003-0035-1 (thread    1) identical     003-0036-0 (thread    1) identical     003-0037-1 (thread    1) identical     003-0038-0 (thread    1) identical     003-0038-0 (thread    1) worse      003-0039-1 (thread    1) identical     003-0039-1 (thread    1) worse      003-0040-0 (thread    1) identical     003-0041-1 (thread    1) identical     003-0041-1 (thread    1) worse      003-0042-0 (thread    1) identical     003-0042-0 (thread    1) worse      003-0043-1 (thread    1) identical     003-0044-1 (thread    1) identical     
+Converged.
+done
+D:\MBZUAI\CRISP\.tools\mafft-win\usr\lib\mafft\dvtditr.exe (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

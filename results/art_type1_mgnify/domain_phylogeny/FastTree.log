@@ -1,0 +1,35 @@
+FastTree Version 2.2.0 Double precision
+Alignment: D:/MBZUAI/CRISP/results/art_type1_mgnify/domain_phylogeny/domains.trimmed.faa
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.03 seconds
+Refining topology: 27 rounds ME-NNIs, 2 rounds ME-SPRs, 13 rounds ML-NNIs
+      0.14 seconds: SPR round   1 of   2, 101 of 202 nodes
+      0.30 seconds: SPR round   2 of   2, 101 of 202 nodes
+Total branch-length 54.937 after 0.39 sec
+      0.49 seconds: ML NNI round 1 of 13, 1 of 100 splits
+ML-NNI round 1: LogLk = -51905.120 NNIs 19 max delta 5.51 Time 0.93
+      0.94 seconds: Site likelihoods with rate category 1 of 20
+      1.05 seconds: Site likelihoods with rate category 12 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.145 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+      1.17 seconds: ML NNI round 2 of 13, 1 of 100 splits
+ML-NNI round 2: LogLk = -50076.576 NNIs 10 max delta 1.27 Time 1.50
+      1.50 seconds: ML NNI round 3 of 13, 1 of 100 splits
+ML-NNI round 3: LogLk = -50063.866 NNIs 3 max delta 5.15 Time 1.76
+      1.75 seconds: ML NNI round 4 of 13, 1 of 100 splits
+ML-NNI round 4: LogLk = -50059.825 NNIs 2 max delta 2.90 Time 1.89
+      1.89 seconds: ML NNI round 5 of 13, 1 of 100 splits
+ML-NNI round 5: LogLk = -50059.798 NNIs 0 max delta 0.00 Time 1.94
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 6: LogLk = -50024.733 NNIs 1 max delta 3.26 Time 2.36 (final)
+      2.36 seconds: ML Lengths 1 of 100 splits
+Optimize all lengths: LogLk = -50023.813 Time 2.46
+      2.78 seconds: Site likelihoods with rate category 1 of 20
+      2.89 seconds: Site likelihoods with rate category 12 of 20
+      3.00 seconds: Site likelihoods with rate category 19 of 20
+Gamma(20) LogLk = -50455.838 alpha = 2.518 rescaling lengths by 1.045
+Total time: 3.08 seconds Unique: 102/104 Bad splits: 1/99 Worst delta-LogLk 0.462

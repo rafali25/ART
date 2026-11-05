@@ -1,0 +1,44 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+t882a89f74d10b13531  -            454 ART_RT               -            500  2.6e-183  608.8  64.1   1   1  1.1e-180  1.1e-180  600.2  64.1    23   499     8   453     2   454 0.99 MZ422438.1 QXN67953.1
+o5d00ab4db1a3048122  -            455 ART_RT               -            500  2.7e-183  608.8  64.1   1   1  1.1e-180  1.1e-180  600.2  64.1    23   499     9   454     3   455 0.99 MZ422438.1 six_frame
+o0e8a2a7ba083e70b19  -            525 ART_RT               -            500   1.7e-73  246.6  28.1   1   1   1.7e-73   1.7e-73  246.6  28.1   188   488   205   504   199   518 0.92 MGYC001394626043 six_frame
+tb52e88d6a9103f4de7  -            525 ART_RT               -            500   1.7e-73  246.6  28.1   1   1   1.7e-73   1.7e-73  246.6  28.1   188   488   205   504   199   518 0.92 MGYC001394626043 MGYC001394626043_pgv9
+tfa8f53ac19ebdbc840  -            509 ART_RT               -            500   1.4e-60  204.0  65.1   1   1   1.3e-59   1.3e-59  200.9  65.1    60   494    43   501     8   508 0.75 MZ422438.1 QXN67955.1
+o7c64922eb91b05092c  -            511 ART_RT               -            500   2.1e-60  203.4  65.6   1   1   1.8e-59   1.8e-59  200.3  65.6    60   494    45   503     9   510 0.75 MZ422438.1 six_frame
+od3af815d9e13eb22a1  -            634 ART_RT               -            500   1.8e-56  190.4  20.3   1   1   3.1e-56   3.1e-56  189.7  20.3   183   488   275   601   143   608 0.88 MGYC003789112697 six_frame
+t94dcdc561816c87a63  -            634 ART_RT               -            500   1.8e-56  190.4  20.3   1   1   3.1e-56   3.1e-56  189.7  20.3   183   488   275   601   143   608 0.88 MGYC003789112697 MGYC003789112697_pgv1
+tc2656b3ed768971237  -            483 ART_RT               -            500   2.1e-50  170.4  48.3   1   1   4.5e-50   4.5e-50  169.4  48.3    52   493    41   479     7   481 0.75 MGYC003533828254 MGYC003533828254_pgv4
+ob5f733fc8071dcb706  -            492 ART_RT               -            500   2.3e-50  170.3  48.4   1   1   4.9e-50   4.9e-50  169.2  48.4    51   493    49   488    14   490 0.75 MGYC003533828254 six_frame
+od3949e102319fd3088  -            519 ART_RT               -            500   4.9e-49  165.9  62.7   1   1   1.7e-48   1.7e-48  164.1  62.8    19   486    28   484    15   493 0.68 MGYC001394629236 six_frame
+t0f0cc086464cdf55a1  -            519 ART_RT               -            500   4.9e-49  165.9  62.7   1   1   1.7e-48   1.7e-48  164.1  62.8    19   486    28   484    15   493 0.68 MGYC001394629236 MGYC001394629236_pgv6
+tdc0eed8f49615822ff  -            499 ART_RT               -            500   8.2e-49  165.2  35.6   1   1   1.1e-48   1.1e-48  164.8  35.6    32   493    37   488    17   496 0.79 MGYC002345864168 MGYC002345864168_pgv4
+oa7d6b65e94c7fcdf96  -            510 ART_RT               -            500   1.2e-47  161.4  39.8   1   1   1.5e-47   1.5e-47  161.0  39.8    32   493    48   499     5   507 0.76 MGYC002345864168 six_frame
+o0de01e2b015e1846af  -            424 ART_RT               -            500   1.1e-45  154.9  35.3   1   1   1.4e-45   1.4e-45  154.6  35.3    96   487    20   402     5   415 0.85 MGYC002980506253 six_frame
+o5694d18b44721881e5  -            424 ART_RT               -            500   1.1e-45  154.9  35.3   1   1   1.4e-45   1.4e-45  154.6  35.3    96   487    20   402     5   415 0.85 MGYC002980506253 six_frame
+td9471e01ad7dcb9e28  -            419 ART_RT               -            500   1.1e-45  154.9  35.2   1   1   1.4e-45   1.4e-45  154.5  35.2    98   487    17   397     3   410 0.85 MGYC002980506253 MGYC002980506253_pgv2
+td8581feb81ffcad3e7  -            591 ART_RT               -            500   8.2e-40  135.5   5.6   1   2   7.5e-15   7.5e-15   53.2   0.9   203   294   246   335   238   379 0.82 MGYC003526048914 MGYC003526048914_pgv179
+td8581feb81ffcad3e7  -            591 ART_RT               -            500   8.2e-40  135.5   5.6   2   2     4e-24     4e-24   83.7   0.1   307   473   384   543   369   565 0.81 MGYC003526048914 MGYC003526048914_pgv179
+ocbdc028a846711b792  -            597 ART_RT               -            500   8.6e-40  135.4   5.6   1   2   7.6e-15   7.6e-15   53.1   0.9   203   294   252   341   244   385 0.82 MGYC003526048914 six_frame
+ocbdc028a846711b792  -            597 ART_RT               -            500   8.6e-40  135.4   5.6   2   2   4.1e-24   4.1e-24   83.7   0.1   307   473   390   549   375   571 0.81 MGYC003526048914 six_frame
+o207c0e6f270cdcb904  -            467 ART_RT               -            500   5.4e-39  132.8  33.2   1   1     7e-39     7e-39  132.4  33.2    69   489    33   440    13   452 0.86 MGYC004516159708 six_frame
+ta228969805b68a0f18  -            462 ART_RT               -            500     1e-38  131.9  34.1   1   1   1.3e-38   1.3e-38  131.5  34.1    69   489    28   435    15   447 0.86 MGYC004516159708 MGYC004516159708_pgv17
+o527325e972c02579be  -            274 ART_RT               -            500   1.5e-33  114.8   8.7   1   1   3.6e-33   3.6e-33  113.6   8.7   273   493     2   244     1   250 0.82 MGYC003138808455 six_frame
+t4d40ac6120f0fe9777  -            274 ART_RT               -            500   1.5e-33  114.8   8.7   1   1   3.6e-33   3.6e-33  113.6   8.7   273   493     2   244     1   250 0.82 MGYC003138808455 MGYC003138808455_pgv4
+t71f659cc352a1ce007  -            534 ART_RT               -            500   1.6e-28   98.2   4.1   1   1   2.9e-26   2.9e-26   90.8   0.3   258   447   301   496   275   508 0.83 MGYC003138808455 MGYC003138808455_pgv2
+o553c1313bc15a370ec  -            566 ART_RT               -            500     2e-28   97.9   4.1   1   1   3.2e-26   3.2e-26   90.7   0.3   259   447   334   528   307   540 0.83 MGYC003138808455 six_frame
+t82e178768a4e5f9975  -            609 ART_RT               -            500   2.6e-27   94.3   4.8   1   1   2.6e-27   2.6e-27   94.3   4.8   274   459   298   489   278   514 0.84 MGYC002687634053 MGYC002687634053_pgv52
+o25308352f7c19b71fb  -            616 ART_RT               -            500   2.9e-27   94.1   4.8   1   1   2.9e-27   2.9e-27   94.1   4.8   274   459   305   496   286   518 0.84 MGYC002687634053 six_frame
+t81790ba806056d54f0  -            583 ART_RT               -            500   2.5e-20   71.3  11.9   1   1   3.8e-20   3.8e-20   70.6  11.9   204   478   237   520   232   530 0.78 MGYC003526048914 MGYC003526048914_pgv181
+ofe8776d92e475c9114  -            589 ART_RT               -            500   2.5e-20   71.2  11.9   1   1   3.9e-20   3.9e-20   70.6  11.9   204   478   243   526   238   536 0.78 MGYC003526048914 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_mgnify/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_mgnify\searches\ART_RT.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_mgnify\searches\ART_RT.domtbl -E 0.001 --domE 0.001 -Z 5607 --domZ 5607 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/ART_RT.hmm D:/MBZUAI/CRISP/results/art_type1_mgnify/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Wed Oct 21 00:11:54 2026
+# [ok]

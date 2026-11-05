@@ -1,0 +1,15 @@
+{
+  "allowed": true,
+  "mode": "bounded_provisional_protein_pilot",
+  "validation": {
+    "passed": false,
+    "reasons": [
+      "repeat_copy_validation_failures",
+      "missing_comparison_sets:NART",
+      "missing_partner_families:Type_III_first_partner,Type_III_second_partner",
+      "full_repeat_boundaries_not_independently_confirmed"
+    ],
+    "summary_sha256": "fc85f4b168008d688ec3b77ff9bd29edcb50dd5ba4a0202a681e8a1f447277ec",
+    "scope": "small_mapped_protein_pilot_allowed; definitive_locus_calls_and_further_expansion_gated"
+  }
+}

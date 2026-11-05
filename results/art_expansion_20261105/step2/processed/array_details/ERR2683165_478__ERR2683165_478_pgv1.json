@@ -1,0 +1,35 @@
+{
+  "locus_id": "ERR2683165_478__ERR2683165_478_pgv1",
+  "upstream_sequence": "TTTTTTTTTATTTTTTTTTTACCTAGCTTATCAACCTCCTCTCTAAATATATATTATAGCAACGATAAGTCAAACTTATCAAATAAAAATTAAGGAGGGTTAAGCC",
+  "upstream_offset0": 0,
+  "initial": {
+    "R": 1,
+    "positions": [
+      84
+    ],
+    "seed": "AAAAATTAAGGAGG",
+    "dense_run": 1,
+    "code": 246410,
+    "exact_seed_count": 1,
+    "base_spacing": null,
+    "dense_veto": false,
+    "maximum_dense_run_any_seed": 1,
+    "seeds_tested": 20
+  },
+  "extended": {
+    "score": 0.0,
+    "candidates": [],
+    "seeds_tested": 1
+  },
+  "model": {},
+  "repeats": [],
+  "spacers": [],
+  "quality": {
+    "flags": [
+      "incomplete_6000nt_upstream",
+      "extracted_locus_reaches_contig_boundary"
+    ]
+  },
+  "statistical_score": "extended_seed_discovery_best_chain_score",
+  "array_status": "incomplete_upstream_assessment"
+}

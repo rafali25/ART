@@ -1,0 +1,50 @@
+{
+  "coordinate_convention": "zero_based_half_open",
+  "strand": 1,
+  "length_nt": 13503,
+  "upstream_requested_nt": 6000,
+  "downstream_requested_nt": 6000,
+  "upstream_available_nt": 6000,
+  "downstream_available_nt": 6000,
+  "upstream_shortfall_nt": 0,
+  "downstream_shortfall_nt": 0,
+  "source_topology": "linear",
+  "circularity_support": "none",
+  "wrapped": false,
+  "source_origin_reached": false,
+  "source_end_reached": false,
+  "genomic_left_clipped_nt": 0,
+  "genomic_right_clipped_nt": 0,
+  "circular_request_capped_to_one_contig": false,
+  "locus_id": "MN091626.1__QDJ97640.1",
+  "accession": "MN091626.1",
+  "RT_protein_id": "QDJ97640.1",
+  "RT_locus_start0": 6000,
+  "RT_locus_end0": 7503,
+  "partner_ids": "QDJ97641.1",
+  "discovery_routes": "ART_protein_first;partner_first",
+  "source_path": "datasetss/Pals 2/PALS_2_MN091626.1.gb",
+  "source_file_sha256": "4160607e7c3c20ec9c91d822d82e18c397ba65a5254ffd51f2c19da563b69557",
+  "annotation_source": "original_source_record",
+  "gene_caller_used": false,
+  "ambiguous_nt": 0,
+  "fasta_path": "loci/MN091626.1__QDJ97640.1.fna",
+  "genbank_path": "loci/MN091626.1__QDJ97640.1.gb",
+  "gff3_path": "loci/MN091626.1__QDJ97640.1.gff3",
+  "segments": [
+    {
+      "source_start0": 18878,
+      "source_end0": 32381,
+      "locus_start0": 0,
+      "locus_end0": 13503,
+      "orientation": 1
+    }
+  ],
+  "RT_review": {
+    "translation_table": 11,
+    "source_translation_verified": true,
+    "review_required": false,
+    "review_reasons": [],
+    "interpretation": "review_flags_do_not_establish_biological_truncation"
+  }
+}

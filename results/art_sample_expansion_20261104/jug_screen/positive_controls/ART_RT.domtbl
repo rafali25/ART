@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QDJ97640.1           -            500 ART_RT               -            500    9e-295  980.1  55.9   1   1    1e-294    1e-294  980.0  55.9     1   500     1   500     1   500 1.00 MN091626.1
+BDE75684.1           -            500 ART_RT               -            500  1.8e-293  975.8  62.5   1   1    2e-293    2e-293  975.7  62.5     1   500     1   500     1   500 1.00 LC680885.1
+UAJ17040.1           -            500 ART_RT               -            500  6.2e-292  970.8  57.1   1   1  6.9e-292  6.9e-292  970.6  57.1     1   500     1   500     1   500 1.00 MZ779063.1
+QQO92858.1           -            501 ART_RT               -            500  1.2e-288  959.9  64.8   1   1  1.4e-288  1.4e-288  959.7  64.8     1   500     1   501     1   501 1.00 MW349129.1
+WRM43423.1           -            500 ART_RT               -            500  1.3e-287  956.5  65.5   1   1  1.5e-287  1.5e-287  956.3  65.5     1   500     1   500     1   500 1.00 OR836606.1
+QXN67953.1           -            454 ART_RT               -            500  3.3e-182  608.8  64.1   1   1  1.4e-179  1.4e-179  600.2  64.1    23   499     8   453     2   454 0.99 MZ422438.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.seeds.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/ART_RT.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/ART_RT.domtbl --noali -E 0.001 --domE 0.001 -Z 69120 --domZ 69120 --seed 42 --cpu 1 /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.seeds.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:22:10 2026
+# [ok]

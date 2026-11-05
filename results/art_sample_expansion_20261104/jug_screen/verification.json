@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "genomic_CDS_mappings_checked": 69120,
+  "protein_hashes_checked": 69120,
+  "GFF_coordinates_checked": 69120,
+  "unique_source_sequences": 138,
+  "exact_duplicate_genome_groups": {
+    "95853e85ab87be79666736be0d55454f282589463855825422a2a99a56ff5fb4": [
+      "beta_SRR8402442_curated_final_human",
+      "beta_SRR9075243_curated_final_human"
+    ]
+  },
+  "positive_controls": [
+    {
+      "family": "ART_RT",
+      "returncode": 0,
+      "recovered_known_proteins": [
+        "BDE75684.1",
+        "QDJ97640.1",
+        "QQO92858.1",
+        "QXN67953.1",
+        "UAJ17040.1",
+        "WRM43423.1"
+      ],
+      "effective_Z": 69120,
+      "effective_domZ": 69120,
+      "args": [
+        "/nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch",
+        "--cpu",
+        "1",
+        "--seed",
+        "42",
+        "--noali",
+        "-Z",
+        "69120",
+        "--domZ",
+        "69120",
+        "-E",
+        "0.001",
+        "--domE",
+        "0.001",
+        "--tblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/ART_RT.tbl",
+        "--domtblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/ART_RT.domtbl",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.seeds.faa"
+      ],
+      "seed_sha256": "a1d7dc338e882475d927f3a31c90dca5ca2a3866d12d7ed47a1f3ae8ee571f84",
+      "profile_sha256": "05f010c23b7cd36cedd3170f6cdadc5150fd458c0d6ed08b34a196224b38b2b0",
+      "limitation": "Same-profile seed recovery checks executable/profile validity, not biological generalization"
+    },
+    {
+      "family": "Type_I_partner",
+      "returncode": 0,
+      "recovered_known_proteins": [
+        "QXN67952.1"
+      ],
+      "effective_Z": 69120,
+      "effective_domZ": 69120,
+      "args": [
+        "/nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch",
+        "--cpu",
+        "1",
+        "--seed",
+        "42",
+        "--noali",
+        "-Z",
+        "69120",
+        "--domZ",
+        "69120",
+        "-E",
+        "0.001",
+        "--domE",
+        "0.001",
+        "--tblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_I_partner.tbl",
+        "--domtblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_I_partner.domtbl",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.hmm",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.seeds.faa"
+      ],
+      "seed_sha256": "321e76323bc9d9af43879e44085ef55624410019777b4e29d453182fcb008600",
+      "profile_sha256": "e86a0b4a91dfa72507fbaa0d6ea618027d8169d68ae61e13c785606db6006545",
+      "limitation": "Same-profile seed recovery checks executable/profile validity, not biological generalization"
+    },
+    {
+      "family": "Type_II_partner",
+      "returncode": 0,
+      "recovered_known_proteins": [
+        "BDE75685.1",
+        "QDJ97641.1",
+        "QQO92859.1",
+        "UAJ17041.1",
+        "WRM43422.1"
+      ],
+      "effective_Z": 69120,
+      "effective_domZ": 69120,
+      "args": [
+        "/nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch",
+        "--cpu",
+        "1",
+        "--seed",
+        "42",
+        "--noali",
+        "-Z",
+        "69120",
+        "--domZ",
+        "69120",
+        "-E",
+        "0.001",
+        "--domE",
+        "0.001",
+        "--tblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_II_partner.tbl",
+        "--domtblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_II_partner.domtbl",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.hmm",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.seeds.faa"
+      ],
+      "seed_sha256": "ba575ad411be6033fc750a027f29fe5362c437267f0ee4e0e9b9de5414d5b0a4",
+      "profile_sha256": "b238a79ca6172373708d74dd4e66172800035f573c8e4fe1ab4614b14049eec7",
+      "limitation": "Same-profile seed recovery checks executable/profile validity, not biological generalization"
+    },
+    {
+      "family": "TypeI_two_seed_exploratory",
+      "returncode": 0,
+      "recovered_known_proteins": [
+        "QXN67952.1",
+        "QXN67954.1"
+      ],
+      "effective_Z": 69120,
+      "effective_domZ": 69120,
+      "args": [
+        "/nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch",
+        "--cpu",
+        "1",
+        "--seed",
+        "42",
+        "--noali",
+        "-Z",
+        "69120",
+        "--domZ",
+        "69120",
+        "-E",
+        "0.001",
+        "--domE",
+        "0.001",
+        "--tblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/TypeI_two_seed_exploratory.tbl",
+        "--domtblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/TypeI_two_seed_exploratory.domtbl",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/typeI_two_LPJP1_queries.faa"
+      ],
+      "seed_sha256": "00e41b2d670924f3f65c7e290fd5761ff6f604e3b85eb59edca543f233685603",
+      "profile_sha256": "cb1c3b60ccdefb9681ca237730ea798aaae1a11dc40736fe8dfe5bac70416dca",
+      "limitation": "Same-profile seed recovery checks executable/profile validity, not biological generalization"
+    },
+    {
+      "family": "RVT_1",
+      "returncode": 0,
+      "recovered_known_proteins": [
+        "BDE75684.1",
+        "QDJ97640.1",
+        "QQO92858.1",
+        "QXN67953.1",
+        "UAJ17040.1",
+        "WRM43423.1"
+      ],
+      "effective_Z": 69120,
+      "effective_domZ": 69120,
+      "args": [
+        "/nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch",
+        "--cpu",
+        "1",
+        "--seed",
+        "42",
+        "--noali",
+        "-Z",
+        "69120",
+        "--domZ",
+        "69120",
+        "-E",
+        "0.001",
+        "--domE",
+        "0.001",
+        "--tblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/RVT_1.tbl",
+        "--domtblout",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/RVT_1.domtbl",
+        "/nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm",
+        "/nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.seeds.faa"
+      ],
+      "seed_sha256": "a1d7dc338e882475d927f3a31c90dca5ca2a3866d12d7ed47a1f3ae8ee571f84",
+      "profile_sha256": "b91872fbf0a5cd011c04a0f05b3a4b96e61aa43f01b0fa99156745ffcf508b81",
+      "limitation": "Same-profile seed recovery checks executable/profile validity, not biological generalization"
+    }
+  ],
+  "source_archive_MD5_verified": true,
+  "unexplained_translation_mismatches": 0
+}

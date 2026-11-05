@@ -1,0 +1,10 @@
+{
+  "allowed": false,
+  "mode": "gated",
+  "reasons": [
+    "repeat_copy_validation_failures",
+    "missing_comparison_sets:NART",
+    "missing_partner_families:Type_III_first_partner,Type_III_second_partner",
+    "full_repeat_boundaries_not_independently_confirmed"
+  ]
+}

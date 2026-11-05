@@ -1,0 +1,181 @@
+{
+  "software": {
+    "diamond": {
+      "url": "https://github.com/bbuchfink/diamond/releases/download/v2.1.15/diamond-windows.zip",
+      "file": ".tools\\art-reconstruction\\diamond.zip",
+      "sha256": "2709f5dff3ba60aee7c7a354f44b83b7c0fe48658f8db49eae91ee07d39468d9"
+    },
+    "mmseqs": {
+      "url": "https://github.com/soedinglab/MMseqs2/releases/download/17-b804f/mmseqs-win64.zip",
+      "file": ".tools\\art-reconstruction\\mmseqs.zip",
+      "sha256": "1bd83f70bb2cf9bea188511eb75ab716a2ab47b7be6c2601050f65b3224955b7"
+    },
+    "famsa": {
+      "url": "https://github.com/refresh-bio/FAMSA/releases/download/v2.5.2/famsa-v2.5.2-x64_windows.tar.gz",
+      "file": ".tools\\art-reconstruction\\famsa.tar.gz",
+      "sha256": "755824deaff9958afed99ee3cfcac457f56b74b13866a6856d94707206442582"
+    },
+    "fasttree": {
+      "url": "https://raw.githubusercontent.com/morgannprice/fasttree/a780aa4f6a18791ea76c04afaf37aafe43e51d59/FastTree.c",
+      "file": ".tools\\art-reconstruction\\FastTree.c",
+      "sha256": "975202a6b74c9996af871404ff043bb2152edcbda539035662514bc12d1f3431",
+      "commit": "a780aa4f6a18791ea76c04afaf37aafe43e51d59"
+    },
+    "RVT_1": {
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00078/?annotation=hmm",
+      "file": ".tools\\art-reconstruction\\PF00078.hmm.gz",
+      "sha256": "0330d3d1b331e225a14b0eb3e085259a9d6553f6df4952bdc6e68ef90aa82563"
+    },
+    "binaries": {
+      "diamond": ".tools\\art-reconstruction\\diamond\\diamond.exe",
+      "mmseqs": ".tools\\art-reconstruction\\mmseqs\\mmseqs\\mmseqs.bat",
+      "famsa": ".tools\\art-reconstruction\\famsa\\famsa.exe",
+      "fasttree": ".tools\\art-reconstruction\\FastTree.exe",
+      "RVT_1": ".tools\\art-reconstruction\\PF00078.hmm"
+    },
+    "binary_sha256": {
+      "diamond": "74e51d757dda2b6e3348934546ee846cf90ad29b3759fa265ef0d7a213832032",
+      "mmseqs": "fc59b4e946be1dd9e051da3cf2f981ee6330f5dda479142dc2208764546e0dd5",
+      "famsa": "df47cf4dad1228f603773916643d24acf8d389ca0e72218f2bb9447b61b4528d",
+      "fasttree": "c7da63ec9068c5b941d03abff4960d611570c46f880986117308218bac18a5de",
+      "RVT_1": "b91872fbf0a5cd011c04a0f05b3a4b96e61aa43f01b0fa99156745ffcf508b81"
+    },
+    "versions": {
+      "DIAMOND": "2.1.15",
+      "MMseqs2": "17-b804f",
+      "FAMSA": "2.5.2",
+      "FastTree_source_commit": "a780aa4f6a18791ea76c04afaf37aafe43e51d59",
+      "Pfam_RVT_1": "PF00078.33"
+    }
+  },
+  "source_records": [
+    {
+      "accession": "OR836606.1",
+      "path": "datasetss/LY01/LY01_OR836606.1.gb",
+      "format": "genbank",
+      "data_role": "local_target",
+      "length_nt": "258897",
+      "file_sha256": "c2cda7052555a27dee940add0669282868a16d0065e6964f7afcf11cf2559d3a",
+      "sequence_sha256": "bdc348825325466b9d794e2d1c466f69e023ae0a9bb5768f35652bec3a60a592",
+      "record_role": "baseline_reference",
+      "source_url": "previously_archived_source"
+    },
+    {
+      "accession": "MN091626.1",
+      "path": "datasetss/Pals 2/PALS_2_MN091626.1.gb",
+      "format": "genbank",
+      "data_role": "local_target",
+      "length_nt": "268748",
+      "file_sha256": "4160607e7c3c20ec9c91d822d82e18c397ba65a5254ffd51f2c19da563b69557",
+      "sequence_sha256": "e5f4013c3ce6bc60fd219a1c30389239433176384ed303048d533316188fca8b",
+      "record_role": "baseline_reference",
+      "source_url": "previously_archived_source"
+    },
+    {
+      "accession": "LC680885.1",
+      "path": "datasetss/S6/S6_LC680885.1.gb",
+      "format": "genbank",
+      "data_role": "local_target",
+      "length_nt": "267055",
+      "file_sha256": "236a9b558ac66783b01897e62ea4626b25e475084b57ccbf6f5760d5a01d713c",
+      "sequence_sha256": "325cde17af670c1e701cd59d40d02ed5efc274a216f8b75eb3d61835149d056f",
+      "record_role": "baseline_reference",
+      "source_url": "previously_archived_source"
+    },
+    {
+      "accession": "MW349129.1",
+      "path": "datasetss/SA1/Madawaska_MW349129.1.gb",
+      "format": "genbank",
+      "data_role": "local_target",
+      "length_nt": "265446",
+      "file_sha256": "257a6049b538aecd697c77b36b204975da373567e91bd33297fca8bb27104171",
+      "sequence_sha256": "7081d794353d4436335e1e8d9a6aa2cdade2ff00ff043d967ca11372c5a63f6b",
+      "record_role": "baseline_reference",
+      "source_url": "previously_archived_source"
+    },
+    {
+      "accession": "MW248466.1",
+      "path": "datasetss/SA1 on Marshill/MarsHill_MW248466.1.gb",
+      "format": "genbank",
+      "data_role": "local_target",
+      "length_nt": "266637",
+      "file_sha256": "7763e2b1fb24bf99087432a0463d9e5763936a6ef8a59c03ae2fbe5b1e668214",
+      "sequence_sha256": "60d6cdecc4e1471f9a76ba79c4fde0576f96c4458096b4b136d8cc34d2e666d7",
+      "record_role": "baseline_reference",
+      "source_url": "previously_archived_source"
+    },
+    {
+      "accession": "MZ779063.1",
+      "path": "datasetss/UFV_DC/UFV_DC4_MZ779063.1.gb",
+      "format": "genbank",
+      "data_role": "local_target",
+      "length_nt": "263185",
+      "file_sha256": "7c9937743d7578cabd6a23451cd0b94d8d8105ad430e2236728c3eb3050f1815",
+      "sequence_sha256": "b53c746ff61006fd3232683d2ea65c2ba9b608d17efb234b47720edbd8d8f3f1",
+      "record_role": "baseline_reference",
+      "source_url": "previously_archived_source"
+    },
+    {
+      "accession": "MW218148.1",
+      "path": "results/art_discovery/reference_sources/SA1_MW218148.1.gb",
+      "format": "genbank",
+      "data_role": "public_annotation_for_local_SA1_FASTA",
+      "length_nt": "260727",
+      "file_sha256": "9f86f3aa0d2023d7e319800a1bf61d223234144fc16f6fadd55032f58411c366",
+      "sequence_sha256": "53e381db058423dd7a26c4775accf380b6c457dbeff03e5a1fac0baa7c7fbbca",
+      "record_role": "baseline_reference",
+      "source_url": "previously_archived_source"
+    },
+    {
+      "accession": "MZ422438.1",
+      "path": "results/art_discovery/reference_sources/LPJP1_MZ422438.1.gb",
+      "format": "embl",
+      "data_role": "public_reference_also_screened",
+      "length_nt": "223580",
+      "file_sha256": "0158bf6b0f508580e152e26e0bc6ad7dffc517e87dd1ed861e16847be4679b70",
+      "sequence_sha256": "16f7ddb5adb1b326573d5880ad2063cfda9dcb69cff3c82e55b792407ca0b7a8",
+      "record_role": "baseline_reference",
+      "source_url": "previously_archived_source"
+    },
+    {
+      "accession": "MW349128.1",
+      "path": "results/art_expansion/stage1/sources/MW349128.1.embl",
+      "format": "embl",
+      "record_role": "public_stage1_pilot",
+      "selection_role": "near-relative positive challenge",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/embl/MW349128.1?download=false",
+      "length_nt": 274478,
+      "file_sha256": "bff7579986aa8562394dc8b9a043905e0c749bf74a649247c9d45410817cb447",
+      "sequence_sha256": "e651b781033a8dc38dc7ecb8530bd923cf78a399ad2694770606d9d38ef8a0bb",
+      "retrieved_utc": "2026-10-20T08:24:14.365455+00:00",
+      "cache_reused": true
+    },
+    {
+      "accession": "KU878088.1",
+      "path": "results/art_expansion/stage1/sources/KU878088.1.embl",
+      "format": "embl",
+      "record_role": "public_stage1_pilot",
+      "selection_role": "related jumbo-phage genomic comparison, not a verified NART reference",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/embl/KU878088.1?download=false",
+      "length_nt": 251042,
+      "file_sha256": "68fa963c1f0ab3bbb5631edf40594f860d919bfc0967910914a94d0f32529973",
+      "sequence_sha256": "6c44405c953a44b1672df1a50b487ae6cadb4d3b4f1647775fa99d9c63ee8510",
+      "retrieved_utc": "2026-10-20T08:24:15.669516+00:00",
+      "cache_reused": true
+    },
+    {
+      "accession": "NC_016163.1",
+      "path": "results/art_expansion/stage1/sources/NC_016163.1.gb",
+      "format": "genbank",
+      "record_role": "public_stage1_pilot",
+      "selection_role": "jumbo-phage genomic comparison",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_016163.1&rettype=gbwithparts&retmode=text",
+      "length_nt": 262391,
+      "file_sha256": "33c582c97fd6bac87af5112ee4bbcd54c5811e32bea288f5bb9f4462f13743b3",
+      "sequence_sha256": "c6c466f72096aeb7b93576722104bcc98c727e577d5ee2c3636b7a9026e07ca9",
+      "retrieved_utc": "2026-10-20T08:24:17.629614+00:00",
+      "cache_reused": true
+    }
+  ],
+  "config_sha256": "37e1eb2930709bd7bfd182b40da9fab83988717723694b964822de6c2ecd5991"
+}

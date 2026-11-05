@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+t5958cb5aa00066a91a  -            609 ART_RT               -            500   8.4e-28   94.2   4.6   1   1   8.4e-28   8.4e-28   94.2   4.6   274   459   298   489   280   510 0.84 MGYC003966598318 MGYC003966598318_pgv45
+o8bed33e679d8257bf1  -            619 ART_RT               -            500   1.4e-27   93.4   5.3   1   1   1.4e-27   1.4e-27   93.4   5.3   275   459   309   499   298   524 0.84 MGYC003966598318 six_frame
+o49042553fbd0cac204  -             84 ART_RT               -            500   2.5e-06   23.4   0.3   1   1   2.8e-06   2.8e-06   23.2   0.3   434   488     3    55     1    63 0.90 MGYC001042694086 six_frame
+t3324b44131ef971e9c  -             84 ART_RT               -            500   2.5e-06   23.4   0.3   1   1   2.8e-06   2.8e-06   23.2   0.3   434   488     3    55     1    63 0.90 MGYC001042694086 MGYC001042694086_pgv2
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/ART_RT.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/ART_RT.domtbl -E 0.001 --domE 0.001 -Z 1729 --domZ 1729 --seed 42 --cpu 2 /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:19:36 2026
+# [ok]

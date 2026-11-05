@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QXN67952.1           -          Type_I_partner       -                  0 1122.3  55.2         0 1122.1  55.2   1.0   1   0   0   1   1   1   1 MZ422438.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.seeds.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_I_partner.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_I_partner.domtbl --noali -E 0.001 --domE 0.001 -Z 69120 --domZ 69120 --seed 42 --cpu 1 /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_I_partner.seeds.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:22:10 2026
+# [ok]

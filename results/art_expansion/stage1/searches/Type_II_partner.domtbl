@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+g7ec0ca08be6d698a    -            274 Type_II_partner      -            274  9.9e-175  576.9  52.9   1   1  1.1e-174  1.1e-174  576.7  52.9     1   274     1   274     1   274 1.00 MZ779063.1 UAJ17041.1
+g61d9c0cab2e60280    -            274 Type_II_partner      -            274  2.2e-174  575.8  52.4   1   1  2.4e-174  2.4e-174  575.6  52.4     1   274     1   274     1   274 1.00 LC680885.1 BDE75685.1
+gc1777d66aaa3b29b    -            274 Type_II_partner      -            274  3.6e-174  575.0  51.2   1   1  4.1e-174  4.1e-174  574.9  51.2     1   274     1   274     1   274 1.00 MN091626.1 QDJ97641.1
+g25741fcaaefc98f3    -            274 Type_II_partner      -            274  5.1e-168  554.9  52.5   1   1  5.6e-168  5.6e-168  554.7  52.5     1   274     1   274     1   274 1.00 MW349129.1 QQO92859.1
+g6f04796fdfe6dbd1    -            274 Type_II_partner      -            274    4e-167  551.9  53.1   1   1  4.5e-167  4.5e-167  551.8  53.1     1   274     1   274     1   274 1.00 OR836606.1 WRM43422.1
+g20502e802de3b4ec    -            274 Type_II_partner      -            274  5.3e-164  541.7  52.5   1   1  5.9e-164  5.9e-164  541.6  52.5     1   274     1   274     1   274 1.00 MW248466.1 QQM14741.1
+g2d0b6fed12ea0565    -            265 Type_II_partner      -            274     9e-56  186.8  35.3   1   1     1e-55     1e-55  186.6  35.3     1   274     1   264     1   264 0.94 MW218148.1 QPI16927.1
+gf73897c097e94fd0    -            291 Type_II_partner      -            274   1.7e-32  110.5  56.4   1   1     2e-32     2e-32  110.2  56.4    15   273    18   290     8   291 0.85 MW349128.1 QQO92594.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\Type_II_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\Type_II_partner.domtbl -E 0.001 --domE 0.001 -Z 2997 --domZ 2997 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_II_partner.hmm D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 12:43:38 2026
+# [ok]

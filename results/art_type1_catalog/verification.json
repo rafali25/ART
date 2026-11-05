@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "unique_primary_loci": 13,
+  "RT_and_partner_sequences": 13,
+  "duplicate_LPJP1_controls_removed": true,
+  "exported_array_DNA_records": 4,
+  "repeat_and_spacer_slices_checked": 32,
+  "statistics_include_all_RT_candidates": true,
+  "source_cohort_verifications": [
+    {
+      "passed": true,
+      "source_records": 5,
+      "oriented_loci": 6,
+      "six_frame_translations": 1779,
+      "complete_RT_CDS_translations": 6,
+      "repeat_and_spacer_source_mappings": 18,
+      "primary_pairs": 6,
+      "current_assembly_exact_peptide_mappings": 4,
+      "remote_protein_DNA_mappings": 0,
+      "LPJP1_pairing_regression_passed": true
+    },
+    {
+      "passed": true,
+      "source_records": 11,
+      "oriented_loci": 13,
+      "six_frame_translations": 4888,
+      "complete_RT_CDS_translations": 10,
+      "repeat_and_spacer_source_mappings": 23,
+      "primary_pairs": 9,
+      "current_assembly_exact_peptide_mappings": 0,
+      "remote_protein_DNA_mappings": 13,
+      "LPJP1_pairing_regression_passed": true
+    }
+  ]
+}

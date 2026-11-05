@@ -1,0 +1,33 @@
+.venv/
+.venv-boltz/
+.venv-report/
+.venv-array-finders/
+/boltz.md
+.tools/
+tmp/
+__pycache__/
+*.pyc
+
+# Rebuildable MMseqs scratch databases and Windows reparse links.
+/results/**/*_tmp/
+
+# Local authentication and environment settings.
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Overleaf session cookie (credential)
+.olauth
+
+# Keep out of the public repository: environments, sync scratch, internal and third-party documents,
+# and files above the GitHub 100 MB limit (raw catalogs are re-downloadable from their sources).
+.venv-windows/
+paper/.venv-fig/
+paper/overleaf_sync/
+**/__MACOSX/
+/ciai cluster.docx
+literature/*.pdf
+extra/*.pdf
+results/art_expansion_20261105/downloads/
+results/**/gene_coordinates.tsv.gz

@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QQM14740.1           -          ART_RT               -           1.2e-286  948.4  62.1  1.3e-286  948.2  62.1   1.0   1   0   0   1   1   1   1 MW248466.1
+QPI16926.1           -          ART_RT               -           4.1e-181  600.2  54.8  4.6e-181  600.0  54.8   1.0   1   0   0   1   1   1   1 MW218148.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:\MBZUAI\CRISP\results\art_discovery\profiles\ART_RT.hmm
+# Target file:     D:\MBZUAI\CRISP\results\art_discovery\calibration\controls.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_discovery\calibration\ART_RT.tbl --domtblout D:\MBZUAI\CRISP\results\art_discovery\calibration\ART_RT.domtbl -E 0.001 --domE 0.001 -Z 2076 --domZ 2076 --seed 42 --cpu 4 D:\MBZUAI\CRISP\results\art_discovery\profiles\ART_RT.hmm D:\MBZUAI\CRISP\results\art_discovery\calibration\controls.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Mon Oct 19 17:46:30 2026
+# [ok]

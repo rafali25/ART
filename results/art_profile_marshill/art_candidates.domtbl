@@ -1,0 +1,14 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QQM14740.1           -            501 ART_Staph_typeII_pilot -            500         0 1060.7  56.0   1   1         0         0 1060.6  56.0     1   500     1   501     1   501 1.00 MW248466.1 215089..216594 strand=1 RNA-directed DNA polymerase
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:\MBZUAI\CRISP\results\art_profile_marshill\art_family.hmm
+# Target file:     D:\MBZUAI\CRISP\results\art_profile_marshill\MarsHill_proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_profile_marshill\art_candidates.tbl --domtblout D:\MBZUAI\CRISP\results\art_profile_marshill\art_candidates.domtbl -E 1e-5 --domE 1e-5 --seed 42 --cpu 4 D:\MBZUAI\CRISP\results\art_profile_marshill\art_family.hmm D:\MBZUAI\CRISP\results\art_profile_marshill\MarsHill_proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Mon Oct 19 17:03:35 2026
+# [ok]

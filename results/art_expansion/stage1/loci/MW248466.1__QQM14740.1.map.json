@@ -1,0 +1,32 @@
+{
+  "segments": [
+    {
+      "source_start0": 209088,
+      "source_end0": 222594,
+      "locus_start0": 0,
+      "locus_end0": 13506,
+      "orientation": 1
+    }
+  ],
+  "metadata": {
+    "strand": 1,
+    "length_nt": 13506,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 6000,
+    "downstream_available_nt": 6000,
+    "upstream_shortfall_nt": 0,
+    "downstream_shortfall_nt": 0,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": false,
+    "source_end_reached": false,
+    "genomic_left_clipped_nt": 0,
+    "genomic_right_clipped_nt": 0,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_accession": "MW248466.1",
+  "source_path": "datasetss/SA1 on Marshill/MarsHill_MW248466.1.gb",
+  "source_sha256": "7763e2b1fb24bf99087432a0463d9e5763936a6ef8a59c03ae2fbe5b1e668214"
+}

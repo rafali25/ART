@@ -1,0 +1,19 @@
+[
+  {
+    "name": "datacite",
+    "url": "https://api.datacite.org/dois?query=%22array-associated+reverse+transcriptases%22&page%5Bsize%5D=20",
+    "bytes": 178,
+    "preview": "{\"data\":[],\"meta\":{\"total\":0,\"totalPages\":0,\"page\":1},\"links\":{\"self\":\"https://api.datacite.org/dois?query=%22array-associated+reverse+transcriptases%22\\u0026page%5Bsize%5D=20\"}}"
+  },
+  {
+    "name": "zenodo",
+    "url": "https://zenodo.org/api/records?q=%22array-associated+reverse+transcriptases%22&size=20",
+    "bytes": 471,
+    "preview": "{\"hits\": {\"hits\": [], \"total\": 0}, \"aggregations\": {\"publication_date\": {\"buckets\": [], \"label\": \"Publication date\"}, \"access_status\": {\"buckets\": [], \"label\": \"Access status\"}, \"resource_type\": {\"buckets\": [], \"label\": \"Resource types\"}, \"subject\": "
+  },
+  {
+    "name": "biorxiv_xml_variant",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.755809v1.source.xml",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

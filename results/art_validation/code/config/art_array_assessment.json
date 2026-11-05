@@ -1,0 +1,13 @@
+{
+  "local_inference_shuffles_per_window": 1000,
+  "dinucleotide_shuffles_per_window": 1000,
+  "familywise_alpha": 0.05,
+  "multiple_testing_method": "bonferroni_across_all_input_loci",
+  "minimum_main_copies": 3,
+  "exploratory_two_copy_per_locus": 2,
+  "low_complexity_entropy_bits": 1.2,
+  "low_complexity_homopolymer_nt": 6,
+  "short_period_max_nt": 59,
+  "workers": 4,
+  "random_seed": 20261020
+}

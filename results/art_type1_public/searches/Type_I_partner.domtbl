@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tb9a603ed9e661d7c56  -            481 Type_I_partner       -            481         0 1122.3  55.2   1   1         0         0 1122.1  55.2     1   481     1   481     1   481 1.00 MZ422438.1 QXN67952.1
+o22daa07b7859182266  -            484 Type_I_partner       -            481         0 1122.3  55.2   1   1         0         0 1122.1  55.2     1   481     4   484     4   484 1.00 MZ422438.1 six_frame
+t294a713c707948c7d7  -            594 Type_I_partner       -            481   2.3e-53  178.4  26.4   1   1   2.3e-53   2.3e-53  178.4  26.4    38   412    50   418    37   426 0.88 SRR8925777_19723 SRR8925777_19723_pgv10
+o7e4d159c2219858867  -            601 Type_I_partner       -            481   2.4e-53  178.3  26.4   1   1   2.4e-53   2.4e-53  178.3  26.4    38   412    57   425    44   433 0.88 SRR8925777_19723 six_frame
+o1379a0e0a703f7614e  -            661 Type_I_partner       -            481   1.5e-40  136.1  34.7   1   1   1.5e-40   1.5e-40  136.1  34.7   113   401   191   469   112   542 0.78 MZ422438.1 six_frame
+tb7d267d790c28cff6a  -            661 Type_I_partner       -            481   1.5e-40  136.1  34.7   1   1   1.5e-40   1.5e-40  136.1  34.7   113   401   191   469   112   542 0.78 MZ422438.1 QXN67954.1
+t4768d82136af6821e1  -            852 Type_I_partner       -            481   3.6e-37  125.0  14.4   1   1   3.6e-37   3.6e-37  125.0  14.4   109   416   356   660   344   730 0.87 ERR10896470_6836 ERR10896470_6836_pgv2
+o9209565c37bd70a3dc  -            853 Type_I_partner       -            481   3.6e-37  125.0  14.4   1   1   3.6e-37   3.6e-37  125.0  14.4   109   416   357   661   345   731 0.87 ERR10896470_6836 six_frame
+o1751ac05fe12a96288  -            851 Type_I_partner       -            481   8.1e-37  123.8  11.8   1   1   8.1e-37   8.1e-37  123.8  11.8   117   416   363   659   350   703 0.86 SRR26805139_340 six_frame
+o5568f9b432c37b23bc  -            900 Type_I_partner       -            481   1.5e-36  123.0   4.9   1   1   1.8e-36   1.8e-36  122.7   3.5   116   389   393   676   378   702 0.77 ERR8055547_17635 six_frame
+t2df16249c221583d8d  -            850 Type_I_partner       -            481   1.6e-36  122.9  13.2   1   1   1.6e-36   1.6e-36  122.9  13.2   115   417   360   659   326   722 0.86 SRR26805139_340 SRR26805139_340_pgv2
+t313ae852fb37fab6f6  -            890 Type_I_partner       -            481   2.2e-36  122.4   5.5   1   1   2.5e-36   2.5e-36  122.2   3.9   118   389   385   666   374   692 0.76 ERR8055547_17635 ERR8055547_17635_pgv13
+t20d3930348d48ea9c1  -            543 Type_I_partner       -            481   8.7e-21   70.9  42.6   1   1   1.5e-20   1.5e-20   70.1  42.6    50   431    77   477    36   514 0.72 ERR10896470_6836 ERR10896470_6836_pgv4
+o1a0c7bfd9dc8da7916  -            557 Type_I_partner       -            481   1.3e-20   70.3  43.1   1   1   2.3e-20   2.3e-20   69.6  43.0    50   431    91   491    50   526 0.72 ERR10896470_6836 six_frame
+t4261b188891c35c54f  -            543 Type_I_partner       -            481   1.5e-19   66.9  38.9   1   1   2.3e-19   2.3e-19   66.2  38.9    57   408    87   456    36   508 0.70 SRR26805139_340 SRR26805139_340_pgv4
+o77fe97fc9b71d1493c  -            557 Type_I_partner       -            481   1.5e-19   66.8  38.8   1   1   2.3e-19   2.3e-19   66.2  38.8    57   408   101   470    49   522 0.70 SRR26805139_340 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_public\searches\Type_I_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_public\searches\Type_I_partner.domtbl -E 0.001 --domE 0.001 -Z 2063 --domZ 2063 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 18:12:15 2026
+# [ok]

@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g033ee42ba0cfbc74    -          RVT_1                PF00078.33   1.2e-25   88.1   1.1   5.9e-25   85.8   0.1   2.4   2   1   0   2   2   1   1 MZ422438.1 QXN67909.1
+gd02bb3eff72d496b    -          RVT_1                PF00078.33   2.3e-22   77.3   2.0   4.4e-22   76.4   2.0   1.4   1   0   0   1   1   1   1 MW218148.1 QPI16926.1
+g35fa97101e01663e    -          RVT_1                PF00078.33   9.5e-22   75.3   1.4   9.5e-22   75.3   1.4   2.0   2   0   0   2   2   1   1 MW248466.1 QQM14740.1
+gf38d6f0be6da0ff6    -          RVT_1                PF00078.33   1.3e-21   74.8   1.6   2.5e-21   73.9   1.6   1.5   1   0   0   1   1   1   1 OR836606.1 WRM43423.1
+gc7888dd19f05bf49    -          RVT_1                PF00078.33   3.3e-21   73.6   2.2   3.3e-21   73.6   2.2   2.0   2   0   0   2   2   1   1 MW349129.1 QQO92858.1
+g19244a9caff4dc36    -          RVT_1                PF00078.33   7.8e-21   72.3   4.1   1.1e-20   71.8   2.0   2.1   2   0   0   2   2   1   1 MZ779063.1 UAJ17040.1
+g8224359af74f1813    -          RVT_1                PF00078.33   8.3e-21   72.2   1.3   1.5e-20   71.4   1.3   1.4   1   0   0   1   1   1   1 MN091626.1 QDJ97640.1
+g77e13f2730c020b7    -          RVT_1                PF00078.33   2.4e-20   70.7   2.0   4.5e-20   69.8   2.0   1.5   1   0   0   1   1   1   1 LC680885.1 BDE75684.1
+g9d4640ef2fac361b    -          RVT_1                PF00078.33   1.8e-19   67.9   2.7   1.8e-19   67.9   2.7   1.9   2   1   0   2   2   1   1 MW349128.1 QQO92593.1
+g8aa347b6ae9fd700    -          RVT_1                PF00078.33   2.9e-18   63.9   2.4   2.9e-18   63.9   2.4   2.1   2   1   0   2   2   1   1 MZ422438.1 QXN67955.1
+gcce88f5059d7029f    -          RVT_1                PF00078.33   9.3e-12   42.7   6.0   1.1e-11   42.5   5.2   1.5   1   1   0   1   1   1   1 MZ422438.1 QXN67953.1
+ge813a36c07adfa02    -          RVT_1                PF00078.33     2e-11   41.6   1.6   1.4e-10   38.9   1.6   2.2   1   1   0   1   1   1   1 NC_016163.1 YP_004934330.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\RVT_1.tbl --domtblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\RVT_1.domtbl -E 0.001 --domE 0.001 -Z 2997 --domZ 2997 --seed 42 --cpu 4 D:/MBZUAI/CRISP/.tools/art-reconstruction/PF00078.hmm D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 12:43:38 2026
+# [ok]

@@ -1,0 +1,37 @@
+{
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "packages": {
+    "biopython": "1.88",
+    "numpy": "2.5.4",
+    "pyrodigal-gv": "0.3.2",
+    "zstandard": "0.25.0"
+  },
+  "profiles": {
+    "ART_RT": "05f010c23b7cd36cedd3170f6cdadc5150fd458c0d6ed08b34a196224b38b2b0",
+    "Type_I_partner": "e86a0b4a91dfa72507fbaa0d6ea618027d8169d68ae61e13c785606db6006545",
+    "Type_II_partner": "b238a79ca6172373708d74dd4e66172800035f573c8e4fe1ab4614b14049eec7",
+    "TypeI_two_seed": "cb1c3b60ccdefb9681ca237730ea798aaae1a11dc40736fe8dfe5bac70416dca",
+    "RVT_1": "b91872fbf0a5cd011c04a0f05b3a4b96e61aa43f01b0fa99156745ffcf508b81"
+  },
+  "source_scripts": {
+    "scripts/art_expansion_audit.py": "c50b9b871267e06bf7f8fc9bbf25a6c86e63d5a86ced16f77fdb4de7e3e1ffe0",
+    "scripts/art_expansion_audit.sbatch": "19857325e752b2a5f9f9e15670415d7076af54369cfbbc0cfea582473382bda6",
+    "scripts/art_expansion_bulk.py": "9f847176a8d5f355eeae1d92bfee4a0fe5c73cb653f5db137e3840f69aafde2c",
+    "scripts/art_expansion_catalogs.sbatch": "89b364425adb7e5b35bd831089760fe79a31b2ccd56c7776f96a5400aa8abb00",
+    "scripts/art_expansion_extra.py": "6aa0258319d318a744fd5e7c0343192608588f5e58ab9ff3f32d31cbe97ef6e3",
+    "scripts/art_expansion_feasibility.py": "612f599d73feaff70fb729f35ff0277d79b2c3330903ea99ea53e13f55ab806e",
+    "scripts/art_expansion_finalize.sbatch": "ee6eb13ef945bdcd25f3947228776cc94334672f41fc00b66bc913e598641dc3",
+    "scripts/art_expansion_leads.py": "0f598096ede0cf222f7264d6e062d33da51ed7c7d3e9868d9e39fd01814e070e",
+    "scripts/art_expansion_leads.sbatch": "0c4f391d43e390f9c26be3439d93fba703c7e523f3cdfab7207978b12f83cab6",
+    "scripts/art_expansion_members.py": "af5240826cc4e0ebeabe8380cfb66d7972c2b675575c7b4230a0ca26eab1f365",
+    "scripts/art_expansion_members.sbatch": "c36421573881d1e6439be1dba30dfea57304dfc6bb8edfaf9a13c30a3f49c4b9",
+    "scripts/art_expansion_prepare.sbatch": "bb3ff49197b4c33f569017076e0b817ea89c80b86f2893a0c2b6faa0cef281c2",
+    "scripts/art_expansion_workflow.py": "3860068e0910dad2ca2433e0784116657e98cf1b06f6b6ea8ac3dce9d50bea98",
+    "scripts/test_art_expansion_workflow.py": "88028f8af71ff39af813b776f8b516590d23fb9a5d03f803434ce1e3030eec38",
+    "scripts/test_art_type1_public.py": "c6e070a7e16dcf40c9aee1bd4708021b2e75fe8d4a852b3e86fc5537afb3036f",
+    "scripts/art_type1_pipeline.py": "f1b37d4c9470753ac457909a485b8bf61cb2c7bb762675eccca01c62408ef002",
+    "scripts/art_reconstruction_common.py": "b1439ef883dd92b4862a2245164a47615c852f2b083b47971c681b1661c48532",
+    "scripts/extract_art_loci.py": "a8d2c52e9dee95011a8da78206036b383792d6bdd583662eb4e7a780097a2245"
+  },
+  "native_wrapper_sha256": "87b09ae7c98491c86bfe86a3701e3b96d616833e8114962fd9c7169158852000"
+}

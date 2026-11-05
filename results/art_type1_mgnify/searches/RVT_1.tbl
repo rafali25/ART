@@ -1,0 +1,48 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+t12a6f3163f136c0818  -          RVT_1                PF00078.33   1.4e-25   88.7   0.1   2.2e-25   88.1   0.1   1.3   1   0   0   1   1   1   1 MGYC002687634053 MGYC002687634053_pgv78
+ocd8dace49e47d99b23  -          RVT_1                PF00078.33   1.4e-25   88.7   0.1   2.2e-25   88.0   0.1   1.3   1   0   0   1   1   1   1 MGYC002687634053 six_frame
+te536e0d47dfc88ab75  -          RVT_1                PF00078.33   2.2e-25   88.1   1.1   1.1e-24   85.8   0.1   2.4   2   1   0   2   2   1   1 MZ422438.1 QXN67909.1
+o85c2d7c6d6f8bcf6ec  -          RVT_1                PF00078.33   2.2e-25   88.1   1.1   1.1e-24   85.8   0.1   2.4   2   1   0   2   2   1   1 MZ422438.1 six_frame
+t44cf1fdf7621f4b734  -          RVT_1                PF00078.33   4.3e-24   83.8   2.5   1.2e-12   46.5   0.0   2.9   3   0   0   3   3   2   2 MGYC003526048914 MGYC003526048914_pgv104
+o9e84a9d92b87690c2e  -          RVT_1                PF00078.33   4.4e-24   83.8   2.5   1.2e-12   46.4   0.0   2.9   3   0   0   3   3   2   2 MGYC003526048914 six_frame
+o7c64922eb91b05092c  -          RVT_1                PF00078.33   5.4e-18   63.9   2.4   5.4e-18   63.9   2.4   2.1   2   1   0   2   2   1   1 MZ422438.1 six_frame
+tfa8f53ac19ebdbc840  -          RVT_1                PF00078.33   5.4e-18   63.9   2.4   5.4e-18   63.9   2.4   2.1   2   1   0   2   2   1   1 MZ422438.1 QXN67955.1
+tc2656b3ed768971237  -          RVT_1                PF00078.33   5.5e-18   63.9   3.2     1e-17   63.0   3.2   1.5   1   0   0   1   1   1   1 MGYC003533828254 MGYC003533828254_pgv4
+ob5f733fc8071dcb706  -          RVT_1                PF00078.33   5.5e-18   63.9   3.2   1.1e-17   62.9   3.2   1.5   1   0   0   1   1   1   1 MGYC003533828254 six_frame
+tdc0eed8f49615822ff  -          RVT_1                PF00078.33   8.9e-17   60.0   1.5   9.4e-17   59.9   0.4   1.6   2   0   0   2   2   1   1 MGYC002345864168 MGYC002345864168_pgv4
+oa7d6b65e94c7fcdf96  -          RVT_1                PF00078.33   9.4e-17   59.9   1.5   9.8e-17   59.8   0.4   1.6   2   0   0   2   2   1   1 MGYC002345864168 six_frame
+o0e8a2a7ba083e70b19  -          RVT_1                PF00078.33   2.7e-16   58.4   1.8   6.1e-16   57.2   1.8   1.6   1   0   0   1   1   1   1 MGYC001394626043 six_frame
+tb52e88d6a9103f4de7  -          RVT_1                PF00078.33   2.7e-16   58.4   1.8   6.1e-16   57.2   1.8   1.6   1   0   0   1   1   1   1 MGYC001394626043 MGYC001394626043_pgv9
+od3af815d9e13eb22a1  -          RVT_1                PF00078.33   9.8e-16   56.6   0.0   1.8e-15   55.7   0.0   1.3   1   0   0   1   1   1   1 MGYC003789112697 six_frame
+t94dcdc561816c87a63  -          RVT_1                PF00078.33   9.8e-16   56.6   0.0   1.8e-15   55.7   0.0   1.3   1   0   0   1   1   1   1 MGYC003789112697 MGYC003789112697_pgv1
+od3949e102319fd3088  -          RVT_1                PF00078.33     1e-14   53.3   2.3     1e-14   53.3   2.3   2.2   2   0   0   2   2   1   1 MGYC001394629236 six_frame
+t0f0cc086464cdf55a1  -          RVT_1                PF00078.33     1e-14   53.3   2.3     1e-14   53.3   2.3   2.2   2   0   0   2   2   1   1 MGYC001394629236 MGYC001394629236_pgv6
+ocbdc028a846711b792  -          RVT_1                PF00078.33   1.4e-13   49.5   0.6   1.9e-11   42.6   0.2   2.9   2   1   0   2   2   1   1 MGYC003526048914 six_frame
+td8581feb81ffcad3e7  -          RVT_1                PF00078.33   1.5e-13   49.4   0.7   1.8e-11   42.6   0.2   2.9   2   1   0   2   2   1   1 MGYC003526048914 MGYC003526048914_pgv179
+t82e178768a4e5f9975  -          RVT_1                PF00078.33   5.8e-13   47.5   1.2   3.3e-12   45.0   1.2   2.3   1   1   0   1   1   1   1 MGYC002687634053 MGYC002687634053_pgv52
+o25308352f7c19b71fb  -          RVT_1                PF00078.33   5.9e-13   47.5   1.1   3.3e-12   45.0   1.1   2.3   1   1   0   1   1   1   1 MGYC002687634053 six_frame
+o527325e972c02579be  -          RVT_1                PF00078.33   9.5e-13   46.8   0.0   1.7e-12   46.0   0.0   1.4   1   0   0   1   1   1   1 MGYC003138808455 six_frame
+t4d40ac6120f0fe9777  -          RVT_1                PF00078.33   9.5e-13   46.8   0.0   1.7e-12   46.0   0.0   1.4   1   0   0   1   1   1   1 MGYC003138808455 MGYC003138808455_pgv4
+ta228969805b68a0f18  -          RVT_1                PF00078.33   5.1e-12   44.4   1.6   9.8e-12   43.5   1.6   1.5   1   0   0   1   1   1   1 MGYC004516159708 MGYC004516159708_pgv17
+o207c0e6f270cdcb904  -          RVT_1                PF00078.33   5.2e-12   44.4   1.6     1e-11   43.5   1.6   1.5   1   0   0   1   1   1   1 MGYC004516159708 six_frame
+t882a89f74d10b13531  -          RVT_1                PF00078.33   1.7e-11   42.7   6.0     2e-11   42.5   5.2   1.5   1   1   0   1   1   1   1 MZ422438.1 QXN67953.1
+o5d00ab4db1a3048122  -          RVT_1                PF00078.33   1.7e-11   42.7   6.0   2.1e-11   42.4   5.2   1.5   1   1   0   1   1   1   1 MZ422438.1 six_frame
+t81790ba806056d54f0  -          RVT_1                PF00078.33   7.2e-10   37.4   0.6   1.5e-09   36.4   0.6   1.6   1   0   0   1   1   1   1 MGYC003526048914 MGYC003526048914_pgv181
+ofe8776d92e475c9114  -          RVT_1                PF00078.33   7.4e-10   37.4   0.6   1.5e-09   36.4   0.6   1.6   1   0   0   1   1   1   1 MGYC003526048914 six_frame
+t71f659cc352a1ce007  -          RVT_1                PF00078.33   3.3e-08   32.0   1.0   1.8e-07   29.6   0.2   2.3   2   0   0   2   2   1   1 MGYC003138808455 MGYC003138808455_pgv2
+o553c1313bc15a370ec  -          RVT_1                PF00078.33   3.9e-08   31.8   1.0     2e-07   29.4   0.2   2.3   2   0   0   2   2   1   1 MGYC003138808455 six_frame
+td9471e01ad7dcb9e28  -          RVT_1                PF00078.33   5.5e-07   28.0   1.9   1.6e-06   26.5   1.9   1.8   1   1   0   1   1   1   1 MGYC002980506253 MGYC002980506253_pgv2
+o0de01e2b015e1846af  -          RVT_1                PF00078.33   5.6e-07   28.0   1.9   1.6e-06   26.5   1.9   1.8   1   1   0   1   1   1   1 MGYC002980506253 six_frame
+o5694d18b44721881e5  -          RVT_1                PF00078.33   5.6e-07   28.0   1.9   1.6e-06   26.5   1.9   1.8   1   1   0   1   1   1   1 MGYC002980506253 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_mgnify/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_mgnify\searches\RVT_1.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_mgnify\searches\RVT_1.domtbl -E 0.001 --domE 0.001 -Z 5607 --domZ 5607 --seed 42 --cpu 4 D:/MBZUAI/CRISP/.tools/art-reconstruction/PF00078.hmm D:/MBZUAI/CRISP/results/art_type1_mgnify/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Wed Oct 21 00:11:55 2026
+# [ok]

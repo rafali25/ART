@@ -1,0 +1,50 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+te966b83b1e7958cb73  -          ART_RT               -            1.8e-58  196.5   6.5   3.3e-58  195.7   6.5   1.3   1   0   0   1   1   1   1 ERR2683165_478 ERR2683165_478_pgv1
+od72eb3f516724243fa  -          ART_RT               -            1.8e-58  196.5   6.5   3.3e-58  195.7   6.5   1.3   1   0   0   1   1   1   1 ERR2683165_478 six_frame
+oe2a0a06f4ac08c6b5e  -          ART_RT               -            1.8e-58  196.5   6.5   3.3e-58  195.7   6.5   1.3   1   0   0   1   1   1   1 ERR2683165_478 six_frame
+t365c99b42a9636f7f4  -          ART_RT               -            1.7e-57  193.3  22.8     3e-57  192.5  22.8   1.4   1   0   0   1   1   1   1 ERR10900851_4993 ERR10900851_4993_pgv1
+o43c4ee19a00494d350  -          ART_RT               -            1.7e-57  193.3  22.8     3e-57  192.5  22.8   1.4   1   0   0   1   1   1   1 ERR10900851_4993 six_frame
+ob62422dc3e4383ae9e  -          ART_RT               -            7.1e-57  191.3  21.2   7.1e-57  191.3  21.2   1.7   1   1   1   2   2   1   1 SRR5371381_9952 six_frame
+t8bb4ed73929ea90582  -          ART_RT               -            7.1e-57  191.3  21.2   7.1e-57  191.3  21.2   1.7   1   1   1   2   2   1   1 SRR5371381_9952 SRR5371381_9952_pgv1
+tcb3acca7f302ef9465  -          ART_RT               -            3.8e-56  188.9  19.3   3.8e-56  188.9  19.3   1.7   1   1   0   2   2   1   1 SRR5644066_1035 SRR5644066_1035_pgv1
+of4c9aa69542542cd82  -          ART_RT               -            4.1e-56  188.8  19.1   4.1e-56  188.8  19.1   1.8   1   1   0   2   2   1   1 SRR5644066_1035 six_frame
+o6ff587e0aa72d1f534  -          ART_RT               -            1.9e-49  166.8  66.7   1.9e-49  166.8  66.7   2.0   1   1   1   2   2   1   1 SRR22802066_51 six_frame
+tea190344fd9499bfe4  -          ART_RT               -            4.4e-49  165.6  68.4   4.4e-49  165.6  68.4   2.0   1   1   1   2   2   1   1 SRR22802066_51 SRR22802066_51_pgv25
+t80071f62fec8e3b75a  -          ART_RT               -            5.4e-49  165.3  50.8   3.4e-48  162.6  50.8   1.9   1   1   0   1   1   1   1 ERR3211773_30326 ERR3211773_30326_pgv2
+o9df2e865a050f0d6f6  -          ART_RT               -            7.7e-49  164.8  51.5   4.6e-48  162.2  51.5   1.8   1   1   0   1   1   1   1 ERR3211773_30326 six_frame
+ob70dd04ea35acae83b  -          ART_RT               -            2.8e-45  153.0   5.5     4e-44  149.2   5.5   1.9   1   1   0   1   1   1   1 SRR10873276_990 six_frame
+t8132c4a1b038ee7927  -          ART_RT               -            2.8e-45  153.0   5.5     4e-44  149.2   5.5   1.9   1   1   0   1   1   1   1 SRR10873276_990 SRR10873276_990_pgv1
+t04f1b1b23a8bd2fa4e  -          ART_RT               -              8e-45  151.5   5.9   1.1e-43  147.8   5.8   2.1   1   1   0   1   1   1   1 SRR10873277_312 SRR10873277_312_pgv9
+o52bff0288d090d4b79  -          ART_RT               -            9.6e-45  151.2   5.9   1.2e-43  147.6   5.8   2.1   1   1   0   1   1   1   1 SRR10873277_312 six_frame
+tc9131f1ab72f174486  -          ART_RT               -              2e-41  140.3   3.0   3.4e-25   86.8   0.1   2.6   1   1   1   2   2   2   2 ERR8509207_4241 ERR8509207_4241_pgv30
+ofb0f359a929588b480  -          ART_RT               -            2.1e-41  140.3   3.0   3.5e-25   86.7   0.1   2.6   1   1   1   2   2   2   2 ERR8509207_4241 six_frame
+td78890b33a50589750  -          ART_RT               -            5.5e-41  138.8   4.9   1.2e-24   85.0   0.1   2.7   1   1   1   3   3   2   2 ERR8025381_8562 ERR8025381_8562_pgv14
+o30f93749ce93de2d26  -          ART_RT               -            5.9e-41  138.8   4.9   1.2e-24   85.0   0.1   2.7   1   1   1   3   3   2   2 ERR8025381_8562 six_frame
+tc6ae8000ba33ccdb4e  -          ART_RT               -            4.8e-33  112.7  19.0   6.8e-33  112.1  16.7   2.0   1   1   0   1   1   1   1 SRR16953781_2281 SRR16953781_2281_pgv4
+oc0ee3378640fc674cd  -          ART_RT               -            6.4e-33  112.2  19.1     1e-32  111.6  17.1   2.0   1   1   0   1   1   1   1 SRR16953781_2281 six_frame
+od952dc6fc704689c20  -          ART_RT               -            1.8e-27   94.2   5.3   1.8e-27   94.2   5.3   3.0   3   1   0   3   3   1   1 ERR8050416_7654 six_frame
+t5252d6372872a699d0  -          ART_RT               -            1.9e-27   94.2   5.4   1.9e-27   94.2   5.4   2.9   3   1   0   3   3   1   1 ERR8050416_7654 ERR8050416_7654_pgv14
+t95edbbbc75173eb0f7  -          ART_RT               -            7.3e-26   89.0   5.2   7.3e-26   89.0   5.2   3.6   2   2   0   2   2   1   1 ERR8449991_4587 ERR8449991_4587_pgv1
+od357a8c6539207252f  -          ART_RT               -            7.4e-26   88.9   5.1   7.4e-26   88.9   5.1   3.7   2   2   0   2   2   1   1 ERR8449991_4587 six_frame
+t00b5d2f3e2696503b8  -          ART_RT               -            8.7e-23   78.8  14.4   8.7e-23   78.8  14.4   4.1   2   1   2   4   4   1   1 SRR22802066_51 SRR22802066_51_pgv23
+o95a10c5165444ac0b8  -          ART_RT               -            9.2e-23   78.7  14.4   9.2e-23   78.7  14.4   4.1   2   1   2   4   4   1   1 SRR22802066_51 six_frame
+tcc2a1b5acfb34638cc  -          ART_RT               -              1e-20   72.0  11.4   1.5e-20   71.4  11.4   1.2   1   0   0   1   1   1   1 ERR8025381_8562 ERR8025381_8562_pgv12
+te6d15c83e36927cdd0  -          ART_RT               -              1e-20   72.0  11.3   1.6e-20   71.4  11.3   1.2   1   0   0   1   1   1   1 ERR8509207_4241 ERR8509207_4241_pgv28
+od754082ec2fcd901eb  -          ART_RT               -              1e-20   72.0  11.3   1.6e-20   71.4  11.3   1.2   1   0   0   1   1   1   1 ERR8509207_4241 six_frame
+o55db8c36e8a0387a8b  -          ART_RT               -            1.1e-20   71.9  11.4   1.6e-20   71.3  11.4   1.2   1   0   0   1   1   1   1 ERR8025381_8562 six_frame
+odc95ee8451620f25e3  -          ART_RT               -            5.5e-19   66.3  43.6   7.1e-17   59.3  43.6   2.6   1   1   0   1   1   1   1 ERR7529523_6432 six_frame
+t684a15d63eecb99cdd  -          ART_RT               -            5.5e-19   66.3  43.6   7.1e-17   59.3  43.6   2.6   1   1   0   1   1   1   1 ERR7529523_6432 ERR7529523_6432_pgv10
+o4de8a39b4cff730949  -          ART_RT               -            2.5e-17   60.8  37.2   5.5e-15   53.1  37.2   3.3   1   1   0   1   1   1   1 ERR8055447_3422 six_frame
+t4047124b026a8e556d  -          ART_RT               -            5.6e-17   59.7  37.8   9.4e-15   52.3  37.8   3.3   1   1   0   1   1   1   1 ERR8055447_3422 ERR8055447_3422_pgv13
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/searches/ART_RT.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/searches/ART_RT.domtbl -E 0.001 --domE 0.001 -Z 3893 --domZ 3893 --seed 42 --cpu 2 /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Thu Nov  5 01:44:29 2026
+# [ok]

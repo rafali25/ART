@@ -1,0 +1,16 @@
+{
+  "bytes": 0,
+  "limit": 100000000,
+  "requests": [
+    {
+      "file": "mgy_cluster_seqs.parquet",
+      "range": null,
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "file": "mgy_cluster_seqs.parquet",
+      "range": null,
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    }
+  ]
+}

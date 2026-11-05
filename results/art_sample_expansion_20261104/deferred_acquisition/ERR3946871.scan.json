@@ -1,0 +1,24 @@
+{
+  "lead_id": "ERR3946871_166_33",
+  "prefix_sha256": "a8d28032d66f3897a038a7c1a6f8ad569d28bb59d95719f4b636480966a5774f",
+  "complete_contigs_scanned": 4212,
+  "complete_nucleotides_scanned": 6753111,
+  "exact_peptide_matches": [
+    {
+      "current_contig": "ERR3946871_166",
+      "length_nt": 61637,
+      "sequence_sha256": "084ff6085737676053298ee6c100f023b238056248ed5ee20a1e86c3552f16dd",
+      "mappings": [
+        {
+          "start0": 25730,
+          "end0": 27248,
+          "strand": 1,
+          "genetic_code": 11,
+          "initiator_normalized": false
+        }
+      ],
+      "source_fasta": "results/art_sample_expansion_20261104/deferred_acquisition/ERR3946871_166.current_matched.fna"
+    }
+  ],
+  "status": "exact_translated_mapping"
+}

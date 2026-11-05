@@ -1,0 +1,50 @@
+{
+  "locus_id": "SRR26805139_340__SRR26805139_340_pgv1",
+  "upstream_sequence": "AGTCTTAATATCTAATGTATCATTAGATATATTCAACTCCCATCAATATTATATTTAAAACTTTCAGAGCCAATTGCAGCGATCGCAAGCTAATCGCCGCAGGCTCACAAAATTCTAAATTATTTGTGCGTATTTTATATTAATAAAAAGATCATATTTAGATCTTTTTAATATAAGGTTATTTTCATTAACCTTATATTTTTTTATTTATAAATTAAAAGGTGGAATTAAAA",
+  "upstream_offset0": 0,
+  "initial": {
+    "R": 1,
+    "positions": [
+      144
+    ],
+    "seed": "AAAAAGATCATATT",
+    "dense_run": 1,
+    "code": 144591,
+    "exact_seed_count": 1,
+    "base_spacing": null,
+    "dense_veto": false,
+    "maximum_dense_run_any_seed": 1,
+    "seeds_tested": 20
+  },
+  "extended": {
+    "score": 0.0,
+    "candidates": [],
+    "seeds_tested": 0
+  },
+  "model": {},
+  "repeats": [],
+  "spacers": [],
+  "quality": {
+    "flags": [
+      "incomplete_6000nt_upstream",
+      "extracted_locus_reaches_contig_boundary"
+    ]
+  },
+  "statistical_score": "extended_seed_discovery_best_chain_score",
+  "array_status": "incomplete_upstream_assessment",
+  "background_test": {
+    "locus_id": "SRR26805139_340__SRR26805139_340_pgv1",
+    "local_p": "1.0",
+    "dinucleotide_p": "1.0",
+    "corrected_p": "1",
+    "cohort_loci": "6",
+    "shuffles_per_background": "200",
+    "status": "incomplete_upstream_assessment",
+    "screen_local_p": "1.0",
+    "screen_dinucleotide_p": "1.0",
+    "initial_p": "1.0",
+    "screen_can_only_stop_for_non_support": "True",
+    "full_discovery_repeated": "True",
+    "complete_ART_locus_claim": "False"
+  }
+}

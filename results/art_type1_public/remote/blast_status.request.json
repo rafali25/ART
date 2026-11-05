@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=DEP6X50X016&FORMAT_OBJECT=SearchInfo",
+    "payload": null,
+    "form": false,
+    "method": "GET"
+  },
+  "status": 200,
+  "error": null,
+  "response_sha256": "262dcedb5139effe655479a23aa6473cd33f47bfb3a96837278d086f9ab7d87f",
+  "bytes": 24631,
+  "time_utc": "2026-10-20T13:51:24.350625+00:00",
+  "elapsed_seconds": 6.0289
+}

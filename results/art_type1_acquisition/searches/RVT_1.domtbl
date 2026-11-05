@@ -1,0 +1,43 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+audit_d803ed8ac528ae347eef -            598 RVT_1                PF00078.33   200   6.1e-25   88.1   1.1   1   1   3.1e-24   3.1e-24   85.8   0.1     1   188   115   354   115   370 0.89 MZ422438.1 pyrodigal_gv pgv154
+audit_f8a9c63f1b9caf77e987 -            598 RVT_1                PF00078.33   200   6.1e-25   88.1   1.1   1   1   3.1e-24   3.1e-24   85.8   0.1     1   188   115   354   115   370 0.89 MZ422438.1 source_annotation QXN67909.1
+audit_8d0b451195b02ed5aacf -            598 RVT_1                PF00078.33   200   6.1e-25   88.1   1.1   1   1   3.1e-24   3.1e-24   85.8   0.1     1   188   115   354   115   370 0.89 MZ422438.1 six_frame code11_orf1199
+audit_60bbf7293e39b07920e3 -            501 RVT_1                PF00078.33   200   1.2e-21   77.3   2.0   1   1   2.3e-21   2.3e-21   76.4   2.0     2   199   211   422   210   423 0.84 MW218148.1 source_annotation QPI16926.1
+audit_ae82f3ab9485aaf6a20e -            501 RVT_1                PF00078.33   200   1.2e-21   77.3   2.0   1   1   2.3e-21   2.3e-21   76.4   2.0     2   199   211   422   210   423 0.84 MW218148.1 pyrodigal_gv pgv7
+audit_152bdb9e2be25e6d3040 -            511 RVT_1                PF00078.33   200   1.2e-21   77.2   2.0   1   1   2.4e-21   2.4e-21   76.3   2.0     2   199   221   432   220   433 0.84 MW218148.1 six_frame code11_orf438
+audit_78947df1817fe1d7fa4e -            501 RVT_1                PF00078.33   200   4.9e-21   75.3   1.4   1   1   4.9e-21   4.9e-21   75.3   1.4     2   200   211   423   210   423 0.81 MW248466.1 source_annotation QQM14740.1
+audit_86a9e1291d877417f152 -            501 RVT_1                PF00078.33   200   4.9e-21   75.3   1.4   1   1   4.9e-21   4.9e-21   75.3   1.4     2   200   211   423   210   423 0.81 MW248466.1 pyrodigal_gv pgv206
+audit_253280a13506e7ba4151 -            506 RVT_1                PF00078.33   200     5e-21   75.3   1.4   1   1     5e-21     5e-21   75.3   1.4     2   200   216   428   215   428 0.81 MW248466.1 six_frame code11_orf185
+audit_959c237e55686bb7f568 -            500 RVT_1                PF00078.33   200   6.9e-21   74.8   1.6   1   1   1.3e-20   1.3e-20   73.9   1.6     2   200   210   422   209   422 0.80 OR836606.1 source_annotation WRM43423.1
+audit_c11452db3cbb2b67b458 -            500 RVT_1                PF00078.33   200   6.9e-21   74.8   1.6   1   1   1.3e-20   1.3e-20   73.9   1.6     2   200   210   422   209   422 0.80 OR836606.1 pyrodigal_gv pgv93
+audit_120784aeea543204aefc -            505 RVT_1                PF00078.33   200   7.1e-21   74.8   1.6   1   1   1.3e-20   1.3e-20   73.9   1.6     2   200   215   427   214   427 0.80 OR836606.1 six_frame code11_orf1095
+audit_4d55c5f7e5ff84a96de0 -            501 RVT_1                PF00078.33   200   1.7e-20   73.6   2.2   1   1   1.7e-20   1.7e-20   73.6   2.2     2   200   211   423   210   423 0.81 MW349129.1 pyrodigal_gv pgv205
+audit_aa2950549424b8a8d7f7 -            501 RVT_1                PF00078.33   200   1.7e-20   73.6   2.2   1   1   1.7e-20   1.7e-20   73.6   2.2     2   200   211   423   210   423 0.81 MW349129.1 source_annotation QQO92858.1
+audit_638bf48ed1601804e1d4 -            506 RVT_1                PF00078.33   200   1.7e-20   73.5   2.2   1   1   1.7e-20   1.7e-20   73.5   2.2     2   200   216   428   215   428 0.81 MW349129.1 six_frame code11_orf603
+audit_4dee8e88de2c75504cf3 -            500 RVT_1                PF00078.33   200     4e-20   72.3   4.1   1   1   5.7e-20   5.7e-20   71.8   2.0     2   198   210   420   209   422 0.81 MZ779063.1 source_annotation UAJ17040.1
+audit_b63a805ca15e60eb4a31 -            500 RVT_1                PF00078.33   200     4e-20   72.3   4.1   1   1   5.7e-20   5.7e-20   71.8   2.0     2   198   210   420   209   422 0.81 MZ779063.1 pyrodigal_gv pgv114
+audit_7d477de6e87e59331df8 -            505 RVT_1                PF00078.33   200   4.2e-20   72.3   4.1   1   1   5.8e-20   5.8e-20   71.8   2.0     2   198   215   425   214   427 0.81 MZ779063.1 six_frame code11_orf251
+audit_41e49971cc7c7a949632 -            500 RVT_1                PF00078.33   200   4.3e-20   72.2   1.3   1   1   7.9e-20   7.9e-20   71.4   1.3     2   198   210   420   209   422 0.79 MN091626.1 source_annotation QDJ97640.1
+audit_ce1a4c57b3ae5f0fa839 -            500 RVT_1                PF00078.33   200   4.3e-20   72.2   1.3   1   1   7.9e-20   7.9e-20   71.4   1.3     2   198   210   420   209   422 0.79 MN091626.1 pyrodigal_gv pgv15
+audit_7c9c3cf11edc7078d726 -            505 RVT_1                PF00078.33   200   4.4e-20   72.2   1.3   1   1     8e-20     8e-20   71.3   1.3     2   198   215   425   214   427 0.79 MN091626.1 six_frame code11_orf439
+audit_12672e27cd3267a50e53 -            500 RVT_1                PF00078.33   200   1.2e-19   70.7   2.0   1   1   2.3e-19   2.3e-19   69.8   2.0     6   198   223   420   209   422 0.77 LC680885.1 source_annotation BDE75684.1
+audit_ee46b165fafc44499704 -            500 RVT_1                PF00078.33   200   1.2e-19   70.7   2.0   1   1   2.3e-19   2.3e-19   69.8   2.0     6   198   223   420   209   422 0.77 LC680885.1 pyrodigal_gv pgv145
+audit_8ecd33f536d9f7e07486 -            505 RVT_1                PF00078.33   200   1.3e-19   70.7   2.0   1   1   2.4e-19   2.4e-19   69.8   2.0     6   198   228   425   214   427 0.77 LC680885.1 six_frame code11_orf562
+audit_415e71f9740943fd799b -            511 RVT_1                PF00078.33   200   1.5e-17   63.9   2.4   1   1   1.5e-17   1.5e-17   63.9   2.4    18   199   234   431   215   432 0.85 MZ422438.1 six_frame code11_orf1173
+audit_f4fab32370004f785050 -            509 RVT_1                PF00078.33   200   1.5e-17   63.9   2.4   1   1   1.5e-17   1.5e-17   63.9   2.4    18   199   232   429   213   430 0.85 MZ422438.1 pyrodigal_gv pgv200
+audit_fba41a1e8c3dcfc3f8a6 -            509 RVT_1                PF00078.33   200   1.5e-17   63.9   2.4   1   1   1.5e-17   1.5e-17   63.9   2.4    18   199   232   429   213   430 0.85 MZ422438.1 source_annotation QXN67955.1
+audit_9d193fab2c6015a69020 -            454 RVT_1                PF00078.33   200   4.8e-11   42.7   6.0   1   1   5.6e-11   5.6e-11   42.5   5.2    16   189   189   368   172   379 0.81 MZ422438.1 pyrodigal_gv pgv198
+audit_b4d596290490ab569aab -            454 RVT_1                PF00078.33   200   4.8e-11   42.7   6.0   1   1   5.6e-11   5.6e-11   42.5   5.2    16   189   189   368   172   379 0.81 MZ422438.1 source_annotation QXN67953.1
+audit_70040d05a95af2c95ac7 -            455 RVT_1                PF00078.33   200   4.8e-11   42.7   6.0   1   1   5.7e-11   5.7e-11   42.4   5.2    16   189   190   369   173   380 0.81 MZ422438.1 six_frame code11_orf782
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\RVT_1.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_acquisition\searches\RVT_1.domtbl -E 0.001 --domE 0.001 -Z 15471 --domZ 15471 --seed 42 --cpu 4 D:/MBZUAI/CRISP/.tools/art-reconstruction/PF00078.hmm D:/MBZUAI/CRISP/results/art_type1_acquisition/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 13:53:20 2026
+# [ok]

@@ -1,0 +1,22 @@
+{
+  "primary_loci": 13,
+  "new_public_primary_loci": 11,
+  "exact_protein_pair_groups": 13,
+  "partner_clusters70": 12,
+  "complete_pair_representatives": 9,
+  "complete_primary_pairs": 10,
+  "incomplete_gene_pairs": 3,
+  "supported_array_loci": 4,
+  "new_public_supported_array_loci": 3,
+  "testing_family_distinct_RT_loci": 17,
+  "all_statuses_provisional": true,
+  "incomplete_upstream_loci": 6,
+  "input_manifest_sha256": {
+    "results\\art_type1_public\\candidate_loci.tsv": "821f9935dd054129c68cdfb587df5d865acc727ec46d35da5518ffaa557f1926",
+    "results\\art_type1_public\\primary_typeI_pairs.tsv": "0cb2cdada3f35e482a55c8c5a5a07648d0dedeb481ae9679cea135c0236174e5",
+    "results\\art_type1_public\\background_tests.tsv": "beaf174f50b07cf72d6516ca07e5218f34efc23ff6c089d4bd2eb59feac0d97a",
+    "results\\art_type1_mgnify\\candidate_loci.tsv": "107c7699f11c6ae30ea4ebcaf9ea1458c33c650f415540890481e958c5cd7779",
+    "results\\art_type1_mgnify\\primary_typeI_pairs.tsv": "9942d7a320e0d36d523863d437242b098008cf9a5cc5f97bbfcec1982b6b5052",
+    "results\\art_type1_mgnify\\background_tests.tsv": "fc8345e0b6838d54b345f72c907b46e98bb68015c2ce9085d50e0dc32ba41923"
+  }
+}

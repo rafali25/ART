@@ -1,0 +1,585 @@
+LOCUS       MW248466.1__QQM14740.1 13506 bp    DNA     linear   PHG 01-JAN-1980
+DEFINITION  MW248466.1; RT=QQM14740.1; RT-oriented locus.
+ACCESSION   MW248466.1__QQM14740.1
+VERSION     MW248466.1__QQM14740.1
+KEYWORDS    .
+SOURCE      Staphylococcus phage MarsHill
+  ORGANISM  Staphylococcus phage MarsHill
+            Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+            Wallmarkvirinae; Madawaskavirus; Madawaskavirus marshill.
+COMMENT     Derived linear locus. Original record and all original annotations
+            are archived separately.
+FEATURES             Location/Qualifiers
+     source          <1..>13506
+                     /organism="Staphylococcus phage MarsHill"
+                     /mol_type="genomic DNA"
+                     /isolation_source="swine barn environmental swab"
+                     /host="Staphylococcus aureus"
+                     /db_xref="taxon:2796499"
+                     /geo_loc_name="USA: Texas"
+                     /collection_date="2015"
+                     /collected_by="Abby Korn"
+                     /source_feature_index="0"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     gene            <1..608
+                     /locus_tag="CPT_MarsHill_200"
+                     /source_feature_index="615"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     CDS             <1..608
+                     /locus_tag="CPT_MarsHill_200"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14734.1"
+                     /source_feature_index="617"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     gene            696..1380
+                     /locus_tag="CPT_MarsHill_201"
+                     /source_feature_index="618"
+                     /locus_clipped="false"
+     regulatory      696..698
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_201"
+                     /source_feature_index="619"
+                     /locus_clipped="false"
+     CDS             709..1380
+                     /locus_tag="CPT_MarsHill_201"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14735.1"
+                     /translation="MSYRMFIKPLTEKTGAKPERHEVMVNTETGMISLINSDGENVSGL
+                     KDITVDISLKKEILSFLDIVNKDVVESINDIKPKYENEMKRTDTIKAQLDKLKNLNKDI
+                     ISQIKQIENNNVTAYVMLQELIKQIYNIIDVYSKTYLDIAKVERKVDHLIYLRDILRKN
+                     RIQMEKDIKSLTTKNNEVKKLLATKEYKSTYDAWVADYVKRTKDLSKESKVSSISFSHK
+                     I"
+                     /source_feature_index="620"
+                     /locus_clipped="false"
+     gene            1390..2870
+                     /locus_tag="CPT_MarsHill_202"
+                     /source_feature_index="621"
+                     /locus_clipped="false"
+     regulatory      1390..1395
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_202"
+                     /source_feature_index="622"
+                     /locus_clipped="false"
+     CDS             1404..2870
+                     /locus_tag="CPT_MarsHill_202"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14736.1"
+                     /translation="MGRFHYSPIDYKDYMNKYFNSLQTGELLIDFEGADIYVSEEGYNI
+                     PIPSNKKLKDDIIKYLENSIEGINYRTREIPRFIKQIEELRRKIEEQQDLMNRQYDDVN
+                     MGIDDNIKDLTYISKVTENNVQQLGDLKLSIDKNDLKFIDKRLLELVNEFNLINSDSRN
+                     KIYVQDAQNKSKQLTAIWNEINALMDDANKKLSKMGTFSGTMMIKRSVTTRRMAYDAYY
+                     SKRLFNFTTNGGHGDIGFPWSYNYASNLSTYLDFTKRTKRGFIKWFYGQKYLDSLTRLR
+                     FPAYNGSGFWYKGFATKKDVRNGSIHGMRNPSWDLFETVPLKGQLNQTDRNNFNLPYIR
+                     SATNYTMFDAGNWSGEKKPNTYNHTSVIVDSRSPTYRIGGSQTFQRNFKHIGKKYEVDT
+                     KLIKRIVAKDDGTQRTPRYKFNNRDMNSCVSAGAPTFPVVVRDIPFISHTGFQNREGMV
+                     IRMGVSKYVSQTEIRLVRMKFNNSKGWIKA"
+                     /source_feature_index="623"
+                     /locus_clipped="false"
+     gene            2936..4254
+                     /locus_tag="CPT_MarsHill_203"
+                     /source_feature_index="624"
+                     /locus_clipped="false"
+     regulatory      2936..2938
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_203"
+                     /source_feature_index="625"
+                     /locus_clipped="false"
+     CDS             2944..4254
+                     /locus_tag="CPT_MarsHill_203"
+                     /note="YP_009283176
+                     N-acetylmuramoyl-L-alanineamidase[Bacillus phage AR9] score
+                     2.71518e-37; HHpred 4BXJ hydrolase Probability: 99.87%;
+                     endolysin, N-acetylmuramoyl-L-alanine amidase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="endolysin"
+                     /protein_id="QQM14737.1"
+                     /translation="MAYEYPLEISDDLIYTNNPVNIMVMDARNHAISLKDLDQVHRSVG
+                     LKMFAYHYYVTLTGIIYGGRPERTLNPDLTKLTKALYTSMISLNQSPFEGIDNIEMKDR
+                     TSSISSNKILICLEGNTSYKDIPKAQKTSLITLCKDIMSRNRNIKNVYSMREYLPMYEN
+                     LGDMVDFASIRSEATTSIPPLFVTTPAGTVTYSFGKRVLRYIEDNPMSGNDVKLLEIYL
+                     KKLGIDVIQPNGKYDVFTVDAVRRFQKRYNLEITGSFKKNDFDVLNTEINKVKFKNVVS
+                     DSYYRLLYYREDQELYGKDIENLNNRLMKIFPKLKLNNYYSEDAENAVKRFQEFTKLSV
+                     DGIVGPVTWEKIFSYEFTDLTDIIFYDPSDNEFKLVIKMIQNKIKDNLNKFGITEYSMH
+                     GIYDEITYKNIKKIKSLIGFNISGNIDRETYEFFVDL"
+                     /source_feature_index="626"
+                     /locus_clipped="false"
+     gene            4266..4427
+                     /locus_tag="CPT_MarsHill_204"
+                     /source_feature_index="627"
+                     /locus_clipped="false"
+     regulatory      4266..4269
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_204"
+                     /source_feature_index="628"
+                     /locus_clipped="false"
+     CDS             4278..4427
+                     /locus_tag="CPT_MarsHill_204"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14738.1"
+                     /translation="MSKENKDLFVFQEGLNEITDDMEFVESEEEKRKRKKKEEEKAKRK
+                     GDNK"
+                     /source_feature_index="629"
+                     /locus_clipped="false"
+     gene            4412..4759
+                     /locus_tag="CPT_MarsHill_205"
+                     /source_feature_index="630"
+                     /locus_clipped="false"
+     regulatory      4412..4416
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_205"
+                     /source_feature_index="631"
+                     /locus_clipped="false"
+     CDS             4427..4759
+                     /locus_tag="CPT_MarsHill_205"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14739.1"
+                     /translation="MAGTAQFTEIINNHRARLSTILSINLKSGNNIHLNRNIEGTLRIE
+                     GECILWEEIRSGLRNSDQLIHMVCDIEEISHISYVDGYSENDREAENIPRVLKEAVDNI
+                     VNNNKA"
+                     /source_feature_index="632"
+                     /locus_clipped="false"
+     gene            5984..7506
+                     /locus_tag="CPT_MarsHill_206"
+                     /source_feature_index="633"
+                     /locus_clipped="false"
+     regulatory      5984..5988
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_206"
+                     /source_feature_index="634"
+                     /locus_clipped="false"
+     CDS             6001..7506
+                     /locus_tag="CPT_MarsHill_206"
+                     /note="WP_065678249 RNA-directed DNA polymerase [Vibrio
+                     atlanticus] score 4.68622e-13; HHpred 6AR1 DNA complex, RNA
+                     binding protein Probability: 99.95%; HHpred 6MEC_C Maturase
+                     reversetranscriptase Probability: 99.94%"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA-directed DNA polymerase"
+                     /protein_id="QQM14740.1"
+                     /translation="MFKFNNVERINLIGNRKMDYFELQESLYTLEPKFKKIVKNDKGNF
+                     LLIFSDGRKEYISNTNAENTFRSKMMVVNSIDDYNLFGKNKQEHSIEINNLDYSLIHHL
+                     RSFIYEDYKFIIITKKFRIYEEDKIFNLIKLKSTTENDKDIFKIEGILKIKKDLINIEE
+                     LELIKDILNDCRTSKERQEYILNSLELLLKSIDLKNKNVNTFDTFYIPKSDGTKREINS
+                     PVEEIRPILKKQANILNAILNLRINKYNLGENIIAYRNGKSIKDNADYHKENKTIIKFD
+                     ISKFFDNCHFDYWKENLFFSFKDEDYVMERFEKHMEGLLFRKNNKGLYMGSPLSPAASN
+                     LIMVPVMRYINNILSKFKTDIKVTVYADDITFSSNEINDEFNPKRLKSMVNHAFKVNGL
+                     KFKLKEEKSLVMKNHKRKITGLTVNHNDEPTISQKRYRQLRTIIHLLNKGVEFKDIKGF
+                     KTPLELVSLINYYLDVDTTEKVKRLMDKNERIFNELKKEAGVN"
+                     /source_feature_index="635"
+                     /locus_clipped="false"
+     gene            7496..8332
+                     /locus_tag="CPT_MarsHill_207"
+                     /source_feature_index="636"
+                     /locus_clipped="false"
+     regulatory      7496..7499
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_207"
+                     /source_feature_index="637"
+                     /locus_clipped="false"
+     CDS             7508..8332
+                     /locus_tag="CPT_MarsHill_207"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14741.1"
+                     /translation="MLDINKRKITSERVNLNLGLVEDLLEEMNFNILDDEEFELAIRQI
+                     DNRHIVESFNYLKSEGLDELLKDVLVNNKNNLLYSTEILINNRFHEYLMFVKRYNEDNE
+                     KDSIINDFLKINEYNRIKFRIDLFKFSYKNILSDIDIFLLTLFGKEFYHEYRKKYNKSN
+                     INTNNKSLRDLIVNTSENFRYYEKESSYTKVIDKDKFVNYLNTTIKSYIITLFRVFENE
+                     NIIMDESLLYTFIYKMNYSKIRKFIYDIDNGNIEIKDIRREYKKYLPEKILI"
+                     /source_feature_index="638"
+                     /locus_clipped="false"
+     gene            8403..9599
+                     /locus_tag="CPT_MarsHill_208"
+                     /source_feature_index="639"
+                     /locus_clipped="false"
+     regulatory      8403..8407
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_208"
+                     /source_feature_index="640"
+                     /locus_clipped="false"
+     CDS             8418..9599
+                     /locus_tag="CPT_MarsHill_208"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14742.1"
+                     /translation="MSNVLLKEYEGNIDKFLSDKNKYNQAKRYMVSYIERNTKQLSYNT
+                     PIYRIPFNMQGIDVTTIMKLVDIDPREMEREIKKLPLTRKYADVLKHPFYVTMSLIIRG
+                     INKKLKVRKNDKNLNNDLRLFLLYLSLSFYWSIQVKQFPYEPNENVAQYTINRLSNKFF
+                     FKKYKTVSTSITVTAEQNNINSLSILDKGQDDDILVYLMDLRTRLNNLVKNFARELYKD
+                     INAGNYLNPHVDVLDDESNYREGTNISGTVSNISQKTLSEFTQKDINMRILKISCSMTN
+                     TNSNIMRNTMSDIRQNEIKSVNNLLLNILTVYLDGKNNPIQSIGSQRFIRESISFFTKS
+                     NTKDKRLLENKKILNDFLTKYNSKYNQTEREATKNSYRKTIYVYFVLLISNSY"
+                     /source_feature_index="641"
+                     /locus_clipped="false"
+     gene            9606..10322
+                     /locus_tag="CPT_MarsHill_209"
+                     /source_feature_index="642"
+                     /locus_clipped="false"
+     regulatory      9606..9609
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_209"
+                     /source_feature_index="643"
+                     /locus_clipped="false"
+     CDS             9621..10322
+                     /locus_tag="CPT_MarsHill_209"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14743.1"
+                     /translation="MSNKNEDKIEMSENVNNEKINKIGQRMKKFNRMMNSNSTSIFSII
+                     ACILIASYFIYSFIDNDSRQSSAPSANAEQQYTTKDDEKAMFLIQETTNSKISMLSEVD
+                     SIMYRDDLSDDEKLDFLKDIKILIEQNNKNFNHEVNEFDTLSKDAVEDIKNMNKINAIS
+                     VKYVDDTISFNKVPKDEKFKYSRELFQNSSNFRSILANMNYTNYDDAQRRMESIEEGRS
+                     ENLKDKESNDK"
+                     /source_feature_index="644"
+                     /locus_clipped="false"
+     gene            10412..11163
+                     /locus_tag="CPT_MarsHill_210"
+                     /source_feature_index="645"
+                     /locus_clipped="false"
+     regulatory      10412..10415
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_210"
+                     /source_feature_index="646"
+                     /locus_clipped="false"
+     CDS             10429..11163
+                     /locus_tag="CPT_MarsHill_210"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14744.1"
+                     /translation="MANLSDASGTISFEGFEGKEKFLKEMKRLIVKSFSEKETQYFINF
+                     QHDIDEYDQIIVSDELDEEFNAIGRWSFGSSLERFFDSISGDIVEYYKHEENSEELIKD
+                     NLDYIKNNFAEDEDMSIRFEFTDYEPGMNFLLEGFVEVRPGDIVKDEHGFIRYMETETS
+                     SDFTDLEINVENLVSEQFMDNEDFILPEDINFIDSEYLPEEDDLDIEVDEDHKKIRREL
+                     LRRYTEENSVFCISENRMVELN"
+                     /source_feature_index="647"
+                     /locus_clipped="false"
+     gene            11214..11779
+                     /locus_tag="CPT_MarsHill_211"
+                     /source_feature_index="648"
+                     /locus_clipped="false"
+     regulatory      11214..11218
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_211"
+                     /source_feature_index="649"
+                     /locus_clipped="false"
+     CDS             11228..11779
+                     /locus_tag="CPT_MarsHill_211"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14745.1"
+                     /translation="MNKSDFKDILMNIETKFRIKYFEENFLNYMNSLEYGKDYKIKSKE
+                     FDDQELLKIINYIDEYKKYKSLSDINLEKLIYKSSRSVFSYPYKEIKGNIIDLNKIEMY
+                     ISDNIKNDVRLLLEFNDEKHIEEIKKIENNYDKYSYLTHWSFISDDFKDLMKNFKTMDE
+                     FLEFIKDNKDYENLYNYLIK"
+                     /source_feature_index="650"
+                     /locus_clipped="false"
+     gene            11781..12737
+                     /locus_tag="CPT_MarsHill_212"
+                     /source_feature_index="651"
+                     /locus_clipped="false"
+     regulatory      11781..11785
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_212"
+                     /source_feature_index="652"
+                     /locus_clipped="false"
+     CDS             11796..12737
+                     /locus_tag="CPT_MarsHill_212"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14746.1"
+                     /translation="MTLLENISTKPEINGYMEKVFNYHLAKIIENNYIDDIKESTIQVI
+                     NKNLELMSDNKLNESSYRDIFNDPDTHTYEETKELFHNFNNKDNKFYKEINNQIDSKVD
+                     EIKNNKYKVILESFTGYNDFDYDQKYSINKSSIINLFDISYLGADRFRRRKSKNCKIKF
+                     DPSNLVTLIFNYSEIYSLSTSDVDKIKRDFYSLYKDRDYDDSLIKTFEDIIPLDSYTRN
+                     KALSLYGLNLEKIMYNLDSDSKNKLIEVNNVITSIIKYQMYAKDKNNRTDNMISKVKNN
+                     SIMRKLQLDYESSNTDKYEIELVPKHLKNLFS"
+                     /source_feature_index="653"
+                     /locus_clipped="false"
+     gene            12739..>13506
+                     /locus_tag="CPT_MarsHill_213"
+                     /source_feature_index="654"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     regulatory      12739..12743
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_MarsHill_213"
+                     /source_feature_index="655"
+                     /locus_clipped="false"
+     CDS             12755..>13506
+                     /locus_tag="CPT_MarsHill_213"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="QQM14747.1"
+                     /source_feature_index="656"
+                     /locus_clipped="true"
+                     /note="Clipped by locus extraction; full annotation in
+                     source snapshot."
+     repeat_region   5293..5334
+                     /note="Custom ART array candidate repeat; not a functional
+                     RNA annotation"
+                     /rpt_family="MW248466.1__QQM14740.1__array1"
+                     /rpt_type=direct
+     repeat_region   5503..5544
+                     /note="Custom ART array candidate repeat; not a functional
+                     RNA annotation"
+                     /rpt_family="MW248466.1__QQM14740.1__array1"
+                     /rpt_type=direct
+     repeat_region   5676..5717
+                     /note="Custom ART array candidate repeat; not a functional
+                     RNA annotation"
+                     /rpt_family="MW248466.1__QQM14740.1__array1"
+                     /rpt_type=direct
+ORIGIN
+        1 aacgttctta tgaatttaac aacgaaatga taatggattt acgtaccgga gatatctctt
+       61 atacagatga taaaggtaat ttaattgacg tgactgctaa gttaaaagaa agattaaatt
+      121 atgttgaatc tgatttgaat aatattaata ttaattcaat gataatgaga ggaaatatat
+      181 cactattatt agatgaatta agttatatag ttaaaaataa taatttctta gaagacaatc
+      241 ttaaggaagc tatagacaaa ttagaaaata ttgaaaatga agttaaaaat tcagataaat
+      301 taattaagga tatagaagct cttaagaaaa aagtagaaga atcaaataaa atggttacga
+      361 cactttctaa atcagtatct aagaaaacta cagaaataaa tactacaatt aaaactattg
+      421 aaagagaaat tataagtact ttacctgtcc aaagagataa catctcaatg gtagctaaat
+      481 cttattataa tattaaatcg gtagatttga cagctagaac taagattagt aaaactgcat
+      541 ttaataattt caagaagaaa tacgaaagat tcttaacaaa tgttaagaca tatataagaa
+      601 acttttaata ctagaccata cattcgaaac ttatctttat ataaaaatta aggataatga
+      661 agaatgtatg gtctttatta ttgtaaatga aagtcggtga aattataatt gtcttataga
+      721 atgtttatta aaccactaac agaaaagact ggagcaaaac ctgaaagaca cgaagttatg
+      781 gttaatacag aaacaggaat gatcagttta attaactctg atggtgaaaa tgtttctggt
+      841 ttaaaagata taacggttga tatttctctt aaaaaagaaa tattgagttt tctagatata
+      901 gttaataaag atgtagtgga atctattaac gatataaaac ctaaatatga aaatgaaatg
+      961 aaaagaactg atacaattaa agctcaatta gataaattaa aaaatcttaa taaggacatt
+     1021 atcagtcaaa ttaaacaaat agagaacaat aatgtaacag catatgtcat gttgcaagag
+     1081 ctaattaaac aaatatataa tattatagat gtatattcaa aaacttattt agatatagct
+     1141 aaagtagaaa gaaaagtaga tcatttaata tacttaagag atattcttag aaaaaataga
+     1201 attcaaatgg aaaaagatat taaatcttta actactaaaa ataatgaagt taaaaaatta
+     1261 ttggctacta aagaatataa atccacttat gatgcttggg ttgctgatta tgttaaacgt
+     1321 actaaagatc tttctaaaga atctaaagta agtagtatta gttttagtca taaaatataa
+     1381 taaaaagaaa ggaggagatt aatttgggtc gttttcatta ttcacctatt gattataaag
+     1441 attatatgaa taaatatttt aatagtcttc aaacaggtga attactcatt gattttgaag
+     1501 gtgcagatat atacgtatct gaagaaggat acaatatacc gataccgtca aataaaaaac
+     1561 ttaaagatga tattattaaa tacttggaga atagtattga aggtatcaat tatagaacta
+     1621 gagaaatacc tagatttatt aaacaaattg aagaattaag aagaaaaata gaagaacaac
+     1681 aggacttaat gaatcgtcag tacgatgatg ttaatatggg tattgatgat aatattaaag
+     1741 atttaactta tatcagtaaa gtaactgaaa ataatgtaca gcaattagga gatttgaaat
+     1801 tatcgataga taaaaatgat cttaaattta ttgataaaag attattagaa cttgttaatg
+     1861 aatttaattt aattaatagt gattctcgta ataaaatata tgtacaagat gctcaaaata
+     1921 agtctaaaca gttaactgct atatggaatg aaattaatgc tcttatggat gatgctaata
+     1981 agaaactatc taaaatgggt acattttcag gaactatgat gattaaacgt tcagtaacta
+     2041 ctagaagaat ggcatatgat gcatactatt caaaacgttt atttaacttt acaactaatg
+     2101 gaggtcatgg ggatattggt tttccttggt cctacaacta tgctagtaat ttgagtactt
+     2161 atttagactt tactaaaaga actaagagag gtttcattaa atggttttat ggtcaaaaat
+     2221 atttagactc attaaccaga ttaagattcc ctgcttataa tggttctggt ttctggtata
+     2281 aaggttttgc aactaagaaa gatgtaagaa atggttcaat acatggtatg agaaatcctt
+     2341 catgggattt atttgaaaca gttcctctta aaggacaatt aaatcaaact gatagaaata
+     2401 attttaattt accttatata agatcagcta caaattatac tatgtttgat gcgggtaatt
+     2461 ggtctggaga aaagaaacct aatacttata atcatacatc tgttatagtt gactcaagat
+     2521 ctcctactta tagaataggt ggaagtcaaa cttttcaaag aaactttaag catattggta
+     2581 aaaaatatga agttgatact aaattaataa aacgtatagt agctaaagat gatggtactc
+     2641 aaagaacacc tagatataaa tttaataata gagatatgaa tagttgtgta tctgcaggag
+     2701 cacctacatt ccctgtagtt gttagagata taccttttat atcacataca ggcttccaga
+     2761 atagagaagg aatggtaatc cgtatgggag tttctaaata cgtatcacaa actgagatta
+     2821 gactggttag aatgaaattt aataatagta aagggtggat taaagcttaa ttaaattaag
+     2881 tttccacatt aacactaaaa atattaatga aaggacggtg aatatttttt ggcacgagaa
+     2941 ggaatggctt atgaatatcc tttagaaata tcggatgatt taatatatac aaataaccca
+     3001 gttaatatta tggtaatgga tgctcgtaac catgctataa gtttaaaaga tttagatcaa
+     3061 gtccatagat ctgtaggact aaaaatgttt gcatatcatt attatgtaac tttaactggt
+     3121 ataatatacg gtggaagacc tgaaagaact ttaaatcctg atttaactaa attaactaaa
+     3181 gctctttata ctagtatgat tagtttaaat caaagtcctt ttgaaggtat agataatata
+     3241 gaaatgaaag atagaacttc ttccatttct tctaataaga tactaatatg tcttgaaggt
+     3301 aatacttctt ataaagatat ccctaaagct caaaaaactt cattaataac attatgtaaa
+     3361 gatataatga gtagaaatag aaatattaaa aacgtgtact ctatgagaga atatttacct
+     3421 atgtatgaga atttaggcga tatggtggat tttgcttcta ttagatctga agcgactaca
+     3481 tcaatacctc cattatttgt aactactcca gcaggtacag ttacttatag ttttggtaaa
+     3541 cgtgtattaa gatatattga agataatcca atgtctggta atgatgttaa attattagaa
+     3601 atatatctta aaaaattagg tattgatgtt attcaaccta atggtaaata cgatgttttt
+     3661 actgttgatg cagttagaag attccaaaaa agatataatt tagaaataac tggttcattt
+     3721 aagaaaaatg attttgacgt attaaatact gaaattaata aagttaaatt taagaatgtt
+     3781 gtaagtgata gttattatag attattgtat tacagagaag atcaagaact atacggtaaa
+     3841 gatatagaaa atttaaataa tagactaatg aaaatatttc ctaaacttaa actgaataat
+     3901 tattattcag aagatgctga aaatgctgta aaaagatttc aagaattcac taaattaagc
+     3961 gttgacggta ttgtaggacc tgttacttgg gaaaagatat ttagttatga atttactgac
+     4021 ttaactgata taattttcta tgatccgagt gataatgaat ttaaattagt tattaaaatg
+     4081 atacagaata agattaaaga taaccttaat aaatttggta taactgaata ttcaatgcat
+     4141 ggaatatatg atgaaataac atataaaaat attaagaaaa taaaatcact tataggattt
+     4201 aatatctctg gaaatataga tagagaaact tatgagtttt ttgtagattt ataaaaataa
+     4261 ttaaaaggat gattaatatg agtaaagaaa ataaagattt atttgtattc caagaaggat
+     4321 taaatgaaat tacagatgat atggaatttg tagaatctga agaagaaaaa cgtaaacgta
+     4381 agaaaaaaga agaagaaaaa gctaaaagaa aaggagataa taaataatgg caggtacagc
+     4441 tcaatttact gaaataatta ataaccatcg tgctagatta agtactattc tttcaattaa
+     4501 tttaaagagt ggtaataata tacatttaaa ccgaaatatt gaaggtactt tacgtattga
+     4561 aggagaatgt atattatggg aagaaattag atcaggttta agaaactcag atcaattaat
+     4621 tcacatggta tgtgatattg aagaaatctc acatatcagt tatgtagacg gatattctga
+     4681 gaatgataga gaagcggaaa atattcctag agtattaaaa gaagctgttg acaatattgt
+     4741 aaataataat aaagcttaaa aaataaggta atggcatata atttgtcatt acctttatta
+     4801 tactgccaaa atttaaagca atatttaaat atatataata ttaatgaaga tagttagata
+     4861 ttaatattaa agttattatt ttatatagaa taatataaaa tagatcatat gaatacgtat
+     4921 gatcttaatt aaaattttac agtcattacc atataattac agatcatttg aacctaggct
+     4981 ttgacgaagc atagagttca attgatcctc tttattatat tgtatgttta atattatatt
+     5041 taatctatct tcttgaattt tgattattat atgaattata ttttattata aagctatatc
+     5101 ttattaaatt aaggtaatca tatgaatacg tatgatttaa atttatttac tagcaaaata
+     5161 attttcagga aaattatttt cttatttact aattcacccc tctgcaagga aacttttcat
+     5221 aaagcttcct gcggagggaa tttagtcaaa tatgtttgtt tataataaaa taagattttt
+     5281 aacttaaagt ttttctataa ttaatttata gacattatat gaatacgtat aatgattatt
+     5341 tatttactag cagaaataag tcctgatgca tgcagcatct ggaccctttc tctattatat
+     5401 catgtcagct aatcccgctt cctcattgct taggaagccg cttagctgca ttgtatatat
+     5461 ttgttggttt aagttaaaag ttagtttttc gatttaaagt tattctataa ttaatttata
+     5521 gacattatat gaatacgtat aatgtaataa ttatttatgg tcattgccat aaataaatct
+     5581 ccactgttcc aactccttct ttattattaa agaaggagga acaagggata tctatttatc
+     5641 tttgtttaaa tcgaaattat tctctctatt agttattcta taattaattt atagacatta
+     5701 tatggatacg tataatgatt ttagaattat accctattca ttatatttac tctgctttat
+     5761 ttccggtgta atgatttctt cattacactc ccagctggga ccattcttca atcgctcgtt
+     5821 aagacccacg atctcttcat caggtcccag ctaaaataaa gctttaaata taattttagt
+     5881 attagagaag aatatagaat gaattaaatt cattataata atcaaattca ccgttaccta
+     5941 tatgattata ggtaacggta tttattttta attttttata aataggagat gaaatggata
+     6001 atgtttaaat ttaacaatgt agaacgtatc aacttaatag gaaatagaaa aatggattat
+     6061 tttgaattac aagaatcttt atatacttta gaacctaagt ttaaaaagat agtaaagaat
+     6121 gataaaggta attttttatt aatattttca gatggaagaa aagaatatat cagtaataca
+     6181 aatgcggaaa atacgtttag atctaaaatg atggtagtta atagtattga tgattacaat
+     6241 ttatttggta aaaataaaca agaacacagt attgaaataa ataatttaga ctactcttta
+     6301 attcatcatt taagaagctt tatttatgaa gattacaaat ttattattat tactaaaaaa
+     6361 tttagaattt atgaagaaga caaaatattt aatttaataa aattgaaatc aacgacagaa
+     6421 aatgacaaag atatatttaa aattgaaggt attttaaaaa ttaaaaaaga tttgattaat
+     6481 attgaagaat tagaattaat taaggatatt ttaaatgatt gtcgaacttc aaaagaaaga
+     6541 caagaatata tattaaattc attagaactt ttattaaaat ctatagatct aaaaaataaa
+     6601 aatgttaaca catttgatac tttctatata cctaaatcag atggtactaa aagagaaatt
+     6661 aattcacctg tagaagaaat tagacctatt cttaagaaac aagctaacat attaaatgct
+     6721 attttaaatc ttagaattaa taagtataat ttaggtgaaa atattatagc ttatagaaat
+     6781 ggtaaatcaa ttaaagataa tgcagattat cataaagaaa ataaaactat tattaaattt
+     6841 gatattagta aattctttga taattgtcat tttgattatt ggaaagaaaa tcttttcttt
+     6901 agttttaaag atgaagatta tgtaatggaa agatttgaaa aacatatgga aggtctattg
+     6961 tttagaaaaa ataataaagg attatatatg ggtagtccat tatctccggc agcatctaac
+     7021 ttaattatgg ttccagtaat gagatatatt aataatatac taagtaaatt taaaactgat
+     7081 attaaagtta ctgtttatgc agatgatata actttctcaa gcaatgaaat caatgatgaa
+     7141 tttaatccta aaagattaaa aagtatggtt aatcatgctt ttaaagttaa tgggttaaaa
+     7201 tttaaactta aagaagaaaa atcattagtg atgaaaaatc ataaaagaaa aataacagga
+     7261 ctaactgtaa accataatga tgaaccaact attagtcaaa aaagatatag acagttaaga
+     7321 acgattattc atttattaaa taaaggtgta gaatttaaag atattaaagg atttaaaacg
+     7381 ccattagaat tagtatcatt aattaactac tatttagatg ttgatactac tgaaaaagtt
+     7441 aaaagattaa tggacaagaa tgaaagaata tttaatgaat taaagaaaga agctggggtg
+     7501 aattaatatg ttggatataa ataaaagaaa aataacttca gaaagagtca atttaaattt
+     7561 aggactagtt gaagatttac ttgaagaaat gaattttaat attttagacg atgaagaatt
+     7621 tgaattggct attagacaaa tagataatag acatattgta gaatctttta attatttaaa
+     7681 gagtgaaggt ttagatgaat tgttaaaaga tgtactggta aacaataaaa ataatttatt
+     7741 atatagtaca gaaattttaa ttaataatag atttcatgaa tatttgatgt ttgttaagag
+     7801 atataatgaa gataatgaaa aagattctat tattaatgat ttcttaaaga ttaatgaata
+     7861 taacagaatt aaatttagaa tagatctatt taaattctca tataaaaata tattaagtga
+     7921 tatagatata tttttattaa cattattcgg taaagaattt tatcatgaat acagaaagaa
+     7981 atacaataaa agtaatataa atactaataa taaaagttta agagatttaa ttgttaatac
+     8041 ttcagagaat tttagatatt atgaaaaaga atcaagttat accaaagtaa ttgataaaga
+     8101 taaatttgtc aattatttaa atactactat taaaagttat ataattactt tatttagagt
+     8161 ttttgaaaat gaaaatataa ttatggatga aagtttatta tatactttta tatataaaat
+     8221 gaattattct aaaattagaa aattcattta tgatattgat aatggtaata ttgaaataaa
+     8281 agatattcga agagaatata agaaatatct tccagaaaaa atattgattt agaactattg
+     8341 tatatagaag agggtgactt aactgtcact ctcttatttt aatttttttt ctaatttata
+     8401 acaggagcga tgaaaaaatg agtaatgtcc tattaaaaga atatgaaggc aatatagata
+     8461 aattcctatc agataaaaat aaatacaacc aagcaaaaag atatatggta agttacatag
+     8521 aaagaaatac taaacaactt tcttacaata ctcccatata tagaattcct tttaatatgc
+     8581 aagggataga tgttacaact attatgaaat tagttgacat agatcctaga gaaatggaaa
+     8641 gagaaattaa aaaattacca ttgactcgta aatatgctga cgtgctaaaa catccatttt
+     8701 atgttacgat gtctttaata atcagaggaa tcaataagaa attaaaagtt agaaagaatg
+     8761 ataaaaattt aaataacgat ttaagactat ttcttcttta cttgtcatta agtttttact
+     8821 ggtctattca agttaagcaa tttccctatg aacctaatga aaatgttgct cagtatacaa
+     8881 ttaatagatt aagtaataaa ttctttttca agaaatataa aactgtatca acatcaataa
+     8941 ctgtaacagc agagcaaaac aatattaact ctcttagtat actagataaa ggtcaagatg
+     9001 atgatatatt agtatatcta atggatttaa gaacacgttt aaataactta gttaaaaact
+     9061 ttgctagaga actttataaa gatattaatg caggaaatta tctaaatcct catgtagatg
+     9121 tattggatga cgaaagtaat tacagagagg gaactaatat atcaggtaca gtttcaaata
+     9181 tatctcaaaa aacactatct gaatttacac aaaaagatat caatatgaga atattaaaaa
+     9241 tatcttgtag tatgactaac acaaactcta atataatgag aaacactatg agtgatatta
+     9301 gacaaaatga aattaaaagt gttaataatt tattattgaa tatattaaca gtataccttg
+     9361 atggtaaaaa caatcctata cagtctatag gtagtcaaag atttattaga gaatcaattt
+     9421 ctttcttcac taagagtaat actaaagata aaagattatt agaaaataag aaaatactta
+     9481 atgatttttt aactaaatat aatagcaaat ataatcaaac agaaagagaa gctactaaaa
+     9541 atagttatag aaaaacaata tatgtttatt ttgttttact catatcaaat agctactaaa
+     9601 ttgaaaggat tgatattaaa atgagtaaca aaaatgaaga taaaatagaa atgtcggaaa
+     9661 atgttaataa tgaaaaaata aataaaattg gtcagaggat gaaaaaattt aatagaatga
+     9721 tgaatagcaa tagtacatct atcttttcga ttattgcatg tatattgatt gcttcttatt
+     9781 tcatatattc ttttatagat aatgattcaa gacaatctag tgcaccttca gctaatgcag
+     9841 aacaacagta tactactaaa gatgatgaaa aagctatgtt cttaatccaa gaaacaacaa
+     9901 atagtaaaat tagtatgcta tcggaagtag attctataat gtatagagac gatttatcag
+     9961 atgatgaaaa attagatttt ttaaaagata ttaaaatttt aatagaacag aataataaaa
+    10021 actttaatca cgaagttaat gaatttgata cattatctaa agatgccgtt gaagatatta
+    10081 aaaatatgaa taaaataaat gcaataagcg ttaaatatgt tgacgataca attagtttta
+    10141 ataaagttcc taaagacgaa aaatttaaat attctaggga attattccaa aacagttcca
+    10201 actttagaag tattcttgct aatatgaatt atactaatta tgatgatgct caaagaagaa
+    10261 tggaatcaat tgaagaagga agatctgaaa atttaaaaga taaagagagt aatgacaaat
+    10321 aatatgtcat tactctttat ttaccgaatt tttaaatata tattataata gtgtatagaa
+    10381 atataatttc tatatgtaaa taattttatt aggagagtga attggataat ggcaaattta
+    10441 tcagacgcat caggtactat tagtttcgaa ggtttcgaag ggaaagaaaa attcttaaag
+    10501 gaaatgaaaa gattaatagt taaatctttt tcagaaaaag aaactcagta tttcattaat
+    10561 tttcaacatg atattgatga atatgatcaa attattgtta gtgatgaact ggacgaagaa
+    10621 tttaatgcaa taggacgttg gtcttttgga tctagtttag aaagattctt tgatagtatt
+    10681 tccggtgata tagttgaata ctataaacat gaggaaaatt cagaggaatt aattaaagat
+    10741 aatttagatt atattaaaaa taattttgct gaagatgaag acatgtctat tagatttgag
+    10801 tttactgatt atgaacctgg tatgaatttt ctattagaag gatttgtaga agtcagacct
+    10861 ggtgatatcg ttaaagatga gcatggattt attcgttata tggaaactga aacatctagt
+    10921 gattttactg atttagaaat aaatgttgag aatctagtta gcgaacaatt tatggataat
+    10981 gaagacttca ttttaccaga ggatattaat ttcattgatt ctgaatactt gcctgaagaa
+    11041 gatgatttag atattgaagt tgatgaagat cataaaaaga tccgaagaga actattaaga
+    11101 agatacactg aagaaaattc agtattttgt attagcgaaa atagaatggt ggaattaaat
+    11161 taaaaattta ccctaacctt aaattaataa ggttagggtt attaatttat aaaaggagat
+    11221 tataaaaatg aataaaagtg attttaaaga tatattaatg aatattgaaa caaaatttag
+    11281 aattaaatac tttgaagaga attttcttaa ttatatgaat agtttggaat atggtaaaga
+    11341 ttataaaatt aaatcaaaag aatttgatga tcaagaatta ttaaagatta ttaattatat
+    11401 agatgaatac aaaaaatata aatctcttag tgatataaat ttggaaaaat taatttacaa
+    11461 atcaagtaga tctgtatttt catatccata taaagaaata aaaggaaata ttatagactt
+    11521 aaataaaatt gaaatgtata tttctgataa tattaaaaat gatgtaagat tgttattaga
+    11581 gtttaatgat gagaagcata ttgaagaaat taaaaagatt gagaataact acgataaata
+    11641 cagttacctt acacattgga gttttattag tgacgatttt aaagacttaa tgaaaaactt
+    11701 taaaacaatg gatgaatttt tagaattcat taaagataat aaagattatg aaaatttata
+    11761 taattatcta attaaataaa aggagataga tttaaatgac actattagag aatattagta
+    11821 ctaaaccaga aattaacggt tatatggaga aagtttttaa ttatcattta gctaaaatca
+    11881 ttgaaaataa ctatatcgat gatattaaag aatcaactat acaagttata aataaaaatt
+    11941 tagagttaat gtctgataat aaattaaatg aatctagtta tagagatata tttaatgatc
+    12001 cagatactca tacctatgag gaaactaaag agttgtttca taatttcaat aataaagata
+    12061 ataaattcta taaagaaata aataaccaaa tcgatagtaa agtagatgaa attaaaaata
+    12121 ataaatacaa agttatttta gaaagcttta caggatataa tgattttgat tatgaccaaa
+    12181 aatattctat aaataaatct agtattatta atttgtttga tataagttat cttggtgctg
+    12241 atagatttag aagaagaaaa tcaaaaaatt gtaagataaa atttgatcct agtaatttag
+    12301 taactttaat ctttaattac tcagagatat atagtttatc aacatctgat gttgataaaa
+    12361 ttaaaagaga tttctattcg ctttataaag atagagatta cgatgatagt ctaataaaga
+    12421 cttttgaaga tataattcca ttagatagtt atactagaaa taaagcattg tcattatatg
+    12481 gattgaattt agaaaaaata atgtacaatc tagattctga ttctaagaat aaactcatag
+    12541 aggttaacaa cgtaattact agtataatta aatatcaaat gtacgctaaa gataagaata
+    12601 ataggactga taatatgatt agtaaagtta aaaataactc tattatgaga aaacttcaat
+    12661 tagattacga gagtagtaat acagataaat atgagattga attagttcct aaacacctta
+    12721 aaaatttatt tagttaaaag gagacgaata agatatggta aagaaaattg attggaagta
+    12781 cactattgta aaacaatttg tagaggatgt taaagttcct tacactaaat ttttagatag
+    12841 tatttacaat tcttatatta aagaaattgg caataaagat attgaattta taagtagttt
+    12901 taatgataat tatagttatc tattagaaga tgttaatagt ttagatgatt ctaaagactt
+    12961 aatagagatg ttaaattata ttgataatca aaagatagtt aatagtatga cacattctaa
+    13021 tgtccagtta ttaggaagat ttaggaatct atatttccat ataattaata atgatggata
+    13081 caaagatccg gagaaacttt ataatgattt aaaatataaa gatagaaaag ctgaagatgt
+    13141 tttgaaagaa ttggataagt atgaagtatt agatagaata ttatataatg atggaagtaa
+    13201 atatgattat gaagtttata gatctaaaat ttttaccgat aaagatgaca gtaaagtaga
+    13261 attctataaa agatttaatt catttaaaga ttatgatcta cttaaaaact ttatcaaaga
+    13321 tgaatatcta gcaaacgcta tatctatttt atcaaataag gagaagatta cacttaagaa
+    13381 tatggatgta aatatattct taactatcgg taacggatct ttcagatttg atattactaa
+    13441 agaacaaaaa gatttactaa atgagattaa agaaatattc ttatcttatc aatatctatt
+    13501 aaatac
+//

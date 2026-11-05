@@ -1,0 +1,2 @@
+protein_id	accession	start_1based	end_1based	strand	length_aa	full_sequence_evalue	full_sequence_bitscore	domain_independent_evalue	hmmer_reported_zero_evalue	domain_bitscore	hmm_from	hmm_to	hmm_length	hmm_coverage	alignment_from	alignment_to	translation_qc	complete_annotated_cds	profile_coverage_ge_0_6	length_350_900	yxdd_positions_1based	status
+QQM14740.1	MW248466.1	215089	216594	1	501	0.0	1060.7	0.0	True	1060.6	1	500	500	1.0	1	501	exact	True	True	True	366	provisional_profile_hit_requires_context_and_competing_RT_validation

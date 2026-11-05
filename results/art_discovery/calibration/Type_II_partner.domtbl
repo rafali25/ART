@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QQM14741.1           -            274 Type_II_partner      -            274  3.7e-164  541.7  52.5   1   1  4.1e-164  4.1e-164  541.6  52.5     1   274     1   274     1   274 1.00 MW248466.1
+QPI16927.1           -            265 Type_II_partner      -            274   6.3e-56  186.8  35.3   1   1   7.2e-56   7.2e-56  186.6  35.3     1   274     1   264     1   264 0.94 MW218148.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:\MBZUAI\CRISP\results\art_discovery\profiles\Type_II_partner.hmm
+# Target file:     D:\MBZUAI\CRISP\results\art_discovery\calibration\controls.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_discovery\calibration\Type_II_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_discovery\calibration\Type_II_partner.domtbl -E 0.001 --domE 0.001 -Z 2076 --domZ 2076 --seed 42 --cpu 4 D:\MBZUAI\CRISP\results\art_discovery\profiles\Type_II_partner.hmm D:\MBZUAI\CRISP\results\art_discovery\calibration\controls.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Mon Oct 19 17:46:36 2026
+# [ok]

@@ -1,0 +1,271 @@
+{
+  "summary": {
+    "array_id": "MZ422438.1__QXN67955.1__assessed1",
+    "locus_id": "MZ422438.1__QXN67955.1",
+    "accession": "MZ422438.1",
+    "RT_protein_id": "QXN67955.1",
+    "assessment_status": "not_supported_after_locus_correction",
+    "copy_count": 0,
+    "coordinate_stage": "undelimited_seed_chain",
+    "seed_chain_copies": 9,
+    "seed": "ATATTATTAA",
+    "seed_chain_score": 97.01278933946791,
+    "complete_array_score_descriptive": 0.0,
+    "statistical_score_type": "seed_chain_score_tested_against_rediscovered_null_maxima",
+    "max_background_p": 0.02097902097902098,
+    "bonferroni_p": 0.18881118881118883,
+    "testing_family_loci": 9,
+    "paper_style_replication_delimited": false,
+    "initial_mode_pass": false,
+    "initial_copy_count": null,
+    "flags": "repeat_overlaps_CDS;low_complexity_repeat;no_conserved_block_after_MAFFT",
+    "underlying_spacing_nt": null,
+    "inferred_skipped_copy_links": null,
+    "coding_overlap_ids": "QXN67957.1;QXN67958.1;QXN67959.1;QXN67960.1",
+    "intervening_gene_ids": "",
+    "stronger_short_period_score": 19.783226649688828,
+    "repeat_entropies_json": "[0.9709505944546686, 1.0, 1.360964047443681, 1.360964047443681, 1.360964047443681, 1.360964047443681, 1.360964047443681, 1.360964047443681, 1.0]",
+    "ambiguous_array_nt": 0,
+    "ambiguous_upstream_nt": 0,
+    "array_start0": 350,
+    "array_end0": 5901,
+    "array_span_nt": 5551,
+    "source_segments_json": "[{\"source_start0\": 185670, \"source_end0\": 191221, \"orientation\": -1, \"locus_start0\": 350, \"locus_end0\": 5901}]",
+    "seed_intervals0_json": "[[350, 360], [1106, 1116], [2102, 2112], [2600, 2610], [3326, 3336], [3908, 3918], [4619, 4629], [5146, 5156], [5891, 5901]]",
+    "repeat_lengths_nt_json": "[]",
+    "repeat_start_spacings_nt_json": "[]",
+    "spacer_lengths_nt_json": "[]",
+    "local_blocks_3000_diagnostic_tail_fraction": 0.000999000999000999,
+    "local_blocks_6000_p": 0.00999000999000999,
+    "dinucleotide_3000_diagnostic_tail_fraction": 0.000999000999000999,
+    "dinucleotide_6000_p": 0.02097902097902098
+  },
+  "aligned_PWM": {
+    "status": "no_conserved_block_after_MAFFT",
+    "training": {
+      "status": "no_conserved_block_after_MAFFT",
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "D:\\MBZUAI\\CRISP\\.tools\\mafft-win\\mafft.bat",
+        "--auto",
+        "--thread",
+        "1",
+        "--inputorder",
+        "--out",
+        "D:\\MBZUAI\\CRISP\\results\\art_arrays_assessed\\alignments\\MZ422438.1__QXN67955.1__assessed1.training.mafft.fna",
+        "D:\\MBZUAI\\CRISP\\results\\art_arrays_assessed\\alignments\\MZ422438.1__QXN67955.1__assessed1.training.flanks.fna"
+      ]
+    }
+  },
+  "chain": {
+    "score": 97.01278933946791,
+    "seed": "ATATTATTAA",
+    "positions": [
+      350,
+      1106,
+      2102,
+      2600,
+      3326,
+      3908,
+      4619,
+      5146,
+      5891
+    ],
+    "base_spacing": 600.0,
+    "missing_copies": 1,
+    "boundary": {
+      "offset_start": 0,
+      "offset_end": 10,
+      "length_nt": 10,
+      "information_bits": 12.12659866743349,
+      "consensus": "ATATTATTAA",
+      "counts": [
+        [
+          8,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          9
+        ],
+        [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          0,
+          8
+        ],
+        [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          9
+        ],
+        [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          1,
+          0,
+          0
+        ]
+      ],
+      "boundary_at_search_limit": false,
+      "intervals": [
+        [
+          350,
+          360
+        ],
+        [
+          1106,
+          1116
+        ],
+        [
+          2102,
+          2112
+        ],
+        [
+          2600,
+          2610
+        ],
+        [
+          3326,
+          3336
+        ],
+        [
+          3908,
+          3918
+        ],
+        [
+          4619,
+          4629
+        ],
+        [
+          5146,
+          5156
+        ],
+        [
+          5891,
+          5901
+        ]
+      ]
+    },
+    "_p": 0.02097902097902098
+  },
+  "background_tests": {
+    "local_blocks_3000": {
+      "observed_score": 97.01278933946791,
+      "null_max": 81.6211978913752,
+      "shuffles": 1000,
+      "exceedances": 0,
+      "empirical_p": 0.000999000999000999,
+      "exceeds_all_shuffles": true
+    },
+    "local_blocks_6000": {
+      "observed_score": 97.01278933946791,
+      "null_max": 119.97876751964304,
+      "shuffles": 1000,
+      "exceedances": 9,
+      "empirical_p": 0.00999000999000999,
+      "exceeds_all_shuffles": false
+    },
+    "dinucleotide_3000": {
+      "observed_score": 97.01278933946791,
+      "null_max": 82.36128660686072,
+      "shuffles": 1000,
+      "exceedances": 0,
+      "empirical_p": 0.000999000999000999,
+      "exceeds_all_shuffles": true
+    },
+    "dinucleotide_6000": {
+      "observed_score": 97.01278933946791,
+      "null_max": 113.68386592426046,
+      "shuffles": 1000,
+      "exceedances": 20,
+      "empirical_p": 0.02097902097902098,
+      "exceeds_all_shuffles": false
+    }
+  },
+  "short_period": {
+    "score": 19.783226649688828,
+    "copy_count": 3,
+    "positions": [
+      276,
+      303,
+      318
+    ],
+    "base_spacing": 21.0,
+    "seed": "TAGTAATAAT"
+  },
+  "quality": {
+    "flags": [
+      "repeat_overlaps_CDS",
+      "low_complexity_repeat",
+      "no_conserved_block_after_MAFFT"
+    ],
+    "context": {
+      "coding_repeat_gene_ids": [],
+      "intervening_gene_ids": [],
+      "coding_repeat": false,
+      "adjacent_to_RT": true,
+      "array_start0": 350,
+      "array_end0": 5901,
+      "array_span_nt": 5551,
+      "distance_to_RT_nt": 99
+    },
+    "CDS_overlap_ids": [
+      "QXN67957.1",
+      "QXN67958.1",
+      "QXN67959.1",
+      "QXN67960.1"
+    ],
+    "intervening_gene_ids": [],
+    "repeat_entropies": [
+      0.9709505944546686,
+      1.0,
+      1.360964047443681,
+      1.360964047443681,
+      1.360964047443681,
+      1.360964047443681,
+      1.360964047443681,
+      1.360964047443681,
+      1.0
+    ],
+    "array_entropy": 1.8439123036367902,
+    "ambiguous_array_nt": 0,
+    "ambiguous_upstream_nt": 0
+  }
+}

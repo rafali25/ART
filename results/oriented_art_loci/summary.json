@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-19T16:35:10.117909+00:00",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "biopython": "1.88",
+  "command": [
+    "scripts/extract_art_loci.py"
+  ],
+  "loci": 9,
+  "source_records": 8,
+  "reverse_strand_RTs": 3,
+  "full_upstream_flanks": 9,
+  "full_downstream_flanks": 9,
+  "wrapped_loci": 0,
+  "ambiguous_nt": 0,
+  "issues_by_kind": {
+    "no_CDS_annotation": 105,
+    "no_non_source_annotation": 103,
+    "annotation_clipped_by_locus": 30
+  },
+  "RTs_requiring_review": [
+    "QXN67955.1"
+  ],
+  "coordinate_convention": "zero_based_half_open",
+  "gene_calling": "not_used; current candidate CDSs are source annotated",
+  "limitations": [
+    "Extraction preserves the supplied CDS boundaries; it does not resolve missed genes or split RT annotations.",
+    "Annotation-free intervals can contain noncoding arrays; they are not inferred assembly gaps.",
+    "For unannotated contigs, run a viral gene caller and discovery before providing candidate CDSs.",
+    "Circular wrapping requires an explicit circular topology in the authoritative source record."
+  ]
+}

@@ -1,0 +1,10 @@
+fold	heldout_group	protein_id	training_seed_count	training_ids	heldout_recovered	status	negative_proteins_passing
+1	LPJP1_lineage	QXN67953.1	5	WRM43423.1;QDJ97640.1;BDE75684.1;QQO92858.1;UAJ17040.1	True	group_heldout_evaluation	0
+1	LPJP1_lineage	QXN67955.1	5	WRM43423.1;QDJ97640.1;BDE75684.1;QQO92858.1;UAJ17040.1	True	group_heldout_evaluation	0
+2	Staphylococcus_phage_lineage	BDE75684.1	1	QXN67953.1	True	group_heldout_evaluation	1
+2	Staphylococcus_phage_lineage	QDJ97640.1	1	QXN67953.1	True	group_heldout_evaluation	1
+2	Staphylococcus_phage_lineage	QPI16926.1	1	QXN67953.1	True	group_heldout_evaluation	1
+2	Staphylococcus_phage_lineage	QQM14740.1	1	QXN67953.1	True	group_heldout_evaluation	1
+2	Staphylococcus_phage_lineage	QQO92858.1	1	QXN67953.1	True	group_heldout_evaluation	1
+2	Staphylococcus_phage_lineage	UAJ17040.1	1	QXN67953.1	True	group_heldout_evaluation	1
+2	Staphylococcus_phage_lineage	WRM43423.1	1	QXN67953.1	True	group_heldout_evaluation	1

@@ -1,0 +1,29 @@
+#                                                                          --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                      accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------            -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+o1379a0e0a703f7614e  -          typeI_two_LPJP1_queries.aligned -                  0 1278.3  77.3         0 1278.2  77.3   1.0   1   0   0   1   1   1   1 MZ422438.1 six_frame
+tb7d267d790c28cff6a  -          typeI_two_LPJP1_queries.aligned -                  0 1278.3  77.3         0 1278.2  77.3   1.0   1   0   0   1   1   1   1 MZ422438.1 QXN67954.1
+tb9a603ed9e661d7c56  -          typeI_two_LPJP1_queries.aligned -           7.2e-250  827.8  55.3  9.7e-250  827.4  55.3   1.1   1   0   0   1   1   1   1 MZ422438.1 QXN67952.1
+o22daa07b7859182266  -          typeI_two_LPJP1_queries.aligned -           8.9e-250  827.5  55.8  1.2e-249  827.1  55.8   1.1   1   0   0   1   1   1   1 MZ422438.1 six_frame
+o7e4d159c2219858867  -          typeI_two_LPJP1_queries.aligned -            7.2e-89  295.7  40.9   6.2e-87  289.3  33.3   2.5   1   1   1   2   2   1   1 SRR8925777_19723 six_frame
+t294a713c707948c7d7  -          typeI_two_LPJP1_queries.aligned -            9.5e-89  295.3  41.4   6.6e-87  289.2  33.5   2.4   1   1   1   2   2   1   1 SRR8925777_19723 SRR8925777_19723_pgv10
+t313ae852fb37fab6f6  -          typeI_two_LPJP1_queries.aligned -            3.1e-82  273.8  14.9   5.7e-82  272.9  13.5   1.9   1   1   0   1   1   1   1 ERR8055547_17635 ERR8055547_17635_pgv13
+o5568f9b432c37b23bc  -          typeI_two_LPJP1_queries.aligned -            3.2e-82  273.7  14.9   5.9e-82  272.8  13.5   1.9   1   1   0   1   1   1   1 ERR8055547_17635 six_frame
+t4768d82136af6821e1  -          typeI_two_LPJP1_queries.aligned -            2.7e-78  260.7  29.9   2.7e-78  260.7  29.9   2.6   2   1   0   2   2   1   1 ERR10896470_6836 ERR10896470_6836_pgv2
+o9209565c37bd70a3dc  -          typeI_two_LPJP1_queries.aligned -            2.7e-78  260.7  29.9   2.7e-78  260.7  29.9   2.6   2   1   0   2   2   1   1 ERR10896470_6836 six_frame
+o1751ac05fe12a96288  -          typeI_two_LPJP1_queries.aligned -            4.1e-78  260.1  27.8   4.1e-78  260.1  27.8   2.5   1   1   0   2   2   1   1 SRR26805139_340 six_frame
+t2df16249c221583d8d  -          typeI_two_LPJP1_queries.aligned -              5e-78  259.8  28.1     5e-78  259.8  28.1   2.5   1   1   0   2   2   1   1 SRR26805139_340 SRR26805139_340_pgv2
+t20d3930348d48ea9c1  -          typeI_two_LPJP1_queries.aligned -            3.2e-38  128.3  38.4   3.2e-38  128.3  38.4   2.0   1   1   1   2   2   1   1 ERR10896470_6836 ERR10896470_6836_pgv4
+o1a0c7bfd9dc8da7916  -          typeI_two_LPJP1_queries.aligned -            3.9e-38  128.0  38.5   3.9e-38  128.0  38.5   2.1   1   1   1   2   2   1   1 ERR10896470_6836 six_frame
+t4261b188891c35c54f  -          typeI_two_LPJP1_queries.aligned -            8.9e-37  123.5  42.0   8.9e-37  123.5  42.0   2.0   1   1   1   2   2   1   1 SRR26805139_340 SRR26805139_340_pgv4
+o77fe97fc9b71d1493c  -          typeI_two_LPJP1_queries.aligned -            1.1e-36  123.1  42.2   1.1e-36  123.1  42.2   2.0   1   1   1   2   2   1   1 SRR26805139_340 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_public\searches\TypeI_two_seed.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_public\searches\TypeI_two_seed.domtbl -E 0.001 --domE 0.001 -Z 2063 --domZ 2063 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 18:12:15 2026
+# [ok]

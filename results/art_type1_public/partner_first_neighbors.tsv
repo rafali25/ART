@@ -1,0 +1,21 @@
+partner_key	upstream_rank	protein_key	gene_key	accession	protein_id	start0	end0	strand	length_aa	genetic_code	translation_qc	source_parts_json	annotation_method	role	same_orientation	RT_profile_match
+t20d3930348d48ea9c1	1	tde1da42451975e598f	tde1da42451975e598f	ERR10896470_6836	ERR10896470_6836_pgv3	5198	7019	1	606	11	complete_translation_matches	[[5198, 7019, 1]]	pyrodigal_gv	public_archive_lead	True	False
+t20d3930348d48ea9c1	2	t4768d82136af6821e1	t4768d82136af6821e1	ERR10896470_6836	ERR10896470_6836_pgv2	2036	4595	1	852	11	complete_translation_matches	[[2036, 4595, 1]]	pyrodigal_gv	public_archive_lead	True	False
+t20d3930348d48ea9c1	3	t48b6401d368e9f6469	t48b6401d368e9f6469	ERR10896470_6836	ERR10896470_6836_pgv1	232	2056	1	607	11	complete_translation_matches	[[232, 2056, 1]]	pyrodigal_gv	public_archive_lead	True	True
+t294a713c707948c7d7	1	t4836b78201ce4ba3df	t4836b78201ce4ba3df	SRR8925777_19723	SRR8925777_19723_pgv9	14936	16445	1	502	11	complete_translation_matches	[[14936, 16445, 1]]	pyrodigal_gv	public_archive_lead	True	True
+t294a713c707948c7d7	2	td887a3e9f444e39047	td887a3e9f444e39047	SRR8925777_19723	SRR8925777_19723_pgv8	13211	13526	1	104	11	complete_translation_matches	[[13211, 13526, 1]]	pyrodigal_gv	public_archive_lead	True	False
+t294a713c707948c7d7	3	t30fe2f26dcc90dc4b0	t30fe2f26dcc90dc4b0	SRR8925777_19723	SRR8925777_19723_pgv7	13020	13212	1	63	11	complete_translation_matches	[[13020, 13212, 1]]	pyrodigal_gv	public_archive_lead	True	False
+t2df16249c221583d8d	1	tea44680805bcfb3f26	tea44680805bcfb3f26	SRR26805139_340	SRR26805139_340_pgv1	233	2057	1	607	11	complete_translation_matches	[[233, 2057, 1]]	pyrodigal_gv	public_archive_lead	True	True
+t313ae852fb37fab6f6	1	t696dfff47565d77d52	t696dfff47565d77d52	ERR8055547_17635	ERR8055547_17635_pgv12	19742	21563	1	606	11	complete_translation_matches	[[19742, 21563, 1]]	pyrodigal_gv	public_archive_lead	True	True
+t313ae852fb37fab6f6	2	t75e50e9f5d0f30eab0	t75e50e9f5d0f30eab0	ERR8055547_17635	ERR8055547_17635_pgv11	18626	18773	-1	48	11	complete_translation_matches	[[18626, 18773, -1]]	pyrodigal_gv	public_archive_lead	False	False
+t313ae852fb37fab6f6	3	t077f45e3fde972ad75	t077f45e3fde972ad75	ERR8055547_17635	ERR8055547_17635_pgv10	16731	17505	1	257	11	complete_translation_matches	[[16731, 17505, 1]]	pyrodigal_gv	public_archive_lead	True	False
+t4261b188891c35c54f	1	t199a4616cf3c919019	t199a4616cf3c919019	SRR26805139_340	SRR26805139_340_pgv3	5193	7014	1	606	11	complete_translation_matches	[[5193, 7014, 1]]	pyrodigal_gv	public_archive_lead	True	False
+t4261b188891c35c54f	2	t2df16249c221583d8d	t2df16249c221583d8d	SRR26805139_340	SRR26805139_340_pgv2	2037	4590	1	850	11	complete_translation_matches	[[2037, 4590, 1]]	pyrodigal_gv	public_archive_lead	True	False
+t4261b188891c35c54f	3	tea44680805bcfb3f26	tea44680805bcfb3f26	SRR26805139_340	SRR26805139_340_pgv1	233	2057	1	607	11	complete_translation_matches	[[233, 2057, 1]]	pyrodigal_gv	public_archive_lead	True	True
+t4768d82136af6821e1	1	t48b6401d368e9f6469	t48b6401d368e9f6469	ERR10896470_6836	ERR10896470_6836_pgv1	232	2056	1	607	11	complete_translation_matches	[[232, 2056, 1]]	pyrodigal_gv	public_archive_lead	True	True
+tb7d267d790c28cff6a	1	tfa8f53ac19ebdbc840	tfa8f53ac19ebdbc840	MZ422438.1	QXN67955.1	184041	185571	-1	509	11	complete_translation_matches	[[184041, 185571, -1]]	source_original	LPJP1_control	True	True
+tb7d267d790c28cff6a	2	td17266eafbd4ca1ca1	td17266eafbd4ca1ca1	MZ422438.1	QXN67956.1	185742	186273	-1	176	11	complete_translation_matches	[[185742, 186273, -1]]	source_original	LPJP1_control	True	False
+tb7d267d790c28cff6a	3	t4873806daf65077c54	t4873806daf65077c54	MZ422438.1	QXN67957.1	186297	186516	-1	72	11	complete_translation_matches	[[186297, 186516, -1]]	source_original	LPJP1_control	True	False
+tb9a603ed9e661d7c56	1	t882a89f74d10b13531	t882a89f74d10b13531	MZ422438.1	QXN67953.1	179429	180794	-1	454	11	complete_translation_matches	[[179429, 180794, -1]]	source_original	LPJP1_control	True	True
+tb9a603ed9e661d7c56	2	tb7d267d790c28cff6a	tb7d267d790c28cff6a	MZ422438.1	QXN67954.1	182001	183987	-1	661	11	complete_translation_matches	[[182001, 183987, -1]]	source_original	LPJP1_control	True	False
+tb9a603ed9e661d7c56	3	tfa8f53ac19ebdbc840	tfa8f53ac19ebdbc840	MZ422438.1	QXN67955.1	184041	185571	-1	509	11	complete_translation_matches	[[184041, 185571, -1]]	source_original	LPJP1_control	True	True

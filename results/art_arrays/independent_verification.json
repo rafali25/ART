@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "sequence_rows_verified": {
+    "repeats.tsv": 12,
+    "spacers.tsv": 9,
+    "initial_repeats.tsv": 35,
+    "initial_spacers.tsv": 28,
+    "complete_array_tracts": 10
+  },
+  "independent_null_groups_replayed": 30,
+  "all_original_contig_sequences_verified": true,
+  "all_original_annotations_retained": true,
+  "all_reported_null_maxima_verified": true,
+  "all_loci_extended_searched": true,
+  "spacer_formula_verified": true
+}

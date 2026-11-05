@@ -1,0 +1,105 @@
+{
+  "software": {
+    "diamond": {
+      "url": "https://github.com/bbuchfink/diamond/releases/download/v2.1.15/diamond-windows.zip",
+      "file": ".tools\\art-reconstruction\\diamond.zip",
+      "sha256": "2709f5dff3ba60aee7c7a354f44b83b7c0fe48658f8db49eae91ee07d39468d9"
+    },
+    "mmseqs": {
+      "url": "https://github.com/soedinglab/MMseqs2/releases/download/17-b804f/mmseqs-win64.zip",
+      "file": ".tools\\art-reconstruction\\mmseqs.zip",
+      "sha256": "1bd83f70bb2cf9bea188511eb75ab716a2ab47b7be6c2601050f65b3224955b7"
+    },
+    "famsa": {
+      "url": "https://github.com/refresh-bio/FAMSA/releases/download/v2.5.2/famsa-v2.5.2-x64_windows.tar.gz",
+      "file": ".tools\\art-reconstruction\\famsa.tar.gz",
+      "sha256": "755824deaff9958afed99ee3cfcac457f56b74b13866a6856d94707206442582"
+    },
+    "fasttree": {
+      "url": "https://raw.githubusercontent.com/morgannprice/fasttree/a780aa4f6a18791ea76c04afaf37aafe43e51d59/FastTree.c",
+      "file": ".tools\\art-reconstruction\\FastTree.c",
+      "sha256": "975202a6b74c9996af871404ff043bb2152edcbda539035662514bc12d1f3431",
+      "commit": "a780aa4f6a18791ea76c04afaf37aafe43e51d59"
+    },
+    "RVT_1": {
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00078/?annotation=hmm",
+      "file": ".tools\\art-reconstruction\\PF00078.hmm.gz",
+      "sha256": "0330d3d1b331e225a14b0eb3e085259a9d6553f6df4952bdc6e68ef90aa82563"
+    },
+    "binaries": {
+      "diamond": ".tools\\art-reconstruction\\diamond\\diamond.exe",
+      "mmseqs": ".tools\\art-reconstruction\\mmseqs\\mmseqs\\mmseqs.bat",
+      "famsa": ".tools\\art-reconstruction\\famsa\\famsa.exe",
+      "fasttree": ".tools\\art-reconstruction\\FastTree.exe",
+      "RVT_1": ".tools\\art-reconstruction\\PF00078.hmm"
+    },
+    "binary_sha256": {
+      "diamond": "74e51d757dda2b6e3348934546ee846cf90ad29b3759fa265ef0d7a213832032",
+      "mmseqs": "fc59b4e946be1dd9e051da3cf2f981ee6330f5dda479142dc2208764546e0dd5",
+      "famsa": "df47cf4dad1228f603773916643d24acf8d389ca0e72218f2bb9447b61b4528d",
+      "fasttree": "c7da63ec9068c5b941d03abff4960d611570c46f880986117308218bac18a5de",
+      "RVT_1": "b91872fbf0a5cd011c04a0f05b3a4b96e61aa43f01b0fa99156745ffcf508b81"
+    },
+    "versions": {
+      "DIAMOND": "2.1.15",
+      "MMseqs2": "17-b804f",
+      "FAMSA": "2.5.2",
+      "FastTree_source_commit": "a780aa4f6a18791ea76c04afaf37aafe43e51d59",
+      "Pfam_RVT_1": "PF00078.33"
+    }
+  },
+  "candidate_sequence_sha256": "460af8b3cabe90a7eeb719a70fd3611d017bc99a5ade4618d5d0b736c31298ff",
+  "myRT_reference_sha256": "32c0e42f19906a88a8497b7b9b1e6d45f1744d34c464fd940c8448ff7939fa38",
+  "config": {
+    "output": "results/art_expansion",
+    "threads": 4,
+    "maximum_pilot_records": 3,
+    "maximum_pilot_download_bytes": 20000000,
+    "retrieval_evalue": 0.001,
+    "sequence_evalue": 1e-05,
+    "domain_evalue": 1e-05,
+    "minimum_ART_profile_coverage": 0.6,
+    "hmm_database_size": "actual_protein_count",
+    "calibration_reference_database_size": 2076,
+    "stage1_records": [
+      {
+        "accession": "MW349128.1",
+        "name": "Staphylococcus phage Machias",
+        "selection_role": "near-relative positive challenge",
+        "source": "ENA"
+      },
+      {
+        "accession": "KU878088.1",
+        "name": "Bacillus phage AR9",
+        "selection_role": "related jumbo-phage genomic comparison, not a verified NART reference",
+        "source": "ENA"
+      },
+      {
+        "accession": "NC_016163.1",
+        "name": "Yersinia phage phiR1-37",
+        "selection_role": "jumbo-phage genomic comparison",
+        "source": "NCBI"
+      }
+    ],
+    "stage2_assembly_manifest": "config/art_stage2_assemblies.tsv",
+    "stage2_maximum_records": 10,
+    "stage3_enabled": false,
+    "stage3_assembly_manifest": "",
+    "stage3_maximum_records": 0,
+    "stage3_requires": [
+      "validation_gate_passed",
+      "stage1_cost_and_yield_measured",
+      "stage2_cost_and_yield_measured",
+      "explicit_collection_manifest_and_budget"
+    ],
+    "array_mode": "exploratory_until_validation_complete",
+    "include_baseline_for_reconstruction": true,
+    "domain_reference_limit_per_class": 12,
+    "domain_reference_identity": 0.5,
+    "domain_reference_mutual_coverage": 0.8,
+    "domain_flank_aa": 40,
+    "domain_alignment_occupancy_trim": 0.5,
+    "sequence_placement_rule": "nearest labelled reference distances; descriptive affinity only, ART_vs_NART_unresolved_without_NART_references"
+  },
+  "architecture_used_only_for_separate_replication_clade": true
+}

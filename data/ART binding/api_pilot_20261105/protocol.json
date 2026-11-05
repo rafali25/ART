@@ -1,0 +1,74 @@
+{
+  "provider": "NVIDIA_hosted_Boltz2",
+  "endpoint": "https://health.api.nvidia.com/v1/biology/mit/boltz2/predict",
+  "host": "cn-06",
+  "slurm_job_id": "373580",
+  "cells": [
+    {
+      "cell_id": "S_r1_p1",
+      "condition": "S",
+      "RT_sample_id": "ARTS0016",
+      "partner_sample_id": "ARTS0016",
+      "native_pair": true,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/S_r1_p1.yaml",
+      "input_sha256": "c7eb8713283a99016268a210dee18b69944155f417333a619fd7df29c45f28ee",
+      "RT_length_aa": 501,
+      "partner_length_aa": 265
+    },
+    {
+      "cell_id": "S_r1_p2",
+      "condition": "S",
+      "RT_sample_id": "ARTS0016",
+      "partner_sample_id": "ARTS0017",
+      "native_pair": false,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/S_r1_p2.yaml",
+      "input_sha256": "1d77ecbb431ff5c74cec09c758c0211cd4021713447d5f48711183adcbf082ce",
+      "RT_length_aa": 501,
+      "partner_length_aa": 274
+    },
+    {
+      "cell_id": "S_r2_p1",
+      "condition": "S",
+      "RT_sample_id": "ARTS0017",
+      "partner_sample_id": "ARTS0016",
+      "native_pair": false,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/S_r2_p1.yaml",
+      "input_sha256": "00d8990c09ac84dbd9f42d991d47d74f1d25f82a0a00f4683f650b3bf9a3a9f8",
+      "RT_length_aa": 501,
+      "partner_length_aa": 265
+    },
+    {
+      "cell_id": "S_r2_p2",
+      "condition": "S",
+      "RT_sample_id": "ARTS0017",
+      "partner_sample_id": "ARTS0017",
+      "native_pair": true,
+      "seed": 20261105,
+      "input_path": "data/ART binding/pilot_20261105/inputs/S_r2_p2.yaml",
+      "input_sha256": "fc864e6580f7a528864848ecd8768c78f714986ccb0ba2b87bea221a1e555c20",
+      "RT_length_aa": 501,
+      "partner_length_aa": 274
+    }
+  ],
+  "condition": "explicit_query_only_MSA",
+  "purpose": "remote_development_pilot",
+  "cost_checks": false,
+  "credential_logged": false,
+  "sampling_steps": 200,
+  "recycling_steps": 3,
+  "diffusion_samples": 1,
+  "step_scale": 1.5,
+  "parallel_requests": 2,
+  "no_templates": true,
+  "no_restraints": true,
+  "no_affinity_module": true,
+  "limitations": [
+    "NVIDIA endpoint does not expose a seed parameter: samples are not registered fixed-seed replicates.",
+    "Remote processed features and exact checkpoint hash are not inspectable; outputs remain exploratory.",
+    "Strict block-diagonal unpaired U adapter cannot be verified remotely; U is not submitted as equivalent.",
+    "Keep hosted outputs separate from local GPU/CPU outputs and calibrate the chosen backend before inference."
+  ]
+}

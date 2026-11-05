@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+t6c8b1c2a34087c71d0  -          RVT_1                PF00078.33     3e-34  115.3   5.2   1.7e-23   80.2   0.1   3.1   3   0   0   3   3   2   2 MGYC003966598318 MGYC003966598318_pgv148
+o18e8e7392f8842a02f  -          RVT_1                PF00078.33   4.8e-34  114.7   5.2   2.2e-23   79.9   0.1   3.1   3   0   0   3   3   2   2 MGYC003966598318 six_frame
+ta8138bbfc54220f5ff  -          RVT_1                PF00078.33     5e-26   88.5   0.1   7.7e-26   87.9   0.1   1.3   1   0   0   1   1   1   1 MGYC003966598318 MGYC003966598318_pgv73
+o5782663da33dba7d42  -          RVT_1                PF00078.33   5.1e-26   88.5   0.1     8e-26   87.8   0.1   1.3   1   0   0   1   1   1   1 MGYC003966598318 six_frame
+te894c67befc852adc2  -          RVT_1                PF00078.33   1.2e-14   51.4   1.8   8.7e-12   42.0   0.3   2.8   3   0   0   3   3   1   1 MGYC003966598318 MGYC003966598318_pgv56
+o1382e2814e3bb7ff4f  -          RVT_1                PF00078.33   1.4e-14   51.1   1.8   9.7e-12   41.9   0.3   2.8   3   0   0   3   3   1   1 MGYC003966598318 six_frame
+t5958cb5aa00066a91a  -          RVT_1                PF00078.33   3.9e-14   49.7   1.1   2.3e-13   47.1   1.1   2.3   1   1   0   1   1   1   1 MGYC003966598318 MGYC003966598318_pgv45
+o8bed33e679d8257bf1  -          RVT_1                PF00078.33   4.2e-14   49.5   1.1   2.5e-13   47.1   1.1   2.2   1   1   0   1   1   1   1 MGYC003966598318 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/RVT_1.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/RVT_1.domtbl -E 0.001 --domE 0.001 -Z 1729 --domZ 1729 --seed 42 --cpu 2 /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:19:37 2026
+# [ok]

@@ -1,0 +1,53 @@
+[
+  {
+    "protein_accession": "MGYP010182298134",
+    "contig_accession": "MGYC001898389771",
+    "assembly": "ERZ18698263",
+    "analysis": "MGYA00793405",
+    "metadata_source": "results/art_sample_expansion_20261104/deferred_acquisition/MGYP010182298134.response",
+    "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00793405/contigs/ERZ18698263.1656-NODE-1656-length-16365-cov-8.550889",
+    "retrieved_utc": "2026-11-04T11:12:01.362937+00:00",
+    "status": 200,
+    "bytes": 16419,
+    "headers": {
+      "Server": "nginx/1.16.1",
+      "Vary": "Accept, Origin, Cookie",
+      "Content-Type": "text/x-fasta",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Wed, 04 Nov 2026 11:12:01 GMT",
+      "X-XSS-Protection": "1; mode=block",
+      "ETag": "\"afbac04d31677d14eabcad14db520525\"",
+      "X-Content-Type-Options": "nosniff",
+      "Content-Disposition": "attachment; filename=ERZ18698263.1656-NODE-1656-length-16365-cov-8.550889.fasta",
+      "Connection": "close",
+      "Allow": "GET, HEAD, OPTIONS",
+      "X-Frame-Options": "SAMEORIGIN",
+      "Referrer-Policy": "same-origin",
+      "Content-Length": "16419"
+    },
+    "sha256": "8e0d9b04b3c4c6bb30e28f92d6349d00f0ca354c368352a18979cebf5a3f2399",
+    "returned_sequence_id": "ERZ18698263.1656-NODE-1656-length-16365-cov-8.550889",
+    "length_nt": 16365,
+    "sequence_sha256": "286be24b082732583a494f26a296a0847a1a06d747956cbe4122bb0a55252a35",
+    "exact_translation_mappings": [
+      {
+        "start0": 0,
+        "end0": 1536,
+        "strand": 1,
+        "genetic_code": 11,
+        "initiator_normalized": false
+      }
+    ],
+    "mapping_status": "exact_translated_mapping"
+  },
+  {
+    "protein_accession": "MGYP001235072058",
+    "contig_accession": "MGYC000372146758",
+    "assembly": "ERZ795061",
+    "analysis": "MGYA00375145",
+    "metadata_source": "results/art_sample_expansion_20261104/deferred_acquisition/MGYP001235072058.response",
+    "url": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375145/contigs/ERZ795061.117970-NODE-117970-length-1370-cov-3.552091",
+    "retrieved_utc": "2026-11-04T11:11:17.543303+00:00",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+]

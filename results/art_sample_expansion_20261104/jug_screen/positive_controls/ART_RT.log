@@ -1,0 +1,77 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/ART_RT.seeds.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/ART_RT.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/ART_RT.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    69120
+# domain search space set to:      69120
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ART_RT  [M=500]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+     9e-295  980.1  55.9     1e-294  980.0  55.9    1.0  1  QDJ97640.1  MN091626.1
+   1.8e-293  975.8  62.5     2e-293  975.7  62.5    1.0  1  BDE75684.1  LC680885.1
+   6.2e-292  970.8  57.1   6.9e-292  970.6  57.1    1.0  1  UAJ17040.1  MZ779063.1
+   1.2e-288  959.9  64.8   1.4e-288  959.7  64.8    1.0  1  QQO92858.1  MW349129.1
+   1.3e-287  956.5  65.5   1.5e-287  956.3  65.5    1.0  1  WRM43423.1  OR836606.1
+   3.3e-182  608.8  64.1   1.4e-179  600.2  64.1    2.0  1  QXN67953.1  MZ422438.1
+
+
+Domain annotation for each sequence:
+>> QDJ97640.1  MN091626.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  980.0  55.9    1e-294    1e-294       1     500 []       1     500 []       1     500 [] 1.00
+
+>> BDE75684.1  LC680885.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  975.7  62.5    2e-293    2e-293       1     500 []       1     500 []       1     500 [] 1.00
+
+>> UAJ17040.1  MZ779063.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  970.6  57.1  6.9e-292  6.9e-292       1     500 []       1     500 []       1     500 [] 1.00
+
+>> QQO92858.1  MW349129.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  959.7  64.8  1.4e-288  1.4e-288       1     500 []       1     501 []       1     501 [] 1.00
+
+>> WRM43423.1  OR836606.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  956.3  65.5  1.5e-287  1.5e-287       1     500 []       1     500 []       1     500 [] 1.00
+
+>> QXN67953.1  MZ422438.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  600.2  64.1  1.4e-179  1.4e-179      23     499 ..       8     453 ..       2     454 .] 0.99
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (500 nodes)
+Target sequences:                          6  (2955 residues searched)
+Passed MSV filter:                         6  (1); expected 0.1 (0.02)
+Passed bias filter:                        6  (1); expected 0.1 (0.02)
+Passed Vit filter:                         6  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         6  (1); expected 0.0 (1e-05)
+Initial search space (Z):              69120  [as set by --Z on cmdline]
+Domain search space  (domZ):           69120  [as set by --domZ on cmdline]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 54.58
+//
+[ok]

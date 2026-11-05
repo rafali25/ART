@@ -1,0 +1,35 @@
+{
+  "locus_id": "SRR5644066_1035__SRR5644066_1035_pgv1",
+  "upstream_sequence": "TTTTGTACCCCGAGTATCTTGGGTCAATTTATTAATCCTTACCCAATATGGAGCGTGTTATCCCAGCTAGCGTTGCGTCTTCATAAATATACGACTCCGCATAGCTGGATTACATTCTCTATCGGCTTGATGAAGTCCTTTTAAATAAGCTCTTGGCACTAAATATTTAGAACTATGTTAGTAGACATAGTTCTAAACTAGGGCTTATTTTTTTGCATTTTAGAGATTTATAAGTATATATTATAATGATGCTGAGAGTAGTGCCCTTAGCAATAATAAAATTTATAAGGAGAACATTATT",
+  "upstream_offset0": 0,
+  "initial": {
+    "R": 1,
+    "positions": [
+      277
+    ],
+    "seed": "AAAATTTATAAGGA",
+    "dense_run": 1,
+    "code": 1035304,
+    "exact_seed_count": 1,
+    "base_spacing": null,
+    "dense_veto": false,
+    "maximum_dense_run_any_seed": 1,
+    "seeds_tested": 20
+  },
+  "extended": {
+    "score": 0.0,
+    "candidates": [],
+    "seeds_tested": 0
+  },
+  "model": {},
+  "repeats": [],
+  "spacers": [],
+  "quality": {
+    "flags": [
+      "incomplete_6000nt_upstream",
+      "extracted_locus_reaches_contig_boundary"
+    ]
+  },
+  "statistical_score": "extended_seed_discovery_best_chain_score",
+  "array_status": "incomplete_upstream_assessment"
+}

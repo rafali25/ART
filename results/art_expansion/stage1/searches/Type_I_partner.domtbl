@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+g700b5499f0316ed0    -            481 Type_I_partner       -            481         0 1122.3  55.2   1   1         0         0 1122.1  55.2     1   481     1   481     1   481 1.00 MZ422438.1 QXN67952.1
+g96f0d64062d845f1    -            661 Type_I_partner       -            481   2.1e-40  136.1  34.7   1   1   2.1e-40   2.1e-40  136.1  34.7   113   401   191   469   112   542 0.78 MZ422438.1 QXN67954.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\Type_I_partner.tbl --domtblout D:\MBZUAI\CRISP\results\art_expansion\stage1\searches\Type_I_partner.domtbl -E 0.001 --domE 0.001 -Z 2997 --domZ 2997 --seed 42 --cpu 4 D:/MBZUAI/CRISP/results/art_discovery/profiles/Type_I_partner.hmm D:/MBZUAI/CRISP/results/art_expansion/stage1/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 12:43:38 2026
+# [ok]

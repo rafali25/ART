@@ -1,0 +1,14 @@
+{
+  "request": {
+    "url": "https://www.ebi.ac.uk/metagenomics/api/v2/assemblies/ERZ21659606/analyses?page_size=100",
+    "payload": null,
+    "form": false,
+    "method": "GET"
+  },
+  "status": 200,
+  "error": null,
+  "response_sha256": "76b4e8c8ab75e865183f11811677a1fe36ceed10dd7adebf4e3fdaef05c7b7e9",
+  "bytes": 421,
+  "time_utc": "2026-10-20T20:11:23.613961+00:00",
+  "elapsed_seconds": 0.5796
+}

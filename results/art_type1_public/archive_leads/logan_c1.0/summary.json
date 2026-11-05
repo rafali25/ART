@@ -1,0 +1,60 @@
+{
+  "archive_doi": "10.5281/zenodo.23086637",
+  "archive_sha256": "209cc85515f320400104f73889bf584364b4d1da4e0061c369e2471d980f9541",
+  "archived_protein_leads": 89,
+  "GNAT_controls": 5,
+  "panel_requested": 4,
+  "exact_mapped_contigs": 4,
+  "compressed_bytes": 30000000,
+  "status": "external_leads_require_independent_family_and_locus_assessment",
+  "mappings": [
+    {
+      "contig_id": "SRR26805139_816",
+      "archive_member": "sequences/d13_partners/L1_SRR26805139_SRR26805139_816_2_partner.faa",
+      "archive_sha256": "209cc85515f320400104f73889bf584364b4d1da4e0061c369e2471d980f9541",
+      "archive_doi": "10.5281/zenodo.23086637",
+      "lead_protein_id": "L1_SRR26805139_SRR26805139_816_2_partner",
+      "lead_protein_sha256": "32e161cc391af5b865bb0d0ac0c3964ca53c5c57664ae75a277c792dea91adad",
+      "coordinates_json": "[{\"start0\": 461, \"end0\": 3011, \"strand\": -1, \"genetic_code\": 11, \"initiator_normalized\": false}]",
+      "status": "exact_translated_mapping",
+      "source_url": "https://s3.amazonaws.com/logan-pub/c1.0/SRR26805139/SRR26805139.contigs.fa.zst",
+      "bytes": 5000000
+    },
+    {
+      "contig_id": "ERR10896470_6887",
+      "archive_member": "sequences/d13_partners/L1_ERR10896470_ERR10896470_6887_1_partner.faa",
+      "archive_sha256": "209cc85515f320400104f73889bf584364b4d1da4e0061c369e2471d980f9541",
+      "archive_doi": "10.5281/zenodo.23086637",
+      "lead_protein_id": "L1_ERR10896470_ERR10896470_6887_1_partner",
+      "lead_protein_sha256": "07d1b0627f621a9ffaa12b995b2ea8bbba885d6c177217edf1086813ab3e8478",
+      "coordinates_json": "[{\"start0\": 2036, \"end0\": 4592, \"strand\": 1, \"genetic_code\": 11, \"initiator_normalized\": false}]",
+      "status": "exact_translated_mapping",
+      "source_url": "https://s3.amazonaws.com/logan-pub/c1.0/ERR10896470/ERR10896470.contigs.fa.zst",
+      "bytes": 10000000
+    },
+    {
+      "contig_id": "ERR8055547_17666",
+      "archive_member": "sequences/d13_partners/ART_34_ERR8055547_17666_12_partner.faa",
+      "archive_sha256": "209cc85515f320400104f73889bf584364b4d1da4e0061c369e2471d980f9541",
+      "archive_doi": "10.5281/zenodo.23086637",
+      "lead_protein_id": "ART_34_ERR8055547_17666_12_partner",
+      "lead_protein_sha256": "1570f518742582163ba51879819a3d41344cb01d8c57d012f214a1f056c9d690",
+      "coordinates_json": "[{\"start0\": 21564, \"end0\": 24234, \"strand\": 1, \"genetic_code\": 11, \"initiator_normalized\": false}]",
+      "status": "exact_translated_mapping",
+      "source_url": "https://s3.amazonaws.com/logan-pub/c1.0/ERR8055547/ERR8055547.contigs.fa.zst",
+      "bytes": 10000000
+    },
+    {
+      "contig_id": "SRR8925777_19762",
+      "archive_member": "sequences/d13_partners/ART_69_SRR8925777_19762_9_partner.faa",
+      "archive_sha256": "209cc85515f320400104f73889bf584364b4d1da4e0061c369e2471d980f9541",
+      "archive_doi": "10.5281/zenodo.23086637",
+      "lead_protein_id": "ART_69_SRR8925777_19762_9_partner",
+      "lead_protein_sha256": "eef0b618ea607a8df9ce4f89fb9be0993655dae7f64d23766a25b2be8ea6239a",
+      "coordinates_json": "[{\"start0\": 16466, \"end0\": 18248, \"strand\": 1, \"genetic_code\": 11, \"initiator_normalized\": false}]",
+      "status": "exact_translated_mapping",
+      "source_url": "https://s3.amazonaws.com/logan-pub/c1.0/SRR8925777/SRR8925777.contigs.fa.zst",
+      "bytes": 5000000
+    }
+  ]
+}

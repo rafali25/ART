@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+td75f000799c5c5a92c  -          RVT_1                PF00078.33   2.5e-18   62.0   1.8   5.6e-18   60.9   1.0   2.0   2   0   0   2   2   1   1 SRR7532897_75 SRR7532897_75_pgv1
+ocd0996ee3cb6c3735e  -          RVT_1                PF00078.33   2.6e-18   62.0   1.8   5.8e-18   60.8   1.0   2.0   2   0   0   2   2   1   1 SRR7532897_75 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/proteins.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/searches/RVT_1.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/searches/RVT_1.domtbl -E 0.001 --domE 0.001 -Z 676 --domZ 676 --seed 42 --cpu 2 /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/proteins.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:18:51 2026
+# [ok]

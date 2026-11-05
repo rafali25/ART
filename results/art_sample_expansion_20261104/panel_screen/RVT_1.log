@@ -1,0 +1,195 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/panel_screen/RVT_1.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RVT_1  [M=200]
+Accession:   PF00078.33
+Description: Reverse transcriptase (RNA-dependent DNA polymerase)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    8.8e-25   88.1   1.1    4.4e-24   85.8   0.1    2.4  1  MZ422438.1__source318  original_source_CDS
+    3.8e-18   66.4   2.2    3.8e-18   66.4   2.2    2.0  1  OR455461.1__source228  original_source_CDS
+    4.1e-18   66.3   3.2    4.1e-18   66.3   3.2    1.9  1  OR770614.1__source180  original_source_CDS
+    2.2e-17   63.9   2.4    2.2e-17   63.9   2.4    2.1  1  MZ422438.1__source410  original_source_CDS
+    7.8e-13   49.0   0.0    1.2e-12   48.4   0.0    1.2  1  LR756507.1__pgv170     alternative_viral_gene_call
+      7e-11   42.7   6.0    8.2e-11   42.5   5.2    1.5  1  MZ422438.1__source406  original_source_CDS
+    1.7e-08   34.9   0.2      3e-08   34.1   0.2    1.3  1  LR756488.1__pgv20      alternative_viral_gene_call
+
+
+Domain annotation for each sequence (and alignments):
+>> MZ422438.1__source318  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.8   0.1   1.4e-27   4.4e-24       1     188 [.     115     354 ..     115     370 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 85.8 bits;  conditional E-value: 1.4e-27
+                  RVT_1   1 ipKkgagkyRpisllsvdykalnkilkkrLkpv..nllsepqpgfrpgrstld....lkslkklkkaklllklDlkkaFdqvpleell 82 
+                            ipK++ g++R ++++++++++ ++ + + L+p+   ++ ++++gfr + st++    l ++ k+ k+  +l+ Dl+k Fd+++l+  l
+  MZ422438.1__source318 115 IPKED-GSFRTLGITNILDRIAQQCILNILEPIleYQFYPDSYGFRRNLSTQHamsaLVNNTKEIKNGSVLDCDLSKYFDTINLDIVL 201
+                            8****.****************************99************99999**994555789999******************988 PP
+
+                  RVT_1  83 rkl.tafkvpsk.liksll.rvngee.egryewkglpqGlvlSPllfqlfmdellrelrkra.......................... 140
+                             kl  ++k++ + l++s+   ++  +  ++y+  gl qG++l+P+l+++++++l   +++ +                          
+  MZ422438.1__source318 202 DKLrYNHKIRDTqLLRSIKfLMSIDTkDTKYQGIGLAQGSILGPILANVLLHDLEILVNDLNmyneaisngsefhkthpynkfynmsy 289
+                            866268999987755555453355544**************************99988886688999********************* PP
+
+                  RVT_1 141 .................evtllvYaDDililskseeeleealeeveeflkesglkinpeKtqfvl 188
+                                             ++ +++YaDD++i+s ++ ++e+   ++ +++ ++++++n++Kt+ + 
+  MZ422438.1__source318 290 yrrkgkdqylktvgnrmQIRMIRYADDFIIISPNPWDVERFKPVLDSWCTKHQVSLNWNKTSEII 354
+                            *************************************************************9776 PP
+
+>> OR455461.1__source228  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.4   2.2   1.2e-21   3.8e-18       2     199 ..     226     437 ..     225     438 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 66.4 bits;  conditional E-value: 1.2e-21
+                  RVT_1   2 pKkg.........agkyRpisllsvdykalnkilkkrLkpvnllsepqpgfrpgrstldlkslkklkkaklllklDlkkaFdqvplee 80 
+                            pK +          +++Rpi  l+ + k+ln+il+ r+ ++ ++++++ ++r+g+s+  +++++ +k++ +++k+D++k+Fd+ + + 
+  OR455461.1__source228 226 PKTDgtkreinspIEEIRPI--LKSQSKKLNAILEYRIIKY-NIEDNIIAYRDGKSI--KNNADYHKENDTIIKFDVSKFFDNCHFDY 308
+                            55555666666667899**9..9*************77776.89*************..778889*******************9999 PP
+
+                  RVT_1  81 llrkltafkvpskliksll.rvnge..e.egryewkglpqGlvlSPllfqlfmdellrelrkra.....evtllvYaDDililsksee 159
+                              + l+ +  +    k+l+ r+++e     +r+ +kgl +G++lSP+  +l++ +++r +++ +     +++++ Y DDi++ sk+ +
+  OR455461.1__source228 309 WKENLFFILND---NKNLMkRFEKEmkGfLFRKDNKGLYMGSPLSPAASNLIVVPVMRYIKNVIskfksDIKVSIYSDDITFSSKEIN 393
+                            88888877777...356667664443256788999**************************988**********************77 PP
+
+                  RVT_1 160 e......leealeeveeflkesglkinpeKtqfvlkskevkyLGvt 199
+                            +      l++++++ +e   +  +k+++eK+ ++ k+++ k+ G+ 
+  OR455461.1__source228 394 DefnpsrLKNLVNHAFEV-YNLDFKLKEEKSLIM-KNRKRKVTGLS 437
+                            779966555555555543.3477899********.89999998875 PP
+
+>> OR770614.1__source180  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.3   3.2   1.3e-21   4.1e-18       2     199 ..     226     437 ..     225     438 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 66.3 bits;  conditional E-value: 1.3e-21
+                  RVT_1   2 pKkg.........agkyRpisllsvdykalnkilkkrLkpvnllsepqpgfrpgrstldlkslkklkkaklllklDlkkaFdqvplee 80 
+                            pK +          +++Rpi  l+ + k+ln+il+ r++++ ++++++ ++r+g+s+  +++++ +k++ +++k+D++k+Fd+ + + 
+  OR770614.1__source180 226 PKTDgtkreinspIEEIRPI--LKSQSKKLNAILEYRISKY-NIEDNIIAYRDGKSI--KNNADYHKENDTIIKFDVSKFFDNCHFDY 308
+                            55555666666667899**9..9*************99998.89*************..778889*******************9999 PP
+
+                  RVT_1  81 llrkltafkvpskliksll.rvnge..e.egryewkglpqGlvlSPllfqlfmdellrelrkra.....evtllvYaDDililsksee 159
+                              + l+ +  +    k+l+ r+++e     +r+ +kgl +G++lSP+  +l++ +++r +++ +     +++++ Y DDi++ sk+ +
+  OR770614.1__source180 309 WKENLFFILND---NKNLMkRFEKEmkGfLFRKDNKGLYMGSPLSPAASNLIVVPVMRYIKNVIskfksDIKVSIYSDDITFSSKEIN 393
+                            88888877777...356667664443256788999**************************988**********************77 PP
+
+                  RVT_1 160 e......leealeeveeflkesglkinpeKtqfvlkskevkyLGvt 199
+                            +      l++++++ +e   +  +k+++eK+ ++ k+++ k+ G+ 
+  OR770614.1__source180 394 DefnpsrLKNLVNHAFEI-YNLDFKLKEEKSLVM-KNRKRKVTGLS 437
+                            77*977777777776664.468899*********.89999998875 PP
+
+>> MZ422438.1__source410  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.9   2.4   6.8e-21   2.2e-17      18     199 ..     232     429 ..     213     430 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 63.9 bits;  conditional E-value: 6.8e-21
+                  RVT_1  18 dykalnkilkkrLkpv...nllsepqpgfrpgrstldlkslkklkkaklllklDlkkaFdqvpleellrkltafkvpsk.....liks 97 
+                              +++n+i   +L++    + ++++++++++++++ld  ++  +k++k+++k+D+ ++Fd+ + e++++ ++ + + ++         
+  MZ422438.1__source410 232 ISRKFNNIFNGMLETQlsnKGVEKHLFAYQKKKGILD--NALVHKNNKYIIKMDIASFFDNCRYEDISKYFKLLVLGKEnfkkkN--- 314
+                            467778888888888799999**************77..4447899*******************99999999998877544442... PP
+
+                  RVT_1  98 ll......rvngee.egryewkglpqGlvlSPllfqlfmdellrelrkra...evtllvYaDDililskseee......leealeeve 169
+                                    +   +e    +e+ gl qG + S +l +l+m+++ + l++     ++t++ YaDDi++ s++++e      l+ +l++ +
+  MZ422438.1__source410 315 -NkdsvmdT-LFKEiFINPETGGLYQGNPASGSLSNLLMSNVAKYLKNVLidsGITFSIYADDITFSSNEKSEffnrkyLKFILNKAF 400
+                            .15543543.3335588999***************************988************************************** PP
+
+                  RVT_1 170 eflkesglkinpeKtqfvlkskevkyLGvt 199
+                            e  + s+l+i+ eKt  + ++++ ++ G++
+  MZ422438.1__source410 401 EVYNYSNLSIKDEKTIKM-SNNKRRITGIR 429
+                            ***************999.67777777776 PP
+
+>> LR756507.1__pgv170  alternative_viral_gene_call
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.4   0.0   3.8e-16   1.2e-12       7     182 ..      79     265 ..      75     281 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 48.4 bits;  conditional E-value: 3.8e-16
+               RVT_1   7 gkyRp.isllsvdykalnkilkkrLkpv..nllsepqpgfrpgrstld..........lkslkklkkaklllklDlkkaFdqvpleellrk 84 
+                         +k R    l+ + +++++ ++ + + p+   ++ ++ +   +g++ l             + ++++   ++lk+D++k++ ++++e l +k
+  LR756507.1__pgv170  79 EKLRTiYKLPYYPDRIVQWAILQIIGPImeRHFIYDTYSSIKGKGPLAcmqrihqatyYYHKRRMNDIDYYLKMDIRKFYPSIDHERLKHK 169
+                         57788778888999*********9999999999999999999988777889**999873333566777**********************9 PP
+
+               RVT_1  85 ltafkvpskliksll..rvngeeegryewkglpqGlvlSPllfqlfmdellrelrkra.evtllvYaDDililskseeeleealeeveefl 172
+                         + ++  +++    ll   +n        ++g+p G  lS +  +l+++e+ + +++ +  +++++Y+DD++++ ++  +l+e  +++   l
+  LR756507.1__pgv170 170 YLKLFKDPN----LLglIFNI-IDSVLPEEGIPIGNYLSQFSGNLYLSEFDHVIKEVYkIKHYYRYMDDMVLFGDNAGDLNEMANKIIGML 255
+                         988888855....66533333.37888999************************9988778899*************************** PP
+
+               RVT_1 173 kesglkinpe 182
+                         +  gl ++p+
+  LR756507.1__pgv170 256 SYEGLIVKPN 265
+                         ******9985 PP
+
+>> MZ422438.1__source406  original_source_CDS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   5.2   2.6e-14   8.2e-11      16     189 ..     189     368 ..     172     379 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 2.6e-14
+                  RVT_1  16 svdykalnkilkkrLkpv..nllsepqpgfrpgrstldlkslkklkkaklllklDlkkaFdqvpleellrkltafkvpskliksll.r 100
+                            +  +k+++kil krL +   nl  ++++++r++ s++d  ++  + ++k+++k+D+++ F +++++ +  ++  + ++  + ++++ +
+  MZ422438.1__source406 189 KNTLKEISKILDKRLDRKisNLKYPNIMAYRKNVSIKD--NALMHLNNKYIIKVDISNYFPSIDWKLINSRFILLLFH-GVTDKYMdT 273
+                            45789**********99898888899**********66..44477899*****************8766655555555.346666665 PP
+
+                  RVT_1 101 vngeeegryewkglpqGlvlSPllfqlfmdellrelrkra...evtllvYaDDililskseee....leealeeveeflke..sglki 179
+                            +++  ++  e+  +  G ++S ++ +++m ++++++++ +   +++++ Y DDi++ ++  ++     + +++++++ +k    ++ki
+  MZ422438.1__source406 274 IKK--GFVDENDKMFLGNPVSGVISNIIMVDIINHIQTIFhkyGIICSSYSDDITFSTNIDNNklfnKKFIIKICNQAFKIynDKFKI 359
+                            444..99*******************************88*******************9777799866667777777665336799* PP
+
+                  RVT_1 180 npeKtqfvlk 189
+                            n +Kt  + k
+  MZ422438.1__source406 360 NDSKTVYL-K 368
+                            *****988.3 PP
+
+>> LR756488.1__pgv20  alternative_viral_gene_call
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   0.2   9.3e-12     3e-08       6     176 ..     201     369 ..     195     381 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 9.3e-12
+              RVT_1   6 agkyRpisllsvdykalnkilkkrLkpv..nllsepqpgfrpgrstldlkslkklkkaklllklDlkkaFdqvpleellrkltafkvpsk.l 94 
+                        +gk+R++s +  d ka  + l   L ++  n  ++ q+++++g+ ++d+++   +k +k + k D+k++F + + +   + l++  ++ + +
+  LR756488.1__pgv20 201 NGKIRLLSEPHKDIKAPLRKLNTLLYKFygNYGKNCQFAYKKGKCIVDNAI--PHKDHKFVFKADIKNFFPSCKRQLVKEVLEERLIKDPnI 290
+                        49**************999999999999******************77655..999*******************************99944 PP
+
+              RVT_1  95 iksllrvngeeegryewkglpqGlvlSPllfqlfmdellrelrkra...evtllvYaDDililskseeeleealeeveeflkesg 176
+                         +++l        +    gl  G ++SP++++++++++++ l   +   ++ +++Y DD+++ s+++ + + +++++++   +++
+  LR756488.1__pgv20 291 AEEFL------DIILVDDGLCLGNPISPIIATRIVSQASEYLYYMCkntDIAFSQYCDDLTFSSDRPIAKKFIVDIFNRAYGKYN 369
+                        44444......78999**************************9988999***************998777777777777666665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (200 nodes)
+Target sequences:                      22472  (5215979 residues searched)
+Passed MSV filter:                       883  (0.0392933); expected 449.4 (0.02)
+Passed bias filter:                      477  (0.0212264); expected 449.4 (0.02)
+Passed Vit filter:                        39  (0.00173549); expected 22.5 (0.001)
+Passed Fwd filter:                         7  (0.000311499); expected 0.2 (1e-05)
+Initial search space (Z):              22472  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.03
+# Mc/sec: 30197.73
+//
+[ok]

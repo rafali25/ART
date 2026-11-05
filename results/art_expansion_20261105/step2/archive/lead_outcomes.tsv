@@ -1,0 +1,46 @@
+lead_id	run	prefix_bytes	complete_records_searched	last_complete_record	complete_object	matches	status	source_contig	length_nt	coordinates_json
+ERR8050692_787_19	ERR8050692	1000000	1684	ERR8050692_1683	False	1	exact_unique_peptide_mapping	ERR8050692_787	46181	"[{""start0"": 28866, ""end0"": 30651, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR4183474_801_10	ERR4183474	1000000	934	ERR4183474_933	False	1	exact_unique_peptide_mapping	ERR4183474_751	28505	"[{""start0"": 17246, ""end0"": 18770, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR22802066_2361_3	SRR22802066	1000000	1583	SRR22802066_1582	False	1	exact_unique_peptide_mapping	SRR22802066_51	27479	"[{""start0"": 18840, ""end0"": 20475, ""strand"": -1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR8055447_3427_14	ERR8055447	3000000	3650	ERR8055447_3649	False	1	exact_unique_peptide_mapping	ERR8055447_3422	29190	"[{""start0"": 19325, ""end0"": 21065, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": true}]"
+ERR7438152_4191_11	ERR7438152	6000000	9337	ERR7438152_9336	False	1	exact_unique_peptide_mapping	ERR7438152_4132	38621	"[{""start0"": 24394, ""end0"": 26179, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR23636735_4946_6	SRR23636735	6000000	7332	SRR23636735_7331	False	1	exact_unique_peptide_mapping	SRR23636735_4859	31511	"[{""start0"": 6541, ""end0"": 8140, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR7529523_6441_12	ERR7529523	6000000	10785	ERR7529523_10784	False	1	exact_unique_peptide_mapping	ERR7529523_6432	31158	"[{""start0"": 14581, ""end0"": 16306, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": true}]"
+SRR5371381_9998_4	SRR5371381	3000000	13063	SRR5371381_13062	False	1	exact_unique_peptide_mapping	SRR5371381_9952	3710	"[{""start0"": 1721, ""end0"": 3197, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR8449991_4602_3	ERR8449991	3000000	7020	ERR8449991_7019	False	1	exact_unique_peptide_mapping	ERR8449991_4587	11275	"[{""start0"": 2655, ""end0"": 4416, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR7971122_17934_2	SRR7971122	6000000	13096	SRR7971122_13095	False	0	unresolved_bounded_prefix			
+SRR16953781_18256_4	SRR16953781	3000000	4089	SRR16953781_4088	False	1	exact_unique_peptide_mapping	SRR16953781_2281	9687	"[{""start0"": 3261, ""end0"": 5310, ""strand"": -1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR8052139_20822_6	ERR8052139	6000000	16213	ERR8052139_16212	False	0	unresolved_bounded_prefix			
+SRR8925772_22802_2	SRR8925772	6000000	11821	SRR8925772_11820	False	0	unresolved_bounded_prefix			
+ERR10789583_23323_5	ERR10789583	6000000	20935	ERR10789583_20934	False	0	unresolved_bounded_prefix			
+ERR8266547_24007_7	ERR8266547	6000000	11102	ERR8266547_11101	False	0	unresolved_bounded_prefix			
+ERR8050416_24143_2	ERR8050416	6000000	14772	ERR8050416_14771	False	1	exact_unique_peptide_mapping	ERR8050416_7654	18839	"[{""start0"": 14441, ""end0"": 16190, ""strand"": -1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR7962751_26317_2	SRR7962751	6000000	15196	SRR7962751_15195	False	0	unresolved_bounded_prefix			
+ERR3211773_30421_3	ERR3211773	6000000	33639	ERR3211773_33638	False	1	exact_unique_peptide_mapping	ERR3211773_30326	4281	"[{""start0"": 2074, ""end0"": 3496, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR3393562_31292_9	ERR3393562	6000000	12089	ERR3393562_12088	False	0	unresolved_bounded_prefix			
+SRR16953759_35680_3	SRR16953759	6000000	26858	SRR16953759_26857	False	0	unresolved_bounded_prefix			
+ERR7528944_38896_2	ERR7528944	6000000	11353	ERR7528944_11352	False	0	unresolved_bounded_prefix			
+SRR15987600_61135_2	SRR15987600	6000000	9898	SRR15987600_9897	False	0	unresolved_bounded_prefix			
+SRR8266637_61512_2	SRR8266637	6000000	39347	SRR8266637_39346	False	0	unresolved_bounded_prefix			
+SRR8266637_75292_4	SRR8266637	6000000	39347	SRR8266637_39346	False	0	unresolved_bounded_prefix			
+SRR23636722_65582_2	SRR23636722	6000000	25339	SRR23636722_25338	False	0	unresolved_bounded_prefix			
+ERR2683142_496360_2	ERR2683142	6000000	44631	ERR2683142_44630	False	0	unresolved_bounded_prefix			
+SRR10873277_316_10	SRR10873277	1000000	1909	SRR10873277_1908	False	1	exact_unique_peptide_mapping	SRR10873277_312	11772	"[{""start0"": 8303, ""end0"": 10127, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR2683165_481_2	ERR2683165	1000000	2205	ERR2683165_2204	False	1	exact_unique_peptide_mapping	ERR2683165_478	9519	"[{""start0"": 1988, ""end0"": 4553, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR4183494_516_1	ERR4183494	1000000	977	ERR4183494_976	False	1	exact_unique_peptide_mapping	ERR4183494_514	5650	"[{""start0"": 180, ""end0"": 1773, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR10873276_1031_2	SRR10873276	1000000	8418	SRR10873276_8417	False	1	exact_unique_peptide_mapping	SRR10873276_990	3138	"[{""start0"": 1169, ""end0"": 2993, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR5644066_1037_2	SRR5644066	1000000	2831	SRR5644066_2830	False	1	exact_unique_peptide_mapping	SRR5644066_1035	12562	"[{""start0"": 2187, ""end0"": 5004, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR25869467_4211_1	SRR25869467	6000000	5683	SRR25869467_5682	False	0	unresolved_bounded_prefix			
+ERR8509207_4250_28	ERR8509207	3000000	4883	ERR8509207_4882	False	1	exact_unique_peptide_mapping	ERR8509207_4241	84157	"[{""start0"": 36671, ""end0"": 38954, ""strand"": -1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR10900851_5103_2	ERR10900851	6000000	5462	ERR10900851_5461	False	1	exact_unique_peptide_mapping	ERR10900851_4993	9679	"[{""start0"": 2194, ""end0"": 5014, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR23636717_5148_5	SRR23636717	6000000	6896	SRR23636717_6895	False	1	exact_unique_peptide_mapping	SRR23636717_4978	17923	"[{""start0"": 4397, ""end0"": 5939, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR23924973_6727_4	SRR23924973	6000000	4713	SRR23924973_4712	False	0	unresolved_bounded_prefix			
+SRR9971390_8413_5	SRR9971390	3000000	3973	SRR9971390_3972	False	1	exact_unique_peptide_mapping	SRR9971390_1400	37568	"[{""start0"": 27997, ""end0"": 29536, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR8025381_8592_13	ERR8025381	6000000	15500	ERR8025381_15499	False	1	exact_unique_peptide_mapping	ERR8025381_8562	34617	"[{""start0"": 14883, ""end0"": 17160, ""strand"": -1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR2847187_10798_4	ERR2847187	6000000	10350	ERR2847187_10349	False	0	unresolved_bounded_prefix			
+SRR26954464_13836_3	SRR26954464	3000000	13994	SRR26954464_13993	False	1	exact_unique_peptide_mapping	SRR26954464_13799	2923	"[{""start0"": 942, ""end0"": 2466, ""strand"": 1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+SRR23636733_27049_1	SRR23636733	3000000	2643	SRR23636733_2642	False	1	exact_unique_peptide_mapping	SRR23636733_2382	39731	"[{""start0"": 11040, ""end0"": 12624, ""strand"": -1, ""genetic_code"": 11, ""initiator_normalized"": false}]"
+ERR8205933_36351_3	ERR8205933	6000000	15469	ERR8205933_15468	False	0	unresolved_bounded_prefix			
+SRR17241611_103235_4	SRR17241611	6000000	15284	SRR17241611_15283	False	0	unresolved_bounded_prefix			
+ERR3486776_155384_10	ERR3486776	6000000	14127	ERR3486776_14126	False	0	unresolved_bounded_prefix			
+SRR11814490_329080_4	SRR11814490	6000000	14609	SRR11814490_14608	False	0	unresolved_bounded_prefix			

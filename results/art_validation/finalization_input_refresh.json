@@ -1,0 +1,10 @@
+{
+  "reason": "Benchmark audit adds copy-precision criteria; original nine loci reprocessed after majority-anchor repair. No retrieval thresholds, null scores or original annotations changed.",
+  "changes": [
+    {
+      "path": "scripts\\validate_art_detection.py",
+      "before_sha256": "6a902a2b242d1cf63ae6f15f872c0a32707a49cdcd5ceede77f311fb0404487d",
+      "after_sha256": "05fa9ef404357529570abef6958ed64f5b456261824c04a560d2660dd402f810"
+    }
+  ]
+}

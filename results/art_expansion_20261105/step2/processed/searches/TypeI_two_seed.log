@@ -1,0 +1,2139 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/proteins.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/searches/TypeI_two_seed.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/step2/processed/searches/TypeI_two_seed.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    3893
+# domain search space set to:      3893
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       typeI_two_LPJP1_queries.aligned  [M=697]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    2.8e-87  291.3  34.0      5e-87  290.5  31.3    2.6  1  o19baf32e325b4d2faa  ERR10900851_4993 six_frame
+    2.8e-87  291.3  34.0    4.9e-87  290.5  31.3    2.6  1  ta83ace3c8f2871a380  ERR10900851_4993 ERR10900851_4993_pgv2
+    4.5e-86  287.3  27.7    4.5e-86  287.3  27.7    2.5  1  t78fda206627bcaad41  SRR5644066_1035 SRR5644066_1035_pgv2
+    4.7e-86  287.3  27.7    4.7e-86  287.3  27.7    2.7  1  o000cf2740e49827934  SRR5644066_1035 six_frame
+    1.3e-82  275.9  11.8    3.6e-82  274.5  11.8    1.7  1  td33ff08978d09fc86a  ERR2683165_478 ERR2683165_478_pgv2
+    1.3e-82  275.9  11.8    3.6e-82  274.4  11.8    1.7  1  o3f0930995ac7e54e75  ERR2683165_478 six_frame
+    1.3e-82  275.9  11.8    3.6e-82  274.4  11.8    1.7  1  odf97cba8a0566c7d1b  ERR2683165_478 six_frame
+    2.4e-78  261.8  27.7    2.4e-78  261.8  27.7    2.5  1  o2392e1be537f8a3937  SRR22802066_51 six_frame
+      3e-78  261.5  28.0      3e-78  261.5  28.0    2.5  1  t173e556372e7f95c41  SRR22802066_51 SRR22802066_51_pgv24
+    3.4e-64  215.0  10.9    6.3e-64  214.1  10.9    1.4  1  td025e3e6021a537516  ERR8509207_4241 ERR8509207_4241_pgv29
+    3.4e-64  215.0  10.8    6.5e-64  214.1  10.8    1.4  1  o42715599d88b429392  ERR8509207_4241 six_frame
+    2.4e-62  208.9   9.0    2.4e-62  208.9   9.0    1.4  1  t56fb614810d31006c5  ERR8025381_8562 ERR8025381_8562_pgv13
+    2.4e-62  208.9   9.0    2.4e-62  208.9   9.0    1.4  1  o0a1e2a1ca7bc0d46ab  ERR8025381_8562 six_frame
+    4.6e-54  181.5  24.2    5.8e-54  181.2  24.2    1.2  1  t9967e56a72cc788510  SRR5371381_9952 SRR5371381_9952_pgv4
+    4.9e-54  181.4  24.2    6.3e-54  181.1  24.2    1.2  1  o7e2f06bb47601848b1  SRR5371381_9952 six_frame
+    5.6e-51  171.3  16.6    1.5e-50  169.9  16.6    1.7  1  t17b8bd9d64cb725a0d  SRR10873276_990 SRR10873276_990_pgv2
+    5.6e-51  171.3  16.6    1.5e-50  169.9  16.6    1.7  1  t6014f7cd493b36f233  SRR10873277_312 SRR10873277_312_pgv10
+    5.7e-51  171.3  16.6    1.6e-50  169.9  16.6    1.7  1  o2054348855759ecc93  SRR10873276_990 six_frame
+    5.7e-51  171.3  16.6    1.6e-50  169.9  16.6    1.7  1  o42b8aee100267b0125  SRR10873277_312 six_frame
+    7.8e-49  164.3  27.4    7.8e-49  164.3  27.4    1.9  1  of42eb26c28c0f9e18e  ERR8050692_787 six_frame
+    1.1e-48  163.8  28.0    1.1e-48  163.8  28.0    1.7  1  tde592a1695d61ae333  ERR8050692_787 ERR8050692_787_pgv19
+    1.3e-48  163.5  26.3    1.3e-48  163.5  26.3    1.7  1  od90f59c8f846152b74  ERR7438152_4132 six_frame
+    7.6e-48  161.0  30.1    1.4e-47  160.2  30.1    1.5  1  tc4efe0ab38a5f46c92  ERR7438152_4132 ERR7438152_4132_pgv15
+    3.2e-47  158.9  22.8    3.2e-47  158.9  22.8    1.8  1  t07bd449de0946a2ff5  ERR8050416_7654 ERR8050416_7654_pgv13
+    3.7e-47  158.7  23.0    3.7e-47  158.7  23.0    1.8  1  o5e4ba3f612ace34b3e  ERR8050416_7654 six_frame
+    1.8e-45  153.1  18.9    1.8e-45  153.1  18.9    2.2  1  t8057be10f1073fe37c  ERR8449991_4587 ERR8449991_4587_pgv2
+      2e-45  153.0  19.0      2e-45  153.0  19.0    2.4  1  o9f012837b7d40897e1  ERR8449991_4587 six_frame
+    7.1e-45  151.2  24.7    7.1e-45  151.2  24.7    1.7  1  t6197d0e9fe4708c095  ERR7529523_6432 ERR7529523_6432_pgv11
+    7.1e-45  151.2  24.7    7.1e-45  151.2  24.7    1.8  1  o3f7503b1ee9566527e  ERR7529523_6432 six_frame
+    8.5e-44  147.6  37.7    1.2e-43  147.1  37.7    1.3  1  t88c8249b2e06c2011e  ERR3211773_30326 ERR3211773_30326_pgv3
+    1.7e-43  146.6  38.7    2.4e-43  146.1  38.7    1.3  1  o2cde705e23e9651548  ERR3211773_30326 six_frame
+    1.7e-42  143.3  25.2    1.7e-42  143.3  25.2    1.6  1  t2370e252ddf73bbae7  ERR8055447_3422 ERR8055447_3422_pgv14
+    1.7e-42  143.3  25.2    1.7e-42  143.3  25.2    1.6  1  o4c1d81f107564df941  ERR8055447_3422 six_frame
+    3.8e-37  125.6  42.3    3.8e-37  125.6  42.3    2.0  1  od47715c2b3abe01253  SRR22802066_51 six_frame
+    5.4e-37  125.1  42.8    5.4e-37  125.1  42.8    2.0  1  t14f2b0cb129c27642e  SRR22802066_51 SRR22802066_51_pgv22
+    1.1e-33  114.2  10.0    2.8e-33  112.9   1.3    2.7  1  t0fb8ba37dbf77151d6  ERR8025381_8562 ERR8025381_8562_pgv11
+    1.1e-33  114.1  10.0    2.8e-33  112.8   1.3    2.7  1  o34a16cd31624c1d9c2  ERR8025381_8562 six_frame
+    6.7e-33  111.6  11.6    8.2e-33  111.3   2.3    2.7  1  o5b9819d85d0f4f8b6d  ERR8509207_4241 six_frame
+    6.7e-33  111.6  11.7      8e-33  111.3   2.3    2.7  1  tfc74b6de59c153b8cd  ERR8509207_4241 ERR8509207_4241_pgv27
+    1.7e-32  110.2  23.9    1.7e-32  110.2  23.9    3.0  1  oc730beee4472b32d9a  SRR16953781_2281 six_frame
+    2.4e-32  109.8  24.7    2.4e-32  109.8  24.7    3.0  1  t5cf1daf3f2675f3c8c  SRR16953781_2281 SRR16953781_2281_pgv3
+    8.3e-29   98.1  29.5    3.7e-21   72.8  18.7    3.1  2  t2cd3b6d9ca81587594  SRR23636735_4859 SRR23636735_4859_pgv6
+    1.4e-28   97.3  30.0    5.7e-21   72.2  19.3    3.1  2  of731002e38ca8d9d90  SRR23636735_4859 six_frame
+      2e-28   96.8  39.9    2.5e-26   89.9  39.9    2.8  1  t2000db3674a16f399a  ERR4183474_751 ERR4183474_751_pgv22
+    6.1e-28   95.2  43.4    6.7e-26   88.5  43.4    2.7  1  o616d2c81abf817024b  ERR4183474_751 six_frame
+    2.6e-26   89.8  38.1    1.1e-24   84.5  38.1    2.5  1  od48e877209d0a51b70  ERR4183494_514 six_frame
+    2.6e-26   89.8  38.1    1.1e-24   84.5  38.1    2.5  1  te7f7c48d921e0d28de  ERR4183494_514 ERR4183494_514_pgv1
+    8.8e-23   78.2  31.0    1.5e-20   70.8  30.8    2.6  1  o98844e0bd379e3447d  SRR26954464_13799 six_frame
+    1.4e-22   77.5  31.9    2.4e-20   70.1  31.9    2.6  1  t0d83b9168045cb287e  SRR26954464_13799 SRR26954464_13799_pgv3
+    1.3e-21   74.2  37.2    4.6e-20   69.2  37.2    2.4  1  t5bf7d90b1129d8d51f  SRR23636733_2382 SRR23636733_2382_pgv11
+    1.3e-21   74.2  37.2    4.6e-20   69.2  37.2    2.4  1  t989a22e944a5f378ff  SRR23636717_4978 SRR23636717_4978_pgv5
+    3.9e-21   72.7  38.5    1.4e-19   67.5  38.6    2.5  1  o7dd593770eca38f2e1  SRR23636717_4978 six_frame
+    3.9e-21   72.7  38.5    1.4e-19   67.5  38.6    2.5  1  o801f13afcddcce014f  SRR23636733_2382 six_frame
+    2.2e-19   66.9  45.6    3.4e-18   63.0  45.6    2.3  1  t297b207bc08d20c634  SRR9971390_1400 SRR9971390_1400_pgv47
+    3.7e-19   66.2  46.2    5.8e-18   62.2  46.2    2.3  1  o5572d869b55cee8e70  SRR9971390_1400 six_frame
+    1.1e-05   21.7   2.9    1.1e-05   21.7   2.9    1.9  1  t79e0c7d5c45565eb72  ERR7438152_4132 ERR7438152_4132_pgv12
+    8.2e-05   18.8   5.8    8.2e-05   18.8   5.8    1.6  1  t9713c1e04f5c52ce6c  ERR8050692_787 ERR8050692_787_pgv16
+
+
+Domain annotation for each sequence (and alignments):
+>> o19baf32e325b4d2faa  ERR10900851_4993 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  290.5  31.3     5e-87     5e-87     202     675 ..     444     898 ..     371     912 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 290.5 bits;  conditional E-value: 5e-87
+  typeI_two_LPJP1_queries.aligned 202 sllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddf 279
+                                       ll  + y++  kll + +         n++d+h f++++    +  l +++         +++ylkr   k + ++ 
+              o19baf32e325b4d2faa 444 ILLEMLGYDNYSKLLTFFID--------NNVDIHTFLDNMSYGSLSGLYKEE-----EQKALFKYLKRL-RKKQPNEI 507
+                                      35556899999999999877........*************99999888887.....345789*****8.8889999* PP
+
+  typeI_two_LPJP1_queries.aligned 280 lkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsksndlikfskekveinsiGvktkccfr 357
+                                       +l+ ++ y+  r s+ n++el+ y+ +++ a+kG   g++  s+mlidd   n+l+ +sk+  ein+iG +t ccf+
+              o19baf32e325b4d2faa 508 SRLIGFFGYKKARASK-NMNELEGYISMIQTARKGFITGKTNPSEMLIDDCIGNNLVFYSKDESEINTIGSRTGCCFT 584
+                                      ****************.************************************************************* PP
+
+  typeI_two_LPJP1_queries.aligned 358 PdGlaksllkialesPlaGileGvldkki..wfsfvweiviyneetksieinlildniessklldnneyeiiidwldi 433
+                                      P Glaksl++i+  sPlaGi+eG  +++   wfsfvweiv+yne tk++e++lildnies +l+  ++++ i +wl  
+              o19baf32e325b4d2faa 585 PSGLAKSLVRISKVSPLAGIIEGKHGRRRsdWFSFVWEIVEYNETTKTFETALILDNIESLNLISYEDWSEIYKWLL- 661
+                                      *************************987444********************************************95. PP
+
+  typeI_two_LPJP1_queries.aligned 434 nsdykkiylGylrndinrtikvdkt............qrdrssseglinsenkfsryssyddsekvyelldrknniky 499
+                                       + y+k+ylG +rndi ++i   ++              ++  s  +i +e++f++y  ydds+kvy+++dr      
+              o19baf32e325b4d2faa 662 KTPYNKVYLGSMRNDISSDIFSAQAdptdltdahinrETLKDRSRQIIYYEKEFNSY-HYDDSKKVYTVIDRTSR--- 735
+                                      799**************99865432111111111111223445667***********.***********999753... PP
+
+  typeI_two_LPJP1_queries.aligned 500 igsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygyl 577
+                                                   +  + + + +  G + r ly +k v+  +sd + l+        +  +s+s+l+r    +iygy+
+              o19baf32e325b4d2faa 736 ------------RPRKLGVTKITTKGEFHRLLYTEKLVWGDNSDYSTLRN------LKFNQSPSYLVRDSLGNIYGYM 795
+                                      ............3445666777789***********************99......455789**************** PP
+
+  typeI_two_LPJP1_queries.aligned 578 istleGydpenesvqfn.nrsfntdt....hskllyiedivikyykklssilkyifedlkkfiidndikyisssfnen 650
+                                      ++ l+  + e + + ++ n  ++ dt       +ly++di i  +    ++l  +++d+  ++ +ndiky+s+ fn+ 
+              o19baf32e325b4d2faa 796 VTRLYKINEETKKITYDdNLKVQKDTleegEDYVLYLDDIFITKNVPSMKALSLMIDDILDYVKENDIKYVSAHFNQY 873
+                                      ************9999636678888832224579********9999999999999*********************** PP
+
+  typeI_two_LPJP1_queries.aligned 651 skqfmkrinieGlelvkdtrfndrt 675
+                                      s++f+kri+  G+++vkdtrfnd  
+              o19baf32e325b4d2faa 874 SEKFLKRIKETGVKFVKDTRFNDSG 898
+                                      **********************975 PP
+
+>> ta83ace3c8f2871a380  ERR10900851_4993 ERR10900851_4993_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  290.5  31.3   4.9e-87   4.9e-87     202     675 ..     440     894 ..     367     908 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 290.5 bits;  conditional E-value: 4.9e-87
+  typeI_two_LPJP1_queries.aligned 202 sllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddf 279
+                                       ll  + y++  kll + +         n++d+h f++++    +  l +++         +++ylkr   k + ++ 
+              ta83ace3c8f2871a380 440 ILLEMLGYDNYSKLLTFFID--------NNVDIHTFLDNMSYGSLSGLYKEE-----EQKALFKYLKRL-RKKQPNEI 503
+                                      35556899999999999877........*************99999888887.....345789*****8.8889999* PP
+
+  typeI_two_LPJP1_queries.aligned 280 lkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsksndlikfskekveinsiGvktkccfr 357
+                                       +l+ ++ y+  r s+ n++el+ y+ +++ a+kG   g++  s+mlidd   n+l+ +sk+  ein+iG +t ccf+
+              ta83ace3c8f2871a380 504 SRLIGFFGYKKARASK-NMNELEGYISMIQTARKGFITGKTNPSEMLIDDCIGNNLVFYSKDESEINTIGSRTGCCFT 580
+                                      ****************.************************************************************* PP
+
+  typeI_two_LPJP1_queries.aligned 358 PdGlaksllkialesPlaGileGvldkki..wfsfvweiviyneetksieinlildniessklldnneyeiiidwldi 433
+                                      P Glaksl++i+  sPlaGi+eG  +++   wfsfvweiv+yne tk++e++lildnies +l+  ++++ i +wl  
+              ta83ace3c8f2871a380 581 PSGLAKSLVRISKVSPLAGIIEGKHGRRRsdWFSFVWEIVEYNETTKTFETALILDNIESLNLISYEDWSEIYKWLL- 657
+                                      *************************987444********************************************95. PP
+
+  typeI_two_LPJP1_queries.aligned 434 nsdykkiylGylrndinrtikvdkt............qrdrssseglinsenkfsryssyddsekvyelldrknniky 499
+                                       + y+k+ylG +rndi ++i   ++              ++  s  +i +e++f++y  ydds+kvy+++dr      
+              ta83ace3c8f2871a380 658 KTPYNKVYLGSMRNDISSDIFSAQAdptdltdahinrETLKDRSRQIIYYEKEFNSY-HYDDSKKVYTVIDRTSR--- 731
+                                      799**************99865432111111111111223445667***********.***********999753... PP
+
+  typeI_two_LPJP1_queries.aligned 500 igsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygyl 577
+                                                   +  + + + +  G + r ly +k v+  +sd + l+        +  +s+s+l+r    +iygy+
+              ta83ace3c8f2871a380 732 ------------RPRKLGVTKITTKGEFHRLLYTEKLVWGDNSDYSTLRN------LKFNQSPSYLVRDSLGNIYGYM 791
+                                      ............3445666777789***********************99......455789**************** PP
+
+  typeI_two_LPJP1_queries.aligned 578 istleGydpenesvqfn.nrsfntdt....hskllyiedivikyykklssilkyifedlkkfiidndikyisssfnen 650
+                                      ++ l+  + e + + ++ n  ++ dt       +ly++di i  +    ++l  +++d+  ++ +ndiky+s+ fn+ 
+              ta83ace3c8f2871a380 792 VTRLYKINEETKKITYDdNLKVQKDTleegEDYVLYLDDIFITKNVPSMKALSLMIDDILDYVKENDIKYVSAHFNQY 869
+                                      ************9999636678888832224579********9999999999999*********************** PP
+
+  typeI_two_LPJP1_queries.aligned 651 skqfmkrinieGlelvkdtrfndrt 675
+                                      s++f+kri+  G+++vkdtrfnd  
+              ta83ace3c8f2871a380 870 SEKFLKRIKETGVKFVKDTRFNDSG 894
+                                      **********************975 PP
+
+>> t78fda206627bcaad41  SRR5644066_1035 SRR5644066_1035_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  287.3  27.7   4.5e-86   4.5e-86     203     675 ..     440     893 ..     375     905 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 287.3 bits;  conditional E-value: 4.5e-86
+  typeI_two_LPJP1_queries.aligned 203 llirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddfl 280
+                                      ll  + y++  kll + +         n++d+h f++++    +  l +++         +++ylkr   k k ++  
+              t78fda206627bcaad41 440 LLEMLGYDNYSKLLTFFID--------NDVDVHTFLDNMSYGSLSGLYKEE-----EQKALFKYLKRL-RKKKPNEIS 503
+                                      5556799999999999877........*************99999888887.....345789*****8.899999*** PP
+
+  typeI_two_LPJP1_queries.aligned 281 kllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsksndlikfskekveinsiGvktkccfrP 358
+                                      +l+ ++ y+  r s+ n++el+ y+ +++ a+kG   g+   s+mlidd   n+l+ +sk+  ein+iG +t ccf+P
+              t78fda206627bcaad41 504 RLIGFFGYKKARASK-NMNELEGYISMIQSARKGFITGKANPSEMLIDDCVGNNLVFYSKDESEINTIGSRTGCCFTP 580
+                                      ***************.************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 359 dGlaksllkialesPlaGileGvldkki..wfsfvweiviyneetksieinlildniessklldnneyeiiidwldin 434
+                                       Glaksl++i+  sPlaGi+eG  +++   wfsfvwe+v+yne tk++e++lildnies +l+  +++  i +wl   
+              t78fda206627bcaad41 581 SGLAKSLVRISKVSPLAGIIEGKHGRRRsdWFSFVWELVEYNETTKTFETALILDNIESLNLISYEDWAEIYKWLL-K 657
+                                      ************************987444********************************************95.7 PP
+
+  typeI_two_LPJP1_queries.aligned 435 sdykkiylGylrndinrtikvdkt........q....rdrssseglinsenkfsryssyddsekvyelldrknnikyi 500
+                                      + y+k+ylG +rndi ++i  d++        +     ++  s  +i +e++f++y  ydds+kvy+++dr       
+              t78fda206627bcaad41 658 TPYNKVYLGSMRNDIASDIFSDQAdptdltdaHinrdTLKDRSRQIIYYEKEFNSY-HYDDSKKVYTVIDRTSR---- 730
+                                      99****************988764222222221221123455677***********.***********999642.... PP
+
+  typeI_two_LPJP1_queries.aligned 501 gsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygyli 578
+                                                 ++  + + + +  G + r ly +k v+  +sd + l+        +  +s+s+lir    +iygy++
+              t78fda206627bcaad41 731 -----------NPRKLGVTKITTKGEFHRLLYTEKLVWGDNSDYSVLRN------LKFNQSPSYLIRDSLGNIYGYMV 791
+                                      ...........4445666677788**********************999......455789***************** PP
+
+  typeI_two_LPJP1_queries.aligned 579 stleGydpenesvqfn.nrsfntdt....hskllyiedivikyykklssilkyifedlkkfiidndikyisssfnens 651
+                                      + l+  + e + + ++ n  ++ dt       +ly++di i  +    ++l  +++++  ++ +ndiky+s+ fn+ s
+              t78fda206627bcaad41 792 TRLYKINEETKKITYDdNLKVKEDTleegEDYVLYLDDIFITKNVPSMKALSLMIDNILDYVKENDIKYVSAHFNQYS 869
+                                      ***********9999626678888732224569********999888899999999********************** PP
+
+  typeI_two_LPJP1_queries.aligned 652 kqfmkrinieGlelvkdtrfndrt 675
+                                      ++f+kri+  G+++vkdtrfnd  
+              t78fda206627bcaad41 870 EKFLKRIKETGVKFVKDTRFNDAG 893
+                                      *********************975 PP
+
+>> o000cf2740e49827934  SRR5644066_1035 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  287.3  27.7   4.7e-86   4.7e-86     203     675 ..     458     911 ..     393     923 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 287.3 bits;  conditional E-value: 4.7e-86
+  typeI_two_LPJP1_queries.aligned 203 llirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddfl 280
+                                      ll  + y++  kll + +         n++d+h f++++    +  l +++         +++ylkr   k k ++  
+              o000cf2740e49827934 458 LLEMLGYDNYSKLLTFFID--------NDVDVHTFLDNMSYGSLSGLYKEE-----EQKALFKYLKRL-RKKKPNEIS 521
+                                      5556799999999999877........*************99999888887.....345789*****8.899999*** PP
+
+  typeI_two_LPJP1_queries.aligned 281 kllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsksndlikfskekveinsiGvktkccfrP 358
+                                      +l+ ++ y+  r s+ n++el+ y+ +++ a+kG   g+   s+mlidd   n+l+ +sk+  ein+iG +t ccf+P
+              o000cf2740e49827934 522 RLIGFFGYKKARASK-NMNELEGYISMIQSARKGFITGKANPSEMLIDDCVGNNLVFYSKDESEINTIGSRTGCCFTP 598
+                                      ***************.************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 359 dGlaksllkialesPlaGileGvldkki..wfsfvweiviyneetksieinlildniessklldnneyeiiidwldin 434
+                                       Glaksl++i+  sPlaGi+eG  +++   wfsfvwe+v+yne tk++e++lildnies +l+  +++  i +wl   
+              o000cf2740e49827934 599 SGLAKSLVRISKVSPLAGIIEGKHGRRRsdWFSFVWELVEYNETTKTFETALILDNIESLNLISYEDWAEIYKWLL-K 675
+                                      ************************987444********************************************95.7 PP
+
+  typeI_two_LPJP1_queries.aligned 435 sdykkiylGylrndinrtikvdkt........q....rdrssseglinsenkfsryssyddsekvyelldrknnikyi 500
+                                      + y+k+ylG +rndi ++i  d++        +     ++  s  +i +e++f++y  ydds+kvy+++dr       
+              o000cf2740e49827934 676 TPYNKVYLGSMRNDIASDIFSDQAdptdltdaHinrdTLKDRSRQIIYYEKEFNSY-HYDDSKKVYTVIDRTSR---- 748
+                                      99****************988764222222221221123455677***********.***********999642.... PP
+
+  typeI_two_LPJP1_queries.aligned 501 gsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygyli 578
+                                                 ++  + + + +  G + r ly +k v+  +sd + l+        +  +s+s+lir    +iygy++
+              o000cf2740e49827934 749 -----------NPRKLGVTKITTKGEFHRLLYTEKLVWGDNSDYSVLRN------LKFNQSPSYLIRDSLGNIYGYMV 809
+                                      ...........4445666677788**********************999......455789***************** PP
+
+  typeI_two_LPJP1_queries.aligned 579 stleGydpenesvqfn.nrsfntdt....hskllyiedivikyykklssilkyifedlkkfiidndikyisssfnens 651
+                                      + l+  + e + + ++ n  ++ dt       +ly++di i  +    ++l  +++++  ++ +ndiky+s+ fn+ s
+              o000cf2740e49827934 810 TRLYKINEETKKITYDdNLKVKEDTleegEDYVLYLDDIFITKNVPSMKALSLMIDNILDYVKENDIKYVSAHFNQYS 887
+                                      ***********9999626678888732224569********999888899999999********************** PP
+
+  typeI_two_LPJP1_queries.aligned 652 kqfmkrinieGlelvkdtrfndrt 675
+                                      ++f+kri+  G+++vkdtrfnd  
+              o000cf2740e49827934 888 EKFLKRIKETGVKFVKDTRFNDAG 911
+                                      *********************975 PP
+
+>> td33ff08978d09fc86a  ERR2683165_478 ERR2683165_478_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  274.5  11.8   3.6e-82   3.6e-82     200     684 ..     358     826 ..     296     837 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 274.5 bits;  conditional E-value: 3.6e-82
+  typeI_two_LPJP1_queries.aligned 200 lfslliri...syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilsky 274
+                                      +++ll r+    y++ ++ll++ +        e +i++h f ++    v+ +l d      +   + ++ylkri  k 
+              td33ff08978d09fc86a 358 FNNLL-RVamfGYDNYLRLLDYFI--------EKEINVHTFWDNVTYGVLSRLWDPA----E-QADFFKYLKRIGGK- 420
+                                      45555.441125777777777655........599******************9987....3.34579******555. PP
+
+  typeI_two_LPJP1_queries.aligned 275 ksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsksndlikfskekveinsiGvkt 352
+                                        ++  + + ++ y+ vr ++ ni e+  y+  ++ ak+G   g++ e ++l+++    +l+ f+ke  ei +iG +t
+              td33ff08978d09fc86a 421 SPNQISRYMGFFGYKNVRYAK-NIIEMDAYISKIEAAKRGHVSGKTGENELLLENVPGSQLVFFTKEEGEIITIGNRT 497
+                                      5567889**************.******************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 353 kccfrPdGlaksllkialesPlaGileGvldk...kiwfsfvweiviyneetksieinlildniessklldnneyeii 427
+                                       ccf+P Glaksllkia +s laGileG  ++     wf+f we+v+yn  t +ie++lildnies + ++  ++  i
+              td33ff08978d09fc86a 498 GCCFTPSGLAKSLLKIARQSNLAGILEGRHGTsrkSDWFAFTWELVEYNPVTNTIETALILDNIESLNRIEESDWIEI 575
+                                      ***************************9987522157***************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 428 idwldinsdykkiylGylrndinrtikvdkt...........qrdrssseglinsenkfsryssyddsekvyelldrk 494
+                                       +wl   + y+k+ylG  rndi ++i+ + +            +++  s  +i +e++f++y  ydds++vy+++dr 
+              td33ff08978d09fc86a 576 YKWLL-KTPYNKVYLGTQRNDIASSILSKDAdprdlndwhisSKEKLRSRQIIYYEKEFNSY-HYDDSRYVYTVFDRT 651
+                                      ***95.799****************986543111111111112333345569**********.***********7775 PP
+
+  typeI_two_LPJP1_queries.aligned 495 nnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldndd 572
+                                                 d +++       +   +  G +nr+ly +  v+  dsd + l+k+n        +s+ +l r    +
+              td33ff08978d09fc86a 652 -----------DRVPKS----IAVARVTTEGEFNRVLYAEGLVWGDDSDYQALRKLN------FHQSPTYLTRDSAGN 708
+                                      ...........566664....45666677799***********************44......4689*********** PP
+
+  typeI_two_LPJP1_queries.aligned 573 iygylistleGydpenesvqfnnrsfntdth.......skllyiedivikyykklssilkyifedlkkfiidndikyi 643
+                                      iygyli+ l+ y+ e e++ +n+  +++ ++         +ly++d+    +    ++l   +edl  +   n+iky+
+              td33ff08978d09fc86a 709 IYGYLITRLYKYNRETETILWNDS-LKVGAKhplgeneDLVLYLDDVYSTKNTSSLEALSKAVEDLLAYAQVNNIKYV 785
+                                      *****************9998764.44444401111114456666665544444444455689*************** PP
+
+  typeI_two_LPJP1_queries.aligned 644 sssfnenskqfmkrinieGlelvkdtrfndrtslktsrpes 684
+                                      s+ fn  sk+f+kri+  G+ +++dtrfnd  +  t   +s
+              td33ff08978d09fc86a 786 SAHFNSYSKKFLKRIEAAGVTFLEDTRFNDSGTQSTLAAKS 826
+                                      ******************************98877766555 PP
+
+>> o3f0930995ac7e54e75  ERR2683165_478 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  274.4  11.8   3.6e-82   3.6e-82     200     684 ..     360     828 ..     298     839 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 274.4 bits;  conditional E-value: 3.6e-82
+  typeI_two_LPJP1_queries.aligned 200 lfslliri...syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilsky 274
+                                      +++ll r+    y++ ++ll++ +        e +i++h f ++    v+ +l d      +   + ++ylkri  k 
+              o3f0930995ac7e54e75 360 FNNLL-RVamfGYDNYLRLLDYFI--------EKEINVHTFWDNVTYGVLSRLWDPA----E-QADFFKYLKRIGGK- 422
+                                      45555.441125777777777655........599******************9987....3.34579******555. PP
+
+  typeI_two_LPJP1_queries.aligned 275 ksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsksndlikfskekveinsiGvkt 352
+                                        ++  + + ++ y+ vr ++ ni e+  y+  ++ ak+G   g++ e ++l+++    +l+ f+ke  ei +iG +t
+              o3f0930995ac7e54e75 423 SPNQISRYMGFFGYKNVRYAK-NIIEMDAYISKIEAAKRGHVSGKTGENELLLENVPGSQLVFFTKEEGEIITIGNRT 499
+                                      5567889**************.******************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 353 kccfrPdGlaksllkialesPlaGileGvldk...kiwfsfvweiviyneetksieinlildniessklldnneyeii 427
+                                       ccf+P Glaksllkia +s laGileG  ++     wf+f we+v+yn  t +ie++lildnies + ++  ++  i
+              o3f0930995ac7e54e75 500 GCCFTPSGLAKSLLKIARQSNLAGILEGRHGTsrkSDWFAFTWELVEYNPVTNTIETALILDNIESLNRIEESDWIEI 577
+                                      ***************************9987522157***************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 428 idwldinsdykkiylGylrndinrtikvdkt...........qrdrssseglinsenkfsryssyddsekvyelldrk 494
+                                       +wl   + y+k+ylG  rndi ++i+ + +            +++  s  +i +e++f++y  ydds++vy+++dr 
+              o3f0930995ac7e54e75 578 YKWLL-KTPYNKVYLGTQRNDIASSILSKDAdprdlndwhisSKEKLRSRQIIYYEKEFNSY-HYDDSRYVYTVFDRT 653
+                                      ***95.799****************986543111111111112333345569**********.***********7775 PP
+
+  typeI_two_LPJP1_queries.aligned 495 nnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldndd 572
+                                                 d +++       +   +  G +nr+ly +  v+  dsd + l+k+n        +s+ +l r    +
+              o3f0930995ac7e54e75 654 -----------DRVPKS----IAVARVTTEGEFNRVLYAEGLVWGDDSDYQALRKLN------FHQSPTYLTRDSAGN 710
+                                      ...........566664....45666677799***********************44......4689*********** PP
+
+  typeI_two_LPJP1_queries.aligned 573 iygylistleGydpenesvqfnnrsfntdth.......skllyiedivikyykklssilkyifedlkkfiidndikyi 643
+                                      iygyli+ l+ y+ e e++ +n+  +++ ++         +ly++d+    +    ++l   +edl  +   n+iky+
+              o3f0930995ac7e54e75 711 IYGYLITRLYKYNRETETILWNDS-LKVGAKhplgeneDLVLYLDDVYSTKNTSSLEALSKAVEDLLAYAQVNNIKYV 787
+                                      *****************9998764.44444401111114456666665544444444455689*************** PP
+
+  typeI_two_LPJP1_queries.aligned 644 sssfnenskqfmkrinieGlelvkdtrfndrtslktsrpes 684
+                                      s+ fn  sk+f+kri+  G+ +++dtrfnd  +  t   +s
+              o3f0930995ac7e54e75 788 SAHFNSYSKKFLKRIEAAGVTFLEDTRFNDSGTQSTLAAKS 828
+                                      ******************************98877766555 PP
+
+>> odf97cba8a0566c7d1b  ERR2683165_478 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  274.4  11.8   3.6e-82   3.6e-82     200     684 ..     360     828 ..     298     839 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 274.4 bits;  conditional E-value: 3.6e-82
+  typeI_two_LPJP1_queries.aligned 200 lfslliri...syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilsky 274
+                                      +++ll r+    y++ ++ll++ +        e +i++h f ++    v+ +l d      +   + ++ylkri  k 
+              odf97cba8a0566c7d1b 360 FNNLL-RVamfGYDNYLRLLDYFI--------EKEINVHTFWDNVTYGVLSRLWDPA----E-QADFFKYLKRIGGK- 422
+                                      45555.441125777777777655........599******************9987....3.34579******555. PP
+
+  typeI_two_LPJP1_queries.aligned 275 ksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsksndlikfskekveinsiGvkt 352
+                                        ++  + + ++ y+ vr ++ ni e+  y+  ++ ak+G   g++ e ++l+++    +l+ f+ke  ei +iG +t
+              odf97cba8a0566c7d1b 423 SPNQISRYMGFFGYKNVRYAK-NIIEMDAYISKIEAAKRGHVSGKTGENELLLENVPGSQLVFFTKEEGEIITIGNRT 499
+                                      5567889**************.******************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 353 kccfrPdGlaksllkialesPlaGileGvldk...kiwfsfvweiviyneetksieinlildniessklldnneyeii 427
+                                       ccf+P Glaksllkia +s laGileG  ++     wf+f we+v+yn  t +ie++lildnies + ++  ++  i
+              odf97cba8a0566c7d1b 500 GCCFTPSGLAKSLLKIARQSNLAGILEGRHGTsrkSDWFAFTWELVEYNPVTNTIETALILDNIESLNRIEESDWIEI 577
+                                      ***************************9987522157***************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 428 idwldinsdykkiylGylrndinrtikvdkt...........qrdrssseglinsenkfsryssyddsekvyelldrk 494
+                                       +wl   + y+k+ylG  rndi ++i+ + +            +++  s  +i +e++f++y  ydds++vy+++dr 
+              odf97cba8a0566c7d1b 578 YKWLL-KTPYNKVYLGTQRNDIASSILSKDAdprdlndwhisSKEKLRSRQIIYYEKEFNSY-HYDDSRYVYTVFDRT 653
+                                      ***95.799****************986543111111111112333345569**********.***********7775 PP
+
+  typeI_two_LPJP1_queries.aligned 495 nnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldndd 572
+                                                 d +++       +   +  G +nr+ly +  v+  dsd + l+k+n        +s+ +l r    +
+              odf97cba8a0566c7d1b 654 -----------DRVPKS----IAVARVTTEGEFNRVLYAEGLVWGDDSDYQALRKLN------FHQSPTYLTRDSAGN 710
+                                      ...........566664....45666677799***********************44......4689*********** PP
+
+  typeI_two_LPJP1_queries.aligned 573 iygylistleGydpenesvqfnnrsfntdth.......skllyiedivikyykklssilkyifedlkkfiidndikyi 643
+                                      iygyli+ l+ y+ e e++ +n+  +++ ++         +ly++d+    +    ++l   +edl  +   n+iky+
+              odf97cba8a0566c7d1b 711 IYGYLITRLYKYNRETETILWNDS-LKVGAKhplgeneDLVLYLDDVYSTKNTSSLEALSKAVEDLLAYAQVNNIKYV 787
+                                      *****************9998764.44444401111114456666665544444444455689*************** PP
+
+  typeI_two_LPJP1_queries.aligned 644 sssfnenskqfmkrinieGlelvkdtrfndrtslktsrpes 684
+                                      s+ fn  sk+f+kri+  G+ +++dtrfnd  +  t   +s
+              odf97cba8a0566c7d1b 788 SAHFNSYSKKFLKRIEAAGVTFLEDTRFNDSGTQSTLAAKS 828
+                                      ******************************98877766555 PP
+
+>> o2392e1be537f8a3937  SRR22802066_51 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.8  27.7   2.4e-78   2.4e-78     196     683 ..     353     806 ..     305     821 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 261.8 bits;  conditional E-value: 2.4e-78
+  typeI_two_LPJP1_queries.aligned 196 ylsklfsllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilsk 273
+                                       l kl  ll r s++  +++lnk++          ++d+h  ++ f k   + l d    +s y     ++++r++ k
+              o2392e1be537f8a3937 353 SLNKLAILLTRPSFKFQIEFLNKCID--------KELDIHTTLDSFNKSFYKNLSDPS-WESIYT----KFFNRVFVK 417
+                                      45678888889999999999999987........89**********999999888877.555553....688888777 PP
+
+  typeI_two_LPJP1_queries.aligned 274 yksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsk.sndlikfskekveinsiGv 350
+                                       k+  +  +++yiny++v  ++ n+  ++  +  ++ a++G + g++ +s+ml+ ++    +   f+ke  ei +iG 
+              o2392e1be537f8a3937 418 SKN-SLTNFFPYINYKGVYMAK-NLLTMESVITKIQEARRGFSTGKIVKSEMLFGENMpIKEEAFFTKEDGEIITIGA 493
+                                      665.57899*************.*******************************98862567889************* PP
+
+  typeI_two_LPJP1_queries.aligned 351 ktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiii 428
+                                      +t ccf+ dG+ak+l+ +a +sPlaGi+eG + k +wfsfvwei +++e t si ++lildnies   l   ++++ +
+              o2392e1be537f8a3937 494 RTGCCFKTDGAAKTLIPVAKQSPLAGIIEGKF-KATWFSFVWEIIEFDETTNSIRTSLILDNIESLVRLSPSDWDVFM 570
+                                      *******************************9.579****************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 429 dwldinsdykkiylGylrndinrtikvdktq....rdrssseglinsenkfsryssyddsekvyelldrknnikyigs 502
+                                      +wl+  s+y k+ylG +rn i+ +i ++k +    ++r+    li++e++f++y  ydds++vy++            
+              o2392e1be537f8a3937 571 KWLN-KSKYSKVYLGNMRNKIDGSIINNKIKssdtKLRPYP--LICYEKNFNSY-FYDDSKYVYTV------------ 632
+                                      **95.79************9988777766651111567777..***********.9**********............ PP
+
+  typeI_two_LPJP1_queries.aligned 503 dnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygylist 580
+                                        kd  ++ ++  + + + +  G + r ly +k v+  +sd + l+k       +   s+s+++r     i++yl+++
+              o2392e1be537f8a3937 633 --KDTPRKSEN--LELHQINTEGEFHRLLYAEKIVWGENSDSDVLRK------LKYRNSPSFILRDKHGTIFSYLVTK 700
+                                      ..787777776..556666788*************************......344568999**************** PP
+
+  typeI_two_LPJP1_queries.aligned 581 leGydpenesvqfnnrsfnt....dthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqf 654
+                                      l+    e e+v +n+ sfn     +    +ly++d+    ++    +l  + +++ +fi +n+iky+s+s+ne s+ f
+              o2392e1be537f8a3937 701 LYSTKDEGETVIYND-SFNYkhleEDEELVLYLDDVFATNNRASKRSLLIMQNQILEFIKENNIKYVSASLNEYSRPF 777
+                                      **********98875.666411113456689***********9999**999999************************ PP
+
+  typeI_two_LPJP1_queries.aligned 655 mkrinieGlelvkdtrfndrtslktsrpe 683
+                                      ++ri   Gl+++ dtrf + t l  s   
+              o2392e1be537f8a3937 778 INRILDSGLKFISDTRFSEETRLMPSLEP 806
+                                      *********************99877533 PP
+
+>> t173e556372e7f95c41  SRR22802066_51 SRR22802066_51_pgv24
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.5  28.0     3e-78     3e-78     196     683 ..     352     805 ..     305     820 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 261.5 bits;  conditional E-value: 3e-78
+  typeI_two_LPJP1_queries.aligned 196 ylsklfsllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilsk 273
+                                       l kl  ll r s++  +++lnk++          ++d+h  ++ f k   + l d    +s y     ++++r++ k
+              t173e556372e7f95c41 352 SLNKLAILLTRPSFKFQIEFLNKCID--------KELDIHTTLDSFNKSFYKNLSDPS-WESIYT----KFFNRVFVK 416
+                                      45678888889999999999999987........89**********999999888877.555553....688888777 PP
+
+  typeI_two_LPJP1_queries.aligned 274 yksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmliddsk.sndlikfskekveinsiGv 350
+                                       k+  +  +++yiny++v  ++ n+  ++  +  ++ a++G + g++ +s+ml+ ++    +   f+ke  ei +iG 
+              t173e556372e7f95c41 417 SKN-SLTNFFPYINYKGVYMAK-NLLTMESVITKIQEARRGFSTGKIVKSEMLFGENMpIKEEAFFTKEDGEIITIGA 492
+                                      665.57899*************.*******************************98862567889************* PP
+
+  typeI_two_LPJP1_queries.aligned 351 ktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiii 428
+                                      +t ccf+ dG+ak+l+ +a +sPlaGi+eG + k +wfsfvwei +++e t si ++lildnies   l   ++++ +
+              t173e556372e7f95c41 493 RTGCCFKTDGAAKTLIPVAKQSPLAGIIEGKF-KATWFSFVWEIIEFDETTNSIRTSLILDNIESLVRLSPSDWDVFM 569
+                                      *******************************9.579****************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 429 dwldinsdykkiylGylrndinrtikvdktq....rdrssseglinsenkfsryssyddsekvyelldrknnikyigs 502
+                                      +wl+  s+y k+ylG +rn i+ +i ++k +    ++r+    li++e++f++y  ydds++vy++            
+              t173e556372e7f95c41 570 KWLN-KSKYSKVYLGNMRNKIDGSIINNKIKssdtKLRPYP--LICYEKNFNSY-FYDDSKYVYTV------------ 631
+                                      **95.79************9988777766651111567777..***********.9**********............ PP
+
+  typeI_two_LPJP1_queries.aligned 503 dnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygylist 580
+                                        kd  ++ ++  + + + +  G + r ly +k v+  +sd + l+k       +   s+s+++r     i++yl+++
+              t173e556372e7f95c41 632 --KDTPRKSEN--LELHQINTEGEFHRLLYAEKIVWGENSDSDVLRK------LKYRNSPSFILRDKHGTIFSYLVTK 699
+                                      ..787777776..556666788*************************......344568999**************** PP
+
+  typeI_two_LPJP1_queries.aligned 581 leGydpenesvqfnnrsfnt....dthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqf 654
+                                      l+    e e+v +n+ sfn     +    +ly++d+    ++    +l  + +++ +fi +n+iky+s+s+ne s+ f
+              t173e556372e7f95c41 700 LYSTKDEGETVIYND-SFNYkhleEDEELVLYLDDVFATNNRASKRSLLIMQNQILEFIKENNIKYVSASLNEYSRPF 776
+                                      **********98875.666411113456689***********9999**999999************************ PP
+
+  typeI_two_LPJP1_queries.aligned 655 mkrinieGlelvkdtrfndrtslktsrpe 683
+                                      ++ri   Gl+++ dtrf + t l  s   
+              t173e556372e7f95c41 777 INRILDSGLKFISDTRFSEETRLMPSLEP 805
+                                      *********************99877533 PP
+
+>> td025e3e6021a537516  ERR8509207_4241 ERR8509207_4241_pgv29
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  214.1  10.9   6.3e-64   6.3e-64     187     676 ..     246     724 ..     212     733 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 214.1 bits;  conditional E-value: 6.3e-64
+  typeI_two_LPJP1_queries.aligned 187 sflkekkknylsklfsllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddk.kv.nstyide 262
+                                       +l +++  +  +l+ l+  +sy+++ kll        + +++  id+h ++e+f     + +i+ + k    + ++e
+              td025e3e6021a537516 246 FYLGNRNYVGERRLHLLIDALSYKEMNKLLQAFLN--FRKKADRFIDIHDLLENFTSGYFKSIIEGDlKGpLGSIMEE 321
+                                      45566666677888888889**********97766..35567899************999999887612213455566 PP
+
+  typeI_two_LPJP1_queries.aligned 263 ilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakk........Glkygevseskmlid.... 328
+                                      +++   +i      d++ k+l+y nye + +s   i +   ++ +++ a++        G++  ++ e+kml+d    
+              td025e3e6021a537516 322 LYSVTPSI------DNMYKFLKYANYEFLYDSTKSIWDKLDHIGVIEGARAlksvtselGVSN-KMVEGKMLFDpilv 392
+                                      66666666......889999****************************998333322223333.56789**9984444 PP
+
+  typeI_two_LPJP1_queries.aligned 329 dsksn....dlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGv..ldkkiwfsfvweiviynee 400
+                                      d+       + + +sk+ v +n+iG  t+ccf+P+G+a+sl+ ia  sPlaGil+G     k +wfsfvwe    ++e
+              td025e3e6021a537516 393 DNDLTdpryKEVFYSKNPVLVNNIGSLTHCCFTPNGMARSLVAIARTSPLAGILNGRdrESKTTWFSFVWEQIRQDKE 470
+                                      33322111145789******************************************73246789************** PP
+
+  typeI_two_LPJP1_queries.aligned 401 tksieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsry 478
+                                      t  +   l+ldn+e++k l  + +  +i+ l++ns+yk + lG  rnd+ +    +  + +  ++  +  ++++f+ry
+              td025e3e6021a537516 471 TGLFYPVLVLDNVEAEKKLSAEFFTRVINRLKQNSNYKHVVLGTSRNDLVQMNFMNEPYAK-EDT--IPLYDKQFARY 545
+                                      ************************************************9887777766654.444..678******** PP
+
+  typeI_two_LPJP1_queries.aligned 479 ssyddsekvyelldrknnikyigsdnkdiikdydd.yseviiekadiGwinrslyvkkyvikldsdleklkkvnklfi 555
+                                        ydds+++y++        y         +dy++   e+i+e+a  Gw+ r+   +++v+  +sd  +lk      i
+              td025e3e6021a537516 546 -GYDDSRYLYDV--------Y--------KEDYSEsVDELIVERATSGWFDRVAGAERKVWGSNSDP-DLKS-----I 600
+                                      .***********........2........23454413479*************************95.5677.....7 PP
+
+  typeI_two_LPJP1_queries.aligned 556 arksksisslirldnddiygylistleGydpenesvqfnnr....sfntdt.hskllyiedivikyykklssilkyif 628
+                                      a   k +s++ir  ++ i gy+i+ l   d  ++ v++       s   d     +l  edi ++  kk+ ++++yi+
+              td025e3e6021a537516 601 AT-DKAPSYVIRTSDNRIVGYVITRLVQLDVAEQEVDYRYTrkkpSAIRDIvTEPVLLFEDIYLRKSKKVMKAFQYIV 677
+                                      76.589************************99999988643112234445414568999******************* PP
+
+  typeI_two_LPJP1_queries.aligned 629 edlkkfiidndikyisssfnenskqfmkrinieGlelvkdtrfndrts 676
+                                      ed+k++i dn+i y ++s n  s  f+kr++ e + +++dtrf +r+ 
+              td025e3e6021a537516 678 EDIKHYIRDNEILYSAASCNTLSAPFIKRLK-EMTTFIEDTRFGQRAE 724
+                                      *****************************97.8899*******99975 PP
+
+>> o42715599d88b429392  ERR8509207_4241 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  214.1  10.8   6.5e-64   6.5e-64     187     676 ..     251     729 ..     217     738 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 214.1 bits;  conditional E-value: 6.5e-64
+  typeI_two_LPJP1_queries.aligned 187 sflkekkknylsklfsllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddk.kv.nstyide 262
+                                       +l +++  +  +l+ l+  +sy+++ kll        + +++  id+h ++e+f     + +i+ + k    + ++e
+              o42715599d88b429392 251 FYLGNRNYVGERRLHLLIDALSYKEMNKLLQAFLN--FRKKADRFIDIHDLLENFTSGYFKSIIEGDlKGpLGSIMEE 326
+                                      45566666677888888889**********97766..35567899************999999887612213455566 PP
+
+  typeI_two_LPJP1_queries.aligned 263 ilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakk........Glkygevseskmlid.... 328
+                                      +++   +i      d++ k+l+y nye + +s   i +   ++ +++ a++        G++  ++ e+kml+d    
+              o42715599d88b429392 327 LYSVTPSI------DNMYKFLKYANYEFLYDSTKSIWDKLDHIGVIEGARAlksvtselGVSN-KMVEGKMLFDpilv 397
+                                      66666666......889999****************************998333322223333.56789**9984444 PP
+
+  typeI_two_LPJP1_queries.aligned 329 dsksn....dlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGv..ldkkiwfsfvweiviynee 400
+                                      d+       + + +sk+ v +n+iG  t+ccf+P+G+a+sl+ ia  sPlaGil+G     k +wfsfvwe    ++e
+              o42715599d88b429392 398 DNDLTdpryKEVFYSKNPVLVNNIGSLTHCCFTPNGMARSLVAIARTSPLAGILNGRdrESKTTWFSFVWEQIRQDKE 475
+                                      33322111145789******************************************73246789************** PP
+
+  typeI_two_LPJP1_queries.aligned 401 tksieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsry 478
+                                      t  +   l+ldn+e++k l  + +  +i+ l++ns+yk + lG  rnd+ +    +  + +  ++  +  ++++f+ry
+              o42715599d88b429392 476 TGLFYPVLVLDNVEAEKKLSAEFFTRVINRLKQNSNYKHVVLGTSRNDLVQMNFMNEPYAK-EDT--IPLYDKQFARY 550
+                                      ************************************************9887777766654.444..678******** PP
+
+  typeI_two_LPJP1_queries.aligned 479 ssyddsekvyelldrknnikyigsdnkdiikdydd.yseviiekadiGwinrslyvkkyvikldsdleklkkvnklfi 555
+                                        ydds+++y++        y         +dy++   e+i+e+a  Gw+ r+   +++v+  +sd  +lk      i
+              o42715599d88b429392 551 -GYDDSRYLYDV--------Y--------KEDYSEsVDELIVERATSGWFDRVAGAERKVWGSNSDP-DLKS-----I 605
+                                      .***********........2........23454413479*************************95.5677.....7 PP
+
+  typeI_two_LPJP1_queries.aligned 556 arksksisslirldnddiygylistleGydpenesvqfnnr....sfntdt.hskllyiedivikyykklssilkyif 628
+                                      a   k +s++ir  ++ i gy+i+ l   d  ++ v++       s   d     +l  edi ++  kk+ ++++yi+
+              o42715599d88b429392 606 AT-DKAPSYVIRTSDNRIVGYVITRLVQLDVAEQEVDYRYTrkkpSAIRDIvTEPVLLFEDIYLRKSKKVMKAFQYIV 682
+                                      76.589************************99999988643112234445414568999******************* PP
+
+  typeI_two_LPJP1_queries.aligned 629 edlkkfiidndikyisssfnenskqfmkrinieGlelvkdtrfndrts 676
+                                      ed+k++i dn+i y ++s n  s  f+kr++ e + +++dtrf +r+ 
+              o42715599d88b429392 683 EDIKHYIRDNEILYSAASCNTLSAPFIKRLK-EMTTFIEDTRFGQRAE 729
+                                      *****************************97.8899*******99975 PP
+
+>> t56fb614810d31006c5  ERR8025381_8562 ERR8025381_8562_pgv13
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  208.9   9.0   2.4e-62   2.4e-62     167     676 ..     232     722 ..     202     731 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 208.9 bits;  conditional E-value: 2.4e-62
+  typeI_two_LPJP1_queries.aligned 167 ikdkytsnldnklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkk 244
+                                      +kd+y +          ++ s+l +k+     +l  l+  +sy++l kll+  +    + ++e  id+h f+e++ k 
+              t56fb614810d31006c5 232 LKDRYLNH---------YEYSYLGNKNYVNSRRLQLLIDALSYKELDKLLEAFIN--FRRKTERLIDIHDFLENLSKG 298
+                                      45555555.........88899999999999999999999**********97766..577899*************** PP
+
+  typeI_two_LPJP1_queries.aligned 245 viekliddkkvn..styideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakk..Glky. 317
+                                        + ++  + v    + ++e+++   +i      d++ k+l+y ny+ + +s   i+e   ++ +++ a++  G+   
+              t56fb614810d31006c5 299 FFDNIVAGNIVGplGSVMEELYKVAPSI------DNMYKFLKYANYRFLYDSSKTIQEKLDHIGVIEGARAlrGVTKe 370
+                                      *999999997753246777777777777......8899999***********99*************99965554321 PP
+
+  typeI_two_LPJP1_queries.aligned 318 .g...evseskmlid....dsk....sndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvld 383
+                                       g   ++ e+kml+     d++      + i +sk+   +n+iG  t+ccf+P+G+a+sl+ ia  sPlaGil+G  d
+              t56fb614810d31006c5 371 lGvanKMVEGKMLFHpvlvDNElvdpKYKEIFYSKNSILVNKIGNLTHCCFTPNGMARSLVGIARTSPLAGILTGRDD 448
+                                      122226789***985333333311112356899******************************************999 PP
+
+  typeI_two_LPJP1_queries.aligned 384 kk..iwfsfvweiviyneetksieinlildniesskl.ldnneyeiiidwldinsdykkiylGylrndinrtikvdkt 458
+                                       k  +wfsfvwe    + +t  +   l+ldn+e+++l l  + ++ +i+ l+ +sdy+ + lG  rndinr    + +
+              t56fb614810d31006c5 449 AKrtTWFSFVWEQIRQEPDTGLFYPVLVLDNVEAENLaLTVDFFSKVIERLKEDSDYHHVVLGTSRNDINRMDFMKDS 526
+                                      77669****************************97753888889***************************8777777 PP
+
+  typeI_two_LPJP1_queries.aligned 459 qrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkky 536
+                                      +r   ++e +  ++++f+ry  ydds ++y++        y     k   +d  d  e+++e+a  Gw+ r+   +++
+              t56fb614810d31006c5 527 YR---KTENIPLYDKQFARY-GYDDSLNLYDV--------Y-----KTPFNDTVD--ELVVERATSGWFDRVAGAERK 585
+                                      76...5777899********.***********........3.....333334444..899****************** PP
+
+  typeI_two_LPJP1_queries.aligned 537 vikldsdleklkkvnklfiarksksisslirldnddiygylistleGydpenesvqfnnr....sfntdt.hskllyi 609
+                                      v+  +sd  +lk      ia   k +s++ir  ++ i gy+i+ l   d  ++ v++       s   d     +l  
+              t56fb614810d31006c5 586 VWGSNSDP-DLKS-----IAT-DKAPSYVIRTSDNRIVGYVIARLVQLDVAEQEVDYRYTrkkpSAIRDIvTEPVLLF 656
+                                      ******95.5677.....776.589************************99999988643112234445414568999 PP
+
+  typeI_two_LPJP1_queries.aligned 610 edivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvkdtrfndrts 676
+                                      edi ++  kk+ ++++ i+ed+k++i dn+i y ++s n  s  f+kr++ e + +++dtrf +r+ 
+              t56fb614810d31006c5 657 EDIYLRKSKKVMKAFQCIVEDIKHYIRDNEILYSAASCNTLSAPFIKRLK-EMTTFIEDTRFGQRAE 722
+                                      ************************************************97.8899*******99975 PP
+
+>> o0a1e2a1ca7bc0d46ab  ERR8025381_8562 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  208.9   9.0   2.4e-62   2.4e-62     167     676 ..     238     728 ..     208     737 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 208.9 bits;  conditional E-value: 2.4e-62
+  typeI_two_LPJP1_queries.aligned 167 ikdkytsnldnklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkk 244
+                                      +kd+y +          ++ s+l +k+     +l  l+  +sy++l kll+  +    + ++e  id+h f+e++ k 
+              o0a1e2a1ca7bc0d46ab 238 LKDRYLNH---------YEYSYLGNKNYVNSRRLQLLIDALSYKELDKLLEAFIN--FRRKTERLIDIHDFLENLSKG 304
+                                      45555555.........88899999999999999999999**********97766..577899*************** PP
+
+  typeI_two_LPJP1_queries.aligned 245 viekliddkkvn..styideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakk..Glky. 317
+                                        + ++  + v    + ++e+++   +i      d++ k+l+y ny+ + +s   i+e   ++ +++ a++  G+   
+              o0a1e2a1ca7bc0d46ab 305 FFDNIVAGNIVGplGSVMEELYKVAPSI------DNMYKFLKYANYRFLYDSSKTIQEKLDHIGVIEGARAlrGVTKe 376
+                                      *999999997753246777777777777......8899999***********99*************99965554321 PP
+
+  typeI_two_LPJP1_queries.aligned 318 .g...evseskmlid....dsk....sndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvld 383
+                                       g   ++ e+kml+     d++      + i +sk+   +n+iG  t+ccf+P+G+a+sl+ ia  sPlaGil+G  d
+              o0a1e2a1ca7bc0d46ab 377 lGvanKMVEGKMLFHpvlvDNElvdpKYKEIFYSKNSILVNKIGNLTHCCFTPNGMARSLVGIARTSPLAGILTGRDD 454
+                                      122226789***985333333311112356899******************************************999 PP
+
+  typeI_two_LPJP1_queries.aligned 384 kk..iwfsfvweiviyneetksieinlildniesskl.ldnneyeiiidwldinsdykkiylGylrndinrtikvdkt 458
+                                       k  +wfsfvwe    + +t  +   l+ldn+e+++l l  + ++ +i+ l+ +sdy+ + lG  rndinr    + +
+              o0a1e2a1ca7bc0d46ab 455 AKrtTWFSFVWEQIRQEPDTGLFYPVLVLDNVEAENLaLTVDFFSKVIERLKEDSDYHHVVLGTSRNDINRMDFMKDS 532
+                                      77669****************************97753888889***************************8777777 PP
+
+  typeI_two_LPJP1_queries.aligned 459 qrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkky 536
+                                      +r   ++e +  ++++f+ry  ydds ++y++        y     k   +d  d  e+++e+a  Gw+ r+   +++
+              o0a1e2a1ca7bc0d46ab 533 YR---KTENIPLYDKQFARY-GYDDSLNLYDV--------Y-----KTPFNDTVD--ELVVERATSGWFDRVAGAERK 591
+                                      76...5777899********.***********........3.....333334444..899****************** PP
+
+  typeI_two_LPJP1_queries.aligned 537 vikldsdleklkkvnklfiarksksisslirldnddiygylistleGydpenesvqfnnr....sfntdt.hskllyi 609
+                                      v+  +sd  +lk      ia   k +s++ir  ++ i gy+i+ l   d  ++ v++       s   d     +l  
+              o0a1e2a1ca7bc0d46ab 592 VWGSNSDP-DLKS-----IAT-DKAPSYVIRTSDNRIVGYVIARLVQLDVAEQEVDYRYTrkkpSAIRDIvTEPVLLF 662
+                                      ******95.5677.....776.589************************99999988643112234445414568999 PP
+
+  typeI_two_LPJP1_queries.aligned 610 edivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvkdtrfndrts 676
+                                      edi ++  kk+ ++++ i+ed+k++i dn+i y ++s n  s  f+kr++ e + +++dtrf +r+ 
+              o0a1e2a1ca7bc0d46ab 663 EDIYLRKSKKVMKAFQCIVEDIKHYIRDNEILYSAASCNTLSAPFIKRLK-EMTTFIEDTRFGQRAE 728
+                                      ************************************************97.8899*******99975 PP
+
+>> t9967e56a72cc788510  SRR5371381_9952 SRR5371381_9952_pgv4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  181.2  24.2   5.8e-54   5.8e-54     203     500 ..     100     375 ..      55     479 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 181.2 bits;  conditional E-value: 5.8e-54
+  typeI_two_LPJP1_queries.aligned 203 llirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddfl 280
+                                      ++  +  + +++++nk         s++ki+ h+f ++ P+  i+k +d      ++i +il+y  +       + ++
+              t9967e56a72cc788510 100 VFTSMNINTAIQIINKL--------SDEKISAHNFFSNIPQS-INKPEDWG----AFIIKILNYNISQ------NTLF 158
+                                      34344555555555555........459************86.78877666....8*******96555......7899 PP
+
+  typeI_two_LPJP1_queries.aligned 281 kllnyinyevvrksdlnikelrkyvnivdlakkGlky.ge.vseskmliddsksndlikfskekveinsiGvktkccf 356
+                                      kll   n++ + ++  n ++l   +  ++ +k+ l+  g+ ++ ++mli+d     +  fsk   +i+siG kt ccf
+              t9967e56a72cc788510 159 KLLLVSNHRRILDAP-NKEKLLNELAYLE-TKQTLSLaGDtTAPANMLIKDLD-APFCAFSKSASDITSIGNKTFCCF 233
+                                      ***********9999.7666665555554.45555442551567899999876.68********************** PP
+
+  typeI_two_LPJP1_queries.aligned 357 rPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldin 434
+                                      +  G+ ++l+ i+l+sP+aGi+ G  ++k+wf++vwe+v+yn+etk+++inl+ldnie+++ ld ney +ii+ +   
+              t9967e56a72cc788510 234 KKGGVGEPLMLISLKSPIAGIIWGEKGNKTWFAYVWELVEYNKETKTFDINLVLDNIEANNRLDENEYYYIIEKIAAK 311
+                                      ****************************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 435 sdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyi 500
+                                        ykk+ylGy+rndi+  +k  +t++ +s   g+  ++++ ++ys ydds+ +y+ + r+++ +y 
+              t9967e56a72cc788510 312 NVYKKVYLGYMRNDIDIPYKILNTRHRKSR--GITFFNKETEKYSCYDDSREIYDCIIREEDTNYE 375
+                                      *********************999776655..5778888889**************9999887774 PP
+
+>> o7e2f06bb47601848b1  SRR5371381_9952 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  181.1  24.2   6.3e-54   6.3e-54     203     500 ..     114     389 ..      69     493 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 181.1 bits;  conditional E-value: 6.3e-54
+  typeI_two_LPJP1_queries.aligned 203 llirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddfl 280
+                                      ++  +  + +++++nk         s++ki+ h+f ++ P+  i+k +d      ++i +il+y  +       + ++
+              o7e2f06bb47601848b1 114 VFTSMNINTAIQIINKL--------SDEKISAHNFFSNIPQS-INKPEDWG----AFIIKILNYNISQ------NTLF 172
+                                      34344555555555555........459************86.78877666....8*******96555......7899 PP
+
+  typeI_two_LPJP1_queries.aligned 281 kllnyinyevvrksdlnikelrkyvnivdlakkGlky.ge.vseskmliddsksndlikfskekveinsiGvktkccf 356
+                                      kll   n++ + ++  n ++l   +  ++ +k+ l+  g+ ++ ++mli+d     +  fsk   +i+siG kt ccf
+              o7e2f06bb47601848b1 173 KLLLVSNHRRILDAP-NKEKLLNELAYLE-TKQTLSLaGDtTAPANMLIKDLD-APFCAFSKSASDITSIGNKTFCCF 247
+                                      ***********9999.7666665555554.45555442551567899999876.68********************** PP
+
+  typeI_two_LPJP1_queries.aligned 357 rPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldin 434
+                                      +  G+ ++l+ i+l+sP+aGi+ G  ++k+wf++vwe+v+yn+etk+++inl+ldnie+++ ld ney +ii+ +   
+              o7e2f06bb47601848b1 248 KKGGVGEPLMLISLKSPIAGIIWGEKGNKTWFAYVWELVEYNKETKTFDINLVLDNIEANNRLDENEYYYIIEKIAAK 325
+                                      ****************************************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 435 sdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyi 500
+                                        ykk+ylGy+rndi+  +k  +t++ +s   g+  ++++ ++ys ydds+ +y+ + r+++ +y 
+              o7e2f06bb47601848b1 326 NVYKKVYLGYMRNDIDIPYKILNTRHRKSR--GITFFNKETEKYSCYDDSREIYDCIIREEDTNYE 389
+                                      *********************999776655..5778888889**************9999887774 PP
+
+>> t17b8bd9d64cb725a0d  SRR10873276_990 SRR10873276_990_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  169.9  16.6   1.5e-50   1.5e-50     182     669 ..      83     568 ..      44     591 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 169.9 bits;  conditional E-value: 1.5e-50
+  typeI_two_LPJP1_queries.aligned 182 elfdisflkekkknylsklfslliri.syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnst 258
+                                      + + i ++ + +  +  k f+ lir+  y+++tkl+ +++          ++d+h+++ ++P+  i+k ++       
+              t17b8bd9d64cb725a0d  83 QTMAIPNIGNSEYHFTIKNFAHLIRLlEYDRITKLIRMIIA--------KRVDFHEWIANLPR--IHKDDSP------ 144
+                                      4567777777777778888888888538*********9999........89***********7..4554444...... PP
+
+  typeI_two_LPJP1_queries.aligned 259 yideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmli......... 327
+                                        +++++ lkr   k++++    +++++ny+ +r+++ n +e  k+v +v++a++ ++ +++  ++m i         
+              t17b8bd9d64cb725a0d 145 --ETVFQILKRF-MKFNKETRYEMMSFMNYKKIREAK-NANEAMKHVRVVKMARNKMSKSDIVPANMSIcdlfngdrd 218
+                                      ..5999*****9.89**********************.***************************9988333333322 PP
+
+  typeI_two_LPJP1_queries.aligned 328 dds...ksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetk 402
+                                      dd     + ++++fsk+   + siG  t+ccfr  Gla+sll +al+sP++Gi++G+  +  wfsf+we+v+  ee  
+              t17b8bd9d64cb725a0d 219 DDLeyvDQSKILQFSKDPIIVGSIGQETHCCFRKGGLAASLLAPALKSPISGIIHGYRPN-RWFSFIWEMVV--EEDG 293
+                                      122111346799********************************************9865.6********97..6778 PP
+
+  typeI_two_LPJP1_queries.aligned 403 sieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqr......drssse..g..... 467
+                                       ++ nl+ldnie++k l  + y+ +++ ++  ++y ++ylG  rndi+    v + +       d  +s+  g     
+              t17b8bd9d64cb725a0d 294 VFKKNLVLDNIEATKRLPVDFYNSLAEQIS-TTQYSRVYLGTSRNDIELPSEVTQGRIetdhddDNDHSNltGntikk 370
+                                      99**************************97.599*************8554444332200111123333222233333 PP
+
+  typeI_two_LPJP1_queries.aligned 468 ...linsenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyviklds 542
+                                         +i +e +f++yssydds ++y+l                 ik+ dd   vi+    +G + r  y+++  + ++s
+              t17b8bd9d64cb725a0d 371 pvhMIGYESNFKKYSSYDDSSNLYTL-----------------IKQEDD-VDVIVHPMTPGDLHRCKYIEQDIYAQES 430
+                                      33389*********************.................888888.8999999*************99999987 PP
+
+  typeI_two_LPJP1_queries.aligned 543 dleklkkvnklfiarksksisslirldnddiygylistleGydp......enesvq...fnnrsf.n.......tdth 603
+                                      + +    v+  f+  ++k   s +      iygy+ + l+ y        +ne +    f ++   n       t   
+              t17b8bd9d64cb725a0d 431 EAD----VD--FLKINVKASPSYVWESKTAIYGYFATRLKWYWDtweryeQNEDISlseFRKKVKeNkenelppTTGM 502
+                                      643....23..44456666566677888999******99987431222224555431113222111111122225567 PP
+
+  typeI_two_LPJP1_queries.aligned 604 skllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvkdt 669
+                                       k+ly+edi +  +++l  +lk +f+ l  +     i  is s+ne +k+f  ri+ eG  +  +t
+              t17b8bd9d64cb725a0d 503 VKVLYLEDIFLLPNRDLKVSLKEVFDHLIAWCHKHSITNISGSMNESAKNFKTRIEAEGFTYYAQT 568
+                                      8**********************************************************9877655 PP
+
+>> t6014f7cd493b36f233  SRR10873277_312 SRR10873277_312_pgv10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  169.9  16.6   1.5e-50   1.5e-50     182     669 ..      83     568 ..      44     591 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 169.9 bits;  conditional E-value: 1.5e-50
+  typeI_two_LPJP1_queries.aligned 182 elfdisflkekkknylsklfslliri.syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnst 258
+                                      + + i ++ + +  +  k f+ lir+  y+++tkl+ +++          ++d+h+++ ++P+  i+k ++       
+              t6014f7cd493b36f233  83 QTMAIPNIGNSEYHFTIKNFAHLIRLlEYDRITKLIRMIIA--------KRVDFHEWIANLPR--IHKDDSP------ 144
+                                      4567777777777778888888888538*********9999........89***********7..4554444...... PP
+
+  typeI_two_LPJP1_queries.aligned 259 yideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmli......... 327
+                                        +++++ lkr   k++++    +++++ny+ +r+++ n +e  k+v +v++a++ ++ +++  ++m i         
+              t6014f7cd493b36f233 145 --ETVFQILKRF-MKFNKETRYEMMSFMNYKKIREAK-NANEAMKHVRVVKMARNKMSKSDIVPANMSIcdlfngdrd 218
+                                      ..5999*****9.89**********************.***************************9988333333322 PP
+
+  typeI_two_LPJP1_queries.aligned 328 dds...ksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetk 402
+                                      dd     + ++++fsk+   + siG  t+ccfr  Gla+sll +al+sP++Gi++G+  +  wfsf+we+v+  ee  
+              t6014f7cd493b36f233 219 DDLeyvDQSKILQFSKDPIIVGSIGQETHCCFRKGGLAASLLAPALKSPISGIIHGYRPN-RWFSFIWEMVV--EEDG 293
+                                      122111346799********************************************9865.6********97..6778 PP
+
+  typeI_two_LPJP1_queries.aligned 403 sieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqr......drssse..g..... 467
+                                       ++ nl+ldnie++k l  + y+ +++ ++  ++y ++ylG  rndi+    v + +       d  +s+  g     
+              t6014f7cd493b36f233 294 VFKKNLVLDNIEATKRLPVDFYNSLAEQIS-TTQYSRVYLGTSRNDIELPSEVTQGRIetdhddDNDHSNltGntikk 370
+                                      99**************************97.599*************8554444332200111123333222233333 PP
+
+  typeI_two_LPJP1_queries.aligned 468 ...linsenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyviklds 542
+                                         +i +e +f++yssydds ++y+l                 ik+ dd   vi+    +G + r  y+++  + ++s
+              t6014f7cd493b36f233 371 pvhMIGYESNFKKYSSYDDSSNLYTL-----------------IKQEDD-VDVIVHPMTPGDLHRCKYIEQDIYAQES 430
+                                      33389*********************.................888888.8999999*************99999987 PP
+
+  typeI_two_LPJP1_queries.aligned 543 dleklkkvnklfiarksksisslirldnddiygylistleGydp......enesvq...fnnrsf.n.......tdth 603
+                                      + +    v+  f+  ++k   s +      iygy+ + l+ y        +ne +    f ++   n       t   
+              t6014f7cd493b36f233 431 EAD----VD--FLKINVKASPSYVWESKTAIYGYFATRLKWYWDtweryeQNEDISlseFRKKVKeNkenelppTTGM 502
+                                      643....23..44456666566677888999******99987431222224555431113222111111122225567 PP
+
+  typeI_two_LPJP1_queries.aligned 604 skllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvkdt 669
+                                       k+ly+edi +  +++l  +lk +f+ l  +     i  is s+ne +k+f  ri+ eG  +  +t
+              t6014f7cd493b36f233 503 VKVLYLEDIFLLPNRDLKVSLKEVFDHLIAWCHKHSITNISGSMNESAKNFKTRIEAEGFTYYAQT 568
+                                      8**********************************************************9877655 PP
+
+>> o2054348855759ecc93  SRR10873276_990 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  169.9  16.6   1.6e-50   1.6e-50     182     669 ..      86     571 ..      47     594 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 169.9 bits;  conditional E-value: 1.6e-50
+  typeI_two_LPJP1_queries.aligned 182 elfdisflkekkknylsklfslliri.syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnst 258
+                                      + + i ++ + +  +  k f+ lir+  y+++tkl+ +++          ++d+h+++ ++P+  i+k ++       
+              o2054348855759ecc93  86 QTMAIPNIGNSEYHFTIKNFAHLIRLlEYDRITKLIRMIIA--------KRVDFHEWIANLPR--IHKDDSP------ 147
+                                      4567777777777778888888888538*********9999........89***********7..4554444...... PP
+
+  typeI_two_LPJP1_queries.aligned 259 yideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmli......... 327
+                                        +++++ lkr   k++++    +++++ny+ +r+++ n +e  k+v +v++a++ ++ +++  ++m i         
+              o2054348855759ecc93 148 --ETVFQILKRF-MKFNKETRYEMMSFMNYKKIREAK-NANEAMKHVRVVKMARNKMSKSDIVPANMSIcdlfngdrd 221
+                                      ..5999*****9.89**********************.***************************9988333333322 PP
+
+  typeI_two_LPJP1_queries.aligned 328 dds...ksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetk 402
+                                      dd     + ++++fsk+   + siG  t+ccfr  Gla+sll +al+sP++Gi++G+  +  wfsf+we+v+  ee  
+              o2054348855759ecc93 222 DDLeyvDQSKILQFSKDPIIVGSIGQETHCCFRKGGLAASLLAPALKSPISGIIHGYRPN-RWFSFIWEMVV--EEDG 296
+                                      122111346799********************************************9865.6********97..6778 PP
+
+  typeI_two_LPJP1_queries.aligned 403 sieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqr......drssse..g..... 467
+                                       ++ nl+ldnie++k l  + y+ +++ ++  ++y ++ylG  rndi+    v + +       d  +s+  g     
+              o2054348855759ecc93 297 VFKKNLVLDNIEATKRLPVDFYNSLAEQIS-TTQYSRVYLGTSRNDIELPSEVTQGRIetdhddDNDHSNltGntikk 373
+                                      99**************************97.599*************8554444332200111123333222233333 PP
+
+  typeI_two_LPJP1_queries.aligned 468 ...linsenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyviklds 542
+                                         +i +e +f++yssydds ++y+l                 ik+ dd   vi+    +G + r  y+++  + ++s
+              o2054348855759ecc93 374 pvhMIGYESNFKKYSSYDDSSNLYTL-----------------IKQEDD-VDVIVHPMTPGDLHRCKYIEQDIYAQES 433
+                                      33389*********************.................888888.8999999*************99999987 PP
+
+  typeI_two_LPJP1_queries.aligned 543 dleklkkvnklfiarksksisslirldnddiygylistleGydp......enesvq...fnnrsf.n.......tdth 603
+                                      + +    v+  f+  ++k   s +      iygy+ + l+ y        +ne +    f ++   n       t   
+              o2054348855759ecc93 434 EAD----VD--FLKINVKASPSYVWESKTAIYGYFATRLKWYWDtweryeQNEDISlseFRKKVKeNkenelppTTGM 505
+                                      643....23..44456666566677888999******99987431222224555431113222111111122225567 PP
+
+  typeI_two_LPJP1_queries.aligned 604 skllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvkdt 669
+                                       k+ly+edi +  +++l  +lk +f+ l  +     i  is s+ne +k+f  ri+ eG  +  +t
+              o2054348855759ecc93 506 VKVLYLEDIFLLPNRDLKVSLKEVFDHLIAWCHKHSITNISGSMNESAKNFKTRIEAEGFTYYAQT 571
+                                      8**********************************************************9877655 PP
+
+>> o42b8aee100267b0125  SRR10873277_312 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  169.9  16.6   1.6e-50   1.6e-50     182     669 ..      86     571 ..      47     594 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 169.9 bits;  conditional E-value: 1.6e-50
+  typeI_two_LPJP1_queries.aligned 182 elfdisflkekkknylsklfslliri.syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnst 258
+                                      + + i ++ + +  +  k f+ lir+  y+++tkl+ +++          ++d+h+++ ++P+  i+k ++       
+              o42b8aee100267b0125  86 QTMAIPNIGNSEYHFTIKNFAHLIRLlEYDRITKLIRMIIA--------KRVDFHEWIANLPR--IHKDDSP------ 147
+                                      4567777777777778888888888538*********9999........89***********7..4554444...... PP
+
+  typeI_two_LPJP1_queries.aligned 259 yideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevseskmli......... 327
+                                        +++++ lkr   k++++    +++++ny+ +r+++ n +e  k+v +v++a++ ++ +++  ++m i         
+              o42b8aee100267b0125 148 --ETVFQILKRF-MKFNKETRYEMMSFMNYKKIREAK-NANEAMKHVRVVKMARNKMSKSDIVPANMSIcdlfngdrd 221
+                                      ..5999*****9.89**********************.***************************9988333333322 PP
+
+  typeI_two_LPJP1_queries.aligned 328 dds...ksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetk 402
+                                      dd     + ++++fsk+   + siG  t+ccfr  Gla+sll +al+sP++Gi++G+  +  wfsf+we+v+  ee  
+              o42b8aee100267b0125 222 DDLeyvDQSKILQFSKDPIIVGSIGQETHCCFRKGGLAASLLAPALKSPISGIIHGYRPN-RWFSFIWEMVV--EEDG 296
+                                      122111346799********************************************9865.6********97..6778 PP
+
+  typeI_two_LPJP1_queries.aligned 403 sieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqr......drssse..g..... 467
+                                       ++ nl+ldnie++k l  + y+ +++ ++  ++y ++ylG  rndi+    v + +       d  +s+  g     
+              o42b8aee100267b0125 297 VFKKNLVLDNIEATKRLPVDFYNSLAEQIS-TTQYSRVYLGTSRNDIELPSEVTQGRIetdhddDNDHSNltGntikk 373
+                                      99**************************97.599*************8554444332200111123333222233333 PP
+
+  typeI_two_LPJP1_queries.aligned 468 ...linsenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyviklds 542
+                                         +i +e +f++yssydds ++y+l                 ik+ dd   vi+    +G + r  y+++  + ++s
+              o42b8aee100267b0125 374 pvhMIGYESNFKKYSSYDDSSNLYTL-----------------IKQEDD-VDVIVHPMTPGDLHRCKYIEQDIYAQES 433
+                                      33389*********************.................888888.8999999*************99999987 PP
+
+  typeI_two_LPJP1_queries.aligned 543 dleklkkvnklfiarksksisslirldnddiygylistleGydp......enesvq...fnnrsf.n.......tdth 603
+                                      + +    v+  f+  ++k   s +      iygy+ + l+ y        +ne +    f ++   n       t   
+              o42b8aee100267b0125 434 EAD----VD--FLKINVKASPSYVWESKTAIYGYFATRLKWYWDtweryeQNEDISlseFRKKVKeNkenelppTTGM 505
+                                      643....23..44456666566677888999******99987431222224555431113222111111122225567 PP
+
+  typeI_two_LPJP1_queries.aligned 604 skllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvkdt 669
+                                       k+ly+edi +  +++l  +lk +f+ l  +     i  is s+ne +k+f  ri+ eG  +  +t
+              o42b8aee100267b0125 506 VKVLYLEDIFLLPNRDLKVSLKEVFDHLIAWCHKHSITNISGSMNESAKNFKTRIEAEGFTYYAQT 571
+                                      8**********************************************************9877655 PP
+
+>> of42eb26c28c0f9e18e  ERR8050692_787 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.3  27.4   7.8e-49   7.8e-49      96     494 ..      82     485 ..      67     493 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 164.3 bits;  conditional E-value: 7.8e-49
+  typeI_two_LPJP1_queries.aligned  96 sdrinkyefnmd..leilskldselrseiklveklkq.lkigigasitdfklehevlfltdkiskkrlykniklik.. 168
+                                      +  in+y ++m+   ++++ ++    + i+l+e + + l+       +d ++ h  + l  +++k++  k i+ ++  
+              of42eb26c28c0f9e18e  82 TKMINNYSIDMNdkYLTTKSFEYLTENSIHLIETVGRnLD------FSD-NFSHFTYILCKLVGKNKAMKIIRKYRky 152
+                                      5678999888751234555566667788999999854144......222.4567789999999988766666555412 PP
+
+  typeI_two_LPJP1_queries.aligned 169 dkytsnldnklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynk...gnse.nkidlhrfveefP 242
+                                      ++ +  +d ++      i+ + e +  ++s   + + +is ++ +  +    ++  k     +e   + lh  + ++P
+              of42eb26c28c0f9e18e 153 ERVNRTIDWRVWVSKGLIKAVMEDNIKGMSD--KKFEKISTNKFLYYMKVFGYSRFKkilDICEsRGMPLHDIMVNLP 228
+                                      3455667777766666666666666555442..223344444443333333333222111222315699********* PP
+
+  typeI_two_LPJP1_queries.aligned 243 kkviekliddkk.vnstyideilaylkrilskyksddflkllnyinyevvrksdl.nikelrkyvnivdlakkGlk.. 316
+                                        v  k+ d+k  v  +y de+l+ +++   k   d++ kll++iny+v+r+ +l n+ e ++y+  v  ak+  +  
+              of42eb26c28c0f9e18e 229 YAVNRKYYDNKGyVLESYKDEVLKLFENN-DKVSLDKLSKLLQFINYKVIRENKLpNWTEKNRYISLVCFAKESKNnk 305
+                                      *******9999538899*********999.9***********************989**************9765411 PP
+
+  typeI_two_LPJP1_queries.aligned 317 y...gevseskml.i.ddsksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfs 389
+                                      +     + ++++  i d++ +++ i+fs ++ +i +iG +t ccf+PdG+aksl+k +l s +a i++G + +k wfs
+              of42eb26c28c0f9e18e 306 FlrnTVIRKGELAgIkDKELYEHEIHFSDDVIDIINIGSQTGCCFKPDGMAKSLVKACLTSDIAAIIKGRIANKPWFS 383
+                                      321134456776434245569999****************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 390 fvweiviyneetksieinlildniessk.lldnney.eiiidwldinsdykkiylGylrndinrtikvdktqrdrsss 465
+                                      f+we+++ + +   +++ l++dn+e    ++  + + ++ii++l  n+ y+k+y+G   nd++r+        +r++ 
+              of42eb26c28c0f9e18e 384 FIWEMGVVEGD--LLKTHLVMDNVEMMGgMISEESFnKYIINYLIENTSYEKVYVGSRYNDVERSTFPTS-TIKRPHR 458
+                                      *******9776..58899*******87515566667469************************9887655.578**** PP
+
+  typeI_two_LPJP1_queries.aligned 466 eglinsenkfsryssyddsekvyelldrk 494
+                                        li + ++f+ ys+ydds  ++++ldr 
+              of42eb26c28c0f9e18e 459 --LIGHSRNFKDYSTYDDSSELHTILDRS 485
+                                      ..*************************95 PP
+
+>> tde592a1695d61ae333  ERR8050692_787 ERR8050692_787_pgv19
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.8  28.0   1.1e-48   1.1e-48      96     494 ..      69     472 ..      55     485 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 163.8 bits;  conditional E-value: 1.1e-48
+  typeI_two_LPJP1_queries.aligned  96 sdrinkyefnmd..leilskldselrseiklveklkq.lkigigasitdfklehevlfltdkiskkrlykniklik.. 168
+                                      +  in+y ++m+   ++++ ++    + i+l+e + + l+       +d ++ h  + l  +++k++  k i+ ++  
+              tde592a1695d61ae333  69 TKMINNYSIDMNdkYLTTKSFEYLTENSIHLIETVGRnLD------FSD-NFSHFTYILCKLVGKNKAMKIIRKYRky 139
+                                      5678888888751234555566667788999999854144......222.4567789999999988766666555412 PP
+
+  typeI_two_LPJP1_queries.aligned 169 dkytsnldnklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynk...gnse.nkidlhrfveefP 242
+                                      ++ +  +d ++      i+ + e +  ++s   + + +is ++ +  +    ++  k     +e   + lh  + ++P
+              tde592a1695d61ae333 140 ERVNRTIDWRVWVSKGLIKAVMEDNIKGMSD--KKFEKISTNKFLYYMKVFGYSRFKkilDICEsRGMPLHDIMVNLP 215
+                                      3455667777766666666666666555442..223344444443333333333222111222315699********* PP
+
+  typeI_two_LPJP1_queries.aligned 243 kkviekliddkk.vnstyideilaylkrilskyksddflkllnyinyevvrksdl.nikelrkyvnivdlakkGlk.. 316
+                                        v  k+ d+k  v  +y de+l+ +++   k   d++ kll++iny+v+r+ +l n+ e ++y+  v  ak+  +  
+              tde592a1695d61ae333 216 YAVNRKYYDNKGyVLESYKDEVLKLFENN-DKVSLDKLSKLLQFINYKVIRENKLpNWTEKNRYISLVCFAKESKNnk 292
+                                      *******9999538899*********999.9***********************989**************9765411 PP
+
+  typeI_two_LPJP1_queries.aligned 317 y...gevseskml.i.ddsksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfs 389
+                                      +     + ++++  i d++ +++ i+fs ++ +i +iG +t ccf+PdG+aksl+k +l s +a i++G + +k wfs
+              tde592a1695d61ae333 293 FlrnTVIRKGELAgIkDKELYEHEIHFSDDVIDIINIGSQTGCCFKPDGMAKSLVKACLTSDIAAIIKGRIANKPWFS 370
+                                      321134456776434245569999****************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 390 fvweiviyneetksieinlildniessk.lldnney.eiiidwldinsdykkiylGylrndinrtikvdktqrdrsss 465
+                                      f+we+++ + +   +++ l++dn+e    ++  + + ++ii++l  n+ y+k+y+G   nd++r+        +r++ 
+              tde592a1695d61ae333 371 FIWEMGVVEGD--LLKTHLVMDNVEMMGgMISEESFnKYIINYLIENTSYEKVYVGSRYNDVERSTFPTS-TIKRPHR 445
+                                      *******9776..58899*******87515566667469************************9887655.578**** PP
+
+  typeI_two_LPJP1_queries.aligned 466 eglinsenkfsryssyddsekvyelldrk 494
+                                        li + ++f+ ys+ydds  ++++ldr 
+              tde592a1695d61ae333 446 --LIGHSRNFKDYSTYDDSSELHTILDRS 472
+                                      ..*************************96 PP
+
+>> od90f59c8f846152b74  ERR7438152_4132 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.5  26.3   1.3e-48   1.3e-48      95     494 ..      81     485 ..      67     492 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 163.5 bits;  conditional E-value: 1.3e-48
+  typeI_two_LPJP1_queries.aligned  95 lsdrinkyefnmd..leilskldselrseiklveklkq.lkigigasitdfklehevlfltdkiskkrlykniklik. 168
+                                      ++  in+y ++m+   ++++ ++   ++ i+l+e + + l+       +d ++ h  + l  +++k++  k i+ ++ 
+              od90f59c8f846152b74  81 FTKMINNYSIDMNdkYLTTKSFEYLTKNSIHLIETVGRnLD------FSD-NFSHFTYILCKLVGKNKAMKIIRKYRk 151
+                                      35779999888852245566677778899999999954144......222.466788999999999876666665551 PP
+
+  typeI_two_LPJP1_queries.aligned 169 .dkytsnldnklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynk...gnse.nkidlhrfveef 241
+                                       ++ +  +d ++      i+ + e +  ++s   + + +is ++ +  +    ++  k     +e   + lh  + ++
+              od90f59c8f846152b74 152 yERVNRTIDWRVWVSKGLIKAVMEDNIKGMSD--KKFEKISTNKFLYYMKVFGYSRFKkilDICEsRGMPLHDIMVNL 227
+                                      23456667777776666677776666555442..233344544443333333333222111223315699******** PP
+
+  typeI_two_LPJP1_queries.aligned 242 Pkkviekliddkk.vnstyideilaylkrilskyksddflkllnyinyevvrksdl.nikelrkyvnivdlakkGlk. 316
+                                      P  v  k+ d+k  v  +y de+l+ +++   k   d++ kll++iny+v+r+ +l n+ e ++y+  v  ak+  + 
+              od90f59c8f846152b74 228 PYAVNRKYYDNKGyVLESYKDEVLKLFENN-DKVSLDKLSKLLQFINYKVIRENKLpNWTEKNRYISLVCFAKESKNn 304
+                                      ********9999538899*********999.9***********************989**************976541 PP
+
+  typeI_two_LPJP1_queries.aligned 317 .y...gevseskml.i.ddsksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwf 388
+                                       +     + ++++  i d++ +++ i+fs ++ +i +iG +t ccf+PdG+aksl+k +l s +a il+G + +k wf
+              od90f59c8f846152b74 305 kFlrnTVIRKGELAgIkDKELYEHEIHFSDDVIDIINIGSQTGCCFKPDGMAKSLVKACLTSDIAAILKGRISNKPWF 382
+                                      1321134456776434245569999***************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 389 sfvweiviyneetksieinlildniessk.lldnneye.iiidwldinsdykkiylGylrndinrtikvdktqrdrss 464
+                                      sf+we+++ +e    +++ l++dn+e    ++  + ++  ii++l  n+ y+k+y+G   nd++r+     t  +r++
+              od90f59c8f846152b74 383 SFIWEMGVVEEG--LLKTHLVMDNVEMMGgVISEESFNkHIIKYLIENTSYEKVYVGSRYNDVERSTFPTST-TKRPH 457
+                                      ********9876..58899*******86516677777538************************98776554.579** PP
+
+  typeI_two_LPJP1_queries.aligned 465 seglinsenkfsryssyddsekvyelldrk 494
+                                         li + ++f+ ys+ydds  ++++ldr 
+              od90f59c8f846152b74 458 R--LIGHSRNFKDYSTYDDSSELHTILDRS 485
+                                      *..*************************95 PP
+
+>> tc4efe0ab38a5f46c92  ERR7438152_4132 ERR7438152_4132_pgv15
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.2  30.1   1.4e-47   1.4e-47      95     494 ..      68     472 ..       4     484 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 160.2 bits;  conditional E-value: 1.4e-47
+  typeI_two_LPJP1_queries.aligned  95 lsdrinkyefnmd..leilskldselrseiklveklkq.lkigigasitdfklehevlfltdkiskkrlykniklik. 168
+                                      ++  in+y ++m+   ++++ ++   ++ i+l+e + + l+       +d ++ h  + l  +++k++  k i+ ++ 
+              tc4efe0ab38a5f46c92  68 FTKMINNYSIDMNdkYLTTKSFEYLTKNSIHLIETVGRnLD------FSD-NFSHFTYILCKLVGKNKAMKIIRKYRk 138
+                                      36789999888852245566677778899999999954144......222.466888999999999876666665551 PP
+
+  typeI_two_LPJP1_queries.aligned 169 .dkytsnldnklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynk...gnse.nkidlhrfveef 241
+                                       ++ +  +d ++      i+ + e +  ++s   + + +is ++ +  +    ++  k     +e   + lh  + ++
+              tc4efe0ab38a5f46c92 139 yERVNRTIDWRVWVSKGLIKAVMEDNIKGMSD--KKFEKISTNKFLYYMKVFGYSRFKkilDICEsRGMPLHDIMVNL 214
+                                      33456667777776666677776666555442..233344544443333333333222111223315699******** PP
+
+  typeI_two_LPJP1_queries.aligned 242 Pkkviekliddkk.vnstyideilaylkrilskyksddflkllnyinyevvrksdl.nikelrkyvnivdlakkGlk. 316
+                                      P  v  k+ d+k  v  +y de+l+ +++   k   d++ kll++iny+v+r+ +l n+ e ++y+  v  ak+  + 
+              tc4efe0ab38a5f46c92 215 PYAVNRKYYDNKGyVLESYKDEVLKLFENN-DKVSLDKLSKLLQFINYKVIRENKLpNWTEKNRYISLVCFAKESKNn 291
+                                      ********9999538899*********999.9***********************989**************976541 PP
+
+  typeI_two_LPJP1_queries.aligned 317 .y...gevseskml.i.ddsksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwf 388
+                                       +     + ++++  i d++ +++ i+fs ++ +i +iG +t ccf+PdG+aksl+k +l s +a il+G + +k wf
+              tc4efe0ab38a5f46c92 292 kFlrnTVIRKGELAgIkDKELYEHEIHFSDDVIDIINIGSQTGCCFKPDGMAKSLVKACLTSDIAAILKGRISNKPWF 369
+                                      1321134456776434245569999***************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 389 sfvweiviyneetksieinlildniessk.lldnneye.iiidwldinsdykkiylGylrndinrtikvdktqrdrss 464
+                                      sf+we+++ +e    +++ l++dn+e    ++  + ++  ii++l  n+ y+k+y+G   nd++r+     t  +r++
+              tc4efe0ab38a5f46c92 370 SFIWEMGVVEEG--LLKTHLVMDNVEMMGgVISEESFNkHIIKYLIENTSYEKVYVGSRYNDVERSTFPTST-TKRPH 444
+                                      ********9876..58899*******86516677777538************************98776554.579** PP
+
+  typeI_two_LPJP1_queries.aligned 465 seglinsenkfsryssyddsekvyelldrk 494
+                                         li + ++f+ ys+ydds  ++++ldr 
+              tc4efe0ab38a5f46c92 445 R--LIGHSRNFKDYSTYDDSSELHTILDRS 472
+                                      *..*************************96 PP
+
+>> t07bd449de0946a2ff5  ERR8050416_7654 ERR8050416_7654_pgv13
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  158.9  22.8   3.2e-47   3.2e-47     208     518 ..     197     501 ..     164     566 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 158.9 bits;  conditional E-value: 3.2e-47
+  typeI_two_LPJP1_queries.aligned 208 syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkk.vnstyideilaylkrilskyksddflklln 284
+                                       y q  +++  ++           +dlh  + ++P++v  ++i+++  v  +y  e+ + +k + s     ++ k+l+
+              t07bd449de0946a2ff5 197 GYAQFNNIIQICSN--------KGMDLHSVLVNLPNTVNRRYISEDGfVSEEYKKEVAKLFKYA-STLSRPKLTKVLQ 265
+                                      56666666666665........669*****************9877527778999998888888.99999******** PP
+
+  typeI_two_LPJP1_queries.aligned 285 yinyevvrksd.lnikelrkyvnivdlakkGlkygevse.....skm..liddsksndlikfskekveinsiGvktkc 354
+                                      ++nye +r+     +++ + y+n+v  a++ ++  e+s+     ++m   id  k+ d i+fskek +i  iG kt c
+              t07bd449de0946a2ff5 266 FLNYERIRNGYnESWRDKETYMNNVIFARNYVNLKETSDiryvqGNMggIIDPYKYSDEINFSKEKTDIIMIGEKTGC 343
+                                      ********98513578999*****************99733333666556999************************* PP
+
+  typeI_two_LPJP1_queries.aligned 355 cfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnney..eiiidw 430
+                                      cf+  G+ak+l+  +l+s +aGi++G +    wfsfvwei+i nee   +e+ lildnie      n+e+  e+ii +
+              t07bd449de0946a2ff5 344 CFHLGGMAKPLVIACLNSNIAGIIKGEYKGSPWFSFVWEIGIKNEEG-IVETHLILDNIECLGRTINEEFfsEYIIPY 420
+                                      ********************************************997.69**********9755555555477***** PP
+
+  typeI_two_LPJP1_queries.aligned 431 ldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdii 508
+                                      + +n++y++ ylG   n +  ++  + ++ +r+    l  + ++f +y + dds ++y +      i+   s nkdi 
+              t07bd449de0946a2ff5 421 IANNTKYNRAYLGTKYNKVSISYTDQFSKILRPYR--LSLQGKRFYSYFTQDDSYQLYPI-----YIRSEESRNKDIE 491
+                                      **********************************9..99999******************.....6666778899986 PP
+
+  typeI_two_LPJP1_queries.aligned 509 kdyddysevi 518
+                                       +  + + v 
+              t07bd449de0946a2ff5 492 LKKTKLTDVS 501
+                                      6666555554 PP
+
+>> o5e4ba3f612ace34b3e  ERR8050416_7654 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  158.7  23.0   3.7e-47   3.7e-47     208     518 ..     208     512 ..     168     577 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 158.7 bits;  conditional E-value: 3.7e-47
+  typeI_two_LPJP1_queries.aligned 208 syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkk.vnstyideilaylkrilskyksddflklln 284
+                                       y q  +++  ++           +dlh  + ++P++v  ++i+++  v  +y  e+ + +k + s     ++ k+l+
+              o5e4ba3f612ace34b3e 208 GYAQFNNIIQICSN--------KGMDLHSVLVNLPNTVNRRYISEDGfVSEEYKKEVAKLFKYA-STLSRPKLTKVLQ 276
+                                      56666666666665........669*****************9877527778999998888888.99999******** PP
+
+  typeI_two_LPJP1_queries.aligned 285 yinyevvrksd.lnikelrkyvnivdlakkGlkygevse.....skm..liddsksndlikfskekveinsiGvktkc 354
+                                      ++nye +r+     +++ + y+n+v  a++ ++  e+s+     ++m   id  k+ d i+fskek +i  iG kt c
+              o5e4ba3f612ace34b3e 277 FLNYERIRNGYnESWRDKETYMNNVIFARNYVNLKETSDiryvqGNMggIIDPYKYSDEINFSKEKTDIIMIGEKTGC 354
+                                      ********98513578999*****************99733333666556999************************* PP
+
+  typeI_two_LPJP1_queries.aligned 355 cfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnney..eiiidw 430
+                                      cf+  G+ak+l+  +l+s +aGi++G +    wfsfvwei+i nee   +e+ lildnie      n+e+  e+ii +
+              o5e4ba3f612ace34b3e 355 CFHLGGMAKPLVIACLNSNIAGIIKGEYKGSPWFSFVWEIGIKNEEG-IVETHLILDNIECLGRTINEEFfsEYIIPY 431
+                                      ********************************************997.69**********9755555555477***** PP
+
+  typeI_two_LPJP1_queries.aligned 431 ldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdii 508
+                                      + +n++y++ ylG   n +  ++  + ++ +r+    l  + ++f +y + dds ++y +      i+   s nkdi 
+              o5e4ba3f612ace34b3e 432 IANNTKYNRAYLGTKYNKVSISYTDQFSKILRPYR--LSLQGKRFYSYFTQDDSYQLYPI-----YIRSEESRNKDIE 502
+                                      **********************************9..99999******************.....6666778899986 PP
+
+  typeI_two_LPJP1_queries.aligned 509 kdyddysevi 518
+                                       +  + + v 
+              o5e4ba3f612ace34b3e 503 LKKTKLTDVS 512
+                                      6666555554 PP
+
+>> t8057be10f1073fe37c  ERR8449991_4587 ERR8449991_4587_pgv2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.1  18.9   1.8e-45   1.8e-45     208     517 ..     197     500 ..     157     515 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 153.1 bits;  conditional E-value: 1.8e-45
+  typeI_two_LPJP1_queries.aligned 208 syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddk.kvnstyideilaylkrilskyksddflklln 284
+                                       y q  +++  ++           +dlh  + ++P++v  ++i+++  v  +y  e+ + lk + s     ++ k+l+
+              t8057be10f1073fe37c 197 GYAQFNNIIQICTN--------KGMDLHGIMVNLPNQVNRRYINEDgFVTEEYKKEVTKLLKYA-STLSRTKLTKVLQ 265
+                                      66676666666655........559*****************9876268999**********99.9999********* PP
+
+  typeI_two_LPJP1_queries.aligned 285 yinyevvrksd.lnikelrkyvnivdlakkGlkygevse.....skm..liddsksndlikfskekveinsiGvktkc 354
+                                      ++nye +r+     +++ + y+n+v  a++ ++  e+s+     + m   id  k+ d i+fskek +i  iG kt c
+              t8057be10f1073fe37c 266 FLNYERIRNGYnESWRDKEIYMNNVIFARNYVNLKEISDiryvqGSMagIIDPYKYSDEIHFSKEKTDIIMIGEKTGC 343
+                                      ********986135789999*************99999733333566445999************************* PP
+
+  typeI_two_LPJP1_queries.aligned 355 cfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniess.klldnney..eiiid 429
+                                      cf+  G+ak l+  +l+s +aGi++G +    wf+fvwei++ n+e   +e+ lildnie   +++d  ++  + ii 
+              t8057be10f1073fe37c 344 CFHLGGMAKHLVIACLNSSIAGIIKGDYKGSPWFAFVWEIGVKNDEG-IVETHLILDNIECLgRTIDE-QFinDHIIP 419
+                                      ******************************************99886.79**********96255654.443478*** PP
+
+  typeI_two_LPJP1_queries.aligned 430 wldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdi 507
+                                      ++++n++y++ ylG   n + r++  + ++ +r+    l  + ++f +y ++dds ++y +      i+   s nkdi
+              t8057be10f1073fe37c 420 YIENNTKYNRAYLGTNYNKVSRSYTDQFSKILRPYR--LSLQGKRFYNYFTHDDSYQLYPI-----YIRSEESRNKDI 490
+                                      ***********************************9..99999******************.....677777889999 PP
+
+  typeI_two_LPJP1_queries.aligned 508 ikdyddysev 517
+                                        +    + v
+              t8057be10f1073fe37c 491 KLKKTRLTDV 500
+                                      7666655555 PP
+
+>> o9f012837b7d40897e1  ERR8449991_4587 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.0  19.0     2e-45     2e-45     208     517 ..     217     520 ..     177     536 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 153.0 bits;  conditional E-value: 2e-45
+  typeI_two_LPJP1_queries.aligned 208 syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddk.kvnstyideilaylkrilskyksddflklln 284
+                                       y q  +++  ++           +dlh  + ++P++v  ++i+++  v  +y  e+ + lk + s     ++ k+l+
+              o9f012837b7d40897e1 217 GYAQFNNIIQICTN--------KGMDLHGIMVNLPNQVNRRYINEDgFVTEEYKKEVTKLLKYA-STLSRTKLTKVLQ 285
+                                      66666666666655........559*****************9876268999**********99.9999********* PP
+
+  typeI_two_LPJP1_queries.aligned 285 yinyevvrksd.lnikelrkyvnivdlakkGlkygevse.....skm..liddsksndlikfskekveinsiGvktkc 354
+                                      ++nye +r+     +++ + y+n+v  a++ ++  e+s+     + m   id  k+ d i+fskek +i  iG kt c
+              o9f012837b7d40897e1 286 FLNYERIRNGYnESWRDKEIYMNNVIFARNYVNLKEISDiryvqGSMagIIDPYKYSDEIHFSKEKTDIIMIGEKTGC 363
+                                      ********986135789999*************99999733333566445999************************* PP
+
+  typeI_two_LPJP1_queries.aligned 355 cfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniess.klldnney..eiiid 429
+                                      cf+  G+ak l+  +l+s +aGi++G +    wf+fvwei++ n+e   +e+ lildnie   +++d  ++  + ii 
+              o9f012837b7d40897e1 364 CFHLGGMAKHLVIACLNSSIAGIIKGDYKGSPWFAFVWEIGVKNDEG-IVETHLILDNIECLgRTIDE-QFinDHIIP 439
+                                      ******************************************99886.79**********96255654.443478*** PP
+
+  typeI_two_LPJP1_queries.aligned 430 wldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdi 507
+                                      ++++n++y++ ylG   n + r++  + ++ +r+    l  + ++f +y ++dds ++y +      i+   s nkdi
+              o9f012837b7d40897e1 440 YIENNTKYNRAYLGTNYNKVSRSYTDQFSKILRPYR--LSLQGKRFYNYFTHDDSYQLYPI-----YIRSEESRNKDI 510
+                                      ***********************************9..99999******************.....677777889999 PP
+
+  typeI_two_LPJP1_queries.aligned 508 ikdyddysev 517
+                                        +    + v
+              o9f012837b7d40897e1 511 KLKKTRLTDV 520
+                                      7666655555 PP
+
+>> t6197d0e9fe4708c095  ERR7529523_6432 ERR7529523_6432_pgv11
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.2  24.7   7.1e-45   7.1e-45     228     535 ..     206     514 ..     177     551 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 151.2 bits;  conditional E-value: 7.1e-45
+  typeI_two_LPJP1_queries.aligned 228 senkidlhrfveefPkkviekliddk.kvnstyideilaylkrilskyksddflkllnyinyevvrksd.lnikelrk 303
+                                       + +i+lh  + ++P+k+  +  d++  v+ ++  e+   lk++ +k  s++++++l++inye +rk   + +++ + 
+              t6197d0e9fe4708c095 206 ENKEIELHTILVNLPNKINRRNLDENgVVKESFKKELAVLLKHS-NKLSSNKLIRVLQFINYEYIRKGTnIGWRDKEA 282
+                                      2356*************998866555055666666666677777.**********************7615568999* PP
+
+  typeI_two_LPJP1_queries.aligned 304 yvnivdlakk.Glkygev......seskml..iddsksndlikfskekveinsiGvktkccfrPdGlaksllkiales 372
+                                      y++ v  a++   ky e+      +e++m+  i+++k  + i+fsk + +i +iG kt ccf+  G aksl+  +l+s
+              t6197d0e9fe4708c095 283 YMDAVVFARHrNGKYEEIfkkisyTEGNMKgiINKNKDSKEIYFSKRRIDILTIGEKTGCCFNLGGQAKSLVVACLNS 360
+                                      ******9986245776643333334677744499******************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 373 PlaGileGvldkkiwfsfvweiviyneetksieinlildnies.sklldnney..eiiidwldinsdykkiylGylrn 447
+                                       ++Gi++G + k  wfsfvwei+i   +   +e+ lildnie   k ld ne+    i +++  n+ y+k y+G   n
+              t6197d0e9fe4708c095 361 NITGIFKGEFKKSPWFSFVWEIGIKRGD--IMETHLILDNIEVlGKKLD-NEFikGHIYKYIHENTTYNKAYIGTRYN 435
+                                      ************************7776..68**********8346666.6663348********************* PP
+
+  typeI_two_LPJP1_queries.aligned 448 dinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdi.ikdyddyseviiekadi 524
+                                       i+ ++ +d    +r+    l  +e++f +y ++dds  +y   +r    ky      d+ i+  d+  +  +e +d+
+              t6197d0e9fe4708c095 436 KIEGDVFKDVNIIKRPYR--LTLFEDEFISYFNHDDSYELYPAYNR---EKYD-----DVeIPAVDKKDLEFKELTDP 503
+                                      *****************9..999**************999999555...4452.....22256666666777888888 PP
+
+  typeI_two_LPJP1_queries.aligned 525 Gwinrslyvkk 535
+                                        i r+ly+ k
+              t6197d0e9fe4708c095 504 SDIERALYILK 514
+                                      88888888644 PP
+
+>> o3f7503b1ee9566527e  ERR7529523_6432 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.2  24.7   7.1e-45   7.1e-45     228     535 ..     207     515 ..     178     552 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 151.2 bits;  conditional E-value: 7.1e-45
+  typeI_two_LPJP1_queries.aligned 228 senkidlhrfveefPkkviekliddk.kvnstyideilaylkrilskyksddflkllnyinyevvrksd.lnikelrk 303
+                                       + +i+lh  + ++P+k+  +  d++  v+ ++  e+   lk++ +k  s++++++l++inye +rk   + +++ + 
+              o3f7503b1ee9566527e 207 ENKEIELHTILVNLPNKINRRNLDENgVVKESFKKELAVLLKHS-NKLSSNKLIRVLQFINYEYIRKGTnIGWRDKEA 283
+                                      2356*************998866555055666666666677777.**********************7615568999* PP
+
+  typeI_two_LPJP1_queries.aligned 304 yvnivdlakk.Glkygev......seskml..iddsksndlikfskekveinsiGvktkccfrPdGlaksllkiales 372
+                                      y++ v  a++   ky e+      +e++m+  i+++k  + i+fsk + +i +iG kt ccf+  G aksl+  +l+s
+              o3f7503b1ee9566527e 284 YMDAVVFARHrNGKYEEIfkkisyTEGNMKgiINKNKDSKEIYFSKRRIDILTIGEKTGCCFNLGGQAKSLVVACLNS 361
+                                      ******9986245776643333334677744499******************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 373 PlaGileGvldkkiwfsfvweiviyneetksieinlildnies.sklldnney..eiiidwldinsdykkiylGylrn 447
+                                       ++Gi++G + k  wfsfvwei+i   +   +e+ lildnie   k ld ne+    i +++  n+ y+k y+G   n
+              o3f7503b1ee9566527e 362 NITGIFKGEFKKSPWFSFVWEIGIKRGD--IMETHLILDNIEVlGKKLD-NEFikGHIYKYIHENTTYNKAYIGTRYN 436
+                                      ************************7776..68**********8346666.6663348********************* PP
+
+  typeI_two_LPJP1_queries.aligned 448 dinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdi.ikdyddyseviiekadi 524
+                                       i+ ++ +d    +r+    l  +e++f +y ++dds  +y   +r    ky      d+ i+  d+  +  +e +d+
+              o3f7503b1ee9566527e 437 KIEGDVFKDVNIIKRPYR--LTLFEDEFISYFNHDDSYELYPAYNR---EKYD-----DVeIPAVDKKDLEFKELTDP 504
+                                      *****************9..999**************999999555...4452.....22256666666777888888 PP
+
+  typeI_two_LPJP1_queries.aligned 525 Gwinrslyvkk 535
+                                        i r+ly+ k
+              o3f7503b1ee9566527e 505 SDIERALYILK 515
+                                      88888888644 PP
+
+>> t88c8249b2e06c2011e  ERR3211773_30326 ERR3211773_30326_pgv3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  147.1  37.7   1.2e-43   1.2e-43     166     496 ..      70     388 ..      27     469 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 147.1 bits;  conditional E-value: 1.2e-43
+  typeI_two_LPJP1_queries.aligned 166 likdkytsnldnklepelfdisflkekkknylsklfsl.lirisyeqltkllnkvvvaynkgnsenkidlhrfveefP 242
+                                       +k   ++ ++ k e + f    lk k+ +  + l s   i i  ++ + ++ k+ v   +  +e +i+ h+f ++ P
+              t88c8249b2e06c2011e  70 KYKSELENKFNSKKEYDKFITATLKLKDFDLRYDLISTnKINIFLDKSVPFVKKIEV--INLLAEKQISCHNFFSNVP 145
+                                      234444445555678889*9*************998762589999**********99..556789************* PP
+
+  typeI_two_LPJP1_queries.aligned 243 kkviekliddkkvnstyideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkyge. 319
+                                       +++           + i  +l+y        +++   ++l + ny+ v  ++ n  el k v+ ++  +   +  + 
+              t88c8249b2e06c2011e 146 ANILYPEL-----WFKLIFRVLNYSM------DTNTIYRILMFSNYKRVLTAK-NKDELIKEVEFLETNRSLYSNDDs 211
+                                      98864333.....3446777777754......5578889**************.**************9998877542 PP
+
+  typeI_two_LPJP1_queries.aligned 320 vseskmlidds.ksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkk.iwfsfvweiv 395
+                                       s s+ml+ +    nd++ fsk+   i+siG  t+ccfr +G+ ++l+ ial+sP+a i+ G+ d+   wfs+ we+ 
+              t88c8249b2e06c2011e 212 ASVSHMLLTNIpDDNDFLSFSKNTSIITSIGKDTLCCFRKNGVGEPLMFIALKSPIAAIIWGIEDTNnKWFSYTWEML 289
+                                      6889****995378**************************************************98537********* PP
+
+  typeI_two_LPJP1_queries.aligned 396 iyneetksieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsen 473
+                                      +ynee   +ei lildnie++++l  + +  i   l+   +y+k+ylGy rndi+    v +t++ +  +  +  + +
+              t88c8249b2e06c2011e 290 EYNEEKNVFEIQLILDNIEAQRMLSVDSFYRIKRDLKEYNKYNKVYLGYCRNDIEIPRDVINTKKTKLYT--IPFYGK 365
+                                      ******************************************************9998888888888888..889999 PP
+
+  typeI_two_LPJP1_queries.aligned 474 kfsryssyddsekvyelldrknn 496
+                                      +  +y +ydds+++y++ldrk  
+              t88c8249b2e06c2011e 366 EVRKYQTYDDSKYIYTVLDRKLP 388
+                                      ********************953 PP
+
+>> o2cde705e23e9651548  ERR3211773_30326 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  146.1  38.7   2.4e-43   2.4e-43     159     496 ..      79     399 ..      14     479 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 146.1 bits;  conditional E-value: 2.4e-43
+  typeI_two_LPJP1_queries.aligned 159 rlykniklikdkytsnldnklepelfdisflkekkknylsklfsl.lirisyeqltkllnkvvvaynkgnsenkidlh 235
+                                      ++      +k   ++ ++ k e + f    lk k+ +  + l s   i i  ++ + ++ k+ v   +  +e +i+ h
+              o2cde705e23e9651548  79 HI-----KYKSELENKFNSKKEYDKFITATLKLKDFDLRYDLISTnKINIFLDKSVPFVKKIEV--INLLAEKQISCH 149
+                                      22.....234444444555678889*9*************998762589999**********99..556789****** PP
+
+  typeI_two_LPJP1_queries.aligned 236 rfveefPkkviekliddkkvnstyideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdlakk 313
+                                      +f ++ P +++           + i  +l+y        +++   ++l + ny+ v  ++ n  el k v+ ++  + 
+              o2cde705e23e9651548 150 NFFSNVPANILYPEL-----WFKLIFRVLNYSM------DTNTIYRILMFSNYKRVLTAK-NKDELIKEVEFLETNRS 215
+                                      *******98864333.....3446777777754......5578889**************.**************999 PP
+
+  typeI_two_LPJP1_queries.aligned 314 Glkyge.vseskmlidds.ksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkk.iwf 388
+                                        +  +  s s+ml+ +    nd++ fsk+   i+siG  t+ccfr +G+ ++l+ ial+sP+a i+ G+ d+   wf
+              o2cde705e23e9651548 216 LYSNDDsASVSHMLLTNIpDDNDFLSFSKNTSIITSIGKDTLCCFRKNGVGEPLMFIALKSPIAAIIWGIEDTNnKWF 293
+                                      88775426889****995378**************************************************98537** PP
+
+  typeI_two_LPJP1_queries.aligned 389 sfvweiviyneetksieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqrdrssse 466
+                                      s+ we+ +ynee   +ei lildnie++++l  + +  i   l+   +y+k+ylGy rndi+    v +t++ +  + 
+              o2cde705e23e9651548 294 SYTWEMLEYNEEKNVFEIQLILDNIEAQRMLSVDSFYRIKRDLKEYNKYNKVYLGYCRNDIEIPRDVINTKKTKLYT- 370
+                                      *************************************************************9998888888888888. PP
+
+  typeI_two_LPJP1_queries.aligned 467 glinsenkfsryssyddsekvyelldrknn 496
+                                       +  + ++  +y +ydds+++y++ldrk  
+              o2cde705e23e9651548 371 -IPFYGKEVRKYQTYDDSKYIYTVLDRKLP 399
+                                      .889999********************953 PP
+
+>> t2370e252ddf73bbae7  ERR8055447_3422 ERR8055447_3422_pgv14
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.3  25.2   1.7e-42   1.7e-42     193     540 ..     173     519 ..     148     548 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 143.3 bits;  conditional E-value: 1.7e-42
+  typeI_two_LPJP1_queries.aligned 193 kknylsklfs..llirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviek.liddkkvnstyideilayl 267
+                                      ++n   k fs   ++   y+    l+n +         + +i+lh  + ++P k+  + l+++  v+ ++i e+++ +
+              t2370e252ddf73bbae7 173 DQNTSKKYFSenKILYYIYNLGYSLFNNILT----VCENKEIELHTVLVNLPSKINRRnLDENGVVKESFIKELMTLF 246
+                                      4454444443113334445555666665554....223357*************98873667778899********** PP
+
+  typeI_two_LPJP1_queries.aligned 268 krilskyksddflkllnyinyevvrksd.lnikelrkyvnivdlakkGl.kygev......seskml..iddsksndl 335
+                                      k++ +k  s++++++l++inye +rk   + +++ + y++ v  a++   ky e+      +e++m+  i+++k  + 
+              t2370e252ddf73bbae7 247 KHS-NKLSSNKLIRILQFINYEYIRKGTnIGWRDKEAYMDAVIFARHSSgKYEEIfkkisyTEGNMKgiINKDKDSNE 323
+                                      ***.9*********************7615568999*********975437876533333346777444888899999 PP
+
+  typeI_two_LPJP1_queries.aligned 336 ikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildni 413
+                                      i+fsk++ +i +iG kt ccf+  G a+sl+  +l+s ++Gi++G + k  wf+fvwei+i   +   +e+ lildni
+              t2370e252ddf73bbae7 324 IYFSKKRIDIITIGEKTGCCFTLGGKARSLVVACLNSNITGIFKGEFKKSPWFAFVWEIGIKRGD--IMETHLILDNI 399
+                                      *************************************************************7776..68********* PP
+
+  typeI_two_LPJP1_queries.aligned 414 essklldnney..eiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvye 489
+                                      e       ne+    i +++  n+ y+k y+G     i+ ++ +     +r+    +  +e++f +y + dds ++y 
+              t2370e252ddf73bbae7 400 EVLGKKVDNEFikGHIYKYIHENTRYNKAYIGTGYSKIEDDVFKGVEIIKRPYR--MTLFEDEFVSYFNQDDSYNLYP 475
+                                      *98777778884458**************************************9..8889****************** PP
+
+  typeI_two_LPJP1_queries.aligned 490 lldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikl 540
+                                        dr+        d k+i +  ++  + ++e +d+  i r+ly+ k +   
+              t2370e252ddf73bbae7 476 AYDREI------YDGKEI-PAVNKEDLELKELTDPSDIERALYILKINHSE 519
+                                      *99974......355654.44444468899999999999999987655444 PP
+
+>> o4c1d81f107564df941  ERR8055447_3422 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.3  25.2   1.7e-42   1.7e-42     193     540 ..     174     520 ..     149     549 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 143.3 bits;  conditional E-value: 1.7e-42
+  typeI_two_LPJP1_queries.aligned 193 kknylsklfs..llirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviek.liddkkvnstyideilayl 267
+                                      ++n   k fs   ++   y+    l+n +         + +i+lh  + ++P k+  + l+++  v+ ++i e+++ +
+              o4c1d81f107564df941 174 DQNTSKKYFSenKILYYIYNLGYSLFNNILT----VCENKEIELHTVLVNLPSKINRRnLDENGVVKESFIKELMTLF 247
+                                      4454444443113334445555666665554....223357*************98873667778899********** PP
+
+  typeI_two_LPJP1_queries.aligned 268 krilskyksddflkllnyinyevvrksd.lnikelrkyvnivdlakkGl.kygev......seskml..iddsksndl 335
+                                      k++ +k  s++++++l++inye +rk   + +++ + y++ v  a++   ky e+      +e++m+  i+++k  + 
+              o4c1d81f107564df941 248 KHS-NKLSSNKLIRILQFINYEYIRKGTnIGWRDKEAYMDAVIFARHSSgKYEEIfkkisyTEGNMKgiINKDKDSNE 324
+                                      ***.9*********************7615568999*********975437876533333346777444888899999 PP
+
+  typeI_two_LPJP1_queries.aligned 336 ikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildni 413
+                                      i+fsk++ +i +iG kt ccf+  G a+sl+  +l+s ++Gi++G + k  wf+fvwei+i   +   +e+ lildni
+              o4c1d81f107564df941 325 IYFSKKRIDIITIGEKTGCCFTLGGKARSLVVACLNSNITGIFKGEFKKSPWFAFVWEIGIKRGD--IMETHLILDNI 400
+                                      *************************************************************7776..68********* PP
+
+  typeI_two_LPJP1_queries.aligned 414 essklldnney..eiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvye 489
+                                      e       ne+    i +++  n+ y+k y+G     i+ ++ +     +r+    +  +e++f +y + dds ++y 
+              o4c1d81f107564df941 401 EVLGKKVDNEFikGHIYKYIHENTRYNKAYIGTGYSKIEDDVFKGVEIIKRPYR--MTLFEDEFVSYFNQDDSYNLYP 476
+                                      *98777778884458**************************************9..8889****************** PP
+
+  typeI_two_LPJP1_queries.aligned 490 lldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikl 540
+                                        dr+        d k+i +  ++  + ++e +d+  i r+ly+ k +   
+              o4c1d81f107564df941 477 AYDREI------YDGKEI-PAVNKEDLELKELTDPSDIERALYILKINHSE 520
+                                      *99974......355654.44444468899999999999999987655444 PP
+
+>> od47715c2b3abe01253  SRR22802066_51 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.6  42.3   3.8e-37   3.8e-37     177     517 ..     116     468 ..      41     486 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 125.6 bits;  conditional E-value: 3.8e-37
+  typeI_two_LPJP1_queries.aligned 177 nklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynkgnsenk...idlhrfveefPkkvieklid 251
+                                      nk +  +++i+ +   ++   ++  +++  is +  + ++n++   y+  + ++k   ++lh+ + ++Pk +  k+ d
+              od47715c2b3abe01253 116 NKSKKLMYKIRSIDT-NELHFYRSSNIY-FISKNTTIGFINHILNEYKIRQENEKlelVSLHEILINLPKGINRKYLD 191
+                                      466666778887765.455678888887.79*99999999999998876555444333789**************999 PP
+
+  typeI_two_LPJP1_queries.aligned 252 dkkvnstyi.deilaylkrilskyks.ddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevsesk.ml 326
+                                      ++   s     e  +++ +i+ +  + +++lk ++++ny  vr+ +l+ ++++ y++iv+++++G++y    + k   
+              od47715c2b3abe01253 192 EDGNASMLFeREGKKFISNIMRRITNkNKLLKYIQFLNYSKVRQLKLDDNNIEAYMEIVLKSRNGVNYRSSYDYKnEY 269
+                                      886555544157789**9999987651689**************************************7666655156 PP
+
+  typeI_two_LPJP1_queries.aligned 327 iddsksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvl..dkkiwfsfvweiviyne..e 400
+                                      i+  + n   k sk+ ++i +iG kt+ccfrP+ la++ll  + +s  + +  G +  +++++f++ weiv+  e   
+              od47715c2b3abe01253 270 ISRVENNSRFKISKDDEDIYTIGSKTLCCFRPNNLAAPLLNACRDSSTSYLTIGEIreNRQTFFTYNWEIVEEVEinG 347
+                                      999999***************************************9999888887633689*********97543224 PP
+
+  typeI_two_LPJP1_queries.aligned 401 tksieinlildniessklldnneyeiiidwldinsdykkiylGylrndin.rtikvdktqrdrssseglin....... 470
+                                       k + ++lildn+e++ l+ ++ ++  i+wl+ ns+y +iylG  rndi+ ++i + k +      +  i        
+              od47715c2b3abe01253 348 DKFLATSLILDNLEATSLISKEIFDSFIEWLS-NSKYYRIYLGTSRNDIEgSKISEIKNKTFNITGNNSIKkpfnppf 424
+                                      699****************************6.89999***********84445444433333333333321222344 PP
+
+  typeI_two_LPJP1_queries.aligned 471 senkfsryssyddsekvyelldrknnikyigsdnkdiikdyddysev 517
+                                      +e +f +y sydds+++y +    ++ ky    +kd + +y d    
+              od47715c2b3abe01253 425 FESNFRKYGSYDDSRYLYIV---YEDDKYFDDIKKDKLVKYIDNPRE 468
+                                      7*******************...667799999999999999885444 PP
+
+>> t14f2b0cb129c27642e  SRR22802066_51 SRR22802066_51_pgv22
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.1  42.8   5.4e-37   5.4e-37     177     517 ..     104     456 ..      31     476 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 125.1 bits;  conditional E-value: 5.4e-37
+  typeI_two_LPJP1_queries.aligned 177 nklepelfdisflkekkknylsklfsllirisyeqltkllnkvvvaynkgnsenk...idlhrfveefPkkvieklid 251
+                                      nk +  +++i+ +   ++   ++  +++  is +  + ++n++   y+  + ++k   ++lh+ + ++Pk +  k+ d
+              t14f2b0cb129c27642e 104 NKSKKLMYKIRSIDT-NELHFYRSSNIY-FISKNTTIGFINHILNEYKIRQENEKlelVSLHEILINLPKGINRKYLD 179
+                                      466666777877765.455678888887.79999999999999998876555444333789**************999 PP
+
+  typeI_two_LPJP1_queries.aligned 252 dkkvnstyi.deilaylkrilskyks.ddflkllnyinyevvrksdlnikelrkyvnivdlakkGlkygevsesk.ml 326
+                                      ++   s     e  +++ +i+ +  + +++lk ++++ny  vr+ +l+ ++++ y++iv+++++G++y    + k   
+              t14f2b0cb129c27642e 180 EDGNASMLFeREGKKFISNIMRRITNkNKLLKYIQFLNYSKVRQLKLDDNNIEAYMEIVLKSRNGVNYRSSYDYKnEY 257
+                                      886555544157789**9999987651689**************************************7666655156 PP
+
+  typeI_two_LPJP1_queries.aligned 327 iddsksndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvl..dkkiwfsfvweiviyne..e 400
+                                      i+  + n   k sk+ ++i +iG kt+ccfrP+ la++ll  + +s  + +  G +  +++++f++ weiv+  e   
+              t14f2b0cb129c27642e 258 ISRVENNSRFKISKDDEDIYTIGSKTLCCFRPNNLAAPLLNACRDSSTSYLTIGEIreNRQTFFTYNWEIVEEVEinG 335
+                                      999999***************************************9999888887633689*********97543224 PP
+
+  typeI_two_LPJP1_queries.aligned 401 tksieinlildniessklldnneyeiiidwldinsdykkiylGylrndin.rtikvdktqrdrssseglin....... 470
+                                       k + ++lildn+e++ l+ ++ ++  i+wl+ ns+y +iylG  rndi+ ++i + k +      +  i        
+              t14f2b0cb129c27642e 336 DKFLATSLILDNLEATSLISKEIFDSFIEWLS-NSKYYRIYLGTSRNDIEgSKISEIKNKTFNITGNNSIKkpfnppf 412
+                                      699****************************6.89999***********84445444433333333333321222344 PP
+
+  typeI_two_LPJP1_queries.aligned 471 senkfsryssyddsekvyelldrknnikyigsdnkdiikdyddysev 517
+                                      +e +f +y sydds+++y +    ++ ky    +kd + +y d    
+              t14f2b0cb129c27642e 413 FESNFRKYGSYDDSRYLYIV---YEDDKYFDDIKKDKLVKYIDNPRE 456
+                                      7*******************...667799999999999999885444 PP
+
+>> t0fb8ba37dbf77151d6  ERR8025381_8562 ERR8025381_8562_pgv11
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.9   1.3   2.8e-33   2.8e-33     340     490 ..     324     479 ..     318     516 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 112.9 bits;  conditional E-value: 2.8e-33
+  typeI_two_LPJP1_queries.aligned 340 kekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkk......iwfsfvweiviyneetksieinlild 411
+                                       + +++ siG+kt+ccf+  Gla+ ++  a + Pl+ i++G + k+      +wfs++we   y+ee +++   l++d
+              t0fb8ba37dbf77151d6 324 DDLDNLLSIGIKTRCCFKVGGLAERMVWAAHNHPLSAIVQGKYRKQeqgkeyTWFSYLWEALFYDEEQRTYYPWLVMD 401
+                                      578999***********************************997644444559************************* PP
+
+  typeI_two_LPJP1_queries.aligned 412 niessklldnneyeiiidwldinsdykkiylGylrndinrtikv.dktqrdrssseglinsenkfsryssyddsekvy 488
+                                      nies++ ld  e +   d+++ n+ y+ +y+Gylrnd+ ++  +    + +  +++ l+  e +f  y++ydds  v+
+              t0fb8ba37dbf77151d6 402 NIESNNKLDLKELNSFLDYIKENTPYRGVYIGYLRNDLTEECNKfVMHHTLIKKTNNLVFREANF--YTAYDDSAMVH 477
+                                      **************************************8876541445566778888*****999..788*****998 PP
+
+  typeI_two_LPJP1_queries.aligned 489 el 490
+                                       +
+              t0fb8ba37dbf77151d6 478 PI 479
+                                      77 PP
+
+>> o34a16cd31624c1d9c2  ERR8025381_8562 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.8   1.3   2.8e-33   2.8e-33     340     490 ..     329     484 ..     323     521 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 112.8 bits;  conditional E-value: 2.8e-33
+  typeI_two_LPJP1_queries.aligned 340 kekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkk......iwfsfvweiviyneetksieinlild 411
+                                       + +++ siG+kt+ccf+  Gla+ ++  a + Pl+ i++G + k+      +wfs++we   y+ee +++   l++d
+              o34a16cd31624c1d9c2 329 DDLDNLLSIGIKTRCCFKVGGLAERMVWAAHNHPLSAIVQGKYRKQeqgkeyTWFSYLWEALFYDEEQRTYYPWLVMD 406
+                                      578999***********************************997644444559************************* PP
+
+  typeI_two_LPJP1_queries.aligned 412 niessklldnneyeiiidwldinsdykkiylGylrndinrtikv.dktqrdrssseglinsenkfsryssyddsekvy 488
+                                      nies++ ld  e +   d+++ n+ y+ +y+Gylrnd+ ++  +    + +  +++ l+  e +f  y++ydds  v+
+              o34a16cd31624c1d9c2 407 NIESNNKLDLKELNSFLDYIKENTPYRGVYIGYLRNDLTEECNKfVMHHTLIKKTNNLVFREANF--YTAYDDSAMVH 482
+                                      **************************************8876541445566778888*****999..788*****998 PP
+
+  typeI_two_LPJP1_queries.aligned 489 el 490
+                                       +
+              o34a16cd31624c1d9c2 483 PI 484
+                                      77 PP
+
+>> o5b9819d85d0f4f8b6d  ERR8509207_4241 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.3   2.3   8.2e-33   8.2e-33     340     494 ..     329     488 ..     322     526 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 111.3 bits;  conditional E-value: 8.2e-33
+  typeI_two_LPJP1_queries.aligned 340 kekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkk......iwfsfvweiviyneetksieinlild 411
+                                       + +++ siG+kt+ccf+  Gla+ ++  a + Pl+ i++G + k+      +wfs++we   y+e+ +++   l++d
+              o5b9819d85d0f4f8b6d 329 DDLDNLLSIGIKTRCCFKVGGLAERMVWAAHNHPLSAIVQGKYRKQeqgkeyTWFSYLWEALFYDEKQRTYYPWLVMD 406
+                                      578999***********************************997644444559************************* PP
+
+  typeI_two_LPJP1_queries.aligned 412 niessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktq.rdrssseglinsenkfsryssyddsekvy 488
+                                      nies++ ld  e +   ++++ n+ y+ +y+Gylrnd+ ++  +   q  +  +++ l+  e +f  y++ydds  v+
+              o5b9819d85d0f4f8b6d 407 NIESNNKLDLKELNSFLNYIKENTPYRGVYIGYLRNDLTEECNKFVMQhTLIKKTNNLVFREANF--YTAYDDSAMVH 482
+                                      **************************************9887665554156678889******99..788******99 PP
+
+  typeI_two_LPJP1_queries.aligned 489 elldrk 494
+                                       +  +k
+              o5b9819d85d0f4f8b6d 483 PIEFHK 488
+                                      774443 PP
+
+>> tfc74b6de59c153b8cd  ERR8509207_4241 ERR8509207_4241_pgv27
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.3   2.3     8e-33     8e-33     340     494 ..     324     483 ..     317     521 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 111.3 bits;  conditional E-value: 8e-33
+  typeI_two_LPJP1_queries.aligned 340 kekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkk......iwfsfvweiviyneetksieinlild 411
+                                       + +++ siG+kt+ccf+  Gla+ ++  a + Pl+ i++G + k+      +wfs++we   y+e+ +++   l++d
+              tfc74b6de59c153b8cd 324 DDLDNLLSIGIKTRCCFKVGGLAERMVWAAHNHPLSAIVQGKYRKQeqgkeyTWFSYLWEALFYDEKQRTYYPWLVMD 401
+                                      578999***********************************997644444559************************* PP
+
+  typeI_two_LPJP1_queries.aligned 412 niessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktq.rdrssseglinsenkfsryssyddsekvy 488
+                                      nies++ ld  e +   ++++ n+ y+ +y+Gylrnd+ ++  +   q  +  +++ l+  e +f  y++ydds  v+
+              tfc74b6de59c153b8cd 402 NIESNNKLDLKELNSFLNYIKENTPYRGVYIGYLRNDLTEECNKFVMQhTLIKKTNNLVFREANF--YTAYDDSAMVH 477
+                                      **************************************9887665554156678889******99..788******99 PP
+
+  typeI_two_LPJP1_queries.aligned 489 elldrk 494
+                                       +  +k
+              tfc74b6de59c153b8cd 478 PIEFHK 483
+                                      774443 PP
+
+>> oc730beee4472b32d9a  SRR16953781_2281 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.2  23.9   1.7e-32   1.7e-32     217     520 ..     224     532 ..     211     567 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 110.2 bits;  conditional E-value: 1.7e-32
+  typeI_two_LPJP1_queries.aligned 217 nkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddflkllnyinyevvrks 294
+                                      nk  v + +   + +  +h+ +e+fPk   +k  +++      + + ++++k+i   y  ++fl ll+  ny+ +r +
+              oc730beee4472b32d9a 224 NKLLVMFSNYMDKTETGIHNIIENFPKFDSKKCTKEE------LKDFYEWVKEI-RIYSRENFLSLLSLKNYKKIRYA 294
+                                      66666677777778899*********99888888777......999*******9.99********************* PP
+
+  typeI_two_LPJP1_queries.aligned 295 dlnikelrkyvn.....ivdlakkGlkygevseskmlid.dsksndlikfskekveinsiGvktkccfrPdGlaksll 366
+                                      + n+ e    +n      v++a + +k       +ml+d  +   +   f+k+ +   ++G  t cc++ dG+a+sl+
+              oc730beee4472b32d9a 295 K-NLDERLMEINrhqiaKVKKAENSIKS--AGTCEMLFDfANTETKNFSFTKNPDLAYQLGDLTNCCYKKDGAAESLV 369
+                                      9.98876555551110045555555555..6667888884455667889***************************** PP
+
+  typeI_two_LPJP1_queries.aligned 367 kialesPlaGileGvldkkiwfsfvweiviyneetksi..ei.....nlildniessklldnneyeiiidwldin..s 435
+                                       +++e  +aG l  + +k  wfsf+we    + e ks+  ei      lildn+e s +++   ++ i + l+     
+              oc730beee4472b32d9a 370 SVSVECEIAGNLIKLTEKNKWFSFIWEKIRRD-ERKSLywEIdpfykELILDNVECSGMINLPRWNSILEELKEKvlP 446
+                                      ***************************76654.445431243223337***********************9876236 PP
+
+  typeI_two_LPJP1_queries.aligned 436 dykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknniky...igsdnkdiikd 510
+                                      +y +i +G  rndi   ik  +    + +s+ +  ++n + +y  ydds++ ye+l r+ nik    +     d + +
+              oc730beee4472b32d9a 447 HYGRILIGQERNDIQDFIKLYNNGDFQENSQKIPYYQNSWRQY-GYDDSHYTYEIL-RNRNIKRdeeVRYAIGDTVGE 522
+                                      ******************988777777777789999999****.***********6.555565411133344455555 PP
+
+  typeI_two_LPJP1_queries.aligned 511 yddyseviie 520
+                                      +  +s ++ +
+              oc730beee4472b32d9a 523 FHRFSYYLLD 532
+                                      5555555544 PP
+
+>> t5cf1daf3f2675f3c8c  SRR16953781_2281 SRR16953781_2281_pgv3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.8  24.7   2.4e-32   2.4e-32     217     520 ..     222     530 ..     206     573 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 109.8 bits;  conditional E-value: 2.4e-32
+  typeI_two_LPJP1_queries.aligned 217 nkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddflkllnyinyevvrks 294
+                                      nk  v + +   + +  +h+ +e+fPk   +k  +++      + + ++++k+i   y  ++fl ll+  ny+ +r +
+              t5cf1daf3f2675f3c8c 222 NKLLVMFSNYMDKTETGIHNIIENFPKFDSKKCTKEE------LKDFYEWVKEI-RIYSRENFLSLLSLKNYKKIRYA 292
+                                      66666677777788899*********99888888777......999*******9.99********************* PP
+
+  typeI_two_LPJP1_queries.aligned 295 dlnikelrkyvn.....ivdlakkGlkygevseskmlid.dsksndlikfskekveinsiGvktkccfrPdGlaksll 366
+                                      + n+ e    +n      v++a + +k       +ml+d  +   +   f+k+ +   ++G  t cc++ dG+a+sl+
+              t5cf1daf3f2675f3c8c 293 K-NLDERLMEINrhqiaKVKKAENSIKS--AGTCEMLFDfANTETKNFSFTKNPDLAYQLGDLTNCCYKKDGAAESLV 367
+                                      9.98876555551110045555555555..6667888884455667889***************************** PP
+
+  typeI_two_LPJP1_queries.aligned 367 kialesPlaGileGvldkkiwfsfvweiviyneetksi..ei.....nlildniessklldnneyeiiidwldin..s 435
+                                       +++e  +aG l  + +k  wfsf+we    + e ks+  ei      lildn+e s +++   ++ i + l+     
+              t5cf1daf3f2675f3c8c 368 SVSVECEIAGNLIKLTEKNKWFSFIWEKIRRD-ERKSLywEIdpfykELILDNVECSGMINLPRWNSILEELKEKvlP 444
+                                      ***************************76654.445431243223337***********************9876236 PP
+
+  typeI_two_LPJP1_queries.aligned 436 dykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknniky...igsdnkdiikd 510
+                                      +y +i +G  rndi   ik  +    + +s+ +  ++n + +y  ydds++ ye+l r+ nik    +     d + +
+              t5cf1daf3f2675f3c8c 445 HYGRILIGQERNDIQDFIKLYNNGDFQENSQKIPYYQNSWRQY-GYDDSHYTYEIL-RNRNIKRdeeVRYAIGDTVGE 520
+                                      ******************988777777777789999999****.***********6.555565411133344455666 PP
+
+  typeI_two_LPJP1_queries.aligned 511 yddyseviie 520
+                                      +  +s ++ +
+              t5cf1daf3f2675f3c8c 521 FHRFSYYLLD 530
+                                      6666555554 PP
+
+>> t2cd3b6d9ca81587594  SRR23636735_4859 SRR23636735_4859_pgv6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.8  18.7   3.7e-21   3.7e-21     264     501 ..     106     364 ..      24     381 .. 0.75
+   2 !   27.4   3.0   1.9e-07   1.9e-07     572     665 ..     408     506 ..     389     524 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 72.8 bits;  conditional E-value: 3.7e-21
+  typeI_two_LPJP1_queries.aligned 264 laylkrilskyksddflkllnyinyevvrksdl...ni.........k...elrkyvnivdlakkGlkygevseskml 326
+                                      l  + +i+ kyk++ f+++++y+ny+ +r+  l              k   ++++ + i    k G  + +v + k  
+              t2cd3b6d9ca81587594 106 LVKIFNIIKKYKKEYFFRFVKYLNYKDIRQMILtqtRKeeidilinkKrdtQFKRAISISYRKKYGKDWRDVVKEKNF 183
+                                      33445566899*****************98654111220000011111111234445555556667777788887766 PP
+
+  typeI_two_LPJP1_queries.aligned 327 id....dsks.....ndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiv 395
+                                      i+    ++ +     n+ + f k+  +    G  t+cc++  G+a++llk+   sPlaG + G + +k  +++vw++ 
+              t2cd3b6d9ca81587594 184 IErrlpNTTYvsklmNNQLEFIKDPIKASFWGNETLCCLKNGGAAEALLKPIESSPLAGEVVGKFKNKKTLAYVWDML 261
+                                      65222233322233388899*******************************999************************ PP
+
+  typeI_two_LPJP1_queries.aligned 396 iyneetksieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqrdrssseg...lin 470
+                                      + n+     e +li+dnie +  l  +e e   +  ++   yk iylG +rnd   + k  kt ++r s       + 
+              t2cd3b6d9ca81587594 262 EINNGI--AEKSLIIDNIEVAGKLTEEETERYLNVYKNLNGYKNIYLGTIRNDCTLSEKYIKTTKERQSVPTgyeKLY 337
+                                      ***975..6899******************************************999999999999988732011344 PP
+
+  typeI_two_LPJP1_queries.aligned 471 senkfsryssyddsekvyelldrknnikyig 501
+                                       e++fs      ds+++y++  rkn+ ++  
+              t2cd3b6d9ca81587594 338 KEHRFSG----ADSKNLYTIDIRKNDNRFFL 364
+                                      4555554....5********88999888765 PP
+
+  == domain 2  score: 27.4 bits;  conditional E-value: 1.9e-07
+  typeI_two_LPJP1_queries.aligned 572 diygylistleGydpenesvqfnn....rsfn.tdthskllyiedivikyykklssilkyifedlkkfiidndikyis 644
+                                       + gy+++ ++ +  ++     +n    + ++    + k +yiediv+  ++k+ s l  i e l  ++ dn i  + 
+              t2cd3b6d9ca81587594 408 HVAGYFVTRFKYFKIDETDFSQDNeikkKDLKkNKKYVKKFYIEDIVLAPNRKVISCLSQITERLVTWLKDNGIDTLM 485
+                                      45667777666655444333333301113333134567899************************************* PP
+
+  typeI_two_LPJP1_queries.aligned 645 ssfnenskqfmkrinieGlel 665
+                                      +++nensk ++kr+  eG ++
+              t2cd3b6d9ca81587594 486 TNVNENSKTLLKRLTAEGIKV 506
+                                      *****************9865 PP
+
+>> of731002e38ca8d9d90  SRR23636735_4859 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2  19.3   5.7e-21   5.7e-21     264     501 ..     128     386 ..      41     403 .. 0.74
+   2 !   27.4   3.0   2.1e-07   2.1e-07     572     665 ..     430     528 ..     411     546 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 72.2 bits;  conditional E-value: 5.7e-21
+  typeI_two_LPJP1_queries.aligned 264 laylkrilskyksddflkllnyinyevvrksdl...ni.........k...elrkyvnivdlakkGlkygevseskml 326
+                                      l  + +i+ kyk++ f+++++y+ny+ +r+  l              k   ++++ + i    k G  + +v + k  
+              of731002e38ca8d9d90 128 LVKIFNIIKKYKKEYFFRFVKYLNYKDIRQMILtqtRKeeidilinkKrdtQFKRAISISYRKKYGKDWRDVVKEKNF 205
+                                      33445566899*****************98654111220000011111111234445555556667777788887766 PP
+
+  typeI_two_LPJP1_queries.aligned 327 id....dsks.....ndlikfskekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiv 395
+                                      i+    ++ +     n+ + f k+  +    G  t+cc++  G+a++llk+   sPlaG + G + +k  +++vw++ 
+              of731002e38ca8d9d90 206 IErrlpNTTYvsklmNNQLEFIKDPIKASFWGNETLCCLKNGGAAEALLKPIESSPLAGEVVGKFKNKKTLAYVWDML 283
+                                      65222233322233388899*******************************999************************ PP
+
+  typeI_two_LPJP1_queries.aligned 396 iyneetksieinlildniessklldnneyeiiidwldinsdykkiylGylrndinrtikvdktqrdrssseg...lin 470
+                                      + n+     e +li+dnie +  l  +e e   +  ++   yk iylG +rnd   + k  kt ++r s       + 
+              of731002e38ca8d9d90 284 EINNGI--AEKSLIIDNIEVAGKLTEEETERYLNVYKNLNGYKNIYLGTIRNDCTLSEKYIKTTKERQSVPTgyeKLY 359
+                                      ***975..6899******************************************999999999999988732011344 PP
+
+  typeI_two_LPJP1_queries.aligned 471 senkfsryssyddsekvyelldrknnikyig 501
+                                       e++fs      ds+++y++  rkn+ ++  
+              of731002e38ca8d9d90 360 KEHRFSG----ADSKNLYTIDIRKNDNRFFL 386
+                                      4555554....5********88999888765 PP
+
+  == domain 2  score: 27.4 bits;  conditional E-value: 2.1e-07
+  typeI_two_LPJP1_queries.aligned 572 diygylistleGydpenesvqfnn....rsfn.tdthskllyiedivikyykklssilkyifedlkkfiidndikyis 644
+                                       + gy+++ ++ +  ++     +n    + ++    + k +yiediv+  ++k+ s l  i e l  ++ dn i  + 
+              of731002e38ca8d9d90 430 HVAGYFVTRFKYFKIDETDFSQDNeikkKDLKkNKKYVKKFYIEDIVLAPNRKVISCLSQITERLVTWLKDNGIDTLM 507
+                                      45667777666655444333333301113333134567899************************************* PP
+
+  typeI_two_LPJP1_queries.aligned 645 ssfnenskqfmkrinieGlel 665
+                                      +++nensk ++kr+  eG ++
+              of731002e38ca8d9d90 508 TNVNENSKTLLKRLTAEGIKV 528
+                                      *****************9865 PP
+
+>> t2000db3674a16f399a  ERR4183474_751 ERR4183474_751_pgv22
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.9  39.9   2.5e-26   2.5e-26     225     667 ..      66     494 ..       3     500 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 89.9 bits;  conditional E-value: 2.5e-26
+  typeI_two_LPJP1_queries.aligned 225 kgnsenkid.lhrfveefP..kkviekliddkkvnstyideilaylkrilskyksddflkllnyinyevvrksdlnik 299
+                                      k ++ n ++ + +f+ e    k++i  +++ k       d++++ +  i +kyk++ fl +++++n + + k+ l+ k
+              t2000db3674a16f399a  66 KEQTPNVLKiIRNFITEIHqlKEIIPNFDESK------KDDLVKCFYTI-AKYKKETFLEIISFLNNKKIIKAILDKK 136
+                                      22222222213344444431123334443333......34444444455.8999999999999999999988877666 PP
+
+  typeI_two_LPJP1_queries.aligned 300 elrkyvnivdlakk...............Glkygevsesk..mliddsks..ndl...ikfskekveinsiGvktkcc 355
+                                      + ++ +  +++ k+               G +y e  ++k   l+ +  +  n +   + f k+k +    G  tkcc
+              t2000db3674a16f399a 137 NRKQIILEIEKIKQsmykkqetivykkeyGPNYKEFLDAKrkNLLVNYTYvpNMMfdeLEFIKDKIKASFWGEETKCC 214
+                                      65555544444433111111111111111556666544432123333332222222226799**************** PP
+
+  typeI_two_LPJP1_queries.aligned 356 frPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldi 433
+                                      ++  G+ak ll +  +sP+aG + G l      s+ w++ ++  + k++++ lildnies  ++d  + e++ d l  
+              t2000db3674a16f399a 215 LKKGGAAKDLLIPIEQSPIAGEIVGKLRGNKMSSYTWDMIEFI-NGKAYKT-LILDNIESPVMIDEKDTEYLFDRLHS 290
+                                      ***********99999***********99999**********7.5799986.9************************* PP
+
+  typeI_two_LPJP1_queries.aligned 434 nsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsr.yssyddsekvyelldrknnikyigsdnkdiikd 510
+                                        +yk iylG +rnd      v+k ++ r+  + l  ++  f +   ++ ds+ vy++ ++k+n         +i+  
+              t2000db3674a16f399a 291 FGKYKTIYLGTVRNDC----TVSKKYKTRPRQNLLPGFDFVFRKsMFTHADSDIVYKMREHKEN---------NIM-- 353
+                                      ***************6....588999999999889899999864144789********655543.........222.. PP
+
+  typeI_two_LPJP1_queries.aligned 511 yddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygylistleGydpen 588
+                                              + k +i  +    y++ky +  + +  + +k   ++       + ++i     +iygy++++ +    en
+              t2000db3674a16f399a 354 -------EVRKMNISDLHLCKYIEKYIYGNKIYDGEDDK-TDILKQVLLDTPCYIIDSTT-NIYGYMLTKWKY-LDEN 421
+                                      .......12233444444455555555544433333333.22222233567889887665.58******9886.5567 PP
+
+  typeI_two_LPJP1_queries.aligned 589 esvqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelv 666
+                                          fn +       sk +yied+v+  +kk  s l  ifedl k+++dn ik +    n+ sk+f kr++  G ++v
+              t2000db3674a16f399a 422 GQELFNGK------GSKKFYIEDLVVSKNKKTISKLSEIFEDLTKWLLDNKIKEVYLHTNKFSKNFKKRLDKLGIKVV 493
+                                      66666655......6999****************************************************99999988 PP
+
+  typeI_two_LPJP1_queries.aligned 667 k 667
+                                      +
+              t2000db3674a16f399a 494 E 494
+                                      7 PP
+
+>> o616d2c81abf817024b  ERR4183474_751 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.5  43.4   6.7e-26   6.7e-26     139     667 ..       6     517 ..       3     523 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 88.5 bits;  conditional E-value: 6.7e-26
+  typeI_two_LPJP1_queries.aligned 139 itdfklehevlfltdkiskkrlykniklikdkytsnldnklepelfdisflkekkknylsklfsllirisyeqltk.l 215
+                                      i+d+ l+ ++  + + i  k+l   ++lik  +++nl  +   +l +i +  e       + fs +     e++ +  
+              o616d2c81abf817024b   6 IADVILKGNIEEVSNIIRMKELMGLPQLIK--FSDNLGYRKLNKLNNITNDNELLVKI-LREFSQFSDYKEEDIHNdK 80 
+                                      667777777777777777777777777775..66666665555555555543333222.2334444333333333213 PP
+
+  typeI_two_LPJP1_queries.aligned 216 lnkvvvaynkgnsenkid.lhrfveefP..kkviekliddkkvnstyideilaylkrilskyksddflkllnyinyev 290
+                                      l k +v+  k ++ n ++ + +f+ e    k++i  +++ k       d++++ +  i +kyk++ fl +++++n + 
+              o616d2c81abf817024b  81 LKKFIVC-FKEQTPNVLKiIRNFITEIHqlKEIIPNFDESK------KDDLVKCFYTI-AKYKKETFLEIISFLNNKK 150
+                                      4444443.344455555415678877652245666666666......35555555555.8999999999999999999 PP
+
+  typeI_two_LPJP1_queries.aligned 291 vrksdlnikelrkyvnivdlakk...............Glkygevsesk..mliddsks..ndl...ikfskekvein 346
+                                      + k+ l+ k+ ++ +  +++ k+               G +y e  ++k   l+ +  +  n +   + f k+k +  
+              o616d2c81abf817024b 151 IIKAILDKKNRKQIILEIEKIKQsmykkqetivykkeyGPNYKEFLDAKrkNLLVNYTYvpNMMfdeLEFIKDKIKAS 228
+                                      88887766655555544444433111111111111111556666544432123333333222222226799******* PP
+
+  typeI_two_LPJP1_queries.aligned 347 siGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnney 424
+                                        G  tkcc++  G+ak ll +  +sP+aG + G l      s+ w++ ++  + k++++ lildnies  ++d  + 
+              o616d2c81abf817024b 229 FWGEETKCCLKKGGAAKDLLIPIEQSPIAGEIVGKLRGNKMSSYTWDMIEFI-NGKAYKT-LILDNIESPVMIDEKDT 304
+                                      ********************99999***********99999**********7.5799986.9**************** PP
+
+  typeI_two_LPJP1_queries.aligned 425 eiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsr.yssyddsekvyelldrknnikyig 501
+                                      e++ d l    +yk iylG +rnd      v+k ++ r+  + l  ++  f +   ++ ds+ vy++ ++k+n     
+              o616d2c81abf817024b 305 EYLFDRLHSFGKYKTIYLGTVRNDC----TVSKKYKTRPRQNLLPGFDFVFRKsMFTHADSDIVYKMREHKEN----- 373
+                                      ************************6....588999999999889899999864144789********655543..... PP
+
+  typeI_two_LPJP1_queries.aligned 502 sdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygylis 579
+                                          +i+          + k +i  +    y++ky +  + +  + +k   ++       + ++i     +iygy+++
+              o616d2c81abf817024b 374 ----NIM---------EVRKMNISDLHLCKYIEKYIYGNKIYDGEDDK-TDILKQVLLDTPCYIIDSTT-NIYGYMLT 436
+                                      ....222.........12233444444455555555544433333333.22222233567889887665.58****** PP
+
+  typeI_two_LPJP1_queries.aligned 580 tleGydpenesvqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkr 657
+                                      + +    en    fn +       sk +yied+v+  +kk  s l  ifedl k+++dn ik +    n+ sk+f kr
+              o616d2c81abf817024b 437 KWKY-LDENGQELFNGK------GSKKFYIEDLVVSKNKKTISKLSEIFEDLTKWLLDNKIKEVYLHTNKFSKNFKKR 507
+                                      9886.556766666655......6999*************************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 658 inieGlelvk 667
+                                      ++  G ++v+
+              o616d2c81abf817024b 508 LDKLGIKVVE 517
+                                      *999999887 PP
+
+>> od48e877209d0a51b70  ERR4183494_514 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.5  38.1   1.1e-24   1.1e-24     206     669 ..      77     521 ..      18     527 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 84.5 bits;  conditional E-value: 1.1e-24
+  typeI_two_LPJP1_queries.aligned 206 risyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddflkll 283
+                                      +i + +l k+l   +  + +   +   ++h++ve +P   i+   d          ei++ l+ri  ++++++fl ++
+              od48e877209d0a51b70  77 KIKFRNLFKVLKEDTPEFIRISRQYIEEIHQLVEILPMFEIK---DR--------KEIMTSLRRI-KNFNKENFLEIF 142
+                                      555555555555555544444444444555555555543322...22........3677788888.788999999999 PP
+
+  typeI_two_LPJP1_queries.aligned 284 nyinyevvrks..........dlnikelrkyv.....nivdlakkGlkygevseskmliddsks...ndl....ikfs 339
+                                       ++  + vrk+          ++++++++k +       v + + G  y e+   k l  ++ +    ++    + f 
+              od48e877209d0a51b70 143 THLQVKKVRKAiltnksidiiKIEVENFKKMIlkrneSLVYKKQYGSAYKEILSFKRLTHNQIHtyiSKMdlspLSFI 220
+                                      99999999987222222222223334445555333112344455577777776555555443220112333344689* PP
+
+  typeI_two_LPJP1_queries.aligned 340 kekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweivi.yneetksieinlildniess 416
+                                      k+kv+    G  t+cc++  G+a++ll i  +sPlaG + G ++kk   s+ w++v+  n e++    +lildnie+s
+              od48e877209d0a51b70 221 KDKVQADFWGRETLCCLKKGGVAEALLEIIENSPLAGEIVGKIGKKKVSSYTWDMVEiINGEAR---KTLILDNIEAS 295
+                                      ******************************************************9962577765...47********* PP
+
+  typeI_two_LPJP1_queries.aligned 417 klldnney.eiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkf...sryssyddsekvyel 490
+                                        l  +e  e+i + +    +yk +ylG  rnd + +    k +  r +s  +i+  +k+   + y ++ ds+++y++
+              od48e877209d0a51b70 296 LRLTEEEVeEFIFNKIFDYGKYKTLYLGICRNDCDLKKEY-KEKEYRRQS--IISGFHKLvstNTY-AHADSDRMYKI 369
+                                      9999999835999*******************98754332.333334444..56666665222566.778******** PP
+
+  typeI_two_LPJP1_queries.aligned 491 ldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirl 568
+                                       +r++        +k+i  +y +         ++  +  + y+++y + ++ + ++ +k   ++       + ++i +
+              od48e877209d0a51b70 370 REREE--------EKNI--EYRK--------MNVSDLHLVKYIENYIYGKELYNSEDDK-TDILKQVTLETPCYIIDN 428
+                                      66643........3444..3443........3344455556777777777777777777.444455667899999988 PP
+
+  typeI_two_LPJP1_queries.aligned 569 dnddiygylistleGydpenesvqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisss 646
+                                        + iygy++++ + +d       +n  sf+     k lyied+v+  +kk  + lk if+d+ k+i +n+ik +  +
+              od48e877209d0a51b70 429 STN-IYGYFLTKWKWFDN------INMESFDKKG-KKRLYIEDLVVSKQKKALKLLKPIFDDFIKWIKENNIKEVYLN 498
+                                      766.7**********885......5667887655.5789*************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 647 fnenskqfmkrinieGlelvkdt 669
+                                       n+ s +f+kr+n eG  +v++ 
+              od48e877209d0a51b70 499 PNQFSSNFVKRLNREGIVVVREN 521
+                                      ****************9999864 PP
+
+>> te7f7c48d921e0d28de  ERR4183494_514 ERR4183494_514_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.5  38.1   1.1e-24   1.1e-24     206     669 ..      76     520 ..      17     526 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 84.5 bits;  conditional E-value: 1.1e-24
+  typeI_two_LPJP1_queries.aligned 206 risyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddkkvnstyideilaylkrilskyksddflkll 283
+                                      +i + +l k+l   +  + +   +   ++h++ve +P   i+   d          ei++ l+ri  ++++++fl ++
+              te7f7c48d921e0d28de  76 KIKFRNLFKVLKEDTPEFIRISRQYIEEIHQLVEILPMFEIK---DR--------KEIMTSLRRI-KNFNKENFLEIF 141
+                                      555555555555555544444444444555555555543322...22........3677788888.788999999999 PP
+
+  typeI_two_LPJP1_queries.aligned 284 nyinyevvrks..........dlnikelrkyv.....nivdlakkGlkygevseskmliddsks...ndl....ikfs 339
+                                       ++  + vrk+          ++++++++k +       v + + G  y e+   k l  ++ +    ++    + f 
+              te7f7c48d921e0d28de 142 THLQVKKVRKAiltnksidiiKIEVENFKKMIlkrneSLVYKKQYGSAYKEILSFKRLTHNQIHtyiSKMdlspLSFI 219
+                                      99999999987222222222223334445555333112344455577777776555555443220112333344689* PP
+
+  typeI_two_LPJP1_queries.aligned 340 kekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweivi.yneetksieinlildniess 416
+                                      k+kv+    G  t+cc++  G+a++ll i  +sPlaG + G ++kk   s+ w++v+  n e++    +lildnie+s
+              te7f7c48d921e0d28de 220 KDKVQADFWGRETLCCLKKGGVAEALLEIIENSPLAGEIVGKIGKKKVSSYTWDMVEiINGEAR---KTLILDNIEAS 294
+                                      ******************************************************9962577765...47********* PP
+
+  typeI_two_LPJP1_queries.aligned 417 klldnney.eiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkf...sryssyddsekvyel 490
+                                        l  +e  e+i + +    +yk +ylG  rnd + +    k +  r +s  +i+  +k+   + y ++ ds+++y++
+              te7f7c48d921e0d28de 295 LRLTEEEVeEFIFNKIFDYGKYKTLYLGICRNDCDLKKEY-KEKEYRRQS--IISGFHKLvstNTY-AHADSDRMYKI 368
+                                      9999999835999*******************98754332.333334444..56666665222566.778******** PP
+
+  typeI_two_LPJP1_queries.aligned 491 ldrknnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirl 568
+                                       +r++        +k+i  +y +         ++  +  + y+++y + ++ + ++ +k   ++       + ++i +
+              te7f7c48d921e0d28de 369 REREE--------EKNI--EYRK--------MNVSDLHLVKYIENYIYGKELYNSEDDK-TDILKQVTLETPCYIIDN 427
+                                      66643........3444..3443........3344455556777777777777777777.444455667899999988 PP
+
+  typeI_two_LPJP1_queries.aligned 569 dnddiygylistleGydpenesvqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisss 646
+                                        + iygy++++ + +d       +n  sf+     k lyied+v+  +kk  + lk if+d+ k+i +n+ik +  +
+              te7f7c48d921e0d28de 428 STN-IYGYFLTKWKWFDN------INMESFDKKG-KKRLYIEDLVVSKQKKALKLLKPIFDDFIKWIKENNIKEVYLN 497
+                                      766.7**********885......5667887655.5789*************************************** PP
+
+  typeI_two_LPJP1_queries.aligned 647 fnenskqfmkrinieGlelvkdt 669
+                                       n+ s +f+kr+n eG  +v++ 
+              te7f7c48d921e0d28de 498 PNQFSSNFVKRLNREGIVVVREN 520
+                                      ****************9999864 PP
+
+>> o98844e0bd379e3447d  SRR26954464_13799 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.8  30.8   1.5e-20   1.5e-20     234     663 ..     104     511 ..      75     519 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 70.8 bits;  conditional E-value: 1.5e-20
+  typeI_two_LPJP1_queries.aligned 234 lhrfveefPkkviekliddkkvnstyideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdla 311
+                                      lh++ve +P+  +ek+ +      +yi+     + +i+skyk++df+  l+++ny  ++k+ +n ++ +  + ++++ 
+              o98844e0bd379e3447d 104 LHQLVEILPN-FTEKYRQ------QYIE-----IFKIISKYKKEDFMATLSFLNYPHIQKAIINKRNKKDIMFMIEKI 169
+                                      5555555554.2444432......3443.....44677***********************99988888888888888 PP
+
+  typeI_two_LPJP1_queries.aligned 312 kkGl...........kygevseskmlid.dsksndl..........ikfskekveinsiGvktkccfrPdGlaksllk 367
+                                      kkG            +yge  +  + ++ ++k++ +          +k+ k+ ve    G  t+cc++  G+a+ llk
+              o98844e0bd379e3447d 170 KKGFlnreetimyrkEYGEEYKKYLEMKrNNKYEIYtqitkinipgLKLIKDEVEASYWGKETLCCLKKGGAAEGLLK 247
+                                      888433333333333577777766665425555433222222323346678999999********************* PP
+
+  typeI_two_LPJP1_queries.aligned 368 ialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldinsdykkiylGyl 445
+                                      +   sP+aG l G + +    s+ w++v+   + k++++ l+ldnies  ++   + e + d +++   yk iylG  
+              o98844e0bd379e3447d 248 VISCSPIAGELVGTFKNNKLSSYTWDMVEMV-NGKAYKT-LVLDNIESPTMISEKNTEELFDIISNAGYYKTIYLGIT 323
+                                      *****************************86.5799986.9************************************* PP
+
+  typeI_two_LPJP1_queries.aligned 446 rnd..inrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiek 521
+                                      rnd  +n+++ v++ q + +  +  +   + f +     ds ++y + ++k                  + +e+ + +
+              o98844e0bd379e3447d 324 RNDceVNSKYEVKRRQALVPGFDK-MFKAHTFMSA----DSSNLYVMREHK------------------EDTELEVRH 378
+                                      **9556888888888888887744.4556777776....899999883333..................224444444 PP
+
+  typeI_two_LPJP1_queries.aligned 522 adiGwinrslyvkkyvikldsdleklkk.vnklfiarksksisslirldnddiygylistleGydpenesvqfnnrsf 598
+                                       +   +  + y++ky +    d+ +++     ++ a     + ++i    + i gy++++ +    + +  q ++   
+              o98844e0bd379e3447d 379 MNKSDLHLVKYIEKYIYG---DIYNGENeTTDILNAVTLETPCYIIDSKTN-IEGYVLTKYKY-LKD-DGTQDKDN-- 448
+                                      555555666677777653...33333321356778899999***9987665.69**9998665.333.34443333.. PP
+
+  typeI_two_LPJP1_queries.aligned 599 ntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGl 663
+                                          ++k +yiediv   +++    l  i+ d+  +   n++  + s+ n+ sk+++kr++  G 
+              o98844e0bd379e3447d 449 --ILKNKRVYIEDIVFSKNREALLKLNDIILDFILWCNKNEVTEVYSNPNKFSKNLVKRLENYGI 511
+                                      ..346799*******99999999999999999999999*********************987776 PP
+
+>> t0d83b9168045cb287e  SRR26954464_13799 SRR26954464_13799_pgv3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.1  31.9   2.4e-20   2.4e-20     234     663 ..      83     490 ..      41     498 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 70.1 bits;  conditional E-value: 2.4e-20
+  typeI_two_LPJP1_queries.aligned 234 lhrfveefPkkviekliddkkvnstyideilaylkrilskyksddflkllnyinyevvrksdlnikelrkyvnivdla 311
+                                      lh++ve +P+  +ek+ +      +yi+     + +i+skyk++df+  l+++ny  ++k+ +n ++ +  + ++++ 
+              t0d83b9168045cb287e  83 LHQLVEILPN-FTEKYRQ------QYIE-----IFKIISKYKKEDFMATLSFLNYPHIQKAIINKRNKKDIMFMIEKI 148
+                                      5666665555.3444432......3453.....44677***********************99988888888888888 PP
+
+  typeI_two_LPJP1_queries.aligned 312 kkGl...........kygevseskmlid.dsksndl..........ikfskekveinsiGvktkccfrPdGlaksllk 367
+                                      kkG            +yge  +  + ++ ++k++ +          +k+ k+ ve    G  t+cc++  G+a+ llk
+              t0d83b9168045cb287e 149 KKGFlnreetimyrkEYGEEYKKYLEMKrNNKYEIYtqitkinipgLKLIKDEVEASYWGKETLCCLKKGGAAEGLLK 226
+                                      888433333333333577777766665425555433222222323346678999999********************* PP
+
+  typeI_two_LPJP1_queries.aligned 368 ialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldinsdykkiylGyl 445
+                                      +   sP+aG l G + +    s+ w++v+   + k++++ l+ldnies  ++   + e + d +++   yk iylG  
+              t0d83b9168045cb287e 227 VISCSPIAGELVGTFKNNKLSSYTWDMVEMV-NGKAYKT-LVLDNIESPTMISEKNTEELFDIISNAGYYKTIYLGIT 302
+                                      *****************************86.5799986.9************************************* PP
+
+  typeI_two_LPJP1_queries.aligned 446 rnd..inrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdiikdyddyseviiek 521
+                                      rnd  +n+++ v++ q + +  +  +   + f +     ds ++y + ++k                  + +e+ + +
+              t0d83b9168045cb287e 303 RNDceVNSKYEVKRRQALVPGFDK-MFKAHTFMSA----DSSNLYVMREHK------------------EDTELEVRH 357
+                                      **9556888888888888887744.4556777776....899999883333..................224444444 PP
+
+  typeI_two_LPJP1_queries.aligned 522 adiGwinrslyvkkyvikldsdleklkk.vnklfiarksksisslirldnddiygylistleGydpenesvqfnnrsf 598
+                                       +   +  + y++ky +    d+ +++     ++ a     + ++i    + i gy++++ +    + +  q ++   
+              t0d83b9168045cb287e 358 MNKSDLHLVKYIEKYIYG---DIYNGENeTTDILNAVTLETPCYIIDSKTN-IEGYVLTKYKY-LKD-DGTQDKDN-- 427
+                                      555555666677777653...33333321356778899999***9987665.69***998665.333.34443333.. PP
+
+  typeI_two_LPJP1_queries.aligned 599 ntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGl 663
+                                          ++k +yiediv   +++    l  i+ d+  +   n++  + s+ n+ sk+++kr++  G 
+              t0d83b9168045cb287e 428 --ILKNKRVYIEDIVFSKNREALLKLNDIILDFILWCNKNEVTEVYSNPNKFSKNLVKRLENYGI 490
+                                      ..346799*******99999999999999999999999*********************987776 PP
+
+>> t5bf7d90b1129d8d51f  SRR23636733_2382 SRR23636733_2382_pgv11
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.2  37.2   4.6e-20   4.6e-20     234     667 ..      68     500 ..      17     511 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 69.2 bits;  conditional E-value: 4.6e-20
+  typeI_two_LPJP1_queries.aligned 234 lhrfveefPk..kvieklidd....kkvnstyide....ilaylkrilskyksddflkllnyinyevvrk...sdlni 298
+                                      +  f ee P+  ++i+k+i++    k+v  ++ ++    +++ l++ ++k+++ +fl +++++n++++++   ++ n+
+              t5bf7d90b1129d8d51f  68 ILTFKEETPNvlRIINKYIEEihqlKEVIPNFKEQdkyiLISCLEK-MTKFNKLNFLEMISFLNHKTIQEkivTNCNV 144
+                                      3345566666444677777663333345455543311102233333.489******************9944446799 PP
+
+  typeI_two_LPJP1_queries.aligned 299 kelrkyvniv...dlakkGl.....kygevseskmliddsk.......sndl....ikfskekveinsiGvktkccfr 357
+                                      ke+   ++ +   ++ ++       +yg   +  ++++ +k        nd+    ++f+k+       G  tkcc++
+              t5bf7d90b1129d8d51f 145 KEILFEIEKIkevLKKRAESlyyrkEYGAGYKEFLKLKRNKikciftyVNDMmfdeLQFTKDPILASFWGAETKCCLK 222
+                                      9986555544111455543311111345444444555555422222225777333358****999999********** PP
+
+  typeI_two_LPJP1_queries.aligned 358 PdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldins 435
+                                        G+a++llki   sP+aG + G +      s+ w++ +   + k++++ lildnies  ++   + e   d l+   
+              t5bf7d90b1129d8d51f 223 KGGVAEPLLKIIELSPIAGEIVGKFKGNKMSSYTWDMIEC-IDGKAYKT-LILDNIESPTMISRKDTEEFFDRLSSFN 298
+                                      ***********999*************99*******9986.689***86.9*************************** PP
+
+  typeI_two_LPJP1_queries.aligned 436 dykkiylGylrndinrtikvdktqrdrssseglinsenkfsr..yssyddsekvyelldrknnikyigsdnkdiikdy 511
+                                      +yk iylG +r+d   ++ + k ++ +s       +++ f++  y ++ dsek++ + ++++n               
+              t5bf7d90b1129d8d51f 299 KYKSIYLGTVRDDCSIDFDKYKIKKRQSLVP---GFDDLFEKhlY-THADSEKLFIMREHEEN--------------- 357
+                                      *************987766555554444443...45566655225.78999*99998333332............... PP
+
+  typeI_two_LPJP1_queries.aligned 512 ddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygylistleGydpene 589
+                                           +   k +i  +    yv+ y + +    +k +k   ++       + +++     +iygyl+++ + +d + +
+              t5bf7d90b1129d8d51f 358 ---ESMELRKMNISDLHLCKYVEEYIYGKY-IYDKNDK-TDILKQVTLETPCYILDS-TTNIYGYLLTKWKYFDDDGK 429
+                                      ...223333444444444444444443322.2223333.222222345677777655.5568*********9998876 PP
+
+  typeI_two_LPJP1_queries.aligned 590 svqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvk 667
+                                             +f  + h k +yied+vi  +kk  + +   f++l+ f+  ++ik +    ne sk+f kr    G ++++
+              t5bf7d90b1129d8d51f 430 E------TFSNNGH-KKFYIEDLVIARNKKAIKEFSKAFNNLRIFLEKKNIKEVYLHTNEYSKNFKKRFSKLGIKVIE 500
+                                      5......4444556.558**********998888888********************************999999887 PP
+
+>> t989a22e944a5f378ff  SRR23636717_4978 SRR23636717_4978_pgv5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.2  37.2   4.6e-20   4.6e-20     234     667 ..      68     500 ..      17     511 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 69.2 bits;  conditional E-value: 4.6e-20
+  typeI_two_LPJP1_queries.aligned 234 lhrfveefPk..kvieklidd....kkvnstyide....ilaylkrilskyksddflkllnyinyevvrk...sdlni 298
+                                      +  f ee P+  ++i+k+i++    k+v  ++ ++    +++ l++ ++k+++ +fl +++++n++++++   ++ n+
+              t989a22e944a5f378ff  68 ILTFKEETPNvlRIINKYIEEihqlKEVIPNFKEQdkyiLISCLEK-MTKFNKLNFLEMISFLNHKTIQEkivTNCNV 144
+                                      3345566666444677777663333345455543311102233333.489******************9944446799 PP
+
+  typeI_two_LPJP1_queries.aligned 299 kelrkyvniv...dlakkGl.....kygevseskmliddsk.......sndl....ikfskekveinsiGvktkccfr 357
+                                      ke+   ++ +   ++ ++       +yg   +  ++++ +k        nd+    ++f+k+       G  tkcc++
+              t989a22e944a5f378ff 145 KEILFEIEKIkevLKKRAESlyyrkEYGAGYKEFLKLKRNKikciftyVNDMmfdeLQFTKDPILASFWGAETKCCLK 222
+                                      9986555544111455543311111345444444555555422222225777333358****999999********** PP
+
+  typeI_two_LPJP1_queries.aligned 358 PdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldins 435
+                                        G+a++llki   sP+aG + G +      s+ w++ +   + k++++ lildnies  ++   + e   d l+   
+              t989a22e944a5f378ff 223 KGGVAEPLLKIIELSPIAGEIVGKFKGNKMSSYTWDMIEC-IDGKAYKT-LILDNIESPTMISRKDTEEFFDRLSSFN 298
+                                      ***********999*************99*******9986.689***86.9*************************** PP
+
+  typeI_two_LPJP1_queries.aligned 436 dykkiylGylrndinrtikvdktqrdrssseglinsenkfsr..yssyddsekvyelldrknnikyigsdnkdiikdy 511
+                                      +yk iylG +r+d   ++ + k ++ +s       +++ f++  y ++ dsek++ + ++++n               
+              t989a22e944a5f378ff 299 KYKSIYLGTVRDDCSIDFDKYKIKKRQSLVP---GFDDLFEKhlY-THADSEKLFIMREHEEN--------------- 357
+                                      *************987766555554444443...45566655225.78999*99998333332............... PP
+
+  typeI_two_LPJP1_queries.aligned 512 ddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygylistleGydpene 589
+                                           +   k +i  +    yv+ y + +    +k +k   ++       + +++     +iygyl+++ + +d + +
+              t989a22e944a5f378ff 358 ---ESMELRKMNISDLHLCKYVEEYIYGKY-IYDKNDK-TDILKQVTLETPCYILDS-TTNIYGYLLTKWKYFDDDGK 429
+                                      ...223333444444444444444443322.2223333.222222345677777655.5568*********9998876 PP
+
+  typeI_two_LPJP1_queries.aligned 590 svqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvk 667
+                                             +f  + h k +yied+vi  +kk  + +   f++l+ f+  ++ik +    ne sk+f kr    G ++++
+              t989a22e944a5f378ff 430 E------TFSNNGH-KKFYIEDLVIARNKKAIKEFSKAFNNLRIFLEKKNIKEVYLHTNEYSKNFKKRFSKLGIKVIE 500
+                                      5......4444556.558**********998888888********************************999999887 PP
+
+>> o7dd593770eca38f2e1  SRR23636717_4978 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.5  38.6   1.4e-19   1.4e-19     234     667 ..      89     521 ..      38     532 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 67.5 bits;  conditional E-value: 1.4e-19
+  typeI_two_LPJP1_queries.aligned 234 lhrfveefPk..kvieklidd....kkvnstyide....ilaylkrilskyksddflkllnyinyevvrk...sdlni 298
+                                      +  f ee P+  ++i+k+i++    k+v  ++ ++    +++ l++ ++k+++ +fl +++++n++++++   ++ n+
+              o7dd593770eca38f2e1  89 ILTFKEETPNvlRIINKYIEEihqlKEVIPNFKEQdkyiLISCLEK-MTKFNKLNFLEMISFLNHKTIQEkivTNCNV 165
+                                      3345566666444677777663323345455543311102233333.489******************9944446799 PP
+
+  typeI_two_LPJP1_queries.aligned 299 kelrkyvniv...dlakkGl.....kygevseskmliddsk.......sndl....ikfskekveinsiGvktkccfr 357
+                                      ke+   ++ +   ++ ++       +yg   +  ++++ +k        nd+    ++f+k+       G  tkcc++
+              o7dd593770eca38f2e1 166 KEILFEIEKIkevLKKRAESlyyrkEYGAGYKEFLKLKRNKikciftyVNDMmfdeLQFTKDPILASFWGAETKCCLK 243
+                                      9986555544111455543311111345444444555555422222225777333358****999999********** PP
+
+  typeI_two_LPJP1_queries.aligned 358 PdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldins 435
+                                        G+a++llki   sP+aG + G +      s+ w++ +   + k++++ lildnies  ++   + e   d l+   
+              o7dd593770eca38f2e1 244 KGGVAEPLLKIIELSPIAGEIVGKFKGNKMSSYTWDMIEC-IDGKAYKT-LILDNIESPTMISRKDTEEFFDRLSSFN 319
+                                      ***********999*************99*******9986.689***86.9*************************** PP
+
+  typeI_two_LPJP1_queries.aligned 436 dykkiylGylrndinrtikvdktqrdrssseglinsenkfsr..yssyddsekvyelldrknnikyigsdnkdiikdy 511
+                                      +yk iylG +r+d   ++ + k ++ +s       +++ f++  y ++ dsek++ + ++++n               
+              o7dd593770eca38f2e1 320 KYKSIYLGTVRDDCSIDFDKYKIKKRQSLVP---GFDDLFEKhlY-THADSEKLFIMREHEEN--------------- 378
+                                      *************987766555554444443...45566655225.78999*99998333332............... PP
+
+  typeI_two_LPJP1_queries.aligned 512 ddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygylistleGydpene 589
+                                           +   k +i  +    yv+ y + +    +k +k   ++       + +++     +iygyl+++ + +d + +
+              o7dd593770eca38f2e1 379 ---ESMELRKMNISDLHLCKYVEEYIYGKY-IYDKNDK-TDILKQVTLETPCYILDS-TTNIYGYLLTKWKYFDDDGK 450
+                                      ...223333444444444444444443322.2223333.222222345677777655.5568*********9998876 PP
+
+  typeI_two_LPJP1_queries.aligned 590 svqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvk 667
+                                             +f  + h k +yied+vi  +kk  + +   f++l+ f+  ++ik +    ne sk+f kr    G ++++
+              o7dd593770eca38f2e1 451 E------TFSNNGH-KKFYIEDLVIARNKKAIKEFSKAFNNLRIFLEKKNIKEVYLHTNEYSKNFKKRFSKLGIKVIE 521
+                                      5......4444556.558**********998888888********************************999999887 PP
+
+>> o801f13afcddcce014f  SRR23636733_2382 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.5  38.6   1.4e-19   1.4e-19     234     667 ..      89     521 ..      38     532 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 67.5 bits;  conditional E-value: 1.4e-19
+  typeI_two_LPJP1_queries.aligned 234 lhrfveefPk..kvieklidd....kkvnstyide....ilaylkrilskyksddflkllnyinyevvrk...sdlni 298
+                                      +  f ee P+  ++i+k+i++    k+v  ++ ++    +++ l++ ++k+++ +fl +++++n++++++   ++ n+
+              o801f13afcddcce014f  89 ILTFKEETPNvlRIINKYIEEihqlKEVIPNFKEQdkyiLISCLEK-MTKFNKLNFLEMISFLNHKTIQEkivTNCNV 165
+                                      3345566666444677777663323345455543311102233333.489******************9944446799 PP
+
+  typeI_two_LPJP1_queries.aligned 299 kelrkyvniv...dlakkGl.....kygevseskmliddsk.......sndl....ikfskekveinsiGvktkccfr 357
+                                      ke+   ++ +   ++ ++       +yg   +  ++++ +k        nd+    ++f+k+       G  tkcc++
+              o801f13afcddcce014f 166 KEILFEIEKIkevLKKRAESlyyrkEYGAGYKEFLKLKRNKikciftyVNDMmfdeLQFTKDPILASFWGAETKCCLK 243
+                                      9986555544111455543311111345444444555555422222225777333358****999999********** PP
+
+  typeI_two_LPJP1_queries.aligned 358 PdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessklldnneyeiiidwldins 435
+                                        G+a++llki   sP+aG + G +      s+ w++ +   + k++++ lildnies  ++   + e   d l+   
+              o801f13afcddcce014f 244 KGGVAEPLLKIIELSPIAGEIVGKFKGNKMSSYTWDMIEC-IDGKAYKT-LILDNIESPTMISRKDTEEFFDRLSSFN 319
+                                      ***********999*************99*******9986.689***86.9*************************** PP
+
+  typeI_two_LPJP1_queries.aligned 436 dykkiylGylrndinrtikvdktqrdrssseglinsenkfsr..yssyddsekvyelldrknnikyigsdnkdiikdy 511
+                                      +yk iylG +r+d   ++ + k ++ +s       +++ f++  y ++ dsek++ + ++++n               
+              o801f13afcddcce014f 320 KYKSIYLGTVRDDCSIDFDKYKIKKRQSLVP---GFDDLFEKhlY-THADSEKLFIMREHEEN--------------- 378
+                                      *************987766555554444443...45566655225.78999*99998333332............... PP
+
+  typeI_two_LPJP1_queries.aligned 512 ddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnddiygylistleGydpene 589
+                                           +   k +i  +    yv+ y + +    +k +k   ++       + +++     +iygyl+++ + +d + +
+              o801f13afcddcce014f 379 ---ESMELRKMNISDLHLCKYVEEYIYGKY-IYDKNDK-TDILKQVTLETPCYILDS-TTNIYGYLLTKWKYFDDDGK 450
+                                      ...223333444444444444444443322.2223333.222222345677777655.5568*********9998876 PP
+
+  typeI_two_LPJP1_queries.aligned 590 svqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfnenskqfmkrinieGlelvk 667
+                                             +f  + h k +yied+vi  +kk  + +   f++l+ f+  ++ik +    ne sk+f kr    G ++++
+              o801f13afcddcce014f 451 E------TFSNNGH-KKFYIEDLVIARNKKAIKEFSKAFNNLRIFLEKKNIKEVYLHTNEYSKNFKKRFSKLGIKVIE 521
+                                      5......4444556.558**********998888888********************************999999887 PP
+
+>> t297b207bc08d20c634  SRR9971390_1400 SRR9971390_1400_pgv47
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.0  45.6   3.4e-18   3.4e-18     220     668 ..      47     495 ..      10     499 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 63.0 bits;  conditional E-value: 3.4e-18
+  typeI_two_LPJP1_queries.aligned 220 vvaynkgnsenkidl.hrfveefPkkviekliddkkvnstyi.............deilaylkrilskyksddflkll 283
+                                       +a ++ n  n+i +  + ++e+  +v++  i +kkv+s +i             +++++ +k  ++ky + df  +l
+              t297b207bc08d20c634  47 DFANEEENITNNIRIlFKVLNEYTPQVLN--IINKKVDSFHIfkellpnvencnkEKLFKVFK-LINKYCKADFREIL 121
+                                      45566667777776425666777665544..22334444333211111111111022333333.4599********** PP
+
+  typeI_two_LPJP1_queries.aligned 284 nyinyevvrk...sdlnikelrkyvniv...dla.kkGlk....ygevseskmliddsksndl...........ikfs 339
+                                       yin++ v++   s+ n ke+   +  v   +l  k+ ++    yge  +  ++i+ s  +++           ++ +
+              t297b207bc08d20c634 122 LYINHKKVQDvilSNKNKKEILEKIREVkktLLQrKETISykklYGENYKEILKIKRSAKENFnpyfngflingLHIT 199
+                                      *****988873446668887766665551113331444452223566666666666554333211122223333468* PP
+
+  typeI_two_LPJP1_queries.aligned 340 kekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessk 417
+                                      k+  ei   G  t+cc++  G+a++l+ +   sP+a  l G + +    s++w++ +  e+ k++++ l+ldnies  
+              t297b207bc08d20c634 200 KDPIEIDFWGRETHCCLKKGGAAEALIDVMECSPIAAELVGTYCNNKLSSYIWDMIEC-ENGKAYKT-LVLDNIESPS 275
+                                      *****************************************9999999******9986.7899*986.9********* PP
+
+  typeI_two_LPJP1_queries.aligned 418 lldnneyeiiidwldinsdykkiylGylrnd..inrtikvdktqrdrssseglinsenkfsryssyddsekvyelldr 493
+                                      +++    e + d l    +yk iylG +r+d  in+++k +k q   s+  g+  s  + s y +  ds+ +y + +r
+              t297b207bc08d20c634 276 TINEATTEKLFDDLYRQGKYKSIYLGTVRDDcvINKKYKIKKRQ---SHIVGF-DSAINKSVY-TTADSKELYIMRER 348
+                                      *******************************6667777666544...454343.333444677.77899999998554 PP
+
+  typeI_two_LPJP1_queries.aligned 494 knnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnd 571
+                                       +                 d +++ i k d   +  + y++ky + ++ +  ++   n  ++ + + +    i+    
+              t297b207bc08d20c634 349 VE-----------------D-TNINIRKMDLKDLHHVKYIEKYIYGRNIY--NGVNDNTDILKQVTLDTPCYIFDSTT 406
+                                      32.................2.33334444444444444444444444322..22222222333333445555788889 PP
+
+  typeI_two_LPJP1_queries.aligned 572 diygylistleGydpenesvqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfne 649
+                                      +iygyl+++ + +d + +   +n +        k +yied+vi   k +   lk +f+++ k++  n+ik +  + n+
+              t297b207bc08d20c634 407 NIYGYLLTKWKYFDEKTNKEALNGKG------IKKFYIEDLVISKSKII--LLKTVFDEIIKWLKCNNIKEVYINANN 476
+                                      99*********999877666555554......4779*******988876..79************************* PP
+
+  typeI_two_LPJP1_queries.aligned 650 nskqfmkrinieGlelvkd 668
+                                      nsk+f+kr++ e  ++vk+
+              t297b207bc08d20c634 477 NSKNFVKRLERENIKVVKE 495
+                                      ************9999985 PP
+
+>> o5572d869b55cee8e70  SRR9971390_1400 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2  46.2   5.8e-18   5.8e-18     220     668 ..      71     519 ..      27     523 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 5.8e-18
+  typeI_two_LPJP1_queries.aligned 220 vvaynkgnsenkidl.hrfveefPkkviekliddkkvnstyi.............deilaylkrilskyksddflkll 283
+                                       +a ++ n  n+i +  + ++e+  +v++  i +kkv+s +i             +++++ +k  ++ky + df  +l
+              o5572d869b55cee8e70  71 DFANEEENITNNIRIlFKVLNEYTPQVLN--IINKKVDSFHIfkellpnvencnkEKLFKVFK-LINKYCKADFREIL 145
+                                      45666667777776425666777665554..22344444333211111111111022333333.4599********** PP
+
+  typeI_two_LPJP1_queries.aligned 284 nyinyevvrk...sdlnikelrkyvniv...dla.kkGlk....ygevseskmliddsksndl...........ikfs 339
+                                       yin++ v++   s+ n ke+   +  v   +l  k+ ++    yge  +  ++i+ s  +++           ++ +
+              o5572d869b55cee8e70 146 LYINHKKVQDvilSNKNKKEILEKIREVkktLLQrKETISykklYGENYKEILKIKRSAKENFnpyfngflingLHIT 223
+                                      *****988873446668887766665551113331444452223566666666666554333211122223333468* PP
+
+  typeI_two_LPJP1_queries.aligned 340 kekveinsiGvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildniessk 417
+                                      k+  ei   G  t+cc++  G+a++l+ +   sP+a  l G + +    s++w++ +  e+ k++++ l+ldnies  
+              o5572d869b55cee8e70 224 KDPIEIDFWGRETHCCLKKGGAAEALIDVMECSPIAAELVGTYCNNKLSSYIWDMIEC-ENGKAYKT-LVLDNIESPS 299
+                                      *****************************************9999999******9986.7899*986.9********* PP
+
+  typeI_two_LPJP1_queries.aligned 418 lldnneyeiiidwldinsdykkiylGylrnd..inrtikvdktqrdrssseglinsenkfsryssyddsekvyelldr 493
+                                      +++    e + d l    +yk iylG +r+d  in+++k +k q   s+  g+  s  + s y +  ds+ +y + +r
+              o5572d869b55cee8e70 300 TINEATTEKLFDDLYRQGKYKSIYLGTVRDDcvINKKYKIKKRQ---SHIVGF-DSAINKSVY-TTADSKELYIMRER 372
+                                      *******************************6667777666544...454343.333444677.77899999998554 PP
+
+  typeI_two_LPJP1_queries.aligned 494 knnikyigsdnkdiikdyddyseviiekadiGwinrslyvkkyvikldsdleklkkvnklfiarksksisslirldnd 571
+                                       +                 d +++ i k d   +  + y++ky + ++ +  ++   n  ++ + + +    i+    
+              o5572d869b55cee8e70 373 VE-----------------D-TNINIRKMDLKDLHHVKYIEKYIYGRNIY--NGVNDNTDILKQVTLDTPCYIFDSTT 430
+                                      32.................2.33334444444444444444444444322..22222222333333445555788889 PP
+
+  typeI_two_LPJP1_queries.aligned 572 diygylistleGydpenesvqfnnrsfntdthskllyiedivikyykklssilkyifedlkkfiidndikyisssfne 649
+                                      +iygyl+++ + +d + +   +n +        k +yied+vi   k +   lk +f+++ k++  n+ik +  + n+
+              o5572d869b55cee8e70 431 NIYGYLLTKWKYFDEKTNKEALNGKG------IKKFYIEDLVISKSKII--LLKTVFDEIIKWLKCNNIKEVYINANN 500
+                                      99*********999877666555554......4779*******988876..79************************* PP
+
+  typeI_two_LPJP1_queries.aligned 650 nskqfmkrinieGlelvkd 668
+                                      nsk+f+kr++ e  ++vk+
+              o5572d869b55cee8e70 501 NSKNFVKRLERENIKVVKE 519
+                                      ************9999985 PP
+
+>> t79e0c7d5c45565eb72  ERR7438152_4132 ERR7438152_4132_pgv12
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   2.9   1.1e-05   1.1e-05     559     667 ..     108     225 ..      98     243 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 1.1e-05
+  typeI_two_LPJP1_queries.aligned 559 sksisslirl.dnddiygylistleGy..dpen..esvqfnn....rsfntdthskllyiedivikyykklssilkyi 627
+                                        s+s++i     + + gyl++ l     d en   sv f +    r +++d +   +  +d  +  + k+ +i + +
+              t79e0c7d5c45565eb72 108 NLSPSYIIESkSQNTVLGYLVTRLVPIrvDSENvySSVYFGDieevRKYESDGFKIGITFDDAFLANNIKIKKIGRVL 185
+                                      5689999976156789*******98642267764347888543334999*****999********************* PP
+
+  typeI_two_LPJP1_queries.aligned 628 fedlkkfiidndikyisssfnenskqfmkrinieGlelvk 667
+                                      ++ +++fi++ndiky ++  n+ sk+++ r   + + +++
+              t79e0c7d5c45565eb72 186 VDKIREFILENDIKYSTAVTNDYSKKLVDRHLKDITTYIE 225
+                                      ***************************9998777766666 PP
+
+>> t9713c1e04f5c52ce6c  ERR8050692_787 ERR8050692_787_pgv16
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.8   5.8   8.2e-05   8.2e-05     560     667 ..     109     225 ..     100     242 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 18.8 bits;  conditional E-value: 8.2e-05
+  typeI_two_LPJP1_queries.aligned 560 ksisslirl.dnddiygylistleGy..dpen..esvqfnn....rsfntdthskllyiedivikyykklssilkyif 628
+                                       s+s++i     + + gyl++ l     d en   sv f +    r +++d +   +  +d  +  + k+ +i + ++
+              t9713c1e04f5c52ce6c 109 LSPSYIIESkSQNTVLGYLVTRLVPIrvDSENvySSVYFGDieevRKYESDGFKIGITFDDAFLANNIKIKKIGRVLV 186
+                                      689999976156789*******98642267764347888543334999*****999********************** PP
+
+  typeI_two_LPJP1_queries.aligned 629 edlkkfiidndikyisssfnenskqfmkrinieGlelvk 667
+                                      + +++fi++ndiky ++  n+ sk+++ r   + + +++
+              t9713c1e04f5c52ce6c 187 DKIREFILENDIKYSTAVTNDYSKKLVDRHLKDITTYIE 225
+                                      **************************9998777666665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (697 nodes)
+Target sequences:                       3893  (509597 residues searched)
+Passed MSV filter:                       448  (0.115078); expected 77.9 (0.02)
+Passed bias filter:                      100  (0.0256871); expected 77.9 (0.02)
+Passed Vit filter:                        58  (0.0148985); expected 3.9 (0.001)
+Passed Fwd filter:                        57  (0.0146417); expected 0.0 (1e-05)
+Initial search space (Z):               3893  [as set by --Z on cmdline]
+Domain search space  (domZ):            3893  [as set by --domZ on cmdline]
+# CPU time: 0.63u 0.00s 00:00:00.63 Elapsed: 00:00:00.33
+# Mc/sec: 1069.97
+//
+[ok]

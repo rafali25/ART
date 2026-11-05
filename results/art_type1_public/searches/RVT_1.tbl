@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+te536e0d47dfc88ab75  -          RVT_1                PF00078.33   8.1e-26   88.1   1.1   4.1e-25   85.8   0.1   2.4   2   1   0   2   2   1   1 MZ422438.1 QXN67909.1
+o85c2d7c6d6f8bcf6ec  -          RVT_1                PF00078.33   8.1e-26   88.1   1.1   4.1e-25   85.8   0.1   2.4   2   1   0   2   2   1   1 MZ422438.1 six_frame
+o7c64922eb91b05092c  -          RVT_1                PF00078.33     2e-18   63.9   2.4     2e-18   63.9   2.4   2.1   2   1   0   2   2   1   1 MZ422438.1 six_frame
+tfa8f53ac19ebdbc840  -          RVT_1                PF00078.33     2e-18   63.9   2.4     2e-18   63.9   2.4   2.1   2   1   0   2   2   1   1 MZ422438.1 QXN67955.1
+t696dfff47565d77d52  -          RVT_1                PF00078.33   2.8e-18   63.4   0.3   6.5e-18   62.3   0.3   1.6   1   0   0   1   1   1   1 ERR8055547_17635 ERR8055547_17635_pgv12
+o2272ae734f0695e18a  -          RVT_1                PF00078.33   3.2e-18   63.2   0.3   7.3e-18   62.1   0.3   1.6   1   0   0   1   1   1   1 ERR8055547_17635 six_frame
+tea44680805bcfb3f26  -          RVT_1                PF00078.33   7.2e-18   62.1   1.2   1.6e-17   61.0   1.2   1.6   1   0   0   1   1   1   1 SRR26805139_340 SRR26805139_340_pgv1
+o35f4dbb2ce6c0bdb39  -          RVT_1                PF00078.33   7.3e-18   62.1   1.2   1.6e-17   60.9   1.2   1.6   1   0   0   1   1   1   1 SRR26805139_340 six_frame
+o8ae21ad035e3a9a4a9  -          RVT_1                PF00078.33   1.8e-17   60.8   2.1   3.7e-17   59.8   1.1   2.1   2   0   0   2   2   1   1 ERR10896470_6836 six_frame
+t48b6401d368e9f6469  -          RVT_1                PF00078.33   1.9e-17   60.8   2.2   3.6e-17   59.8   1.1   2.1   2   0   0   2   2   1   1 ERR10896470_6836 ERR10896470_6836_pgv1
+t4836b78201ce4ba3df  -          RVT_1                PF00078.33   1.4e-15   54.6   2.4   2.9e-15   53.6   2.4   1.5   1   0   0   1   1   1   1 SRR8925777_19723 SRR8925777_19723_pgv9
+odd3bed3fd33c410c43  -          RVT_1                PF00078.33   1.8e-15   54.3   2.4   3.7e-15   53.3   2.4   1.5   1   0   0   1   1   1   1 SRR8925777_19723 six_frame
+t882a89f74d10b13531  -          RVT_1                PF00078.33   6.4e-12   42.7   6.0   7.5e-12   42.5   5.2   1.5   1   1   0   1   1   1   1 MZ422438.1 QXN67953.1
+o5d00ab4db1a3048122  -          RVT_1                PF00078.33   6.4e-12   42.7   6.0   7.6e-12   42.4   5.2   1.5   1   1   0   1   1   1   1 MZ422438.1 six_frame
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      D:/MBZUAI/CRISP/.tools/art-reconstruction/PF00078.hmm
+# Target file:     D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa
+# Option settings: /cygdrive/d/MBZUAI/CRISP/.tools/hmmer-install/bin/hmmsearch --tblout D:\MBZUAI\CRISP\results\art_type1_public\searches\RVT_1.tbl --domtblout D:\MBZUAI\CRISP\results\art_type1_public\searches\RVT_1.domtbl -E 0.001 --domE 0.001 -Z 2063 --domZ 2063 --seed 42 --cpu 4 D:/MBZUAI/CRISP/.tools/art-reconstruction/PF00078.hmm D:/MBZUAI/CRISP/results/art_type1_public/proteins.faa 
+# Current dir:     /cygdrive/d/MBZUAI/CRISP
+# Date:            Tue Oct 20 18:12:15 2026
+# [ok]

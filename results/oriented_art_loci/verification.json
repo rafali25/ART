@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "loci": [
+    {
+      "locus_id": "LC680885.1__BDE75684.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 12,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    },
+    {
+      "locus_id": "MN091626.1__QDJ97640.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 24,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    },
+    {
+      "locus_id": "MW218148.1__QPI16926.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 12,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    },
+    {
+      "locus_id": "MW248466.1__QQM14740.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 37,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    },
+    {
+      "locus_id": "MW349129.1__QQO92858.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 48,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    },
+    {
+      "locus_id": "MZ422438.1__QXN67953.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 26,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    },
+    {
+      "locus_id": "MZ422438.1__QXN67955.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 14,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    },
+    {
+      "locus_id": "MZ779063.1__UAJ17040.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 24,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    },
+    {
+      "locus_id": "OR836606.1__WRM43423.1",
+      "whole_RT_preserved": true,
+      "partners_preserved": true,
+      "every_base_matches_source": true,
+      "fully_retained_features_checked": 13,
+      "genbank_coordinate_roundtrip": true,
+      "gff_coordinate_roundtrip": true
+    }
+  ],
+  "skipped_without_RT": [],
+  "original_source_files_unchanged": {
+    "LC680885.1": true,
+    "MN091626.1": true,
+    "MW218148.1": true,
+    "MW248466.1": true,
+    "MW349129.1": true,
+    "MZ422438.1": true,
+    "MZ779063.1": true,
+    "OR836606.1": true
+  }
+}

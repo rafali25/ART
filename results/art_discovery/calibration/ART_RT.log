@@ -1,0 +1,116 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  D:\MBZUAI\CRISP\results\art_discovery\profiles\ART_RT.hmm
+# target sequence database:        D:\MBZUAI\CRISP\results\art_discovery\calibration\controls.faa
+# per-seq hits tabular output:     D:\MBZUAI\CRISP\results\art_discovery\calibration\ART_RT.tbl
+# per-dom hits tabular output:     D:\MBZUAI\CRISP\results\art_discovery\calibration\ART_RT.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2076
+# domain search space set to:      2076
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ART_RT  [M=500]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+   1.2e-286  948.4  62.1   1.3e-286  948.2  62.1    1.0  1  QQM14740.1  MW248466.1
+   4.1e-181  600.2  54.8   4.6e-181  600.0  54.8    1.0  1  QPI16926.1  MW218148.1
+
+
+Domain annotation for each sequence (and alignments):
+>> QQM14740.1  MW248466.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  948.2  62.1  1.3e-286  1.3e-286       1     500 []       1     501 []       1     501 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 948.2 bits;  conditional E-value: 1.3e-286
+      ART_RT   1 mfkfndverinlignrkldyielkeslytlkpkfkkivkndkgnfvlifsdgrkeyvsntnvkssfrlklkvvnsiddynlidknkqeysieldsid.s 98 
+                 mfkfn+verinlignrk+dy el+eslytl+pkfkkivkndkgnf+lifsdgrkey+sntn++++fr+k++vvnsiddynl+ knkqe+sie++++d s
+  QQM14740.1   1 MFKFNNVERINLIGNRKMDYFELQESLYTLEPKFKKIVKNDKGNFLLIFSDGRKEYISNTNAENTFRSKMMVVNSIDDYNLFGKNKQEHSIEINNLDyS 99 
+                 9************************************************************************************************9* PP
+
+      ART_RT  99 lnkklrkiisenytfniitkkfriyeedkilnliklksktendkdifkiegilkikkdlisieelelikdilndcltskekyeyilnslelllksidlk 197
+                 l+++lr++i+e+y+f iitkkfriyeedki+nliklks+tendkdifkiegilkikkdli+ieelelikdilndc+tske++eyilnslelllksidlk
+  QQM14740.1 100 LIHHLRSFIYEDYKFIIITKKFRIYEEDKIFNLIKLKSTTENDKDIFKIEGILKIKKDLINIEELELIKDILNDCRTSKERQEYILNSLELLLKSIDLK 198
+                 *************************************************************************************************** PP
+
+      ART_RT 198 nrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykken 296
+                 n+nv+tf+tfyi+ksdGtkreinsP+eeirpilkkqa+ilnail+lri+kynl eniiayr+gksikdnadyhkenktiikfdiskffdnchfdy+ken
+  QQM14740.1 199 NKNVNTFDTFYIPKSDGTKREINSPVEEIRPILKKQANILNAILNLRINKYNLGENIIAYRNGKSIKDNADYHKENKTIIKFDISKFFDNCHFDYWKEN 297
+                 *************************************************************************************************** PP
+
+      ART_RT 297 lffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhafkv 395
+                 lffs+kdedyvmerfe++++ llfr++nkgly+Gsplspaasnlimvpv+ryinnilskfktdikvtvyadditfssneindefn+krlks+vnhafkv
+  QQM14740.1 298 LFFSFKDEDYVMERFEKHMEGLLFRKNNKGLYMGSPLSPAASNLIMVPVMRYINNILSKFKTDIKVTVYADDITFSSNEINDEFNPKRLKSMVNHAFKV 396
+                 *************************************************************************************************** PP
+
+      ART_RT 396 nglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikgfetplelvslinyyldvdttekvkklmdknekifnelk 494
+                 nglkfklkeekslv+knhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikgf+tplelvslinyyldvdttekvk+lmdkne+ifnelk
+  QQM14740.1 397 NGLKFKLKEEKSLVMKNHKRKITGLTVNHNDEPTISQKRYRQLRTIIHLLNKGVEFKDIKGFKTPLELVSLINYYLDVDTTEKVKRLMDKNERIFNELK 495
+                 *************************************************************************************************** PP
+
+      ART_RT 495 keagvn 500
+                 keagvn
+  QQM14740.1 496 KEAGVN 501
+                 ****97 PP
+
+>> QPI16926.1  MW218148.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  600.0  54.8  4.6e-181  4.6e-181       1     498 [.       1     499 [.       1     501 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 600.0 bits;  conditional E-value: 4.6e-181
+      ART_RT   1 mfkfndverinlignrkldy.ielkeslytlkpkfkkivkndkgnfvlifsdgrkeyvsntnvkssfrlklkvvnsiddynlidknkqeysieldsids 98 
+                 mfkfn+v+ +++ig+  ++    l+  ++++kp f+++ kn+kg++v++fsdgrk+y+  t  k  + + l   +  d+y  ++   +  + ++ds++ 
+  QPI16926.1   1 MFKFNKVNNLKMIGENEIHNdLMLERMMFVMKPVFRRLEKNNKGKLVMLFSDGRKNYLLSTSDKRYYSSPLLSYE-GDEYKELESA-SYIESNIDSLKL 97 
+                 9*************999865157888899********************************99999998876443.4555555433.33455789**** PP
+
+      ART_RT  99 lnkklrkiisenytfniitk.kfriyeedkilnliklksktend.kdifkiegilkikkdlisieelelikdilndcltskekyeyilnslelllksid 195
+                 l  k+  i+s+n  + i ++  f +ye+   + l++l ++ ++  +  f+ie ++ i kd i++++++likd+ln  +    k  yi n+++ll+ +++
+  QPI16926.1  98 LKVKISDILSDNQNIRIRKNlMFTVYEDVDDIKLVQLLTRGDKKiQSAFNIENVISISKDKIKLDDFNLIKDLLNHYIIKGIKDVYISNTIKLLIEALE 196
+                 *****************9984689***999899999877655432457*************************************************** PP
+
+      ART_RT 196 lknrnvetfktfyieksdGtkreinsPieeirpilkkqasilnaildlridkynldeniiayrdgksikdnadyhkenktiikfdiskffdnchfdykk 294
+                 lk    + f+tfyi+ksdGtkreinsPieeirpilk+q++ilnail +ridky+ldeniiayr+gksikdna +hkenk iikfdiskffdnch+dy+k
+  QPI16926.1 197 LKYSGKKAFDTFYIPKSDGTKREINSPIEEIRPILKEQSKILNAILKFRIDKYKLDENIIAYREGKSIKDNASLHKENKVIIKFDISKFFDNCHIDYWK 295
+                 *************************************************************************************************** PP
+
+      ART_RT 295 enlffslkdedyvmerfedtlkdllfrednkglylGsplspaasnlimvpvlryinnilskfktdikvtvyadditfssneindefnkkrlkslvnhaf 393
+                 enlff +k+++ +m+r ++ ++ +lfr+dnkgly+Gsplsp asnlimvpv+ryi nil+kfktdikv++yadd+tfss +indefn krlk++vnhaf
+  QPI16926.1 296 ENLFFHFKEDEDLMDRLMKEFEGFLFRKDNKGLYMGSPLSPSASNLIMVPVMRYISNILKKFKTDIKVSIYADDLTFSSKVINDEFNAKRLKNMVNHAF 394
+                 *************************************************************************************************** PP
+
+      ART_RT 394 kvnglkfklkeekslvlknhkrkitGltvnhndeptisqkryrqlrtiihllnkgvefkdikgfetplelvslinyyldvdttekvkklmdknekifne 492
+                 k ngl fklkeekslv+ n+krkitGltvnh+de tisqkryrqlrt+ihll++gvefk+ikgf+t+lelvslinyyldvdtt+kv++l+ +ne+ fne
+  QPI16926.1 395 KANGLDFKLKEEKSLVMVNNKRKITGLTVNHRDEVTISQKRYRQLRTVIHLLSNGVEFKNIKGFNTELELVSLINYYLDVDTTGKVRRLISRNERAFNE 493
+                 *************************************************************************************************** PP
+
+      ART_RT 493 lkkeag 498
+                 lk+   
+  QPI16926.1 494 LKRKSE 499
+                 **9765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (500 nodes)
+Target sequences:                         57  (31881 residues searched)
+Passed MSV filter:                        30  (0.526316); expected 1.1 (0.02)
+Passed bias filter:                        2  (0.0350877); expected 1.1 (0.02)
+Passed Vit filter:                         2  (0.0350877); expected 0.1 (0.001)
+Passed Fwd filter:                         2  (0.0350877); expected 0.0 (1e-05)
+Initial search space (Z):               2076  [as set by --Z on cmdline]
+Domain search space  (domZ):            2076  [as set by --domZ on cmdline]
+# CPU time: 0.01u 0.01s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 709.42
+//
+[ok]

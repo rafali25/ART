@@ -1,0 +1,38 @@
+{
+  "source_accession": "MGYC003138808455",
+  "source_path": "sources/SRC0007.fna",
+  "source_sha256": "85f92aa84f99ce8fd807a62bba2de4ddb507d11ecf2e951534419e7b505ab7be",
+  "segments": [
+    {
+      "source_start0": 0,
+      "source_end0": 6737,
+      "locus_start0": 0,
+      "locus_end0": 6737,
+      "orientation": -1
+    }
+  ],
+  "metadata": {
+    "strand": -1,
+    "length_nt": 6737,
+    "upstream_requested_nt": 6000,
+    "downstream_requested_nt": 6000,
+    "upstream_available_nt": 3724,
+    "downstream_available_nt": 1408,
+    "upstream_shortfall_nt": 2276,
+    "downstream_shortfall_nt": 4592,
+    "source_topology": "linear",
+    "circularity_support": "none",
+    "wrapped": false,
+    "source_origin_reached": true,
+    "source_end_reached": true,
+    "genomic_left_clipped_nt": 4592,
+    "genomic_right_clipped_nt": 2276,
+    "circular_request_capped_to_one_contig": false
+  },
+  "source_format": "fasta",
+  "locus_path": "loci/ARTS0007.gb",
+  "sample_id": "ARTS0007",
+  "locus_id": "MGYC003138808455__MGYC003138808455_pgv2",
+  "coordinate_convention": "zero_based_half_open",
+  "original_repository_map": "results/art_type1_mgnify/loci/MGYC003138808455__MGYC003138808455_pgv2.map.json"
+}

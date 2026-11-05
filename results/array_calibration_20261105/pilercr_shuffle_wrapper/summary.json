@@ -1,0 +1,88 @@
+{
+  "inputs": 31,
+  "draws_per_background": 1000,
+  "pilercr_options": [
+    "-minrepeat",
+    "15",
+    "-maxrepeat",
+    "45",
+    "-minspacer",
+    "25",
+    "-maxspacer",
+    "420"
+  ],
+  "statistic": "PILER-CR best-array score (copies-1) x consensus repeat nt x mean copy identity; 0 if no array",
+  "secondary_statistic": "PILER-CR best-array copy count",
+  "regenerated_shuffles_verified_against_stored_D_scores": 372,
+  "pilercr_crashed_shuffles": 14,
+  "elapsed_seconds": 23.4,
+  "designed_planted": {
+    "D_conservative_p": {
+      "uncorrected_le_0_05": 24,
+      "bonferroni_31_le_0_05": 24,
+      "inputs": 24
+    },
+    "pilercr_conservative_p": {
+      "uncorrected_le_0_05": 22,
+      "bonferroni_31_le_0_05": 22,
+      "inputs": 24
+    },
+    "pilercr_conservative_p_crash_as_no_array": {
+      "uncorrected_le_0_05": 22,
+      "bonferroni_31_le_0_05": 22,
+      "inputs": 24
+    },
+    "pilercr_copies_conservative_p": {
+      "uncorrected_le_0_05": 22,
+      "bonferroni_31_le_0_05": 22,
+      "inputs": 24
+    },
+    "pilercr_observed_array_called": 22
+  },
+  "published_reference": {
+    "D_conservative_p": {
+      "uncorrected_le_0_05": 7,
+      "bonferroni_31_le_0_05": 2,
+      "inputs": 7
+    },
+    "pilercr_conservative_p": {
+      "uncorrected_le_0_05": 0,
+      "bonferroni_31_le_0_05": 0,
+      "inputs": 7
+    },
+    "pilercr_conservative_p_crash_as_no_array": {
+      "uncorrected_le_0_05": 0,
+      "bonferroni_31_le_0_05": 0,
+      "inputs": 7
+    },
+    "pilercr_copies_conservative_p": {
+      "uncorrected_le_0_05": 0,
+      "bonferroni_31_le_0_05": 0,
+      "inputs": 7
+    },
+    "pilercr_observed_array_called": 0
+  },
+  "all": {
+    "D_conservative_p": {
+      "uncorrected_le_0_05": 31,
+      "bonferroni_31_le_0_05": 26,
+      "inputs": 31
+    },
+    "pilercr_conservative_p": {
+      "uncorrected_le_0_05": 22,
+      "bonferroni_31_le_0_05": 22,
+      "inputs": 31
+    },
+    "pilercr_conservative_p_crash_as_no_array": {
+      "uncorrected_le_0_05": 22,
+      "bonferroni_31_le_0_05": 22,
+      "inputs": 31
+    },
+    "pilercr_copies_conservative_p": {
+      "uncorrected_le_0_05": 22,
+      "bonferroni_31_le_0_05": 22,
+      "inputs": 31
+    },
+    "pilercr_observed_array_called": 22
+  }
+}

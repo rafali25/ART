@@ -1,0 +1,81 @@
+{
+  "genomes": 8,
+  "annotated_proteins": 2076,
+  "candidate_loci": 9,
+  "found_by_both": 9,
+  "ART_first_only": 0,
+  "partner_first_only": 0,
+  "profile_registry": [
+    {
+      "family": "ART_RT",
+      "unique_seed_sequences": 6,
+      "seed_loci": 6,
+      "profile_path": "results/art_discovery/profiles/ART_RT.hmm",
+      "profile_sha256": "05f010c23b7cd36cedd3170f6cdadc5150fd458c0d6ed08b34a196224b38b2b0",
+      "heldout_positive_count": 2,
+      "heldout_positive_recovered": 2,
+      "reviewed_GNAT_hits": 0,
+      "annotated_background_hits": 0,
+      "status": "provisional_retrieval_profile",
+      "calibration_status": "limited_related_holdout_check_not_lineage_validation",
+      "curation": "Five local Staphylococcus RT seeds from the previous manifest; LPJP1 QXN67953.1 reconstructed from the paper's LPJP1 representative using RT homology, upstream repeat tract and downstream partner context."
+    },
+    {
+      "family": "Type_I_partner",
+      "unique_seed_sequences": 1,
+      "seed_loci": 1,
+      "profile_path": "results/art_discovery/profiles/Type_I_partner.hmm",
+      "profile_sha256": "e86a0b4a91dfa72507fbaa0d6ea618027d8169d68ae61e13c785606db6006545",
+      "heldout_positive_count": 0,
+      "heldout_positive_recovered": 0,
+      "reviewed_GNAT_hits": 0,
+      "annotated_background_hits": 0,
+      "status": "provisional_retrieval_profile",
+      "calibration_status": "insufficient_positive_references_single_seed",
+      "curation": "Provisional accession-level reconstruction of the partner downstream of LPJP1 array-associated RT QXN67953.1. The paper identifies LPJP1 as a type I representative. Single-locus retrieval seed, not an independently validated family alignment. Generic GNAT annotations are not used to select seeds."
+    },
+    {
+      "family": "Type_II_partner",
+      "unique_seed_sequences": 5,
+      "seed_loci": 5,
+      "profile_path": "results/art_discovery/profiles/Type_II_partner.hmm",
+      "profile_sha256": "b238a79ca6172373708d74dd4e66172800035f573c8e4fe1ab4614b14049eec7",
+      "heldout_positive_count": 2,
+      "heldout_positive_recovered": 2,
+      "reviewed_GNAT_hits": 0,
+      "annotated_background_hits": 0,
+      "status": "provisional_retrieval_profile",
+      "calibration_status": "limited_related_holdout_check_not_lineage_validation",
+      "curation": "Co-oriented downstream partners of five paper-described Staphylococcus ART loci; MarsHill and SA1 held out as related-sequence recovery references."
+    },
+    {
+      "family": "Type_III_first_partner",
+      "unique_seed_sequences": 0,
+      "seed_loci": 0,
+      "profile_path": "",
+      "profile_sha256": "",
+      "heldout_positive_count": 0,
+      "heldout_positive_recovered": 0,
+      "reviewed_GNAT_hits": 0,
+      "annotated_background_hits": 0,
+      "status": "unavailable_no_curated_seeds",
+      "calibration_status": "not_testable",
+      "curation": "No traceable verified examples in the available inputs; remains a separate family slot. Supply curated seed_fasta and optional heldout_fasta paths to activate."
+    },
+    {
+      "family": "Type_III_second_partner",
+      "unique_seed_sequences": 0,
+      "seed_loci": 0,
+      "profile_path": "",
+      "profile_sha256": "",
+      "heldout_positive_count": 0,
+      "heldout_positive_recovered": 0,
+      "reviewed_GNAT_hits": 0,
+      "annotated_background_hits": 0,
+      "status": "unavailable_no_curated_seeds",
+      "calibration_status": "not_testable",
+      "curation": "No traceable verified examples in the available inputs; remains separate from the first gene. Supply curated seed_fasta and optional heldout_fasta paths to activate."
+    }
+  ],
+  "calibrated_familywide_threshold": false
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=run_accession%3D%22ERR8050416%22+OR+run_accession%3D%22ERR8050692%22+OR+run_accession%3D%22ERR8052139%22+OR+run_accession%3D%22ERR8055447%22+OR+run_accession%3D%22ERR8055547%22+OR+run_accession%3D%22ERR8205933%22+OR+run_accession%3D%22ERR8266547%22+OR+run_accession%3D%22ERR8449991%22+OR+run_accession%3D%22ERR8509207%22+OR+run_accession%3D%22SRR10873276%22+OR+run_accession%3D%22SRR10873277%22+OR+run_accession%3D%22SRR11814490%22+OR+run_accession%3D%22SRR15987600%22+OR+run_accession%3D%22SRR16953759%22+OR+run_accession%3D%22SRR16953781%22&fields=run_accession%2Cstudy_accession%2Csample_accession%2Cscientific_name%2Cexperiment_title&format=tsv&limit=1000",
+  "retrieved_utc": "2026-11-04T21:44:39.763270+00:00",
+  "bytes": 1724,
+  "sha256": "8f2467fc4c5591b46c2bfa5593295b65b767dad88ef94e8f5b2264c13fc08b6e",
+  "md5": "a607106d0e64b849de5a5a6074f96f72",
+  "status": 200,
+  "headers": {
+    "Vary": "Origin",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Type": "text/plain",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "Date": "Wed, 04 Nov 2026 21:44:39 GMT",
+    "Expires": "0",
+    "X-XSS-Protection": "0",
+    "Pragma": "no-cache",
+    "X-Content-Type-Options": "nosniff",
+    "Connection": "close",
+    "X-Frame-Options": "DENY",
+    "Content-Length": "1724"
+  },
+  "response_url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=run_accession%3D%22ERR8050416%22+OR+run_accession%3D%22ERR8050692%22+OR+run_accession%3D%22ERR8052139%22+OR+run_accession%3D%22ERR8055447%22+OR+run_accession%3D%22ERR8055547%22+OR+run_accession%3D%22ERR8205933%22+OR+run_accession%3D%22ERR8266547%22+OR+run_accession%3D%22ERR8449991%22+OR+run_accession%3D%22ERR8509207%22+OR+run_accession%3D%22SRR10873276%22+OR+run_accession%3D%22SRR10873277%22+OR+run_accession%3D%22SRR11814490%22+OR+run_accession%3D%22SRR15987600%22+OR+run_accession%3D%22SRR16953759%22+OR+run_accession%3D%22SRR16953781%22&fields=run_accession%2Cstudy_accession%2Csample_accession%2Cscientific_name%2Cexperiment_title&format=tsv&limit=1000"
+}

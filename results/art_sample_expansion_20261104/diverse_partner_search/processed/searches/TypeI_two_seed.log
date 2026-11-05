@@ -1,0 +1,105 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/proteins.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/TypeI_two_seed.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/diverse_partner_search/processed/searches/TypeI_two_seed.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    1729
+# domain search space set to:      1729
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       typeI_two_LPJP1_queries.aligned  [M=697]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    1.2e-46  155.9  20.1    1.2e-46  155.9  20.1    2.2  1  t2a19e9d8d53ec7066d  MGYC003966598318 MGYC003966598318_pgv46
+    1.4e-46  155.7  19.8    1.4e-46  155.7  19.8    2.3  1  o26b6f7dda84af1122f  MGYC003966598318 six_frame
+
+
+Domain annotation for each sequence (and alignments):
+>> t2a19e9d8d53ec7066d  MGYC003966598318 MGYC003966598318_pgv46
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.9  20.1   1.2e-46   1.2e-46     202     518 ..     194     501 ..     135     526 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 155.9 bits;  conditional E-value: 1.2e-46
+  typeI_two_LPJP1_queries.aligned 202 sllirisyeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddk.kvnstyideilaylkrilskyksdd 278
+                                      +++    y q  +++  ++           +dlh  + ++P++v  ++i+++  v  +y  e+ + lk + s     +
+              t2a19e9d8d53ec7066d 194 KVF---GYAQFNNIIQICTN--------KGMDLHGIMVNLPNQVNRRYINEDgFVTEEYKKEVTKLLKYA-STLSRTK 259
+                                      444...67777777776665........559*****************9876268999**********99.9999*** PP
+
+  typeI_two_LPJP1_queries.aligned 279 flkllnyinyevvrksd.lnikelrkyvnivdlakkGlkygevse.....skm..liddsksndlikfskekveinsi 348
+                                      + k+l+++nye +r+     +++ + y+n+v  a++ ++  e+s+     ++m   id  k+ d i+fskek +i  i
+              t2a19e9d8d53ec7066d 260 LTKVLQFLNYERIRNGYnESWRDKEIYMNNVIFARNYVNLKEISDiryvqGNMagIIDPYKYSDEIHFSKEKTDIIMI 337
+                                      **************986135789999*************99999633333667445999******************* PP
+
+  typeI_two_LPJP1_queries.aligned 349 GvktkccfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildnies.sklldn.ney 424
+                                      G kt ccf+  G+ak l+  +l+s +aGi+ G +    wf+fvwei++ n+e   +e+ lildnie   +++d    y
+              t2a19e9d8d53ec7066d 338 GEKTGCCFHLGGMAKHLVIACLNSSIAGIIRGDYKGSPWFAFVWEIGVKNDEG-IVETHLILDNIEClGRTIDEqFMY 414
+                                      ************************************************99886.79**********844666651579 PP
+
+  typeI_two_LPJP1_queries.aligned 425 eiiidwldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigs 502
+                                      + ii ++++n++y++ ylG   n + r++  + ++ +r+    l  + ++f +y ++dds ++y +      i+   s
+              t2a19e9d8d53ec7066d 415 DHIIPYIENNTKYNRAYLGTNYNKVSRSYTDQFSKILRPYR--LSLQGKRFYNYFTHDDSYQLYPI-----YIRSEES 485
+                                      99**************************************9..99999******************.....6777788 PP
+
+  typeI_two_LPJP1_queries.aligned 503 dnkdiikdyddysevi 518
+                                       nkdi  +    + v 
+              t2a19e9d8d53ec7066d 486 RNKDIKLKKTRLTDVA 501
+                                      9999977666655554 PP
+
+>> o26b6f7dda84af1122f  MGYC003966598318 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.7  19.8   1.4e-46   1.4e-46     208     517 ..     217     520 ..     184     545 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 155.7 bits;  conditional E-value: 1.4e-46
+  typeI_two_LPJP1_queries.aligned 208 syeqltkllnkvvvaynkgnsenkidlhrfveefPkkviekliddk.kvnstyideilaylkrilskyksddflklln 284
+                                       y q  +++  ++           +dlh  + ++P++v  ++i+++  v  +y  e+ + lk + s     ++ k+l+
+              o26b6f7dda84af1122f 217 GYAQFNNIIQICTN--------KGMDLHGIMVNLPNQVNRRYINEDgFVTEEYKKEVTKLLKYA-STLSRTKLTKVLQ 285
+                                      66666666666655........559*****************9876268999**********99.9999********* PP
+
+  typeI_two_LPJP1_queries.aligned 285 yinyevvrksd.lnikelrkyvnivdlakkGlkygevse.....skm..liddsksndlikfskekveinsiGvktkc 354
+                                      ++nye +r+     +++ + y+n+v  a++ ++  e+s+     ++m   id  k+ d i+fskek +i  iG kt c
+              o26b6f7dda84af1122f 286 FLNYERIRNGYnESWRDKEIYMNNVIFARNYVNLKEISDiryvqGNMagIIDPYKYSDEIHFSKEKTDIIMIGEKTGC 363
+                                      ********986135789999*************99999633333667445999************************* PP
+
+  typeI_two_LPJP1_queries.aligned 355 cfrPdGlaksllkialesPlaGileGvldkkiwfsfvweiviyneetksieinlildnies.sklldn.neyeiiidw 430
+                                      cf+  G+ak l+  +l+s +aGi+ G +    wf+fvwei++ n+e   +e+ lildnie   +++d    y+ ii +
+              o26b6f7dda84af1122f 364 CFHLGGMAKHLVIACLNSSIAGIIRGDYKGSPWFAFVWEIGVKNDEG-IVETHLILDNIEClGRTIDEqFMYDHIIPY 440
+                                      ******************************************99886.79**********84466665157999**** PP
+
+  typeI_two_LPJP1_queries.aligned 431 ldinsdykkiylGylrndinrtikvdktqrdrssseglinsenkfsryssyddsekvyelldrknnikyigsdnkdii 508
+                                      +++n++y++ ylG   n + r++  + ++ +r+    l  + ++f +y ++dds ++y +      i+   s nkdi 
+              o26b6f7dda84af1122f 441 IENNTKYNRAYLGTNYNKVSRSYTDQFSKILRPYR--LSLQGKRFYNYFTHDDSYQLYPI-----YIRSEESRNKDIK 511
+                                      **********************************9..99999******************.....6777788999997 PP
+
+  typeI_two_LPJP1_queries.aligned 509 kdyddysev 517
+                                       +    + v
+              o26b6f7dda84af1122f 512 LKKTRLTDV 520
+                                      766665555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (697 nodes)
+Target sequences:                       1729  (233166 residues searched)
+Passed MSV filter:                       176  (0.101793); expected 34.6 (0.02)
+Passed bias filter:                       14  (0.00809717); expected 34.6 (0.02)
+Passed Vit filter:                         3  (0.00173511); expected 1.7 (0.001)
+Passed Fwd filter:                         2  (0.00115674); expected 0.0 (1e-05)
+Initial search space (Z):               1729  [as set by --Z on cmdline]
+Domain search space  (domZ):            1729  [as set by --domZ on cmdline]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 5022.08
+//
+[ok]

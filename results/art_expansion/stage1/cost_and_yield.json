@@ -1,0 +1,46 @@
+{
+  "stage": 1,
+  "records_searched": 3,
+  "baseline_records_included": 8,
+  "nucleotide_nt": 787911,
+  "proteins_searched": 2997,
+  "new_proteins": 921,
+  "search_seconds": 0.401,
+  "elapsed_seconds": 3.594,
+  "new_RT_candidates": 1,
+  "total_RT_candidates": 10,
+  "new_partner_orphans": 0,
+  "input_file_bytes": 2013411,
+  "new_candidate_protein_aa": 517,
+  "selection_bias": "purposive near-relative and comparison panel; yield is not a prevalence or sensitivity estimate",
+  "HMM_effective_database_size": 2997,
+  "available_partner_profiles": [
+    "Type_I_partner",
+    "Type_II_partner"
+  ],
+  "unavailable_partner_profiles": [
+    "Type_III_first_partner",
+    "Type_III_second_partner"
+  ],
+  "validation_gate": {
+    "passed": false,
+    "reasons": [
+      "repeat_copy_validation_failures",
+      "missing_comparison_sets:NART",
+      "missing_partner_families:Type_III_first_partner,Type_III_second_partner",
+      "full_repeat_boundaries_not_independently_confirmed"
+    ],
+    "summary_sha256": "fc85f4b168008d688ec3b77ff9bd29edcb50dd5ba4a0202a681e8a1f447277ec",
+    "scope": "small_mapped_protein_pilot_allowed; definitive_locus_calls_and_further_expansion_gated"
+  },
+  "next_stage_gate": {
+    "allowed": false,
+    "mode": "gated",
+    "reasons": [
+      "repeat_copy_validation_failures",
+      "missing_comparison_sets:NART",
+      "missing_partner_families:Type_III_first_partner,Type_III_second_partner",
+      "full_repeat_boundaries_not_independently_confirmed"
+    ]
+  }
+}

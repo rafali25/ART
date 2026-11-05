@@ -1,0 +1,15 @@
+{
+  "policy_file": "ciai cluster.docx",
+  "policy_sha256": "8031dd9e4d93ecc3c0f691a8aef90cea1bb7e62d27602954092d42eaf1bed8ca",
+  "login_work": "file preparation and Slurm administration only",
+  "execution": "Slurm CPU batch",
+  "partition": "cscc-cpu-p",
+  "qos": "cscc-cpu-qos",
+  "cpus": 2,
+  "job": "371266",
+  "host": "cn-06",
+  "no_GPU_requested": true,
+  "no_salloc": true,
+  "no_exclusive": true,
+  "no_idle_allocation": true
+}

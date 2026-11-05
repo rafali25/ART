@@ -1,0 +1,87 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/.tools/art-reconstruction/PF00078.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/proteins.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/searches/RVT_1.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/deferred_acquisition/processed/searches/RVT_1.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    676
+# domain search space set to:      676
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RVT_1  [M=200]
+Accession:   PF00078.33
+Description: Reverse transcriptase (RNA-dependent DNA polymerase)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    2.5e-18   62.0   1.8    5.6e-18   60.9   1.0    2.0  1  td75f000799c5c5a92c  SRR7532897_75 SRR7532897_75_pgv1
+    2.6e-18   62.0   1.8    5.8e-18   60.8   1.0    2.0  1  ocd0996ee3cb6c3735e  SRR7532897_75 six_frame
+
+
+Domain annotation for each sequence (and alignments):
+>> td75f000799c5c5a92c  SRR7532897_75 SRR7532897_75_pgv1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.9   1.0   5.6e-18   5.6e-18      19     192 ..     315     508 ..     294     523 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 60.9 bits;  conditional E-value: 5.6e-18
+                RVT_1  19 ykalnkilkkrLkpv..nllsepqpgfrpgrstldlkslkklkkaklllklDlkkaFdqvpleellrkltafkvpsk...liksllrvng 103
+                          + ++n il++  ++    +++e ++gfrp  s++d  ++k ++++k ++k+D++k+F +++ e + + l  +  p+k    i+ +++ + 
+  td75f000799c5c5a92c 315 FQEMNYILSDGYEKRlnDKDKETVYGFRPDVSIHD--NAKYHANNKNIIKMDISKFFESIKFEYIEKYLRFIYSPNKdikEINWMISSDL 402
+                          4455555555444436678**************55..556799*******************9988877777777666544444446677 PP
+
+                RVT_1 104 ee.egryewkglpqGlvlSPllfqlfmdellrelrkra.........evtllvYaDDililskseee......leealeeveeflkesgl 177
+                          +      e++gl +G ++SP+l +l+m +++r++++ +         +++++ YaDDi++ s+ e+        + + + v++ + e gl
+  td75f000799c5c5a92c 403 RDiLINEETNGLYMGNPISPTLSNLMMLKFVRKINNTInrinmdnglDIKFSIYADDITFSSNLEKYesgyfsKKFLTNLVQDSIYELGL 492
+                          7778999*****************************99************************9966568998555556677778888776 PP
+
+                RVT_1 178 k..inpeKtqfvlkske 192
+                             +n++Kt+   ++++
+  td75f000799c5c5a92c 493 YllLNEKKTKYQ-SKEK 508
+                          522699999988.3444 PP
+
+>> ocd0996ee3cb6c3735e  SRR7532897_75 six_frame
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.8   1.0   5.8e-18   5.8e-18      19     192 ..     322     515 ..     301     530 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 60.8 bits;  conditional E-value: 5.8e-18
+                RVT_1  19 ykalnkilkkrLkpv..nllsepqpgfrpgrstldlkslkklkkaklllklDlkkaFdqvpleellrkltafkvpsk...liksllrvng 103
+                          + ++n il++  ++    +++e ++gfrp  s++d  ++k ++++k ++k+D++k+F +++ e + + l  +  p+k    i+ +++ + 
+  ocd0996ee3cb6c3735e 322 FQEMNYILSDGYEKRlnDKDKETVYGFRPDVSIHD--NAKYHANNKNIIKMDISKFFESIKFEYIEKYLRFIYSPNKdikEINWMISSDL 409
+                          4455555555444436678**************55..556799*******************9988877777777666544444446677 PP
+
+                RVT_1 104 ee.egryewkglpqGlvlSPllfqlfmdellrelrkra.........evtllvYaDDililskseee......leealeeveeflkesgl 177
+                          +      e++gl +G ++SP+l +l+m +++r++++ +         +++++ YaDDi++ s+ e+        + + + v++ + e gl
+  ocd0996ee3cb6c3735e 410 RDiLINEETNGLYMGNPISPTLSNLMMLKFVRKINNTInrinmdnglDIKFSIYADDITFSSNLEKYesgyfsKKFLTNLVQDSIYELGL 499
+                          7778999*****************************99************************9966568998555556677778888776 PP
+
+                RVT_1 178 k..inpeKtqfvlkske 192
+                             +n++Kt+   ++++
+  ocd0996ee3cb6c3735e 500 YllLNEKKTKYQ-SKEK 515
+                          522699999988.3444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (200 nodes)
+Target sequences:                        676  (91124 residues searched)
+Passed MSV filter:                        41  (0.0606509); expected 13.5 (0.02)
+Passed bias filter:                        9  (0.0133136); expected 13.5 (0.02)
+Passed Vit filter:                         2  (0.00295858); expected 0.7 (0.001)
+Passed Fwd filter:                         2  (0.00295858); expected 0.0 (1e-05)
+Initial search space (Z):                676  [as set by --Z on cmdline]
+Domain search space  (domZ):             676  [as set by --domZ on cmdline]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 4386.34
+//
+[ok]

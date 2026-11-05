@@ -1,0 +1,52 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# target sequence database:        /tmp/art-371321-HPGC-2i4g7j99/proteins.faa
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_expansion_20261105/HPGC/searches/TypeI_two_seed.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    2428566
+# domain search space set to:      2428566
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       typeI_two_LPJP1_queries.aligned  [M=697]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    6.9e-76  262.9  37.5    2.2e-75  261.2  37.5    1.7  1  HPGC001745_pgv248  huge_phage_2038
+    6.1e-50  177.2   0.0    2.2e-45  162.1   0.0    2.0  1  HPGC002048_pgv240  huge_phage_2392
+
+
+Domain annotation for each sequence:
+>> HPGC001745_pgv248  huge_phage_2038
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.2  37.5   2.2e-75   2.2e-75     204     691 ..      87     533 ..      33     539 .. 0.84
+
+>> HPGC002048_pgv240  huge_phage_2392
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.1   0.0   2.2e-45   2.2e-45     198     498 ..      85     360 ..      70     373 .. 0.92
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (697 nodes)
+Target sequences:                    2428566  (588215345 residues searched)
+Passed MSV filter:                    214911  (0.088493); expected 48571.3 (0.02)
+Passed bias filter:                    34236  (0.0140972); expected 48571.3 (0.02)
+Passed Vit filter:                      2184  (0.000899296); expected 2428.6 (0.001)
+Passed Fwd filter:                        82  (3.37648e-05); expected 24.3 (1e-05)
+Initial search space (Z):            2428566  [as set by --Z on cmdline]
+Domain search space  (domZ):         2428566  [as set by --domZ on cmdline]
+# CPU time: 21.13u 0.13s 00:00:21.26 Elapsed: 00:00:17.65
+# Mc/sec: 23215.81
+//
+[ok]

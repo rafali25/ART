@@ -1,0 +1,42 @@
+FastTree Version 2.2.0 Double precision
+Alignment: D:/MBZUAI/CRISP/results/art_type1_public/domain_phylogeny/domains.trimmed.faa
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.09 seconds
+Refining topology: 26 rounds ME-NNIs, 2 rounds ME-SPRs, 13 rounds ML-NNIs
+      0.10 seconds: ME NNI round 3 of 26, 1 of 93 splits
+      0.26 seconds: SPR round   1 of   2, 101 of 188 nodes
+      0.41 seconds: ME NNI round 9 of 26, 1 of 93 splits
+      0.58 seconds: SPR round   2 of   2, 101 of 188 nodes
+      0.70 seconds: ME NNI round 17 of 26, 1 of 93 splits
+Total branch-length 51.338 after 0.74 sec
+      1.00 seconds: ML NNI round 1 of 13, 1 of 93 splits
+ML-NNI round 1: LogLk = -47879.087 NNIs 17 max delta 5.56 Time 2.00
+      2.10 seconds: Site likelihoods with rate category 4 of 20
+      2.21 seconds: Site likelihoods with rate category 9 of 20
+      2.32 seconds: Site likelihoods with rate category 14 of 20
+      2.44 seconds: Site likelihoods with rate category 19 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.131 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+ML-NNI round 2: LogLk = -46161.591 NNIs 5 max delta 6.80 Time 3.20
+      3.20 seconds: ML NNI round 3 of 13, 1 of 93 splits
+ML-NNI round 3: LogLk = -46158.649 NNIs 3 max delta 0.11 Time 3.69
+      3.69 seconds: ML NNI round 4 of 13, 1 of 93 splits
+ML-NNI round 4: LogLk = -46157.599 NNIs 3 max delta 0.43 Time 4.06
+      4.06 seconds: ML NNI round 5 of 13, 1 of 93 splits
+ML-NNI round 5: LogLk = -46157.273 NNIs 0 max delta 0.00 Time 4.29
+Turning off heuristics for final round of ML NNIs (converged)
+      4.29 seconds: ML NNI round 6 of 13, 1 of 93 splits
+ML-NNI round 6: LogLk = -46118.721 NNIs 6 max delta 3.00 Time 5.32 (final)
+Optimize all lengths: LogLk = -46117.679 Time 5.60
+      6.49 seconds: Site likelihoods with rate category 1 of 20
+      6.60 seconds: Site likelihoods with rate category 5 of 20
+      6.71 seconds: Site likelihoods with rate category 9 of 20
+      6.82 seconds: Site likelihoods with rate category 13 of 20
+      6.92 seconds: Site likelihoods with rate category 17 of 20
+      7.04 seconds: Optimizing alpha round 1
+Gamma(20) LogLk = -46542.090 alpha = 2.443 rescaling lengths by 1.048
+Total time: 7.05 seconds Unique: 95/97 Bad splits: 0/92

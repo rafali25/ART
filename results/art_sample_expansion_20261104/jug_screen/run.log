@@ -1,0 +1,53 @@
+Called 20/139 genomes; 10007 proteins
+Called 40/139 genomes; 20292 proteins
+Called 60/139 genomes; 29852 proteins
+Called 80/139 genomes; 39771 proteins
+Called 100/139 genomes; 49558 proteins
+Called 120/139 genomes; 59543 proteins
+{
+  "genomes": 139,
+  "unique_genome_sequences": 138,
+  "nucleotide_nt": 52152061,
+  "proteins": 69120,
+  "genetic_codes": {
+    "11": 69120
+  },
+  "caller_models": {
+    "<pyrodigal.lib.MetagenomicBin description='61|Gut_phage_code_11e|V|32.4|11|0'>": 139
+  },
+  "partial_proteins": 153,
+  "translation_exact_differences": 5,
+  "translation_unexplained_mismatches": 0,
+  "reported_domains_by_family": {},
+  "passing_domains_by_family": {
+    "ART_RT": 0,
+    "Type_I_partner": 0,
+    "Type_II_partner": 0,
+    "TypeI_two_seed_exploratory": 0,
+    "RVT_1": 0
+  },
+  "passing_proteins_by_family": {
+    "ART_RT": 0,
+    "Type_I_partner": 0,
+    "Type_II_partner": 0,
+    "TypeI_two_seed_exploratory": 0,
+    "RVT_1": 0
+  },
+  "retrieval_evalue": 0.001,
+  "sequence_evalue": 1e-05,
+  "domain_evalue": 1e-05,
+  "minimum_profile_coverage": 0.6,
+  "hmm_Z": 69120,
+  "hmm_domZ": 69120,
+  "gene_call_seconds": 15.595,
+  "total_seconds": 17.114,
+  "workers": 4,
+  "pyrodigal_gv_version": "0.3.2",
+  "pyrodigal_version": "3.7.1",
+  "source_fasta_sha256": "529d4cc0a858cfeabefa360e7c5a604c91dd9022d03f4cc218590f9a0d7d5a7e",
+  "script_sha256": "67dfd0253e83cfc8f1049c9b844afd9b171b9e2ae07fdef08aed09af9c2296de",
+  "hmmsearch_sha256": "6f7adb8d499ce48e6f99b6100b6f16ae49b68b4c4872365ec5c0ebb563712c1d",
+  "array_inference_performed": false,
+  "validated_ART_locus_claims": 0,
+  "interpretation": "Bounded additional-dataset protein retrieval; generic RT hits do not establish ART family or locus membership"
+}

@@ -1,0 +1,15 @@
+#                                                                          --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                      accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------            -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QXN67954.1           -          typeI_two_LPJP1_queries.aligned -                  0 1278.3  77.3         0 1278.2  77.3   1.0   1   0   0   1   1   1   1 MZ422438.1__QXN67955.1
+QXN67952.1           -          typeI_two_LPJP1_queries.aligned -           2.4e-248  827.8  55.3  3.3e-248  827.4  55.3   1.1   1   0   0   1   1   1   1 MZ422438.1__QXN67953.1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm
+# Target file:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/typeI_two_LPJP1_queries.faa
+# Option settings: /nfs-stor/rafiq.ali/projects/CRISP/.venv/bin/hmmsearch --tblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/TypeI_two_seed_exploratory.tbl --domtblout /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/TypeI_two_seed_exploratory.domtbl --noali -E 0.001 --domE 0.001 -Z 69120 --domZ 69120 --seed 42 --cpu 1 /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/TypeI_two_seed_exploratory.hmm /nfs-stor/rafiq.ali/projects/CRISP/results/art_type1_public/profiles/typeI_two_LPJP1_queries.faa 
+# Current dir:     /nfs-stor/rafiq.ali/projects/CRISP
+# Date:            Wed Nov  4 15:22:10 2026
+# [ok]

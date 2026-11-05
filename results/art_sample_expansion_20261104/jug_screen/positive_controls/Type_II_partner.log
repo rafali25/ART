@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.hmm
+# target sequence database:        /nfs-stor/rafiq.ali/projects/CRISP/results/art_discovery/profiles/Type_II_partner.seeds.faa
+# per-seq hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_II_partner.tbl
+# per-dom hits tabular output:     /nfs-stor/rafiq.ali/projects/CRISP/results/art_sample_expansion_20261104/jug_screen/positive_controls/Type_II_partner.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 0.001
+# sequence search space set to:    69120
+# domain search space set to:      69120
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Type_II_partner  [M=274]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+   2.3e-173  576.9  52.9   2.6e-173  576.7  52.9    1.0  1  UAJ17041.1  MZ779063.1
+     5e-173  575.8  52.4   5.6e-173  575.6  52.4    1.0  1  BDE75685.1  LC680885.1
+   8.4e-173  575.0  51.2   9.3e-173  574.9  51.2    1.0  1  QDJ97641.1  MN091626.1
+   1.2e-166  554.9  52.5   1.3e-166  554.7  52.5    1.0  1  QQO92859.1  MW349129.1
+   9.2e-166  551.9  53.1     1e-165  551.8  53.1    1.0  1  WRM43422.1  OR836606.1
+
+
+Domain annotation for each sequence:
+>> UAJ17041.1  MZ779063.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  576.7  52.9  2.6e-173  2.6e-173       1     274 []       1     274 []       1     274 [] 1.00
+
+>> BDE75685.1  LC680885.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  575.6  52.4  5.6e-173  5.6e-173       1     274 []       1     274 []       1     274 [] 1.00
+
+>> QDJ97641.1  MN091626.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  574.9  51.2  9.3e-173  9.3e-173       1     274 []       1     274 []       1     274 [] 1.00
+
+>> QQO92859.1  MW349129.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  554.7  52.5  1.3e-166  1.3e-166       1     274 []       1     274 []       1     274 [] 1.00
+
+>> WRM43422.1  OR836606.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  551.8  53.1    1e-165    1e-165       1     274 []       1     274 []       1     274 [] 1.00
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (274 nodes)
+Target sequences:                          5  (1370 residues searched)
+Passed MSV filter:                         5  (1); expected 0.1 (0.02)
+Passed bias filter:                        5  (1); expected 0.1 (0.02)
+Passed Vit filter:                         5  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         5  (1); expected 0.0 (1e-05)
+Initial search space (Z):              69120  [as set by --Z on cmdline]
+Domain search space  (domZ):           69120  [as set by --domZ on cmdline]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 71.38
+//
+[ok]
